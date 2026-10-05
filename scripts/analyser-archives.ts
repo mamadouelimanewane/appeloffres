@@ -25,6 +25,16 @@ for (const [cle, { fichier, copieLe, url }] of Object.entries(index)) {
   }
 }
 
+// Un même avis est parfois publié plusieurs fois : on garde une seule occurrence.
+const uniques = new Map<string, unknown>();
+for (const x of sortie as Record<string, unknown>[]) {
+  const cle = type === "attribution" ? [x.reference, x.objet, x.attributaire].join("|") : String(x.id);
+  if (!uniques.has(cle)) uniques.set(cle, x);
+}
+console.log(`${sortie.length - uniques.size} doublons retirés`);
+sortie.length = 0;
+sortie.push(...uniques.values());
+
 mkdirSync(chemin("../data/dcmp/"), { recursive: true });
 const fichierSortie = chemin(`../data/dcmp/${type}s.json`);
 writeFileSync(fichierSortie, JSON.stringify(sortie, null, 1));
