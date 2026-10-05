@@ -8,6 +8,8 @@ import { existsSync, mkdirSync, readdirSync, readFileSync, writeFileSync } from 
 import { secteurDe, type Appel } from "../src/lib/data.ts";
 import type { AvisCollecte } from "../src/lib/sources.ts";
 import type { Realisation } from "../src/lib/ppm.ts";
+import type { Attribution } from "../src/lib/attributions.ts";
+import type { Gagne } from "../src/lib/stats.ts";
 
 const chemin = (rel: string) => new URL(rel, import.meta.url).pathname.replace(/^\/([A-Za-z]:)/, "$1");
 const aujourdhui = process.argv.find((a) => a.startsWith("--date="))?.split("=")[1] ?? new Date().toISOString().slice(0, 10);
@@ -74,11 +76,30 @@ const aVenir = realisations
   }))
   .sort((x, y) => (x.lancement ?? "").localeCompare(y.lancement ?? ""));
 
+// 3. Marchés attribués (archives DCMP) : un lot = une ligne, pour des prix de référence précis.
+//    On ne garde ni le texte complet ni les coordonnées des entreprises.
+const fichierAttr = chemin("../data/dcmp/attributions.json");
+const attributions = (existsSync(fichierAttr) ? JSON.parse(readFileSync(fichierAttr, "utf8")) : []) as (Attribution & { id: string })[];
+const gagnes: Gagne[] = attributions.flatMap((a): Gagne[] => {
+  const annee = a.datePublicationAo?.slice(0, 4) ?? null;
+  const base = { avis: null, autorite: a.autorite, annee };
+  if (a.lots.length > 1) {
+    return a.lots.map((l, i) => ({
+      ...base, id: `${a.id}:${i}`, objet: l.designation, avis: a.objet, attributaire: l.attributaire,
+      montantFcfa: l.montantFcfa, nombreOffres: l.nombreOffres, secteur: secteurDe(`${l.designation} ${a.objet ?? ""}`),
+    }));
+  }
+  if (!a.objet) return [];
+  return [{ ...base, id: a.id, objet: a.objet, attributaire: a.attributaire, montantFcfa: a.montantFcfa, nombreOffres: a.nombreOffres, secteur: secteurDe(a.objet) }];
+});
+
 mkdirSync(chemin("../src/data/"), { recursive: true });
+writeFileSync(chemin("../src/data/attributions.json"), JSON.stringify({ misAJourLe: aujourdhui, lignes: gagnes }));
 writeFileSync(chemin("../src/data/avis.json"), JSON.stringify({ misAJourLe: aujourdhui, avis }, null, 1));
 writeFileSync(chemin("../src/data/a-venir.json"), JSON.stringify({ misAJourLe: aujourdhui, realisations: aVenir }, null, 1));
 
 const parSource: Record<string, number> = {};
 avis.forEach((a) => (parSource[a.sourceLibelle] = (parSource[a.sourceLibelle] ?? 0) + 1));
 console.log(`Avis publiés dans l'application : ${avis.length}`, parSource);
+console.log(`Marchés attribués (lignes, lots compris) : ${gagnes.length}`);
 console.log(`Marchés à venir : ${aVenir.length} (${publiees} réalisations retirées car un avis publié cite leur référence)`);

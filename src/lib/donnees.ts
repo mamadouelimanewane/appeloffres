@@ -1,6 +1,8 @@
 import avisJson from "@/data/avis.json";
 import aVenirJson from "@/data/a-venir.json";
+import attributionsJson from "@/data/attributions.json";
 import type { Appel, Secteur } from "./data";
+import type { Gagne } from "./stats";
 
 /** Données produites par scripts/publier-donnees.ts à partir des collectes. */
 export const APPELS = avisJson.avis as Appel[];
@@ -23,4 +25,5 @@ export interface AVenir {
 }
 
 export const A_VENIR = aVenirJson.realisations as AVenir[];
+export const ATTRIBUEES = attributionsJson.lignes as Gagne[];
 export const A_VENIR_MIS_A_JOUR_LE = aVenirJson.misAJourLe;

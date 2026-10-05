@@ -12,11 +12,12 @@ export default function Racine({ children }: { children: React.ReactNode }) {
     <html lang="fr">
       <body>
         <header className="border-b bg-white print:hidden">
-          <nav className="mx-auto flex max-w-5xl items-center justify-between px-4 py-3">
+          <nav className="mx-auto flex max-w-5xl flex-wrap items-center justify-between gap-2 px-4 py-3">
             <Link href="/" className="text-lg font-bold text-brand">Soumission PME</Link>
-            <div className="flex gap-4 text-sm">
+            <div className="flex flex-wrap gap-x-4 gap-y-1 text-sm">
               <Link href="/appels">Appels d&apos;offres</Link>
               <Link href="/a-venir">Marchés à venir</Link>
+              <Link href="/qui-gagne">Qui gagne quoi</Link>
               <Link href="/dossiers">Mes dossiers</Link>
               <Link href="/profil">Mon entreprise</Link>
             </div>
