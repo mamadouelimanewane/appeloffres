@@ -32,9 +32,11 @@ test("le score est proportionnel aux pièces cochées", () => {
   assert.equal(scorePreparation(a, [piecesPour(a)[0].id]), Math.round(100 / n));
 });
 
-test("jours restants : négatif quand la date est dépassée", () => {
+test("jours restants en jours de calendrier, quelle que soit l'heure", () => {
   assert.ok(joursRestants("2026-10-01", new Date("2026-10-05T10:00:00")) < 0);
-  assert.equal(joursRestants("2026-10-10", new Date("2026-10-05T10:00:00")), 6);
+  assert.equal(joursRestants("2026-10-10", new Date("2026-10-05T10:00:00")), 5);
+  assert.equal(joursRestants("2026-10-06", new Date("2026-10-05T23:30:00")), 1); // demain = J-1
+  assert.equal(joursRestants("2026-10-05", new Date("2026-10-05T08:00:00")), 0); // aujourd'hui
 });
 
 test("secteur déduit du type et de l'objet", () => {

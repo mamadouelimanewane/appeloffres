@@ -1,9 +1,11 @@
 "use client";
 import Link from "next/link";
 import { useState } from "react";
-import { SECTEURS, dateFr, joursRestants } from "@/lib/data";
+import { ArrowUpRight, Building, Search } from "lucide-react";
+import { SECTEURS, compteARebours, dateFr, joursRestants } from "@/lib/data";
 import { APPELS, AVIS_MIS_A_JOUR_LE } from "@/lib/donnees";
 import { PROFIL_VIDE, Profil, useLocal } from "@/lib/storage";
+import { BadgeSecteur, Echeance, TitrePage, Vide } from "@/components/ui";
 
 const SOURCES = [...new Set(APPELS.map((a) => a.sourceLibelle))].sort();
 
@@ -24,43 +26,61 @@ export default function ListeAppels() {
   );
 
   return (
-    <div className="space-y-4">
-      <div>
-        <h1 className="text-2xl font-bold">Appels d&apos;offres ouverts</h1>
-        <p className="text-sm text-gray-600">{APPELS.length} avis collectés sur les sites officiels · mis à jour le {dateFr(AVIS_MIS_A_JOUR_LE)}</p>
+    <>
+      <TitrePage
+        icone={Search}
+        titre="Appels d'offres ouverts"
+        sousTitre={<>{APPELS.length} avis collectés sur les sites officiels · mis à jour le {dateFr(AVIS_MIS_A_JOUR_LE)}</>}
+      />
+      <div className="conteneur py-8">
+        <div className="carte flex flex-col gap-3 p-4 md:flex-row md:items-center">
+          <div className="relative flex-1">
+            <Search className="pointer-events-none absolute left-3.5 top-1/2 h-4 w-4 -translate-y-1/2 text-slate-400" aria-hidden />
+            <input className="champ pl-10" placeholder="Rechercher un marché, une référence, un acheteur…" value={recherche} onChange={(e) => setRecherche(e.target.value)} />
+          </div>
+          <select className="champ md:!w-44" value={secteur} disabled={pertinents} onChange={(e) => setSecteur(e.target.value)} aria-label="Secteur">
+            {["Tous", ...SECTEURS].map((x) => <option key={x} value={x}>{x === "Tous" ? "Tous les secteurs" : x}</option>)}
+          </select>
+          <select className="champ md:!w-52" value={source} onChange={(e) => setSource(e.target.value)} aria-label="Source">
+            {["Toutes", ...SOURCES].map((x) => <option key={x} value={x}>{x === "Toutes" ? "Toutes les sources" : x}</option>)}
+          </select>
+          <label className="flex shrink-0 cursor-pointer items-center gap-2 text-sm font-medium text-slate-700">
+            <input type="checkbox" className="h-4 w-4 accent-brand-700" checked={pertinents} onChange={(e) => setPertinents(e.target.checked)} />
+            Mon secteur
+          </label>
+        </div>
+
+        <p className="mt-6 text-sm text-slate-500">{liste.length} résultat(s)</p>
+        <ul className="mt-3 grid gap-4">
+          {liste.map((a) => {
+            const j = a.dateLimite ? joursRestants(a.dateLimite) : null;
+            const texte = j === null ? "Date limite : voir l'avis" : j < 0 ? "Clôturé" : `${dateFr(a.dateLimite!)} · ${compteARebours(j)}`;
+            return (
+              <li key={a.id}>
+                <Link href={`/appels/${a.id}`} className="carte-lien group flex flex-col gap-4 p-5 sm:flex-row sm:items-center">
+                  <div className="min-w-0 flex-1">
+                    <div className="flex flex-wrap items-center gap-2">
+                      <BadgeSecteur secteur={a.secteur} />
+                      {a.mode && <span className="puce bg-slate-100 text-slate-600">{a.mode}</span>}
+                    </div>
+                    <p className="mt-2 font-semibold leading-snug text-slate-900 group-hover:text-brand-800">{a.titre}</p>
+                    <p className="mt-1.5 flex flex-wrap items-center gap-x-2 text-sm text-slate-500">
+                      <Building className="h-4 w-4" aria-hidden /> {a.autorite}
+                      <span className="text-slate-300">•</span> {a.sourceLibelle}
+                      {a.publieLe && <><span className="text-slate-300">•</span> publié le {dateFr(a.publieLe)}</>}
+                    </p>
+                  </div>
+                  <div className="flex items-center gap-3 sm:flex-col sm:items-end">
+                    <Echeance jours={j} texte={texte} />
+                    <span className="hidden items-center gap-1 text-sm font-semibold text-brand-700 sm:inline-flex">Préparer <ArrowUpRight className="h-4 w-4" /></span>
+                  </div>
+                </Link>
+              </li>
+            );
+          })}
+        </ul>
+        {liste.length === 0 && <Vide>Aucun appel d&apos;offres ne correspond à ces filtres.</Vide>}
       </div>
-      <div className="flex flex-wrap items-center gap-3 text-sm">
-        <input className="champ !w-56" placeholder="Rechercher…" value={recherche} onChange={(e) => setRecherche(e.target.value)} />
-        <select className="champ !w-auto" value={secteur} disabled={pertinents} onChange={(e) => setSecteur(e.target.value)} aria-label="Secteur">
-          {["Tous", ...SECTEURS].map((x) => <option key={x}>{x}</option>)}
-        </select>
-        <select className="champ !w-auto" value={source} onChange={(e) => setSource(e.target.value)} aria-label="Source">
-          {["Toutes", ...SOURCES].map((x) => <option key={x}>{x}</option>)}
-        </select>
-        <label className="flex items-center gap-2">
-          <input type="checkbox" checked={pertinents} onChange={(e) => setPertinents(e.target.checked)} />
-          Mon secteur seulement
-        </label>
-      </div>
-      <ul className="space-y-3">
-        {liste.map((a) => {
-          const j = a.dateLimite ? joursRestants(a.dateLimite) : null;
-          const couleur = j === null ? "text-gray-500" : j < 0 ? "text-red-600" : j <= 7 ? "font-semibold text-orange-600" : "";
-          return (
-            <li key={a.id} className="rounded-xl border bg-white p-4">
-              <Link href={`/appels/${a.id}`} className="font-semibold text-brand hover:underline">{a.titre}</Link>
-              <p className="text-sm text-gray-600">{a.autorite} · {a.secteur}{a.mode ? ` · ${a.mode}` : ""} · source : {a.sourceLibelle}</p>
-              <p className="mt-1 text-sm">
-                <span className={couleur}>
-                  {j === null ? "Date limite : voir l'avis officiel" : j < 0 ? "Clôturé" : `Date limite ${dateFr(a.dateLimite!)} · ${j} jour(s) restant(s)`}
-                </span>
-                {a.publieLe && <span className="text-gray-500"> · publié le {dateFr(a.publieLe)}</span>}
-              </p>
-            </li>
-          );
-        })}
-        {liste.length === 0 && <li className="text-gray-500">Aucun appel d&apos;offres ne correspond à ces filtres.</li>}
-      </ul>
-    </div>
+    </>
   );
 }

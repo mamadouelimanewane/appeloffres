@@ -2,7 +2,20 @@
 @tailwind components;
 @tailwind utilities;
 
-body { @apply bg-gray-50 text-gray-900; }
-.btn { @apply inline-flex items-center justify-center rounded-lg bg-brand px-4 py-2 font-medium text-white hover:bg-brand-dark disabled:opacity-50; }
-.btn-sec { @apply inline-flex items-center justify-center rounded-lg border border-gray-300 bg-white px-4 py-2 font-medium hover:bg-gray-100; }
-.champ { @apply w-full rounded-lg border border-gray-300 bg-white px-3 py-2; }
+@layer base {
+  body { @apply bg-slate-50 text-slate-800 antialiased; }
+  h1, h2, h3 { @apply tracking-tight text-slate-900; }
+  ::selection { @apply bg-brand-200 text-brand-900; }
+}
+
+@layer components {
+  .btn { @apply inline-flex items-center justify-center gap-2 rounded-xl bg-brand-700 px-5 py-2.5 text-sm font-semibold text-white shadow-sm shadow-brand-900/20 transition hover:bg-brand-800 focus:outline-none focus-visible:ring-4 focus-visible:ring-brand-500/30 disabled:cursor-not-allowed disabled:opacity-50; }
+  .btn-sec { @apply inline-flex items-center justify-center gap-2 rounded-xl border border-slate-200 bg-white px-5 py-2.5 text-sm font-semibold text-slate-700 shadow-sm transition hover:border-brand-300 hover:text-brand-800 focus:outline-none focus-visible:ring-4 focus-visible:ring-brand-500/20; }
+  .btn-or { @apply inline-flex items-center justify-center gap-2 rounded-xl bg-or-400 px-6 py-3 text-sm font-bold text-brand-950 shadow-lg shadow-or-600/30 transition hover:bg-or-300 focus:outline-none focus-visible:ring-4 focus-visible:ring-or-300/50; }
+  .btn-fantome { @apply inline-flex items-center justify-center gap-2 rounded-xl border border-white/25 bg-white/5 px-6 py-3 text-sm font-semibold text-white backdrop-blur transition hover:bg-white/15; }
+  .champ { @apply w-full rounded-xl border border-slate-200 bg-white px-3.5 py-2.5 text-sm text-slate-800 shadow-sm outline-none transition placeholder:text-slate-400 focus:border-brand-500 focus:ring-4 focus:ring-brand-500/15 disabled:bg-slate-50 disabled:text-slate-400; }
+  .carte { @apply rounded-2xl border border-slate-200/80 bg-white shadow-doux; }
+  .carte-lien { @apply carte transition duration-200 hover:-translate-y-0.5 hover:border-brand-200 hover:shadow-releve; }
+  .puce { @apply inline-flex items-center gap-1 whitespace-nowrap rounded-full px-2.5 py-0.5 text-xs font-medium; }
+  .conteneur { @apply mx-auto w-full max-w-6xl px-4 sm:px-6; }
+}

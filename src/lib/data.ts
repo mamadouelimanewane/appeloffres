@@ -77,10 +77,15 @@ export function scorePreparation(a: Appel, cochees: string[]): number {
   return Math.round((ok / requises.length) * 100);
 }
 
-/** Jours restants (négatif si dépassé). `maintenant` injectable pour les tests. */
+/**
+ * Jours de calendrier restants : 0 = c'est aujourd'hui, 1 = demain, négatif = dépassé.
+ * `maintenant` injectable pour les tests.
+ */
 export function joursRestants(dateLimite: string, maintenant: Date = new Date()): number {
-  const fin = new Date(dateLimite + "T23:59:59");
-  return Math.ceil((fin.getTime() - maintenant.getTime()) / 86_400_000);
+  const [a, m, j] = dateLimite.split("-").map(Number);
+  const fin = Date.UTC(a, m - 1, j);
+  const debut = Date.UTC(maintenant.getFullYear(), maintenant.getMonth(), maintenant.getDate());
+  return Math.round((fin - debut) / 86_400_000);
 }
 
 export function fcfa(n: number): string {
@@ -90,4 +95,9 @@ export function fcfa(n: number): string {
 export function dateFr(iso: string): string {
   const [a, m, j] = iso.split("-");
   return `${j}/${m}/${a}`;
+}
+
+/** « J-3 », ou « aujourd'hui » le jour même. */
+export function compteARebours(jours: number): string {
+  return jours === 0 ? "aujourd'hui" : `J-${jours}`;
 }

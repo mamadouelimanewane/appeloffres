@@ -1,9 +1,12 @@
 "use client";
+import Link from "next/link";
 import { use, useState } from "react";
 import { notFound } from "next/navigation";
-import { dateFr, fcfa, joursRestants, piecesPour, scorePreparation, selonDao } from "@/lib/data";
+import { ArrowLeft, BookmarkCheck, BookmarkPlus, Building, CalendarDays, Check, Copy, ExternalLink, FileText, Printer, Sparkles } from "lucide-react";
+import { compteARebours, dateFr, fcfa, joursRestants, piecesPour, scorePreparation, selonDao } from "@/lib/data";
 import { APPELS } from "@/lib/donnees";
 import { PROFIL_VIDE, Profil, useLocal } from "@/lib/storage";
+import { BadgeSecteur, Barre, Echeance } from "@/components/ui";
 
 export default function DetailAppel({ params }: { params: Promise<{ id: string }> }) {
   const { id } = use(params);
@@ -13,11 +16,13 @@ export default function DetailAppel({ params }: { params: Promise<{ id: string }
   const [suivis, setSuivis] = useLocal<string[]>("suivis", []);
   const [memoire, setMemoire] = useState("");
   const [attente, setAttente] = useState(false);
+  const [copie, setCopie] = useState(false);
   if (!a) return notFound();
 
   const pieces = piecesPour(a);
   const score = scorePreparation(a, cochees);
   const j = a.dateLimite ? joursRestants(a.dateLimite) : null;
+  const suivi = suivis.includes(id);
   const bascule = (pid: string) => setCochees(cochees.includes(pid) ? cochees.filter((c) => c !== pid) : [...cochees, pid]);
 
   async function generer() {
@@ -32,61 +37,107 @@ export default function DetailAppel({ params }: { params: Promise<{ id: string }
     setAttente(false);
   }
 
+  const infos: [string, string][] = [
+    ["Référence", a.reference],
+    ["Acheteur", a.autorite],
+    ["Procédure", a.mode ?? "—"],
+    ["Source", a.sourceLibelle],
+    ...(a.publieLe ? [["Publié le", dateFr(a.publieLe)] as [string, string]] : []),
+    ...(a.budgetEstime !== null ? [["Budget estimé", fcfa(a.budgetEstime)] as [string, string]] : []),
+    ...(a.garantieSoumission !== null ? [["Garantie de soumission", a.garantieSoumission ? fcfa(a.garantieSoumission) : "aucune"] as [string, string]] : []),
+  ];
+
   return (
-    <div className="space-y-6">
-      <div>
-        <h1 className="text-2xl font-bold">{a.titre}</h1>
-        <p className="text-sm text-gray-600">{a.reference} · {a.autorite}{a.region ? ` · ${a.region}` : ""}{a.mode ? ` · ${a.mode}` : ""}</p>
-        <p className="mt-2 text-sm">
-          {a.budgetEstime !== null && <>Budget estimé {fcfa(a.budgetEstime)} · </>}
-          {a.garantieSoumission !== null && <>Garantie de soumission {a.garantieSoumission ? fcfa(a.garantieSoumission) : "aucune"} · </>}
-          {a.dateLimite ? <>Date limite {dateFr(a.dateLimite)} ({j! < 0 ? "clôturé" : `${j} j`})</> : <>Date limite : voir l&apos;avis officiel</>}
-          {a.publieLe && <> · publié le {dateFr(a.publieLe)}</>}
-        </p>
-        <p className="mt-1 text-xs text-gray-500">Source : {a.sourceLibelle}. Les informations ci-dessus sont extraites automatiquement : l&apos;avis officiel fait foi.</p>
-        <div className="mt-3 flex flex-wrap gap-2 print:hidden">
-          {a.url && <a className="btn" href={a.url} target="_blank" rel="noopener noreferrer">Lire l&apos;avis officiel</a>}
-          <button className={suivis.includes(id) ? "btn-sec" : "btn"} onClick={() => setSuivis(suivis.includes(id) ? suivis.filter((s) => s !== id) : [...suivis, id])}>
-            {suivis.includes(id) ? "Ne plus suivre" : "Suivre cet appel"}
-          </button>
-          <button className="btn-sec" onClick={() => window.print()}>Imprimer la liste</button>
+    <>
+      <section className="border-b border-slate-200/70 bg-gradient-to-b from-brand-50/80 to-slate-50 print:bg-none">
+        <div className="conteneur py-8">
+          <Link href="/appels" className="inline-flex items-center gap-1 text-sm font-medium text-slate-500 hover:text-brand-700 print:hidden">
+            <ArrowLeft className="h-4 w-4" /> Tous les appels d&apos;offres
+          </Link>
+          <div className="mt-4 flex flex-wrap items-center gap-2">
+            <BadgeSecteur secteur={a.secteur} />
+            <Echeance jours={j} texte={j === null ? "Date limite : voir l'avis officiel" : j < 0 ? "Clôturé" : `Date limite ${dateFr(a.dateLimite!)} · ${compteARebours(j)}`} />
+          </div>
+          <h1 className="mt-3 max-w-4xl text-2xl font-extrabold leading-tight sm:text-3xl">{a.titre}</h1>
+          <p className="mt-2 flex items-center gap-2 text-sm text-slate-600"><Building className="h-4 w-4" /> {a.autorite}</p>
+          <div className="mt-6 flex flex-wrap gap-2 print:hidden">
+            {a.url && <a className="btn" href={a.url} target="_blank" rel="noopener noreferrer"><ExternalLink className="h-4 w-4" /> Lire l&apos;avis officiel</a>}
+            <button className="btn-sec" onClick={() => setSuivis(suivi ? suivis.filter((s) => s !== id) : [...suivis, id])}>
+              {suivi ? <><BookmarkCheck className="h-4 w-4 text-brand-700" /> Suivi</> : <><BookmarkPlus className="h-4 w-4" /> Suivre cet appel</>}
+            </button>
+            <button className="btn-sec" onClick={() => window.print()}><Printer className="h-4 w-4" /> Imprimer la liste</button>
+          </div>
         </div>
+      </section>
+
+      <div className="conteneur grid gap-6 py-8 lg:grid-cols-[1fr_340px]">
+        <div className="space-y-6">
+          <section className="carte p-6">
+            <div className="flex flex-wrap items-center justify-between gap-3">
+              <h2 className="flex items-center gap-2 text-lg font-bold"><FileText className="h-5 w-5 text-brand-700" /> Pièces à fournir</h2>
+              <span className="puce bg-brand-50 px-3 py-1 text-sm font-semibold text-brand-800 ring-1 ring-brand-200">Dossier prêt à {score} %</span>
+            </div>
+            <div className="mt-4"><Barre valeur={score} /></div>
+            <ul className="mt-5 divide-y divide-slate-100">
+              {pieces.map((p) => {
+                const ok = cochees.includes(p.id);
+                return (
+                  <li key={p.id}>
+                    <label className="flex cursor-pointer items-start gap-3 rounded-xl px-2 py-3 transition hover:bg-slate-50">
+                      <input type="checkbox" className="sr-only" checked={ok} onChange={() => bascule(p.id)} />
+                      <span className={`mt-0.5 grid h-5 w-5 shrink-0 place-items-center rounded-md transition ${ok ? "bg-brand-600 text-white" : "border-2 border-slate-300 bg-white"}`} aria-hidden>
+                        {ok && <Check className="h-3.5 w-3.5" strokeWidth={3} />}
+                      </span>
+                      <span className="min-w-0">
+                        <span className={`font-semibold ${ok ? "text-slate-400 line-through decoration-slate-300" : "text-slate-900"}`}>{p.libelle}</span>
+                        {selonDao(p, a) && <span className="puce ml-2 bg-or-50 text-or-700 ring-1 ring-or-100">selon le DAO</span>}
+                        <span className="mt-0.5 block text-sm text-slate-500">{p.conseil}</span>
+                      </span>
+                    </label>
+                  </li>
+                );
+              })}
+            </ul>
+            <p className="mt-4 text-xs text-slate-500">Liste indicative : la référence reste le dossier d&apos;appel d&apos;offres officiel.</p>
+          </section>
+
+          <section className="carte p-6 print:hidden">
+            <h2 className="flex items-center gap-2 text-lg font-bold"><Sparkles className="h-5 w-5 text-or-500" /> Mémoire technique</h2>
+            <p className="mt-1 text-sm text-slate-600">Un brouillon structuré, rédigé à partir du profil de votre entreprise. Les informations manquantes restent à compléter.</p>
+            {!profil.entreprise && (
+              <p className="mt-3 rounded-xl bg-or-50 p-3 text-sm text-or-700 ring-1 ring-or-100">
+                Renseignez d&apos;abord <Link className="font-semibold underline" href="/profil">votre entreprise</Link> pour un meilleur résultat.
+              </p>
+            )}
+            <button className="btn mt-4" onClick={generer} disabled={attente}><Sparkles className="h-4 w-4" />{attente ? "Rédaction en cours…" : "Générer un brouillon"}</button>
+            {memoire && (
+              <>
+                <textarea className="champ mt-4 font-mono text-[13px] leading-relaxed" rows={22} value={memoire} onChange={(e) => setMemoire(e.target.value)} />
+                <button className="btn-sec mt-3" onClick={() => { navigator.clipboard.writeText(memoire); setCopie(true); setTimeout(() => setCopie(false), 2000); }}>
+                  {copie ? <><Check className="h-4 w-4 text-brand-700" /> Copié</> : <><Copy className="h-4 w-4" /> Copier</>}
+                </button>
+              </>
+            )}
+          </section>
+        </div>
+
+        <aside className="space-y-6">
+          <section className="carte p-6">
+            <h2 className="flex items-center gap-2 font-bold"><CalendarDays className="h-5 w-5 text-brand-700" /> En bref</h2>
+            <dl className="mt-4 space-y-3 text-sm">
+              {infos.map(([k, v]) => (
+                <div key={k}>
+                  <dt className="text-xs font-medium uppercase tracking-wide text-slate-400">{k}</dt>
+                  <dd className="mt-0.5 font-medium text-slate-800">{v}</dd>
+                </div>
+              ))}
+            </dl>
+          </section>
+          <p className="px-1 text-xs leading-relaxed text-slate-500">
+            Informations extraites automatiquement du site de la source. L&apos;avis officiel fait foi.
+          </p>
+        </aside>
       </div>
-
-      <section className="rounded-xl border bg-white p-5">
-        <div className="flex items-center justify-between">
-          <h2 className="text-lg font-semibold">Pièces à fournir</h2>
-          <span className="rounded-full bg-brand-light px-3 py-1 text-sm font-medium text-brand-dark">Dossier prêt à {score} %</span>
-        </div>
-        <div className="mt-3 h-2 rounded bg-gray-200"><div className="h-2 rounded bg-brand" style={{ width: `${score}%` }} /></div>
-        <ul className="mt-4 space-y-3">
-          {pieces.map((p) => (
-            <li key={p.id}>
-              <label className="flex cursor-pointer items-start gap-3">
-                <input type="checkbox" className="mt-1" checked={cochees.includes(p.id)} onChange={() => bascule(p.id)} />
-                <span>
-                  <b>{p.libelle}</b>
-                  {selonDao(p, a) && <span className="ml-2 rounded bg-yellow-100 px-1.5 py-0.5 text-xs text-yellow-800">selon le DAO</span>}
-                  <br /><span className="text-sm text-gray-600">{p.conseil}</span>
-                </span>
-              </label>
-            </li>
-          ))}
-        </ul>
-        <p className="mt-4 text-xs text-gray-500">Liste indicative : la référence reste le dossier d&apos;appel d&apos;offres officiel.</p>
-      </section>
-
-      <section className="rounded-xl border bg-white p-5 print:hidden">
-        <h2 className="text-lg font-semibold">Mémoire technique (brouillon)</h2>
-        {!profil.entreprise && <p className="mt-2 text-sm text-orange-600">Renseignez d&apos;abord « Mon entreprise » pour un meilleur résultat.</p>}
-        <button className="btn mt-3" onClick={generer} disabled={attente}>{attente ? "Rédaction en cours…" : "Générer un brouillon"}</button>
-        {memoire && (
-          <>
-            <textarea className="champ mt-4 font-mono text-sm" rows={22} value={memoire} onChange={(e) => setMemoire(e.target.value)} />
-            <button className="btn-sec mt-2" onClick={() => navigator.clipboard.writeText(memoire)}>Copier</button>
-          </>
-        )}
-      </section>
-    </div>
+    </>
   );
 }
