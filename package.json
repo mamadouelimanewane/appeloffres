@@ -1,0 +1,29 @@
+{
+  "name": "soumission-pme",
+  "version": "0.1.0",
+  "private": true,
+  "scripts": {
+    "dev": "next dev --port 3100",
+    "build": "next build",
+    "start": "next start",
+    "test": "node --experimental-strip-types --test src/lib/*.test.ts",
+    "collecte:dcmp": "node --experimental-strip-types scripts/collecte-dcmp.ts",
+    "collecte": "node --experimental-strip-types scripts/collecte.ts",
+    "ppm": "node --experimental-strip-types scripts/ppm.ts"
+  },
+  "dependencies": {
+    "next": "^15.5.26",
+    "pdfjs-dist": "^4.10.38",
+    "react": "^18.3.1",
+    "react-dom": "^18.3.1"
+  },
+  "devDependencies": {
+    "@types/node": "^22.0.0",
+    "@types/react": "^18.3.0",
+    "@types/react-dom": "^18.3.0",
+    "autoprefixer": "^10.4.20",
+    "postcss": "^8.4.47",
+    "tailwindcss": "^3.4.14",
+    "typescript": "^5.6.0"
+  }
+}
