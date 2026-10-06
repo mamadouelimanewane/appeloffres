@@ -64,6 +64,11 @@ async function texteDuDocument(url: string): Promise<string> {
   return nettoyer(principal);
 }
 
+/** Échec lié au document lui-même (vide, scanné, introuvable) : inutile de le relire chaque jour. */
+function estDefinitive(erreur: string): boolean {
+  return /texte insuffisant|HTTP 404|HTTP 410/i.test(erreur);
+}
+
 console.log(`IA : ${ia.nom} (${ia.modele}) — ${candidats.length} avis à analyser (plafond ${maxAppels})`);
 let ok = 0, echecs = 0;
 for (const a of candidats) {
@@ -81,6 +86,16 @@ for (const a of candidats) {
     entree.erreur = (err as Error).message.slice(0, 300);
     echecs++;
     console.log(`  ✖ ${a.objet.slice(0, 60)} : ${entree.erreur}`);
+    // Compte sans crédit, clé refusée : inutile d'insister, et ces avis seront relus plus tard
+    if (/HTTP (401|402|403)\b|Insufficient Balance|invalid.?api.?key|authentication/i.test(entree.erreur)) {
+      console.log("IA : arrêt — vérifiez la clé et le crédit du compte du fournisseur.");
+      break;
+    }
+    // Erreur passagère (quota, réseau, serveur, réponse vide) : pas de mémorisation, on réessaiera
+    if (!estDefinitive(entree.erreur)) {
+      await dormir(pauseMs);
+      continue;
+    }
   }
   cache[a.url] = entree;
   writeFileSync(fichierCache, JSON.stringify(cache, null, 1));
