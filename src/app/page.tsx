@@ -6,6 +6,7 @@ import { compteARebours, dateFr, joursRestants, piecesPour } from "@/lib/data";
 import { APPELS, ATTRIBUEES, A_VENIR } from "@/lib/donnees";
 import { resumer } from "@/lib/stats";
 import { BadgeSecteur } from "@/components/ui";
+import { OFFRES } from "@/lib/offres";
 
 // Recalculée toutes les heures pour que les comptes à rebours restent justes.
 export const revalidate = 3600;
@@ -27,10 +28,10 @@ const FONCTIONS = [
   { icone: FolderCheck, titre: "Suivi des dossiers", texte: "Vos marchés suivis, leur échéance et le pourcentage de préparation, en un coup d'œil.", href: "/dossiers" },
 ];
 
-const OFFRES = [
-  { nom: "Veille", prix: "15 000", detail: "Pour ne plus rater d'appel d'offres", points: ["Appels d'offres ouverts", "Marchés à venir", "Liste des pièces à fournir"], vedette: false },
-  { nom: "Pro", prix: "35 000", detail: "Pour répondre plus souvent, et mieux", points: ["Tout Veille", "Qui gagne quoi : prix et concurrents", "Mémoire technique assisté", "Suivi de tous vos dossiers"], vedette: true },
-  { nom: "Dossier clé en main", prix: "dès 75 000", detail: "Préparation avec un expert des marchés publics", points: ["Analyse du DAO", "Constitution du dossier", "Relecture avant dépôt"], vedette: false, unite: "par dossier" },
+// Veille et Pro viennent du catalogue commun ; « Dossier clé en main » est un service à l'acte.
+const OFFRES_ACCUEIL = [
+  ...OFFRES.map((o) => ({ nom: o.nom, prix: o.prixMensuel.toLocaleString("fr-FR").replace(/\u202f/g, " "), detail: o.detail, points: o.points, vedette: o.vedette, unite: undefined as string | undefined, href: `/inscription?offre=${o.code}` })),
+  { nom: "Dossier clé en main", prix: "dès 75 000", detail: "Préparation avec un expert des marchés publics", points: ["Analyse du DAO", "Constitution du dossier", "Relecture avant dépôt"], vedette: false, unite: "par dossier", href: "/inscription" },
 ];
 
 function ApercuProduit() {
@@ -184,7 +185,7 @@ export default function Accueil() {
         <p className="text-center text-sm font-semibold uppercase tracking-widest text-brand-600">Tarifs</p>
         <h2 className="mt-3 text-center text-3xl font-extrabold sm:text-4xl">Simple et sans engagement</h2>
         <div className="mt-12 grid items-stretch gap-6 lg:grid-cols-3">
-          {OFFRES.map((o) => (
+          {OFFRES_ACCUEIL.map((o) => (
             <div key={o.nom} className={`relative flex flex-col rounded-3xl p-8 ${o.vedette ? "bg-brand-900 text-white shadow-releve ring-1 ring-brand-700 lg:-my-4" : "carte"}`}>
               {o.vedette && <span className="absolute -top-3 left-8 rounded-full bg-or-400 px-3 py-1 text-xs font-bold text-brand-950">Recommandé</span>}
               <h3 className={`text-lg font-bold ${o.vedette ? "text-white" : ""}`}>{o.nom}</h3>
@@ -201,7 +202,7 @@ export default function Accueil() {
                   </li>
                 ))}
               </ul>
-              <Link href="/profil" className={`mt-8 ${o.vedette ? "btn-or" : "btn-sec"}`}>Commencer</Link>
+              <Link href={o.href} className={`mt-8 ${o.vedette ? "btn-or" : "btn-sec"}`}>{o.vedette ? "Essai gratuit 14 jours" : "Commencer"}</Link>
             </div>
           ))}
         </div>
@@ -215,7 +216,7 @@ export default function Accueil() {
           <h2 className="relative text-3xl font-extrabold text-white sm:text-4xl">Prêt à répondre à votre prochain marché ?</h2>
           <p className="relative mx-auto mt-4 max-w-xl text-brand-100/90">Créez le profil de votre entreprise en deux minutes : il sert à préparer vos dossiers et vos mémoires techniques.</p>
           <div className="relative mt-8 flex flex-wrap justify-center gap-3">
-            <Link href="/profil" className="btn-or">Créer mon profil <ArrowRight className="h-4 w-4" /></Link>
+            <Link href="/inscription" className="btn-or">Essai gratuit 14 jours <ArrowRight className="h-4 w-4" /></Link>
             <Link href="/appels" className="btn-fantome">Parcourir les appels d&apos;offres</Link>
           </div>
         </div>

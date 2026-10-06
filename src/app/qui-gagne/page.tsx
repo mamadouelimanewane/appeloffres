@@ -5,6 +5,7 @@ import { SECTEURS, fcfa } from "@/lib/data";
 import { ATTRIBUEES } from "@/lib/donnees";
 import { principauxGagnants, resumer, type Resume } from "@/lib/stats";
 import { BadgeSecteur, TitrePage, Vide } from "@/components/ui";
+import { ReservePro } from "@/components/ReservePro";
 
 const ANNEES = [...new Set(ATTRIBUEES.map((l) => l.annee).filter(Boolean))].sort();
 const periode = ANNEES.length ? `${ANNEES[0]}–${ANNEES.at(-1)}` : "";
@@ -104,6 +105,7 @@ export default function QuiGagne() {
           </section>
         )}
 
+        <ReservePro fonction="qui-gagne-detail" titre="Entreprises gagnantes et détail des marchés attribués">
         <div className="grid gap-6 lg:grid-cols-3">
           <section className="carte p-6">
             <h2 className="flex items-center gap-2 text-lg font-bold"><Medal className="h-5 w-5 text-or-500" /> Entreprises qui gagnent le plus</h2>
@@ -142,6 +144,7 @@ export default function QuiGagne() {
             {exemples.length === 0 && <Vide>Aucun marché ne correspond.</Vide>}
           </section>
         </div>
+        </ReservePro>
       </div>
     </>
   );

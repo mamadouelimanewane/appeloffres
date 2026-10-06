@@ -7,6 +7,7 @@ import { compteARebours, dateFr, fcfa, joursRestants, piecesPour, scorePreparati
 import { APPELS } from "@/lib/donnees";
 import { PROFIL_VIDE, Profil, useLocal } from "@/lib/storage";
 import { BadgeSecteur, Barre, Echeance } from "@/components/ui";
+import { ReservePro } from "@/components/ReservePro";
 
 export default function DetailAppel({ params }: { params: Promise<{ id: string }> }) {
   const { id } = use(params);
@@ -101,7 +102,9 @@ export default function DetailAppel({ params }: { params: Promise<{ id: string }
             <p className="mt-4 text-xs text-slate-500">Liste indicative : la référence reste le dossier d&apos;appel d&apos;offres officiel.</p>
           </section>
 
-          <section className="carte p-6 print:hidden">
+          <div className="print:hidden">
+          <ReservePro fonction="memoire" titre="Mémoire technique assisté">
+          <section className="carte p-6">
             <h2 className="flex items-center gap-2 text-lg font-bold"><Sparkles className="h-5 w-5 text-or-500" /> Mémoire technique</h2>
             <p className="mt-1 text-sm text-slate-600">Un brouillon structuré, rédigé à partir du profil de votre entreprise. Les informations manquantes restent à compléter.</p>
             {!profil.entreprise && (
@@ -119,6 +122,8 @@ export default function DetailAppel({ params }: { params: Promise<{ id: string }
               </>
             )}
           </section>
+          </ReservePro>
+          </div>
         </div>
 
         <aside className="space-y-6">
