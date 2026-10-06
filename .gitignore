@@ -2,5 +2,7 @@ node_modules
 .next
 .env*.local
 /scratch
-/data
+# Données brutes volumineuses (archives, analyses) : régénérables localement
+/data/archive
+/data/dcmp
 tsconfig.tsbuildinfo

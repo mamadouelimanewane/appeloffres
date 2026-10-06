@@ -94,12 +94,13 @@ const gagnes: Gagne[] = attributions.flatMap((a): Gagne[] => {
 });
 
 mkdirSync(chemin("../src/data/"), { recursive: true });
-writeFileSync(chemin("../src/data/attributions.json"), JSON.stringify({ misAJourLe: aujourdhui, lignes: gagnes }));
+// Sans les archives (ex. collecte automatique sur GitHub), on garde les attributions déjà publiées.
+if (existsSync(fichierAttr)) writeFileSync(chemin("../src/data/attributions.json"), JSON.stringify({ misAJourLe: aujourdhui, lignes: gagnes }));
 writeFileSync(chemin("../src/data/avis.json"), JSON.stringify({ misAJourLe: aujourdhui, avis }, null, 1));
 writeFileSync(chemin("../src/data/a-venir.json"), JSON.stringify({ misAJourLe: aujourdhui, realisations: aVenir }, null, 1));
 
 const parSource: Record<string, number> = {};
 avis.forEach((a) => (parSource[a.sourceLibelle] = (parSource[a.sourceLibelle] ?? 0) + 1));
 console.log(`Avis publiés dans l'application : ${avis.length}`, parSource);
-console.log(`Marchés attribués (lignes, lots compris) : ${gagnes.length}`);
+console.log(existsSync(fichierAttr) ? `Marchés attribués (lignes, lots compris) : ${gagnes.length}` : "Marchés attribués : archives absentes, fichier publié conservé");
 console.log(`Marchés à venir : ${aVenir.length} (${publiees} réalisations retirées car un avis publié cite leur référence)`);

@@ -1,0 +1,51 @@
+# Collecte quotidienne des appels d'offres, puis mise à jour du site.
+# Chaque matin : lecture des sources officielles, régénération de src/data,
+# vérification par les tests, puis envoi sur main (Vercel republie le site).
+name: Collecte quotidienne
+
+on:
+  schedule:
+    - cron: "0 6 * * *" # 6 h UTC = 6 h à Dakar
+  workflow_dispatch: # lancement manuel depuis l'onglet Actions
+
+permissions:
+  contents: write
+
+concurrency:
+  group: collecte
+  cancel-in-progress: false
+
+jobs:
+  collecte:
+    runs-on: ubuntu-latest
+    timeout-minutes: 20
+    steps:
+      - uses: actions/checkout@v4
+
+      - uses: actions/setup-node@v4
+        with:
+          node-version: 24
+          cache: npm
+
+      - run: npm ci
+
+      - name: Collecter les avis
+        run: npm run collecte
+
+      - name: Préparer les données du site
+        run: node --experimental-strip-types scripts/publier-donnees.ts
+
+      - name: Vérifier
+        run: npm test
+
+      - name: Enregistrer si quelque chose a changé
+        run: |
+          git config user.name "mamadouelimanewane"
+          git config user.email "mamadouastelwane@gmail.com"
+          git add data/avis.json src/data
+          if git diff --cached --quiet; then
+            echo "Aucun changement aujourd'hui."
+            exit 0
+          fi
+          git commit -m "Collecte automatique du $(date -u +%F)"
+          git push
