@@ -30,6 +30,19 @@ Recherche du 2026-10-05 (recherche web ; contenus à vérifier sur les sites eux
 | achatspublics.sn (APPEL) | **liste réservée aux comptes fournisseurs** (API répond 401) | pas de contournement. Référentiels, avis généraux et contenus sont publics ; les appels d'offres exigent un compte. Piste produit : chaque PME connecte son propre compte. |
 | marchespublics.sn (DCMP) | portail injoignable le 2026-10-05 | collecteur prêt (`npm run collecte:dcmp`), validé sur archive |
 
+### Sources testées le 2026-10-06 et écartées (pour l'instant)
+
+| Source | Constat |
+|---|---|
+| marchespublics.sn (DCMP) | Toujours injoignable (2e jour). Probablement remplacé par APPEL. |
+| achatspublics.sn (APPEL), rubriques publiques | `content/general_notice`, `direct_agreement`, `market_journal` répondent mais sont **vides** ; seules `news` et les statistiques (`ref/ac_types/with_metadata`) sont remplies. Appels d'offres et plans : compte obligatoire (401). |
+| Le Soleil (`/wp-json/wp/v2/marche-public`, interface WordPress publique, robots.txt permissif) | Avis complets et multi-acheteurs, mais seulement 48 avis, le dernier du 10/09/2025 : le journal ne publie plus ses avis en ligne par ce canal. |
+| ARTP, BAD (afdb.org) | 403 (accès refusé aux robots). |
+| BCEAO, ONAS, AIBD, Sonatel, LONASE (adresses `/appels-doffres` devinées) | 404 : rubriques à chercher à la main. |
+| SONES, AGETIP, APIX, IPRES, CSS, SENUM | Injoignables depuis ce poste. |
+
+Conclusion : les sources publiques lisibles automatiquement sont rares. Le vrai levier de couverture reste l'accès officiel aux données (demande DCMP/ARCOP) ou l'ouverture des données d'APPEL.
+
 ## 2. Projets d'appels d'offres (anticipation)
 
 ### Où trouver les plans de passation (PPM) — recherche du 2026-10-05
