@@ -32,6 +32,14 @@ jobs:
       - name: Collecter les avis
         run: npm run collecte
 
+      - name: Lire les avis avec l'IA (si une clé est configurée)
+        env:
+          DEEPSEEK_API_KEY: ${{ secrets.DEEPSEEK_API_KEY }}
+          ANTHROPIC_API_KEY: ${{ secrets.ANTHROPIC_API_KEY }}
+          IA_FOURNISSEUR: ${{ vars.IA_FOURNISSEUR }}
+          IA_MODELE: ${{ vars.IA_MODELE }}
+        run: node --experimental-strip-types scripts/enrichir-ia.ts --max=40
+
       - name: Préparer les données du site
         run: node --experimental-strip-types scripts/publier-donnees.ts
 
@@ -42,7 +50,7 @@ jobs:
         run: |
           git config user.name "mamadouelimanewane"
           git config user.email "mamadouastelwane@gmail.com"
-          git add data/avis.json data/ppm src/data
+          git add data/avis.json data/ppm data/ia src/data
           if git diff --cached --quiet; then
             echo "Aucun changement aujourd'hui."
             exit 0

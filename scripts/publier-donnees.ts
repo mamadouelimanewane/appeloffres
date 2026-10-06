@@ -12,6 +12,7 @@ import type { Attribution } from "../src/lib/attributions.ts";
 import type { Gagne } from "../src/lib/stats.ts";
 import { achatsRecurrents } from "../src/lib/recurrents.ts";
 import type { PlanDcmp } from "../src/lib/plans-dcmp.ts";
+import type { EntreeCache } from "../src/lib/ia/extraction.ts";
 
 const chemin = (rel: string) => new URL(rel, import.meta.url).pathname.replace(/^\/([A-Za-z]:)/, "$1");
 const aujourdhui = process.argv.find((a) => a.startsWith("--date="))?.split("=")[1] ?? new Date().toISOString().slice(0, 10);
@@ -34,10 +35,16 @@ const idDe = (source: string, url: string) => `${source}-${createHash("sha1").up
 
 // 1. Avis : encore ouverts, ou récents quand la date limite n'est pas connue
 const brut: Record<string, AvisCollecte> = existsSync(chemin("../data/avis.json")) ? JSON.parse(readFileSync(chemin("../data/avis.json"), "utf8")).avis : {};
+// Lectures IA déjà contrôlées (scripts/enrichir-ia.ts) : elles complètent, sans jamais écraser une donnée de la source.
+const cacheIa: Record<string, EntreeCache> = existsSync(chemin("../data/ia/cache.json")) ? JSON.parse(readFileSync(chemin("../data/ia/cache.json"), "utf8")) : {};
+const lu = (url: string) => cacheIa[url]?.extraction ?? null;
 const avis: Appel[] = Object.values(brut)
+  .map((a) => ({ ...a, dateLimite: a.dateLimite ?? lu(a.url)?.dateLimite ?? null }))
   .filter((a) => (a.dateLimite ? a.dateLimite >= aujourdhui : (a.publieLe ?? "") >= ilYa(45)))
   // Un avis de report ou un additif concerne un appel encore ouvert : on le garde.
   .filter((a) => !/attribution|annulation|infructueux/i.test(a.type ?? ""))
+  // L'IA a lu le document et conclu que ce n'est pas un avis (actualité, emploi…)
+  .filter((a) => lu(a.url)?.estUnAvis !== false)
   .map((a) => ({
     id: idDe(a.source, a.url),
     source: a.source,
@@ -48,11 +55,23 @@ const avis: Appel[] = Object.values(brut)
     secteur: secteurDe(`${a.type ?? ""} ${a.objet}`),
     region: null,
     mode: a.type,
-    budgetEstime: null,
-    garantieSoumission: null,
+    budgetEstime: lu(a.url)?.montantEstimeFcfa ?? null,
+    garantieSoumission: lu(a.url)?.garantieSoumissionFcfa ?? null,
     publieLe: a.publieLe,
     dateLimite: a.dateLimite,
     url: a.url,
+    ...(lu(a.url)
+      ? {
+          lectureIa: {
+            resume: lu(a.url)!.resume,
+            piecesExigees: lu(a.url)!.piecesExigees,
+            heureLimite: lu(a.url)!.heureLimite,
+            lieuDepot: lu(a.url)!.lieuDepot,
+            modele: cacheIa[a.url].modele,
+            tronque: cacheIa[a.url].tronque,
+          },
+        }
+      : {}),
   }))
   .sort((x, y) => (x.dateLimite ?? "9999").localeCompare(y.dateLimite ?? "9999"));
 

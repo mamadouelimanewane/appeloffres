@@ -2,7 +2,7 @@
 import Link from "next/link";
 import { use, useState } from "react";
 import { notFound } from "next/navigation";
-import { ArrowLeft, BookmarkCheck, BookmarkPlus, Building, CalendarDays, Check, Copy, ExternalLink, FileText, Printer, Sparkles } from "lucide-react";
+import { ArrowLeft, BookmarkCheck, BookmarkPlus, Bot, Building, CalendarDays, Check, Copy, ExternalLink, FileText, Printer, Sparkles } from "lucide-react";
 import { compteARebours, dateFr, fcfa, joursRestants, piecesPour, scorePreparation, selonDao } from "@/lib/data";
 import { APPELS } from "@/lib/donnees";
 import { PROFIL_VIDE, Profil, useLocal } from "@/lib/storage";
@@ -73,6 +73,31 @@ export default function DetailAppel({ params }: { params: Promise<{ id: string }
 
       <div className="conteneur grid gap-6 py-8 lg:grid-cols-[1fr_340px]">
         <div className="space-y-6">
+          {a.lectureIa && (
+            <section className="carte border-violet-200 p-6">
+              <div className="flex flex-wrap items-center justify-between gap-2">
+                <h2 className="flex items-center gap-2 text-lg font-bold"><Bot className="h-5 w-5 text-violet-600" /> Ce que dit l&apos;avis</h2>
+                <span className="puce bg-violet-50 text-violet-800 ring-1 ring-violet-200">Lu par IA</span>
+              </div>
+              {a.lectureIa.resume && <p className="mt-3 leading-relaxed text-slate-700">{a.lectureIa.resume}</p>}
+              <dl className="mt-4 grid gap-3 text-sm sm:grid-cols-2">
+                {a.dateLimite && <div><dt className="text-xs uppercase tracking-wide text-slate-400">Dépôt des offres</dt><dd className="font-medium">{dateFr(a.dateLimite)}{a.lectureIa.heureLimite ? ` à ${a.lectureIa.heureLimite}` : ""}</dd></div>}
+                {a.lectureIa.lieuDepot && <div><dt className="text-xs uppercase tracking-wide text-slate-400">Lieu de dépôt</dt><dd className="font-medium">{a.lectureIa.lieuDepot}</dd></div>}
+              </dl>
+              {a.lectureIa.piecesExigees.length > 0 && (
+                <>
+                  <p className="mt-4 text-sm font-semibold text-slate-800">Pièces demandées dans l&apos;avis</p>
+                  <ul className="mt-2 space-y-1.5 text-sm text-slate-700">
+                    {a.lectureIa.piecesExigees.map((p) => <li key={p} className="flex gap-2"><Check className="mt-0.5 h-4 w-4 shrink-0 text-violet-600" />{p}</li>)}
+                  </ul>
+                </>
+              )}
+              <p className="mt-4 text-xs text-slate-500">
+                Informations extraites automatiquement du document de l&apos;avis ({a.lectureIa.modele}). Les dates et montants ne sont retenus que s&apos;ils figurent dans le texte.
+                {a.lectureIa.tronque && " Document long : seule la première partie a été lue."} Vérifiez toujours sur l&apos;avis officiel.
+              </p>
+            </section>
+          )}
           <section className="carte p-6">
             <div className="flex flex-wrap items-center justify-between gap-3">
               <h2 className="flex items-center gap-2 text-lg font-bold"><FileText className="h-5 w-5 text-brand-700" /> Pièces à fournir</h2>

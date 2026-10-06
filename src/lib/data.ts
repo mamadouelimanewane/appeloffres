@@ -17,6 +17,15 @@ export interface Appel {
   publieLe: string | null; // ISO yyyy-mm-dd
   dateLimite: string | null; // ISO yyyy-mm-dd ; null = voir l'avis officiel
   url: string | null;
+  /** Informations lues dans le document de l'avis par l'IA (dates et montants vérifiés dans le texte). */
+  lectureIa?: {
+    resume: string | null;
+    piecesExigees: string[];
+    heureLimite: string | null;
+    lieuDepot: string | null;
+    modele: string;
+    tronque: boolean;
+  };
 }
 
 /** Secteur déduit du type de marché et de l'objet (mots-clés). */

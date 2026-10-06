@@ -6,12 +6,14 @@
     "dev": "next dev --port 3100",
     "build": "next build",
     "start": "next start",
-    "test": "node --experimental-strip-types --test src/lib/*.test.ts",
+    "test": "node --experimental-strip-types --test src/lib/*.test.ts src/lib/ia/*.test.ts",
     "collecte:dcmp": "node --experimental-strip-types scripts/collecte-dcmp.ts",
     "collecte": "node --experimental-strip-types scripts/collecte.ts",
-    "ppm": "node --experimental-strip-types scripts/ppm.ts"
+    "ppm": "node --experimental-strip-types scripts/ppm.ts",
+    "ia": "node --env-file-if-exists=.env.local --experimental-strip-types scripts/enrichir-ia.ts"
   },
   "dependencies": {
+    "@anthropic-ai/sdk": "^0.131.0",
     "lucide-react": "^0.460.0",
     "next": "^15.5.26",
     "pdfjs-dist": "^4.10.38",
