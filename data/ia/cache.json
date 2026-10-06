@@ -240,5 +240,270 @@
    "resume": null
   },
   "erreur": null
+ },
+ "https://www.senelec.sn/media/marches/appels/AVIS_AO__36-2026_-_BATTERIES_POUR_SALLES_DENERGIES.pdf": {
+  "url": "https://www.senelec.sn/media/marches/appels/AVIS_AO__36-2026_-_BATTERIES_POUR_SALLES_DENERGIES.pdf",
+  "traiteLe": "2026-10-06T20:42:47.267Z",
+  "fournisseur": "DeepSeek",
+  "modele": "deepseek-flash",
+  "tronque": false,
+  "extraction": {
+   "estUnAvis": true,
+   "objet": "ACQUISITION DE BATTERIES D’ONDULEURS POUR LES SALLES D’ENERGIE",
+   "acheteur": "Senelec",
+   "reference": "N°36/2026 ; REF PPM : F_DSI_387",
+   "typeProcedure": "Appel d'offres ouvert",
+   "dateLimite": "2026-10-21",
+   "heureLimite": "09 HEURES 30 MINUTES",
+   "montantEstimeFcfa": null,
+   "garantieSoumissionFcfa": 1500000,
+   "piecesExigees": [
+    "États financiers des trois derniers exercices comptables (2023, 2024 et 2025) dûment certifiés par un commissaire aux comptes ou accompagnés de l’attestation de visa établie par un membre de l’Ordre n",
+    "Attestation de bonne exécution d’un marché réalisé pendant les cinq dernières années de 2021 à 2025.",
+    "Attestation de partenariat valide du fabriquant des batteries ou du distributeur agréé.",
+    "CV signé et copie légalisée du diplôme/attestation pour le chef de projet et les deux techniciens.",
+    "Preuves de propriété ou contrat de location des outils, équipements et moyens de manutention nécessaires.",
+    "Documents justificatifs d’être en règle avec les administrations fiscales et sociales (IPRES, SECURITE SOCIALE, INSPECTION DU TRAVAIL, QUITUS FISCAL, ATTESTATION DE PAIEMENT de la REDEVANCE ARCOP gest",
+    "Attestation de non-faillite à la signature du contrat.",
+    "Garantie de soumission d’un montant d’Un million cinq cent mille (1 500 000) FCFA émise par un organisme financier agréé par le Ministère de l’Economie, des Finances et du Plan du Sénégal."
+   ],
+   "lieuDepot": "SENELEC, Salle Commission des Marchés sise au 19, rue Abdou Karim Bourgi x Wagane Diouf au 2ème étage de la Résidence Khoudia, Dakar",
+   "resume": "Senelec lance un appel d’offres pour acquérir des batteries d’onduleurs destinées aux salles d’énergie, avec un lot unique. Les offres doivent être déposées au plus tard le 21 octobre 2026 à 09h30, heure locale, avec une garantie de soumission de 1 500 000 FCFA."
+  },
+  "erreur": null
+ },
+ "https://www.senelec.sn/media/marches/appels/AMI_N35-2026_-_RECRUTEMENT_CONSULTANT_APS-APD_-_PADAES_-_CPBM-UE-BM-DPM-__Ohowbc8.pdf": {
+  "url": "https://www.senelec.sn/media/marches/appels/AMI_N35-2026_-_RECRUTEMENT_CONSULTANT_APS-APD_-_PADAES_-_CPBM-UE-BM-DPM-__Ohowbc8.pdf",
+  "traiteLe": "2026-10-06T20:42:56.830Z",
+  "fournisseur": "DeepSeek",
+  "modele": "deepseek-flash",
+  "tronque": false,
+  "extraction": {
+   "estUnAvis": true,
+   "objet": "Recrutement d’un consultant pour la réalisation des études d’Avant-Projet Sommaire (APS), d’Avant-Projet Détaillé (APD), pour l’électrification à moindre coût des localités situées dans le périmètre de SENELEC.",
+   "acheteur": "SENELEC",
+   "reference": "AMI N° 35 /2026",
+   "typeProcedure": "Manifestation d’intérêt (AMI) – Sélection Fondée sur la Qualité et le Coût (SFQC)",
+   "dateLimite": "2026-10-21",
+   "heureLimite": "09 HEURES 30 MN PREC",
+   "montantEstimeFcfa": null,
+   "garantieSoumissionFcfa": null,
+   "piecesExigees": [
+    "Agrément du Ministère de l’Environnement et de la Transition Ecologique pour la réalisation d’études environnementales (au moins un membre en cas de groupement).",
+    "Attestations de bonne exécution ou de services faits pour chaque expérience annoncée.",
+    "Justificatifs d’expérience : APD de taille similaire, élaboration de DAO, évaluation économique et financière, évaluation environnementale et sociale financée par un PTF, élaboration de PR selon régle",
+    "Licence et capacité d’utilisation d’un logiciel spécialisé SIG.",
+    "Licence et capacité d’utilisation d’un logiciel de planification.",
+    "Manifestation d’intérêt en français officiel (1 original et 3 copies, plus version électronique).",
+    "Lettre de soumission précisant le ou les lots concernés."
+   ],
+   "lieuDepot": "Version physique : Senelec Salle de la Commission des Marchés de Senelec sise au 19, Rue Abdou Karim Bourgi x Wagane Diouf au 2ème étage de la Résidence Khoudia, Dakar ; Version électronique : notificationcpm@senelec.sn & mamearame.ndieguene@senelec.sn",
+   "resume": "SENELEC recrute un consultant pour réaliser les études APS/APD et le DAO pour l’électrification à moindre coût de 1 661 localités dans son périmètre, en deux lots. Les manifestations d’intérêt doivent être déposées au plus tard le mercredi 21 octobre 2026 à 09h30, avec notamment un agrément environnemental et des attestations de bonne exécution pour les expériences exigées."
+  },
+  "erreur": null
+ },
+ "https://ageroute.sn/download/34/avis-appels-offres-travaux/13304/travaux-dentretien-des-routes-revetues-dans-les-regions-de-dakar-thies-saint-louis-diourbel-louga-matam-tambacounda-et-kedougou.pdf": {
+  "url": "https://ageroute.sn/download/34/avis-appels-offres-travaux/13304/travaux-dentretien-des-routes-revetues-dans-les-regions-de-dakar-thies-saint-louis-diourbel-louga-matam-tambacounda-et-kedougou.pdf",
+  "traiteLe": "2026-10-06T20:43:14.291Z",
+  "fournisseur": "DeepSeek",
+  "modele": "deepseek-flash",
+  "tronque": false,
+  "extraction": {
+   "estUnAvis": true,
+   "objet": "Travaux d'entretien des routes revêtues dans les régions de Dakar, Thiès, Saint-Louis, Diourbel, Louga, Matam, Tambacounda et Kédougou, en un seul lot",
+   "acheteur": "Agence des Travaux et de Gestion des Routes (AGEROUTE) Sénégal, agissant au nom et pour le compte du Ministère des Infrastructures (MI)",
+   "reference": "D/ 1828 /A2 Ref PPM : T_DGER_11",
+   "typeProcedure": "Appel d'offres national ouvert – cas sans pré qualification",
+   "dateLimite": "2026-10-22",
+   "heureLimite": "11 heures 30 minutes",
+   "montantEstimeFcfa": null,
+   "garantieSoumissionFcfa": 60000000,
+   "piecesExigees": [
+    "Deux (02) marchés similaires de travaux routiers exécutés au cours des dix (10) dernières années, d'un montant minimum de 2 400 000 000 FCFA chacun",
+    "Chiffre d'affaires annuel moyen d'au moins 4 500 000 000 FCFA sur les trois (03) derniers exercices (2023, 2024 et 2025)",
+    "États financiers accompagnés de l'attestation de visa établie par un membre de l'ONECCA ou un organisme assimilé pour les trois (03) dernières années (2023, 2024 et 2025)",
+    "Attestation de ligne de crédit auprès d'une banque agréée par le Ministère de l'Économie, des Finances et du Plan d'un montant équivalent à 800 000 000 FCFA",
+    "Justifier d'une expérience générale d'au moins dix (10) années dans l'exécution de travaux de génie civil ou de travaux routiers",
+    "Une garantie de soumission délivrée par une institution financière agréée par le ministère de l'Économie, des Finances et du Plan, d'un montant de 60 000 000 FCFA"
+   ],
+   "lieuDepot": "Secrétariat de la Direction de passation des marchés de l'AGEROUTE SENEGAL, Rue David DIOP x F, Fann Résidence, Tel : 33 869 07 51",
+   "resume": "L'AGEROUTE Sénégal lance un appel d'offres ouvert pour l'entretien des routes revêtues dans huit régions (Dakar, Thiès, Saint-Louis, Diourbel, Louga, Matam, Tambacounda, Kédougou), en un seul lot, pour un délai de 12 mois. La condition la plus importante : déposer son offre au plus tard le 22 octobre 2026 à 11h30 (GMT), accompagnée d'une garantie de soumission de 60 000 000 FCFA et justifiant d'au moins deux marchés routiers similaires de 2,4 milliards FCFA chacun."
+  },
+  "erreur": null
+ },
+ "https://ageroute.sn/download/34/avis-appels-offres-travaux/13303/travaux-de-construction-du-pont-de-dimat-y-compris-les-voies-de-dacces.pdf": {
+  "url": "https://ageroute.sn/download/34/avis-appels-offres-travaux/13303/travaux-de-construction-du-pont-de-dimat-y-compris-les-voies-de-dacces.pdf",
+  "traiteLe": "2026-10-06T20:43:21.768Z",
+  "fournisseur": "DeepSeek",
+  "modele": "deepseek-flash",
+  "tronque": false,
+  "extraction": null,
+  "erreur": "texte insuffisant (document scanné ou vide)"
+ },
+ "https://ageroute.sn/download/33/appels-doffres-de-fournitures/13305/acquisition-dun-orniereur-grand-modele-pour-le-compte-de-lnr-btp-relance.pdf": {
+  "url": "https://ageroute.sn/download/33/appels-doffres-de-fournitures/13305/acquisition-dun-orniereur-grand-modele-pour-le-compte-de-lnr-btp-relance.pdf",
+  "traiteLe": "2026-10-06T20:43:24.447Z",
+  "fournisseur": "DeepSeek",
+  "modele": "deepseek-flash",
+  "tronque": false,
+  "extraction": {
+   "estUnAvis": true,
+   "objet": "AON pour l’acquisition d’un orniéreur grand modèle pour le compte de LNR - BTP (Relance)",
+   "acheteur": "AGEROUTE",
+   "reference": "D/1793/F (Relance)",
+   "typeProcedure": "Mise en Concurrence nationale (AON)",
+   "dateLimite": "2026-11-10",
+   "heureLimite": "10 heures 30 mn (GMT",
+   "montantEstimeFcfa": null,
+   "garantieSoumissionFcfa": 4000000,
+   "piecesExigees": [
+    "États financiers des trois dernières années (2023, 2024 et 2025) accompagnés de l'attestation de visa ONECCA ou organisme assimilé",
+    "Preuve écrite de capacité technique : attestation de services faits, PV de réception ou certificat de service fait",
+    "Avoir réalisé au moins un marché de fourniture de matériels de laboratoire au cours des cinq dernières années pour un montant minimum de 180 000 000 FCFA",
+    "Garantie de soumission de 4 000 000 F CFA valide 28 jours après expiration de la validité des offres"
+   ],
+   "lieuDepot": "AGEROUTE - Sénégal sise à la Rue David Diop x Rue F Fann Résidence Dakar, auprès du secrétariat de la Direction de Passation des Marchés",
+   "resume": "L'AGEROUTE lance un appel d'offres pour l'acquisition d'un orniéreur grand modèle pour le compte de LNR - BTP. Les offres sont à déposer au plus tard le 10 novembre 2026 à 10h30 GMT, avec une garantie de soumission de 4 000 000 F CFA et une expérience minimale d'un marché similaire de 180 000 000 F CFA."
+  },
+  "erreur": null
+ },
+ "https://www.bceao.int/fr/appels-offres/travaux-de-remplacement-dun-scanner-de-colis-rayons-x-et-des-equipements-de-detection": {
+  "url": "https://www.bceao.int/fr/appels-offres/travaux-de-remplacement-dun-scanner-de-colis-rayons-x-et-des-equipements-de-detection",
+  "traiteLe": "2026-10-06T20:43:36.060Z",
+  "fournisseur": "DeepSeek",
+  "modele": "deepseek-flash",
+  "tronque": true,
+  "extraction": {
+   "estUnAvis": false,
+   "objet": null,
+   "acheteur": null,
+   "reference": null,
+   "typeProcedure": null,
+   "dateLimite": null,
+   "heureLimite": null,
+   "montantEstimeFcfa": null,
+   "garantieSoumissionFcfa": null,
+   "piecesExigees": [],
+   "lieuDepot": null,
+   "resume": null
+  },
+  "erreur": null
+ },
+ "https://www.bceao.int/fr/appels-offres/selection-dun-prestataire-pour-la-realisation-de-laudit-de-la-communication-de-la-0": {
+  "url": "https://www.bceao.int/fr/appels-offres/selection-dun-prestataire-pour-la-realisation-de-laudit-de-la-communication-de-la-0",
+  "traiteLe": "2026-10-06T20:43:42.422Z",
+  "fournisseur": "DeepSeek",
+  "modele": "deepseek-flash",
+  "tronque": true,
+  "extraction": {
+   "estUnAvis": false,
+   "objet": null,
+   "acheteur": null,
+   "reference": null,
+   "typeProcedure": null,
+   "dateLimite": null,
+   "heureLimite": null,
+   "montantEstimeFcfa": null,
+   "garantieSoumissionFcfa": null,
+   "piecesExigees": [],
+   "lieuDepot": null,
+   "resume": "Le texte est un rapport sur la politique monétaire dans l'UMOA, et non un avis d'appel d'offres. Il ne contient ni objet de marché, ni conditions de soumission, ni date limite de dépôt."
+  },
+  "erreur": null
+ },
+ "https://www.bceao.int/fr/appels-offres/fourniture-dequipements-de-sport-pour-la-salle-de-gymnastique-du-siege-de-la-bceao-0": {
+  "url": "https://www.bceao.int/fr/appels-offres/fourniture-dequipements-de-sport-pour-la-salle-de-gymnastique-du-siege-de-la-bceao-0",
+  "traiteLe": "2026-10-06T20:43:51.008Z",
+  "fournisseur": "DeepSeek",
+  "modele": "deepseek-flash",
+  "tronque": true,
+  "extraction": {
+   "estUnAvis": false,
+   "objet": null,
+   "acheteur": null,
+   "reference": null,
+   "typeProcedure": null,
+   "dateLimite": null,
+   "heureLimite": null,
+   "montantEstimeFcfa": null,
+   "garantieSoumissionFcfa": null,
+   "piecesExigees": [],
+   "lieuDepot": null,
+   "resume": "Ce document est un rapport sur la politique monétaire dans l'UMOA, il ne s'agit pas d'un avis d'appel d'offres. Il ne contient donc aucune demande de candidature ni condition de dépôt."
+  },
+  "erreur": null
+ },
+ "https://www.bceao.int/fr/appels-offres/acquisition-de-materiels-de-manutention-pour-le-siege-de-la-bceao-et-ses-agences-0": {
+  "url": "https://www.bceao.int/fr/appels-offres/acquisition-de-materiels-de-manutention-pour-le-siege-de-la-bceao-et-ses-agences-0",
+  "traiteLe": "2026-10-06T20:43:59.015Z",
+  "fournisseur": "DeepSeek",
+  "modele": "deepseek-flash",
+  "tronque": true,
+  "extraction": {
+   "estUnAvis": false,
+   "objet": null,
+   "acheteur": null,
+   "reference": null,
+   "typeProcedure": null,
+   "dateLimite": null,
+   "heureLimite": null,
+   "montantEstimeFcfa": null,
+   "garantieSoumissionFcfa": null,
+   "piecesExigees": [],
+   "lieuDepot": null,
+   "resume": null
+  },
+  "erreur": null
+ },
+ "https://artp.sn/espace-professionnels/appels-d-offres/avis-dappel-doffres-international-cas-sans-pre-qualification": {
+  "url": "https://artp.sn/espace-professionnels/appels-d-offres/avis-dappel-doffres-international-cas-sans-pre-qualification",
+  "traiteLe": "2026-10-06T20:44:06.564Z",
+  "fournisseur": "DeepSeek",
+  "modele": "deepseek-flash",
+  "tronque": true,
+  "extraction": {
+   "estUnAvis": true,
+   "objet": "Maintenance du SIGAF",
+   "acheteur": "Autorité de Régulation des Télécommunications et des Postes (ARTP)",
+   "reference": "N° S_ARTP_036",
+   "typeProcedure": "Appel d’Offres ouvert à l’International (AAOI)",
+   "dateLimite": "2026-10-07",
+   "heureLimite": "11 heures précises",
+   "montantEstimeFcfa": null,
+   "garantieSoumissionFcfa": 2500000,
+   "piecesExigees": [
+    "Garantie de soumission d’un montant de 2 500 000 francs CFA",
+    "États financiers des années 2023, 2024 et 2025 certifiés par un expert-comptable ou cabinet d’expertise comptable agréé par l’ONECCA pour les candidats Sénégalais, ou par un organisme équivalent pour ",
+    "Certificat de service fait accompagné d’une copie du contrat signé ou du procès-verbal de service fait pour au moins un marché de nature et de taille similaires réalisé durant les trois dernières anné",
+    "Attestation de disponibilité de liquidités et/ou de facilités de crédit net d’autres engagements contractuels d’un montant de 28 000 000 francs CFA",
+    "Attestation de partenariat agréé par l’éditeur du logiciel LS TELCOM",
+    "Diplôme et Curriculum Vitae d’un ingénieur de niveau Bac+5 en Télécommunication ou équivalent, ayant suivi une ou des formations de LS TELCOM sur la maintenance logicielle des modules SPECTRA"
+   ],
+   "lieuDepot": "Autorité de Régulation des Télécommunications et des Postes, Ouakam, Route des Almadies, immeuble ARTP, bureau n°A117 au 1er étage, auprès de Mme Néné TRAORE TAMBEDOU, de la Cellule de Passation des Marchés",
+   "resume": "L’ARTP demande la maintenance du SIGAF, avec mise à jour des modules, fourniture éventuelle d’une licence Oracle et maintenance corrective, préventive, adaptative et évolutive. Il faut déposer une offre avant le 07 octobre 2026 à 11 heures précises avec une garantie de soumission de 2 500 000 FCFA et répondre aux qualifications exigées, notamment être partenaire agréé LS TELCOM."
+  },
+  "erreur": null
+ },
+ "https://www.senelec.sn/media/marches/appels/Additif_-_ACF_22_2026_DPM_13082690_obyCqwn.pdf": {
+  "url": "https://www.senelec.sn/media/marches/appels/Additif_-_ACF_22_2026_DPM_13082690_obyCqwn.pdf",
+  "traiteLe": "2026-10-06T20:45:04.014Z",
+  "fournisseur": "DeepSeek",
+  "modele": "deepseek-flash",
+  "tronque": false,
+  "extraction": {
+   "estUnAvis": true,
+   "objet": "Additif à l'avis d'appel public à candidature pour accord-cadre ferme international (ACFI) N° 22/2026 - Acquisition de compteurs - F_DPC_024",
+   "acheteur": "Senelec",
+   "reference": "ACFI N° 22/2026",
+   "typeProcedure": "Accord-cadre ferme international (ACFI)",
+   "dateLimite": "2026-09-02",
+   "heureLimite": "09h 30mn",
+   "montantEstimeFcfa": null,
+   "garantieSoumissionFcfa": null,
+   "piecesExigees": [],
+   "lieuDepot": null,
+   "resume": "Senelec a publié un additif pour l'accord-cadre ferme international ACFI N° 22/2026 portant acquisition de compteurs. Cet additif modifie certaines exigences techniques et clauses du dossier, et la date limite de dépôt des offres reste fixée au mercredi 02 septembre 2026 à 09h30, avec un lieu de dépôt inchangé."
+  },
+  "erreur": null
  }
 }

@@ -26,6 +26,7 @@ export const CONSIGNE_SYSTEME = `Tu lis des avis d'appels d'offres publics du S�
 Règles impératives :
 - N'invente rien. Si une information n'est pas écrite dans le texte, mets null (ou [] pour une liste).
 - Recopie les dates telles qu'elles apparaissent dans le texte (ex. "15 octobre 2026" ou "15/10/2026").
+- "dateLimite" est la date limite de DÉPÔT des offres. Si le texte est un avis de report, un additif ou un rectificatif, donne la NOUVELLE date limite, pas l'ancienne.
 - Recopie les montants en chiffres tels qu'ils apparaissent (ex. "1 000 000").
 - "estUnAvis" vaut false si le texte n'est pas un avis d'appel d'offres, de demande de prix ou de manifestation d'intérêt (actualité, offre d'emploi, attribution, résultat…).
 - "piecesExigees" : pièces administratives ou documents que le candidat doit fournir, en phrases courtes.

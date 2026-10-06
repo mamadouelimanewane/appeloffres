@@ -85,7 +85,10 @@ export default function DetailAppel({ params }: { params: Promise<{ id: string }
                   <AlertTriangle className="mt-0.5 h-4 w-4 shrink-0" />
                   <span>
                     <b>Dates différentes :</b> la liste de la source indique le {dateFr(a.dateLimite)}, mais le document de l&apos;avis indique le{" "}
-                    {dateFr(a.lectureIa.dateLimiteAvis)}. Vérifiez auprès de l&apos;acheteur ; en cas de doute, retenez la date la plus proche.
+                    {dateFr(a.lectureIa.dateLimiteAvis)}.{" "}
+                    {joursRestants(a.lectureIa.dateLimiteAvis) < 0
+                      ? "Cette date est passée : cet appel d'offres est peut-être déjà clos. Vérifiez auprès de l'acheteur avant de préparer un dossier."
+                      : "Vérifiez auprès de l'acheteur ; en cas de doute, retenez la date la plus proche."}
                   </span>
                 </p>
               )}
