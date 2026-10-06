@@ -20,7 +20,7 @@ const ETAPES = [
 ];
 
 const FONCTIONS = [
-  { icone: BellRing, titre: "Appels d'offres ouverts", texte: "Senelec, AGEROUTE, Port de Dakar, Banque mondiale… avec la date limite et le lien vers l'avis officiel.", href: "/appels" },
+  { icone: BellRing, titre: "Appels d'offres ouverts", texte: "Acheteurs publics, BCEAO, ARTP, agences de l'ONU, Banque mondiale et ONG… avec la date limite et le lien vers l'avis officiel.", href: "/appels" },
   { icone: CalendarClock, titre: "Marchés à venir", texte: "Les marchés inscrits aux plans de passation, avant même la publication de l'avis.", href: "/a-venir" },
   { icone: BarChart3, titre: "Qui gagne quoi", texte: "Montants attribués, nombre d'offres reçues et entreprises gagnantes, par produit ou service.", href: "/qui-gagne" },
   { icone: FileText, titre: "Pièces à fournir", texte: "NINEA, RCCM, attestations fiscale et sociale, garanties… une liste claire pour chaque marché.", href: "/appels" },
@@ -104,7 +104,7 @@ export default function Accueil() {
               <Link href="/a-venir" className="btn-fantome">Marchés à venir</Link>
             </div>
             <p className="mt-8 flex flex-wrap items-center gap-x-3 gap-y-1 text-xs text-brand-100/70">
-              <ShieldCheck className="h-4 w-4 text-or-300" /> Sources officielles : DCMP · Senelec · AGEROUTE · Port de Dakar · Banque mondiale
+              <ShieldCheck className="h-4 w-4 text-or-300" /> Sources officielles : Senelec · AGEROUTE · Port de Dakar · BCEAO · ARTP · Banque mondiale · Nations unies · ONG
             </p>
           </div>
           <ApercuProduit />

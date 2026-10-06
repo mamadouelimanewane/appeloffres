@@ -30,6 +30,24 @@ Recherche du 2026-10-05 (recherche web ; contenus à vérifier sur les sites eux
 | achatspublics.sn (APPEL) | **liste réservée aux comptes fournisseurs** (API répond 401) | pas de contournement. Référentiels, avis généraux et contenus sont publics ; les appels d'offres exigent un compte. Piste produit : chaque PME connecte son propre compte. |
 | marchespublics.sn (DCMP) | portail injoignable le 2026-10-05 | collecteur prêt (`npm run collecte:dcmp`), validé sur archive |
 
+### Organisations internationales et ONG (ajoutées le 2026-10-06)
+
+| Source | Méthode | Résultat | Remarque |
+|---|---|---|---|
+| **UNGM** (portail des ~40 agences de l'ONU : UNICEF, FAO, PAM, ONUDI, OIT, OMS, OIM…) | Recherche publique `POST /Public/Notice/Search` (jeton lu sur la page publique, comme un navigateur), pays 2472 = Sénégal, avis ouverts | 17 avis | On garde « Senegal », et « destinations multiples » seulement si le titre cite le Sénégal ou Dakar. |
+| **BCEAO** (siège à Dakar) | Page « Appel d'offres – En cours » | 4 avis | Les avis ne concernant qu'un autre pays de l'UEMOA sont écartés. |
+| **ARTP** | Page `/espace-professionnels/appels-d-offres` | 88 lus, 1 encore ouvert | Dates abrégées (« 07 oct 2026 »). |
+| **PFONGUE** (plate-forme des ONG européennes au Sénégal) | Flux RSS SPIP `spip.php?page=backend` (10 dernières annonces) | 2 avis d'ONG | Les offres d'emploi sont écartées ; date limite dans le PDF joint (non lue). |
+
+Écartées volontairement :
+- **PNUD** (procurement-notices.undp.org) : robots.txt `Disallow: /` → non collecté (ses avis sont souvent repris sur UNGM).
+- **Coordination SUD** : robots.txt derrière une protection anti-robots (Cloudflare) → non collecté par respect de ce choix ; à consulter à la main ou par partenariat.
+- **Union européenne** (portail Funding & Tenders, interface SEDIA) : interrogeable, mais la recherche simple renvoie surtout des fiches d'organisations ; requête à affiner.
+- **ISRA** : API WordPress lisible (catégorie 104) mais trop peu d'avis (dernier : juillet 2026).
+- **SenOffre, Jeune Afrique Annonces, AfriTenders** : agrégateurs (travail de compilation de tiers) → pas de collecte, comme pour Marchés du Sénégal.
+
+Pistes ONG à suivre à la main : sites Sénégal de Plan International, World Vision, Save the Children, CRS, Oxfam, Enda ; coopérations bilatérales (GIZ, Enabel, AFD, coopération italienne AICS Dakar, JICA, USAID) ; délégation de l'UE (eeas.europa.eu/delegations/senegal).
+
 ### Sources testées le 2026-10-06 et écartées (pour l'instant)
 
 | Source | Constat |

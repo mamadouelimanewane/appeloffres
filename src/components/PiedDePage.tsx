@@ -24,10 +24,11 @@ export function PiedDePage() {
         <div>
           <p className="text-sm font-semibold text-white">Sources officielles</p>
           <ul className="mt-4 space-y-2 text-sm">
-            <li>Portail des marchés publics (DCMP)</li>
-            <li>Senelec · AGEROUTE</li>
-            <li>Port Autonome de Dakar</li>
-            <li>Banque mondiale</li>
+            <li>Portail des marchés publics (DCMP, archives)</li>
+            <li>Senelec · AGEROUTE · ARTP</li>
+            <li>Port Autonome de Dakar · BCEAO</li>
+            <li>Banque mondiale · Nations unies (UNGM)</li>
+            <li>ONG (plate-forme PFONGUE)</li>
           </ul>
         </div>
       </div>

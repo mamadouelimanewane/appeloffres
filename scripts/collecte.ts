@@ -5,11 +5,11 @@
  */
 import { existsSync, mkdirSync, readFileSync, writeFileSync } from "node:fs";
 import { dirname } from "node:path";
-import { CHAMPS_BM, parseAgeroute, parseBanqueMondiale, parsePad, parseSenelec, type AvisCollecte } from "../src/lib/sources.ts";
+import { CHAMPS_BM, parseAgeroute, parseArtp, parseBanqueMondiale, parseBceao, parsePad, parsePfongue, parseSenelec, parseUngm, type AvisCollecte } from "../src/lib/sources.ts";
 
 const args = process.argv.slice(2);
 const opt = (n: string) => args.find((a) => a.startsWith(`--${n}=`))?.split("=").slice(1).join("=");
-const choisies = (opt("source") ?? "senelec,pad,ageroute,banquemondiale").split(",");
+const choisies = (opt("source") ?? "senelec,pad,ageroute,banquemondiale,ungm,bceao,artp,pfongue").split(",");
 const pauseMs = Number(opt("pause") ?? 1500);
 const dormir = (ms: number) => new Promise((r) => setTimeout(r, ms));
 
@@ -48,6 +48,38 @@ const SOURCES: Source[] = [
       yield parseBanqueMondiale(JSON.parse(await lire(url))).filter((a) => a.type !== "Avis d'attribution");
     },
   },
+  {
+    // UNGM : portail public des agences de l'ONU. Comme la page publique, on lit
+    // d'abord le jeton de session, puis on interroge la recherche (avis ouverts, Sénégal).
+    nom: "ungm",
+    pages: async function* () {
+      const accueil = await fetch("https://www.ungm.org/Public/Notice", { headers: { "User-Agent": "SoumissionPME-collecte/0.1" }, signal: AbortSignal.timeout(45_000) });
+      const cookies = (accueil.headers.getSetCookie?.() ?? []).map((c) => c.split(";")[0]).join("; ");
+      const jeton = /name="__RequestVerificationToken" type="hidden" value="([^"]+)"/.exec(await accueil.text())?.[1];
+      if (!jeton) throw new Error("jeton UNGM introuvable");
+      for (let page = 0; page < 10; page++) {
+        const r = await fetch("https://www.ungm.org/Public/Notice/Search", {
+          method: "POST",
+          headers: { "User-Agent": "SoumissionPME-collecte/0.1", "Content-Type": "application/json", RequestVerificationToken: jeton, Cookie: cookies },
+          body: JSON.stringify({
+            PageIndex: page, PageSize: 15, Title: "", Description: "", Reference: "", PublishedFrom: "", PublishedTo: "", DeadlineFrom: "", DeadlineTo: "",
+            Countries: ["2472"], Agencies: [], UNSPSCs: [], NoticeTypes: [], SortField: "DatePublished", SortAscending: false, isPicker: false,
+            IsSustainable: false, IsActive: true, NoticeDisplayType: null, NoticeSearchTotalLabelId: "noticeSearchTotal", TypeOfCompetitions: [],
+          }),
+          signal: AbortSignal.timeout(45_000),
+        });
+        if (!r.ok) throw new Error(`HTTP ${r.status}`);
+        const html = await r.text();
+        const lignes = (html.match(/data-noticeid=/gi) ?? []).length;
+        yield parseUngm(html);
+        if (lignes < 15) return;
+        await dormir(pauseMs);
+      }
+    },
+  },
+  { nom: "pfongue", pages: async function* () { yield parsePfongue(await lire("https://www.pfongue.org/spip.php?page=backend")); } },
+  { nom: "artp", pages: async function* () { yield parseArtp(await lire("https://artp.sn/espace-professionnels/appels-d-offres")); } },
+  { nom: "bceao", pages: async function* () { yield parseBceao(await lire("https://www.bceao.int/fr/appels-offres/appels-offres-marches-publics-achats")); } },
   {
     nom: "ageroute",
     pages: async function* () {

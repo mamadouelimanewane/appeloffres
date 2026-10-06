@@ -1,7 +1,7 @@
 import test from "node:test";
 import assert from "node:assert/strict";
 import { readFileSync } from "node:fs";
-import { dateFrancaise, parseAgeroute, parseBanqueMondiale, parsePad, parseSenelec } from "./sources.ts";
+import { dateAnglaise, dateFrancaise, parseAgeroute, parseArtp, parseBceao, parsePfongue, parseBanqueMondiale, parsePad, parseSenelec, parseUngm } from "./sources.ts";
 
 const fixture = (nom: string) => readFileSync(new URL(`./fixtures/${nom}`, import.meta.url), "utf8");
 
@@ -58,7 +58,73 @@ test("Banque mondiale : types traduits, dates de publication et limite, acheteur
   assert.ok(avis.some((a) => a.type === "Avis général de passation"));
 });
 
+test("UNGM : avis des agences de l'ONU pour le Sénégal seulement", () => {
+  const avis = parseUngm(fixture("ungm.html"));
+  // 4 avis « Senegal » + 1 avis multi-pays de l'OIT dont le titre cite le Sénégal ;
+  // les autres avis multi-pays sont écartés
+  assert.equal(avis.length, 5);
+  assert.ok(avis.some((a) => a.autorite === "OIT (Nations unies)" && /Sénégal/i.test(a.objet)));
+  assert.ok(avis.some((a) => /^Mise en place d’un Accord à Long Terme/.test(a.objet)));
+  const fao = avis.find((a) => a.autorite === "FAO (Nations unies)");
+  assert.ok(fao);
+  assert.match(fao.objet, /^Acquisition de réactifs et consommables de laboratoires/);
+  assert.equal(fao.type, "Appel d'offres");
+  assert.equal(fao.dateLimite, "2026-10-15");
+  assert.equal(fao.publieLe, "2026-10-01");
+  assert.equal(fao.url, "https://www.ungm.org/Public/Notice/316511");
+  assert.ok(avis.some((a) => a.autorite === "ONUDI (Nations unies)"));
+  assert.ok(!avis.some((a) => /ARMENIA/i.test(a.objet)));
+});
+
+test("BCEAO : avis en cours concernant le Sénégal, sans ceux des autres pays de l'UEMOA", () => {
+  const avis = parseBceao(fixture("bceao.html"));
+  assert.equal(avis.length, 4);
+  const kaolack = avis.find((a) => /Kaolack/.test(a.objet));
+  assert.ok(kaolack);
+  assert.equal(kaolack.reference, "AC/K01/AAK/002/2026");
+  assert.equal(kaolack.publieLe, "2026-10-05");
+  assert.equal(kaolack.dateLimite, "2026-10-26");
+  assert.ok(!avis.some((a) => /Bénin/.test(a.objet)), "l'avis pour le Bénin est écarté");
+  assert.ok(avis.every((a) => (a.dateLimite ?? "") >= "2026-10-05"), "aucun avis clos");
+  assert.ok(avis.some((a) => /\(relance\)$/.test(a.objet)));
+});
+
+test("ARTP : date limite abrégée, type, référence, lien", () => {
+  const avis = parseArtp(fixture("artp.html"));
+  assert.equal(avis.length, 12);
+  const a = avis[0];
+  assert.equal(a.dateLimite, "2026-10-07");
+  assert.equal(a.reference, "S_ARTP_036");
+  assert.equal(a.type, "Appel d'offres international");
+  assert.match(a.url, /^https:\/\/artp\.sn\/espace-professionnels\/appels-d-offres\//);
+  assert.ok(avis.some((x) => x.type === "Additif"));
+});
+
+test("dateFrancaise lit aussi les mois abrégés", () => {
+  assert.equal(dateFrancaise("07 oct 2026"), "2026-10-07");
+  assert.equal(dateFrancaise("16 avr 2026"), "2026-04-16");
+  assert.equal(dateFrancaise("2 sept. 2026"), "2026-09-02");
+});
+
+test("PFONGUE : appels d'offres des ONG, sans les offres d'emploi", () => {
+  const avis = parsePfongue(fixture("pfongue.xml"));
+  assert.equal(avis.length, 2);
+  assert.ok(avis.every((a) => !/EMPLOI/i.test(a.objet)));
+  const hi = avis.find((a) => /COUVERTURE SANTE/.test(a.objet));
+  assert.ok(hi);
+  assert.match(hi.objet, /^MISE EN PLACE D'UNE COUVERTURE SANTE/);
+  assert.equal(hi.publieLe, "2026-09-30");
+  assert.equal(hi.dateLimite, null);
+  assert.match(hi.url, /^https:\/\/www\.pfongue\.org\//);
+});
+
+test("dateAnglaise lit le format UNGM", () => {
+  assert.equal(dateAnglaise("18-Oct-2026 12:00 (GMT 2.00)"), "2026-10-18");
+  assert.equal(dateAnglaise("bientôt"), null);
+});
+
 test("une page sans avis donne une liste vide, sans erreur", () => {
+  assert.deepEqual(parseUngm("<html></html>"), []);
   assert.deepEqual(parseBanqueMondiale({}), []);
   assert.deepEqual(parseSenelec("<html></html>"), []);
   assert.deepEqual(parsePad("<html></html>"), []);

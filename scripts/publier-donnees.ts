@@ -22,6 +22,10 @@ const SOURCES: Record<string, { libelle: string; autorite: string | null }> = {
   pad: { libelle: "Port Autonome de Dakar", autorite: "Port Autonome de Dakar" },
   ageroute: { libelle: "AGEROUTE", autorite: "AGEROUTE Sénégal" },
   banquemondiale: { libelle: "Banque mondiale", autorite: null },
+  ungm: { libelle: "Nations unies (UNGM)", autorite: null },
+  bceao: { libelle: "BCEAO", autorite: "BCEAO" },
+  artp: { libelle: "ARTP", autorite: "ARTP" },
+  pfongue: { libelle: "ONG (PFONGUE)", autorite: null },
   dcmp: { libelle: "DCMP (marchespublics.sn)", autorite: null },
 };
 
