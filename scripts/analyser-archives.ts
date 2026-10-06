@@ -5,6 +5,7 @@
  */
 import { existsSync, mkdirSync, readFileSync, writeFileSync } from "node:fs";
 import { parseAttribution } from "../src/lib/attributions.ts";
+import { parsePlanDcmp } from "../src/lib/plans-dcmp.ts";
 
 const type = process.argv.find((a) => a.startsWith("--type="))?.split("=")[1] ?? "attribution";
 const chemin = (rel: string) => new URL(rel, import.meta.url).pathname.replace(/^\/([A-Za-z]:)/, "$1");
@@ -20,6 +21,9 @@ for (const [cle, { fichier, copieLe, url }] of Object.entries(index)) {
   if (type === "attribution") {
     const idAvis = /idavis=(\d+)/.exec(cle)?.[1] ?? cle;
     sortie.push({ id: `dcmp:attribution:${idAvis}`, copieLe, source: url.replace(/^https?:\/\/web\.archive\.org\/web\/\d+(?:id_)?\//, ""), ...parseAttribution(html) });
+  } else if (type === "plan") {
+    const p = parsePlanDcmp(html);
+    if (p.realisations.length) sortie.push({ id: `dcmp:plan:${p.plan ?? cle}`, copieLe, source: url.replace(/^https?:\/\/web\.archive\.org\/web\/\d+(?:id_)?\//, ""), ...p });
   } else {
     throw new Error(`Type non pris en charge pour l'instant : ${type}`);
   }
@@ -28,6 +32,7 @@ for (const [cle, { fichier, copieLe, url }] of Object.entries(index)) {
 // Un même avis est parfois publié plusieurs fois : on garde une seule occurrence.
 const uniques = new Map<string, unknown>();
 for (const x of sortie as Record<string, unknown>[]) {
+  // pour un plan, la même référence (P_..._version) peut avoir été archivée plusieurs fois
   const cle = type === "attribution" ? [x.reference, x.objet, x.attributaire].join("|") : String(x.id);
   if (!uniques.has(cle)) uniques.set(cle, x);
 }

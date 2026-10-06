@@ -1,6 +1,7 @@
 "use client";
 import { useState } from "react";
-import { CalendarClock, Landmark, Rocket, Search } from "lucide-react";
+import { CalendarClock, Landmark, Repeat, Rocket, Search } from "lucide-react";
+import { AchatsRecurrents } from "@/components/AchatsRecurrents";
 import { SECTEURS, dateFr, joursRestants } from "@/lib/data";
 import { A_VENIR, A_VENIR_MIS_A_JOUR_LE } from "@/lib/donnees";
 import { PROFIL_VIDE, Profil, useLocal } from "@/lib/storage";
@@ -15,6 +16,7 @@ export default function MarchesAVenir() {
   const [recherche, setRecherche] = useState("");
   const [ouvertsSeulement, setOuvertsSeulement] = useState(true);
   const [pertinents, setPertinents] = useState(false);
+  const [onglet, setOnglet] = useState<"plans" | "recurrents">("plans");
 
   const s = pertinents ? profil.secteur : secteur;
   const mots = recherche.toLowerCase().trim();
@@ -38,10 +40,31 @@ export default function MarchesAVenir() {
       <TitrePage
         icone={CalendarClock}
         titre="Marchés à venir"
-        sousTitre={<>Marchés inscrits aux plans de passation ({AUTORITES.join(", ")}) mais pas encore publiés. Préparez votre dossier avant l&apos;avis officiel. Plans lus le {dateFr(A_VENIR_MIS_A_JOUR_LE)}.</>}
+        sousTitre="Préparez votre dossier avant la publication de l'avis officiel : marchés inscrits aux plans de passation, et achats qui reviennent chaque année."
       />
       <div className="conteneur py-8">
-        <div className="carte flex flex-col gap-3 p-4 lg:flex-row lg:items-center">
+        <div className="inline-flex rounded-xl bg-slate-100 p-1" role="tablist">
+          {([["plans", "Plans de passation 2026", CalendarClock], ["recurrents", "Achats récurrents", Repeat]] as const).map(([cle, libelle, Icone]) => (
+            <button
+              key={cle}
+              role="tab"
+              aria-selected={onglet === cle}
+              onClick={() => setOnglet(cle)}
+              className={`flex items-center gap-2 rounded-lg px-4 py-2 text-sm font-semibold transition ${onglet === cle ? "bg-white text-brand-800 shadow-doux" : "text-slate-600 hover:text-slate-900"}`}
+            >
+              <Icone className="h-4 w-4" /> {libelle}
+            </button>
+          ))}
+        </div>
+
+        {onglet === "recurrents" ? (
+          <AchatsRecurrents secteurProfil={pertinents ? profil.secteur : null} />
+        ) : (
+        <>
+        <p className="mt-6 max-w-3xl text-sm leading-relaxed text-slate-600">
+          Marchés inscrits aux plans de passation ({AUTORITES.join(", ")}) mais pas encore publiés. Plans lus le {dateFr(A_VENIR_MIS_A_JOUR_LE)}.
+        </p>
+        <div className="carte mt-4 flex flex-col gap-3 p-4 lg:flex-row lg:items-center">
           <div className="relative flex-1">
             <Search className="pointer-events-none absolute left-3.5 top-1/2 h-4 w-4 -translate-y-1/2 text-slate-400" aria-hidden />
             <input className="champ pl-10" placeholder="Rechercher un marché prévu…" value={recherche} onChange={(e) => setRecherche(e.target.value)} />
@@ -93,6 +116,8 @@ export default function MarchesAVenir() {
           })}
         </ul>
         {liste.length === 0 && <Vide>Aucun marché ne correspond à ces filtres.</Vide>}
+        </>
+        )}
       </div>
     </>
   );

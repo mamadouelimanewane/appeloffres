@@ -10,6 +10,8 @@ import type { AvisCollecte } from "../src/lib/sources.ts";
 import type { Realisation } from "../src/lib/ppm.ts";
 import type { Attribution } from "../src/lib/attributions.ts";
 import type { Gagne } from "../src/lib/stats.ts";
+import { achatsRecurrents } from "../src/lib/recurrents.ts";
+import type { PlanDcmp } from "../src/lib/plans-dcmp.ts";
 
 const chemin = (rel: string) => new URL(rel, import.meta.url).pathname.replace(/^\/([A-Za-z]:)/, "$1");
 const aujourdhui = process.argv.find((a) => a.startsWith("--date="))?.split("=")[1] ?? new Date().toISOString().slice(0, 10);
@@ -93,7 +95,16 @@ const gagnes: Gagne[] = attributions.flatMap((a): Gagne[] => {
   return [{ ...base, id: a.id, objet: a.objet, attributaire: a.attributaire, montantFcfa: a.montantFcfa, nombreOffres: a.nombreOffres, secteur: secteurDe(a.objet) }];
 });
 
+// 4. Achats récurrents (plans de passation archivés de la DCMP) : vus au moins 3 années.
+const fichierPlans = chemin("../data/dcmp/plans.json");
+const recurrents = existsSync(fichierPlans)
+  ? achatsRecurrents(JSON.parse(readFileSync(fichierPlans, "utf8")) as PlanDcmp[], 3)
+      .map(({ id, ...r }) => ({ ...r, id: createHash("sha1").update(id).digest("hex").slice(0, 10) }))
+      .sort((a, b) => b.annees.at(-1)!.localeCompare(a.annees.at(-1)!) || b.annees.length - a.annees.length)
+  : null;
+
 mkdirSync(chemin("../src/data/"), { recursive: true });
+if (recurrents) writeFileSync(chemin("../src/data/recurrents.json"), JSON.stringify({ misAJourLe: aujourdhui, recurrents }));
 // Sans les archives (ex. collecte automatique sur GitHub), on garde les attributions déjà publiées.
 if (existsSync(fichierAttr)) writeFileSync(chemin("../src/data/attributions.json"), JSON.stringify({ misAJourLe: aujourdhui, lignes: gagnes }));
 writeFileSync(chemin("../src/data/avis.json"), JSON.stringify({ misAJourLe: aujourdhui, avis }, null, 1));
@@ -103,4 +114,5 @@ const parSource: Record<string, number> = {};
 avis.forEach((a) => (parSource[a.sourceLibelle] = (parSource[a.sourceLibelle] ?? 0) + 1));
 console.log(`Avis publiés dans l'application : ${avis.length}`, parSource);
 console.log(existsSync(fichierAttr) ? `Marchés attribués (lignes, lots compris) : ${gagnes.length}` : "Marchés attribués : archives absentes, fichier publié conservé");
+console.log(recurrents ? `Achats récurrents (3 ans et plus) : ${recurrents.length}` : "Achats récurrents : plans archivés absents, fichier publié conservé");
 console.log(`Marchés à venir : ${aVenir.length} (${publiees} réalisations retirées car un avis publié cite leur référence)`);
