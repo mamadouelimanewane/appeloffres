@@ -1,0 +1,42 @@
+# Chaque lundi : sonder la liste des sites candidats (sources/sites-candidats.json)
+# pour repérer ceux qui exposent leurs appels d'offres. La collecte quotidienne
+# utilise automatiquement le résultat (sources/sondage.json).
+name: Sondage hebdomadaire des sites
+
+on:
+  schedule:
+    - cron: "0 5 * * 1" # lundi 5 h UTC = 5 h à Dakar
+  workflow_dispatch:
+
+permissions:
+  contents: write
+
+concurrency:
+  group: collecte
+  cancel-in-progress: false
+
+jobs:
+  sondage:
+    runs-on: ubuntu-latest
+    timeout-minutes: 30
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-node@v4
+        with:
+          node-version: 24
+          cache: npm
+      - run: npm ci
+      - name: Sonder les sites
+        run: node --experimental-strip-types scripts/sonder-sites.ts
+      - name: Enregistrer si quelque chose a changé
+        run: |
+          git config user.name "mamadouelimanewane"
+          git config user.email "mamadouastelwane@gmail.com"
+          git add sources/sondage.json
+          if git diff --cached --quiet; then
+            echo "Aucun changement."
+            exit 0
+          fi
+          git commit -m "Sondage des sites du $(date -u +%F)"
+          git pull --rebase
+          git push

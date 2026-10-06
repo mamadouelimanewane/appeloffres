@@ -40,7 +40,7 @@ const avis: Appel[] = Object.values(brut)
   .map((a) => ({
     id: idDe(a.source, a.url),
     source: a.source,
-    sourceLibelle: SOURCES[a.source]?.libelle ?? a.source,
+    sourceLibelle: SOURCES[a.source]?.libelle ?? (a.source.startsWith("wp:") ? "Sites institutionnels" : a.source),
     reference: a.reference,
     titre: a.objet,
     autorite: a.autorite ?? SOURCES[a.source]?.autorite ?? "Voir l'avis",

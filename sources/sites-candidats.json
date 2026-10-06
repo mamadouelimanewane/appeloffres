@@ -1,0 +1,42 @@
+{
+  "_note": "Sites d'acheteurs publics et d'organisations susceptibles de publier des appels d'offres au Sénégal. Sondés par scripts/sonder-sites.ts ; ceux qui exposent une recherche WordPress sont collectés automatiquement.",
+  "categories": {
+    "Ministères": [
+      "finances.gouv.sn", "economie.gouv.sn", "sante.gouv.sn", "education.gouv.sn", "agriculture.gouv.sn", "environnement.gouv.sn",
+      "energie.gouv.sn", "hydraulique.gouv.sn", "infrastructures.gouv.sn", "urbanisme.gouv.sn", "commerce.gouv.sn", "industrie.gouv.sn",
+      "tourisme.gouv.sn", "peches.gouv.sn", "elevage.gouv.sn", "jeunesse.gouv.sn", "sports.gouv.sn", "culture.gouv.sn", "justice.gouv.sn",
+      "interieur.gouv.sn", "diplomatie.gouv.sn", "fonctionpublique.gouv.sn", "communication.gouv.sn", "numerique.gouv.sn", "mesri.gouv.sn",
+      "formation.gouv.sn", "famille.gouv.sn", "collectivites.gouv.sn", "transports.gouv.sn", "mines.gouv.sn", "primature.sn", "presidence.sn"
+    ],
+    "Régies financières": ["dgid.sn", "douanes.sn", "dgcpt.sn", "tresor.gouv.sn"],
+    "Agences et établissements": [
+      "apix.sn", "ageroute.sn", "agetip.sn", "anpej.sn", "der.sn", "fongip.sn", "fonsis.sn", "adepme.sn", "asepex.sn", "ansd.sn", "anam.sn",
+      "anacim.sn", "aner.sn", "aser.sn", "ofor.sn", "cetud.sn", "onfp.sn", "3fpt.sn", "isra.sn", "ita.sn", "saed.sn", "sodagri.sn", "ancar.sn",
+      "anida.sn", "anat.sn", "acbep.sn", "sapco.sn", "asp.sn", "adie.sn", "senum.sn", "artp.sn", "arcop.sn", "crse.sn", "arsn.sn", "anrac.sn",
+      "fera.sn", "fdse.sn", "pna.sn", "cnts.sn", "cmu.sn", "agence-cmu.sn", "anacmu.sn", "ascosen.sn", "asrb.sn", "ansts.sn", "aps.sn",
+      "anams.sn", "dgpu.sn", "onas.sn", "sones.sn", "lonase.sn", "sicap.sn", "snhlm.sn", "bnde.sn", "cdc.sn", "ipres.sn", "secu-sociale.sn",
+      "anpejsenegal.sn", "agricole.sn", "afs.sn", "adl.sn", "ads.sn", "aatr.sn", "apda.sn", "bos.sn", "cna.sn", "copeci.sn"
+    ],
+    "Sociétés nationales": [
+      "senelec.sn", "petrosen.sn", "sar.sn", "portdakar.sn", "aibd.sn", "laposte.sn", "rts.sn", "ddd.sn", "seter.sn", "sentel.sn",
+      "lesoleil.sn", "soleil.sn", "sodefitex.sn", "sotrac.sn", "sn-hlm.sn", "sogip.sn", "cicesdakar.sn", "sapco-senegal.sn", "sncfs.sn", "gts.sn"
+    ],
+    "Santé": [
+      "hopitalprincipal.sn", "hpd.sn", "chnufann.sn", "hald.sn", "dalaljamm.sn", "chnpikine.sn", "hoggy.sn", "chnet.sn", "chr-saintlouis.sn",
+      "chrkaolack.sn", "chrziguinchor.sn", "chrthies.sn", "albertroyer.sn", "chn-matlaboul-fawzaini.sn"
+    ],
+    "Universités et écoles": [
+      "ucad.sn", "ugb.sn", "uasz.sn", "uadb.sn", "unchk.sn", "uvs.sn", "esp.sn", "univ-thies.sn", "usssbt.sn", "uidt.sn", "ept.sn", "enea.sn",
+      "ena.sn", "cesti.sn", "crous-ucad.sn", "coud.sn", "crous.sn"
+    ],
+    "Collectivités": [
+      "villededakar.sn", "villedepikine.sn", "villedeguediawaye.sn", "villederufisque.sn", "villedethies.sn", "villedesaintlouis.sn",
+      "villedekaolack.sn", "villedeziguinchor.sn", "villedetouba.sn", "villedembour.sn", "cddakar.sn", "conseildepartemental.sn"
+    ],
+    "Bailleurs, coopération et ONG": [
+      "pfongue.org", "isra.sn", "enda.sn", "endatiersmonde.org", "plan-international.org", "wvi.org", "savethechildren.net", "crs.org",
+      "oxfam.org", "giz.de", "enabel.be", "afd.fr", "dakar.aics.gov.it", "jica.go.jp", "bad.org", "boad.org", "isdb.org", "uemoa.int",
+      "cedeao.int", "omvs.org", "omvg.sn", "cilss.int", "fao.org", "wfp.org", "unicef.org", "undp.org", "unfpa.org", "who.int"
+    ]
+  }
+}

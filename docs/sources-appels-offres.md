@@ -30,6 +30,14 @@ Recherche du 2026-10-05 (recherche web ; contenus à vérifier sur les sites eux
 | achatspublics.sn (APPEL) | **liste réservée aux comptes fournisseurs** (API répond 401) | pas de contournement. Référentiels, avis généraux et contenus sont publics ; les appels d'offres exigent un compte. Piste produit : chaque PME connecte son propre compte. |
 | marchespublics.sn (DCMP) | portail injoignable le 2026-10-05 | collecteur prêt (`npm run collecte:dcmp`), validé sur archive |
 
+### Ratissage large : sondage automatique + lecteur générique WordPress (2026-10-06)
+
+- `sources/sites-candidats.json` : ~190 sites (ministères, régies, agences, sociétés nationales, hôpitaux, universités, collectivités, bailleurs, ONG). **Pour élargir la couverture, il suffit d'ajouter des domaines à cette liste.**
+- `scripts/sonder-sites.ts` (chaque lundi via `.github/workflows/sondage.yml`) : pour chaque site, joignable ? robots.txt l'interdit ? interface WordPress publique ? rubrique dédiée aux marchés (type de contenu dont le nom évoque avis/marché/appel/tender) ? → `sources/sondage.json`.
+- `src/lib/wordpress.ts` + source `wordpress` du collecteur (chaque jour) : recherche « appel d'offres », « demande de renseignements », « manifestation d'intérêt », « avis d'appel » dans les articles des 120 derniers jours, et lecture complète des rubriques dédiées. Filtres : écarte attributions, résultats, emplois, stages ; site hors `.sn` → le titre doit citer le Sénégal ; date limite extraite du texte quand elle suit « date limite / au plus tard / dépôt des offres ».
+- Premier sondage : 194 sites, ~100 joignables, ~40 WordPress lisibles, 1 robots.txt interdisant (chrthies.sn), rubriques dédiées : Le Soleil (`marche-public`), CDC (`appels-offres`), CETUD (`avis-marche-public`), Enabel (`tenders`).
+- Limite : beaucoup de sites publient leurs avis en PDF ou dans des pages non WordPress ; ~100 adresses devinées ne répondent pas (à corriger à la main dans la liste).
+
 ### Organisations internationales et ONG (ajoutées le 2026-10-06)
 
 | Source | Méthode | Résultat | Remarque |

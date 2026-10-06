@@ -5,11 +5,13 @@
  */
 import { existsSync, mkdirSync, readFileSync, writeFileSync } from "node:fs";
 import { dirname } from "node:path";
+import { parseWordPress, type ArticleWp } from "../src/lib/wordpress.ts";
+import { nettoyer } from "../src/lib/dcmp.ts";
 import { CHAMPS_BM, parseAgeroute, parseArtp, parseBanqueMondiale, parseBceao, parsePad, parsePfongue, parseSenelec, parseUngm, type AvisCollecte } from "../src/lib/sources.ts";
 
 const args = process.argv.slice(2);
 const opt = (n: string) => args.find((a) => a.startsWith(`--${n}=`))?.split("=").slice(1).join("=");
-const choisies = (opt("source") ?? "senelec,pad,ageroute,banquemondiale,ungm,bceao,artp,pfongue").split(",");
+const choisies = (opt("source") ?? "senelec,pad,ageroute,banquemondiale,ungm,bceao,artp,pfongue,wordpress").split(",");
 const pauseMs = Number(opt("pause") ?? 1500);
 const dormir = (ms: number) => new Promise((r) => setTimeout(r, ms));
 
@@ -73,6 +75,41 @@ const SOURCES: Source[] = [
         const lignes = (html.match(/data-noticeid=/gi) ?? []).length;
         yield parseUngm(html);
         if (lignes < 15) return;
+        await dormir(pauseMs);
+      }
+    },
+  },
+  {
+    // Tous les sites WordPress repérés par scripts/sonder-sites.ts (recherche publique),
+    // hors sites qui interdisent les robots. Un même lecteur pour tous.
+    nom: "wordpress",
+    pages: async function* () {
+      const fichier = new URL("../sources/sondage.json", import.meta.url).pathname.replace(/^\/([A-Za-z]:)/, "$1");
+      if (!existsSync(fichier)) return;
+      const sites = (JSON.parse(readFileSync(fichier, "utf8")).resultats as { domaine: string; base: string; wordpress: boolean; robotsInterdit: boolean; typesAvis?: string[] }[])
+        .filter((s) => s.wordpress && !s.robotsInterdit && s.base)
+        .filter((s, i, tous) => tous.findIndex((x) => x.domaine === s.domaine) === i);
+      const depuis = new Date(Date.now() - 120 * 86_400_000).toISOString().slice(0, 19);
+      for (const s of sites) {
+        try {
+          const nom = (JSON.parse(await lire(`${s.base}/wp-json`)) as { name?: string }).name?.trim() || null;
+          const articles: ArticleWp[] = [];
+          for (const terme of ["appel d'offres", "demande de renseignements", "manifestation d'intérêt", "avis d'appel"]) {
+            const url = `${s.base}/wp-json/wp/v2/posts?search=${encodeURIComponent(terme)}&per_page=30&after=${depuis}&_fields=id,date,link,title,content`;
+            articles.push(...(JSON.parse(await lire(url)) as ArticleWp[]));
+            await dormir(pauseMs / 2);
+          }
+          const acheteur = nom ? nettoyer(nom) : s.domaine;
+          yield parseWordPress(articles, s.domaine, acheteur);
+          // Rubriques dédiées aux marchés : lues en entier (pas de recherche par mot-clé)
+          for (const rubrique of s.typesAvis ?? []) {
+            const url = `${s.base}/wp-json/wp/v2/${rubrique}?per_page=30&after=${depuis}&_fields=id,date,link,title,content`;
+            yield parseWordPress(JSON.parse(await lire(url)) as ArticleWp[], s.domaine, acheteur, true);
+            await dormir(pauseMs / 2);
+          }
+        } catch (e) {
+          console.error(`  wordpress ${s.domaine} : ${(e as Error).message}`);
+        }
         await dormir(pauseMs);
       }
     },
