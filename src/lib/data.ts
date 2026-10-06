@@ -22,6 +22,8 @@ export interface Appel {
     resume: string | null;
     piecesExigees: string[];
     heureLimite: string | null;
+    /** Date limite écrite dans le document de l'avis (peut différer de la liste de la source). */
+    dateLimiteAvis?: string | null;
     lieuDepot: string | null;
     modele: string;
     tronque: boolean;

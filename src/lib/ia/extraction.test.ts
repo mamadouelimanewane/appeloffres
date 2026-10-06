@@ -14,6 +14,17 @@ test("date acceptée seulement si elle figure dans l'avis", () => {
   assert.equal(dateVerifiee(null, AVIS), null);
 });
 
+test("dates : formes variées et anglaises, toujours vérifiées dans le texte", () => {
+  const anglais = "Tenders must be submitted before 26 October 2026 at 04:00 (Brussels time).";
+  assert.equal(dateVerifiee("26 October 2026", anglais), "2026-10-26");
+  assert.equal(dateVerifiee("2026-10-26", anglais), "2026-10-26");
+  assert.equal(dateVerifiee("October 26, 2026", "Deadline: October 26, 2026"), "2026-10-26");
+  assert.equal(dateVerifiee("27 October 2026", anglais), null);
+  assert.equal(dateVerifiee("mercredi 04 novembre 2026 à 09h30", "au plus tard le mercredi 4 novembre 2026"), "2026-11-04");
+  assert.equal(dateVerifiee("04/11/2026", "date limite : 4-11-2026"), "2026-11-04");
+  assert.equal(dateVerifiee("1er novembre 2026", "le 1er novembre 2026"), "2026-11-01");
+});
+
 test("montant accepté seulement s'il figure dans l'avis", () => {
   assert.equal(montantVerifie("45 000 000", AVIS), 45_000_000);
   assert.equal(montantVerifie("45.000.000 FCFA", AVIS), 45_000_000);

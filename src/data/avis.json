@@ -338,6 +338,44 @@
    "url": "https://www.bceao.int/fr/appels-offres/fourniture-dequipements-de-sport-pour-la-salle-de-gymnastique-du-siege-de-la-bceao-0"
   },
   {
+   "id": "pfongue-ad6540336d",
+   "source": "pfongue",
+   "sourceLibelle": "ONG (PFONGUE)",
+   "reference": "non communiquée",
+   "titre": "MISE EN PLACE D'UNE COUVERTURE SANTE POUR LE PERSONNEL DE HI SOUS LE REGIME D'AUTOFINANCEMENT",
+   "autorite": "ONG (plate-forme PFONGUE)",
+   "secteur": "Services",
+   "region": null,
+   "mode": "Appel d'offres",
+   "budgetEstime": null,
+   "garantieSoumission": null,
+   "publieLe": "2026-09-30",
+   "dateLimite": "2026-10-12",
+   "url": "https://www.pfongue.org/Appel-d-offres-_-MISE-EN-PLACE-D-UNE-COUVERTURE-SANTE-POUR-LE-PERSONNEL-DE-HI.html",
+   "lectureIa": {
+    "resume": "HI recherche une ou plusieurs sociétés de courtage habilitées pour gérer, en autofinancement, la couverture santé de son personnel et de ses ayants droits dans 7 pays du programme SAO (dont le Sénégal) pour la période du 01/01/2027 au 31/12/2027. La condition la plus importante est d'être une société de courtage habilitée, avec une représentation dans chaque pays visé, et de déposer un dossier par pays avant le 12/10/2026 à 14H00.",
+    "piecesExigees": [
+     "Copie du registre de commerce et du crédit mobilier (RCCM)",
+     "Copie de l'autorisation de gestion de fonds maladie délivrée par les autorités compétentes",
+     "Copie du contrat d'assurance responsabilité civile professionnelle",
+     "Copie du numéro identifiant fiscal (NIF ou IUF)",
+     "Copie du certificat de non faillite valide à la date de clôture (obligatoire)",
+     "Copie de l'attestation de régularité fiscale valide à la date de clôture (obligatoire)",
+     "RIB de l'entreprise (obligatoire)",
+     "Copie de la pièce d'identité ou du passeport du responsable de la société (éliminatoire)",
+     "Annexe HI « Conditions Générales d'achats » dûment renseignée, cachetée et signée",
+     "Annexe HI « Bonnes Pratiques Commerciales » dûment renseignée, cachetée et signée",
+     "Déclaration d'intégrité AFD dûment renseignée, cachetée et signée",
+     "Offre technique et offre financière (en F CFA, TTC, par pays), présentées en 3 fichiers PDF distincts"
+    ],
+    "heureLimite": "14H00 (heure de Niam",
+    "dateLimiteAvis": "2026-10-12",
+    "lieuDepot": "Par mail à achats@niger.hi.org avec la mention « Offre société de courtage - couverture santé en autofinancement »",
+    "modele": "deepseek-flash",
+    "tronque": false
+   }
+  },
+  {
    "id": "ungm-44cf98d5db",
    "source": "ungm",
    "sourceLibelle": "Nations unies (UNGM)",
@@ -434,6 +472,33 @@
    "url": "https://projects.worldbank.org/fr/projects-operations/procurement-detail/OP00472481"
   },
   {
+   "id": "pfongue-59a87bb6ca",
+   "source": "pfongue",
+   "sourceLibelle": "ONG (PFONGUE)",
+   "reference": "non communiquée",
+   "titre": "Consultant.e Etude de faisabilité technico-économique et business plan Activité AQUACULTURE (Fabrication d'aliments pour poissons) Région de Ziguinchor",
+   "autorite": "ONG (plate-forme PFONGUE)",
+   "secteur": "Études",
+   "region": null,
+   "mode": "Appel d'offres",
+   "budgetEstime": null,
+   "garantieSoumission": null,
+   "publieLe": "2026-09-30",
+   "dateLimite": "2026-10-19",
+   "url": "https://www.pfongue.org/Appel-d-offres-_-Consultant-e-Etude-de-faisabilite-technico-economique-et.html",
+   "lectureIa": {
+    "resume": "ISCOS recrute un consultant pour réaliser une étude de faisabilité technico-économique et un business plan pour une unité de fabrication d’aliments pour poissons et de farine de poisson à Niaguis, région de Ziguinchor. La candidature doit être envoyée par email avant le 19/10/2026 avec un CV et une offre technique et financière.",
+    "piecesExigees": [
+     "offre technique et financière"
+    ],
+    "heureLimite": null,
+    "dateLimiteAvis": "2026-10-19",
+    "lieuDepot": "A envoyer à : iscos.senegal@iscoscisl.eu",
+    "modele": "deepseek-flash",
+    "tronque": false
+   }
+  },
+  {
    "id": "senelec-5ff38a44fc",
    "source": "senelec",
    "sourceLibelle": "Senelec",
@@ -447,7 +512,16 @@
    "garantieSoumission": null,
    "publieLe": null,
    "dateLimite": "2026-10-21",
-   "url": "https://www.senelec.sn/media/marches/appels/TDR_AMI_25_-_2026_5JXCeQ6.pdf"
+   "url": "https://www.senelec.sn/media/marches/appels/TDR_AMI_25_-_2026_5JXCeQ6.pdf",
+   "lectureIa": {
+    "resume": null,
+    "piecesExigees": [],
+    "heureLimite": null,
+    "dateLimiteAvis": null,
+    "lieuDepot": null,
+    "modele": "deepseek-flash",
+    "tronque": true
+   }
   },
   {
    "id": "senelec-24b8a3afda",
@@ -594,6 +668,41 @@
    "url": "https://www.ungm.org/Public/Notice/316728"
   },
   {
+   "id": "wp:enabel.be-a5ec1d0cdb",
+   "source": "wp:enabel.be",
+   "sourceLibelle": "Sites institutionnels",
+   "reference": "non communiquée",
+   "titre": "Institutional Capacity Building for Women in Tech (WiT) Communities in Tanzania, Uganda and Senegal.",
+   "autorite": "Enabel - Belgian Agency for International Cooperation",
+   "secteur": "Services",
+   "region": null,
+   "mode": "Appel d'offres",
+   "budgetEstime": null,
+   "garantieSoumission": null,
+   "publieLe": "2026-10-01",
+   "dateLimite": "2026-10-23",
+   "url": "https://www.enabel.be/tenders/institutional-capacity-building-for-women-in-tech-wit-communities-in-tanzania-uganda-and-senegal/",
+   "lectureIa": {
+    "resume": "Enabel lance un appel d'offres pour un contrat de services visant à renforcer les capacités institutionnelles des communautés Women in Tech en Tanzanie, Ouganda et Sénégal. Les offres doivent être soumises en anglais, avec les formulaires requis, avant le 23 octobre 2026 à 13h00 (EAT).",
+    "piecesExigees": [
+     "Formulaire d'identification",
+     "Liste des sous-traitants",
+     "Offre technique",
+     "Formulaire de soumission - Prix",
+     "Déclaration sur l'honneur - motifs d'exclusion",
+     "Documents pour la sélection qualitative (capacité économique, financière, technique et professionnelle)",
+     "Détail des prix",
+     "Statuts et documents établissant le pouvoir du signataire",
+     "Pour les groupements : accord d'association signé par chaque participant"
+    ],
+    "heureLimite": "01:00 PM",
+    "dateLimiteAvis": "2026-10-23",
+    "lieuDepot": null,
+    "modele": "deepseek-flash",
+    "tronque": true
+   }
+  },
+  {
    "id": "bceao-e7656ff954",
    "source": "bceao",
    "sourceLibelle": "BCEAO",
@@ -623,7 +732,16 @@
    "garantieSoumission": null,
    "publieLe": null,
    "dateLimite": "2026-10-28",
-   "url": "https://www.senelec.sn/media/marches/appels/AVIS_DE_REPORT_AON_33_2026.pdf"
+   "url": "https://www.senelec.sn/media/marches/appels/AVIS_DE_REPORT_AON_33_2026.pdf",
+   "lectureIa": {
+    "resume": "Senelec reporte la date limite de dépôt des offres pour la fourniture d’équipements (électropompes, moto ventilateurs, électrocompresseurs) pour la fiabilisation des auxiliaires de la centrale C4 de Cap des Biches. La nouvelle date limite est le mercredi 28 octobre 2026 à 09 heures 30 mn heure locale, le lieu de dépôt restant inchangé.",
+    "piecesExigees": [],
+    "heureLimite": "09 heures 30 mn heur",
+    "dateLimiteAvis": "2026-10-28",
+    "lieuDepot": null,
+    "modele": "deepseek-flash",
+    "tronque": false
+   }
   },
   {
    "id": "senelec-357951e299",
@@ -636,10 +754,33 @@
    "region": null,
    "mode": "AVIS D’APPEL D’OFFRES NATIONAL",
    "budgetEstime": null,
-   "garantieSoumission": null,
+   "garantieSoumission": 4000000,
    "publieLe": null,
    "dateLimite": "2026-10-28",
-   "url": "https://www.senelec.sn/media/marches/appels/AVIS_AO_38_2026__DPP_.pdf"
+   "url": "https://www.senelec.sn/media/marches/appels/AVIS_AO_38_2026__DPP_.pdf",
+   "lectureIa": {
+    "resume": "Senelec lance un appel d’offres pour la maintenance de ses centrales solaires régionales, avec visite de sites organisée. Il faut déposer une offre avant le 28 octobre 2026 à 09h30 avec une garantie de soumission de 4 000 000 FCFA et justifier d’une capacité financière de 75 000 000 FCFA.",
+    "piecesExigees": [
+     "Offres sous pli fermé",
+     "États financiers des trois derniers exercices comptables (2023, 2024, 2025) certifiés par un commissaire aux comptes ou accompagnés de l’attestation de visa ONECCA",
+     "Attestation de capacité financière ou ligne de crédit à hauteur de soixante-quinze millions (75 000 000) FCFA",
+     "Justificatifs d’expérience générale et spécifique : attestation de bonne exécution ou procès-verbal de réception, description du périmètre des travaux réalisés, année d’exécution, site et rôle exact d",
+     "CV détaillé et signé par chaque membre du personnel clé",
+     "Copie légalisée du diplôme ou attestation équivalente pour chaque membre du personnel clé",
+     "Liste des projets similaires réalisés par le personnel clé",
+     "Pièces administratives originales ou légalisées des administrations fiscales et sociales (IPRES, IMPOTS, SECURITE SOCIALE, INSPECTION DU TRAVAIL)",
+     "Attestation de paiement de la redevance ARCOP (Gestion 2025) au 31 Décembre 2025",
+     "Acte d’engagement à respecter la Charte de transparence et d’Ethique",
+     "Déclaration sur l’honneur attestant qu’il ne fait pas l’objet de faillite personnelle ou de liquidation des biens",
+     "Attestation de non-faillite à produire au plus tard à la signature du contrat",
+     "Garantie de soumission d’un montant de quatre millions (4 000 000) FCFA"
+    ],
+    "heureLimite": "09 heures 30mn",
+    "dateLimiteAvis": "2026-10-28",
+    "lieuDepot": "Senelec, Direction Passation des Marchés de Senelec sise au 19, rue Abdou Karim Bourgi x Wagane Diouf au 2ème étage Résidence Khoudia, Salle commission des marchés - Dakar",
+    "modele": "deepseek-flash",
+    "tronque": false
+   }
   },
   {
    "id": "ungm-a4370dc44a",
@@ -687,7 +828,30 @@
    "garantieSoumission": null,
    "publieLe": null,
    "dateLimite": "2026-11-02",
-   "url": "https://www.senelec.sn/media/marches/appels/AVIS_AO_40_2026_TRAVAUX_DE_MISE_EN_CONFORMITE_DES_SYSTEMES_DE_.pdf"
+   "url": "https://www.senelec.sn/media/marches/appels/AVIS_AO_40_2026_TRAVAUX_DE_MISE_EN_CONFORMITE_DES_SYSTEMES_DE_.pdf",
+   "lectureIa": {
+    "resume": "Senelec lance un appel d'offres pour des travaux de mise en conformité des systèmes de protection contre la foudre sur ses sites, en deux lots (Dakar et Régions). Pour participer, il faut fournir les garanties et qualifications exigées, notamment une garantie de soumission de 15 000 000 FCFA (Lot 1) ou 20 000 000 FCFA (Lot 2), et déposer l'offre avant le 04 novembre 2026 à 09h30.",
+    "piecesExigees": [
+     "États financiers des exercices 2023, 2024 et 2025 certifiés par un commissaire aux comptes ou visés par un membre de l'ONECCA",
+     "Attestation de ligne de crédit d'au moins 150 000 000 FCFA pour le Lot 1 et 200 000 000 FCFA pour le Lot 2, émise par une banque agréée par le MEFP",
+     "PV conformes ou attestations de bonne exécution pour au moins deux projets d'installation, réhabilitation ou vente de systèmes de protection contre la foudre (100 parafoudres ou 100 paratonnerres mini",
+     "Rapports de test des équipements de protection contre la foudre (environnementaux, efficacité en laboratoire haute tension et courant)",
+     "Justification de l'expérience d'au moins dix ans du fabricant en fabrication de paratonnerres à dispositif d'amorçage actif (PDA)",
+     "Logiciel de calcul du niveau de risque avec implantations des paratonnerres mis à disposition par le fabricant",
+     "Deux véhicules 4x4 minimum, équipements de chantier adaptés, EPI complet et équipements de protection collective",
+     "CV et copies légalisées des diplômes pour le chef de projet ingénieur, l'expert en prévention des risques, le cartographe SIG et le technicien supérieur",
+     "Attestations originales ou pièces légalisées de la caisse de sécurité sociale, IPRES, recouvrements fiscaux, Inspection du Travail et ARCOP (GESTION 2025) au 31 décembre 2025",
+     "Attestation de non-faillite au plus tard avant la signature du contrat",
+     "Autorisation du fabricant ou certificat d'authenticité du matériel à fournir",
+     "Certification QUALIFOUDRE du fabricant sur les 4 domaines : Étude, Fabrication de paratonnerres, Installation, Maintenance",
+     "Garantie de soumission de 15 000 000 FCFA pour le Lot 1 et 20 000 000 FCFA pour le Lot 2"
+    ],
+    "heureLimite": "09 heures 30 mn",
+    "dateLimiteAvis": "2026-11-04",
+    "lieuDepot": "Senelec, Salle Commission des Marchés, 19 rue Abdou Karim Bourgi X Wagane DIOUF, 2ème étage de la Résidence Khoudia, Dakar",
+    "modele": "deepseek-flash",
+    "tronque": false
+   }
   },
   {
    "id": "ageroute-23682bcf93",
@@ -732,10 +896,32 @@
    "region": null,
    "mode": "AVIS D’APPEL D’OFFRES NATIONAL",
    "budgetEstime": null,
-   "garantieSoumission": null,
+   "garantieSoumission": 15000000,
    "publieLe": null,
    "dateLimite": "2026-11-04",
-   "url": "https://www.senelec.sn/media/marches/appels/AVIS_AO_41_2026_BV_publication.pdf"
+   "url": "https://www.senelec.sn/media/marches/appels/AVIS_AO_41_2026_BV_publication.pdf",
+   "lectureIa": {
+    "resume": "Senelec lance un appel d’offres national pour l’extension de son atelier électromécanique et l’acquisition d’un banc de test transformateur de puissance. Les offres sont attendues au plus tard le mercredi 04 novembre 2026 à 09h30, avec une garantie de soumission de 15 000 000 FCFA et des qualifications financières et techniques élevées.",
+    "piecesExigees": [
+     "États financiers des exercices 2023, 2024 et 2025 certifiés par un commissaire aux comptes ou accompagnés de l’attestation de visa ONECCA",
+     "Preuves d’accès à des sources de financement de 400 000 000 FCFA",
+     "Justificatif d’un chiffre d’affaires annuel moyen minimum de 3 000 000 000 FCFA pour les travaux de construction (2023, 2024, 2025)",
+     "Attestation de bonne exécution d’un marché similaire d’au moins 800 000 000 FCFA hors taxes hors douanes",
+     "CV signés et copies légalisées des diplômes du personnel exigé (chef de projet, ingénieur génie civil, chef d’équipe, conducteur des travaux, superviseur QHSE)",
+     "Carte grise ou contrat de location pour les matériels roulants",
+     "Pièces administratives originales ou légalisées des administrations fiscales et sociales (IPRES, Impôts, Sécurité Sociale, Inspection du Travail)",
+     "Attestation de paiement de la redevance ARCOP (Gestion 2025) au 31 décembre 2025",
+     "Acte d’engagement à respecter la Charte de transparence et d’Éthique",
+     "Déclaration sur l’honneur attestant ne pas faire l’objet de faillite personnelle ou de liquidation des biens",
+     "Attestation de non-faillite à produire au plus tard à la signature du contrat",
+     "Garantie de soumission de 15 000 000 FCFA"
+    ],
+    "heureLimite": "09 HEURES 30 MINUTES",
+    "dateLimiteAvis": "2026-11-04",
+    "lieuDepot": "Senelec, Salle Commission des Marchés sise au 19, rue Abdou Karim Bourgi x Wagane Diouf au 2ème étage de la Résidence Khoudia, Dakar",
+    "modele": "deepseek-flash",
+    "tronque": false
+   }
   },
   {
    "id": "ageroute-117c4e5463",
@@ -768,54 +954,6 @@
    "publieLe": "2026-09-25",
    "dateLimite": "2026-11-10",
    "url": "https://projects.worldbank.org/fr/projects-operations/procurement-detail/OP00471088"
-  },
-  {
-   "id": "pfongue-ad6540336d",
-   "source": "pfongue",
-   "sourceLibelle": "ONG (PFONGUE)",
-   "reference": "non communiquée",
-   "titre": "MISE EN PLACE D'UNE COUVERTURE SANTE POUR LE PERSONNEL DE HI SOUS LE REGIME D'AUTOFINANCEMENT",
-   "autorite": "ONG (plate-forme PFONGUE)",
-   "secteur": "Services",
-   "region": null,
-   "mode": "Appel d'offres",
-   "budgetEstime": null,
-   "garantieSoumission": null,
-   "publieLe": "2026-09-30",
-   "dateLimite": null,
-   "url": "https://www.pfongue.org/Appel-d-offres-_-MISE-EN-PLACE-D-UNE-COUVERTURE-SANTE-POUR-LE-PERSONNEL-DE-HI.html"
-  },
-  {
-   "id": "pfongue-59a87bb6ca",
-   "source": "pfongue",
-   "sourceLibelle": "ONG (PFONGUE)",
-   "reference": "non communiquée",
-   "titre": "Consultant.e Etude de faisabilité technico-économique et business plan Activité AQUACULTURE (Fabrication d'aliments pour poissons) Région de Ziguinchor",
-   "autorite": "ONG (plate-forme PFONGUE)",
-   "secteur": "Études",
-   "region": null,
-   "mode": "Appel d'offres",
-   "budgetEstime": null,
-   "garantieSoumission": null,
-   "publieLe": "2026-09-30",
-   "dateLimite": null,
-   "url": "https://www.pfongue.org/Appel-d-offres-_-Consultant-e-Etude-de-faisabilite-technico-economique-et.html"
-  },
-  {
-   "id": "wp:enabel.be-a5ec1d0cdb",
-   "source": "wp:enabel.be",
-   "sourceLibelle": "Sites institutionnels",
-   "reference": "non communiquée",
-   "titre": "Institutional Capacity Building for Women in Tech (WiT) Communities in Tanzania, Uganda and Senegal.",
-   "autorite": "Enabel - Belgian Agency for International Cooperation",
-   "secteur": "Services",
-   "region": null,
-   "mode": "Appel d'offres",
-   "budgetEstime": null,
-   "garantieSoumission": null,
-   "publieLe": "2026-10-01",
-   "dateLimite": null,
-   "url": "https://www.enabel.be/tenders/institutional-capacity-building-for-women-in-tech-wit-communities-in-tanzania-uganda-and-senegal/"
   }
  ]
 }

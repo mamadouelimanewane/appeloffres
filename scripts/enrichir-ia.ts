@@ -44,7 +44,7 @@ const candidats = avis
   .sort((x, y) => Number(!!x.dateLimite) - Number(!!y.dateLimite))
   .slice(0, maxAppels);
 
-async function texteDuDocument(url: string): Promise<string> {
+async function texteDuDocument(url: string, profondeur = 0): Promise<string> {
   const r = await fetch(url, { headers: { "User-Agent": "SoumissionPME-collecte/0.1" }, signal: AbortSignal.timeout(60_000) });
   if (!r.ok) throw new Error(`HTTP ${r.status}`);
   const type = r.headers.get("content-type") ?? "";
@@ -61,7 +61,17 @@ async function texteDuDocument(url: string): Promise<string> {
   const html = new TextDecoder("utf-8").decode(octets);
   // le corps principal si on le trouve, sinon toute la page
   const principal = /<(main|article)[\s\S]*?<\/\1>/i.exec(html)?.[0] ?? html;
-  return nettoyer(principal);
+  const texte = nettoyer(principal);
+  // Avis publié en PDF intégré à la page (ex. PFONGUE) : on lit aussi le premier PDF lié
+  const pdf = /(?:src|href)=["']([^"']+\.pdf)(?:\?[^"']*)?["']/i.exec(principal)?.[1] ?? /(?:src|href)=["']([^"']+\.pdf)(?:\?[^"']*)?["']/i.exec(html)?.[1];
+  if (pdf && profondeur === 0) {
+    try {
+      return `${texte}\n\n${await texteDuDocument(new URL(pdf.replace(/&amp;/g, "&"), url).toString(), 1)}`;
+    } catch {
+      // PDF illisible : on garde le texte de la page
+    }
+  }
+  return texte;
 }
 
 /** Échec lié au document lui-même (vide, scanné, introuvable) : inutile de le relire chaque jour. */

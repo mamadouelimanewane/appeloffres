@@ -30,13 +30,15 @@ function deepseek(cle: string, modele: string): FournisseurIa {
             { role: "user", content: `Avis à analyser (réponds en json) :\n\n${texte}` },
           ],
           response_format: { type: "json_object" },
-          max_tokens: 2000,
+          // Le modèle réfléchit avant de répondre (≈ 1 500 à 2 000 jetons) : prévoir large
+          max_tokens: 8000,
           stream: false,
         }),
         signal: AbortSignal.timeout(120_000),
       });
       if (!r.ok) throw new Error(`DeepSeek HTTP ${r.status} : ${(await r.text()).slice(0, 200)}`);
-      const d = (await r.json()) as { choices?: { message?: { content?: string } }[] };
+      const d = (await r.json()) as { choices?: { finish_reason?: string; message?: { content?: string } }[] };
+      if (d.choices?.[0]?.finish_reason === "length") throw new Error("DeepSeek : réponse coupée (limite de longueur atteinte)");
       const contenu = d.choices?.[0]?.message?.content ?? "";
       // La documentation prévient : le mode json peut parfois renvoyer un contenu vide
       if (!contenu.trim()) throw new Error("DeepSeek : réponse vide");

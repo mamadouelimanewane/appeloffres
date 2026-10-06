@@ -2,7 +2,7 @@
 import Link from "next/link";
 import { use, useState } from "react";
 import { notFound } from "next/navigation";
-import { ArrowLeft, BookmarkCheck, BookmarkPlus, Bot, Building, CalendarDays, Check, Copy, ExternalLink, FileText, Printer, Sparkles } from "lucide-react";
+import { AlertTriangle, ArrowLeft, BookmarkCheck, BookmarkPlus, Bot, Building, CalendarDays, Check, Copy, ExternalLink, FileText, Printer, Sparkles } from "lucide-react";
 import { compteARebours, dateFr, fcfa, joursRestants, piecesPour, scorePreparation, selonDao } from "@/lib/data";
 import { APPELS } from "@/lib/donnees";
 import { PROFIL_VIDE, Profil, useLocal } from "@/lib/storage";
@@ -80,8 +80,22 @@ export default function DetailAppel({ params }: { params: Promise<{ id: string }
                 <span className="puce bg-violet-50 text-violet-800 ring-1 ring-violet-200">Lu par IA</span>
               </div>
               {a.lectureIa.resume && <p className="mt-3 leading-relaxed text-slate-700">{a.lectureIa.resume}</p>}
+              {a.lectureIa.dateLimiteAvis && a.dateLimite && a.lectureIa.dateLimiteAvis !== a.dateLimite && (
+                <p className="mt-3 flex items-start gap-2 rounded-xl bg-orange-50 p-3 text-sm text-orange-800 ring-1 ring-orange-200">
+                  <AlertTriangle className="mt-0.5 h-4 w-4 shrink-0" />
+                  <span>
+                    <b>Dates différentes :</b> la liste de la source indique le {dateFr(a.dateLimite)}, mais le document de l&apos;avis indique le{" "}
+                    {dateFr(a.lectureIa.dateLimiteAvis)}. Vérifiez auprès de l&apos;acheteur ; en cas de doute, retenez la date la plus proche.
+                  </span>
+                </p>
+              )}
               <dl className="mt-4 grid gap-3 text-sm sm:grid-cols-2">
-                {a.dateLimite && <div><dt className="text-xs uppercase tracking-wide text-slate-400">Dépôt des offres</dt><dd className="font-medium">{dateFr(a.dateLimite)}{a.lectureIa.heureLimite ? ` à ${a.lectureIa.heureLimite}` : ""}</dd></div>}
+                {(a.lectureIa.dateLimiteAvis ?? a.dateLimite) && (
+                  <div>
+                    <dt className="text-xs uppercase tracking-wide text-slate-400">Dépôt des offres (selon l&apos;avis)</dt>
+                    <dd className="font-medium">{dateFr((a.lectureIa.dateLimiteAvis ?? a.dateLimite)!)}{a.lectureIa.heureLimite ? ` à ${a.lectureIa.heureLimite}` : ""}</dd>
+                  </div>
+                )}
                 {a.lectureIa.lieuDepot && <div><dt className="text-xs uppercase tracking-wide text-slate-400">Lieu de dépôt</dt><dd className="font-medium">{a.lectureIa.lieuDepot}</dd></div>}
               </dl>
               {a.lectureIa.piecesExigees.length > 0 && (

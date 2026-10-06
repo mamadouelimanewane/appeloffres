@@ -47,16 +47,37 @@ export function dateVerifiee(brute: unknown, source: string): string | null {
   if (typeof brute !== "string" || !brute.trim()) return null;
   const b = brute.trim();
   const chiffres = /(\d{1,2})[\/.-](\d{1,2})[\/.-](\d{4})/.exec(b);
-  const iso = chiffres ? dateIso(`${chiffres[1].padStart(2, "0")}/${chiffres[2].padStart(2, "0")}/${chiffres[3]}`) : dateFrancaise(b) ?? (/^\d{4}-\d{2}-\d{2}$/.test(b) ? b : null);
+  const iso = /^\d{4}-\d{2}-\d{2}/.test(b)
+    ? b.slice(0, 10)
+    : chiffres
+      ? dateIso(`${chiffres[1].padStart(2, "0")}/${chiffres[2].padStart(2, "0")}/${chiffres[3]}`)
+      : dateFrancaise(b) ?? dateAnglaiseLongue(b);
   if (!iso) return null;
-  // Présence dans le texte : sous la forme renvoyée, ou sous une autre forme courante de la même date
+  // Présence dans le texte, sous n'importe quelle forme courante de la même date :
+  // 04/11/2026, 4-11-2026, 4 novembre 2026, 1er novembre 2026, 4 November 2026, November 4, 2026…
   const [a, m, j] = iso.split("-");
-  const mois = MOIS_LETTRES[Number(m) - 1];
-  const jour = Number(j) === 1 ? "1er" : String(Number(j));
-  const formes = [b, `${j}/${m}/${a}`, `${Number(j)}/${m}/${a}`, `${j}-${m}-${a}`, `${j}.${m}.${a}`, `${jour} ${mois} ${a}`, `${j} ${mois} ${a}`];
-  const s = source.toLowerCase();
-  const trouvee = formes.some((f) => s.includes(f.toLowerCase())) || (dateFrancaise(b) !== null && s.includes(b.toLowerCase().replace(/^0/, "")));
-  return trouvee ? iso : null;
+  const jour = String(Number(j));
+  const moisNoms = [MOIS_LETTRES[Number(m) - 1], MOIS_ANGLAIS[Number(m) - 1], MOIS_ANGLAIS[Number(m) - 1].slice(0, 3)].map(sansAccents).join("|");
+  const s = sansAccents(source);
+  const motifs = [
+    new RegExp(`\\b0?${jour}\\s*[/.-]\\s*0?${Number(m)}\\s*[/.-]\\s*${a}\\b`),
+    new RegExp(`\\b0?${jour}(?:er|st|nd|rd|th)?\\s+(?:${moisNoms})\\.?,?\\s+${a}\\b`),
+    new RegExp(`\\b(?:${moisNoms})\\.?\\s+0?${jour}(?:st|nd|rd|th)?,?\\s+${a}\\b`),
+  ];
+  return motifs.some((r) => r.test(s)) ? iso : null;
+}
+
+const sansAccents = (t: string) => t.toLowerCase().normalize("NFD").replace(/[̀-ͯ]/g, "");
+const MOIS_ANGLAIS = ["january", "february", "march", "april", "may", "june", "july", "august", "september", "october", "november", "december"];
+
+/** « 26 October 2026 », « Oct 26, 2026 » → ISO ; null sinon. */
+function dateAnglaiseLongue(t: string): string | null {
+  const num = (nom: string) => MOIS_ANGLAIS.findIndex((m) => m.startsWith(nom.toLowerCase().slice(0, 3))) + 1;
+  const a = /(\d{1,2})(?:st|nd|rd|th)?\s+([A-Za-z]{3,})\.?,?\s+(\d{4})/.exec(t);
+  const b = /([A-Za-z]{3,})\.?\s+(\d{1,2})(?:st|nd|rd|th)?,?\s+(\d{4})/.exec(t);
+  const [j, nom, an] = a ? [a[1], a[2], a[3]] : b ? [b[2], b[1], b[3]] : [];
+  if (!j || !nom || num(nom) < 1) return null;
+  return dateIso(`${j.padStart(2, "0")}/${String(num(nom)).padStart(2, "0")}/${an}`);
 }
 
 /** Un montant renvoyé par l'IA, s'il est plausible ET présent (mêmes chiffres) dans le texte source. */

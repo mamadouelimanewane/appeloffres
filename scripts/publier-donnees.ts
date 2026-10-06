@@ -44,7 +44,9 @@ const avis: Appel[] = Object.values(brut)
   // Un avis de report ou un additif concerne un appel encore ouvert : on le garde.
   .filter((a) => !/attribution|annulation|infructueux/i.test(a.type ?? ""))
   // L'IA a lu le document et conclu que ce n'est pas un avis (actualité, emploi…)
-  .filter((a) => lu(a.url)?.estUnAvis !== false)
+  // Sur les sites génériques (WordPress), où le bruit est fréquent, on écarte ce que l'IA juge ne pas être un avis.
+  // Ailleurs, la source est déjà une rubrique d'avis : on ne retire rien sur ce seul jugement.
+  .filter((a) => !(a.source.startsWith("wp:") && lu(a.url)?.estUnAvis === false))
   .map((a) => ({
     id: idDe(a.source, a.url),
     source: a.source,
@@ -66,6 +68,7 @@ const avis: Appel[] = Object.values(brut)
             resume: lu(a.url)!.resume,
             piecesExigees: lu(a.url)!.piecesExigees,
             heureLimite: lu(a.url)!.heureLimite,
+            dateLimiteAvis: lu(a.url)!.dateLimite,
             lieuDepot: lu(a.url)!.lieuDepot,
             modele: cacheIa[a.url].modele,
             tronque: cacheIa[a.url].tronque,
