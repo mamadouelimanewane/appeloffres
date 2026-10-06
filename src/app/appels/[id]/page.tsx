@@ -138,6 +138,13 @@ export default function DetailAppel({ params }: { params: Promise<{ id: string }
               ))}
             </dl>
           </section>
+          {a.source === "appel" && (
+            <section className="rounded-2xl bg-brand-50 p-5 text-sm text-brand-900 ring-1 ring-brand-200">
+              <p className="font-bold">Dépôt en ligne sur APPEL</p>
+              <p className="mt-1 leading-relaxed">Pour répondre à cet appel d&apos;offres, votre entreprise doit avoir un compte fournisseur validé sur la plateforme officielle.</p>
+              <Link href="/guide-appel" className="mt-3 inline-flex items-center gap-1 font-semibold text-brand-700 hover:underline">S&apos;inscrire sur APPEL : le guide</Link>
+            </section>
+          )}
           <p className="px-1 text-xs leading-relaxed text-slate-500">
             Informations extraites automatiquement du site de la source. L&apos;avis officiel fait foi.
           </p>

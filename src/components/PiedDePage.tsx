@@ -19,6 +19,7 @@ export function PiedDePage() {
             <li><Link className="hover:text-white" href="/a-venir">Marchés à venir</Link></li>
             <li><Link className="hover:text-white" href="/qui-gagne">Qui gagne quoi</Link></li>
             <li><Link className="hover:text-white" href="/dossiers">Mes dossiers</Link></li>
+            <li><Link className="hover:text-white" href="/guide-appel">S&apos;inscrire sur APPEL</Link></li>
           </ul>
         </div>
         <div>

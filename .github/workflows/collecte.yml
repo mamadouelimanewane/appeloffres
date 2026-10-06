@@ -42,7 +42,7 @@ jobs:
         run: |
           git config user.name "mamadouelimanewane"
           git config user.email "mamadouastelwane@gmail.com"
-          git add data/avis.json src/data
+          git add data/avis.json data/ppm src/data
           if git diff --cached --quiet; then
             echo "Aucun changement aujourd'hui."
             exit 0

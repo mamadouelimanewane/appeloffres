@@ -6,12 +6,13 @@
 import { existsSync, mkdirSync, readFileSync, writeFileSync } from "node:fs";
 import { dirname } from "node:path";
 import { parseWordPress, type ArticleWp } from "../src/lib/wordpress.ts";
+import { parseAppelAvis, parseAppelRealisations, plansAretenir, type PlanAppel } from "../src/lib/appel.ts";
 import { nettoyer } from "../src/lib/dcmp.ts";
 import { CHAMPS_BM, parseAgeroute, parseArtp, parseBanqueMondiale, parseBceao, parsePad, parsePfongue, parseSenelec, parseUngm, type AvisCollecte } from "../src/lib/sources.ts";
 
 const args = process.argv.slice(2);
 const opt = (n: string) => args.find((a) => a.startsWith(`--${n}=`))?.split("=").slice(1).join("=");
-const choisies = (opt("source") ?? "senelec,pad,ageroute,banquemondiale,ungm,bceao,artp,pfongue,wordpress").split(",");
+const choisies = (opt("source") ?? "appel,senelec,pad,ageroute,banquemondiale,ungm,bceao,artp,pfongue,wordpress").split(",");
 const pauseMs = Number(opt("pause") ?? 1500);
 const dormir = (ms: number) => new Promise((r) => setTimeout(r, ms));
 
@@ -114,6 +115,21 @@ const SOURCES: Source[] = [
       }
     },
   },
+  {
+    // APPEL, plateforme officielle : interface publique des visiteurs anonymes
+    nom: "appel",
+    pages: async function* () {
+      const annee = new Date().getFullYear();
+      for (const an of [annee, annee + 1]) {
+        for (let page = 1; page <= 20; page++) {
+          const json = JSON.parse(await lire(`https://api.achatspublics.sn/anon/tdo?page=${page}&size=50&year=${an}&sort=submissionDate,asc`));
+          yield parseAppelAvis(json);
+          if (json.data?.last !== false) break;
+          await dormir(pauseMs);
+        }
+      }
+    },
+  },
   { nom: "pfongue", pages: async function* () { yield parsePfongue(await lire("https://www.pfongue.org/spip.php?page=backend")); } },
   { nom: "artp", pages: async function* () { yield parseArtp(await lire("https://artp.sn/espace-professionnels/appels-d-offres")); } },
   { nom: "bceao", pages: async function* () { yield parseBceao(await lire("https://www.bceao.int/fr/appels-offres/appels-offres-marches-publics-achats")); } },
@@ -151,3 +167,35 @@ for (const s of SOURCES.filter((x) => choisies.includes(x.nom))) {
 }
 writeFileSync(chemin, JSON.stringify({ misAJourLe: new Date().toISOString(), avis: base }, null, 1));
 console.log(`Total ${Object.keys(base).length} avis dans ${chemin}`);
+
+// Plans de passation publiés sur APPEL (année en cours et suivante) → data/ppm/appel.json,
+// lu par publier-donnees pour « Marchés à venir ».
+if (choisies.includes("appel")) {
+  try {
+    const annee = new Date().getFullYear();
+    const plans: PlanAppel[] = [];
+    for (let page = 1; page <= 20; page++) {
+      const json = JSON.parse(await lire(`https://api.achatspublics.sn/anon/ppm/procurement_plans?page=${page}&size=100`));
+      plans.push(...(json.data?.content ?? []));
+      if (json.data?.last !== false) break;
+      await dormir(pauseMs);
+    }
+    const retenus = plansAretenir(plans, [annee, annee + 1]);
+    const realisations = [];
+    for (const p of retenus) {
+      for (let page = 1; page <= 20; page++) {
+        const json = JSON.parse(await lire(`https://api.achatspublics.sn/anon/ppm/procurement_plans/${p.uid}/realisations?page=${page}&size=100`));
+        realisations.push(...parseAppelRealisations(p, json));
+        if (json.data?.realisations?.last !== false) break;
+        await dormir(pauseMs);
+      }
+      await dormir(pauseMs);
+    }
+    const sortiePpm = new URL("../data/ppm/appel.json", import.meta.url).pathname.replace(/^\/([A-Za-z]:)/, "$1");
+    mkdirSync(dirname(sortiePpm), { recursive: true });
+    writeFileSync(sortiePpm, JSON.stringify(realisations, null, 1));
+    console.log(`plans APPEL : ${retenus.length} plans (${plans.length} publiés au total), ${realisations.length} marchés prévus`);
+  } catch (e) {
+    console.error(`plans APPEL : arrêt (${(e as Error).message})`);
+  }
+}

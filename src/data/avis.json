@@ -370,6 +370,22 @@
    "url": "https://www.ungm.org/Public/Notice/316323"
   },
   {
+   "id": "appel-603b893f0b",
+   "source": "appel",
+   "sourceLibelle": "APPEL (plateforme officielle)",
+   "reference": "S_SICAP SA_DARH_1240",
+   "titre": "Gardiennage siège et usine",
+   "autorite": "SICAP SA",
+   "secteur": "Services",
+   "region": null,
+   "mode": "Demande de renseignements et de prix à compétition ouverte",
+   "budgetEstime": null,
+   "garantieSoumission": null,
+   "publieLe": "2026-10-06",
+   "dateLimite": "2026-10-15",
+   "url": "https://www.achatspublics.sn/consultations/tenders?ref=S_SICAP%20SA_DARH_1240"
+  },
+  {
    "id": "banquemondiale-3503211614",
    "source": "banquemondiale",
    "sourceLibelle": "Banque mondiale",

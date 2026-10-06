@@ -62,7 +62,7 @@ export default function MarchesAVenir() {
         ) : (
         <>
         <p className="mt-6 max-w-3xl text-sm leading-relaxed text-slate-600">
-          Marchés inscrits aux plans de passation ({AUTORITES.join(", ")}) mais pas encore publiés. Plans lus le {dateFr(A_VENIR_MIS_A_JOUR_LE)}.
+          Marchés inscrits aux plans de passation de {AUTORITES.length} acheteurs publics (plateforme officielle APPEL), dont le lancement est prévu prochainement et qui ne sont pas encore publiés. Plans lus le {dateFr(A_VENIR_MIS_A_JOUR_LE)}.
         </p>
         <div className="carte mt-4 flex flex-col gap-3 p-4 lg:flex-row lg:items-center">
           <div className="relative flex-1">

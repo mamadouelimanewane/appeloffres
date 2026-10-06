@@ -21,6 +21,7 @@ const SOURCES: Record<string, { libelle: string; autorite: string | null }> = {
   senelec: { libelle: "Senelec", autorite: "Senelec" },
   pad: { libelle: "Port Autonome de Dakar", autorite: "Port Autonome de Dakar" },
   ageroute: { libelle: "AGEROUTE", autorite: "AGEROUTE Sénégal" },
+  appel: { libelle: "APPEL (plateforme officielle)", autorite: null },
   banquemondiale: { libelle: "Banque mondiale", autorite: null },
   ungm: { libelle: "Nations unies (UNGM)", autorite: null },
   bceao: { libelle: "BCEAO", autorite: "BCEAO" },
@@ -60,11 +61,24 @@ const avis: Appel[] = Object.values(brut)
 const texteDesAvis = Object.values(brut).map((a) => `${a.reference} ${a.objet}`).join("\n").toUpperCase();
 const dejaPublie = (ref: string | null) => !!ref && ref.length >= 6 && texteDesAvis.includes(ref.toUpperCase());
 const dossierPpm = chemin("../data/ppm/");
-const realisations = (existsSync(dossierPpm) ? readdirSync(dossierPpm).filter((f) => f.endsWith(".json")) : [])
-  .flatMap((f) => JSON.parse(readFileSync(dossierPpm + f, "utf8")) as (Realisation & { autorite: string | null })[]);
+// APPEL (appel.json) d'abord : en cas de doublon de référence avec un plan lu en PDF, APPEL l'emporte.
+const fichiersPpm = (existsSync(dossierPpm) ? readdirSync(dossierPpm).filter((f) => f.endsWith(".json")) : [])
+  .sort((a, b) => Number(b === "appel.json") - Number(a === "appel.json"));
+const vusPpm = new Set<string>();
+const realisations = fichiersPpm
+  .flatMap((f) => JSON.parse(readFileSync(dossierPpm + f, "utf8")) as (Realisation & { autorite: string | null; montantFcfa?: number | null })[])
+  .filter((r) => {
+    const cle = (r.reference ?? `${r.plan}:${r.objet}`).toUpperCase();
+    if (vusPpm.has(cle)) return false;
+    vusPpm.add(cle);
+    return true;
+  });
 const publiees = realisations.filter((r) => dejaPublie(r.reference)).length;
+// Fenêtre utile : lancement prévu depuis 60 jours au plus (peut encore sortir) ou à venir.
+const debutFenetre = ilYa(60);
 const aVenir = realisations
   .filter((r) => !/Publié/.test(r.etat ?? "") && r.mode !== "Avenant" && !dejaPublie(r.reference))
+  .filter((r) => !r.lancement || r.lancement >= debutFenetre)
   .map((r) => ({
     id: idDe("ppm", `${r.plan}:${r.reference}`),
     autorite: r.autorite,
@@ -79,6 +93,7 @@ const aVenir = realisations
     lancement: r.lancement,
     attribution: r.attribution,
     etat: r.etat,
+    montantFcfa: r.montantFcfa ?? null,
   }))
   .sort((x, y) => (x.lancement ?? "").localeCompare(y.lancement ?? ""));
 

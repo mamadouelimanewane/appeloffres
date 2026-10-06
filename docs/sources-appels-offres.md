@@ -30,6 +30,20 @@ Recherche du 2026-10-05 (recherche web ; contenus à vérifier sur les sites eux
 | achatspublics.sn (APPEL) | **liste réservée aux comptes fournisseurs** (API répond 401) | pas de contournement. Référentiels, avis généraux et contenus sont publics ; les appels d'offres exigent un compte. Piste produit : chaque PME connecte son propre compte. |
 | marchespublics.sn (DCMP) | portail injoignable le 2026-10-05 | collecteur prêt (`npm run collecte:dcmp`), validé sur archive |
 
+### APPEL (achatspublics.sn) : interface publique des visiteurs anonymes (2026-10-06)
+
+La page publique « Consultations › Appels d'offres » est consultable sans compte (comme l'indique le manuel fournisseur de l'ARCOP). Elle s'appuie sur des adresses `/anon/…` sans authentification ; robots.txt du site : tout autorisé.
+
+| Adresse | Contenu |
+|---|---|
+| `https://api.achatspublics.sn/anon/tdo?page=1&size=50&year=2026&sort=submissionDate,asc` | Appels d'offres : acheteur, direction, référence, type, mode de passation, dates de publication / dépôt / ouverture, entreprises éligibles |
+| `https://api.achatspublics.sn/anon/ppm/procurement_plans?page=1&size=100` | Plans de passation publiés (121 au 06/10/2026, années 2025-2026) |
+| `https://api.achatspublics.sn/anon/ppm/procurement_plans/{uid}/realisations?page=1&size=100` | Marchés prévus d'un plan : date prévue de lancement de l'avis, attribution, démarrage, mode, type, financement, montant (souvent 0 = non renseigné) |
+
+Collecte (`src/lib/appel.ts`, source `appel`) : avis de l'année en cours et suivante, plans de ces deux années (dernière version par acheteur) → `data/ppm/appel.json`. **Les comptes de test de la plateforme (« … (TESTS APPEL) ») sont écartés.** Premier passage : 18 avis réels, 75 plans 2026, 2 985 marchés prévus → 459 « marchés à venir » (lancement depuis 60 jours au plus) chez 46 acheteurs.
+
+Un compte fournisseur n'est **pas** utilisé pour la collecte (usage réservé aux entreprises qui soumissionnent) ; guide d'inscription pour les PME : page `/guide-appel`.
+
 ### Ratissage large : sondage automatique + lecteur générique WordPress (2026-10-06)
 
 - `sources/sites-candidats.json` : ~190 sites (ministères, régies, agences, sociétés nationales, hôpitaux, universités, collectivités, bailleurs, ONG). **Pour élargir la couverture, il suffit d'ajouter des domaines à cette liste.**

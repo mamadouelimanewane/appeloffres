@@ -1,5 +1,5 @@
 {
- "misAJourLe": "2026-10-06T18:58:32.634Z",
+ "misAJourLe": "2026-10-06T19:10:56.142Z",
  "avis": {
   "senelec:https://www.senelec.sn/media/marches/appels/AVIS_DE_REPORT_AON_33_2026.pdf": {
    "source": "senelec",
@@ -5374,6 +5374,204 @@
    "dateLimite": null,
    "url": "https://isra.sn/2026/07/28/avis-dappel-a-la-concurrence/",
    "autorite": "| Institut Sénégalais de Recherches Agricoles",
+   "vuLe": "2026-10-06"
+  },
+  "appel:https://www.achatspublics.sn/consultations/tenders?ref=F_ARCOPSN_ARCOP_5404": {
+   "source": "appel",
+   "reference": "F_ARCOPSN_ARCOP_5404",
+   "objet": "Fourniture et installation d’un ascenseur pour le siège de l ’ARCOP",
+   "type": "Demande de renseignements et de prix à compétition ouverte",
+   "publieLe": "2026-02-03",
+   "dateLimite": "2026-02-24",
+   "url": "https://www.achatspublics.sn/consultations/tenders?ref=F_ARCOPSN_ARCOP_5404",
+   "autorite": "Autorité de Régulation de la commande publique",
+   "vuLe": "2026-10-06"
+  },
+  "appel:https://www.achatspublics.sn/consultations/tenders?ref=F_VR_PALM_1783": {
+   "source": "appel",
+   "reference": "F_VR_PALM_1783",
+   "objet": "Fournitures de matériaux pour travaux d'assainissement (PVC et Tampons de regards)",
+   "type": "Demande de renseignements et de prix à compétition ouverte",
+   "publieLe": "2026-03-18",
+   "dateLimite": "2026-04-07",
+   "url": "https://www.achatspublics.sn/consultations/tenders?ref=F_VR_PALM_1783",
+   "autorite": "Ville de Rufisque",
+   "vuLe": "2026-10-06"
+  },
+  "appel:https://www.achatspublics.sn/consultations/tenders?ref=F_ARTP_01_8566": {
+   "source": "appel",
+   "reference": "F_ARTP_01_8566",
+   "objet": "Fourniture et installation d'un simplex Otis",
+   "type": "Demande de renseignements et de prix à compétition ouverte",
+   "publieLe": "2026-03-25",
+   "dateLimite": "2026-04-08",
+   "url": "https://www.achatspublics.sn/consultations/tenders?ref=F_ARTP_01_8566",
+   "autorite": "Autorité de Régulation des Télécommunications et des Postes (ARTP)",
+   "vuLe": "2026-10-06"
+  },
+  "appel:https://www.achatspublics.sn/consultations/tenders?ref=F_SICAP%20SA_DSI_1352": {
+   "source": "appel",
+   "reference": "F_SICAP SA_DSI_1352",
+   "objet": "Acquisition d'équipements informatiques (45 micro-ordinateurs, 11 ordinateurs portables, 2 imprimantes couleur grand format,1 imprimante monocolore grand forma, 5 scanneurs, 1 palo alto, bornes WIFI",
+   "type": "Appel d'offres ouvert",
+   "publieLe": "2026-05-08",
+   "dateLimite": "2026-05-25",
+   "url": "https://www.achatspublics.sn/consultations/tenders?ref=F_SICAP%20SA_DSI_1352",
+   "autorite": "SICAP SA",
+   "vuLe": "2026-10-06"
+  },
+  "appel:https://www.achatspublics.sn/consultations/tenders?ref=T_SICAP%20SA_DEDE_232": {
+   "source": "appel",
+   "reference": "T_SICAP SA_DEDE_232",
+   "objet": "Réhabilitation du patrimoine en trois (03) lots: lot1: lotissement siège de la SICAP SA; lot2: lotissement SICAP MBAO VILLENEUVE PHASE 2 et SICAP KEUR MASSAR 1; lot3: lotissement SICAP KEUR GORGUI.",
+   "type": "Demande de renseignements et de prix à compétition ouverte",
+   "publieLe": "2026-05-15",
+   "dateLimite": "2026-06-01",
+   "url": "https://www.achatspublics.sn/consultations/tenders?ref=T_SICAP%20SA_DEDE_232",
+   "autorite": "SICAP SA",
+   "vuLe": "2026-10-06"
+  },
+  "appel:https://www.achatspublics.sn/consultations/tenders?ref=F_VG_DAF_3681": {
+   "source": "appel",
+   "reference": "F_VG_DAF_3681",
+   "objet": "ACQUISITION DE MOBILIERS DE BUREAUX ET DE MACHINES ET APPAREILS DE BUREAUX",
+   "type": "Demande de renseignements et de prix à compétition ouverte",
+   "publieLe": "2026-06-17",
+   "dateLimite": "2026-06-22",
+   "url": "https://www.achatspublics.sn/consultations/tenders?ref=F_VG_DAF_3681",
+   "autorite": "Ville de Guédiawaye",
+   "vuLe": "2026-10-06"
+  },
+  "appel:https://www.achatspublics.sn/consultations/tenders?ref=S_ARTP_01_3747": {
+   "source": "appel",
+   "reference": "S_ARTP_01_3747",
+   "objet": "Sélection d'un prestataire pour l’organisation d’une colonie de vacances",
+   "type": "Demande de renseignements et de prix à compétition ouverte",
+   "publieLe": "2026-06-24",
+   "dateLimite": "2026-07-09",
+   "url": "https://www.achatspublics.sn/consultations/tenders?ref=S_ARTP_01_3747",
+   "autorite": "Autorité de Régulation des Télécommunications et des Postes (ARTP)",
+   "vuLe": "2026-10-06"
+  },
+  "appel:https://www.achatspublics.sn/consultations/tenders?ref=F_SENELEC_DPP_4108": {
+   "source": "appel",
+   "reference": "F_SENELEC_DPP_4108",
+   "objet": "Fourniture d’équipements IGBT,compteurs enerium,…) pour les centrales du département production Dakar de SENELEC",
+   "type": "Demande de renseignements et de prix à compétition ouverte",
+   "publieLe": "2026-06-16",
+   "dateLimite": "2026-07-15",
+   "url": "https://www.achatspublics.sn/consultations/tenders?ref=F_SENELEC_DPP_4108",
+   "autorite": "SENELEC",
+   "vuLe": "2026-10-06"
+  },
+  "appel:https://www.achatspublics.sn/consultations/tenders?ref=F_PR_CF_1234": {
+   "source": "appel",
+   "reference": "F_PR_CF_1234",
+   "objet": "ACQUISITION FOURNITURES DE BUREAU ET CONSOMMABLES INFORMATIQUES EN DEUX LOTS",
+   "type": "Demande de renseignements et de prix à compétition ouverte",
+   "publieLe": "2026-07-10",
+   "dateLimite": "2026-07-24",
+   "url": "https://www.achatspublics.sn/consultations/tenders?ref=F_PR_CF_1234",
+   "autorite": "Presidence de la République",
+   "vuLe": "2026-10-06"
+  },
+  "appel:https://www.achatspublics.sn/consultations/tenders?ref=S_ARTP_01_13247": {
+   "source": "appel",
+   "reference": "S_ARTP_01_13247",
+   "objet": "Sélection d’un prestataire pour le nettoiement des sites de l’ARTP en quatre (4) lots :\nLot 1 : Nettoiement des locaux du Siège \nLot 2 : Nettoiement des locaux du Collège\nLot 3 : Nettoiement des locaux du centre de Khombole\nLot 4 : Nettoiement des locaux du centre de Matam",
+   "type": "Appel d'offres ouvert",
+   "publieLe": "2026-06-25",
+   "dateLimite": "2026-07-27",
+   "url": "https://www.achatspublics.sn/consultations/tenders?ref=S_ARTP_01_13247",
+   "autorite": "Autorité de Régulation des Télécommunications et des Postes (ARTP)",
+   "vuLe": "2026-10-06"
+  },
+  "appel:https://www.achatspublics.sn/consultations/tenders?ref=S_ENA_ENA_12151": {
+   "source": "appel",
+   "reference": "S_ENA_ENA_12151",
+   "objet": "Recrutement d'une société de gardiennage pour la sécurité de l'ENA",
+   "type": "Demande de renseignements et de prix à compétition ouverte",
+   "publieLe": "2026-07-14",
+   "dateLimite": "2026-07-29",
+   "url": "https://www.achatspublics.sn/consultations/tenders?ref=S_ENA_ENA_12151",
+   "autorite": "Ecole Nationale d'Administration",
+   "vuLe": "2026-10-06"
+  },
+  "appel:https://www.achatspublics.sn/consultations/tenders?ref=S_ARTP_01_3749": {
+   "source": "appel",
+   "reference": "S_ARTP_01_3749",
+   "objet": "Sélection d’un prestataire pour l’entretien et la réparation des véhicules du parc auto de l’ARTP en trois lots :\nLot 1 : Mitsubishi\nLot 2 : Toyota\nLot 3 : Autres marques",
+   "type": "Demande de renseignements et de prix à compétition ouverte",
+   "publieLe": "2026-07-15",
+   "dateLimite": "2026-07-30",
+   "url": "https://www.achatspublics.sn/consultations/tenders?ref=S_ARTP_01_3749",
+   "autorite": "Autorité de Régulation des Télécommunications et des Postes (ARTP)",
+   "vuLe": "2026-10-06"
+  },
+  "appel:https://www.achatspublics.sn/consultations/tenders?ref=F_PR_CF_13596": {
+   "source": "appel",
+   "reference": "F_PR_CF_13596",
+   "objet": "ACQUISITION DE DEUX VEHICULES DONT UN VEHICULE 4X4 STATION WAGON ET UNE BERLINE",
+   "type": "Appel d'offres ouvert",
+   "publieLe": "2026-07-10",
+   "dateLimite": "2026-08-14",
+   "url": "https://www.achatspublics.sn/consultations/tenders?ref=F_PR_CF_13596",
+   "autorite": "Presidence de la République",
+   "vuLe": "2026-10-06"
+  },
+  "appel:https://www.achatspublics.sn/consultations/tenders?ref=F_OFNAC_01_12171": {
+   "source": "appel",
+   "reference": "F_OFNAC_01_12171",
+   "objet": "Acquisition de matériels informatiques, de logiciels, de licences et diverses des installations et configurations",
+   "type": "Appel d'offres ouvert",
+   "publieLe": "2026-07-14",
+   "dateLimite": "2026-08-18",
+   "url": "https://www.achatspublics.sn/consultations/tenders?ref=F_OFNAC_01_12171",
+   "autorite": "Office national de lutte contre la corruption (OFNAC)",
+   "vuLe": "2026-10-06"
+  },
+  "appel:https://www.achatspublics.sn/consultations/tenders?ref=F_PR_CF_1225": {
+   "source": "appel",
+   "reference": "F_PR_CF_1225",
+   "objet": "ACQUISITION MOBILIER ET MATERIEL DE BUREAU",
+   "type": "Demande de renseignements et de prix à compétition ouverte",
+   "publieLe": "2026-09-01",
+   "dateLimite": "2026-09-10",
+   "url": "https://www.achatspublics.sn/consultations/tenders?ref=F_PR_CF_1225",
+   "autorite": "Presidence de la République",
+   "vuLe": "2026-10-06"
+  },
+  "appel:https://www.achatspublics.sn/consultations/tenders?ref=F_PR_CF_1229": {
+   "source": "appel",
+   "reference": "F_PR_CF_1229",
+   "objet": "ACQUISITION MATERIEL INFORMATIQUE",
+   "type": "Demande de renseignements et de prix à compétition ouverte",
+   "publieLe": "2026-09-01",
+   "dateLimite": "2026-09-10",
+   "url": "https://www.achatspublics.sn/consultations/tenders?ref=F_PR_CF_1229",
+   "autorite": "Presidence de la République",
+   "vuLe": "2026-10-06"
+  },
+  "appel:https://www.achatspublics.sn/consultations/tenders?ref=S_ONAS_DRH_13060": {
+   "source": "appel",
+   "reference": "S_ONAS_DRH_13060",
+   "objet": "visite médicale pour le personnel de l'ONAS",
+   "type": "Demande de renseignements et de prix à compétition ouverte",
+   "publieLe": "2026-09-11",
+   "dateLimite": "2026-09-17",
+   "url": "https://www.achatspublics.sn/consultations/tenders?ref=S_ONAS_DRH_13060",
+   "autorite": "Office Nationale de l'Assainissement du Sénégal",
+   "vuLe": "2026-10-06"
+  },
+  "appel:https://www.achatspublics.sn/consultations/tenders?ref=S_SICAP%20SA_DARH_1240": {
+   "source": "appel",
+   "reference": "S_SICAP SA_DARH_1240",
+   "objet": "Gardiennage siège et usine",
+   "type": "Demande de renseignements et de prix à compétition ouverte",
+   "publieLe": "2026-10-06",
+   "dateLimite": "2026-10-15",
+   "url": "https://www.achatspublics.sn/consultations/tenders?ref=S_SICAP%20SA_DARH_1240",
+   "autorite": "SICAP SA",
    "vuLe": "2026-10-06"
   }
  }

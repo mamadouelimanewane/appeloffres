@@ -31,7 +31,7 @@ const FONCTIONS = [
 // Veille et Pro viennent du catalogue commun ; « Dossier clé en main » est un service à l'acte.
 const OFFRES_ACCUEIL = [
   ...OFFRES.map((o) => ({ nom: o.nom, prix: o.prixMensuel.toLocaleString("fr-FR").replace(/\u202f/g, " "), detail: o.detail, points: o.points, vedette: o.vedette, unite: undefined as string | undefined, href: `/inscription?offre=${o.code}` })),
-  { nom: "Dossier clé en main", prix: "dès 75 000", detail: "Préparation avec un expert des marchés publics", points: ["Analyse du DAO", "Constitution du dossier", "Relecture avant dépôt"], vedette: false, unite: "par dossier", href: "/inscription" },
+  { nom: "Dossier clé en main", prix: "dès 75 000", detail: "Préparation avec un expert des marchés publics", points: ["Inscription de l'entreprise sur APPEL", "Analyse du DAO", "Constitution du dossier", "Relecture avant dépôt"], vedette: false, unite: "par dossier", href: "/inscription" },
 ];
 
 function ApercuProduit() {
