@@ -7,8 +7,8 @@ import { useLocal, PROFIL_VIDE, type Profil } from "@/lib/storage";
 export default function EspaceCabinet() {
   // On simule une liste de profils gérés par le cabinet
   const [profils, setProfils] = useLocal<Profil[]>("cabinet-profils", [
-    { ...PROFIL_VIDE, nom: "SenBTP Construction", secteurs: ["BTP"], mail: "contact@senbtp.sn" },
-    { ...PROFIL_VIDE, nom: "TechTech Africa", secteurs: ["Informatique"], mail: "hello@techtech.sn" }
+    { ...PROFIL_VIDE, entreprise: "SenBTP Construction", secteur: "BTP" },
+    { ...PROFIL_VIDE, entreprise: "TechTech Africa", secteur: "Informatique" }
   ]);
   const [, setProfilActif] = useLocal<Profil>("profil", PROFIL_VIDE);
 
@@ -17,13 +17,13 @@ export default function EspaceCabinet() {
   const ajouterClient = (e: React.FormEvent) => {
     e.preventDefault();
     if (!nouveauNom.trim()) return;
-    setProfils([...profils, { ...PROFIL_VIDE, nom: nouveauNom }]);
+    setProfils([...profils, { ...PROFIL_VIDE, entreprise: nouveauNom }]);
     setNouveauNom("");
   };
 
   const basculerClient = (client: Profil) => {
     setProfilActif(client);
-    alert(`Vous gérez maintenant le profil de : ${client.nom}. Toutes vos actions sur la plateforme s'appliqueront à cette entreprise.`);
+    alert(`Vous gérez maintenant le profil de : ${client.entreprise || 'Entreprise sans nom'}. Toutes vos actions sur la plateforme s'appliqueront à cette entreprise.`);
   };
 
   return (
@@ -50,10 +50,10 @@ export default function EspaceCabinet() {
             {profils.map((p, i) => (
               <div key={i} className="carte p-5 flex flex-col justify-between">
                 <div>
-                  <h3 className="font-bold text-lg text-slate-900 flex items-center gap-2"><Building2 className="h-4 w-4 text-slate-400" /> {p.nom || "Entreprise sans nom"}</h3>
-                  <p className="text-sm text-slate-500 mt-1">{p.mail || "Pas d'email renseigné"}</p>
+                  <h3 className="font-bold text-lg text-slate-900 flex items-center gap-2"><Building2 className="h-4 w-4 text-slate-400" /> {p.entreprise || "Entreprise sans nom"}</h3>
+                  <p className="text-sm text-slate-500 mt-1">Secteur: {p.secteur || "Non renseigné"}</p>
                   <div className="mt-3 flex flex-wrap gap-1">
-                    {p.secteurs?.map(s => <span key={s} className="text-[10px] uppercase font-bold bg-slate-100 text-slate-600 px-2 py-0.5 rounded">{s}</span>)}
+                    {p.region && <span className="text-[10px] uppercase font-bold bg-slate-100 text-slate-600 px-2 py-0.5 rounded">{p.region}</span>}
                   </div>
                 </div>
                 <div className="mt-5 flex gap-2">
