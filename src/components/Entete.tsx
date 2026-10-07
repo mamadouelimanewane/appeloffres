@@ -2,7 +2,7 @@
 import Link from "next/link";
 import { usePathname } from "next/navigation";
 import { useState } from "react";
-import { BarChart3, Building2, CalendarClock, FolderCheck, LogIn, Menu, Search, Sparkles, UserRound, X } from "lucide-react";
+import { BarChart3, Building2, CalendarClock, FileLock2, FolderCheck, LogIn, Menu, Search, Sparkles, UserRound, X } from "lucide-react";
 import { statutAbonnement } from "@/lib/compte";
 import { useCompte } from "@/lib/demo/base";
 import { Logo } from "./Logo";
@@ -12,6 +12,7 @@ const LIENS = [
   { href: "/a-venir", libelle: "Marchés à venir", icone: CalendarClock },
   { href: "/qui-gagne", libelle: "Qui gagne quoi", icone: BarChart3 },
   { href: "/dossiers", libelle: "Mes dossiers", icone: FolderCheck },
+  { href: "/coffre", libelle: "Mes pièces", icone: FileLock2 },
 ];
 
 export function Entete() {

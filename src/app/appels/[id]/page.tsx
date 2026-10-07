@@ -2,13 +2,14 @@
 import Link from "next/link";
 import { use, useState } from "react";
 import { notFound } from "next/navigation";
-import { AlertTriangle, ArrowLeft, BookmarkCheck, BookmarkPlus, Bot, Building, CalendarDays, Check, Copy, ExternalLink, FileText, Printer, Sparkles } from "lucide-react";
+import { AlertTriangle, ArrowLeft, BookmarkCheck, BookmarkPlus, Bot, Building, CalendarDays, Check, Copy, ExternalLink, FileLock2, FileText, Printer, Sparkles } from "lucide-react";
 import { compteARebours, dateFr, fcfa, joursRestants, piecesPour, scorePreparation, selonDao } from "@/lib/data";
 import { APPELS } from "@/lib/donnees";
 import { PROFIL_VIDE, Profil, useLocal } from "@/lib/storage";
 import { BadgeSecteur, Barre, Echeance } from "@/components/ui";
 import { ReservePro } from "@/components/ReservePro";
 import { Eligibilite } from "@/components/Eligibilite";
+import { couvertureDossier, type PieceCoffre } from "@/lib/coffre";
 
 export default function DetailAppel({ params }: { params: Promise<{ id: string }> }) {
   const { id } = use(params);
@@ -16,6 +17,7 @@ export default function DetailAppel({ params }: { params: Promise<{ id: string }
   const [cochees, setCochees] = useLocal<string[]>(`pieces-${id}`, []);
   const [profil] = useLocal<Profil>("profil", PROFIL_VIDE);
   const [suivis, setSuivis] = useLocal<string[]>("suivis", []);
+  const [coffre] = useLocal<PieceCoffre[]>("coffre", []);
   const [memoire, setMemoire] = useState("");
   const [attente, setAttente] = useState(false);
   const [copie, setCopie] = useState(false);
@@ -26,6 +28,9 @@ export default function DetailAppel({ params }: { params: Promise<{ id: string }
   const j = a.dateLimite ? joursRestants(a.dateLimite) : null;
   const suivi = suivis.includes(id);
   const bascule = (pid: string) => setCochees(cochees.includes(pid) ? cochees.filter((c) => c !== pid) : [...cochees, pid]);
+  const couverture = couvertureDossier(coffre, a, new Date().toISOString().slice(0, 10));
+  const validesDuCoffre = Object.values(couverture).filter((c) => c.valideAuDepot === true).map((c) => c.type);
+  const cocherDepuisCoffre = () => setCochees([...new Set([...cochees, ...validesDuCoffre])]);
 
   async function generer() {
     setAttente(true);
@@ -123,6 +128,11 @@ export default function DetailAppel({ params }: { params: Promise<{ id: string }
               <span className="puce bg-brand-50 px-3 py-1 text-sm font-semibold text-brand-800 ring-1 ring-brand-200">Dossier prêt à {score} %</span>
             </div>
             <div className="mt-4"><Barre valeur={score} /></div>
+            {validesDuCoffre.some((t) => !cochees.includes(t)) && (
+              <button className="btn-sec mt-4 print:hidden" onClick={cocherDepuisCoffre}>
+                <FileLock2 className="h-4 w-4" /> Cocher les {validesDuCoffre.length} pièce(s) valides de mon coffre
+              </button>
+            )}
             <ul className="mt-5 divide-y divide-slate-100">
               {pieces.map((p) => {
                 const ok = cochees.includes(p.id);
@@ -137,6 +147,16 @@ export default function DetailAppel({ params }: { params: Promise<{ id: string }
                         <span className={`font-semibold ${ok ? "text-slate-400 line-through decoration-slate-300" : "text-slate-900"}`}>{p.libelle}</span>
                         {selonDao(p, a) && <span className="puce ml-2 bg-or-50 text-or-700 ring-1 ring-or-100">selon le DAO</span>}
                         <span className="mt-0.5 block text-sm text-slate-500">{p.conseil}</span>
+                        {couverture[p.id]?.presente && (
+                          <span className={`mt-1 inline-flex items-center gap-1 text-xs font-medium ${couverture[p.id].valideAuDepot === false ? "text-red-600" : couverture[p.id].valideAuDepot ? "text-brand-700" : "text-slate-500"}`}>
+                            <FileLock2 className="h-3.5 w-3.5" />
+                            {couverture[p.id].valideAuDepot === false
+                              ? `Dans votre coffre, mais expire le ${dateFr(couverture[p.id].expireLe!)} : avant la date limite, à renouveler`
+                              : couverture[p.id].valideAuDepot
+                                ? couverture[p.id].expireLe ? `Dans votre coffre, valide jusqu'au ${dateFr(couverture[p.id].expireLe!)}` : "Dans votre coffre"
+                                : "Dans votre coffre (date d'expiration à renseigner)"}
+                          </span>
+                        )}
                       </span>
                     </label>
                   </li>

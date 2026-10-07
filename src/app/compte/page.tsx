@@ -2,7 +2,7 @@
 import Link from "next/link";
 import { useRouter } from "next/navigation";
 import { useEffect, useMemo, useState } from "react";
-import { BellRing, Building2, Check, CreditCard, LogOut, MessageCircle, Send, Sparkles, UserRound, X } from "lucide-react";
+import { BellRing, Building2, Check, CreditCard, FileLock2, LogOut, MessageCircle, Send, Sparkles, UserRound, X } from "lucide-react";
 import { SECTEURS, type Secteur } from "@/lib/data";
 import { APPELS } from "@/lib/donnees";
 import { normaliserTelephone, statutAbonnement, type Compte } from "@/lib/compte";
@@ -11,6 +11,8 @@ import { offre } from "@/lib/offres";
 import { MOYENS, fcfaCourt } from "@/lib/paiement";
 import { envoyerWhatsAppSimule, messages, mettreAJour, seDeconnecter, transactions, useCompte } from "@/lib/demo/base";
 import { BandeauDemo } from "@/components/BandeauDemo";
+import { aRenouveler, type PieceCoffre } from "@/lib/coffre";
+import { useLocal } from "@/lib/storage";
 import { TitrePage } from "@/components/ui";
 
 function CarteAbonnement({ c }: { c: Compte }) {
@@ -145,6 +147,7 @@ export default function MonCompte() {
           </div>
           <div className="space-y-6">
             <CarteAbonnement c={compte} />
+            <RappelPieces />
             <PreferencesAlertes c={compte} />
             <Link href="/profil" className="carte-lien flex items-center gap-3 p-5">
               <span className="grid h-10 w-10 place-items-center rounded-xl bg-brand-50 text-brand-700"><Building2 className="h-5 w-5" /></span>
@@ -171,5 +174,22 @@ export default function MonCompte() {
         </div>
       </div>
     </>
+  );
+}
+
+function RappelPieces() {
+  const [coffre, , pret] = useLocal<PieceCoffre[]>("coffre", []);
+  if (!pret) return null;
+  const urgentes = aRenouveler(coffre, new Date().toISOString().slice(0, 10));
+  return (
+    <Link href="/coffre" className={`carte-lien flex items-center gap-3 p-5 ${urgentes.length ? "ring-1 ring-orange-200" : ""}`}>
+      <span className={`grid h-10 w-10 place-items-center rounded-xl ${urgentes.length ? "bg-orange-50 text-orange-600" : "bg-brand-50 text-brand-700"}`}><FileLock2 className="h-5 w-5" /></span>
+      <span>
+        <span className="block font-semibold">Mes pièces administratives</span>
+        <span className="text-sm text-slate-500">
+          {coffre.length === 0 ? "Enregistrez vos attestations et leurs dates d'expiration" : urgentes.length ? `${urgentes.length} pièce(s) à renouveler` : `${coffre.length} pièce(s) à jour`}
+        </span>
+      </span>
+    </Link>
   );
 }
