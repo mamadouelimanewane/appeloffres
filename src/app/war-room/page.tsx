@@ -81,9 +81,9 @@ export default function WarRoom() {
           <div className="inline-flex items-center gap-2 rounded-full bg-white/5 border border-white/10 px-4 py-1.5 text-xs font-bold text-or-400 uppercase tracking-widest mb-6">
             <ShieldAlert className="h-4 w-4" /> Centre d&apos;Intelligence Économique
           </div>
-          <h1 className="text-5xl md:text-7xl font-black text-white leading-none tracking-tighter">
-            WAR
-            <span className="bg-gradient-to-r from-red-500 to-or-400 bg-clip-text text-transparent"> ROOM</span>
+          <h1 className="text-4xl md:text-6xl font-black text-white leading-none tracking-tighter">
+            INTELLIGENCE
+            <span className="bg-gradient-to-r from-red-500 to-or-400 bg-clip-text text-transparent"> ÉCONOMIQUE</span>
           </h1>
           <p className="mt-6 text-xl text-slate-400 max-w-2xl mx-auto leading-relaxed">
             L&apos;information que vos concurrents ne savent pas.

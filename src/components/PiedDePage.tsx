@@ -44,7 +44,7 @@ export function PiedDePage() {
             <li><Link className="hover:text-white" href="/score-equite">🚩 Détecteur de marchés orientés</Link></li>
             <li><Link className="hover:text-white" href="/affacturage">💸 Marketplace d&apos;Affacturage</Link></li>
             <li><Link className="hover:text-white" href="/radar-predictif">🔮 Radar Prédictif</Link></li>
-            <li><Link className="font-black hover:text-or-400 text-or-500" href="/war-room">🎯 WAR ROOM — Intelligence Économique</Link></li>
+            <li><Link className="font-black hover:text-or-400 text-or-500" href="/war-room">🎯 Intelligence Économique</Link></li>
             <li><Link className="hover:text-white" href="/war-room/benchmark">⚔️ Benchmark Concurrentiel</Link></li>
             <li><Link className="hover:text-white" href="/war-room/observatoire">🔭 Observatoire des Prix</Link></li>
             <li><Link className="hover:text-white" href="/war-room/palmares">🏆 Palmarès & Classements</Link></li>
