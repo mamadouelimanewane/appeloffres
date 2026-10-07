@@ -202,6 +202,13 @@ export default function DetailAppel({ params }: { params: Promise<{ id: string }
               ))}
             </dl>
           </section>
+          {!!a.garantieSoumission && (
+            <Link href={`/financement?montant=${a.garantieSoumission}&marche=${encodeURIComponent(a.reference)}`} className="carte-lien block p-5">
+              <p className="text-xs font-medium uppercase tracking-wide text-slate-400">Garantie de soumission exigée</p>
+              <p className="mt-1 text-lg font-extrabold text-slate-900">{fcfa(a.garantieSoumission)}</p>
+              <p className="mt-2 text-sm font-semibold text-brand-700">Estimer le coût et obtenir la caution →</p>
+            </Link>
+          )}
           {a.source === "appel" && (
             <section className="rounded-2xl bg-brand-50 p-5 text-sm text-brand-900 ring-1 ring-brand-200">
               <p className="font-bold">Dépôt en ligne sur APPEL</p>
