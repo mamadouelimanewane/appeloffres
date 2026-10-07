@@ -20,6 +20,7 @@ export function PiedDePage() {
             <li><Link className="hover:text-white" href="/qui-gagne">Qui gagne quoi</Link></li>
             <li><Link className="hover:text-white" href="/prix-conseille">Estimateur de prix</Link></li>
             <li><Link className="hover:text-white" href="/bpu">Auto-Remplissage BPU</Link></li>
+            <li><Link className="hover:text-white" href="/fournisseurs">Sourcing & Fournisseurs</Link></li>
             <li><Link className="hover:text-white" href="/concurrents">Veille concurrentielle</Link></li>
             <li><Link className="hover:text-white" href="/bourse-sous-traitance">Bourse de Sous-traitance</Link></li>
             <li><Link className="hover:text-white" href="/annuaire">Annuaire des PME</Link></li>
