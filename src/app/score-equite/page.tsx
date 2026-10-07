@@ -48,7 +48,7 @@ export default function RadarEquite() {
 
       <div className="mt-8 carte p-6">
         <label className="block text-sm font-semibold text-slate-700">Sélectionnez un appel d'offres à analyser :</label>
-        <div className="mt-2 flex gap-3">
+        <div className="mt-2 flex flex-col sm:flex-row gap-3">
           <select
             className="champ flex-1"
             value={appelsId}
