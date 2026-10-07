@@ -7,12 +7,12 @@ import { PiedDePage } from "@/components/PiedDePage";
 const police = Plus_Jakarta_Sans({ subsets: ["latin"], variable: "--font-sans", display: "swap" });
 
 export const metadata: Metadata = {
-  title: "Soumission PME — gagnez plus de marchés publics au Sénégal",
+  title: "Appeldoffres.sn — gagnez plus de marchés publics au Sénégal",
   description: "Appels d'offres ouverts, marchés à venir, prix pratiqués et aide à la préparation des dossiers pour les PME sénégalaises.",
   appleWebApp: {
     capable: true,
     statusBarStyle: "default",
-    title: "Soumission PME",
+    title: "Appeldoffres.sn",
   },
   formatDetection: {
     telephone: false,

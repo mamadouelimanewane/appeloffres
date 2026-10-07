@@ -2,7 +2,7 @@ import type { MetadataRoute } from "next";
 
 export default function manifest(): MetadataRoute.Manifest {
   return {
-    name: "Soumission PME",
+    name: "Appeldoffres.sn",
     short_name: "SoumissionPME",
     description: "Aide aux PME sénégalaises pour répondre aux marchés publics",
     start_url: "/",
