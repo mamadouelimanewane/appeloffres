@@ -1,6 +1,8 @@
 import Link from "next/link";
 import {
-  ArrowRight, BarChart3, BellRing, CalendarClock, Check, ClipboardCheck, FileText, FolderCheck, Search, ShieldCheck, Sparkles, Trophy,
+  ArrowRight, BarChart3, BellRing, CalendarClock, Check, ClipboardCheck,
+  FileText, FolderCheck, Search, ShieldCheck, Sparkles, Trophy,
+  ShieldAlert, Banknote, Telescope, Users,
 } from "lucide-react";
 import { compteARebours, dateFr, joursRestants, piecesPour } from "@/lib/data";
 import { APPELS, ATTRIBUEES, A_VENIR } from "@/lib/donnees";
@@ -176,6 +178,118 @@ export default function Accueil() {
               </p>
             </div>
             <Link href="/qui-gagne" className="btn">Voir les prix pratiqués <ArrowRight className="h-4 w-4" /></Link>
+          </div>
+        </div>
+      </section>
+
+      {/* ======= GAME CHANGERS ======= */}
+      <section className="relative mt-24 overflow-hidden">
+        <div className="absolute inset-0 bg-gradient-to-b from-brand-950 to-brand-900" />
+        <div className="absolute inset-0 opacity-[0.06] [background-image:linear-gradient(#fff_1px,transparent_1px),linear-gradient(90deg,#fff_1px,transparent_1px)] [background-size:44px_44px]" aria-hidden />
+
+        <div className="relative conteneur py-20">
+          <div className="text-center">
+            <span className="inline-flex items-center gap-2 rounded-full border border-white/15 bg-white/5 px-4 py-1.5 text-xs font-bold uppercase tracking-widest text-or-300">
+              ⚡ Fonctionnalités Exclusives
+            </span>
+            <h2 className="mt-6 text-4xl font-extrabold text-white sm:text-5xl">
+              Les outils qui changent <span className="bg-gradient-to-r from-or-300 to-or-500 bg-clip-text text-transparent">les règles du jeu</span>
+            </h2>
+            <p className="mt-4 text-lg text-brand-100/80 max-w-2xl mx-auto">
+              Des fonctionnalités introuvables ailleurs en Afrique, conçues pour les réalités du marché sénégalais.
+            </p>
+          </div>
+
+          <div className="mt-14 grid gap-6 md:grid-cols-2">
+            {/* Card 1 – Score d'Équité */}
+            <Link href="/score-equite" className="group relative overflow-hidden rounded-3xl bg-white/5 border border-white/10 p-7 transition hover:bg-white/10 hover:border-white/20 hover:shadow-2xl">
+              <div className="flex items-start gap-4">
+                <span className="grid h-14 w-14 shrink-0 place-items-center rounded-2xl bg-red-500/20 text-red-400">
+                  <ShieldAlert className="h-7 w-7" />
+                </span>
+                <div>
+                  <div className="flex items-center gap-2">
+                    <h3 className="text-xl font-bold text-white">Détecteur de Marchés Orientés</h3>
+                    <span className="rounded-full bg-red-500/20 px-2 py-0.5 text-[11px] font-bold uppercase text-red-300">Nouveau</span>
+                  </div>
+                  <p className="mt-2 text-brand-200 leading-relaxed">
+                    L'IA scanne chaque DAO et calcule un <strong className="text-white">Score d'Équité sur 100</strong>. Si le marché est taillé sur mesure pour quelqu'un d'autre, vous le saurez avant de dépenser un centime.
+                  </p>
+                  <p className="mt-4 flex items-center gap-1 text-sm font-semibold text-or-300 opacity-0 transition group-hover:opacity-100">
+                    Analyser un appel d'offres <ArrowRight className="h-4 w-4" />
+                  </p>
+                </div>
+              </div>
+            </Link>
+
+            {/* Card 2 – Affacturage */}
+            <Link href="/affacturage" className="group relative overflow-hidden rounded-3xl bg-white/5 border border-white/10 p-7 transition hover:bg-white/10 hover:border-white/20 hover:shadow-2xl">
+              <div className="flex items-start gap-4">
+                <span className="grid h-14 w-14 shrink-0 place-items-center rounded-2xl bg-green-500/20 text-green-400">
+                  <Banknote className="h-7 w-7" />
+                </span>
+                <div>
+                  <div className="flex items-center gap-2">
+                    <h3 className="text-xl font-bold text-white">Affacturage : Payé en 48h</h3>
+                    <span className="rounded-full bg-green-500/20 px-2 py-0.5 text-[11px] font-bold uppercase text-green-300">Exclusif</span>
+                  </div>
+                  <p className="mt-2 text-brand-200 leading-relaxed">
+                    L'État vous paie dans 12 mois ? Ne subissez plus ces délais. Vendez votre facture sur notre <strong className="text-white">Marketplace d'Affacturage</strong> et encaissez en 48 heures.
+                  </p>
+                  <p className="mt-4 flex items-center gap-1 text-sm font-semibold text-or-300 opacity-0 transition group-hover:opacity-100">
+                    Déposer ma facture <ArrowRight className="h-4 w-4" />
+                  </p>
+                </div>
+              </div>
+            </Link>
+
+            {/* Card 3 – Radar Prédictif */}
+            <Link href="/radar-predictif" className="group relative overflow-hidden rounded-3xl bg-white/5 border border-white/10 p-7 transition hover:bg-white/10 hover:border-white/20 hover:shadow-2xl">
+              <div className="flex items-start gap-4">
+                <span className="grid h-14 w-14 shrink-0 place-items-center rounded-2xl bg-indigo-500/20 text-indigo-300">
+                  <Telescope className="h-7 w-7" />
+                </span>
+                <div>
+                  <div className="flex items-center gap-2">
+                    <h3 className="text-xl font-bold text-white">Radar Prédictif (Loi de Finances)</h3>
+                    <span className="rounded-full bg-indigo-500/20 px-2 py-0.5 text-[11px] font-bold uppercase text-indigo-300">IA</span>
+                  </div>
+                  <p className="mt-2 text-brand-200 leading-relaxed">
+                    Notre IA a analysé les 743 pages de la Loi de Finances 2026. Elle vous indique <strong className="text-white">quels marchés vont sortir dans les 6 prochains mois</strong>, par secteur et par région.
+                  </p>
+                  <p className="mt-4 flex items-center gap-1 text-sm font-semibold text-or-300 opacity-0 transition group-hover:opacity-100">
+                    Voir les prédictions <ArrowRight className="h-4 w-4" />
+                  </p>
+                </div>
+              </div>
+            </Link>
+
+            {/* Card 4 – Groupement */}
+            <Link href="/groupement" className="group relative overflow-hidden rounded-3xl bg-white/5 border border-white/10 p-7 transition hover:bg-white/10 hover:border-white/20 hover:shadow-2xl">
+              <div className="flex items-start gap-4">
+                <span className="grid h-14 w-14 shrink-0 place-items-center rounded-2xl bg-or-500/20 text-or-300">
+                  <Users className="h-7 w-7" />
+                </span>
+                <div>
+                  <div className="flex items-center gap-2">
+                    <h3 className="text-xl font-bold text-white">Générateur d'Actes de Groupement</h3>
+                    <span className="rounded-full bg-or-500/20 px-2 py-0.5 text-[11px] font-bold uppercase text-or-300">ARCOP</span>
+                  </div>
+                  <p className="mt-2 text-brand-200 leading-relaxed">
+                    Deux PME, un contrat en 2 minutes. Le générateur produit un <strong className="text-white">accord de groupement solidaire conforme à l'ARCOP</strong>, sans avocat, sans frais.
+                  </p>
+                  <p className="mt-4 flex items-center gap-1 text-sm font-semibold text-or-300 opacity-0 transition group-hover:opacity-100">
+                    Créer mon groupement <ArrowRight className="h-4 w-4" />
+                  </p>
+                </div>
+              </div>
+            </Link>
+          </div>
+
+          <div className="mt-10 text-center">
+            <Link href="/inscription" className="btn-or text-base px-8 py-4">
+              Accéder à tous les outils <ArrowRight className="h-5 w-5" />
+            </Link>
           </div>
         </div>
       </section>
