@@ -4,7 +4,7 @@ import { use, useEffect, useState } from "react";
 import { CheckCircle2, FlaskConical, Loader2, ShieldCheck, XCircle } from "lucide-react";
 import { offre } from "@/lib/offres";
 import { MOYENS, fcfaCourt, type Transaction } from "@/lib/paiement";
-import { annulerPaiementSimule, confirmerPaiementSimule, transactions } from "@/lib/demo/base";
+import { annulerPaiementSimule, confirmerPaiementSimule, transaction } from "@/lib/depot";
 
 /**
  * Passerelle de paiement SIMULÉE. En production, l'utilisateur est redirigé vers
@@ -17,25 +17,29 @@ export default function PaiementSimule({ params }: { params: Promise<{ ref: stri
   const [etape, setEtape] = useState<"choix" | "attente" | "fini">("choix");
   const [erreur, setErreur] = useState("");
 
-  useEffect(() => setT(transactions().find((x) => x.ref === ref) ?? null), [ref]);
+  useEffect(() => { transaction(ref).then(setT, () => setT(null)); }, [ref]);
 
   function confirmerApresDelai() {
     setEtape("attente");
     // Simule la validation sur le téléphone du client
-    setTimeout(() => {
+    setTimeout(async () => {
       try {
-        confirmerPaiementSimule(ref);
+        await confirmerPaiementSimule(ref);
       } catch (err) {
         setErreur((err as Error).message);
       }
-      setT(transactions().find((x) => x.ref === ref) ?? null);
+      setT(await transaction(ref).catch(() => null));
       setEtape("fini");
     }, 1800);
   }
 
-  function refuser() {
-    annulerPaiementSimule(ref);
-    setT(transactions().find((x) => x.ref === ref) ?? null);
+  async function refuser() {
+    try {
+      await annulerPaiementSimule(ref);
+    } catch (err) {
+      setErreur((err as Error).message);
+    }
+    setT(await transaction(ref).catch(() => null));
     setEtape("fini");
   }
 

@@ -9,7 +9,8 @@ import { normaliserTelephone, statutAbonnement, type Compte } from "@/lib/compte
 import { avisPourAlerte, messageWhatsApp } from "@/lib/alertes";
 import { offre } from "@/lib/offres";
 import { MOYENS, fcfaCourt } from "@/lib/paiement";
-import { envoyerWhatsAppSimule, messages, mettreAJour, seDeconnecter, transactions, useCompte } from "@/lib/demo/base";
+import { BASE_REELLE, envoyerAlerteSimulee, mesMessages, mesTransactions, mettreAJour, seDeconnecter, useCompte, type MessageEnvoye } from "@/lib/depot";
+import type { Transaction } from "@/lib/paiement";
 import { BandeauDemo } from "@/components/BandeauDemo";
 import { aRenouveler, type PieceCoffre } from "@/lib/coffre";
 import { useLocal } from "@/lib/storage";
@@ -34,7 +35,7 @@ function PreferencesAlertes({ c }: { c: Compte }) {
   const [whatsapp, setWhatsapp] = useState(c.alertes.whatsapp.replace("+221", ""));
   const [mot, setMot] = useState("");
   const [erreur, setErreur] = useState("");
-  const maj = (alertes: Partial<Compte["alertes"]>) => mettreAJour({ ...c, alertes: { ...c.alertes, ...alertes } });
+  const maj = (alertes: Partial<Compte["alertes"]>) => mettreAJour({ ...c, alertes: { ...c.alertes, ...alertes } }).catch((e) => setErreur((e as Error).message));
   const basculeSecteur = (s: Secteur) => maj({ secteurs: c.alertes.secteurs.includes(s) ? c.alertes.secteurs.filter((x) => x !== s) : [...c.alertes.secteurs, s] });
 
   return (
@@ -85,22 +86,29 @@ function PreferencesAlertes({ c }: { c: Compte }) {
 }
 
 function BoiteWhatsApp({ c }: { c: Compte }) {
-  const [version, setVersion] = useState(0);
-  const envoyes = useMemo(() => messages(c.id), [c.id, version]);
+  const [envoyes, setEnvoyes] = useState<MessageEnvoye[]>([]);
+  const [envoi, setEnvoi] = useState(false);
+  const recharger = () => mesMessages(c.id).then(setEnvoyes, () => {});
+  useEffect(() => { recharger(); }, [c.id]); // eslint-disable-line react-hooks/exhaustive-deps
   const deja = useMemo(() => new Set(envoyes.flatMap((m) => m.avisIds)), [envoyes]);
   const aEnvoyer = avisPourAlerte(c, APPELS, deja, new Date().toISOString().slice(0, 10));
 
-  function simuler() {
-    if (aEnvoyer.length === 0) return;
-    envoyerWhatsAppSimule(c.id, c.alertes.whatsapp, messageWhatsApp(c, aEnvoyer, window.location.origin), aEnvoyer.map((a) => a.id));
-    setVersion(version + 1);
+  async function simuler() {
+    if (aEnvoyer.length === 0 || envoi) return;
+    setEnvoi(true);
+    try {
+      await envoyerAlerteSimulee(c.id, c.alertes.whatsapp, messageWhatsApp(c, aEnvoyer, window.location.origin), aEnvoyer.map((a) => a.id));
+      await recharger();
+    } finally {
+      setEnvoi(false);
+    }
   }
 
   return (
     <section className="carte p-6">
       <div className="flex flex-wrap items-center justify-between gap-3">
         <h2 className="flex items-center gap-2 text-lg font-bold"><MessageCircle className="h-5 w-5 text-emerald-600" /> Messages WhatsApp (simulés)</h2>
-        <button className="btn" onClick={simuler} disabled={aEnvoyer.length === 0 || !c.alertes.actives}>
+        <button className="btn" onClick={simuler} disabled={aEnvoyer.length === 0 || !c.alertes.actives || envoi}>
           <Send className="h-4 w-4" /> {aEnvoyer.length ? `Simuler l'alerte du jour (${aEnvoyer.length} avis)` : "Aucun nouvel avis"}
         </button>
       </div>
@@ -125,17 +133,17 @@ export default function MonCompte() {
   const [sortie, setSortie] = useState(false); // déconnexion volontaire : on va à l'accueil, pas à la connexion
   useEffect(() => setBienvenue(new URLSearchParams(window.location.search).has("bienvenue")), []);
   useEffect(() => { if (pret && !compte && !sortie) routeur.replace("/connexion"); }, [pret, compte, sortie, routeur]);
+  const [paiements, setPaiements] = useState<Transaction[]>([]);
+  useEffect(() => { if (compte) mesTransactions(compte.id).then((t) => setPaiements([...t].reverse()), () => {}); }, [compte]);
   if (!compte) return null;
-
-  const paiements = transactions().filter((t) => t.compteId === compte.id).reverse();
 
   return (
     <>
       <TitrePage icone={UserRound} titre={`Bonjour ${compte.nom.split(" ")[0]}`} sousTitre={<>{compte.entreprise} · {compte.telephone} · {compte.region}</>}>
-        <button className="btn-sec" onClick={() => { setSortie(true); seDeconnecter(); routeur.push("/"); }}><LogOut className="h-4 w-4" /> Se déconnecter</button>
+        <button className="btn-sec" onClick={async () => { setSortie(true); await seDeconnecter(); routeur.push("/"); }}><LogOut className="h-4 w-4" /> Se déconnecter</button>
       </TitrePage>
       <div className="conteneur space-y-6 py-8">
-        <BandeauDemo />
+        <BandeauDemo>{BASE_REELLE ? "Votre compte est enregistré. Les paiements et les messages WhatsApp sont encore simulés : aucun paiement réel, aucun message envoyé." : undefined}</BandeauDemo>
         {bienvenue && (
           <p className="flex items-center gap-2 rounded-xl bg-brand-50 p-4 text-sm font-medium text-brand-800 ring-1 ring-brand-200">
             <Sparkles className="h-4 w-4" /> Bienvenue ! Votre essai gratuit de l&apos;offre Pro a commencé.

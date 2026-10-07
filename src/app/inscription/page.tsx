@@ -5,7 +5,9 @@ import { useEffect, useState } from "react";
 import { ArrowRight, Check, Gift, UserPlus } from "lucide-react";
 import { SECTEURS, type Secteur } from "@/lib/data";
 import { ESSAI_JOURS } from "@/lib/offres";
-import { inscrire } from "@/lib/demo/base";
+import { BASE_REELLE, inscrire } from "@/lib/depot";
+import { creerCompte } from "@/lib/compte";
+import { EmailEnvoye } from "@/components/EmailEnvoye";
 import { BandeauDemo } from "@/components/BandeauDemo";
 import { TitrePage } from "@/components/ui";
 
@@ -18,24 +20,35 @@ export default function Inscription() {
   const [erreur, setErreur] = useState("");
   const [offreVoulue, setOffreVoulue] = useState<string | null>(null);
   const [parrain, setParrain] = useState<string | null>(null);
+  const [envoye, setEnvoye] = useState<string | null>(null);
+  const [envoi, setEnvoi] = useState(false);
 
   useEffect(() => {
     const q = new URLSearchParams(window.location.search);
     setOffreVoulue(q.get("offre"));
     setParrain(q.get("ref"));
+    const e = q.get("erreur");
+    if (e) setErreur(e);
   }, []);
 
   const bascule = (s: Secteur) => setSecteurs(secteurs.includes(s) ? secteurs.filter((x) => x !== s) : [...secteurs, s]);
 
-  function valider(e: React.FormEvent) {
+  async function valider(e: React.FormEvent) {
     e.preventDefault();
     setErreur("");
     if (secteurs.length === 0) return setErreur("Choisissez au moins un secteur : il sert à vos alertes.");
+    const d = { ...f, secteurs, parrain };
+    const suite = offreVoulue ? `/abonnement?offre=${offreVoulue}` : "/compte?bienvenue=1";
+    setEnvoi(true);
     try {
-      inscrire({ ...f, secteurs, parrain });
-      routeur.push(offreVoulue ? `/abonnement?offre=${offreVoulue}` : "/compte?bienvenue=1");
+      creerCompte(d, new Date(), "verification"); // mêmes contrôles que le serveur, avant l'envoi
+      const r = await inscrire(d, suite);
+      if (r.etape === "email-envoye") setEnvoye(r.email);
+      else routeur.push(suite);
     } catch (err) {
       setErreur((err as Error).message);
+    } finally {
+      setEnvoi(false);
     }
   }
 
@@ -50,13 +63,18 @@ export default function Inscription() {
     <>
       <TitrePage icone={UserPlus} titre="Créer votre compte" sousTitre={`${ESSAI_JOURS} jours d'essai gratuit de l'offre Pro, sans engagement.`} />
       <div className="conteneur grid gap-6 py-8 lg:grid-cols-[1fr_340px]">
+        {envoye ? (
+          <div className="carte p-6 sm:p-8"><EmailEnvoye email={envoye} onRecommencer={() => setEnvoye(null)} /></div>
+        ) : (
         <form onSubmit={valider} className="carte space-y-5 p-6 sm:p-8">
-          <BandeauDemo />
+          {!BASE_REELLE && <BandeauDemo />}
           <div className="grid gap-5 sm:grid-cols-2">
             {champ("nom", "Votre nom", { required: true, autoComplete: "name", placeholder: "Ex. : Awa Diop" })}
             {champ("entreprise", "Entreprise", { required: true, autoComplete: "organization", placeholder: "Ex. : Diop BTP SARL" })}
             {champ("telephone", "Téléphone (WhatsApp)", { required: true, type: "tel", inputMode: "tel", autoComplete: "tel", placeholder: "77 123 45 67" })}
-            {champ("email", "E-mail (facultatif)", { type: "email", autoComplete: "email" })}
+            {BASE_REELLE
+              ? champ("email", "E-mail (lien de connexion)", { required: true, type: "email", autoComplete: "email", placeholder: "vous@entreprise.sn" })
+              : champ("email", "E-mail (facultatif)", { type: "email", autoComplete: "email" })}
             <label className="block text-sm font-medium text-slate-700">
               Région
               <select className="champ mt-1.5" value={f.region} onChange={(e) => setF({ ...f, region: e.target.value })}>
@@ -79,9 +97,10 @@ export default function Inscription() {
             </div>
           </fieldset>
           {erreur && <p className="rounded-xl bg-red-50 p-3 text-sm text-red-700 ring-1 ring-red-200" role="alert">{erreur}</p>}
-          <button className="btn w-full sm:w-auto" type="submit">Créer mon compte <ArrowRight className="h-4 w-4" /></button>
+          <button className="btn w-full sm:w-auto" type="submit" disabled={envoi}>{envoi ? "Envoi…" : "Créer mon compte"} <ArrowRight className="h-4 w-4" /></button>
           <p className="text-sm text-slate-500">Déjà inscrit ? <Link className="font-semibold text-brand-700 hover:underline" href="/connexion">Se connecter</Link></p>
         </form>
+        )}
         <aside className="carte h-fit p-6">
           <span className="grid h-10 w-10 place-items-center rounded-xl bg-or-50 text-or-600"><Gift className="h-5 w-5" /></span>
           <p className="mt-3 font-bold">Inclus dans l&apos;essai</p>

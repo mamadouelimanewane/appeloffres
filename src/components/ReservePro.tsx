@@ -2,7 +2,7 @@
 import Link from "next/link";
 import { Lock } from "lucide-react";
 import { peutUtiliser } from "@/lib/compte";
-import { useCompte } from "@/lib/demo/base";
+import { useCompte } from "@/lib/depot";
 import type { Fonction } from "@/lib/offres";
 
 /** Affiche le contenu si l'abonnement le permet, sinon une invitation à l'essai ou à l'offre Pro. */

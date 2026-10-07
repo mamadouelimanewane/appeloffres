@@ -11,11 +11,9 @@ Aujourd'hui (`MODE_DEMO = true` dans `src/lib/demo/base.ts`), comptes, paiements
 
 Chaque fonction de `src/lib/demo/base.ts` a la forme de l'appel serveur qui la remplacera.
 
-## 1. Comptes (Supabase, comme pour marchepublic)
+## 1. Comptes (Supabase) — fait
 
-- Tables : `comptes` (champs de `Compte`), `transactions`, `messages_envoyes`, avec RLS : chacun ne lit que ses lignes.
-- Connexion : Supabase Auth par **OTP SMS** (fournisseur SMS sénégalais ou Twilio) à la place du code `123456`.
-- À remplacer : `inscrire`, `demanderCode`, `seConnecter`, `seDeconnecter`, `mettreAJour`, `useCompte`.
+Branché : voir `docs/base-de-donnees.md` (tables, connexion par lien email, variables à renseigner). Le mode démonstration reste actif tant que les variables Supabase ne sont pas définies.
 
 ## 2. Paiement (agrégateur type PayTech)
 

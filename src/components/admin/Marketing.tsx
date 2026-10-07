@@ -1,26 +1,14 @@
 "use client";
-import { useEffect, useMemo, useState } from "react";
+import { useMemo, useState } from "react";
 import { Check, Copy, Gift, Mail, Megaphone, MessageSquare, Percent, Plus, Power, Send, Target, Users } from "lucide-react";
 import { SECTEURS, type Secteur } from "@/lib/data";
-import { codesPromo, comptes as lireComptes, enregistrerCodesPromo, envoyerWhatsAppSimule, transactions as lireTransactions } from "@/lib/demo/base";
+import { adminBasculerCode, adminCreerCode, adminEnvoyerCampagne, BASE_REELLE, useDonneesAdmin, type Campagne } from "@/lib/depot";
 import type { Compte } from "@/lib/compte";
-import type { Transaction } from "@/lib/paiement";
 import { useLocal } from "@/lib/storage";
 import {
-  audience, creerCodePromo, etatCode, indicateurs, lienAffilie, personnaliser, SEGMENTS,
+  audience, etatCode, indicateurs, lienAffilie, personnaliser, SEGMENTS,
   type Canal, type CodePromo, type EtatCode, type Segment,
 } from "@/lib/marketing";
-
-interface Campagne {
-  id: string;
-  nom: string;
-  canal: Canal;
-  segment: Segment;
-  secteurs: Secteur[];
-  message: string;
-  destinataires: number;
-  envoyeeLe: string;
-}
 
 const fcfa = (n: number) => n.toLocaleString("fr-FR").replace(/ /g, " ") + " FCFA";
 const ETATS: Record<EtatCode, { libelle: string; style: string }> = {
@@ -31,27 +19,14 @@ const ETATS: Record<EtatCode, { libelle: string; style: string }> = {
 };
 const champ = "w-full rounded-lg border border-slate-700 bg-slate-950 px-3 py-2 text-sm text-white outline-none focus:border-purple-500";
 
-/** Données du mode démonstration (comptes et paiements de ce navigateur), relues à chaque changement. */
-function useDonnees() {
-  const [d, setD] = useState<{ comptes: Compte[]; transactions: Transaction[]; codes: CodePromo[] }>({ comptes: [], transactions: [], codes: [] });
-  useEffect(() => {
-    const maj = () => setD({ comptes: lireComptes(), transactions: lireTransactions(), codes: codesPromo() });
-    maj();
-    window.addEventListener("demo-base-change", maj);
-    window.addEventListener("storage", maj);
-    return () => {
-      window.removeEventListener("demo-base-change", maj);
-      window.removeEventListener("storage", maj);
-    };
-  }, []);
-  return d;
-}
-
 export function Marketing() {
-  const { comptes, transactions, codes } = useDonnees();
+  const { donnees, erreur } = useDonneesAdmin();
   const [budget, setBudget] = useLocal<number>("admin-budget-marketing", 0);
-  const [campagnes, setCampagnes] = useLocal<Campagne[]>("admin-campagnes", []);
   const maintenant = new Date();
+  if (!donnees) {
+    return <p className={`rounded-xl p-4 text-sm ${erreur ? "border border-red-500/30 bg-red-500/10 text-red-300" : "text-slate-500"}`}>{erreur ?? "Chargement des données…"}</p>;
+  }
+  const { comptes, transactions, codes, campagnes } = donnees;
   const k = indicateurs(comptes, transactions, budget, maintenant);
 
   return (
@@ -67,7 +42,11 @@ export function Marketing() {
       </div>
 
       <p className="mb-6 rounded-xl border border-violet-500/30 bg-violet-500/10 p-3 text-xs text-violet-200">
-        <b>Mode démonstration.</b> Les chiffres sont calculés à partir des comptes et paiements enregistrés dans ce navigateur. Aucun message n&apos;est réellement envoyé : ils arrivent dans la boîte « Mes alertes » des comptes de démonstration.
+        {BASE_REELLE ? (
+          <><b>Base de données connectée.</b> Chiffres calculés sur les comptes et paiements réels. Les messages WhatsApp restent simulés : ils arrivent dans la boîte « Mes alertes » des clients, sans envoi réel.</>
+        ) : (
+          <><b>Mode démonstration.</b> Les chiffres sont calculés à partir des comptes et paiements enregistrés dans ce navigateur. Aucun message n&apos;est réellement envoyé : ils arrivent dans la boîte « Mes alertes » des comptes de démonstration.</>
+        )}
       </p>
 
       {/* 1. Indicateurs d'acquisition */}
@@ -88,8 +67,8 @@ export function Marketing() {
       </div>
 
       <div className="grid gap-6 lg:grid-cols-2">
-        <NouvelleCampagne comptes={comptes} onEnvoyee={(c) => setCampagnes([c, ...campagnes])} historique={campagnes} />
-        <CodesPromo codes={codes} setCodes={enregistrerCodesPromo} comptes={comptes} />
+        <NouvelleCampagne comptes={comptes} historique={campagnes} />
+        <CodesPromo codes={codes} comptes={comptes} />
       </div>
     </div>
   );
@@ -107,23 +86,32 @@ function Kpi({ libelle, valeur, detail, couleur }: { libelle: string; valeur: st
 
 // --- 2. Campagnes WhatsApp & email ----------------------------------------------
 
-function NouvelleCampagne({ comptes, onEnvoyee, historique }: { comptes: Compte[]; onEnvoyee: (c: Campagne) => void; historique: Campagne[] }) {
+function NouvelleCampagne({ comptes, historique }: { comptes: Compte[]; historique: Campagne[] }) {
   const [nom, setNom] = useState("");
   const [canal, setCanal] = useState<Canal>("whatsapp");
   const [segment, setSegment] = useState<Segment>("sans-abonnement-payant");
   const [secteurs, setSecteurs] = useState<Secteur[]>(["BTP"]);
   const [message, setMessage] = useState("Bonjour {nom}, de nouveaux appels d'offres BTP sont ouverts cette semaine. Passez à l'offre Pro pour voir qui gagne et à quel prix : appeloffres.vercel.app/abonnement");
   const [confirmation, setConfirmation] = useState<string | null>(null);
+  const [erreur, setErreur] = useState<string | null>(null);
+  const [envoi, setEnvoi] = useState(false);
 
   const cibles = useMemo(() => audience(comptes, { canal, segment, secteurs }, new Date()), [comptes, canal, segment, secteurs]);
   const basculer = (s: Secteur) => setSecteurs(secteurs.includes(s) ? secteurs.filter((x) => x !== s) : [...secteurs, s]);
 
-  const envoyer = () => {
-    if (!nom.trim() || !message.trim() || cibles.length === 0) return;
-    if (canal === "whatsapp") for (const c of cibles) envoyerWhatsAppSimule(c.id, c.alertes.whatsapp, personnaliser(message, c), []);
-    onEnvoyee({ id: `cmp_${Date.now().toString(36)}`, nom: nom.trim(), canal, segment, secteurs, message, destinataires: cibles.length, envoyeeLe: new Date().toISOString() });
-    setConfirmation(`« ${nom.trim()} » : ${cibles.length} message${cibles.length > 1 ? "s" : ""} ${canal === "whatsapp" ? "WhatsApp" : "email"} simulé${cibles.length > 1 ? "s" : ""}.`);
-    setNom("");
+  const envoyer = async () => {
+    if (!nom.trim() || !message.trim() || cibles.length === 0 || envoi) return;
+    setEnvoi(true);
+    setErreur(null);
+    try {
+      const n = await adminEnvoyerCampagne({ nom, message, canal, segment, secteurs });
+      setConfirmation(`« ${nom.trim()} » : ${n} message${n > 1 ? "s" : ""} ${canal === "whatsapp" ? "WhatsApp" : "email"} simulé${n > 1 ? "s" : ""}.`);
+      setNom("");
+    } catch (e) {
+      setErreur((e as Error).message);
+    } finally {
+      setEnvoi(false);
+    }
   };
 
   return (
@@ -163,7 +151,7 @@ function NouvelleCampagne({ comptes, onEnvoyee, historique }: { comptes: Compte[
 
         <div className="flex items-center justify-between rounded-xl bg-slate-950 p-3">
           <span className="flex items-center gap-2 text-sm text-slate-300"><Users className="h-4 w-4 text-purple-400" /> <b className="text-white">{cibles.length}</b> destinataire{cibles.length > 1 ? "s" : ""}</span>
-          <button type="button" onClick={envoyer} disabled={!nom.trim() || !message.trim() || cibles.length === 0}
+          <button type="button" onClick={envoyer} disabled={!nom.trim() || !message.trim() || cibles.length === 0 || envoi}
             className="flex items-center gap-2 rounded-lg bg-purple-600 px-4 py-2 text-sm font-bold text-white transition hover:bg-purple-700 disabled:cursor-not-allowed disabled:opacity-40">
             <Send className="h-4 w-4" /> Envoyer (simulé)
           </button>
@@ -173,6 +161,7 @@ function NouvelleCampagne({ comptes, onEnvoyee, historique }: { comptes: Compte[
         )}
         {canal === "whatsapp" && <p className="text-xs text-slate-500">Seuls les comptes qui ont gardé les alertes WhatsApp actives sont ciblés (consentement, STOP respecté).</p>}
         {confirmation && <p className="flex items-center gap-2 text-sm text-green-400"><Check className="h-4 w-4" /> {confirmation}</p>}
+        {erreur && <p className="text-sm text-red-400">{erreur}</p>}
       </div>
 
       {historique.length > 0 && (
@@ -197,7 +186,7 @@ function NouvelleCampagne({ comptes, onEnvoyee, historique }: { comptes: Compte[
 
 // --- 3. Codes promo & affiliation ------------------------------------------------
 
-function CodesPromo({ codes, setCodes, comptes }: { codes: CodePromo[]; setCodes: (c: CodePromo[]) => void; comptes: Compte[] }) {
+function CodesPromo({ codes, comptes }: { codes: CodePromo[]; comptes: Compte[] }) {
   const [code, setCode] = useState("");
   const [remise, setRemise] = useState(20);
   const [limite, setLimite] = useState("");
@@ -206,11 +195,10 @@ function CodesPromo({ codes, setCodes, comptes }: { codes: CodePromo[]; setCodes
   const [copie, setCopie] = useState<string | null>(null);
   const maintenant = new Date();
 
-  const ajouter = (e: React.FormEvent) => {
+  const ajouter = async (e: React.FormEvent) => {
     e.preventDefault();
     try {
-      const p = creerCodePromo({ code, remise, limite: limite ? Number(limite) : null, expireLe: expireLe || null }, codes, new Date());
-      setCodes([p, ...codes]);
+      await adminCreerCode({ code, remise, limite: limite ? Number(limite) : null, expireLe: expireLe || null });
       setCode("");
       setLimite("");
       setExpireLe("");
@@ -279,7 +267,7 @@ function CodesPromo({ codes, setCodes, comptes }: { codes: CodePromo[]; setCodes
                         <button type="button" onClick={() => copier(p.code)} title="Copier le lien d'affiliation" className="rounded p-1.5 text-slate-400 transition hover:bg-slate-800 hover:text-white">
                           {copie === p.code ? <Check className="h-4 w-4 text-green-400" /> : <Copy className="h-4 w-4" />}
                         </button>
-                        <button type="button" onClick={() => setCodes(codes.map((x) => (x.code === p.code ? { ...x, actif: !x.actif } : x)))} title={p.actif ? "Désactiver" : "Réactiver"} className="rounded p-1.5 text-slate-400 transition hover:bg-slate-800 hover:text-white">
+                        <button type="button" onClick={() => adminBasculerCode(p.code, !p.actif).catch((x) => setErreur((x as Error).message))} title={p.actif ? "Désactiver" : "Réactiver"} className="rounded p-1.5 text-slate-400 transition hover:bg-slate-800 hover:text-white">
                           <Power className="h-4 w-4" />
                         </button>
                       </div>

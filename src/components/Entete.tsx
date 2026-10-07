@@ -4,7 +4,7 @@ import { usePathname } from "next/navigation";
 import { useState } from "react";
 import { BarChart3, Building2, CalendarClock, FileLock2, FolderCheck, LogIn, Menu, Search, Sparkles, UserRound, X } from "lucide-react";
 import { statutAbonnement } from "@/lib/compte";
-import { useCompte } from "@/lib/demo/base";
+import { useCompte } from "@/lib/depot";
 import { Logo } from "./Logo";
 
 const LIENS = [

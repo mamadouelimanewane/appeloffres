@@ -6,7 +6,7 @@ import { ArrowRight, Check, CreditCard, Smartphone, Tag, X } from "lucide-react"
 import { statutAbonnement } from "@/lib/compte";
 import { OFFRES, type CodeOffre } from "@/lib/offres";
 import { MOYENS, fcfaCourt, montant, type MoyenPaiement } from "@/lib/paiement";
-import { demanderPaiement, useCompte, verifierCodePromo } from "@/lib/demo/base";
+import { demanderPaiement, useCompte, verifierCodePromo } from "@/lib/depot";
 import { BandeauDemo } from "@/components/BandeauDemo";
 import { TitrePage } from "@/components/ui";
 
@@ -43,33 +43,39 @@ export default function Abonnement() {
   }, [compte]);
 
   // Le prix après remise est recalculé à chaque changement d'offre ou de durée
-  let remise: ReturnType<typeof verifierCodePromo> | null = null;
-  let promoInvalide = "";
-  if (promo) {
-    try {
-      remise = verifierCodePromo(promo, code, mois);
-    } catch (err) {
-      promoInvalide = (err as Error).message;
-    }
-  }
+  const [remise, setRemise] = useState<Awaited<ReturnType<typeof verifierCodePromo>> | null>(null);
+  const [promoInvalide, setPromoInvalide] = useState("");
+  const [envoi, setEnvoi] = useState(false);
+  useEffect(() => {
+    let actif = true;
+    setPromoInvalide("");
+    if (!promo) return setRemise(null);
+    verifierCodePromo(promo, code, mois).then(
+      (r) => actif && setRemise(r),
+      (err) => { if (actif) { setRemise(null); setPromoInvalide((err as Error).message); } },
+    );
+    return () => { actif = false; };
+  }, [promo, code, mois]);
 
-  function appliquerPromo() {
+  async function appliquerPromo() {
     setErreurPromo("");
     try {
-      setPromo(verifierCodePromo(saisiePromo, code, mois).code);
+      setPromo((await verifierCodePromo(saisiePromo, code, mois)).code);
     } catch (err) {
       setPromo(null);
       setErreurPromo((err as Error).message);
     }
   }
 
-  function payer(e: React.FormEvent) {
+  async function payer(e: React.FormEvent) {
     e.preventDefault();
     setErreur("");
+    setEnvoi(true);
     try {
-      routeur.push(demanderPaiement({ offre: code, mois, moyen, telephone, codePromo: remise?.code }).urlPaiement);
+      routeur.push((await demanderPaiement({ offre: code, mois, moyen, telephone, codePromo: remise?.code })).urlPaiement);
     } catch (err) {
       setErreur((err as Error).message);
+      setEnvoi(false);
     }
   }
 
@@ -173,7 +179,7 @@ export default function Abonnement() {
               </div>
             </div>
             {erreur && <p className="rounded-xl bg-red-50 p-3 text-sm text-red-700 ring-1 ring-red-200" role="alert">{erreur}</p>}
-            <button className="btn w-full" type="submit" disabled={!compte}>Payer avec {MOYENS[moyen]} <ArrowRight className="h-4 w-4" /></button>
+            <button className="btn w-full" type="submit" disabled={!compte || envoi}>Payer avec {MOYENS[moyen]} <ArrowRight className="h-4 w-4" /></button>
           </aside>
         </form>
       </div>

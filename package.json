@@ -6,7 +6,7 @@
     "dev": "next dev --port 3100",
     "build": "next build",
     "start": "next start",
-    "test": "node --experimental-strip-types --test src/lib/*.test.ts src/lib/ia/*.test.ts",
+    "test": "node --experimental-strip-types --test src/lib/*.test.ts src/lib/ia/*.test.ts src/lib/supabase/*.test.ts",
     "collecte:dcmp": "node --experimental-strip-types scripts/collecte-dcmp.ts",
     "collecte": "node --experimental-strip-types scripts/collecte.ts",
     "ppm": "node --experimental-strip-types scripts/ppm.ts",
@@ -14,11 +14,14 @@
   },
   "dependencies": {
     "@anthropic-ai/sdk": "^0.131.0",
+    "@supabase/ssr": "^0.12.7",
+    "@supabase/supabase-js": "^2.117.3",
     "lucide-react": "^0.460.0",
     "next": "^15.5.26",
     "pdfjs-dist": "^4.10.38",
     "react": "^18.3.1",
-    "react-dom": "^18.3.1"
+    "react-dom": "^18.3.1",
+    "server-only": "^0.0.1"
   },
   "devDependencies": {
     "@types/node": "^22.0.0",
