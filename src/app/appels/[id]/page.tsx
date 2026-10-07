@@ -10,6 +10,7 @@ import { BadgeSecteur, Barre, Echeance } from "@/components/ui";
 import { ReservePro } from "@/components/ReservePro";
 import { Eligibilite } from "@/components/Eligibilite";
 import { couvertureDossier, type PieceCoffre } from "@/lib/coffre";
+import { genererIcs, telechargerIcs } from "@/lib/calendrier";
 
 export default function DetailAppel({ params }: { params: Promise<{ id: string }> }) {
   const { id } = use(params);
@@ -192,7 +193,25 @@ export default function DetailAppel({ params }: { params: Promise<{ id: string }
 
         <aside className="space-y-6">
           <section className="carte p-6">
-            <h2 className="flex items-center gap-2 font-bold"><CalendarDays className="h-5 w-5 text-brand-700" /> En bref</h2>
+            <div className="flex items-center justify-between gap-2">
+              <h2 className="flex items-center gap-2 font-bold"><CalendarDays className="h-5 w-5 text-brand-700" /> En bref</h2>
+              {a.dateLimite && (
+                <button
+                  onClick={() => {
+                    const ics = genererIcs(
+                      `Dépôt des offres : ${a.titre}`,
+                      a.dateLimite!,
+                      a.reference + " - " + a.autorite,
+                      window.location.href
+                    );
+                    telechargerIcs(ics, `depot-${a.reference}.ics`);
+                  }}
+                  className="text-xs font-semibold text-brand-700 hover:underline"
+                >
+                  + Agenda
+                </button>
+              )}
+            </div>
             <dl className="mt-4 space-y-3 text-sm">
               {infos.map(([k, v]) => (
                 <div key={k}>

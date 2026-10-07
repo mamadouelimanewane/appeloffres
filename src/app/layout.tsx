@@ -9,6 +9,14 @@ const police = Plus_Jakarta_Sans({ subsets: ["latin"], variable: "--font-sans", 
 export const metadata: Metadata = {
   title: "Soumission PME — gagnez plus de marchés publics au Sénégal",
   description: "Appels d'offres ouverts, marchés à venir, prix pratiqués et aide à la préparation des dossiers pour les PME sénégalaises.",
+  appleWebApp: {
+    capable: true,
+    statusBarStyle: "default",
+    title: "Soumission PME",
+  },
+  formatDetection: {
+    telephone: false,
+  },
 };
 
 export const viewport: Viewport = { themeColor: "#063a20" };
