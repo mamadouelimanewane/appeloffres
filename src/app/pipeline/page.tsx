@@ -13,11 +13,11 @@ const COLONNES = [
 ];
 
 const INITIAL_TASKS = [
-  { id: 1, col: "opportunite", titre: "Fourniture de 500 ordinateurs", acheteur: "ADIE", montant: 250000000, deadline: "2026-11-15", prob: 85 },
-  { id: 2, col: "montage", titre: "Construction Forage Kolda", acheteur: "OFOR", montant: 45000000, deadline: "2026-10-20", prob: 60 },
-  { id: 3, col: "soumis", titre: "Maintenance Réseau Fibre", acheteur: "SENELEC", montant: 120000000, deadline: "2026-09-30", prob: 90 },
-  { id: 4, col: "evaluation", titre: "Équipements Médicaux", acheteur: "Min. de la Santé", montant: 850000000, deadline: "2026-08-15", prob: 45 },
-  { id: 5, col: "gagne", titre: "Réfection École Primaire", acheteur: "Mairie de Thiès", montant: 25000000, deadline: "2026-06-10", prob: 100 },
+  { id: 1, col: "opportunite", titre: "Fourniture de 500 ordinateurs", acheteur: "ADIE", montant: 250000000, deadline: "2026-11-15", prob: 85, responsable: "MN" },
+  { id: 2, col: "montage", titre: "Construction Forage Kolda", acheteur: "OFOR", montant: 45000000, deadline: "2026-10-10", prob: 60, responsable: "KD" },
+  { id: 3, col: "soumis", titre: "Maintenance Réseau Fibre", acheteur: "SENELEC", montant: 120000000, deadline: "2026-10-09", prob: 90, responsable: "AD" },
+  { id: 4, col: "evaluation", titre: "Équipements Médicaux", acheteur: "Min. de la Santé", montant: 850000000, deadline: "2026-10-20", prob: 45, responsable: "MN" },
+  { id: 5, col: "gagne", titre: "Réfection École Primaire", acheteur: "Mairie de Thiès", montant: 25000000, deadline: "2026-06-10", prob: 100, responsable: "KD" },
 ];
 
 export default function Pipeline() {
@@ -70,13 +70,16 @@ export default function Pipeline() {
                     <span className={`text-[10px] font-black uppercase px-2 py-0.5 rounded-full ${t.prob >= 80 ? 'bg-green-100 text-green-700' : t.prob >= 50 ? 'bg-orange-100 text-orange-700' : 'bg-red-100 text-red-700'}`}>
                       IA Win-Rate: {t.prob}%
                     </span>
-                    <MoreHorizontal className="h-4 w-4 text-slate-400" />
+                    <span className="grid h-7 w-7 place-items-center rounded-full bg-brand-700 text-white text-[10px] font-black shrink-0" title={`Responsable: ${t.responsable}`}>{t.responsable}</span>
                   </div>
                   <h3 className="font-bold text-sm text-slate-900 leading-snug">{t.titre}</h3>
                   <div className="mt-3 space-y-1.5 text-xs text-slate-600 font-medium">
                     <div className="flex items-center gap-2"><Building2 className="h-3.5 w-3.5 text-slate-400" /> {t.acheteur}</div>
                     <div className="flex items-center gap-2"><DollarSign className="h-3.5 w-3.5 text-brand-600" /> <span className="font-bold text-slate-900">{fcfa(t.montant)}</span></div>
-                    <div className="flex items-center gap-2"><Clock className="h-3.5 w-3.5 text-red-400" /> {t.deadline}</div>
+                    <div className={`flex items-center gap-2 font-bold ${(() => { const d = new Date(t.deadline); const now = new Date(); const diff = Math.ceil((d.getTime() - now.getTime()) / 86400000); return diff <= 3 ? 'text-red-600' : diff <= 7 ? 'text-orange-500' : 'text-slate-500'; })()}`}>
+                      <Clock className="h-3.5 w-3.5" />
+                      {(() => { const d = new Date(t.deadline); const now = new Date(); const diff = Math.ceil((d.getTime() - now.getTime()) / 86400000); return diff <= 0 ? `⛔ Expiré (${t.deadline})` : diff <= 3 ? `🔴 Urgent — ${diff}j (${t.deadline})` : diff <= 7 ? `🟠 ${diff}j (${t.deadline})` : t.deadline; })()}
+                    </div>
                   </div>
                   <div className="mt-4 flex gap-1 opacity-100 md:opacity-0 group-hover:opacity-100 transition">
                     <select 

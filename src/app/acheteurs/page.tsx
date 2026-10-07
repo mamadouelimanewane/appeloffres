@@ -9,8 +9,10 @@ const ACHETEURS = [
     secteur: "Énergie",
     marchesAnnuels: 142,
     budgetMedian: 250000000,
-    delaiPaiement: 112, // jours
-    tauxAnnulation: 4, // %
+    delaiPaiement: 112,
+    tauxAnnulation: 4,
+    scoreTransparence: 78,
+    avisIA: "Bon payeur historique mais sélectif. Exige une trésorerie solide (>150M FCFA). Marchés souvent remportés par des groupements. Renforcez votre dossier technique.",
     criteres: ["Mieux disant", "ISO 9001", "Capacité financière"],
     favoris: ["Eiffage Sénégal", "Vinci Energies", "CSE"]
   },
@@ -21,6 +23,8 @@ const ACHETEURS = [
     budgetMedian: 120000000,
     delaiPaiement: 180,
     tauxAnnulation: 12,
+    scoreTransparence: 52,
+    avisIA: "Délais de paiement très longs (6 mois). Prévoir un plan de trésorerie solide ou utiliser l'affacturage. Taux d'annulation suspect, renseignez-vous sur les DAO avant d'investir.",
     criteres: ["Moins disant", "Agrément spécifique"],
     favoris: ["Médical Sénégal", "Carrefour Médical"]
   },
@@ -31,6 +35,8 @@ const ACHETEURS = [
     budgetMedian: 850000000,
     delaiPaiement: 65,
     tauxAnnulation: 2,
+    scoreTransparence: 91,
+    avisIA: "L'acheteur le plus transparent du Sénégal. Paiements rapides, critères clairs. Attention : les marchés sont très grands, nécessitent souvent un groupement ou un sous-traitant local.",
     criteres: ["Expérience internationale", "Mieux disant"],
     favoris: ["CDE", "Henan Chine", "CSE"]
   }
@@ -91,7 +97,7 @@ export default function CartographieAcheteurs() {
                 <span className="flex items-center gap-1.5 text-xs text-slate-500 font-semibold uppercase mb-2"><AlertTriangle className="h-3.5 w-3.5" /> Risque d'annulation</span>
                 <div className="flex items-center gap-3">
                   <div className="flex-1 h-2 bg-slate-100 rounded-full overflow-hidden">
-                    <div className={`h-full ${a.tauxAnnulation > 10 ? 'bg-red-500' : 'bg-green-500'}`} style={{ width: \`\${a.tauxAnnulation * 4}%\` }} />
+                    <div className={`h-full ${a.tauxAnnulation > 10 ? 'bg-red-500' : 'bg-green-500'}`} style={{ width: `${a.tauxAnnulation * 4}%` }} />
                   </div>
                   <span className="text-sm font-bold">{a.tauxAnnulation}%</span>
                 </div>
@@ -104,6 +110,26 @@ export default function CartographieAcheteurs() {
                     <span key={f} className="text-xs bg-brand-50 text-brand-700 px-2 py-1 rounded-md font-medium border border-brand-100">{f}</span>
                   ))}
                 </div>
+              </div>
+
+              {/* Score de transparence */}
+              <div className="col-span-2 mt-2 pt-4 border-t border-slate-100">
+                <div className="flex items-center justify-between mb-2">
+                  <span className="text-xs text-slate-500 font-semibold uppercase">Indice de Transparence IA</span>
+                  <span className={`text-lg font-black ${a.scoreTransparence >= 75 ? 'text-green-600' : a.scoreTransparence >= 55 ? 'text-orange-500' : 'text-red-600'}`}>{a.scoreTransparence}/100</span>
+                </div>
+                <div className="h-2 bg-slate-100 rounded-full overflow-hidden">
+                  <div
+                    className={`h-full rounded-full transition-all ${a.scoreTransparence >= 75 ? 'bg-green-500' : a.scoreTransparence >= 55 ? 'bg-orange-400' : 'bg-red-500'}`}
+                    style={{ width: `${a.scoreTransparence}%` }}
+                  />
+                </div>
+              </div>
+
+              {/* Avis IA */}
+              <div className="col-span-2 mt-2 pt-4 border-t border-slate-100">
+                <p className="text-xs text-slate-500 font-semibold uppercase mb-2">💡 Avis Expert IA</p>
+                <p className="text-sm text-slate-700 leading-relaxed bg-slate-50 p-3 rounded-lg border border-slate-200 italic">{a.avisIA}</p>
               </div>
             </div>
           </div>

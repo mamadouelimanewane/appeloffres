@@ -18,6 +18,11 @@ export default function Pricing() {
   // On simule que l'IA sait que pour N concurrents, le rabais moyen gagnant est de X% par rapport au budget.
   const prixOptimal = cout * 1.35 * (1 - (concurrents * 0.02)); 
   
+  let analyse = "";
+  if (concurrents >= 10) analyse = "Forte concurrence détectée. L'IA a compressé votre marge au minimum vital pour sécuriser l'attribution face au dumping prévisible.";
+  else if (concurrents <= 3) analyse = "Faible concurrence projetée. Vous avez un boulevard. L'IA vous recommande de maximiser votre marge brute, le risque d'offres agressives est faible.";
+  else analyse = "Concurrence standard. Le prix recommandé se base sur la médiane des rabais historiquement acceptés par cet acheteur (-12% de l'estimation).";
+
   return (
     <div className="conteneur py-8 max-w-4xl">
       <Link href="/" className="inline-flex items-center gap-1 text-sm font-medium text-slate-500 hover:text-brand-700">
@@ -86,8 +91,14 @@ export default function Pricing() {
                 Gagne dans 78% des cas simulés
               </p>
             </div>
+            
+            <div className="relative z-10 mt-6 bg-brand-900/50 p-3 rounded-lg border border-brand-800">
+               <p className="text-sm text-brand-100 leading-snug">
+                 <strong className="text-white">Analyse :</strong> {analyse}
+               </p>
+            </div>
 
-            <div className="mt-8 pt-6 border-t border-white/20 relative z-10 grid grid-cols-2 gap-4">
+            <div className="mt-6 pt-6 border-t border-white/20 relative z-10 grid grid-cols-2 gap-4">
               <div>
                 <p className="text-xs text-brand-200">Marge Brute</p>
                 <p className="font-bold text-lg">{fcfa(prixOptimal - cout)}</p>
