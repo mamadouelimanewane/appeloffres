@@ -26,6 +26,9 @@ export function PiedDePage() {
             <li><Link className="hover:text-white" href="/annuaire">Annuaire des PME</Link></li>
             <li><Link className="hover:text-white" href="/recours">Guide des recours (ARCOP)</Link></li>
             <li><Link className="hover:text-white" href="/dossiers">Mes dossiers</Link></li>
+            <li><Link className="hover:text-white" href="/signature">✍️ Signature & Cachet Numérique</Link></li>
+            <li><Link className="hover:text-white" href="/execution">🏗️ Suivi d'Exécution & Pénalités</Link></li>
+            <li><Link className="hover:text-white" href="/academy">🎓 Soumission Academy (Formation)</Link></li>
             <li><Link className="hover:text-white" href="/guide-appel">S&apos;inscrire sur APPEL</Link></li>
             <li><Link className="hover:text-white" href="/financement">Cautions et financement</Link></li>
             <li><Link className="hover:text-white" href="/whatsapp">Assistant WhatsApp</Link></li>
