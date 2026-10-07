@@ -222,9 +222,12 @@ Signature et cachet :\`;
             )}
             
             <div className="mt-4 flex flex-wrap gap-2">
-              <button className="btn" onClick={generer} disabled={attente}><Sparkles className="h-4 w-4" />{attente ? "Rédaction en cours…" : "Mémoire technique"}</button>
+              <Link href={`/appels/\${a.id}/redaction`} className="btn bg-indigo-600 hover:bg-indigo-700 text-white border-none shadow-lg shadow-indigo-600/20">
+                <Bot className="h-4 w-4" /> Lancer l'Assistant IA de Rédaction
+              </Link>
+              <button className="btn-sec" onClick={generer} disabled={attente}><Sparkles className="h-4 w-4" />{attente ? "Rédaction auto" : "Mémoire technique"}</button>
               <button className="btn-sec" onClick={() => genererLettreSoumission()}>Lettre de soumission</button>
-              <button className="btn-sec" onClick={() => genererDeclaration()}>Déclaration sur l'honneur</button>
+              <button className="btn-sec" onClick={() => genererDeclaration()}>Déclaration</button>
             </div>
             
             {memoire && (
