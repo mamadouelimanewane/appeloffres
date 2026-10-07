@@ -81,9 +81,14 @@ export default function SuiviExecution() {
                 </div>
 
                 {c.risque === "Élevé" && (
-                  <div className="bg-red-50 p-3 rounded-lg border border-red-100">
-                    <p className="text-xs font-bold text-red-800 uppercase">Risque de pénalité</p>
-                    <p className="text-sm text-red-600 font-semibold mt-1">{c.penalitesEstimees}</p>
+                  <div className="bg-red-50 p-3 rounded-lg border border-red-100 flex flex-col justify-between">
+                    <div>
+                      <p className="text-xs font-bold text-red-800 uppercase">Risque de pénalité</p>
+                      <p className="text-sm text-red-600 font-semibold mt-1">{c.penalitesEstimees}</p>
+                    </div>
+                    <button className="mt-3 text-xs font-bold bg-white text-red-700 border border-red-200 hover:bg-red-100 py-1.5 px-2 rounded w-full flex items-center justify-center gap-1 transition">
+                      <FileText className="h-3.5 w-3.5" /> Lettre Prolongation (IA)
+                    </button>
                   </div>
                 )}
               </div>

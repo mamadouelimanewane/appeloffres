@@ -66,6 +66,9 @@ export default function RadarPredictif() {
                   <div className="flex items-center gap-3 flex-wrap">
                     <h2 className="text-xl font-bold text-slate-900">{p.secteur}</h2>
                     {p.tags.map(t => <span key={t} className="puce bg-brand-50 text-brand-700 ring-1 ring-brand-200">{t}</span>)}
+                    <span className={`text-[10px] font-black uppercase px-2 py-0.5 rounded-full ${p.probabilite >= 90 ? 'bg-green-100 text-green-700' : 'bg-orange-100 text-orange-700'}`}>
+                      Indice de Confiance IA : {p.probabilite}%
+                    </span>
                   </div>
 
                   <div className="mt-3 flex flex-wrap gap-4 text-sm text-slate-600">

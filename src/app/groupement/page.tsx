@@ -133,9 +133,12 @@ ${membres.map(m => `SIGNATURE DE ${(m.nom || "[Membre]").toUpperCase()} : ______
 
         {genere && (
           <div className="carte overflow-hidden animate-in fade-in slide-in-from-bottom-4">
-            <div className="bg-green-50 border-b border-green-100 px-6 py-3 flex items-center justify-between">
+            <div className="bg-green-50 border-b border-green-100 px-6 py-3 flex flex-col sm:flex-row gap-3 items-center justify-between">
               <p className="text-sm font-bold text-green-800 flex items-center gap-2"><FileCheck className="h-4 w-4" /> Contrat généré — Prêt à signer</p>
-              <button className="btn-sec text-xs py-1.5" onClick={() => navigator.clipboard.writeText(contrat)}><Download className="h-4 w-4" /> Copier / Exporter</button>
+              <div className="flex items-center gap-2">
+                <button className="btn-sec bg-white text-xs py-1.5" onClick={() => navigator.clipboard.writeText(contrat)}><Download className="h-4 w-4" /> Word</button>
+                <Link href="/signature" className="btn text-xs py-1.5 bg-green-700 hover:bg-green-800 border-none">Faire signer en ligne</Link>
+              </div>
             </div>
             <pre className="p-6 text-sm font-mono text-slate-700 whitespace-pre-wrap leading-relaxed bg-white overflow-x-auto">
               {contrat}

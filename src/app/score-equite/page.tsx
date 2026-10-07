@@ -5,14 +5,35 @@ import Link from "next/link";
 import { APPELS } from "@/lib/donnees";
 
 const analyserEquite = (titre: string, ref: string) => {
-  // Simulation d'analyse IA sur les clauses du DAO
-  const piergesTypiques = [
-    { clause: "Référence d'un projet unique de même envergure exigée", risque: "Élevé", detail: "Cette exigence est souvent utilisée pour cibler un seul prestataire ayant déjà travaillé avec cet acheteur. Seules 1 à 2 entreprises au Sénégal peuvent satisfaire cette clause." },
-    { clause: "Certification ISO 14001 + ISO 9001 + OHSAS 18001 simultanément", risque: "Modéré", detail: "Exiger 3 certifications simultanées réduit drastiquement le nombre de candidats éligibles. C'est légal, mais méfiez-vous." },
-    { clause: "Délai d'exécution inférieur à 45 jours pour ce type de prestation", risque: "Élevé", detail: "Le délai semble intentionnellement court pour favoriser une entreprise ayant déjà le matériel en stock localement." },
-  ];
-  const score = Math.floor(Math.random() * 40) + 45; // Entre 45 et 85
-  return { score, pierges: piergesTypiques };
+  // Générer des données contextuelles basées sur le titre pour la démo
+  const isFourniture = titre.toLowerCase().includes("fourniture");
+  const isTravaux = titre.toLowerCase().includes("construction") || titre.toLowerCase().includes("réfection");
+  
+  let piergesTypiques = [];
+  
+  if (isFourniture) {
+    piergesTypiques = [
+      { clause: "Spécifications techniques pointant vers une seule marque (Art. 67 CMP)", risque: "Élevé", detail: "Les dimensions et modèles exigés correspondent exactement à la fiche technique d'un fabricant spécifique. La loi interdit de mentionner une marque sans ajouter 'ou équivalent'." },
+      { clause: "Délai de livraison de 15 jours", risque: "Très Élevé", detail: "Ce délai favorise outrageusement une entreprise ayant déjà le stock dédouané à Dakar." }
+    ];
+  } else if (isTravaux) {
+    piergesTypiques = [
+      { clause: "Matériel spécifique très rare exigé en propre (non loué)", risque: "Élevé", detail: "L'exigence de posséder une grue de 120T en propre (et non en location) restreint la concurrence à 3 entreprises nationales." },
+      { clause: "Chiffre d'affaires moyen exigé 5x supérieur au budget du marché", risque: "Modéré", detail: "L'ARCOP recommande un CA moyen équivalent à 1.5x ou 2x le budget, 5x est discriminatoire pour les PME." }
+    ];
+  } else {
+    piergesTypiques = [
+      { clause: "Référence d'un projet unique similaire dans les 3 dernières années", risque: "Élevé", detail: "Souvent utilisé pour cibler l'entreprise sortante. Peu d'autres prestataires peuvent satisfaire cette clause spécifique." },
+      { clause: "Agrément optionnel rendu obligatoire au lieu d'une qualification classique", risque: "Modéré", detail: "Une barrière à l'entrée artificielle si l'agrément n'est pas strictement justifié par le code des marchés." }
+    ];
+  }
+  
+  // Hash rudimentaire pour avoir un score constant pour un ID donné
+  const charCode = ref.charCodeAt(0) + ref.charCodeAt(ref.length - 1);
+  const baseScore = 100 - (piergesTypiques.length * 20); // Commence à 60
+  const randomizer = (charCode % 25) - 10; // -10 à +15
+  
+  return { score: baseScore + randomizer, pierges: piergesTypiques };
 };
 
 export default function RadarEquite() {
