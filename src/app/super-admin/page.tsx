@@ -4,10 +4,11 @@ import {
   Users, Activity, Bell, FileText, TrendingUp, ShieldAlert, 
   Server, Database, Lock, Terminal, AlertOctagon, Power, 
   Fingerprint, CheckCircle2, XCircle, Search, CreditCard,
-  LogOut, ArrowUpRight, TrendingDown, MoreVertical
+  LogOut, ArrowUpRight, TrendingDown, MoreVertical, Megaphone, Download
 } from "lucide-react";
 import Link from "next/link";
 import { fcfa } from "@/lib/data";
+import { Marketing } from "@/components/admin/Marketing";
 
 const LOGS = [
   "[18:41:02] INFO: Backup DB automatique terminé avec succès (2.4 GB).",
@@ -25,7 +26,7 @@ const ABONNES = [
 ];
 
 export default function SuperAdmin() {
-  const [activeTab, setActiveTab] = useState("dashboard");
+  const [activeTab, setActiveTab] = useState("marketing");
   const [logs, setLogs] = useState(LOGS);
 
   // Simulation de logs en direct
@@ -56,6 +57,7 @@ export default function SuperAdmin() {
         <div className="p-3 flex-1 space-y-1">
           {[
             { id: "dashboard", icon: Activity, label: "Business & Finances" },
+            { id: "marketing", icon: Megaphone, label: "Marketing & Croissance" },
             { id: "users", icon: Users, label: "Gestion des Abonnés" },
             { id: "securite", icon: ShieldAlert, label: "SOC & Sécurité" },
             { id: "infra", icon: Server, label: "Infrastructure & API" },
@@ -99,6 +101,9 @@ export default function SuperAdmin() {
 
         <div className="p-8">
           
+          {/* TAB: MARKETING */}
+          {activeTab === "marketing" && <Marketing />}
+
           {/* TAB: FINANCES */}
           {activeTab === "dashboard" && (
             <div className="animate-in fade-in">
@@ -281,4 +286,3 @@ export default function SuperAdmin() {
   );
 }
 
-import { Download } from "lucide-react";

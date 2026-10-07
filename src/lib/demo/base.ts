@@ -7,8 +7,9 @@
  */
 import { useEffect, useState } from "react";
 import { appliquerPaiement, creerCompte, normaliserTelephone, type Compte, type Inscription } from "../compte";
-import { annuler, confirmer, creerTransaction, type MoyenPaiement, type Transaction } from "../paiement";
+import { annuler, confirmer, creerTransaction, montant, type MoyenPaiement, type Transaction } from "../paiement";
 import type { CodeOffre } from "../offres";
+import { appliquerCode, type CodePromo } from "../marketing";
 
 export const MODE_DEMO = true;
 /** Code de connexion simulé (en production : SMS ou WhatsApp à usage unique). */
@@ -23,7 +24,8 @@ export interface MessageEnvoye {
   envoyeLe: string;
 }
 
-const CLES = { comptes: "demo-comptes", session: "demo-session", transactions: "demo-transactions", messages: "demo-messages" };
+/** `codes` : même clé que la console admin (onglet Marketing), qui les crée. */
+const CLES = { comptes: "demo-comptes", session: "demo-session", transactions: "demo-transactions", messages: "demo-messages", codes: "admin-codes-promo" };
 const EVENEMENT = "demo-base-change";
 
 function lire<T>(cle: string, defaut: T): T {
@@ -93,12 +95,15 @@ export function transactions(): Transaction[] {
 }
 
 /** En production : appel serveur à l'API de l'agrégateur, qui renvoie l'adresse de sa page de paiement. */
-export function demanderPaiement(p: { offre: CodeOffre; mois: number; moyen: MoyenPaiement; telephone: string }): { ref: string; urlPaiement: string } {
+export function demanderPaiement(p: { offre: CodeOffre; mois: number; moyen: MoyenPaiement; telephone: string; codePromo?: string }): { ref: string; urlPaiement: string } {
   const c = compteActuel();
   if (!c) throw new Error("Connectez-vous pour vous abonner.");
   const tel = normaliserTelephone(p.telephone);
   if (!tel) throw new Error("Numéro de paiement invalide.");
-  const t = creerTransaction({ compteId: c.id, ...p, telephone: tel }, new Date(), nouvelId("PAY").toUpperCase());
+  const { codePromo, ...demande } = p;
+  // Le code est revérifié ici (en production : côté serveur), jamais cru sur parole depuis la page
+  const remise = codePromo?.trim() ? verifierCodePromo(codePromo, p.offre, p.mois) : undefined;
+  const t = creerTransaction({ compteId: c.id, ...demande, telephone: tel }, new Date(), nouvelId("PAY").toUpperCase(), remise && { code: remise.code, montant: remise.montant });
   ecrire(CLES.transactions, [...transactions(), t]);
   return { ref: t.ref, urlPaiement: `/paiement/${t.ref}` };
 }
@@ -113,6 +118,8 @@ export function confirmerPaiementSimule(ref: string): Compte {
   if (!c) throw new Error("Compte introuvable.");
   const maj = appliquerPaiement(c, t.offre, t.mois, new Date());
   mettreAJour(maj);
+  // Une utilisation du code est comptée seulement quand le paiement est confirmé (une seule fois, grâce à `confirmer`)
+  if (t.codePromo) ecrire(CLES.codes, codesPromo().map((x) => (x.code === t.codePromo ? { ...x, utilisations: x.utilisations + 1 } : x)));
   return maj;
 }
 
@@ -120,6 +127,22 @@ export function annulerPaiementSimule(ref: string) {
   const t = transactions().find((x) => x.ref === ref);
   if (!t) return;
   ecrire(CLES.transactions, transactions().map((x) => (x.ref === ref ? annuler(t) : x)));
+}
+
+// --- Codes promo (créés dans la console admin, onglet Marketing) --------------
+
+export function codesPromo(): CodePromo[] {
+  return lire<CodePromo[]>(CLES.codes, []);
+}
+
+export function enregistrerCodesPromo(codes: CodePromo[]) {
+  ecrire(CLES.codes, codes);
+}
+
+/** Prix après remise pour cette offre et cette durée ; lève une erreur si le code n'est pas valable. */
+export function verifierCodePromo(saisie: string, offre: CodeOffre, mois: number): { code: string; montant: number; remise: number; taux: number } {
+  const r = appliquerCode(montant(offre, mois), saisie, codesPromo(), new Date());
+  return { code: r.code.code, montant: r.montant, remise: r.remise, taux: r.code.remise };
 }
 
 // --- Messages WhatsApp (boîte d'envoi simulée) --------------------------------

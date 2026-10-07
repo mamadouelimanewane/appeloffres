@@ -22,6 +22,9 @@ export interface Transaction {
   statut: StatutTransaction;
   creeLe: string;
   payeeLe: string | null;
+  /** Code promo appliqué (montant = prix après remise). */
+  codePromo?: string | null;
+  montantAvantRemise?: number | null;
 }
 
 /** Remise de 2 mois offerts sur 12 (10 mois payés). */
@@ -30,9 +33,26 @@ export function montant(code: CodeOffre, mois: number): number {
   return mois >= 12 ? prix * (mois - 2) : prix * mois;
 }
 
-export function creerTransaction(p: { compteId: string; offre: CodeOffre; mois: number; moyen: MoyenPaiement; telephone: string }, maintenant: Date, ref: string): Transaction {
+/**
+ * `remise` : montant déjà calculé par `appliquerCode` (src/lib/marketing.ts).
+ * Il ne peut pas dépasser le prix catalogue ni être nul.
+ */
+export function creerTransaction(
+  p: { compteId: string; offre: CodeOffre; mois: number; moyen: MoyenPaiement; telephone: string },
+  maintenant: Date,
+  ref: string,
+  remise?: { code: string; montant: number },
+): Transaction {
   if (![1, 3, 12].includes(p.mois)) throw new Error("Durée non proposée.");
-  return { ref, ...p, montant: montant(p.offre, p.mois), statut: "en_attente", creeLe: maintenant.toISOString(), payeeLe: null };
+  const prix = montant(p.offre, p.mois);
+  if (remise && (!(remise.montant > 0) || remise.montant > prix)) throw new Error("Montant après remise incohérent.");
+  return {
+    ref, ...p,
+    montant: remise ? remise.montant : prix,
+    codePromo: remise?.code ?? null,
+    montantAvantRemise: remise ? prix : null,
+    statut: "en_attente", creeLe: maintenant.toISOString(), payeeLe: null,
+  };
 }
 
 /** Une transaction ne peut être confirmée ou annulée qu'une fois (protection contre les doubles notifications). */

@@ -2,11 +2,11 @@
 import Link from "next/link";
 import { useRouter } from "next/navigation";
 import { useEffect, useState } from "react";
-import { ArrowRight, Check, CreditCard, Smartphone } from "lucide-react";
+import { ArrowRight, Check, CreditCard, Smartphone, Tag, X } from "lucide-react";
 import { statutAbonnement } from "@/lib/compte";
 import { OFFRES, type CodeOffre } from "@/lib/offres";
 import { MOYENS, fcfaCourt, montant, type MoyenPaiement } from "@/lib/paiement";
-import { demanderPaiement, useCompte } from "@/lib/demo/base";
+import { demanderPaiement, useCompte, verifierCodePromo } from "@/lib/demo/base";
 import { BandeauDemo } from "@/components/BandeauDemo";
 import { TitrePage } from "@/components/ui";
 
@@ -24,18 +24,50 @@ export default function Abonnement() {
   const [moyen, setMoyen] = useState<MoyenPaiement>("wave");
   const [telephone, setTelephone] = useState("");
   const [erreur, setErreur] = useState("");
+  const [saisiePromo, setSaisiePromo] = useState("");
+  const [promo, setPromo] = useState<string | null>(null); // code accepté
+  const [erreurPromo, setErreurPromo] = useState("");
 
   useEffect(() => {
-    const o = new URLSearchParams(window.location.search).get("offre");
+    const q = new URLSearchParams(window.location.search);
+    const o = q.get("offre");
     if (o === "veille" || o === "pro") setCode(o);
+    const c = q.get("code");
+    if (c) setSaisiePromo(c);
   }, []);
-  useEffect(() => { if (compte) setTelephone(compte.telephone.replace("+221", "")); }, [compte]);
+  useEffect(() => {
+    if (!compte) return;
+    setTelephone(compte.telephone.replace("+221", ""));
+    // Inscrit par un lien d'affiliation : son code est proposé
+    if (compte.parrain) setSaisiePromo((s) => s || compte.parrain!);
+  }, [compte]);
+
+  // Le prix après remise est recalculé à chaque changement d'offre ou de durée
+  let remise: ReturnType<typeof verifierCodePromo> | null = null;
+  let promoInvalide = "";
+  if (promo) {
+    try {
+      remise = verifierCodePromo(promo, code, mois);
+    } catch (err) {
+      promoInvalide = (err as Error).message;
+    }
+  }
+
+  function appliquerPromo() {
+    setErreurPromo("");
+    try {
+      setPromo(verifierCodePromo(saisiePromo, code, mois).code);
+    } catch (err) {
+      setPromo(null);
+      setErreurPromo((err as Error).message);
+    }
+  }
 
   function payer(e: React.FormEvent) {
     e.preventDefault();
     setErreur("");
     try {
-      routeur.push(demanderPaiement({ offre: code, mois, moyen, telephone }).urlPaiement);
+      routeur.push(demanderPaiement({ offre: code, mois, moyen, telephone, codePromo: remise?.code }).urlPaiement);
     } catch (err) {
       setErreur((err as Error).message);
     }
@@ -112,9 +144,33 @@ export default function Abonnement() {
                 <input className="champ pl-10" type="tel" inputMode="tel" value={telephone} onChange={(e) => setTelephone(e.target.value)} placeholder="77 123 45 67" required />
               </div>
             </label>
-            <div className="flex items-baseline justify-between border-t border-slate-100 pt-4">
-              <span className="text-sm text-slate-500">Total</span>
-              <span className="text-2xl font-extrabold">{fcfaCourt(montant(code, mois))}</span>
+            <div>
+              <p className="text-sm font-medium text-slate-700">Code promo</p>
+              {remise ? (
+                <p className="mt-1.5 flex items-center justify-between rounded-xl bg-brand-50 px-3 py-2.5 text-sm ring-1 ring-brand-200">
+                  <span className="flex items-center gap-2 font-semibold text-brand-800"><Tag className="h-4 w-4" />{remise.code} · -{remise.taux} %</span>
+                  <button type="button" onClick={() => { setPromo(null); setSaisiePromo(""); }} aria-label="Retirer le code" className="rounded p-1 text-slate-500 hover:bg-white hover:text-slate-800"><X className="h-4 w-4" /></button>
+                </p>
+              ) : (
+                <div className="mt-1.5 flex gap-2">
+                  <input className="champ font-mono uppercase" value={saisiePromo} onChange={(e) => { setSaisiePromo(e.target.value); setErreurPromo(""); }}
+                    onKeyDown={(e) => { if (e.key === "Enter") { e.preventDefault(); appliquerPromo(); } }} placeholder="PROMO-BTP" aria-label="Code promo" />
+                  <button type="button" className="btn-sec shrink-0" onClick={appliquerPromo} disabled={!saisiePromo.trim()}>Appliquer</button>
+                </div>
+              )}
+              {(erreurPromo || promoInvalide) && <p className="mt-1.5 text-sm text-red-600" role="alert">{erreurPromo || promoInvalide}</p>}
+            </div>
+            <div className="space-y-1 border-t border-slate-100 pt-4">
+              {remise && (
+                <>
+                  <div className="flex justify-between text-sm text-slate-500"><span>Prix</span><span>{fcfaCourt(montant(code, mois))}</span></div>
+                  <div className="flex justify-between text-sm font-medium text-brand-700"><span>Remise {remise.code}</span><span>-{fcfaCourt(remise.remise)}</span></div>
+                </>
+              )}
+              <div className="flex items-baseline justify-between">
+                <span className="text-sm text-slate-500">Total</span>
+                <span className="text-2xl font-extrabold">{fcfaCourt(remise ? remise.montant : montant(code, mois))}</span>
+              </div>
             </div>
             {erreur && <p className="rounded-xl bg-red-50 p-3 text-sm text-red-700 ring-1 ring-red-200" role="alert">{erreur}</p>}
             <button className="btn w-full" type="submit" disabled={!compte}>Payer avec {MOYENS[moyen]} <ArrowRight className="h-4 w-4" /></button>

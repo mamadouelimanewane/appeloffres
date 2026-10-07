@@ -28,6 +28,8 @@ export interface Compte {
   creeLe: string; // ISO
   abonnement: Abonnement;
   alertes: PreferencesAlertes;
+  /** Code d'affiliation du lien d'inscription (/inscription?ref=CODE), s'il y en avait un. */
+  parrain?: string | null;
 }
 
 const jour = (d: Date) => d.toISOString().slice(0, 10);
@@ -47,6 +49,7 @@ export interface Inscription {
   email?: string;
   region: string;
   secteurs: Secteur[];
+  parrain?: string | null;
 }
 
 export function creerCompte(d: Inscription, maintenant: Date, id: string): Compte {
@@ -65,6 +68,7 @@ export function creerCompte(d: Inscription, maintenant: Date, id: string): Compt
     // Essai gratuit de l'offre Pro, jour de l'inscription compris
     abonnement: { offre: "essai", jusquau: plusJours(aujourdhui, ESSAI_JOURS - 1) },
     alertes: { actives: true, whatsapp: telephone, secteurs: d.secteurs, motsCles: [] },
+    parrain: d.parrain?.trim().toUpperCase() || null,
   };
 }
 

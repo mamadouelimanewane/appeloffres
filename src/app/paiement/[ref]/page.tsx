@@ -61,6 +61,9 @@ export default function PaiementSimule({ params }: { params: Promise<{ ref: stri
             <dl className="space-y-2 text-sm">
               <div className="flex justify-between"><dt className="text-slate-500">Bénéficiaire</dt><dd className="font-medium">Appeldoffres.sn</dd></div>
               <div className="flex justify-between"><dt className="text-slate-500">Objet</dt><dd className="font-medium">Offre {offre(t.offre).nom} · {t.mois} mois</dd></div>
+              {t.codePromo && t.montantAvantRemise && (
+                <div className="flex justify-between"><dt className="text-slate-500">Code promo</dt><dd className="font-medium text-brand-700">{t.codePromo} · -{fcfaCourt(t.montantAvantRemise - t.montant)}</dd></div>
+              )}
               <div className="flex justify-between"><dt className="text-slate-500">Numéro</dt><dd className="font-medium">{t.telephone}</dd></div>
               <div className="flex justify-between"><dt className="text-slate-500">Référence</dt><dd className="font-mono text-xs">{t.ref}</dd></div>
             </dl>

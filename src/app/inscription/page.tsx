@@ -17,8 +17,13 @@ export default function Inscription() {
   const [secteurs, setSecteurs] = useState<Secteur[]>([]);
   const [erreur, setErreur] = useState("");
   const [offreVoulue, setOffreVoulue] = useState<string | null>(null);
+  const [parrain, setParrain] = useState<string | null>(null);
 
-  useEffect(() => setOffreVoulue(new URLSearchParams(window.location.search).get("offre")), []);
+  useEffect(() => {
+    const q = new URLSearchParams(window.location.search);
+    setOffreVoulue(q.get("offre"));
+    setParrain(q.get("ref"));
+  }, []);
 
   const bascule = (s: Secteur) => setSecteurs(secteurs.includes(s) ? secteurs.filter((x) => x !== s) : [...secteurs, s]);
 
@@ -27,7 +32,7 @@ export default function Inscription() {
     setErreur("");
     if (secteurs.length === 0) return setErreur("Choisissez au moins un secteur : il sert à vos alertes.");
     try {
-      inscrire({ ...f, secteurs });
+      inscrire({ ...f, secteurs, parrain });
       routeur.push(offreVoulue ? `/abonnement?offre=${offreVoulue}` : "/compte?bienvenue=1");
     } catch (err) {
       setErreur((err as Error).message);
