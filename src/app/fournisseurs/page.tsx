@@ -1,6 +1,6 @@
 "use client";
 import { useState } from "react";
-import { ArrowLeft, Search, Package, MapPin, Truck, ExternalLink, Mail } from "lucide-react";
+import { ArrowLeft, Search, Package, MapPin, Truck, ExternalLink, Mail, CheckCircle2 } from "lucide-react";
 import Link from "next/link";
 import { fcfa } from "@/lib/data";
 
