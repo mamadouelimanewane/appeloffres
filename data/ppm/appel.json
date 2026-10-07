@@ -48927,24 +48927,6 @@
   "autorite": "Primature / Sécrétariat Général du gouvernement",
   "plan": "PM / SGG_2026_22",
   "direction": "Service de Gestion du Building administratif",
-  "reference": "F_PM / SGG_SGBA_1713",
-  "objet": "Fourniture de peinture sol terrasse du Building Administratif",
-  "typeMarche": "Fourniture",
-  "financement": [
-   "Budget propre"
-  ],
-  "mode": "Demande de renseignement et de prix à compétition restreinte",
-  "lancement": "2026-07-17",
-  "attribution": "2026-09-04",
-  "demarrage": "2026-09-17",
-  "achevement": null,
-  "etat": null,
-  "montantFcfa": null
- },
- {
-  "autorite": "Primature / Sécrétariat Général du gouvernement",
-  "plan": "PM / SGG_2026_22",
-  "direction": "Service de Gestion du Building administratif",
   "reference": "T_PM / SGG_SGBA_1718",
   "objet": "Digitalisation du registre des entrées et sorties au Building Administratif",
   "typeMarche": "Travaux",
@@ -49423,24 +49405,6 @@
   "lancement": "2026-07-08",
   "attribution": "2026-07-15",
   "demarrage": "2026-07-16",
-  "achevement": null,
-  "etat": null,
-  "montantFcfa": null
- },
- {
-  "autorite": "Primature / Sécrétariat Général du gouvernement",
-  "plan": "PM / SGG_2026_22",
-  "direction": "Service de Gestion du Building administratif",
-  "reference": "S_PM / SGG_SGBA_1801",
-  "objet": "Entretien et maintenance de trois (3) groupes électrogènes de secours de 1000 kva du Building Administratif",
-  "typeMarche": "Services",
-  "financement": [
-   "Budget propre"
-  ],
-  "mode": "Demande de renseignement et de prix à compétition restreinte",
-  "lancement": "2026-02-05",
-  "attribution": "2026-03-11",
-  "demarrage": "2026-03-30",
   "achevement": null,
   "etat": null,
   "montantFcfa": null
@@ -51115,6 +51079,42 @@
   "lancement": "2026-02-05",
   "attribution": "2026-03-11",
   "demarrage": "2026-03-30",
+  "achevement": null,
+  "etat": null,
+  "montantFcfa": null
+ },
+ {
+  "autorite": "Primature / Sécrétariat Général du gouvernement",
+  "plan": "PM / SGG_2026_22",
+  "direction": "Service de Gestion du Building administratif",
+  "reference": "S_PM / SGG_SGBA_1801",
+  "objet": "Entretien et maintenance de trois (3) groupes électrogènes de secours de 1000 kva du Building Administratif",
+  "typeMarche": "Services",
+  "financement": [
+   "Budget propre"
+  ],
+  "mode": "Demande de renseignement et de prix à compétition restreinte",
+  "lancement": "2026-02-05",
+  "attribution": "2026-03-11",
+  "demarrage": "2026-03-30",
+  "achevement": null,
+  "etat": null,
+  "montantFcfa": null
+ },
+ {
+  "autorite": "Primature / Sécrétariat Général du gouvernement",
+  "plan": "PM / SGG_2026_22",
+  "direction": "Service de Gestion du Building administratif",
+  "reference": "F_PM / SGG_SGBA_1713",
+  "objet": "Fourniture de peinture sol terrasse du Building Administratif",
+  "typeMarche": "Fourniture",
+  "financement": [
+   "Budget propre"
+  ],
+  "mode": "Demande de renseignement et de prix à compétition restreinte",
+  "lancement": "2026-07-17",
+  "attribution": "2026-09-04",
+  "demarrage": "2026-09-17",
   "achevement": null,
   "etat": null,
   "montantFcfa": null
