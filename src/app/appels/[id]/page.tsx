@@ -237,6 +237,41 @@ Signature et cachet :\`;
             )}
           </section>
           </ReservePro>
+
+          <ReservePro fonction="memoire" titre="Outils Avancés (Premium)">
+            <section className="carte p-6 mt-6 bg-gradient-to-br from-indigo-50 to-white border-indigo-100">
+              <div className="flex items-center justify-between">
+                <h2 className="flex items-center gap-2 text-lg font-bold"><Bot className="h-5 w-5 text-indigo-600" /> Simulateur de Note (IA)</h2>
+                <span className="puce bg-indigo-100 text-indigo-800 ring-1 ring-indigo-200">Prédictif</span>
+              </div>
+              <p className="mt-2 text-sm text-slate-600">L'IA évalue votre dossier par rapport à la grille de ce DAO.</p>
+              <div className="mt-4 flex flex-col sm:flex-row gap-4 items-center justify-between bg-white p-4 rounded-xl border border-indigo-50">
+                <div className="space-y-1 w-full sm:w-auto flex-1">
+                  <div className="flex justify-between text-sm"><span className="text-slate-600">Expérience technique</span> <span className="font-bold text-green-600">25/30</span></div>
+                  <div className="flex justify-between text-sm"><span className="text-slate-600">Capacité financière</span> <span className="font-bold text-orange-500">10/20</span></div>
+                  <div className="flex justify-between text-sm"><span className="text-slate-600">Méthodologie</span> <span className="font-bold text-red-500">5/20</span></div>
+                </div>
+                <div className="text-center bg-slate-50 p-3 rounded-lg border min-w-28">
+                  <p className="text-xs text-slate-500 uppercase font-bold">Score Global</p>
+                  <p className="text-2xl font-extrabold text-indigo-700">40/70</p>
+                </div>
+              </div>
+              <p className="mt-3 text-xs text-indigo-700 font-medium">💡 Conseil IA : Votre méthodologie manque d'un plan de gestion HSE. Ajoutez-le pour gagner 10 points.</p>
+            </section>
+
+            <section className="carte p-6 mt-6">
+              <h2 className="flex items-center gap-2 text-lg font-bold">🌍 Traducteur de DAO</h2>
+              <p className="mt-2 text-sm text-slate-600">Le cahier des charges est dans une langue étrangère ? L'IA le traduit instantanément en préservant la mise en page.</p>
+              <button className="btn-sec mt-4" onClick={() => alert("Simulation : Traduction IA du document complet de 45 pages en cours...")}>Traduire le DAO en Français</button>
+            </section>
+
+            <section className="carte p-6 mt-6 bg-slate-900 text-white shadow-xl">
+              <h2 className="flex items-center gap-2 text-lg font-bold text-white">🚀 Dépôt Automatisé (RPA)</h2>
+              <p className="mt-2 text-sm text-slate-300">Votre dossier est prêt. Laissez notre robot se connecter à SYGMAP/APPEL et téléverser les pièces pour vous en un clic.</p>
+              <button className="btn bg-brand-500 hover:bg-brand-400 text-white border-none mt-4 w-full justify-center" onClick={() => alert("Simulation : Le robot RPA s'est connecté à APPEL. Téléversement des pièces administratives en cours...")}>Soumettre l'offre en 1-Clic sur APPEL</button>
+            </section>
+          </ReservePro>
+
           </div>
         </div>
 

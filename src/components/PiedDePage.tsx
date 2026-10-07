@@ -19,8 +19,10 @@ export function PiedDePage() {
             <li><Link className="hover:text-white" href="/a-venir">Marchés à venir</Link></li>
             <li><Link className="hover:text-white" href="/qui-gagne">Qui gagne quoi</Link></li>
             <li><Link className="hover:text-white" href="/prix-conseille">Estimateur de prix</Link></li>
+            <li><Link className="hover:text-white" href="/bpu">Auto-Remplissage BPU</Link></li>
             <li><Link className="hover:text-white" href="/concurrents">Veille concurrentielle</Link></li>
-            <li><Link className="hover:text-white" href="/annuaire">Groupements & Sous-traitance</Link></li>
+            <li><Link className="hover:text-white" href="/bourse-sous-traitance">Bourse de Sous-traitance</Link></li>
+            <li><Link className="hover:text-white" href="/annuaire">Annuaire des PME</Link></li>
             <li><Link className="hover:text-white" href="/recours">Guide des recours (ARCOP)</Link></li>
             <li><Link className="hover:text-white" href="/dossiers">Mes dossiers</Link></li>
             <li><Link className="hover:text-white" href="/guide-appel">S&apos;inscrire sur APPEL</Link></li>

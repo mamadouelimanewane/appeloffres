@@ -102,6 +102,18 @@ export default function Financement() {
           </section>
         </div>
 
+        <div className="carte p-6 bg-brand-50 border-brand-200 mt-6">
+          <h2 className="text-xl font-bold flex items-center gap-2 text-brand-900">
+            ⚡ Garantie "1-Clic" (API FONGIP / Banques)
+          </h2>
+          <p className="mt-2 text-brand-800 text-sm">
+            Soumission PME est connecté au FONGIP et à 3 banques partenaires. En cliquant sur le bouton ci-dessous, notre système envoie votre "Score PME" et votre historique pour obtenir un <strong>accord de principe en moins de 10 secondes</strong>.
+          </p>
+          <button className="mt-4 btn bg-brand-700 hover:bg-brand-800 text-white w-full sm:w-auto" onClick={() => alert("Simulation API FONGIP : Demande envoyée avec votre Score PME (85/100). Vous recevrez l'accord de principe par email sous peu.")}>
+            Demander la garantie en 1-clic
+          </button>
+        </div>
+
         <section className="carte p-6">
           <h2 className="flex items-center gap-2 text-lg font-bold"><Send className="h-5 w-5 text-brand-700" /> Être accompagné</h2>
           <p className="mt-1 text-sm text-slate-600">Décrivez votre besoin : nous vous aidons à préparer la demande et à l&apos;adresser aux banques et assureurs partenaires.</p>
