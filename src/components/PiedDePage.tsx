@@ -54,7 +54,6 @@ export function PiedDePage() {
             <li>ONG (plate-forme PFONGUE)</li>
           </ul>
         </div>
-        </div>
       </div>
       <div className="border-t border-white/10">
         <div className="conteneur flex flex-col gap-2 py-6 text-xs text-brand-100/60 md:flex-row md:justify-between">
