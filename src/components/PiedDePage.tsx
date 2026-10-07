@@ -38,10 +38,13 @@ export function PiedDePage() {
         <div>
           <p className="text-sm font-semibold text-white">Outils Avancés</p>
           <ul className="mt-4 space-y-2 text-sm">
+            <li><Link className="hover:text-white" href="/pipeline">📊 CRM Pipeline (Usine à Marchés)</Link></li>
+            <li><Link className="hover:text-white" href="/acheteurs">🕵️ Intelligence Acheteur</Link></li>
+            <li><Link className="hover:text-white" href="/pricing">🧮 Bidding Optimizer (Prix optimal)</Link></li>
             <li><Link className="hover:text-white" href="/score-equite">🚩 Détecteur de marchés orientés</Link></li>
             <li><Link className="hover:text-white" href="/affacturage">💸 Marketplace d&apos;Affacturage</Link></li>
-            <li><Link className="hover:text-white" href="/radar-predictif">🔮 Radar Prédictif (Loi de Finances)</Link></li>
-            <li><Link className="hover:text-white" href="/groupement">🤝 Générateur d&apos;Actes de Groupement</Link></li>
+            <li><Link className="hover:text-white" href="/radar-predictif">🔮 Radar Prédictif</Link></li>
+            <li><Link className="hover:text-white" href="/groupement">🤝 Actes de Groupement</Link></li>
           </ul>
         </div>
         <div>

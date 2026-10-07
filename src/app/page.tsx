@@ -2,7 +2,7 @@ import Link from "next/link";
 import {
   ArrowRight, BarChart3, BellRing, CalendarClock, Check, ClipboardCheck,
   FileText, FolderCheck, Search, ShieldCheck, Sparkles, Trophy,
-  ShieldAlert, Banknote, Telescope, Users,
+  ShieldAlert, Banknote, Telescope, Users, Calculator
 } from "lucide-react";
 import { compteARebours, dateFr, joursRestants, piecesPour } from "@/lib/data";
 import { APPELS, ATTRIBUEES, A_VENIR } from "@/lib/donnees";
@@ -201,6 +201,48 @@ export default function Accueil() {
           </div>
 
           <div className="mt-14 grid gap-6 md:grid-cols-2">
+            {/* Card Nouvelle 1 – CRM Usine à Marchés */}
+            <Link href="/pipeline" className="group relative overflow-hidden rounded-3xl bg-white/5 border border-white/10 p-7 transition hover:bg-white/10 hover:border-white/20 hover:shadow-2xl">
+              <div className="flex items-start gap-4">
+                <span className="grid h-14 w-14 shrink-0 place-items-center rounded-2xl bg-fuchsia-500/20 text-fuchsia-400">
+                  <BarChart3 className="h-7 w-7" />
+                </span>
+                <div>
+                  <div className="flex items-center gap-2">
+                    <h3 className="text-xl font-bold text-white">L'Usine à Marchés (CRM Pipeline)</h3>
+                    <span className="rounded-full bg-fuchsia-500/20 px-2 py-0.5 text-[11px] font-bold uppercase text-fuchsia-300">Entreprise</span>
+                  </div>
+                  <p className="mt-2 text-brand-200 leading-relaxed">
+                    Vous vivez des appels d'offres ? Pilotez 20 dossiers en simultané avec notre <strong className="text-white">Pipeline de Soumission</strong> type Trello, et suivez votre CA prévisionnel en temps réel.
+                  </p>
+                  <p className="mt-4 flex items-center gap-1 text-sm font-semibold text-or-300 opacity-0 transition group-hover:opacity-100">
+                    Ouvrir le CRM <ArrowRight className="h-4 w-4" />
+                  </p>
+                </div>
+              </div>
+            </Link>
+
+            {/* Card Nouvelle 2 – Simulateur de Prix */}
+            <Link href="/pricing" className="group relative overflow-hidden rounded-3xl bg-white/5 border border-white/10 p-7 transition hover:bg-white/10 hover:border-white/20 hover:shadow-2xl">
+              <div className="flex items-start gap-4">
+                <span className="grid h-14 w-14 shrink-0 place-items-center rounded-2xl bg-yellow-500/20 text-yellow-400">
+                  <Calculator className="h-7 w-7" />
+                </span>
+                <div>
+                  <div className="flex items-center gap-2">
+                    <h3 className="text-xl font-bold text-white">Bidding Optimizer (Simulateur)</h3>
+                    <span className="rounded-full bg-yellow-500/20 px-2 py-0.5 text-[11px] font-bold uppercase text-yellow-300">IA</span>
+                  </div>
+                  <p className="mt-2 text-brand-200 leading-relaxed">
+                    Saisissez vos coûts bruts. L'IA analyse les données historiques de l'acheteur et vous recommande <strong className="text-white">le prix exact à soumettre</strong> pour battre vos concurrents sans sacrifier la marge.
+                  </p>
+                  <p className="mt-4 flex items-center gap-1 text-sm font-semibold text-or-300 opacity-0 transition group-hover:opacity-100">
+                    Calculer un prix <ArrowRight className="h-4 w-4" />
+                  </p>
+                </div>
+              </div>
+            </Link>
+
             {/* Card 1 – Score d'Équité */}
             <Link href="/score-equite" className="group relative overflow-hidden rounded-3xl bg-white/5 border border-white/10 p-7 transition hover:bg-white/10 hover:border-white/20 hover:shadow-2xl">
               <div className="flex items-start gap-4">
