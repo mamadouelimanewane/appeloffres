@@ -31,5 +31,5 @@ export function messageWhatsApp(c: Compte, avis: Appel[], urlSite: string): stri
     return `• *${a.titre.length > 90 ? a.titre.slice(0, 87) + "…" : a.titre}*\n  ${a.autorite}${limite}\n  ${urlSite}/appels/${a.id}`;
   });
   const reste = avis.length > 5 ? `\n…et ${avis.length - 5} autre(s) : ${urlSite}/appels` : "";
-  return `Bonjour ${prenom} 👋\n${avis.length} nouvel(s) appel(s) d'offres pour ${c.entreprise} :\n\n${lignes.join("\n\n")}${reste}\n\nSoumission PME — répondez STOP pour ne plus recevoir d'alertes.`;
+  return `Bonjour ${prenom} 👋\n${avis.length} nouvel(s) appel(s) d'offres pour ${c.entreprise} :\n\n${lignes.join("\n\n")}${reste}\n\nAppeldoffres.sn — répondez STOP pour ne plus recevoir d'alertes.`;
 }

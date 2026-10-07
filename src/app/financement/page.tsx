@@ -107,7 +107,7 @@ export default function Financement() {
             ⚡ Garantie "1-Clic" (API FONGIP / Banques)
           </h2>
           <p className="mt-2 text-brand-800 text-sm">
-            Soumission PME est connecté au FONGIP et à 3 banques partenaires. En cliquant sur le bouton ci-dessous, notre système envoie votre "Score PME" et votre historique pour obtenir un <strong>accord de principe en moins de 10 secondes</strong>.
+            Appeldoffres.sn est connecté au FONGIP et à 3 banques partenaires. En cliquant sur le bouton ci-dessous, notre système envoie votre "Score PME" et votre historique pour obtenir un <strong>accord de principe en moins de 10 secondes</strong>.
           </p>
           <button className="mt-4 btn bg-brand-700 hover:bg-brand-800 text-white w-full sm:w-auto" onClick={() => alert("Simulation API FONGIP : Demande envoyée avec votre Score PME (85/100). Vous recevrez l'accord de principe par email sous peu.")}>
             Demander la garantie en 1-clic

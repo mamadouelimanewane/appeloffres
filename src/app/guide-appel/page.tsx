@@ -4,7 +4,7 @@ import { AlertTriangle, ArrowRight, BadgeCheck, Building2, CheckCircle2, Externa
 import { TitrePage } from "@/components/ui";
 
 export const metadata: Metadata = {
-  title: "S'inscrire sur APPEL, la plateforme des marchés publics — Soumission PME",
+  title: "S'inscrire sur APPEL, la plateforme des marchés publics — Appeldoffres.sn",
   description: "Guide pas à pas pour créer le compte fournisseur de votre entreprise sur achatspublics.sn et répondre aux appels d'offres en ligne.",
 };
 

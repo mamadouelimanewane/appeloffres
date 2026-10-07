@@ -57,7 +57,7 @@ export function PiedDePage() {
       </div>
       <div className="border-t border-white/10">
         <div className="conteneur flex flex-col gap-2 py-6 text-xs text-brand-100/60 md:flex-row md:justify-between">
-          <p>© 2026 Soumission PME · Dakar, Sénégal</p>
+          <p>© 2026 Appeldoffres.sn · Dakar, Sénégal</p>
           <p className="max-w-2xl md:text-right">
             Avis collectés automatiquement sur les sites officiels. L&apos;avis officiel fait foi : vérifiez toujours les pièces exigées dans le dossier d&apos;appel d&apos;offres.
           </p>
