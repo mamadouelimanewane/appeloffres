@@ -27,6 +27,8 @@ export interface Appel {
     lieuDepot: string | null;
     modele: string;
     tronque: boolean;
+    exigences?: import("./ia/extraction").Exigences;
+    autresDates?: { libelle: string; date: string }[];
   };
 }
 

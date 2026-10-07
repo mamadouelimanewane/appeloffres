@@ -51,6 +51,22 @@ export default function PageProfil() {
               Années d&apos;expérience
               <input className="champ mt-1.5" inputMode="numeric" value={p.anneesExperience} onChange={(e) => maj("anneesExperience", e.target.value)} />
             </label>
+            <div className="rounded-xl bg-brand-50/70 p-4 ring-1 ring-brand-100 sm:col-span-2">
+              <p className="text-sm font-semibold text-brand-900">Capacités de l&apos;entreprise</p>
+              <p className="mt-0.5 text-xs text-brand-800/80">Elles permettent de vérifier, pour chaque marché, si vous remplissez les conditions de qualification.</p>
+              <div className="mt-3 grid gap-4 sm:grid-cols-3">
+                {([
+                  ["chiffreAffaires", "Chiffre d'affaires annuel moyen (FCFA)", "Ex. : 150 000 000"],
+                  ["capaciteCredit", "Ligne de crédit mobilisable (FCFA)", "Ex. : 50 000 000"],
+                  ["marchesSimilaires", "Marchés similaires attestés", "Ex. : 3"],
+                ] as [keyof Profil, string, string][]).map(([cle, libelle, exemple]) => (
+                  <label key={cle} className="block text-sm font-medium text-slate-700">
+                    {libelle}
+                    <input className="champ mt-1.5" inputMode="numeric" placeholder={exemple} value={p[cle]} onChange={(e) => maj(cle, e.target.value)} />
+                  </label>
+                ))}
+              </div>
+            </div>
             {ZONES.map(({ cle, libelle, aide }) => (
               <label key={cle} className="block text-sm font-medium text-slate-700 sm:col-span-2">
                 {libelle}

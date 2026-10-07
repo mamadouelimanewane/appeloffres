@@ -1,6 +1,6 @@
 import test from "node:test";
 import assert from "node:assert/strict";
-import { dateVerifiee, montantVerifie, preparerTexte, validerExtraction } from "./extraction.ts";
+import { dateVerifiee, montantVerifie, nombreVerifie, preparerTexte, validerExtraction } from "./extraction.ts";
 
 const AVIS = `AVIS D'APPEL D'OFFRES N° F_CMU_012. L'Agence de la CMU sollicite des offres pour l'acquisition de matériel informatique.
 Montant prévisionnel : 45 000 000 FCFA. Garantie de soumission : 900 000 FCFA.
@@ -45,6 +45,27 @@ test("validation complète : rien d'inventé ne passe", () => {
   assert.equal(e.garantieSoumissionFcfa, null, "1 000 000 n'est pas dans l'avis");
   assert.deepEqual(e.piecesExigees, ["NINEA", "Attestation fiscale"]);
   assert.equal(e.heureLimite, "10h00");
+});
+
+test("exigences de qualification : montants et nombres vérifiés dans le texte", () => {
+  const texte = `Chiffre d'affaires moyen des trois dernières années au moins égal à 200 000 000 FCFA.
+    Ligne de crédit d'au moins 50 000 000 FCFA. Avoir exécuté au moins deux (02) marchés similaires. Visite de site le 5 octobre 2026.`;
+  const e = validerExtraction(JSON.stringify({
+    exigences: { chiffreAffairesMin: "200 000 000", ligneCreditMin: "60 000 000", marchesSimilairesMin: 2, experienceMinAnnees: 7, personnelCle: ["Chef de chantier"], materiel: [] },
+    autresDates: [{ libelle: "Visite de site", date: "5 octobre 2026" }, { libelle: "Ouverture des plis", date: "9 octobre 2026" }],
+  }), texte);
+  assert.equal(e.exigences.chiffreAffairesMinFcfa, 200_000_000);
+  assert.equal(e.exigences.ligneCreditMinFcfa, null, "60 000 000 n'est pas dans le texte");
+  assert.equal(e.exigences.marchesSimilairesMin, 2);
+  assert.equal(e.exigences.experienceMinAnnees, null, "7 n'est pas dans le texte");
+  assert.deepEqual(e.exigences.personnelCle, ["Chef de chantier"]);
+  assert.deepEqual(e.autresDates, [{ libelle: "Visite de site", date: "2026-10-05" }]);
+});
+
+test("nombres écrits en lettres reconnus", () => {
+  assert.equal(nombreVerifie(3, "au moins trois marchés similaires"), 3);
+  assert.equal(nombreVerifie("5", "cinq (05) années d'expérience"), 5);
+  assert.equal(nombreVerifie(4, "deux marchés"), null);
 });
 
 test("réponse illisible : erreur explicite, pas de données fantômes", () => {

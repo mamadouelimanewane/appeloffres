@@ -69,6 +69,8 @@ const avis: Appel[] = Object.values(brut)
             piecesExigees: lu(a.url)!.piecesExigees,
             heureLimite: lu(a.url)!.heureLimite,
             dateLimiteAvis: lu(a.url)!.dateLimite,
+            exigences: lu(a.url)!.exigences,
+            autresDates: lu(a.url)!.autresDates ?? [],
             lieuDepot: lu(a.url)!.lieuDepot,
             modele: cacheIa[a.url].modele,
             tronque: cacheIa[a.url].tronque,

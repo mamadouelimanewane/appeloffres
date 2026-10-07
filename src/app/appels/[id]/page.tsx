@@ -8,6 +8,7 @@ import { APPELS } from "@/lib/donnees";
 import { PROFIL_VIDE, Profil, useLocal } from "@/lib/storage";
 import { BadgeSecteur, Barre, Echeance } from "@/components/ui";
 import { ReservePro } from "@/components/ReservePro";
+import { Eligibilite } from "@/components/Eligibilite";
 
 export default function DetailAppel({ params }: { params: Promise<{ id: string }> }) {
   const { id } = use(params);
@@ -73,6 +74,7 @@ export default function DetailAppel({ params }: { params: Promise<{ id: string }
 
       <div className="conteneur grid gap-6 py-8 lg:grid-cols-[1fr_340px]">
         <div className="space-y-6">
+          <Eligibilite exigences={a.lectureIa?.exigences} />
           {a.lectureIa && (
             <section className="carte border-violet-200 p-6">
               <div className="flex flex-wrap items-center justify-between gap-2">

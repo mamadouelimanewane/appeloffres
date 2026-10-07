@@ -20,7 +20,23 @@ export interface ExtractionIa {
   piecesExigees: string[];
   lieuDepot: string | null;
   resume: string | null;
+  /** Conditions de qualification (pour « Ce marché est-il pour moi ? »). */
+  exigences: Exigences;
+  /** Autres dates utiles : visite de site, questions, ouverture des plis… (vérifiées dans le texte). */
+  autresDates: { libelle: string; date: string }[];
 }
+
+export interface Exigences {
+  chiffreAffairesMinFcfa: number | null;
+  ligneCreditMinFcfa: number | null;
+  marchesSimilairesMin: number | null;
+  experienceMinAnnees: number | null;
+  personnelCle: string[];
+  materiel: string[];
+}
+
+/** Version du schéma d'extraction : un avis lu avec une version plus ancienne est relu. */
+export const VERSION_EXTRACTION = 2;
 
 export const CONSIGNE_SYSTEME = `Tu lis des avis d'appels d'offres publics du Sénégal et tu en extrais les informations en json.
 Règles impératives :
@@ -31,8 +47,15 @@ Règles impératives :
 - "estUnAvis" vaut false si le texte n'est pas un avis d'appel d'offres, de demande de prix ou de manifestation d'intérêt (actualité, offre d'emploi, attribution, résultat…).
 - "piecesExigees" : pièces administratives ou documents que le candidat doit fournir, en phrases courtes.
 - "resume" : 2 phrases simples en français pour un chef de PME : ce qui est demandé et la condition la plus importante.
+- "exigences" : conditions de qualification du candidat. S'il y a plusieurs lots, prends celles du lot le moins exigeant.
+  "chiffreAffairesMin" (chiffre d'affaires moyen minimal exigé), "ligneCreditMin" (ligne de crédit ou capacité de financement minimale),
+  "marchesSimilairesMin" (nombre minimal de marchés similaires exécutés, en chiffre), "experienceMinAnnees" (années d'expérience minimales, en chiffre),
+  "personnelCle" (postes exigés, ex. "Chef de chantier, BTS génie civil, 5 ans"), "materiel" (matériel exigé).
+- "autresDates" : autres dates utiles écrites dans le texte, ex. visite de site, date limite des demandes d'éclaircissement, ouverture des plis.
 Réponds uniquement avec un objet json de cette forme :
-{"estUnAvis": true, "objet": "...", "acheteur": "...", "reference": "...", "typeProcedure": "...", "dateLimite": "15 octobre 2026", "heureLimite": "10h00", "montantEstime": "45 000 000", "garantieSoumission": "900 000", "piecesExigees": ["..."], "lieuDepot": "...", "resume": "..."}`;
+{"estUnAvis": true, "objet": "...", "acheteur": "...", "reference": "...", "typeProcedure": "...", "dateLimite": "15 octobre 2026", "heureLimite": "10h00", "montantEstime": "45 000 000", "garantieSoumission": "900 000", "piecesExigees": ["..."], "lieuDepot": "...", "resume": "...",
+ "exigences": {"chiffreAffairesMin": "200 000 000", "ligneCreditMin": "50 000 000", "marchesSimilairesMin": 2, "experienceMinAnnees": 3, "personnelCle": ["..."], "materiel": ["..."]},
+ "autresDates": [{"libelle": "Visite de site", "date": "5 octobre 2026"}]}`;
 
 /** Texte envoyé à l'IA : au plus `max` caractères, en signalant la coupe (jamais en silence). */
 export function preparerTexte(texte: string, max = 24_000): { texte: string; tronque: boolean } {
@@ -113,7 +136,48 @@ export function validerExtraction(reponse: string, source: string): ExtractionIa
     piecesExigees: pieces,
     lieuDepot: texteOuNull(j.lieuDepot, 300),
     resume: texteOuNull(j.resume, 600),
+    exigences: exigencesVerifiees(j.exigences, source),
+    autresDates: autresDatesVerifiees(j.autresDates, source),
   };
+}
+
+const listeCourte = (v: unknown, max = 12): string[] =>
+  Array.isArray(v) ? v.filter((x): x is string => typeof x === "string" && x.trim().length > 2).map((x) => x.trim().slice(0, 200)).slice(0, max) : [];
+
+const NOMBRES_EN_LETTRES = ["zéro", "un", "deux", "trois", "quatre", "cinq", "six", "sept", "huit", "neuf", "dix", "onze", "douze", "treize", "quatorze", "quinze"];
+
+/** Un petit nombre (marchés, années) n'est retenu que s'il figure dans le texte, en chiffres ou en lettres. */
+export function nombreVerifie(brut: unknown, source: string): number | null {
+  const n = typeof brut === "number" ? brut : typeof brut === "string" && /^\s*\d{1,2}\s*$/.test(brut) ? Number(brut) : NaN;
+  if (!Number.isInteger(n) || n < 1 || n > 50) return null;
+  const s = sansAccents(source);
+  const enChiffres = new RegExp(`(^|[^\\d])0?${n}([^\\d]|$)`).test(s);
+  const enLettres = n < NOMBRES_EN_LETTRES.length && new RegExp(`\\b${sansAccents(NOMBRES_EN_LETTRES[n])}\\b`).test(s);
+  return enChiffres || enLettres ? n : null;
+}
+
+function exigencesVerifiees(v: unknown, source: string): Exigences {
+  const e = (v && typeof v === "object" ? v : {}) as Record<string, unknown>;
+  return {
+    chiffreAffairesMinFcfa: montantVerifie(e.chiffreAffairesMin, source),
+    ligneCreditMinFcfa: montantVerifie(e.ligneCreditMin, source),
+    marchesSimilairesMin: nombreVerifie(e.marchesSimilairesMin, source),
+    experienceMinAnnees: nombreVerifie(e.experienceMinAnnees, source),
+    personnelCle: listeCourte(e.personnelCle),
+    materiel: listeCourte(e.materiel),
+  };
+}
+
+function autresDatesVerifiees(v: unknown, source: string): { libelle: string; date: string }[] {
+  if (!Array.isArray(v)) return [];
+  const sortie: { libelle: string; date: string }[] = [];
+  for (const x of v.slice(0, 8)) {
+    if (!x || typeof x !== "object") continue;
+    const { libelle, date } = x as Record<string, unknown>;
+    const iso = dateVerifiee(date, source);
+    if (iso && typeof libelle === "string" && libelle.trim()) sortie.push({ libelle: libelle.trim().slice(0, 80), date: iso });
+  }
+  return sortie;
 }
 
 /** Une entrée du cache des lectures IA (data/ia/cache.json), une par adresse d'avis. */
@@ -124,5 +188,7 @@ export interface EntreeCache {
   modele: string;
   tronque: boolean;
   extraction: ExtractionIa | null;
+  /** Version du schéma (VERSION_EXTRACTION) au moment de la lecture. */
+  version?: number;
   erreur: string | null;
 }

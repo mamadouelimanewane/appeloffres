@@ -10,7 +10,7 @@ import { existsSync, mkdirSync, readFileSync, writeFileSync } from "node:fs";
 import { dirname } from "node:path";
 import { getDocument } from "pdfjs-dist/legacy/build/pdf.mjs";
 import { nettoyer } from "../src/lib/dcmp.ts";
-import { CONSIGNE_SYSTEME, preparerTexte, validerExtraction, type EntreeCache } from "../src/lib/ia/extraction.ts";
+import { CONSIGNE_SYSTEME, VERSION_EXTRACTION, preparerTexte, validerExtraction, type EntreeCache } from "../src/lib/ia/extraction.ts";
 import { fournisseurIa } from "../src/lib/ia/fournisseurs.ts";
 import type { AvisCollecte } from "../src/lib/sources.ts";
 
@@ -38,7 +38,8 @@ const avis = Object.values(JSON.parse(readFileSync(chemin("../data/avis.json"), 
 const aujourdhui = new Date().toISOString().slice(0, 10);
 const ilYa45 = new Date(Date.now() - 45 * 86_400_000).toISOString().slice(0, 10);
 const candidats = avis
-  .filter((a) => !SOURCES_IGNOREES.has(a.source) && !cache[a.url])
+  // Jamais lu, ou lu avec un schéma plus ancien (relu pour obtenir les nouveaux champs)
+  .filter((a) => !SOURCES_IGNOREES.has(a.source) && (!cache[a.url] || (!!cache[a.url].extraction && (cache[a.url].version ?? 1) < VERSION_EXTRACTION)))
   .filter((a) => (a.dateLimite ? a.dateLimite >= aujourdhui : (a.publieLe ?? "") >= ilYa45))
   // d'abord ceux à qui il manque la date limite : c'est là que l'IA est la plus utile
   .sort((x, y) => Number(!!x.dateLimite) - Number(!!y.dateLimite))
@@ -82,7 +83,7 @@ function estDefinitive(erreur: string): boolean {
 console.log(`IA : ${ia.nom} (${ia.modele}) — ${candidats.length} avis à analyser (plafond ${maxAppels})`);
 let ok = 0, echecs = 0;
 for (const a of candidats) {
-  const entree: EntreeCache = { url: a.url, traiteLe: new Date().toISOString(), fournisseur: ia.nom, modele: ia.modele, tronque: false, extraction: null, erreur: null };
+  const entree: EntreeCache = { url: a.url, traiteLe: new Date().toISOString(), fournisseur: ia.nom, modele: ia.modele, tronque: false, extraction: null, erreur: null, version: VERSION_EXTRACTION };
   try {
     const brut = await texteDuDocument(a.url);
     if (brut.replace(/\s/g, "").length < 200) throw new Error("texte insuffisant (document scanné ou vide)");
