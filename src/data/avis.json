@@ -1,22 +1,6 @@
 {
- "misAJourLe": "2026-10-06",
+ "misAJourLe": "2026-10-07",
  "avis": [
-  {
-   "id": "banquemondiale-768a0c998c",
-   "source": "banquemondiale",
-   "sourceLibelle": "Banque mondiale",
-   "reference": "F_SENRM/ENV_074",
-   "titre": "Acquisition de matériels et d’outillages techniques (matériels d’évaluation des ressources forestières, outils professionnels de communication en milieu forestier)",
-   "autorite": "Ministry of the Environment, Sustainable Development and Ecological Transition",
-   "secteur": "Fournitures",
-   "region": null,
-   "mode": "Appel d'offres",
-   "budgetEstime": null,
-   "garantieSoumission": null,
-   "publieLe": "2026-09-05",
-   "dateLimite": "2026-10-06",
-   "url": "https://projects.worldbank.org/fr/projects-operations/procurement-detail/OP00467163"
-  },
   {
    "id": "senelec-dd24e10f82",
    "source": "senelec",
@@ -1080,6 +1064,42 @@
    "publieLe": "2026-09-25",
    "dateLimite": "2026-11-10",
    "url": "https://projects.worldbank.org/fr/projects-operations/procurement-detail/OP00471088"
+  },
+  {
+   "id": "senelec-9b58b883fe",
+   "source": "senelec",
+   "sourceLibelle": "Senelec",
+   "reference": "AAON N°42-2026",
+   "titre": "TRAVAUX DE REMPLACEMENT DES TRANSFORMATEURS 90/33 KV AU POSTE UNIVERSITE (2X40MVA) PAR DES TRANSFORMATEURS DE 80 MVA T-DT-232",
+   "autorite": "Senelec",
+   "secteur": "BTP",
+   "region": null,
+   "mode": "AVIS D’APPEL D’OFFRES NATIONAL",
+   "budgetEstime": null,
+   "garantieSoumission": 30000000,
+   "publieLe": null,
+   "dateLimite": "2026-11-11",
+   "url": "https://www.senelec.sn/media/marches/appels/AVIS_AO_42_2026_TRAVAUX_REMPLACEMENT_TRANSFO_POSTE_UNIVERSITE.pdf",
+   "lectureIa": {
+    "resume": "Senelec demande des offres pour les travaux de remplacement de transformateurs 90/33 kV au poste Université par des transformateurs de 80 MVA. La condition importante est de déposer une offre complète avec une garantie de soumission de 30 000 000 FCFA avant le 11 novembre 2026 à 09 heures 30 mn.",
+    "piecesExigees": [
+     "États financiers des exercices 2023, 2024 et 2025 certifiés par un commissaire aux comptes ou visés par un membre de l'ONECCA",
+     "Ligne de crédit nette d'autres engagements ou capacité financière de 750 000 000 FCFA",
+     "Chiffre d'affaires annuel moyen d'au moins 4 500 000 000 FCFA sur les exercices 2023, 2024 et 2025",
+     "Justificatifs d'une expérience générale d'au moins 10 ans dans la réalisation de travaux électriques HTB/HTA",
+     "Procès-verbal de réception ou attestation de bonne exécution d'au moins un marché similaire portant sur l'installation, raccordement, essais et mise en service d'un transformateur d'une puissance nomi",
+     "Certificat d'homologation délivré par Senelec du transformateur proposé",
+     "Attestations originales ou pièces légalisées justifiant les obligations envers la caisse de sécurité sociale, l'Institut de Prévoyance Retraite du Sénégal, les services chargés des recouvrements fisca",
+     "Déclaration sur l'honneur attestant que le candidat ne fait pas l'objet d'une procédure de liquidation des biens ou de faillite personnelle",
+     "Attestation de non-faillite à produire au plus tard à la signature du marché",
+     "Garantie de soumission d'un montant de 30 000 000 FCFA"
+    ],
+    "heureLimite": "09 heures 30 mn",
+    "dateLimiteAvis": "2026-11-11",
+    "lieuDepot": "Senelec, Salle Commission des Marchés, 19 rue Abdou Karim Bourgi X Wagane DIOUF, au 2ème étage de la Résidence Khoudia, Dakar",
+    "modele": "deepseek-flash",
+    "tronque": false
+   }
   }
  ]
 }

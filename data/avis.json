@@ -1,5 +1,5 @@
 {
- "misAJourLe": "2026-10-06T19:10:56.142Z",
+ "misAJourLe": "2026-10-07T07:50:12.199Z",
  "avis": {
   "senelec:https://www.senelec.sn/media/marches/appels/AVIS_DE_REPORT_AON_33_2026.pdf": {
    "source": "senelec",
@@ -5573,6 +5573,16 @@
    "url": "https://www.achatspublics.sn/consultations/tenders?ref=S_SICAP%20SA_DARH_1240",
    "autorite": "SICAP SA",
    "vuLe": "2026-10-06"
+  },
+  "senelec:https://www.senelec.sn/media/marches/appels/AVIS_AO_42_2026_TRAVAUX_REMPLACEMENT_TRANSFO_POSTE_UNIVERSITE.pdf": {
+   "source": "senelec",
+   "reference": "AAON N°42-2026",
+   "objet": "TRAVAUX DE REMPLACEMENT DES TRANSFORMATEURS 90/33 KV AU POSTE UNIVERSITE (2X40MVA) PAR DES TRANSFORMATEURS DE 80 MVA T-DT-232",
+   "type": "AVIS D’APPEL D’OFFRES NATIONAL",
+   "publieLe": null,
+   "dateLimite": "2026-11-11",
+   "url": "https://www.senelec.sn/media/marches/appels/AVIS_AO_42_2026_TRAVAUX_REMPLACEMENT_TRANSFO_POSTE_UNIVERSITE.pdf",
+   "vuLe": "2026-10-07"
   }
  }
 }

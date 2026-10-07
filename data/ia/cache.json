@@ -505,5 +505,38 @@
    "resume": "Senelec a publié un additif pour l'accord-cadre ferme international ACFI N° 22/2026 portant acquisition de compteurs. Cet additif modifie certaines exigences techniques et clauses du dossier, et la date limite de dépôt des offres reste fixée au mercredi 02 septembre 2026 à 09h30, avec un lieu de dépôt inchangé."
   },
   "erreur": null
+ },
+ "https://www.senelec.sn/media/marches/appels/AVIS_AO_42_2026_TRAVAUX_REMPLACEMENT_TRANSFO_POSTE_UNIVERSITE.pdf": {
+  "url": "https://www.senelec.sn/media/marches/appels/AVIS_AO_42_2026_TRAVAUX_REMPLACEMENT_TRANSFO_POSTE_UNIVERSITE.pdf",
+  "traiteLe": "2026-10-07T07:54:05.843Z",
+  "fournisseur": "DeepSeek",
+  "modele": "deepseek-flash",
+  "tronque": false,
+  "extraction": {
+   "estUnAvis": true,
+   "objet": "Travaux de remplacement des transformateurs 90/33 kV au poste Université (2x40MVA) par des transformateurs de 80 MVA",
+   "acheteur": "Senelec",
+   "reference": "AAO N° 42 - 2026 / T - DT - 232",
+   "typeProcedure": "Appel d'offres ouvert",
+   "dateLimite": "2026-11-11",
+   "heureLimite": "09 heures 30 mn",
+   "montantEstimeFcfa": null,
+   "garantieSoumissionFcfa": 30000000,
+   "piecesExigees": [
+    "États financiers des exercices 2023, 2024 et 2025 certifiés par un commissaire aux comptes ou visés par un membre de l'ONECCA",
+    "Ligne de crédit nette d'autres engagements ou capacité financière de 750 000 000 FCFA",
+    "Chiffre d'affaires annuel moyen d'au moins 4 500 000 000 FCFA sur les exercices 2023, 2024 et 2025",
+    "Justificatifs d'une expérience générale d'au moins 10 ans dans la réalisation de travaux électriques HTB/HTA",
+    "Procès-verbal de réception ou attestation de bonne exécution d'au moins un marché similaire portant sur l'installation, raccordement, essais et mise en service d'un transformateur d'une puissance nomi",
+    "Certificat d'homologation délivré par Senelec du transformateur proposé",
+    "Attestations originales ou pièces légalisées justifiant les obligations envers la caisse de sécurité sociale, l'Institut de Prévoyance Retraite du Sénégal, les services chargés des recouvrements fisca",
+    "Déclaration sur l'honneur attestant que le candidat ne fait pas l'objet d'une procédure de liquidation des biens ou de faillite personnelle",
+    "Attestation de non-faillite à produire au plus tard à la signature du marché",
+    "Garantie de soumission d'un montant de 30 000 000 FCFA"
+   ],
+   "lieuDepot": "Senelec, Salle Commission des Marchés, 19 rue Abdou Karim Bourgi X Wagane DIOUF, au 2ème étage de la Résidence Khoudia, Dakar",
+   "resume": "Senelec demande des offres pour les travaux de remplacement de transformateurs 90/33 kV au poste Université par des transformateurs de 80 MVA. La condition importante est de déposer une offre complète avec une garantie de soumission de 30 000 000 FCFA avant le 11 novembre 2026 à 09 heures 30 mn."
+  },
+  "erreur": null
  }
 }
