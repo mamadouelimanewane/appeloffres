@@ -46,7 +46,7 @@ export default function DetailAppel({ params }: { params: Promise<{ id: string }
   }
 
   function genererLettreSoumission() {
-    const txt = \`LETTRE DE SOUMISSION
+    const txt = `LETTRE DE SOUMISSION
     
 Objet : \${a.titre}
 Référence : \${a.reference}
@@ -59,17 +59,17 @@ M'engage par la présente à exécuter lesdites prestations conformément aux co
 Montant de notre offre : [Saisir le montant] FCFA TTC.
 Délai d'exécution : [Saisir le délai] mois.
 
-Fait à [Ville], le \${new Date().toLocaleDateString('fr-FR')}
+Fait à [Ville], le ${new Date().toLocaleDateString('fr-FR')}
 Signature et cachet :
-\`;
+`;
     setMemoire(txt);
   }
 
   function genererDeclaration() {
-    const txt = \`DÉCLARATION SUR L'HONNEUR
+    const txt = `DÉCLARATION SUR L'HONNEUR
 
 Conformément à l'article 44 du Code des Marchés Publics du Sénégal, 
-Je soussigné(e) [Prénom et Nom], représentant légal de l'entreprise \${profil.entreprise || "[Nom de l'entreprise]"},
+Je soussigné(e) [Prénom et Nom], représentant légal de l'entreprise ${profil.entreprise || "[Nom de l'entreprise]"},
 Déclare sur l'honneur que l'entreprise :
 - N'est pas en état de faillite ou de liquidation.
 - Est en règle vis-à-vis de l'Administration Fiscale et des organismes de sécurité sociale (IPRES, CSS).
@@ -77,8 +77,8 @@ Déclare sur l'honneur que l'entreprise :
 
 Fait pour servir et valoir ce que de droit.
 
-Fait à [Ville], le \${new Date().toLocaleDateString('fr-FR')}
-Signature et cachet :\`;
+Fait à [Ville], le ${new Date().toLocaleDateString('fr-FR')}
+Signature et cachet :`;
     setMemoire(txt);
   }
 

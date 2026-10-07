@@ -48,7 +48,7 @@ export default function BourseSousTraitance() {
             <div className="flex-1">
               <div className="flex items-center justify-between">
                 <span className="text-xs font-bold uppercase tracking-widest text-slate-400">Projet d'État</span>
-                <span className={\`text-xs font-semibold px-2 py-1 rounded-full \${m.statut === 'Recherche active' ? 'bg-green-100 text-green-800' : 'bg-slate-100 text-slate-800'}\`}>{m.statut}</span>
+                <span className={`text-xs font-semibold px-2 py-1 rounded-full ${m.statut === 'Recherche active' ? 'bg-green-100 text-green-800' : 'bg-slate-100 text-slate-800'}`}>{m.statut}</span>
               </div>
               <h2 className="text-xl font-bold mt-2 text-slate-900">{m.titre}</h2>
               <p className="text-slate-600 mt-1 flex items-center gap-2"><Building className="h-4 w-4" /> Attributaire : <strong>{m.gagnant}</strong></p>

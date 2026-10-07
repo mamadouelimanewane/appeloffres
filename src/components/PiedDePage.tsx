@@ -44,6 +44,8 @@ export function PiedDePage() {
             <li><Link className="hover:text-white" href="/groupement">🤝 Générateur d&apos;Actes de Groupement</Link></li>
           </ul>
         </div>
+        <div>
+          <p className="text-sm font-semibold text-white">Sources couvertes</p>
           <ul className="mt-4 space-y-2 text-sm">
             <li>Portail des marchés publics (DCMP, archives)</li>
             <li>Senelec · AGEROUTE · ARTP</li>
@@ -51,6 +53,7 @@ export function PiedDePage() {
             <li>Banque mondiale · Nations unies (UNGM)</li>
             <li>ONG (plate-forme PFONGUE)</li>
           </ul>
+        </div>
         </div>
       </div>
       <div className="border-t border-white/10">

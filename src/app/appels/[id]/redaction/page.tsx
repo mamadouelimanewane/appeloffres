@@ -68,7 +68,7 @@ export default function AssistantRedaction({ params }: { params: Promise<{ id: s
             <ul className="mt-2 space-y-1 text-xs text-brand-800">
               <li className="flex gap-1"><CheckCircle2 className="h-3.5 w-3.5 mt-0.5" /> Type : Fournitures & Services</li>
               <li className="flex gap-1"><CheckCircle2 className="h-3.5 w-3.5 mt-0.5" /> Exigence clé : Certification ISO 9001</li>
-              <li className="flex gap-1"><CheckCircle2 className="h-3.5 w-3.5 mt-0.5" /> Piège à éviter : Planning > 6 mois éliminatoire</li>
+              <li className="flex gap-1"><CheckCircle2 className="h-3.5 w-3.5 mt-0.5" /> Piège à éviter : Planning &gt; 6 mois éliminatoire</li>
             </ul>
           </div>
           
