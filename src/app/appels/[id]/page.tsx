@@ -45,6 +45,43 @@ export default function DetailAppel({ params }: { params: Promise<{ id: string }
     setAttente(false);
   }
 
+  function genererLettreSoumission() {
+    const txt = \`LETTRE DE SOUMISSION
+    
+Objet : \${a.titre}
+Référence : \${a.reference}
+Autorité Contractante : \${a.autorite}
+
+Je soussigné(e) [Prénom et Nom du représentant], agissant en qualité de [Fonction] de la société \${profil.entreprise || "[Nom de votre PME]"},
+Après avoir examiné en détail le Dossier d'Appel d'Offres (DAO) pour le marché susmentionné,
+M'engage par la présente à exécuter lesdites prestations conformément aux conditions stipulées dans le DAO.
+
+Montant de notre offre : [Saisir le montant] FCFA TTC.
+Délai d'exécution : [Saisir le délai] mois.
+
+Fait à [Ville], le \${new Date().toLocaleDateString('fr-FR')}
+Signature et cachet :
+\`;
+    setMemoire(txt);
+  }
+
+  function genererDeclaration() {
+    const txt = \`DÉCLARATION SUR L'HONNEUR
+
+Conformément à l'article 44 du Code des Marchés Publics du Sénégal, 
+Je soussigné(e) [Prénom et Nom], représentant légal de l'entreprise \${profil.entreprise || "[Nom de l'entreprise]"},
+Déclare sur l'honneur que l'entreprise :
+- N'est pas en état de faillite ou de liquidation.
+- Est en règle vis-à-vis de l'Administration Fiscale et des organismes de sécurité sociale (IPRES, CSS).
+- N'a pas fait l'objet d'une condamnation pour infraction pénale liée à ses activités professionnelles.
+
+Fait pour servir et valoir ce que de droit.
+
+Fait à [Ville], le \${new Date().toLocaleDateString('fr-FR')}
+Signature et cachet :\`;
+    setMemoire(txt);
+  }
+
   const infos: [string, string][] = [
     ["Référence", a.reference],
     ["Acheteur", a.autorite],
@@ -168,23 +205,35 @@ export default function DetailAppel({ params }: { params: Promise<{ id: string }
           </section>
 
           <div className="print:hidden">
-          <ReservePro fonction="memoire" titre="Mémoire technique assisté">
+          <ReservePro fonction="memoire" titre="Dossier complet assisté">
           <section className="carte p-6">
-            <h2 className="flex items-center gap-2 text-lg font-bold"><Sparkles className="h-5 w-5 text-or-500" /> Mémoire technique</h2>
-            <p className="mt-1 text-sm text-slate-600">Un brouillon structuré, rédigé à partir du profil de votre entreprise. Les informations manquantes restent à compléter.</p>
+            <div className="flex items-center justify-between">
+              <h2 className="flex items-center gap-2 text-lg font-bold"><Sparkles className="h-5 w-5 text-or-500" /> Génération assistée</h2>
+              <button className="flex items-center gap-2 bg-brand-50 hover:bg-brand-100 text-brand-700 text-sm font-semibold px-3 py-1.5 rounded-full transition ring-1 ring-brand-200">
+                <span className="text-base">🔊</span> Résumé en Wolof
+              </button>
+            </div>
+            <p className="mt-2 text-sm text-slate-600">Générez automatiquement les pièces maîtresses de votre offre basées sur votre profil et les modèles de l'ARCOP.</p>
+            
             {!profil.entreprise && (
               <p className="mt-3 rounded-xl bg-or-50 p-3 text-sm text-or-700 ring-1 ring-or-100">
                 Renseignez d&apos;abord <Link className="font-semibold underline" href="/profil">votre entreprise</Link> pour un meilleur résultat.
               </p>
             )}
-            <button className="btn mt-4" onClick={generer} disabled={attente}><Sparkles className="h-4 w-4" />{attente ? "Rédaction en cours…" : "Générer un brouillon"}</button>
+            
+            <div className="mt-4 flex flex-wrap gap-2">
+              <button className="btn" onClick={generer} disabled={attente}><Sparkles className="h-4 w-4" />{attente ? "Rédaction en cours…" : "Mémoire technique"}</button>
+              <button className="btn-sec" onClick={() => genererLettreSoumission()}>Lettre de soumission</button>
+              <button className="btn-sec" onClick={() => genererDeclaration()}>Déclaration sur l'honneur</button>
+            </div>
+            
             {memoire && (
-              <>
-                <textarea className="champ mt-4 font-mono text-[13px] leading-relaxed" rows={22} value={memoire} onChange={(e) => setMemoire(e.target.value)} />
+              <div className="mt-4">
+                <textarea className="champ font-mono text-[13px] leading-relaxed w-full" rows={18} value={memoire} onChange={(e) => setMemoire(e.target.value)} />
                 <button className="btn-sec mt-3" onClick={() => { navigator.clipboard.writeText(memoire); setCopie(true); setTimeout(() => setCopie(false), 2000); }}>
                   {copie ? <><Check className="h-4 w-4 text-brand-700" /> Copié</> : <><Copy className="h-4 w-4" /> Copier</>}
                 </button>
-              </>
+              </div>
             )}
           </section>
           </ReservePro>
