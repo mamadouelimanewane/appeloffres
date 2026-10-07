@@ -326,6 +326,90 @@ export default function Accueil() {
                 </div>
               </div>
             </Link>
+
+            {/* Card Cerise 1 – Extension Sniper */}
+            <Link href="/extension" className="group relative overflow-hidden rounded-3xl bg-white/5 border border-white/10 p-7 transition hover:bg-white/10 hover:border-white/20 hover:shadow-2xl">
+              <div className="flex items-start gap-4">
+                <span className="grid h-14 w-14 shrink-0 place-items-center rounded-2xl bg-sky-500/20 text-sky-300">
+                  <Search className="h-7 w-7" />
+                </span>
+                <div>
+                  <div className="flex items-center gap-2">
+                    <h3 className="text-xl font-bold text-white">Extension Chrome Sniper</h3>
+                    <span className="rounded-full bg-sky-500/20 px-2 py-0.5 text-[11px] font-bold uppercase text-sky-300">Navigateur</span>
+                  </div>
+                  <p className="mt-2 text-brand-200 leading-relaxed">
+                    Installez notre extension et transformez le portail de l&apos;État en tableau de bord IA. <strong className="text-white">Score d&apos;équité, Win-Rate et import automatique</strong> apparaissent directement sur la page officielle.
+                  </p>
+                  <p className="mt-4 flex items-center gap-1 text-sm font-semibold text-or-300 opacity-0 transition group-hover:opacity-100">
+                    Installer l&apos;extension <ArrowRight className="h-4 w-4" />
+                  </p>
+                </div>
+              </div>
+            </Link>
+
+            {/* Card Cerise 2 – Caution Express */}
+            <Link href="/caution" className="group relative overflow-hidden rounded-3xl bg-white/5 border border-white/10 p-7 transition hover:bg-white/10 hover:border-white/20 hover:shadow-2xl">
+              <div className="flex items-start gap-4">
+                <span className="grid h-14 w-14 shrink-0 place-items-center rounded-2xl bg-emerald-500/20 text-emerald-300">
+                  <ShieldCheck className="h-7 w-7" />
+                </span>
+                <div>
+                  <div className="flex items-center gap-2">
+                    <h3 className="text-xl font-bold text-white">Caution Express (Wave / Orange Money)</h3>
+                    <span className="rounded-full bg-emerald-500/20 px-2 py-0.5 text-[11px] font-bold uppercase text-emerald-300">FinTech</span>
+                  </div>
+                  <p className="mt-2 text-brand-200 leading-relaxed">
+                    Obtenez votre <strong className="text-white">garantie de soumission bancaire en 2 minutes</strong>, sans aller en banque. Payez les frais via Wave ou Orange Money, recevez l&apos;attestation signée numériquement.
+                  </p>
+                  <p className="mt-4 flex items-center gap-1 text-sm font-semibold text-or-300 opacity-0 transition group-hover:opacity-100">
+                    Obtenir ma caution <ArrowRight className="h-4 w-4" />
+                  </p>
+                </div>
+              </div>
+            </Link>
+
+            {/* Card Cerise 3 – Réseau Influence */}
+            <Link href="/influence" className="group relative overflow-hidden rounded-3xl bg-white/5 border border-white/10 p-7 transition hover:bg-white/10 hover:border-white/20 hover:shadow-2xl">
+              <div className="flex items-start gap-4">
+                <span className="grid h-14 w-14 shrink-0 place-items-center rounded-2xl bg-violet-500/20 text-violet-300">
+                  <Users className="h-7 w-7" />
+                </span>
+                <div>
+                  <div className="flex items-center gap-2">
+                    <h3 className="text-xl font-bold text-white">Réseau d&apos;Influence &amp; Lobbying</h3>
+                    <span className="rounded-full bg-violet-500/20 px-2 py-0.5 text-[11px] font-bold uppercase text-violet-300">Intelligence</span>
+                  </div>
+                  <p className="mt-2 text-brand-200 leading-relaxed">
+                    Un graphe visuel révèle les liens secrets entre acheteurs et attributaires. Découvrez <strong className="text-white">qui sous-traite quoi à qui</strong> pour vous positionner avant même que le marché soit publié.
+                  </p>
+                  <p className="mt-4 flex items-center gap-1 text-sm font-semibold text-or-300 opacity-0 transition group-hover:opacity-100">
+                    Explorer le réseau <ArrowRight className="h-4 w-4" />
+                  </p>
+                </div>
+              </div>
+            </Link>
+
+            {/* Card Cerise 4 – Agent Zero-Click */}
+            <Link href="/agent" className="group relative overflow-hidden rounded-3xl bg-white/5 border border-white/10 p-7 transition hover:bg-white/10 hover:border-white/20 hover:shadow-2xl">
+              <div className="flex items-start gap-4">
+                <span className="grid h-14 w-14 shrink-0 place-items-center rounded-2xl bg-green-500/20 text-green-300">
+                  <BellRing className="h-7 w-7" />
+                </span>
+                <div>
+                  <div className="flex items-center gap-2">
+                    <h3 className="text-xl font-bold text-white">Agent Autonome Zero-Click (WhatsApp)</h3>
+                    <span className="rounded-full bg-green-500/20 px-2 py-0.5 text-[11px] font-bold uppercase text-green-300">IA Agentique</span>
+                  </div>
+                  <p className="mt-2 text-brand-200 leading-relaxed">
+                    Un agent IA travaille à votre place. Il vous WhatsApp : <em className="text-white">&ldquo;Nouveau marché 150M FCFA, éligibilité OK, Win-Rate 71%. Rédiger le dossier ?&rdquo;</em>. Vous répondez juste <strong className="text-white">&ldquo;Oui&rdquo;</strong>.
+                  </p>
+                  <p className="mt-4 flex items-center gap-1 text-sm font-semibold text-or-300 opacity-0 transition group-hover:opacity-100">
+                    Activer mon agent <ArrowRight className="h-4 w-4" />
+                  </p>
+                </div>
+              </div>
+            </Link>
           </div>
 
           <div className="mt-10 text-center">

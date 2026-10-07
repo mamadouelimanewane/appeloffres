@@ -45,6 +45,10 @@ export function PiedDePage() {
             <li><Link className="hover:text-white" href="/affacturage">💸 Marketplace d&apos;Affacturage</Link></li>
             <li><Link className="hover:text-white" href="/radar-predictif">🔮 Radar Prédictif</Link></li>
             <li><Link className="hover:text-white" href="/groupement">🤝 Actes de Groupement</Link></li>
+            <li><Link className="hover:text-white" href="/extension">🌐 Extension Chrome Sniper</Link></li>
+            <li><Link className="hover:text-white" href="/caution">🛡️ Caution Express Wave/OM</Link></li>
+            <li><Link className="hover:text-white" href="/influence">🕸️ Réseau d&apos;Influence</Link></li>
+            <li><Link className="hover:text-white" href="/agent">🤖 Agent Autonome WhatsApp</Link></li>
           </ul>
         </div>
         <div>
