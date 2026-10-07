@@ -1,0 +1,775 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Soumission PME — Présentation Complète des Fonctionnalités</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800;900&display=swap" rel="stylesheet">
+  <style>
+    * { margin: 0; padding: 0; box-sizing: border-box; }
+
+    :root {
+      --green: #063a20;
+      --green-mid: #0f5c32;
+      --green-light: #e8f5ed;
+      --gold: #c8920a;
+      --gold-light: #fef9ee;
+      --text: #0f172a;
+      --muted: #0f172a; /* Remplacé: plus de gris */
+      --border: #e2e8f0;
+      --white: #ffffff;
+    }
+
+    body {
+      font-family: 'Inter', -apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif;
+      color: var(--text);
+      background: #f8fafc;
+      font-size: 16px;
+      line-height: 1.7;
+    }
+
+    /* ===== COUVERTURE ===== */
+    .cover {
+      background: linear-gradient(135deg, #063a20 0%, #0a5c32 50%, #063a20 100%);
+      color: white;
+      padding: 80px 60px 70px;
+      min-height: 100vh;
+      display: flex;
+      flex-direction: column;
+      justify-content: space-between;
+      position: relative;
+      overflow: hidden;
+      page-break-after: always;
+    }
+    .cover::before {
+      content: '';
+      position: absolute;
+      inset: 0;
+      background-image: linear-gradient(rgba(255,255,255,.04) 1px, transparent 1px),
+                        linear-gradient(90deg, rgba(255,255,255,.04) 1px, transparent 1px);
+      background-size: 44px 44px;
+    }
+    .cover::after {
+      content: '';
+      position: absolute;
+      right: -100px;
+      top: -100px;
+      width: 500px;
+      height: 500px;
+      border-radius: 50%;
+      background: radial-gradient(circle, rgba(200,146,10,.25) 0%, transparent 70%);
+    }
+    .cover-top { position: relative; z-index: 1; }
+    .logo-mark {
+      display: inline-flex;
+      align-items: center;
+      gap: 12px;
+      margin-bottom: 60px;
+    }
+    .logo-icon {
+      width: 48px; height: 48px;
+      background: rgba(200,146,10,.25);
+      border: 1px solid rgba(200,146,10,.4);
+      border-radius: 14px;
+      display: flex; align-items: center; justify-content: center;
+      font-size: 22px;
+    }
+    .logo-text { font-size: 18px; font-weight: 800; letter-spacing: -.3px; }
+    .logo-sub { font-size: 11px; color: rgba(255,255,255,.6); font-weight: 500; margin-top: 2px; }
+
+    .cover-badge {
+      display: inline-flex;
+      align-items: center;
+      gap: 8px;
+      background: rgba(255,255,255,.08);
+      border: 1px solid rgba(255,255,255,.15);
+      padding: 6px 16px;
+      border-radius: 100px;
+      font-size: 11px;
+      font-weight: 700;
+      text-transform: uppercase;
+      letter-spacing: 1px;
+      color: #f5d78e;
+      margin-bottom: 24px;
+    }
+    .cover-badge::before { content: '⚡'; }
+
+    .cover h1 {
+      font-size: 52px;
+      font-weight: 900;
+      line-height: 1.1;
+      letter-spacing: -1.5px;
+      max-width: 700px;
+      margin-bottom: 20px;
+    }
+    .cover h1 span {
+      background: linear-gradient(90deg, #f5d78e, #c8920a);
+      -webkit-background-clip: text;
+      -webkit-text-fill-color: transparent;
+    }
+
+    .cover-desc {
+      font-size: 18px;
+      color: rgba(255,255,255,.75);
+      max-width: 600px;
+      margin-bottom: 50px;
+      line-height: 1.7;
+    }
+
+    .cover-stats {
+      display: flex;
+      gap: 40px;
+      flex-wrap: wrap;
+      position: relative;
+      z-index: 1;
+    }
+    .stat-item { }
+    .stat-val {
+      font-size: 32px;
+      font-weight: 900;
+      color: #f5d78e;
+      display: block;
+      letter-spacing: -1px;
+    }
+    .stat-label {
+      font-size: 12px;
+      color: rgba(255,255,255,.6);
+      font-weight: 500;
+    }
+
+    .cover-bottom {
+      position: relative;
+      z-index: 1;
+      display: flex;
+      align-items: flex-end;
+      justify-content: space-between;
+      margin-top: 60px;
+    }
+    .cover-meta { color: rgba(255,255,255,.5); font-size: 12px; }
+
+    /* ===== LAYOUT GÉNÉRAL ===== */
+    .page {
+      padding: 50px 60px;
+      max-width: 100%;
+      page-break-before: always;
+    }
+    .page:first-of-type { page-break-before: avoid; }
+
+    .section-label {
+      font-size: 13px;
+      font-weight: 800;
+      text-transform: uppercase;
+      letter-spacing: 2px;
+      color: var(--gold);
+      margin-bottom: 10px;
+    }
+    .section-title {
+      font-size: 34px;
+      font-weight: 900;
+      letter-spacing: -0.5px;
+      color: var(--text);
+      margin-bottom: 8px;
+    }
+    .section-desc {
+      font-size: 17px;
+      color: var(--muted);
+      max-width: 700px;
+      margin-bottom: 36px;
+      line-height: 1.75;
+    }
+
+    /* ===== GRILLES DE FONCTIONNALITÉS ===== */
+    .feat-grid { display: grid; grid-template-columns: 1fr 1fr; gap: 16px; }
+    .feat-grid-3 { display: grid; grid-template-columns: 1fr 1fr 1fr; gap: 16px; }
+
+    .feat-card {
+      background: var(--white);
+      border: 1px solid var(--border);
+      border-radius: 16px;
+      padding: 22px;
+      break-inside: avoid;
+    }
+    .feat-card.highlight {
+      background: linear-gradient(135deg, #063a20 0%, #0a5c32 100%);
+      border-color: transparent;
+      color: white;
+    }
+    .feat-card.gold {
+      background: linear-gradient(135deg, #c8920a 0%, #e5a812 100%);
+      border-color: transparent;
+      color: white;
+    }
+
+    .feat-icon {
+      width: 44px; height: 44px;
+      border-radius: 12px;
+      display: flex; align-items: center; justify-content: center;
+      font-size: 20px;
+      margin-bottom: 14px;
+      background: var(--green-light);
+    }
+    .feat-card.highlight .feat-icon { background: rgba(255,255,255,.15); }
+    .feat-card.gold .feat-icon { background: rgba(255,255,255,.2); }
+
+    .feat-badge {
+      display: inline-flex;
+      font-size: 12px;
+      font-weight: 800;
+      text-transform: uppercase;
+      letter-spacing: 0.8px;
+      padding: 4px 10px;
+      border-radius: 100px;
+      background: var(--green-light);
+      color: var(--green);
+      margin-bottom: 12px;
+    }
+    .feat-card.highlight .feat-badge { background: rgba(255,255,255,.15); color: #a8f0c6; }
+    .feat-card.gold .feat-badge { background: rgba(255,255,255,.2); color: white; }
+    .badge-red { background: #fee2e2; color: #b91c1c; }
+    .badge-indigo { background: #e0e7ff; color: #3730a3; }
+    .badge-green { background: #dcfce7; color: #166534; }
+    .badge-or { background: #fef9ee; color: #92400e; }
+
+    .feat-name {
+      font-size: 18px;
+      font-weight: 800;
+      margin-bottom: 8px;
+      letter-spacing: -.2px;
+    }
+    .feat-desc {
+      font-size: 15px;
+      color: var(--muted);
+      line-height: 1.7;
+    }
+    .feat-card.highlight .feat-desc,
+    .feat-card.gold .feat-desc { color: rgba(255,255,255,.85); }
+
+    .feat-url {
+      display: inline-block;
+      margin-top: 14px;
+      font-size: 13px;
+      font-weight: 700;
+      color: var(--gold);
+      font-family: monospace;
+    }
+    .feat-card.highlight .feat-url { color: #f5d78e; }
+    .feat-card.gold .feat-url { color: rgba(255,255,255,.8); }
+
+    /* ===== TABLEAU DE VALEUR ===== */
+    .value-table {
+      width: 100%;
+      border-collapse: collapse;
+      margin-top: 8px;
+      break-inside: avoid;
+    }
+    .value-table th {
+      background: var(--green);
+      color: white;
+      padding: 14px 18px;
+      text-align: left;
+      font-size: 14px;
+      font-weight: 700;
+      text-transform: uppercase;
+      letter-spacing: .5px;
+    }
+    .value-table th:first-child { border-radius: 10px 0 0 0; }
+    .value-table th:last-child { border-radius: 0 10px 0 0; }
+    .value-table td {
+      padding: 14px 18px;
+      border-bottom: 1px solid var(--border);
+      font-size: 15px;
+      vertical-align: top;
+    }
+    .value-table tr:last-child td { border-bottom: none; }
+    .value-table tr:nth-child(even) td { background: #f8fafc; }
+    .value-table td:first-child { font-weight: 700; color: var(--text); }
+    .check { color: #16a34a; font-weight: 900; font-size: 17px; }
+
+    /* ===== ROADMAP ===== */
+    .roadmap { display: flex; flex-direction: column; gap: 0; }
+    .roadmap-item {
+      display: flex;
+      gap: 20px;
+      padding: 20px 0;
+      border-bottom: 1px solid var(--border);
+    }
+    .roadmap-item:last-child { border-bottom: none; }
+    .roadmap-num {
+      width: 40px; height: 40px;
+      min-width: 40px;
+      border-radius: 50%;
+      background: var(--green);
+      color: white;
+      display: flex; align-items: center; justify-content: center;
+      font-weight: 900;
+      font-size: 16px;
+    }
+    .roadmap-content {}
+    .roadmap-name { font-weight: 800; font-size: 17px; margin-bottom: 6px; }
+    .roadmap-desc { font-size: 15px; color: var(--muted); line-height: 1.7; }
+
+    /* ===== CTA FINALE ===== */
+    .cta-section {
+      background: linear-gradient(135deg, #063a20, #0a5c32);
+      border-radius: 20px;
+      padding: 50px;
+      text-align: center;
+      color: white;
+      margin-top: 40px;
+      break-inside: avoid;
+    }
+    .cta-section h2 { font-size: 32px; font-weight: 900; margin-bottom: 14px; }
+    .cta-section p { color: rgba(255,255,255,.75); font-size: 17px; max-width: 500px; margin: 0 auto 28px; }
+    .cta-url {
+      display: inline-block;
+      background: #c8920a;
+      color: white;
+      font-weight: 800;
+      padding: 16px 36px;
+      border-radius: 100px;
+      font-size: 14px;
+      letter-spacing: -.2px;
+      text-decoration: none;
+    }
+    .contact-grid {
+      display: grid;
+      grid-template-columns: repeat(3, 1fr);
+      gap: 16px;
+      margin-top: 24px;
+    }
+    .contact-item {
+      background: rgba(255,255,255,.08);
+      border: 1px solid rgba(255,255,255,.12);
+      border-radius: 12px;
+      padding: 14px;
+      font-size: 12px;
+    }
+    .contact-label { color: rgba(255,255,255,.5); font-size: 10px; margin-bottom: 4px; font-weight: 600; }
+
+    /* ===== DIVIDER ===== */
+    .divider { border: none; border-top: 1px solid var(--border); margin: 32px 0; }
+
+    /* ===== PRINT ===== */
+    @media print {
+      body { background: white; }
+      .cover { -webkit-print-color-adjust: exact; print-color-adjust: exact; }
+      .feat-card.highlight, .feat-card.gold, .value-table th, .cta-section, .roadmap-num {
+        -webkit-print-color-adjust: exact;
+        print-color-adjust: exact;
+      }
+    }
+  </style>
+</head>
+<body>
+
+<!-- ============ PAGE 1 : COUVERTURE ============ -->
+<div class="cover">
+  <div class="cover-top">
+    <div class="logo-mark">
+      <div class="logo-icon">🏆</div>
+      <div>
+        <div class="logo-text">Soumission PME</div>
+        <div class="logo-sub">La Super App des Marchés Publics au Sénégal</div>
+      </div>
+    </div>
+
+    <div class="cover-badge">Présentation Produit — 2026</div>
+
+    <h1>Gagnez plus de <span>marchés publics</span>.<br/>Bien plus vite.</h1>
+
+    <p class="cover-desc">
+      La plateforme de référence pour les PME sénégalaises qui veulent trouver les appels d'offres, 
+      préparer des dossiers béton, sécuriser leur financement et anticiper les marchés de demain — grâce à l'IA.
+    </p>
+
+    <div class="cover-stats">
+      <div class="stat-item">
+        <span class="stat-val">20+</span>
+        <span class="stat-label">Fonctionnalités actives</span>
+      </div>
+      <div class="stat-item">
+        <span class="stat-val">1 583</span>
+        <span class="stat-label">Marchés attribués analysés</span>
+      </div>
+      <div class="stat-item">
+        <span class="stat-val">100%</span>
+        <span class="stat-label">Sources officielles</span>
+      </div>
+      <div class="stat-item">
+        <span class="stat-val">0 FCFA</span>
+        <span class="stat-label">Pour commencer (essai gratuit)</span>
+      </div>
+    </div>
+  </div>
+
+  <div class="cover-bottom">
+    <div class="cover-meta">
+      <div style="font-size:14px;font-weight:700;color:white;margin-bottom:4px">appeloffres.vercel.app</div>
+      <div>© 2026 Soumission PME · Dakar, Sénégal · Document confidentiel</div>
+    </div>
+    <div style="color:rgba(255,255,255,.3);font-size:12px;text-align:right">
+      Version 2.0<br/>Octobre 2026
+    </div>
+  </div>
+</div>
+
+<!-- ============ PAGE 2 : FONDAMENTAUX ============ -->
+<div class="page">
+  <div class="section-label">Les Bases</div>
+  <div class="section-title">Fonctionnalités Fondamentales</div>
+  <p class="section-desc">
+    Le socle qui permet à n'importe quelle PME sénégalaise de trouver les marchés de son secteur, 
+    préparer un dossier complet et ne rater aucune échéance.
+  </p>
+
+  <div class="feat-grid">
+    <div class="feat-card highlight">
+      <div class="feat-icon">🔍</div>
+      <div class="feat-badge">Cœur du produit</div>
+      <div class="feat-name">Appels d'Offres Ouverts</div>
+      <div class="feat-desc">Tous les avis collectés en temps réel sur les sites officiels : DCMP, Senelec, AGEROUTE, ARTP, Port de Dakar, BCEAO, Banque Mondiale, Nations Unies, ONG. Date limite, montant estimé, secteur, lien officiel.</div>
+      <div class="feat-url">/appels</div>
+    </div>
+
+    <div class="feat-card">
+      <div class="feat-icon">📅</div>
+      <div class="feat-badge">Anticipation</div>
+      <div class="feat-name">Marchés à Venir (PPM)</div>
+      <div class="feat-desc">Les marchés inscrits dans les Plans de Passation de Marchés (PPM) avant même la parution de l'avis officiel. Repérez les opportunités 3 à 6 mois à l'avance et commencez à vous préparer.</div>
+      <div class="feat-url">/a-venir</div>
+    </div>
+
+    <div class="feat-card">
+      <div class="feat-icon">📊</div>
+      <div class="feat-badge">Intelligence marché</div>
+      <div class="feat-name">Qui Gagne Quoi</div>
+      <div class="feat-desc">L'historique complet des 1 583 marchés attribués : entreprises gagnantes, montants, nombre d'offres reçues, acheteurs. La mine d'or pour comprendre la concurrence et fixer ses prix.</div>
+      <div class="feat-url">/qui-gagne</div>
+    </div>
+
+    <div class="feat-card">
+      <div class="feat-icon">📁</div>
+      <div class="feat-badge">Organisation</div>
+      <div class="feat-name">Suivi des Dossiers</div>
+      <div class="feat-desc">Tableau de bord personnel avec tous les marchés suivis, leur taux de préparation, les échéances critiques et les alertes automatiques. Plus aucune date limite ratée.</div>
+      <div class="feat-url">/dossiers</div>
+    </div>
+
+    <div class="feat-card">
+      <div class="feat-icon">🔒</div>
+      <div class="feat-badge">Gestion documentaire</div>
+      <div class="feat-name">Coffre-Fort des Pièces</div>
+      <div class="feat-desc">Déposez une fois vos attestations (fiscale, CSS, IPRES, RCCM). Le système suit leurs dates d'expiration, prévient avant échéance et coche automatiquement les pièces sur chaque dossier candidat.</div>
+      <div class="feat-url">/coffre</div>
+    </div>
+
+    <div class="feat-card">
+      <div class="feat-icon">✅</div>
+      <div class="feat-badge">Éligibilité</div>
+      <div class="feat-name">« Ce marché est-il pour moi ? »</div>
+      <div class="feat-desc">Pour chaque avis, l'IA compare les exigences du DAO (chiffre d'affaires minimal, garantie, références) au profil de l'entreprise. Résultat immédiat : feu vert 🟢, orange 🟡 ou rouge 🔴.</div>
+      <div class="feat-url">/appels/[id]</div>
+    </div>
+  </div>
+</div>
+
+<!-- ============ PAGE 3 : PRÉPARATION DU DOSSIER ============ -->
+<div class="page">
+  <div class="section-label">La Préparation</div>
+  <div class="section-title">Outils de Constitution du Dossier</div>
+  <p class="section-desc">
+    De la lecture du DAO jusqu'au dépôt final, un arsenal complet pour produire une offre de qualité professionnelle en un minimum de temps.
+  </p>
+
+  <div class="feat-grid">
+    <div class="feat-card gold">
+      <div class="feat-icon">🤖</div>
+      <div class="feat-badge">IA Générative</div>
+      <div class="feat-name">Assistant IA de Rédaction</div>
+      <div class="feat-desc">Un studio de rédaction en plein écran avec un chatbot expert à gauche et l'éditeur du document à droite. L'IA analyse le DAO, identifie les clauses clés et co-rédige le mémoire technique en temps réel selon le type de marché.</div>
+      <div class="feat-url">/appels/[id]/redaction</div>
+    </div>
+
+    <div class="feat-card">
+      <div class="feat-icon">✍️</div>
+      <div class="feat-badge">Génération automatique</div>
+      <div class="feat-name">Mémoire Technique + Lettre + Déclaration</div>
+      <div class="feat-desc">En un clic, génère 3 documents essentiels basés sur le profil de l'entreprise et les modèles officiels de l'ARCOP : le mémoire technique, la lettre de soumission et la déclaration sur l'honneur.</div>
+      <div class="feat-url">/appels/[id]</div>
+    </div>
+
+    <div class="feat-card">
+      <div class="feat-icon">📋</div>
+      <div class="feat-badge">Automatisation Excel</div>
+      <div class="feat-name">Auto-Remplissage du BPU</div>
+      <div class="feat-desc">La PME uploade le Bordereau des Prix Unitaires (BPU) vierge. L'IA lit les articles, les croise avec la base de prix historiques et remplit toutes les cases automatiquement. Génère le fichier Excel final prêt à soumettre.</div>
+      <div class="feat-url">/bpu</div>
+    </div>
+
+    <div class="feat-card">
+      <div class="feat-icon">📐</div>
+      <div class="feat-badge">IA Prédictive</div>
+      <div class="feat-name">Simulateur de Note (Grille IA)</div>
+      <div class="feat-desc">L'IA extrait la grille d'évaluation du DAO et "corrige" le dossier de la PME avant qu'elle ne le dépose. Score par critère (Expérience/Capacité/Méthodologie) avec conseils concrets pour gagner des points.</div>
+      <div class="feat-url">/appels/[id]</div>
+    </div>
+
+    <div class="feat-card">
+      <div class="feat-icon">🌍</div>
+      <div class="feat-badge">Accessibilité internationale</div>
+      <div class="feat-name">Traducteur de DAO</div>
+      <div class="feat-desc">Les cahiers des charges des marchés Banque Mondiale, ONU, USAID sont souvent en anglais. L'IA traduit instantanément l'intégralité du document en français, avec préservation du jargon technique et de la mise en page.</div>
+      <div class="feat-url">/appels/[id]</div>
+    </div>
+
+    <div class="feat-card">
+      <div class="feat-icon">📅</div>
+      <div class="feat-badge">Productivité</div>
+      <div class="feat-name">Calendrier (.ics)</div>
+      <div class="feat-desc">Bouton "+ Agenda" sur chaque avis pour télécharger un fichier .ics avec la date limite de dépôt. Compatible Google Agenda, Apple Calendar et Outlook. Rappels automatiques sur smartphone.</div>
+      <div class="feat-url">/appels/[id]</div>
+    </div>
+  </div>
+</div>
+
+<!-- ============ PAGE 4 : FINANCEMENT & PRIX ============ -->
+<div class="page">
+  <div class="section-label">Finances & Stratégie de Prix</div>
+  <div class="section-title">Outils Financiers et de Chiffrage</div>
+  <p class="section-desc">
+    Sécurisez vos garanties, estimez les bons prix de vente et approvisionnez-vous aux meilleurs tarifs pour maximiser vos marges.
+  </p>
+
+  <div class="feat-grid-3">
+    <div class="feat-card">
+      <div class="feat-icon">💰</div>
+      <div class="feat-badge" style="background:#dcfce7;color:#166534">Chiffrage</div>
+      <div class="feat-name">Estimateur de Prix</div>
+      <div class="feat-desc">Recherche par mot-clé dans les 1 583 marchés attribués. Retourne le prix minimum, moyen et maximum pratiqués sur les 24 derniers mois pour éviter de soumissionner trop haut ou à perte.</div>
+      <div class="feat-url">/prix-conseille</div>
+    </div>
+
+    <div class="feat-card">
+      <div class="feat-icon">📦</div>
+      <div class="feat-badge" style="background:#ede9fe;color:#4c1d95">Approvisionnement</div>
+      <div class="feat-name">Sourcing & Fournisseurs</div>
+      <div class="feat-desc">Annuaire des grossistes et importateurs par produit, avec les prix d'achat B2B, les délais de livraison et la fiabilité du fournisseur. Demande de devis intégrée en un clic.</div>
+      <div class="feat-url">/fournisseurs</div>
+    </div>
+
+    <div class="feat-card">
+      <div class="feat-icon">🏦</div>
+      <div class="feat-badge" style="background:#fef9ee;color:#92400e">Garanties</div>
+      <div class="feat-name">Cautions & FONGIP</div>
+      <div class="feat-desc">Simulateur du coût de la caution de soumission. API connectée au FONGIP et aux banques partenaires pour obtenir un accord de principe en moins de 10 secondes en 1-clic.</div>
+      <div class="feat-url">/financement</div>
+    </div>
+  </div>
+
+  <hr class="divider" />
+
+  <!-- SECTION GAME CHANGER FINANCIER -->
+  <div class="feat-grid" style="margin-top:0">
+    <div class="feat-card gold">
+      <div class="feat-icon">💸</div>
+      <div class="feat-badge">🏆 Game Changer</div>
+      <div class="feat-name">Marketplace d'Affacturage</div>
+      <div class="feat-desc">
+        <strong>Le problème n°1 des PME sénégalaises résolu.</strong> Vous avez livré un marché public, mais l'État met 12 mois à payer ? Uploadez votre Bon de Réception sur la marketplace. Des banques et fonds partenaires enchérissent pour racheter votre facture avec une décote de 5 à 7%. 
+        <br/><br/>Vous encaissez en <strong>48 heures</strong>.
+      </div>
+      <div class="feat-url">/affacturage</div>
+    </div>
+
+    <div class="feat-card">
+      <div class="feat-icon">🎯</div>
+      <div class="feat-badge" style="background:#fee2e2;color:#b91c1c">Intelligence</div>
+      <div class="feat-name">Veille Concurrentielle</div>
+      <div class="feat-desc">La fiche détaillée de chaque concurrent : marchés gagnés sur 12 mois, montants cumulés, acheteurs privilégiés. Pour savoir exactement qui vous affrontez et adapter votre stratégie de prix en conséquence.</div>
+      <div class="feat-url">/concurrents</div>
+    </div>
+  </div>
+</div>
+
+<!-- ============ PAGE 5 : GAME CHANGERS ============ -->
+<div class="page">
+  <div class="section-label">🏆 Fonctionnalités Exclusives</div>
+  <div class="section-title">Les Outils qui Changent les Règles du Jeu</div>
+  <p class="section-desc">
+    Des fonctionnalités introuvables ailleurs en Afrique, conçues pour les réalités profondes du marché sénégalais. 
+    Ce sont elles qui justifient l'abonnement Pro et créent la fidélité long terme.
+  </p>
+
+  <div class="feat-grid">
+    <div class="feat-card highlight">
+      <div class="feat-icon">🚩</div>
+      <div class="feat-badge">🏆 Unique au Sénégal</div>
+      <div class="feat-name">Détecteur de Marchés Orientés</div>
+      <div class="feat-desc">
+        Avant de dépenser 500 000 FCFA pour monter un dossier, l'IA scanne les clauses du DAO et calcule un <strong>Score d'Équité sur 100</strong>. 
+        <br/><br/>
+        Si le marché est "taillé sur mesure" pour un concurrent (clause de dimension exacte, délai délibérément court, référence impossible), l'application lève un drapeau rouge 🚨 et liste chaque clause suspecte. 
+        <br/><br/>
+        Vous sauvez des millions en évitant les combats truqués.
+      </div>
+      <div class="feat-url">/score-equite</div>
+    </div>
+
+    <div class="feat-card">
+      <div class="feat-icon">🔮</div>
+      <div class="feat-badge" style="background:#e0e7ff;color:#3730a3">IA Prédictive</div>
+      <div class="feat-name">Radar Prédictif (Loi de Finances)</div>
+      <div class="feat-desc">
+        Notre IA a ingéré et analysé les <strong>743 pages de la Loi de Finances 2026</strong> votée par l'Assemblée Nationale sénégalaise. Elle identifie les secteurs budgétés et prédit avec un score de probabilité quand et où les appels d'offres vont sortir. 
+        <br/><br/>
+        Ex : <em>"Budget PUDC de 8,5 Mds pour l'électrification à Kolda — probabilité 92% de sortie dans 4 mois. Cherchez vos fournisseurs maintenant."</em>
+        <br/><br/>
+        Vous prenez <strong>6 mois d'avance</strong> sur vos concurrents.
+      </div>
+      <div class="feat-url">/radar-predictif</div>
+    </div>
+
+    <div class="feat-card">
+      <div class="feat-icon">🤝</div>
+      <div class="feat-badge" style="background:#dcfce7;color:#166534">Juridique</div>
+      <div class="feat-name">Générateur d'Actes de Groupement</div>
+      <div class="feat-desc">
+        Former un groupement solidaire pour un gros marché nécessite un acte légal conforme à l'ARCOP — souvent rédigé par un avocat pour 200 000 à 500 000 FCFA.
+        <br/><br/>
+        Notre outil le génère en <strong>2 minutes</strong> : saisissez les noms, NINEA, RCCM et parts de chaque membre, désignez le mandataire — le contrat légal complet est produit instantanément, prêt à signer.
+      </div>
+      <div class="feat-url">/groupement</div>
+    </div>
+
+    <div class="feat-card">
+      <div class="feat-icon">🏗️</div>
+      <div class="feat-badge" style="background:#fef9ee;color:#92400e">Sous-traitance</div>
+      <div class="feat-name">Bourse au Contenu Local</div>
+      <div class="feat-desc">
+        La loi sénégalaise oblige les multinationales qui gagnent les méga-marchés (ex: autoroute, BRT, compteurs Senelec) à réserver <strong>30% des travaux aux PME locales</strong>.
+        <br/><br/>
+        L'application détecte ces grands projets attribués et notifie les PME locales pertinentes pour qu'elles se positionnent comme sous-traitantes. Des marchés de plusieurs milliards, accessibles aux petites entreprises.
+      </div>
+      <div class="feat-url">/bourse-sous-traitance</div>
+    </div>
+  </div>
+</div>
+
+<!-- ============ PAGE 6 : PARTENARIATS & RÉSEAU ============ -->
+<div class="page">
+  <div class="section-label">Réseau & Partenariats</div>
+  <div class="section-title">Outils Communautaires et Déploiement Automatisé</div>
+  <p class="section-desc">
+    Des outils pour connecter les PME entre elles, les accompagner sur leurs droits et automatiser le dépôt final des offres.
+  </p>
+
+  <div class="feat-grid-3">
+    <div class="feat-card">
+      <div class="feat-icon">👥</div>
+      <div class="feat-badge">Réseau</div>
+      <div class="feat-name">Annuaire des PME</div>
+      <div class="feat-desc">Répertoire des PME sénégalaises classées par secteur, ville et certification. Moteur de recherche pour trouver un partenaire de groupement ou un sous-traitant qualifié en quelques secondes.</div>
+      <div class="feat-url">/annuaire</div>
+    </div>
+
+    <div class="feat-card">
+      <div class="feat-icon">⚖️</div>
+      <div class="feat-badge">Droits</div>
+      <div class="feat-name">Guide des Recours ARCOP</div>
+      <div class="feat-desc">En cas d'élimination injuste, le guide liste les délais légaux stricts (5 jours pour le recours gracieux, 3 jours pour le contentieux) et fournit un modèle de lettre de contestation prêt à envoyer.</div>
+      <div class="feat-url">/recours</div>
+    </div>
+
+    <div class="feat-card">
+      <div class="feat-icon">💬</div>
+      <div class="feat-badge">Mobilité</div>
+      <div class="feat-name">Assistant WhatsApp</div>
+      <div class="feat-desc">Configuration des alertes via le numéro WhatsApp de la PME. Réception des avis en temps réel et possibilité d'interroger l'assistant IA directement par message ("quels marchés BTP à Thiès ?").</div>
+      <div class="feat-url">/whatsapp</div>
+    </div>
+
+    <div class="feat-card">
+      <div class="feat-icon">📱</div>
+      <div class="feat-badge">PWA</div>
+      <div class="feat-name">Application Installable</div>
+      <div class="feat-desc">Le site s'installe comme une application native sur les smartphones iOS et Android (PWA). Icône sur l'écran d'accueil, chargement rapide même avec une connexion lente, fonctionnement hors-ligne partiel.</div>
+      <div class="feat-url">appeloffres.vercel.app</div>
+    </div>
+
+    <div class="feat-card">
+      <div class="feat-icon">🚀</div>
+      <div class="feat-badge" style="background:#1e1b4b;color:#a5b4fc">Automatisation</div>
+      <div class="feat-name">Dépôt Automatisé (RPA)</div>
+      <div class="feat-desc">Notre robot se connecte directement au portail SYGMAP/APPEL de l'État et téléverse les pièces du coffre-fort + le mémoire technique en 1 clic, à la place de l'utilisateur. L'équivalent Amazon 1-Click pour les marchés publics.</div>
+      <div class="feat-url">/appels/[id]</div>
+    </div>
+
+    <div class="feat-card">
+      <div class="feat-icon">💼</div>
+      <div class="feat-badge">Pro / Cabinet</div>
+      <div class="feat-name">Espace Cabinet</div>
+      <div class="feat-desc">Pour les consultants en marchés publics. Gérez les dossiers de plusieurs PME depuis un seul compte, basculez d'une entreprise à l'autre en 1 clic. Base du service "Dossier Clé en Main" facturé à l'acte.</div>
+      <div class="feat-url">/cabinet</div>
+    </div>
+  </div>
+
+  <hr class="divider" />
+
+  <div class="section-label" style="margin-top:0">Tableau Récapitulatif</div>
+  <table class="value-table">
+    <thead>
+      <tr>
+        <th>Fonctionnalité</th>
+        <th>Problème résolu</th>
+        <th>Gratuit</th>
+        <th>Pro</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr><td>Appels d'offres + PPM</td><td>Trouver les marchés</td><td class="check">✓</td><td class="check">✓</td></tr>
+      <tr><td>Coffre-fort des pièces</td><td>Attestations expirées</td><td>3 pièces</td><td class="check">Illimité</td></tr>
+      <tr><td>Éligibilité IA</td><td>Perte de temps sur dossiers impossibles</td><td>—</td><td class="check">✓</td></tr>
+      <tr><td>Assistant IA de Rédaction</td><td>Qualité du mémoire technique</td><td>—</td><td class="check">✓</td></tr>
+      <tr><td>Auto-remplissage BPU</td><td>Erreurs de calcul Excel</td><td>—</td><td class="check">✓</td></tr>
+      <tr><td>Détecteur de marchés orientés</td><td>Gaspillage sur dossiers truqués</td><td>—</td><td class="check">✓</td></tr>
+      <tr><td>Affacturage (paiement en 48h)</td><td>Délais de paiement de l'État</td><td>—</td><td class="check">✓</td></tr>
+      <tr><td>Radar Prédictif</td><td>Anticipation des marchés</td><td>—</td><td class="check">✓</td></tr>
+      <tr><td>Générateur de groupement</td><td>Coût et délai des actes juridiques</td><td>—</td><td class="check">✓</td></tr>
+      <tr><td>Espace Cabinet</td><td>Gestion multi-clients</td><td>—</td><td class="check">✓</td></tr>
+    </tbody>
+  </table>
+</div>
+
+<!-- ============ PAGE 7 : CTA ============ -->
+<div class="page">
+  <div class="cta-section">
+    <h2>Prêt à transformer votre PME en machine à gagner des marchés ?</h2>
+    <p>Rejoignez les PME sénégalaises les plus compétitives. Essai gratuit 14 jours, sans carte bancaire.</p>
+    <a class="cta-url" href="https://appeloffres.vercel.app">Commencer gratuitement →</a>
+
+    <div class="contact-grid">
+      <div class="contact-item">
+        <div class="contact-label">Application</div>
+        <div style="color:white;font-weight:700">appeloffres.vercel.app</div>
+      </div>
+      <div class="contact-item">
+        <div class="contact-label">GitHub / Code source</div>
+        <div style="color:white;font-weight:700">mamadouelimanewane/appeloffres</div>
+      </div>
+      <div class="contact-item">
+        <div class="contact-label">Contact</div>
+        <div style="color:white;font-weight:700">mamadouastelwane@gmail.com</div>
+      </div>
+    </div>
+  </div>
+
+  <div style="text-align:center;margin-top:40px;color:var(--muted);font-size:11px;line-height:1.8">
+    <p>© 2026 Soumission PME · Dakar, Sénégal</p>
+    <p>Données issues des sources officielles : DCMP, ARCOP, SENELEC, AGEROUTE, ARTP, Port Autonome de Dakar, BCEAO, Banque Mondiale, Nations Unies, PFONGUE.</p>
+    <p style="margin-top:6px;font-style:italic">L'avis officiel fait toujours foi — vérifiez les pièces exigées dans le DAO original avant de soumettre.</p>
+  </div>
+</div>
+
+</body>
+</html>
