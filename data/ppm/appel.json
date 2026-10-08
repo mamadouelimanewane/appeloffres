@@ -52254,492 +52254,6 @@
   "montantFcfa": null
  },
  {
-  "autorite": "SENPNA",
-  "plan": "SENPNA_2026_12",
-  "direction": "DIRECTION DE L'ADMINISTRATION ET DES FINANCES",
-  "reference": "F_SENPNA_DAF_17417",
-  "objet": "Acquisition de pneumatiques",
-  "typeMarche": "Fourniture",
-  "financement": [
-   "Budget propre"
-  ],
-  "mode": "Demande de renseignements et de prix à compétition ouverte",
-  "lancement": "2026-10-07",
-  "attribution": "2026-11-09",
-  "demarrage": "2026-12-22",
-  "achevement": null,
-  "etat": null,
-  "montantFcfa": null
- },
- {
-  "autorite": "SENPNA",
-  "plan": "SENPNA_2026_12",
-  "direction": "DIRECTION DE L'ADMINISTRATION ET DES FINANCES",
-  "reference": "F_SENPNA_DAF_12175",
-  "objet": "acquisition de matériel et mobilier de bureau",
-  "typeMarche": "Fourniture",
-  "financement": [
-   "Budget propre"
-  ],
-  "mode": "Appel d'offres ouvert",
-  "lancement": "2026-08-18",
-  "attribution": "2026-11-19",
-  "demarrage": "2027-01-14",
-  "achevement": null,
-  "etat": null,
-  "montantFcfa": null
- },
- {
-  "autorite": "SENPNA",
-  "plan": "SENPNA_2026_12",
-  "direction": "DIRECTION DE L'ADMINISTRATION ET DES FINANCES",
-  "reference": "S_SENPNA_DAF_12146",
-  "objet": "selection d'un prestataire pour l'organisation d'ateliers seminaire et session du CA à la SEN PNA",
-  "typeMarche": "Services",
-  "financement": [
-   "Budget propre"
-  ],
-  "mode": "Demande de renseignements et de prix à compétition ouverte",
-  "lancement": "2026-07-29",
-  "attribution": "2026-08-31",
-  "demarrage": "2026-10-13",
-  "achevement": null,
-  "etat": null,
-  "montantFcfa": null
- },
- {
-  "autorite": "SENPNA",
-  "plan": "SENPNA_2026_12",
-  "direction": "SECRETARIAT GENERAL-SERVICE DES SYSTEMES D'INFORMATION GLOBALE",
-  "reference": "F_SENPNA_SG-SIG_12179",
-  "objet": "Acquisition de fourniture et renouvellement de licence M365,PowerBI pour la SEN-PNA",
-  "typeMarche": "Fourniture",
-  "financement": [
-   "Budget propre"
-  ],
-  "mode": "Demande de renseignements et de prix à compétition ouverte",
-  "lancement": "2026-07-27",
-  "attribution": "2026-08-27",
-  "demarrage": "2026-10-09",
-  "achevement": null,
-  "etat": null,
-  "montantFcfa": null
- },
- {
-  "autorite": "SENPNA",
-  "plan": "SENPNA_2026_12",
-  "direction": "DIRECTION DE LA DISTRIBUTION ET DU MARKETING COMMERCIAL",
-  "reference": "F_SENPNA_DDMC_12162",
-  "objet": "Matériel de communication (Caméras Appareils photo, Drônes...)",
-  "typeMarche": "Fourniture",
-  "financement": [
-   "Budget propre"
-  ],
-  "mode": "Demande de renseignements et de prix à compétition ouverte",
-  "lancement": "2026-07-24",
-  "attribution": "2026-08-26",
-  "demarrage": "2026-10-08",
-  "achevement": null,
-  "etat": null,
-  "montantFcfa": null
- },
- {
-  "autorite": "SENPNA",
-  "plan": "SENPNA_2026_12",
-  "direction": "DIRECTION DE L'ADMINISTRATION ET DES FINANCES",
-  "reference": "F_SENPNA_DAF_12165",
-  "objet": "Acquisition de fontaines d'eau pour les PRA",
-  "typeMarche": "Fourniture",
-  "financement": [
-   "Budget propre"
-  ],
-  "mode": "Demande de renseignements et de prix à compétition ouverte",
-  "lancement": "2026-07-21",
-  "attribution": "2026-08-21",
-  "demarrage": "2026-10-05",
-  "achevement": null,
-  "etat": null,
-  "montantFcfa": null
- },
- {
-  "autorite": "SENPNA",
-  "plan": "SENPNA_2026_12",
-  "direction": "DIRECTION DE L'ADMINISTRATION ET DES FINANCES",
-  "reference": "F_SENPNA_DAF_12194",
-  "objet": "acquisition de matériels roulant au profit de la SEN PNA(Relance du credit-bail)",
-  "typeMarche": "Fourniture",
-  "financement": [
-   "Financement extérieur"
-  ],
-  "mode": "Appel d'offres ouvert",
-  "lancement": "2026-10-16",
-  "attribution": "2027-01-19",
-  "demarrage": "2027-03-16",
-  "achevement": null,
-  "etat": null,
-  "montantFcfa": null
- },
- {
-  "autorite": "SENPNA",
-  "plan": "SENPNA_2026_12",
-  "direction": "SECRETARIAT GENERAL-SERVICE DES SYSTEMES D'INFORMATION GLOBALE",
-  "reference": "S_SENPNA_SG-SIG_12205",
-  "objet": "Sélection d'un prestataire pour le leasing des imprimantes de la SEN-PNA",
-  "typeMarche": "Services",
-  "financement": [
-   "Budget propre"
-  ],
-  "mode": "Demande de renseignements et de prix à compétition ouverte",
-  "lancement": "2026-07-22",
-  "attribution": "2026-08-24",
-  "demarrage": "2026-10-06",
-  "achevement": null,
-  "etat": null,
-  "montantFcfa": null
- },
- {
-  "autorite": "SENPNA",
-  "plan": "SENPNA_2026_12",
-  "direction": "DIRECTION DE L'ADMINISTRATION ET DES FINANCES",
-  "reference": "T_SENPNA_DAF_12211",
-  "objet": "Installation de hangars et bureaux en préfabriqué",
-  "typeMarche": "Travaux",
-  "financement": [
-   "Budget propre"
-  ],
-  "mode": "Appel d'offres ouvert",
-  "lancement": "2026-11-11",
-  "attribution": "2027-02-12",
-  "demarrage": "2027-04-09",
-  "achevement": null,
-  "etat": null,
-  "montantFcfa": null
- },
- {
-  "autorite": "SENPNA",
-  "plan": "SENPNA_2026_12",
-  "direction": "SERVICE QUALITE HYGIENE SECURITE ENVIRONNEMENT",
-  "reference": "F_SENPNA_ SQHSE_12392",
-  "objet": "Acquisition de matériel de sureté et de sécurité (système anti-incendie)",
-  "typeMarche": "Fourniture",
-  "financement": [
-   "Budget propre"
-  ],
-  "mode": "Appel d'offres ouvert",
-  "lancement": "2026-09-03",
-  "attribution": "2026-12-28",
-  "demarrage": "2027-02-22",
-  "achevement": null,
-  "etat": null,
-  "montantFcfa": null
- },
- {
-  "autorite": "SENPNA",
-  "plan": "SENPNA_2026_12",
-  "direction": "DIRECTION DE L'ADMINISTRATION ET DES FINANCES",
-  "reference": "T_SENPNA_DAF_12527",
-  "objet": "Finalisation des travaux de construction de la PRA de Kaffrine et du dépôt de Touba",
-  "typeMarche": "Travaux",
-  "financement": [
-   "Budget propre"
-  ],
-  "mode": "Appel d'offres ouvert",
-  "lancement": "2026-09-07",
-  "attribution": "2026-12-30",
-  "demarrage": "2027-02-24",
-  "achevement": null,
-  "etat": null,
-  "montantFcfa": null
- },
- {
-  "autorite": "SENPNA",
-  "plan": "SENPNA_2026_12",
-  "direction": "DIRECTION DE L'ADMINISTRATION ET DES FINANCES",
-  "reference": "F_SENPNA_DAF_12493",
-  "objet": "Acquisition de tenues de travail",
-  "typeMarche": "Fourniture",
-  "financement": [
-   "Budget propre"
-  ],
-  "mode": "Demande de renseignement et de prix à compétition restreinte",
-  "lancement": "2026-07-15",
-  "attribution": "2026-08-17",
-  "demarrage": "2026-08-28",
-  "achevement": null,
-  "etat": null,
-  "montantFcfa": null
- },
- {
-  "autorite": "SENPNA",
-  "plan": "SENPNA_2026_12",
-  "direction": "DIRECTION DE L'ADMINISTRATION ET DES FINANCES",
-  "reference": "T_SENPNA_DAF_13004",
-  "objet": "Réhabilitation des PRA",
-  "typeMarche": "Travaux",
-  "financement": [
-   "Budget propre"
-  ],
-  "mode": "Appel d'offres ouvert",
-  "lancement": "2026-09-14",
-  "attribution": "2027-01-06",
-  "demarrage": "2027-03-03",
-  "achevement": null,
-  "etat": null,
-  "montantFcfa": null
- },
- {
-  "autorite": "SENPNA",
-  "plan": "SENPNA_2026_12",
-  "direction": "DIRECTION DE L'ADMINISTRATION ET DES FINANCES",
-  "reference": "F_SENPNA_DAF_12184",
-  "objet": "Acquisition et installation de système de géolocalisation (gestion de la flotte automobile)",
-  "typeMarche": "Fourniture",
-  "financement": [
-   "Budget propre"
-  ],
-  "mode": "Demande de renseignements et de prix à compétition ouverte",
-  "lancement": "2026-08-14",
-  "attribution": "2026-09-16",
-  "demarrage": "2026-10-29",
-  "achevement": null,
-  "etat": null,
-  "montantFcfa": null
- },
- {
-  "autorite": "SENPNA",
-  "plan": "SENPNA_2026_12",
-  "direction": "DIRECTION DE L'ADMINISTRATION ET DES FINANCES",
-  "reference": "S_SENPNA_DAF_13005",
-  "objet": "Services d'assistance en Pharmacie, manutention ,Administratif ,et Technique",
-  "typeMarche": "Services",
-  "financement": [
-   "Budget propre"
-  ],
-  "mode": "Appel d'offres ouvert",
-  "lancement": "2026-09-23",
-  "attribution": "2027-01-15",
-  "demarrage": "2027-03-12",
-  "achevement": null,
-  "etat": null,
-  "montantFcfa": null
- },
- {
-  "autorite": "SENPNA",
-  "plan": "SENPNA_2026_12",
-  "direction": "SECRETARIAT GENERAL-SERVICE DES SYSTEMES D'INFORMATION GLOBALE",
-  "reference": "F_SENPNA_SG-SIG_13486",
-  "objet": "Acquisition et fourniture de DUA et implémentions des modules Eloficash et Youdoc à Sage ERPX3 v12 de la SEN PNA",
-  "typeMarche": "Fourniture",
-  "financement": [
-   "Budget propre"
-  ],
-  "mode": "Appel d'offres ouvert",
-  "lancement": "2026-10-15",
-  "attribution": "2027-02-08",
-  "demarrage": "2027-04-05",
-  "achevement": null,
-  "etat": null,
-  "montantFcfa": null
- },
- {
-  "autorite": "SENPNA",
-  "plan": "SENPNA_2026_12",
-  "direction": "DIRECTION DE L'ADMINISTRATION ET DES FINANCES",
-  "reference": "C_SENPNA_DAF_13485",
-  "objet": "Renforcement de capacité des agents de la SEN-PNA (formation sur divers modules axés sur le métier)",
-  "typeMarche": "Prestation intellectuelle",
-  "financement": [
-   "Budget propre"
-  ],
-  "mode": "Demande de renseignements et de prix à compétition ouverte",
-  "lancement": "2026-08-06",
-  "attribution": "2026-09-08",
-  "demarrage": "2026-10-21",
-  "achevement": null,
-  "etat": null,
-  "montantFcfa": null
- },
- {
-  "autorite": "SENPNA",
-  "plan": "SENPNA_2026_12",
-  "direction": "SECRETARIAT GENERAL-SERVICE DES SYSTEMES D'INFORMATION GLOBALE",
-  "reference": "F_SENPNA_SG-SIG_13487",
-  "objet": "Acquisition, installation et Mise en services d'un SIRH-et progiciel intégrés de gestion des ressources humaine et gestion de la PAIE pour la SEN -PNA",
-  "typeMarche": "Fourniture",
-  "financement": [
-   "Budget propre"
-  ],
-  "mode": "Appel d'offres ouvert",
-  "lancement": "2026-10-26",
-  "attribution": "2027-02-17",
-  "demarrage": "2027-04-14",
-  "achevement": null,
-  "etat": null,
-  "montantFcfa": null
- },
- {
-  "autorite": "SENPNA",
-  "plan": "SENPNA_2026_12",
-  "direction": "SECRETARIAT GENERAL-SERVICE DES SYSTEMES D'INFORMATION GLOBALE",
-  "reference": "F_SENPNA_SG-SIG_13489",
-  "objet": "Acquisition et Déploiement d'une solution de Gestion Electronique de document GED et d'Archivage",
-  "typeMarche": "Fourniture",
-  "financement": [
-   "Budget propre"
-  ],
-  "mode": "Appel d'offres ouvert",
-  "lancement": "2026-09-15",
-  "attribution": "2027-01-07",
-  "demarrage": "2027-03-04",
-  "achevement": null,
-  "etat": null,
-  "montantFcfa": null
- },
- {
-  "autorite": "SENPNA",
-  "plan": "SENPNA_2026_12",
-  "direction": "SECRETARIAT GENERAL-SERVICE DES SYSTEMES D'INFORMATION GLOBALE",
-  "reference": "F_SENPNA_SG-SIG_13488",
-  "objet": "Acquisition et déploiement d'une solution XDR (Extended Detection AND Response",
-  "typeMarche": "Fourniture",
-  "financement": [
-   "Budget propre"
-  ],
-  "mode": "Demande de renseignements et de prix à compétition ouverte",
-  "lancement": "2026-08-12",
-  "attribution": "2026-09-14",
-  "demarrage": "2026-10-27",
-  "achevement": null,
-  "etat": null,
-  "montantFcfa": null
- },
- {
-  "autorite": "SENPNA",
-  "plan": "SENPNA_2026_12",
-  "direction": "SECRETARIAT GENERAL-SERVICE DES SYSTEMES D'INFORMATION GLOBALE",
-  "reference": "F_SENPNA_SG-SIG_13490",
-  "objet": "Acquisition et en place d'un extranet de suivi et de commande en ligne",
-  "typeMarche": "Fourniture",
-  "financement": [
-   "Budget propre"
-  ],
-  "mode": "Demande de renseignements et de prix à compétition ouverte",
-  "lancement": "2026-07-24",
-  "attribution": "2026-08-26",
-  "demarrage": "2026-10-08",
-  "achevement": null,
-  "etat": null,
-  "montantFcfa": null
- },
- {
-  "autorite": "SENPNA",
-  "plan": "SENPNA_2026_12",
-  "direction": "DIRECTION DE LA DISTRIBUTION ET DU MARKETING COMMERCIAL",
-  "reference": "S_SENPNA_DDMC_13512",
-  "objet": "Sélection d'un prestataire pour le Branding du matériel roulant",
-  "typeMarche": "Services",
-  "financement": [
-   "Budget propre"
-  ],
-  "mode": "Demande de renseignement et de prix à compétition restreinte",
-  "lancement": "2026-07-24",
-  "attribution": "2026-08-26",
-  "demarrage": "2026-09-08",
-  "achevement": null,
-  "etat": null,
-  "montantFcfa": null
- },
- {
-  "autorite": "SENPNA",
-  "plan": "SENPNA_2026_12",
-  "direction": "DIRECTION DE LA DISTRIBUTION ET DU MARKETING COMMERCIAL",
-  "reference": "C_SENPNA_DDMC_13511",
-  "objet": "Sélection d'un consultant pour  la communication institutionnelle",
-  "typeMarche": "Prestation intellectuelle",
-  "financement": [
-   "Budget propre"
-  ],
-  "mode": "Demande de renseignement et de prix à compétition restreinte",
-  "lancement": "2026-08-03",
-  "attribution": "2026-09-03",
-  "demarrage": "2026-09-16",
-  "achevement": null,
-  "etat": null,
-  "montantFcfa": null
- },
- {
-  "autorite": "SENPNA",
-  "plan": "SENPNA_2026_12",
-  "direction": "DIRECTION DE L'ADMINISTRATION ET DES FINANCES",
-  "reference": "F_SENPNA_DAF_14514",
-  "objet": "ACQUISITION DE FOURNITURES DE BUREAU, D’IMPRIMÉS ET DE CONSOMMABLES INFORMATIQUES",
-  "typeMarche": "Fourniture",
-  "financement": [
-   "Budget propre"
-  ],
-  "mode": "Demande de renseignements et de prix à compétition ouverte",
-  "lancement": "2026-08-18",
-  "attribution": "2026-09-18",
-  "demarrage": "2026-11-02",
-  "achevement": null,
-  "etat": null,
-  "montantFcfa": null
- },
- {
-  "autorite": "SENPNA",
-  "plan": "SENPNA_2026_12",
-  "direction": "DIRECTION DE LA DISTRIBUTION ET DU MARKETING COMMERCIAL",
-  "reference": "S_SENPNA_DDMC_16011",
-  "objet": "Sélection d'un prestataire pour le Branding du matériel roulant(relance de la procedure S_DDMC_023/2026)",
-  "typeMarche": "Services",
-  "financement": [
-   "Budget propre"
-  ],
-  "mode": "Demande de renseignement et de prix à compétition restreinte",
-  "lancement": "2026-09-03",
-  "attribution": "2026-10-06",
-  "demarrage": "2026-10-19",
-  "achevement": null,
-  "etat": null,
-  "montantFcfa": null
- },
- {
-  "autorite": "SENPNA",
-  "plan": "SENPNA_2026_12",
-  "direction": "DIRECTION DE L'ADMINISTRATION ET DES FINANCES",
-  "reference": "F_SENPNA_DAF_17276",
-  "objet": "Fourniture de Bouteilles D'eau pour Fontaines et de Gobelets en cartons",
-  "typeMarche": "Fourniture",
-  "financement": [
-   "Budget propre"
-  ],
-  "mode": "Demande de renseignement et de prix à compétition restreinte",
-  "lancement": "2026-09-30",
-  "attribution": "2026-11-02",
-  "demarrage": "2026-11-13",
-  "achevement": null,
-  "etat": null,
-  "montantFcfa": null
- },
- {
-  "autorite": "SENPNA",
-  "plan": "SENPNA_2026_12",
-  "direction": "DIRECTION DE L'ADMINISTRATION ET DES FINANCES",
-  "reference": "S_SENPNA_DAF_18231",
-  "objet": "Demande de Renseignements et de Prix à Compétition Restreinte\nPour la sélection d’une agence pour le recrutement de prestataires au profit de la SEN-PNA",
-  "typeMarche": "Services",
-  "financement": [
-   "Budget propre"
-  ],
-  "mode": "Demande de renseignement et de prix à compétition restreinte",
-  "lancement": "2026-10-22",
-  "attribution": "2026-11-24",
-  "demarrage": "2026-12-07",
-  "achevement": null,
-  "etat": null,
-  "montantFcfa": null
- },
- {
   "autorite": "Autorité de Régulation des Télécommunications et des Postes (ARTP)",
   "plan": "ARTP_2026_19",
   "direction": "ARTP",
@@ -53725,6 +53239,510 @@
   "lancement": "2026-10-30",
   "attribution": "2026-12-02",
   "demarrage": "2026-12-15",
+  "achevement": null,
+  "etat": null,
+  "montantFcfa": null
+ },
+ {
+  "autorite": "SENPNA",
+  "plan": "SENPNA_2026_13",
+  "direction": "DIRECTION DE L'ADMINISTRATION ET DES FINANCES",
+  "reference": "F_SENPNA_DAF_17417",
+  "objet": "Acquisition de pneumatiques",
+  "typeMarche": "Fourniture",
+  "financement": [
+   "Budget propre"
+  ],
+  "mode": "Demande de renseignements et de prix à compétition ouverte",
+  "lancement": "2026-10-07",
+  "attribution": "2026-11-09",
+  "demarrage": "2026-12-22",
+  "achevement": null,
+  "etat": null,
+  "montantFcfa": null
+ },
+ {
+  "autorite": "SENPNA",
+  "plan": "SENPNA_2026_13",
+  "direction": "DIRECTION DE L'ADMINISTRATION ET DES FINANCES",
+  "reference": "F_SENPNA_DAF_12175",
+  "objet": "acquisition de matériel et mobilier de bureau",
+  "typeMarche": "Fourniture",
+  "financement": [
+   "Budget propre"
+  ],
+  "mode": "Appel d'offres ouvert",
+  "lancement": "2026-08-18",
+  "attribution": "2026-11-19",
+  "demarrage": "2027-01-14",
+  "achevement": null,
+  "etat": null,
+  "montantFcfa": null
+ },
+ {
+  "autorite": "SENPNA",
+  "plan": "SENPNA_2026_13",
+  "direction": "DIRECTION DE L'ADMINISTRATION ET DES FINANCES",
+  "reference": "S_SENPNA_DAF_12146",
+  "objet": "selection d'un prestataire pour l'organisation d'ateliers seminaire et session du CA à la SEN PNA",
+  "typeMarche": "Services",
+  "financement": [
+   "Budget propre"
+  ],
+  "mode": "Demande de renseignements et de prix à compétition ouverte",
+  "lancement": "2026-07-29",
+  "attribution": "2026-08-31",
+  "demarrage": "2026-10-13",
+  "achevement": null,
+  "etat": null,
+  "montantFcfa": null
+ },
+ {
+  "autorite": "SENPNA",
+  "plan": "SENPNA_2026_13",
+  "direction": "SECRETARIAT GENERAL-SERVICE DES SYSTEMES D'INFORMATION GLOBALE",
+  "reference": "F_SENPNA_SG-SIG_12179",
+  "objet": "Acquisition de fourniture et renouvellement de licence M365,PowerBI pour la SEN-PNA",
+  "typeMarche": "Fourniture",
+  "financement": [
+   "Budget propre"
+  ],
+  "mode": "Demande de renseignements et de prix à compétition ouverte",
+  "lancement": "2026-07-27",
+  "attribution": "2026-08-27",
+  "demarrage": "2026-10-09",
+  "achevement": null,
+  "etat": null,
+  "montantFcfa": null
+ },
+ {
+  "autorite": "SENPNA",
+  "plan": "SENPNA_2026_13",
+  "direction": "DIRECTION DE LA DISTRIBUTION ET DU MARKETING COMMERCIAL",
+  "reference": "F_SENPNA_DDMC_12162",
+  "objet": "Matériel de communication (Caméras Appareils photo, Drônes...)",
+  "typeMarche": "Fourniture",
+  "financement": [
+   "Budget propre"
+  ],
+  "mode": "Demande de renseignements et de prix à compétition ouverte",
+  "lancement": "2026-07-24",
+  "attribution": "2026-08-26",
+  "demarrage": "2026-10-08",
+  "achevement": null,
+  "etat": null,
+  "montantFcfa": null
+ },
+ {
+  "autorite": "SENPNA",
+  "plan": "SENPNA_2026_13",
+  "direction": "DIRECTION DE L'ADMINISTRATION ET DES FINANCES",
+  "reference": "F_SENPNA_DAF_12165",
+  "objet": "Acquisition de fontaines d'eau pour les PRA",
+  "typeMarche": "Fourniture",
+  "financement": [
+   "Budget propre"
+  ],
+  "mode": "Demande de renseignements et de prix à compétition ouverte",
+  "lancement": "2026-07-21",
+  "attribution": "2026-08-21",
+  "demarrage": "2026-10-05",
+  "achevement": null,
+  "etat": null,
+  "montantFcfa": null
+ },
+ {
+  "autorite": "SENPNA",
+  "plan": "SENPNA_2026_13",
+  "direction": "DIRECTION DE L'ADMINISTRATION ET DES FINANCES",
+  "reference": "F_SENPNA_DAF_12194",
+  "objet": "acquisition de matériels roulant au profit de la SEN PNA(Relance du credit-bail)",
+  "typeMarche": "Fourniture",
+  "financement": [
+   "Financement extérieur"
+  ],
+  "mode": "Appel d'offres ouvert",
+  "lancement": "2026-10-16",
+  "attribution": "2027-01-19",
+  "demarrage": "2027-03-16",
+  "achevement": null,
+  "etat": null,
+  "montantFcfa": null
+ },
+ {
+  "autorite": "SENPNA",
+  "plan": "SENPNA_2026_13",
+  "direction": "SECRETARIAT GENERAL-SERVICE DES SYSTEMES D'INFORMATION GLOBALE",
+  "reference": "S_SENPNA_SG-SIG_12205",
+  "objet": "Sélection d'un prestataire pour le leasing des imprimantes de la SEN-PNA",
+  "typeMarche": "Services",
+  "financement": [
+   "Budget propre"
+  ],
+  "mode": "Demande de renseignements et de prix à compétition ouverte",
+  "lancement": "2026-07-22",
+  "attribution": "2026-08-24",
+  "demarrage": "2026-10-06",
+  "achevement": null,
+  "etat": null,
+  "montantFcfa": null
+ },
+ {
+  "autorite": "SENPNA",
+  "plan": "SENPNA_2026_13",
+  "direction": "DIRECTION DE L'ADMINISTRATION ET DES FINANCES",
+  "reference": "T_SENPNA_DAF_12211",
+  "objet": "Installation de hangars et bureaux en préfabriqué",
+  "typeMarche": "Travaux",
+  "financement": [
+   "Budget propre"
+  ],
+  "mode": "Appel d'offres ouvert",
+  "lancement": "2026-11-11",
+  "attribution": "2027-02-12",
+  "demarrage": "2027-04-09",
+  "achevement": null,
+  "etat": null,
+  "montantFcfa": null
+ },
+ {
+  "autorite": "SENPNA",
+  "plan": "SENPNA_2026_13",
+  "direction": "SERVICE QUALITE HYGIENE SECURITE ENVIRONNEMENT",
+  "reference": "F_SENPNA_ SQHSE_12392",
+  "objet": "Acquisition de matériel de sureté et de sécurité (système anti-incendie)",
+  "typeMarche": "Fourniture",
+  "financement": [
+   "Budget propre"
+  ],
+  "mode": "Appel d'offres ouvert",
+  "lancement": "2026-09-03",
+  "attribution": "2026-12-28",
+  "demarrage": "2027-02-22",
+  "achevement": null,
+  "etat": null,
+  "montantFcfa": null
+ },
+ {
+  "autorite": "SENPNA",
+  "plan": "SENPNA_2026_13",
+  "direction": "DIRECTION DE L'ADMINISTRATION ET DES FINANCES",
+  "reference": "T_SENPNA_DAF_12527",
+  "objet": "Finalisation des travaux de construction de la PRA de Kaffrine et du dépôt de Touba",
+  "typeMarche": "Travaux",
+  "financement": [
+   "Budget propre"
+  ],
+  "mode": "Appel d'offres ouvert",
+  "lancement": "2026-09-07",
+  "attribution": "2026-12-30",
+  "demarrage": "2027-02-24",
+  "achevement": null,
+  "etat": null,
+  "montantFcfa": null
+ },
+ {
+  "autorite": "SENPNA",
+  "plan": "SENPNA_2026_13",
+  "direction": "DIRECTION DE L'ADMINISTRATION ET DES FINANCES",
+  "reference": "F_SENPNA_DAF_12493",
+  "objet": "Acquisition de tenues de travail",
+  "typeMarche": "Fourniture",
+  "financement": [
+   "Budget propre"
+  ],
+  "mode": "Demande de renseignement et de prix à compétition restreinte",
+  "lancement": "2026-07-15",
+  "attribution": "2026-08-17",
+  "demarrage": "2026-08-28",
+  "achevement": null,
+  "etat": null,
+  "montantFcfa": null
+ },
+ {
+  "autorite": "SENPNA",
+  "plan": "SENPNA_2026_13",
+  "direction": "DIRECTION DE L'ADMINISTRATION ET DES FINANCES",
+  "reference": "T_SENPNA_DAF_13004",
+  "objet": "Réhabilitation des PRA",
+  "typeMarche": "Travaux",
+  "financement": [
+   "Budget propre"
+  ],
+  "mode": "Appel d'offres ouvert",
+  "lancement": "2026-09-14",
+  "attribution": "2027-01-06",
+  "demarrage": "2027-03-03",
+  "achevement": null,
+  "etat": null,
+  "montantFcfa": null
+ },
+ {
+  "autorite": "SENPNA",
+  "plan": "SENPNA_2026_13",
+  "direction": "DIRECTION DE L'ADMINISTRATION ET DES FINANCES",
+  "reference": "F_SENPNA_DAF_12184",
+  "objet": "Acquisition et installation de système de géolocalisation (gestion de la flotte automobile)",
+  "typeMarche": "Fourniture",
+  "financement": [
+   "Budget propre"
+  ],
+  "mode": "Demande de renseignements et de prix à compétition ouverte",
+  "lancement": "2026-08-14",
+  "attribution": "2026-09-16",
+  "demarrage": "2026-10-29",
+  "achevement": null,
+  "etat": null,
+  "montantFcfa": null
+ },
+ {
+  "autorite": "SENPNA",
+  "plan": "SENPNA_2026_13",
+  "direction": "DIRECTION DE L'ADMINISTRATION ET DES FINANCES",
+  "reference": "S_SENPNA_DAF_13005",
+  "objet": "Services d'assistance en Pharmacie, manutention ,Administratif ,et Technique",
+  "typeMarche": "Services",
+  "financement": [
+   "Budget propre"
+  ],
+  "mode": "Appel d'offres ouvert",
+  "lancement": "2026-09-23",
+  "attribution": "2027-01-15",
+  "demarrage": "2027-03-12",
+  "achevement": null,
+  "etat": null,
+  "montantFcfa": null
+ },
+ {
+  "autorite": "SENPNA",
+  "plan": "SENPNA_2026_13",
+  "direction": "SECRETARIAT GENERAL-SERVICE DES SYSTEMES D'INFORMATION GLOBALE",
+  "reference": "F_SENPNA_SG-SIG_13486",
+  "objet": "Acquisition et fourniture de DUA et implémentions des modules Eloficash et Youdoc à Sage ERPX3 v12 de la SEN PNA",
+  "typeMarche": "Fourniture",
+  "financement": [
+   "Budget propre"
+  ],
+  "mode": "Appel d'offres ouvert",
+  "lancement": "2026-10-15",
+  "attribution": "2027-02-08",
+  "demarrage": "2027-04-05",
+  "achevement": null,
+  "etat": null,
+  "montantFcfa": null
+ },
+ {
+  "autorite": "SENPNA",
+  "plan": "SENPNA_2026_13",
+  "direction": "DIRECTION DE L'ADMINISTRATION ET DES FINANCES",
+  "reference": "C_SENPNA_DAF_13485",
+  "objet": "Renforcement de capacité des agents de la SEN-PNA (formation sur divers modules axés sur le métier)",
+  "typeMarche": "Prestation intellectuelle",
+  "financement": [
+   "Budget propre"
+  ],
+  "mode": "Demande de renseignements et de prix à compétition ouverte",
+  "lancement": "2026-08-06",
+  "attribution": "2026-09-08",
+  "demarrage": "2026-10-21",
+  "achevement": null,
+  "etat": null,
+  "montantFcfa": null
+ },
+ {
+  "autorite": "SENPNA",
+  "plan": "SENPNA_2026_13",
+  "direction": "SECRETARIAT GENERAL-SERVICE DES SYSTEMES D'INFORMATION GLOBALE",
+  "reference": "F_SENPNA_SG-SIG_13487",
+  "objet": "Acquisition, installation et Mise en services d'un SIRH-et progiciel intégrés de gestion des ressources humaine et gestion de la PAIE pour la SEN -PNA",
+  "typeMarche": "Fourniture",
+  "financement": [
+   "Budget propre"
+  ],
+  "mode": "Appel d'offres ouvert",
+  "lancement": "2026-10-26",
+  "attribution": "2027-02-17",
+  "demarrage": "2027-04-14",
+  "achevement": null,
+  "etat": null,
+  "montantFcfa": null
+ },
+ {
+  "autorite": "SENPNA",
+  "plan": "SENPNA_2026_13",
+  "direction": "SECRETARIAT GENERAL-SERVICE DES SYSTEMES D'INFORMATION GLOBALE",
+  "reference": "F_SENPNA_SG-SIG_13489",
+  "objet": "Acquisition et Déploiement d'une solution de Gestion Electronique de document GED et d'Archivage",
+  "typeMarche": "Fourniture",
+  "financement": [
+   "Budget propre"
+  ],
+  "mode": "Appel d'offres ouvert",
+  "lancement": "2026-09-15",
+  "attribution": "2027-01-07",
+  "demarrage": "2027-03-04",
+  "achevement": null,
+  "etat": null,
+  "montantFcfa": null
+ },
+ {
+  "autorite": "SENPNA",
+  "plan": "SENPNA_2026_13",
+  "direction": "SECRETARIAT GENERAL-SERVICE DES SYSTEMES D'INFORMATION GLOBALE",
+  "reference": "F_SENPNA_SG-SIG_13488",
+  "objet": "Acquisition et déploiement d'une solution XDR (Extended Detection AND Response",
+  "typeMarche": "Fourniture",
+  "financement": [
+   "Budget propre"
+  ],
+  "mode": "Demande de renseignements et de prix à compétition ouverte",
+  "lancement": "2026-08-12",
+  "attribution": "2026-09-14",
+  "demarrage": "2026-10-27",
+  "achevement": null,
+  "etat": null,
+  "montantFcfa": null
+ },
+ {
+  "autorite": "SENPNA",
+  "plan": "SENPNA_2026_13",
+  "direction": "SECRETARIAT GENERAL-SERVICE DES SYSTEMES D'INFORMATION GLOBALE",
+  "reference": "F_SENPNA_SG-SIG_13490",
+  "objet": "Acquisition et en place d'un extranet de suivi et de commande en ligne",
+  "typeMarche": "Fourniture",
+  "financement": [
+   "Budget propre"
+  ],
+  "mode": "Demande de renseignements et de prix à compétition ouverte",
+  "lancement": "2026-07-24",
+  "attribution": "2026-08-26",
+  "demarrage": "2026-10-08",
+  "achevement": null,
+  "etat": null,
+  "montantFcfa": null
+ },
+ {
+  "autorite": "SENPNA",
+  "plan": "SENPNA_2026_13",
+  "direction": "DIRECTION DE LA DISTRIBUTION ET DU MARKETING COMMERCIAL",
+  "reference": "S_SENPNA_DDMC_13512",
+  "objet": "Sélection d'un prestataire pour le Branding du matériel roulant",
+  "typeMarche": "Services",
+  "financement": [
+   "Budget propre"
+  ],
+  "mode": "Demande de renseignement et de prix à compétition restreinte",
+  "lancement": "2026-07-24",
+  "attribution": "2026-08-26",
+  "demarrage": "2026-09-08",
+  "achevement": null,
+  "etat": null,
+  "montantFcfa": null
+ },
+ {
+  "autorite": "SENPNA",
+  "plan": "SENPNA_2026_13",
+  "direction": "DIRECTION DE LA DISTRIBUTION ET DU MARKETING COMMERCIAL",
+  "reference": "C_SENPNA_DDMC_13511",
+  "objet": "Sélection d'un consultant pour  la communication institutionnelle",
+  "typeMarche": "Prestation intellectuelle",
+  "financement": [
+   "Budget propre"
+  ],
+  "mode": "Demande de renseignement et de prix à compétition restreinte",
+  "lancement": "2026-08-03",
+  "attribution": "2026-09-03",
+  "demarrage": "2026-09-16",
+  "achevement": null,
+  "etat": null,
+  "montantFcfa": null
+ },
+ {
+  "autorite": "SENPNA",
+  "plan": "SENPNA_2026_13",
+  "direction": "DIRECTION DE L'ADMINISTRATION ET DES FINANCES",
+  "reference": "F_SENPNA_DAF_14514",
+  "objet": "ACQUISITION DE FOURNITURES DE BUREAU, D’IMPRIMÉS ET DE CONSOMMABLES INFORMATIQUES",
+  "typeMarche": "Fourniture",
+  "financement": [
+   "Budget propre"
+  ],
+  "mode": "Demande de renseignements et de prix à compétition ouverte",
+  "lancement": "2026-08-18",
+  "attribution": "2026-09-18",
+  "demarrage": "2026-11-02",
+  "achevement": null,
+  "etat": null,
+  "montantFcfa": null
+ },
+ {
+  "autorite": "SENPNA",
+  "plan": "SENPNA_2026_13",
+  "direction": "DIRECTION DE LA DISTRIBUTION ET DU MARKETING COMMERCIAL",
+  "reference": "S_SENPNA_DDMC_16011",
+  "objet": "Sélection d'un prestataire pour le Branding du matériel roulant(relance de la procedure S_DDMC_023/2026)",
+  "typeMarche": "Services",
+  "financement": [
+   "Budget propre"
+  ],
+  "mode": "Demande de renseignement et de prix à compétition restreinte",
+  "lancement": "2026-09-03",
+  "attribution": "2026-10-06",
+  "demarrage": "2026-10-19",
+  "achevement": null,
+  "etat": null,
+  "montantFcfa": null
+ },
+ {
+  "autorite": "SENPNA",
+  "plan": "SENPNA_2026_13",
+  "direction": "DIRECTION DE L'ADMINISTRATION ET DES FINANCES",
+  "reference": "F_SENPNA_DAF_17276",
+  "objet": "Fourniture de Bouteilles D'eau pour Fontaines et de Gobelets en cartons",
+  "typeMarche": "Fourniture",
+  "financement": [
+   "Budget propre"
+  ],
+  "mode": "Demande de renseignement et de prix à compétition restreinte",
+  "lancement": "2026-09-30",
+  "attribution": "2026-11-02",
+  "demarrage": "2026-11-13",
+  "achevement": null,
+  "etat": null,
+  "montantFcfa": null
+ },
+ {
+  "autorite": "SENPNA",
+  "plan": "SENPNA_2026_13",
+  "direction": "DIRECTION DE L'ADMINISTRATION ET DES FINANCES",
+  "reference": "S_SENPNA_DAF_18231",
+  "objet": "Demande de Renseignements et de Prix à Compétition Restreinte\nPour la sélection d’une agence pour le recrutement de prestataires au profit de la SEN-PNA",
+  "typeMarche": "Services",
+  "financement": [
+   "Budget propre"
+  ],
+  "mode": "Demande de renseignement et de prix à compétition restreinte",
+  "lancement": "2026-10-22",
+  "attribution": "2026-11-24",
+  "demarrage": "2026-12-07",
+  "achevement": null,
+  "etat": null,
+  "montantFcfa": null
+ },
+ {
+  "autorite": "SENPNA",
+  "plan": "SENPNA_2026_13",
+  "direction": "DIRECTION DE L'ADMINISTRATION ET DES FINANCES",
+  "reference": "C_SENPNA_DAF_18331",
+  "objet": "Sélection d’un consultant pour les études techniques de maîtrise d'œuvre, de contrôle et surveillance des travaux",
+  "typeMarche": "Prestation intellectuelle",
+  "financement": [
+   "Budget propre"
+  ],
+  "mode": "Demande de renseignement et de prix à compétition restreinte",
+  "lancement": "2026-10-26",
+  "attribution": "2026-11-26",
+  "demarrage": "2026-12-09",
   "achevement": null,
   "etat": null,
   "montantFcfa": null

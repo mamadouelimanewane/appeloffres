@@ -1,5 +1,5 @@
 {
- "misAJourLe": "2026-10-07T12:56:07.088Z",
+ "misAJourLe": "2026-10-08T13:05:31.061Z",
  "avis": {
   "senelec:https://www.senelec.sn/media/marches/appels/AVIS_DE_REPORT_AON_33_2026.pdf": {
    "source": "senelec",
@@ -4271,7 +4271,7 @@
    "objet": "Sélection d’une agence événementielle dans le cadre du Forum international sur l",
    "type": "Demande de cotation",
    "publieLe": "2026-09-30",
-   "dateLimite": "2026-10-07",
+   "dateLimite": "2026-10-12",
    "url": "https://www.ungm.org/Public/Notice/316406",
    "autorite": "UN-Women (Nations unies)",
    "vuLe": "2026-10-06"
@@ -5583,6 +5583,50 @@
    "dateLimite": "2026-11-11",
    "url": "https://www.senelec.sn/media/marches/appels/AVIS_AO_42_2026_TRAVAUX_REMPLACEMENT_TRANSFO_POSTE_UNIVERSITE.pdf",
    "vuLe": "2026-10-07"
+  },
+  "ungm:https://www.ungm.org/Public/Notice/317383": {
+   "source": "ungm",
+   "reference": "2026/FRSEN/FRSEN/138165",
+   "objet": "Acquisition de divers équipements électroniques (Totem, écran, prompteur à livrer à la Représentation de la FAO au Sénégal.",
+   "type": "Demande de cotation",
+   "publieLe": "2026-10-08",
+   "dateLimite": "2026-10-15",
+   "url": "https://www.ungm.org/Public/Notice/317383",
+   "autorite": "FAO (Nations unies)",
+   "vuLe": "2026-10-08"
+  },
+  "ungm:https://www.ungm.org/Public/Notice/317288": {
+   "source": "ungm",
+   "reference": "2026/FRSEN/FRSEN/138587",
+   "objet": "Achat de goodies (T-shirts, brochures, sacs, banderoles, Roll-up) pour la célébration de la Journée mondiale de l’Alimentation à livrer à Dakar (Sénégal)",
+   "type": "Demande de cotation",
+   "publieLe": "2026-10-07",
+   "dateLimite": "2026-10-12",
+   "url": "https://www.ungm.org/Public/Notice/317288",
+   "autorite": "FAO (Nations unies)",
+   "vuLe": "2026-10-08"
+  },
+  "ungm:https://www.ungm.org/Public/Notice/317237": {
+   "source": "ungm",
+   "reference": "UNFPA-R42-00013",
+   "objet": "Hotel Procurement for the Joint WCARO/ESARO Technical Workshop at Saly Senegal",
+   "type": "Demande de cotation",
+   "publieLe": "2026-10-07",
+   "dateLimite": "2026-10-12",
+   "url": "https://www.ungm.org/Public/Notice/317237",
+   "autorite": "UNFPA (Nations unies)",
+   "vuLe": "2026-10-08"
+  },
+  "ungm:https://www.ungm.org/Public/Notice/317251": {
+   "source": "ungm",
+   "reference": "UNFPA-R42-00014",
+   "objet": "Hotel Procurement for WCARO Annual Retreat 2026",
+   "type": "Demande de cotation",
+   "publieLe": "2026-10-07",
+   "dateLimite": "2026-10-16",
+   "url": "https://www.ungm.org/Public/Notice/317251",
+   "autorite": "UNFPA (Nations unies)",
+   "vuLe": "2026-10-08"
   }
  }
 }
