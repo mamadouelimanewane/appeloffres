@@ -1,24 +1,6 @@
 {
- "misAJourLe": "2026-10-08",
+ "misAJourLe": "2026-10-09",
  "realisations": [
-  {
-   "id": "ppm-fdfff9f17e",
-   "autorite": "Agence pour la Promotion des Investissements des Grands Travaux",
-   "plan": "APIX SA_2026_4",
-   "direction": "DEPARTEMENT MOYENS GENERAUX",
-   "reference": "S_APIX SA_DMG_1330",
-   "objet": "Sélection d'un prestataire pour le curage du canal à ciel ouvert et vidange de fosse sceptique à la zone franche industrielle",
-   "typeMarche": "Services",
-   "secteur": "Services",
-   "financement": [
-    "Budget propre"
-   ],
-   "mode": "Demande de renseignement et de prix à compétition restreinte",
-   "lancement": "2026-08-09",
-   "attribution": "2026-09-10",
-   "etat": null,
-   "montantFcfa": null
-  },
   {
    "id": "ppm-2918398e4c",
    "autorite": "Ministère de l'Economie du Plan et de la Coopération",
@@ -5618,6 +5600,24 @@
    "montantFcfa": null
   },
   {
+   "id": "ppm-c068207ca6",
+   "autorite": "Ville de Guédiawaye",
+   "plan": "VG_2026_6",
+   "direction": "Direction des services Techniques VG",
+   "reference": "T_VG_DST_18387",
+   "objet": "CONSTRUCTION DE SALLES DE CLASSES, CONSTRUCTION DE SALLE MULTI-SPORTS, CONSTRUCTION DE CENTRE D'HEBERGEMENT SPORTIF PHASE 2",
+   "typeMarche": "Travaux",
+   "secteur": "BTP",
+   "financement": [
+    "Budget propre"
+   ],
+   "mode": "Appel d'offres ouvert",
+   "lancement": "2026-10-07",
+   "attribution": "2026-11-23",
+   "etat": null,
+   "montantFcfa": null
+  },
+  {
    "id": "ppm-5a1d7abc50",
    "autorite": "SENPNA",
    "plan": "SENPNA_2026_13",
@@ -5668,6 +5668,24 @@
    "mode": "Appel d'offres ouvert",
    "lancement": "2026-10-08",
    "attribution": "2027-02-01",
+   "etat": null,
+   "montantFcfa": null
+  },
+  {
+   "id": "ppm-7785b27449",
+   "autorite": "Ville de Guédiawaye",
+   "plan": "VG_2026_6",
+   "direction": "Division de l'Administration Générale et des Finances VG",
+   "reference": "F_VG_DAF_18389",
+   "objet": "ACQUISITION DE COUPES, RECOMPENSES ET PRIX",
+   "typeMarche": "Fourniture",
+   "secteur": "Fournitures",
+   "financement": [
+    "Budget propre"
+   ],
+   "mode": "Demande de renseignement et de prix à compétition restreinte",
+   "lancement": "2026-10-08",
+   "attribution": "2026-10-20",
    "etat": null,
    "montantFcfa": null
   },
@@ -5744,6 +5762,60 @@
    "montantFcfa": null
   },
   {
+   "id": "ppm-d1581c7a6b",
+   "autorite": "Ville de Guédiawaye",
+   "plan": "VG_2026_6",
+   "direction": "Division de l'Administration Générale et des Finances VG",
+   "reference": "F_VG_DAF_18390",
+   "objet": "ACQUISITION DE MACHINES ET APPAREILS DE BUREAUX, APPAREILS DE VENTILATIONS ET DE CLIMATISATION",
+   "typeMarche": "Fourniture",
+   "secteur": "Fournitures",
+   "financement": [
+    "Budget propre"
+   ],
+   "mode": "Demande de renseignement et de prix à compétition restreinte",
+   "lancement": "2026-10-09",
+   "attribution": "2026-10-20",
+   "etat": null,
+   "montantFcfa": null
+  },
+  {
+   "id": "ppm-ded8103e2d",
+   "autorite": "Ville de Guédiawaye",
+   "plan": "VG_2026_6",
+   "direction": "Division de l'Administration Générale et des Finances VG",
+   "reference": "F_VG_DAF_18303",
+   "objet": "ACQUISATION DE FOURNITURES DE BUREAUX",
+   "typeMarche": "Fourniture",
+   "secteur": "Fournitures",
+   "financement": [
+    "Budget propre"
+   ],
+   "mode": "Demande de renseignements et de prix à compétition ouverte",
+   "lancement": "2026-10-11",
+   "attribution": "2026-11-03",
+   "etat": null,
+   "montantFcfa": null
+  },
+  {
+   "id": "ppm-ff29f8ab06",
+   "autorite": "Ville de Guédiawaye",
+   "plan": "VG_2026_6",
+   "direction": "Division de l'Administration Générale et des Finances VG",
+   "reference": "F_VG_DAF_3683",
+   "objet": "HABILLEMENT DU PERSONNEL",
+   "typeMarche": "Fourniture",
+   "secteur": "Fournitures",
+   "financement": [
+    "Budget propre"
+   ],
+   "mode": "Demande de renseignement et de prix à compétition restreinte",
+   "lancement": "2026-10-11",
+   "attribution": "2026-10-22",
+   "etat": null,
+   "montantFcfa": null
+  },
+  {
    "id": "ppm-f328385308",
    "autorite": "Ministère de l'Economie,  des Finances et du Plan",
    "plan": "MFB_2026_3",
@@ -5776,6 +5848,24 @@
    "mode": "Appel d'offres ouvert international",
    "lancement": "2026-10-12",
    "attribution": "2026-12-18",
+   "etat": null,
+   "montantFcfa": null
+  },
+  {
+   "id": "ppm-fd4a190809",
+   "autorite": "Ville de Guédiawaye",
+   "plan": "VG_2026_6",
+   "direction": "Direction des services Techniques VG",
+   "reference": "T_VG_DST_18388",
+   "objet": "GROSSES REPARATIONS AUX EQUIPEMENTS SANITAIRES, GROSSES REPARATIONS AUX EQUIPEMENTS SCOLAIRES, AUTRES OPERATIONS DE VOIRIE (PAVAGE), ENTRETIEN DIVERS",
+   "typeMarche": "Travaux",
+   "secteur": "BTP",
+   "financement": [
+    "Budget propre"
+   ],
+   "mode": "Appel d'offres ouvert",
+   "lancement": "2026-10-12",
+   "attribution": "2026-11-26",
    "etat": null,
    "montantFcfa": null
   },
@@ -5834,6 +5924,24 @@
    "montantFcfa": null
   },
   {
+   "id": "ppm-7570b6494e",
+   "autorite": "Ville de Guédiawaye",
+   "plan": "VG_2026_6",
+   "direction": "Division de l'Administration Générale et des Finances VG",
+   "reference": "F_VG_DAF_18392",
+   "objet": "ACQUISITION DE PRODUITS D'ENTRETIEN, DE DESINFECTION ET D'HYGIENE",
+   "typeMarche": "Fourniture",
+   "secteur": "Fournitures",
+   "financement": [
+    "Budget propre"
+   ],
+   "mode": "Demande de renseignements et de prix à compétition ouverte",
+   "lancement": "2026-10-13",
+   "attribution": "2026-11-05",
+   "etat": null,
+   "montantFcfa": null
+  },
+  {
    "id": "ppm-8e739a45aa",
    "autorite": "Délégation Générale à l'Entreprenariat rapide des Femmes et des jeunes",
    "plan": "DERFJ_2026_2",
@@ -5866,6 +5974,24 @@
    "mode": "Appel d'offres ouvert",
    "lancement": "2026-10-14",
    "attribution": "2027-02-05",
+   "etat": null,
+   "montantFcfa": null
+  },
+  {
+   "id": "ppm-b14e732964",
+   "autorite": "Ville de Guédiawaye",
+   "plan": "VG_2026_6",
+   "direction": "Division de l'Administration Générale et des Finances VG",
+   "reference": "F_VG_DAF_18391",
+   "objet": "ACQUISITION DE MATERIELS ET MOBILIERS SCOLAIRES, ACQUISITION DE FOURNITURES SCOLAIRES",
+   "typeMarche": "Fourniture",
+   "secteur": "Fournitures",
+   "financement": [
+    "Budget propre"
+   ],
+   "mode": "Appel d'offres ouvert",
+   "lancement": "2026-10-14",
+   "attribution": "2026-10-28",
    "etat": null,
    "montantFcfa": null
   },
@@ -5920,6 +6046,24 @@
    "mode": "Appel d'offres ouvert",
    "lancement": "2026-10-15",
    "attribution": "2027-02-08",
+   "etat": null,
+   "montantFcfa": null
+  },
+  {
+   "id": "ppm-5a28f1c8ca",
+   "autorite": "Ville de Guédiawaye",
+   "plan": "VG_2026_6",
+   "direction": "Division de l'Administration Générale et des Finances VG",
+   "reference": "F_VG_DAF_18393",
+   "objet": "ACHAT DE TICKETS DE PERCEPTION",
+   "typeMarche": "Fourniture",
+   "secteur": "Fournitures",
+   "financement": [
+    "Budget propre"
+   ],
+   "mode": "Demande de renseignement et de prix à compétition restreinte",
+   "lancement": "2026-10-15",
+   "attribution": "2026-10-27",
    "etat": null,
    "montantFcfa": null
   },

@@ -1,5 +1,5 @@
 {
- "misAJourLe": "2026-10-08T13:05:31.061Z",
+ "misAJourLe": "2026-10-09T12:51:37.814Z",
  "avis": {
   "senelec:https://www.senelec.sn/media/marches/appels/AVIS_DE_REPORT_AON_33_2026.pdf": {
    "source": "senelec",
@@ -4116,8 +4116,8 @@
    "reference": "7000008822",
    "objet": "For the provision of Consulting Services to develop a Project Concept Note on Climate Actions in Senegal under UNIDO Project: “Energ y efficient and climate-friendly cooling solutions and NDC-Update in Senegal” (Project – GCF ID SEN-RS-006 I UNIDO ID 24032",
    "type": "Demande de propositions",
-   "publieLe": "2026-10-07",
-   "dateLimite": "2026-10-09",
+   "publieLe": "2026-10-09",
+   "dateLimite": "2026-10-14",
    "url": "https://www.ungm.org/Public/Notice/315067",
    "autorite": "ONUDI (Nations unies)",
    "vuLe": "2026-10-06"
@@ -4161,7 +4161,7 @@
    "objet": "Excoll _ Recrutement d’un(e) consultant(e) international(e) pour l’appui méthodologique et analytique à l’étude sur les couts et bénéfices des programmes d’apprentissage rénovés au Sénégal.",
    "type": "Recrutement de consultant",
    "publieLe": "2026-10-01",
-   "dateLimite": "2026-10-08",
+   "dateLimite": "2026-10-11",
    "url": "https://www.ungm.org/Public/Notice/316517",
    "autorite": "OIT (Nations unies)",
    "vuLe": "2026-10-06"
@@ -4172,7 +4172,7 @@
    "objet": "Polio training in Dakar",
    "type": "Demande de cotation",
    "publieLe": "2026-10-01",
-   "dateLimite": "2026-10-09",
+   "dateLimite": "2026-10-16",
    "url": "https://www.ungm.org/Public/Notice/316564",
    "autorite": "UNICEF (Nations unies)",
    "vuLe": "2026-10-06"
@@ -5627,6 +5627,50 @@
    "url": "https://www.ungm.org/Public/Notice/317251",
    "autorite": "UNFPA (Nations unies)",
    "vuLe": "2026-10-08"
+  },
+  "ungm:https://www.ungm.org/Public/Notice/317426": {
+   "source": "ungm",
+   "reference": "2026/FRSEN/FRSEN/138566",
+   "objet": "Acquisition et pose d'équipements de sécurité incendie pour le siège de la FAO DAKAR",
+   "type": "Demande de cotation",
+   "publieLe": "2026-10-08",
+   "dateLimite": "2026-10-15",
+   "url": "https://www.ungm.org/Public/Notice/317426",
+   "autorite": "FAO (Nations unies)",
+   "vuLe": "2026-10-09"
+  },
+  "ungm:https://www.ungm.org/Public/Notice/317444": {
+   "source": "ungm",
+   "reference": "9206582",
+   "objet": "Recrutement d'une agence/société de marketing d’influence pour la promotion des efforts de collecte de fonds digitale (Individual Giving) de l'UNICEF WCAR",
+   "type": "Demande de cotation",
+   "publieLe": "2026-10-08",
+   "dateLimite": "2026-10-16",
+   "url": "https://www.ungm.org/Public/Notice/317444",
+   "autorite": "UNICEF (Nations unies)",
+   "vuLe": "2026-10-09"
+  },
+  "ungm:https://www.ungm.org/Public/Notice/317450": {
+   "source": "ungm",
+   "reference": "9206581",
+   "objet": "Recrutement d'un prestataire pour la production et la diffusion d'une web-série autour des thèmes du Fonds Muskoka dans le cadre des Jeux Olympiques de la Jeunesse (JOJ) de Dakar 2026",
+   "type": "Demande de cotation",
+   "publieLe": "2026-10-08",
+   "dateLimite": "2026-10-16",
+   "url": "https://www.ungm.org/Public/Notice/317450",
+   "autorite": "UNICEF (Nations unies)",
+   "vuLe": "2026-10-09"
+  },
+  "pfongue:https://www.pfongue.org/Appel-d-offres-_-L-ONG-Solthis-envisage-d-etablir-des-contrats-cadres-pour.html": {
+   "source": "pfongue",
+   "reference": "non communiquée",
+   "objet": "L'ONG Solthis envisage d'établir des contrats cadres pour, « PRESTATIONS DE TRANSPORT PAR VTC ET LOCATION DE VÉHICULES »",
+   "type": "Appel d'offres",
+   "publieLe": "2026-10-08",
+   "dateLimite": null,
+   "url": "https://www.pfongue.org/Appel-d-offres-_-L-ONG-Solthis-envisage-d-etablir-des-contrats-cadres-pour.html",
+   "autorite": "ONG (plate-forme PFONGUE)",
+   "vuLe": "2026-10-09"
   }
  }
 }
