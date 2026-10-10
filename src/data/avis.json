@@ -1,72 +1,6 @@
 {
- "misAJourLe": "2026-10-09",
+ "misAJourLe": "2026-10-10",
  "avis": [
-  {
-   "id": "ungm-9e1c6f12d9",
-   "source": "ungm",
-   "sourceLibelle": "Nations unies (UNGM)",
-   "reference": "rfx_11674_ROAF",
-   "titre": "Demande de cotation _Prestation de restauration (traiteur) pour le colloque international « Penser la justice sociale depuis l’Afrique de l’Ouest. Quelle protection sociale en contexte post-colonial ? »",
-   "autorite": "OIT (Nations unies)",
-   "secteur": "Services",
-   "region": null,
-   "mode": "Demande de cotation",
-   "budgetEstime": null,
-   "garantieSoumission": null,
-   "publieLe": "2026-09-30",
-   "dateLimite": "2026-10-09",
-   "url": "https://www.ungm.org/Public/Notice/316422"
-  },
-  {
-   "id": "bceao-b147f10efb",
-   "source": "bceao",
-   "sourceLibelle": "BCEAO",
-   "reference": "non communiquée",
-   "titre": "Acquisition de matériels de manutention pour le Siège de la BCEAO et ses Agences principales à Abidjan et Cotonou (RELANCE)",
-   "autorite": "BCEAO",
-   "secteur": "Fournitures",
-   "region": null,
-   "mode": null,
-   "budgetEstime": null,
-   "garantieSoumission": null,
-   "publieLe": "2026-09-15",
-   "dateLimite": "2026-10-09",
-   "url": "https://www.bceao.int/fr/appels-offres/acquisition-de-materiels-de-manutention-pour-le-siege-de-la-bceao-et-ses-agences-0",
-   "lectureIa": {
-    "resume": "Ce document est un rapport sur la politique monétaire dans l'UMOA, il ne s'agit pas d'un avis d'appel d'offres. Aucune information de marché public n'est à extraire.",
-    "piecesExigees": [],
-    "heureLimite": null,
-    "dateLimiteAvis": null,
-    "exigences": {
-     "chiffreAffairesMinFcfa": null,
-     "ligneCreditMinFcfa": null,
-     "marchesSimilairesMin": null,
-     "experienceMinAnnees": null,
-     "personnelCle": [],
-     "materiel": []
-    },
-    "autresDates": [],
-    "lieuDepot": null,
-    "modele": "deepseek-flash",
-    "tronque": true
-   }
-  },
-  {
-   "id": "ungm-1fbe9e8e04",
-   "source": "ungm",
-   "sourceLibelle": "Nations unies (UNGM)",
-   "reference": "rfx_11675_ROAF",
-   "titre": "Demande de Cotation pour l’atelier de restitution des résultats et de construction de la feuille de route de l’étude sur le mécanisme d’optimisation des opportunités d’emplois décents et de formalisation des travailleurs à travers les investissements publi",
-   "autorite": "OIT (Nations unies)",
-   "secteur": "BTP",
-   "region": null,
-   "mode": "Demande de cotation",
-   "budgetEstime": null,
-   "garantieSoumission": null,
-   "publieLe": "2026-09-30",
-   "dateLimite": "2026-10-10",
-   "url": "https://www.ungm.org/Public/Notice/316423"
-  },
   {
    "id": "ungm-4ff55c323a",
    "source": "ungm",
@@ -331,6 +265,22 @@
    "publieLe": "2026-10-01",
    "dateLimite": "2026-10-16",
    "url": "https://www.ungm.org/Public/Notice/316564"
+  },
+  {
+   "id": "ungm-1fbe9e8e04",
+   "source": "ungm",
+   "sourceLibelle": "Nations unies (UNGM)",
+   "reference": "rfx_11675_ROAF",
+   "titre": "Demande de Cotation pour l’atelier de restitution des résultats et de construction de la feuille de route de l’étude sur le mécanisme d’optimisation des opportunités d’emplois décents et de formalisation des travailleurs à travers les investissements publi",
+   "autorite": "OIT (Nations unies)",
+   "secteur": "BTP",
+   "region": null,
+   "mode": "Demande de cotation",
+   "budgetEstime": null,
+   "garantieSoumission": null,
+   "publieLe": "2026-09-30",
+   "dateLimite": "2026-10-16",
+   "url": "https://www.ungm.org/Public/Notice/316423"
   },
   {
    "id": "ungm-78c9184e49",
