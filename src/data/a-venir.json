@@ -1,132 +1,6 @@
 {
- "misAJourLe": "2026-10-11",
+ "misAJourLe": "2026-10-12",
  "realisations": [
-  {
-   "id": "ppm-b254f92071",
-   "autorite": "Hôpital Général Idrissa POUYE",
-   "plan": "HOGIP_2026_1",
-   "direction": "Service Administratif et financier",
-   "reference": "T_HOGIP_SAF_12183",
-   "objet": "Travaux de plombage de la salle SPECT-CT et mise au norme de certains services de l’Hôpital General Idrissa POUYE",
-   "typeMarche": "Travaux",
-   "secteur": "BTP",
-   "financement": [
-    "Budget propre"
-   ],
-   "mode": "Appel d'offres ouvert",
-   "lancement": "2026-08-12",
-   "attribution": "2026-11-13",
-   "etat": null,
-   "montantFcfa": null
-  },
-  {
-   "id": "ppm-7ab8401135",
-   "autorite": "Aéroport International Blaise Diagne",
-   "plan": "AIBD_2026_1",
-   "direction": "Cellule Ingénierie, Aménagement et Construction",
-   "reference": "T_AIBD_DIAC_12135",
-   "objet": "CONSTRUCTION DE HANGARS A L'AEROPORT DE ZIGUINCHOR",
-   "typeMarche": "Travaux",
-   "secteur": "BTP",
-   "financement": [
-    "Budget propre"
-   ],
-   "mode": "Appel d'offres ouvert",
-   "lancement": "2026-08-12",
-   "attribution": "2026-11-13",
-   "etat": null,
-   "montantFcfa": null
-  },
-  {
-   "id": "ppm-5d9ddd3323",
-   "autorite": "Ministère de l'Environnement et de la Transition Ecologique",
-   "plan": "METE_2026_4",
-   "direction": "Direction de la Réglementation et du contrôle",
-   "reference": "C_METE_DIREC_12433",
-   "objet": "Recrutement d'un consultant pour concevoir les projets pilotes (lot1) et Recrutement d'un consultant pour la conception de deux projets pilotes pour le le changement de comportement (lot2)",
-   "typeMarche": "Prestation intellectuelle",
-   "secteur": "Études",
-   "financement": [
-    "Budget propre"
-   ],
-   "mode": "Demande de renseignements et de prix à compétition ouverte",
-   "lancement": "2026-08-12",
-   "attribution": "2026-09-14",
-   "etat": null,
-   "montantFcfa": null
-  },
-  {
-   "id": "ppm-486003fa55",
-   "autorite": "Ministère de l'Environnement et de la Transition Ecologique",
-   "plan": "METE_2026_4",
-   "direction": "Projet de Promotion de l'Innovation de technologies en matier de technologie propre pour l'action climatique au Sénégal",
-   "reference": "C_METE_CLEANTECH_12977",
-   "objet": "Recrutement d'un cabinet pour accompagner les start-ups de technologie propres, lauréats de GCIP 2025, à la post-accélération",
-   "typeMarche": "Prestation intellectuelle",
-   "secteur": "Études",
-   "financement": [
-    "Budget propre"
-   ],
-   "mode": "Demande de renseignement et de prix à compétition restreinte",
-   "lancement": "2026-08-12",
-   "attribution": "2026-09-14",
-   "etat": null,
-   "montantFcfa": null
-  },
-  {
-   "id": "ppm-0d1aed62b7",
-   "autorite": "Office national de lutte contre la corruption (OFNAC)",
-   "plan": "OFNAC_2026_9",
-   "direction": "OFNAC",
-   "reference": "C_OFNAC_01_12369",
-   "objet": "Sélection d'un cabinet spécialisé en recrutement, accompagnement RH et motivation du personnel de l'OFNAC",
-   "typeMarche": "Prestation intellectuelle",
-   "secteur": "Études",
-   "financement": [
-    "Budget propre"
-   ],
-   "mode": "Demande de renseignements et de prix à compétition ouverte",
-   "lancement": "2026-08-12",
-   "attribution": "2026-09-14",
-   "etat": null,
-   "montantFcfa": null
-  },
-  {
-   "id": "ppm-2ac31a383b",
-   "autorite": "Primature / Sécrétariat Général du gouvernement",
-   "plan": "PM / SGG_2026_22",
-   "direction": "Direction de l'Imprimerie nationale",
-   "reference": "F_PM / SGG_DIN_1589",
-   "objet": "Acquisition de pièces de rechange et accessoires des machines Riso, Xerox Versant 280 Press (bloc développeur, unité photoréceptrice , têtes d’impression, duplicateur numériques, master, chargeurs de documents....)",
-   "typeMarche": "Fourniture",
-   "secteur": "Informatique",
-   "financement": [
-    "Budget propre"
-   ],
-   "mode": "Demande de renseignement et de prix à compétition restreinte",
-   "lancement": "2026-08-12",
-   "attribution": "2026-09-30",
-   "etat": null,
-   "montantFcfa": null
-  },
-  {
-   "id": "ppm-a297cf7763",
-   "autorite": "SENPNA",
-   "plan": "SENPNA_2026_13",
-   "direction": "SECRETARIAT GENERAL-SERVICE DES SYSTEMES D'INFORMATION GLOBALE",
-   "reference": "F_SENPNA_SG-SIG_13488",
-   "objet": "Acquisition et déploiement d'une solution XDR (Extended Detection AND Response",
-   "typeMarche": "Fourniture",
-   "secteur": "Fournitures",
-   "financement": [
-    "Budget propre"
-   ],
-   "mode": "Demande de renseignements et de prix à compétition ouverte",
-   "lancement": "2026-08-12",
-   "attribution": "2026-09-14",
-   "etat": null,
-   "montantFcfa": null
-  },
   {
    "id": "ppm-bfd64ed9d4",
    "autorite": "Ministère de l'Economie,  des Finances et du Plan",
@@ -614,9 +488,27 @@
    "montantFcfa": null
   },
   {
-   "id": "ppm-72cc77ffe6",
+   "id": "ppm-820d0214b9",
+   "autorite": "Ville de Rufisque",
+   "plan": "VR_2026_5",
+   "direction": "Services Techniques",
+   "reference": "T_VR_DST_600",
+   "objet": "Travaux de construction et de réparation de chaussées - répartis en 4 lots : Lot 1 : Route principale de FASS -Lot 2 : Route pénétrante de DANGOU et de la route de SANTHIABA -Lot 3 : route de Cité Gabon et Route pénétrante de DIOKOUL- Lot4: Route de Arafat",
+   "typeMarche": "Travaux",
+   "secteur": "BTP",
+   "financement": [
+    "Budget propre"
+   ],
+   "mode": "Appel d'offres ouvert",
+   "lancement": "2026-08-17",
+   "attribution": "2026-10-12",
+   "etat": null,
+   "montantFcfa": null
+  },
+  {
+   "id": "ppm-51524c6457",
    "autorite": "VILLE DE THIES",
-   "plan": "VILLE_THIES_2031",
+   "plan": "VILLE_THIES_2032",
    "direction": "VILLE DE THIES",
    "reference": "T_VILLE_THIES_01_15980",
    "objet": "Travaux d'aménagement et de modernisation de l'Hôtel de Ville de Thiès",
@@ -632,9 +524,9 @@
    "montantFcfa": null
   },
   {
-   "id": "ppm-cde006d3fa",
+   "id": "ppm-468fafc4eb",
    "autorite": "VILLE DE THIES",
-   "plan": "VILLE_THIES_2031",
+   "plan": "VILLE_THIES_2032",
    "direction": "VILLE DE THIES",
    "reference": "T_VILLE_THIES_01_15982",
    "objet": "Travaux d'aménagement de chaussées et de voies publiques dans la Ville de Thiès",
@@ -650,9 +542,9 @@
    "montantFcfa": null
   },
   {
-   "id": "ppm-e3d5e9a7dd",
+   "id": "ppm-b79298a598",
    "autorite": "VILLE DE THIES",
-   "plan": "VILLE_THIES_2031",
+   "plan": "VILLE_THIES_2032",
    "direction": "VILLE DE THIES",
    "reference": "S_VILLE_THIES_01_15982",
    "objet": "Entretien de logiciels de gestion municipale",
@@ -664,24 +556,6 @@
    "mode": "Demande de renseignement et de prix à compétition restreinte",
    "lancement": "2026-08-17",
    "attribution": "2026-08-31",
-   "etat": null,
-   "montantFcfa": null
-  },
-  {
-   "id": "ppm-820d0214b9",
-   "autorite": "Ville de Rufisque",
-   "plan": "VR_2026_5",
-   "direction": "Services Techniques",
-   "reference": "T_VR_DST_600",
-   "objet": "Travaux de construction et de réparation de chaussées - répartis en 4 lots : Lot 1 : Route principale de FASS -Lot 2 : Route pénétrante de DANGOU et de la route de SANTHIABA -Lot 3 : route de Cité Gabon et Route pénétrante de DIOKOUL- Lot4: Route de Arafat",
-   "typeMarche": "Travaux",
-   "secteur": "BTP",
-   "financement": [
-    "Budget propre"
-   ],
-   "mode": "Appel d'offres ouvert",
-   "lancement": "2026-08-17",
-   "attribution": "2026-10-12",
    "etat": null,
    "montantFcfa": null
   },
@@ -2270,24 +2144,6 @@
    "montantFcfa": null
   },
   {
-   "id": "ppm-a048d44fa7",
-   "autorite": "VILLE DE THIES",
-   "plan": "VILLE_THIES_2031",
-   "direction": "VILLE DE THIES",
-   "reference": "S_VILLE_THIES_01_867",
-   "objet": "Entretien des parcs, squares et jardins",
-   "typeMarche": "Services",
-   "secteur": "Services",
-   "financement": [
-    "Budget propre"
-   ],
-   "mode": "Demande de renseignement et de prix à compétition restreinte",
-   "lancement": "2026-09-01",
-   "attribution": "2026-09-11",
-   "etat": null,
-   "montantFcfa": null
-  },
-  {
    "id": "ppm-4142831ed3",
    "autorite": "Autorité de Régulation des Télécommunications et des Postes (ARTP)",
    "plan": "ARTP_2026_19",
@@ -2302,6 +2158,24 @@
    "mode": "Demande de renseignement et de prix à compétition restreinte",
    "lancement": "2026-09-01",
    "attribution": "2026-10-02",
+   "etat": null,
+   "montantFcfa": null
+  },
+  {
+   "id": "ppm-d1b5409afe",
+   "autorite": "VILLE DE THIES",
+   "plan": "VILLE_THIES_2032",
+   "direction": "VILLE DE THIES",
+   "reference": "S_VILLE_THIES_01_867",
+   "objet": "Entretien des parcs, squares et jardins",
+   "typeMarche": "Services",
+   "secteur": "Services",
+   "financement": [
+    "Budget propre"
+   ],
+   "mode": "Demande de renseignement et de prix à compétition restreinte",
+   "lancement": "2026-09-01",
+   "attribution": "2026-09-11",
    "etat": null,
    "montantFcfa": null
   },
@@ -2846,24 +2720,6 @@
    "montantFcfa": null
   },
   {
-   "id": "ppm-98a28ac78d",
-   "autorite": "VILLE DE THIES",
-   "plan": "VILLE_THIES_2031",
-   "direction": "VILLE DE THIES",
-   "reference": "F_VILLE_THIES_01_16999",
-   "objet": "Fournitures de denrées alimentaires",
-   "typeMarche": "Fourniture",
-   "secteur": "Fournitures",
-   "financement": [
-    "Budget propre"
-   ],
-   "mode": "Demande de renseignement et de prix à compétition restreinte",
-   "lancement": "2026-09-07",
-   "attribution": "2026-09-15",
-   "etat": null,
-   "montantFcfa": null
-  },
-  {
    "id": "ppm-00ffa3e2cd",
    "autorite": "SENPNA",
    "plan": "SENPNA_2026_13",
@@ -2878,6 +2734,24 @@
    "mode": "Appel d'offres ouvert",
    "lancement": "2026-09-07",
    "attribution": "2026-12-30",
+   "etat": null,
+   "montantFcfa": null
+  },
+  {
+   "id": "ppm-434f3ef5f6",
+   "autorite": "VILLE DE THIES",
+   "plan": "VILLE_THIES_2032",
+   "direction": "VILLE DE THIES",
+   "reference": "F_VILLE_THIES_01_16999",
+   "objet": "Fournitures de denrées alimentaires",
+   "typeMarche": "Fourniture",
+   "secteur": "Fournitures",
+   "financement": [
+    "Budget propre"
+   ],
+   "mode": "Demande de renseignement et de prix à compétition restreinte",
+   "lancement": "2026-09-07",
+   "attribution": "2026-09-15",
    "etat": null,
    "montantFcfa": null
   },
@@ -3044,9 +2918,27 @@
    "montantFcfa": null
   },
   {
-   "id": "ppm-c3f4926f1a",
+   "id": "ppm-08699327ef",
+   "autorite": "SENPNA",
+   "plan": "SENPNA_2026_13",
+   "direction": "DIRECTION DE L'ADMINISTRATION ET DES FINANCES",
+   "reference": "T_SENPNA_DAF_13004",
+   "objet": "Réhabilitation des PRA",
+   "typeMarche": "Travaux",
+   "secteur": "BTP",
+   "financement": [
+    "Budget propre"
+   ],
+   "mode": "Appel d'offres ouvert",
+   "lancement": "2026-09-14",
+   "attribution": "2027-01-06",
+   "etat": null,
+   "montantFcfa": null
+  },
+  {
+   "id": "ppm-3fd8a1395c",
    "autorite": "VILLE DE THIES",
-   "plan": "VILLE_THIES_2031",
+   "plan": "VILLE_THIES_2032",
    "direction": "VILLE DE THIES",
    "reference": "F_VILLE_THIES_01_859",
    "objet": "Coupes, récompenses et prix",
@@ -3062,9 +2954,9 @@
    "montantFcfa": null
   },
   {
-   "id": "ppm-d78b1791b9",
+   "id": "ppm-6a849c978a",
    "autorite": "VILLE DE THIES",
-   "plan": "VILLE_THIES_2031",
+   "plan": "VILLE_THIES_2032",
    "direction": "VILLE DE THIES",
    "reference": "S_VILLE_THIES_01_871",
    "objet": "Entretien de réseau d’éclairage public",
@@ -3076,24 +2968,6 @@
    "mode": "Demande de renseignement et de prix à compétition restreinte",
    "lancement": "2026-09-14",
    "attribution": "2026-09-25",
-   "etat": null,
-   "montantFcfa": null
-  },
-  {
-   "id": "ppm-08699327ef",
-   "autorite": "SENPNA",
-   "plan": "SENPNA_2026_13",
-   "direction": "DIRECTION DE L'ADMINISTRATION ET DES FINANCES",
-   "reference": "T_SENPNA_DAF_13004",
-   "objet": "Réhabilitation des PRA",
-   "typeMarche": "Travaux",
-   "secteur": "BTP",
-   "financement": [
-    "Budget propre"
-   ],
-   "mode": "Appel d'offres ouvert",
-   "lancement": "2026-09-14",
-   "attribution": "2027-01-06",
    "etat": null,
    "montantFcfa": null
   },
@@ -4988,9 +4862,9 @@
    "montantFcfa": null
   },
   {
-   "id": "ppm-32c76fea7c",
+   "id": "ppm-e0fa031375",
    "autorite": "VILLE DE THIES",
-   "plan": "VILLE_THIES_2031",
+   "plan": "VILLE_THIES_2032",
    "direction": "VILLE DE THIES",
    "reference": "T_VILLE_THIES_01_825",
    "objet": "Pose et installation de bouches d'incendies",
@@ -5816,6 +5690,132 @@
    "montantFcfa": null
   },
   {
+   "id": "ppm-5a9f1893a0",
+   "autorite": "VILLE DE THIES",
+   "plan": "VILLE_THIES_2032",
+   "direction": "VILLE DE THIES",
+   "reference": "S_VILLE_THIES_01_18500",
+   "objet": "Elagage et recepage",
+   "typeMarche": "Services",
+   "secteur": "Services",
+   "financement": [
+    "Budget propre"
+   ],
+   "mode": "Demande de renseignement et de prix à compétition restreinte",
+   "lancement": "2026-10-15",
+   "attribution": "2026-10-23",
+   "etat": null,
+   "montantFcfa": null
+  },
+  {
+   "id": "ppm-931a77b6da",
+   "autorite": "VILLE DE THIES",
+   "plan": "VILLE_THIES_2032",
+   "direction": "VILLE DE THIES",
+   "reference": "C_VILLE_THIES_01_18493",
+   "objet": "Recrutement d’un consultant chargé d’appuyer la Ville de Thiès dans la gestion et la promotion des affaires culturelles",
+   "typeMarche": "Prestation intellectuelle",
+   "secteur": "Études",
+   "financement": [
+    "Budget propre"
+   ],
+   "mode": "Demande de renseignement et de prix à compétition restreinte",
+   "lancement": "2026-10-15",
+   "attribution": "2026-10-23",
+   "etat": null,
+   "montantFcfa": null
+  },
+  {
+   "id": "ppm-84f5ff7aec",
+   "autorite": "VILLE DE THIES",
+   "plan": "VILLE_THIES_2032",
+   "direction": "VILLE DE THIES",
+   "reference": "C_VILLE_THIES_01_18494",
+   "objet": "Mission d’assistance et d’appui à la planification, à l’organisation et au suivi des événements de la Ville de Thiès",
+   "typeMarche": "Prestation intellectuelle",
+   "secteur": "Services",
+   "financement": [
+    "Budget propre"
+   ],
+   "mode": "Demande de renseignement et de prix à compétition restreinte",
+   "lancement": "2026-10-15",
+   "attribution": "2026-10-23",
+   "etat": null,
+   "montantFcfa": null
+  },
+  {
+   "id": "ppm-34d7385c9c",
+   "autorite": "VILLE DE THIES",
+   "plan": "VILLE_THIES_2032",
+   "direction": "VILLE DE THIES",
+   "reference": "C_VILLE_THIES_01_18495",
+   "objet": "Formation des agents administratifs de la Ville de Thiès sur l’organisation et le fonctionnement des collectivités territoriales et sur la commande publique",
+   "typeMarche": "Prestation intellectuelle",
+   "secteur": "Services",
+   "financement": [
+    "Budget propre"
+   ],
+   "mode": "Demande de renseignement et de prix à compétition restreinte",
+   "lancement": "2026-10-15",
+   "attribution": "2026-10-23",
+   "etat": null,
+   "montantFcfa": null
+  },
+  {
+   "id": "ppm-292dfb4538",
+   "autorite": "VILLE DE THIES",
+   "plan": "VILLE_THIES_2032",
+   "direction": "VILLE DE THIES",
+   "reference": "T_VILLE_THIES_01_18498",
+   "objet": "Travaux de réhabilitation des canaux et caniveaux",
+   "typeMarche": "Travaux",
+   "secteur": "BTP",
+   "financement": [
+    "Budget propre"
+   ],
+   "mode": "Demande de renseignement et de prix à compétition restreinte",
+   "lancement": "2026-10-15",
+   "attribution": "2026-10-23",
+   "etat": null,
+   "montantFcfa": null
+  },
+  {
+   "id": "ppm-d5bc1314a9",
+   "autorite": "VILLE DE THIES",
+   "plan": "VILLE_THIES_2032",
+   "direction": "VILLE DE THIES",
+   "reference": "F_VILLE_THIES_01_18499",
+   "objet": "Acquisition de guirlandes lumineuses pour la décoration et l’illumination des espaces publics de la Ville de Thiès",
+   "typeMarche": "Fourniture",
+   "secteur": "Fournitures",
+   "financement": [
+    "Budget propre"
+   ],
+   "mode": "Demande de renseignement et de prix à compétition restreinte",
+   "lancement": "2026-10-15",
+   "attribution": "2026-10-23",
+   "etat": null,
+   "montantFcfa": null
+  },
+  {
+   "id": "ppm-d6970aecef",
+   "autorite": "VILLE DE THIES",
+   "plan": "VILLE_THIES_2032",
+   "direction": "VILLE DE THIES",
+   "reference": "T_VILLE_THIES_01_18497",
+   "objet": "Travaux de déblayage, de dégagement de sites, de remblaiement et de terrassement",
+   "typeMarche": "Travaux",
+   "secteur": "BTP",
+   "financement": [
+    "Budget propre"
+   ],
+   "mode": "Demande de renseignements et de prix à compétition ouverte",
+   "lancement": "2026-10-15",
+   "attribution": "2026-11-06",
+   "etat": null,
+   "montantFcfa": null
+  },
+  {
    "id": "ppm-558019ef92",
    "autorite": "SENELEC",
    "plan": "P_SENELEC_2026_2",
@@ -5978,24 +5978,6 @@
    "montantFcfa": null
   },
   {
-   "id": "ppm-948938eabb",
-   "autorite": "VILLE DE THIES",
-   "plan": "VILLE_THIES_2031",
-   "direction": "VILLE DE THIES",
-   "reference": "F_VILLE_THIES_01_858",
-   "objet": "Acquisition de pièces ou matériels de rechange électriques",
-   "typeMarche": "Fourniture",
-   "secteur": "Fournitures",
-   "financement": [
-    "Budget propre"
-   ],
-   "mode": "Demande de renseignement et de prix à compétition restreinte",
-   "lancement": "2026-10-19",
-   "attribution": "2026-10-29",
-   "etat": null,
-   "montantFcfa": null
-  },
-  {
    "id": "ppm-3e0776ee1e",
    "autorite": "Primature / Sécrétariat Général du gouvernement",
    "plan": "PM / SGG_2026_22",
@@ -6010,6 +5992,24 @@
    "mode": "Demande de renseignements et de  prix simple",
    "lancement": "2026-10-19",
    "attribution": "2026-10-26",
+   "etat": null,
+   "montantFcfa": null
+  },
+  {
+   "id": "ppm-5766f702a4",
+   "autorite": "VILLE DE THIES",
+   "plan": "VILLE_THIES_2032",
+   "direction": "VILLE DE THIES",
+   "reference": "F_VILLE_THIES_01_858",
+   "objet": "Acquisition de pièces ou matériels de rechange électriques",
+   "typeMarche": "Fourniture",
+   "secteur": "Fournitures",
+   "financement": [
+    "Budget propre"
+   ],
+   "mode": "Demande de renseignement et de prix à compétition restreinte",
+   "lancement": "2026-10-19",
+   "attribution": "2026-10-29",
    "etat": null,
    "montantFcfa": null
   },

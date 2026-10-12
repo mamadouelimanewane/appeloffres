@@ -46530,672 +46530,6 @@
   "montantFcfa": null
  },
  {
-  "autorite": "VILLE DE THIES",
-  "plan": "VILLE_THIES_2031",
-  "direction": "VILLE DE THIES",
-  "reference": "T_VILLE_THIES_01_15980",
-  "objet": "Travaux d'aménagement et de modernisation de l'Hôtel de Ville de Thiès",
-  "typeMarche": "Travaux",
-  "financement": [
-   "Budget propre"
-  ],
-  "mode": "Appel d'offres ouvert",
-  "lancement": "2026-08-17",
-  "attribution": "2026-09-29",
-  "demarrage": "2026-10-29",
-  "achevement": null,
-  "etat": null,
-  "montantFcfa": null
- },
- {
-  "autorite": "VILLE DE THIES",
-  "plan": "VILLE_THIES_2031",
-  "direction": "VILLE DE THIES",
-  "reference": "F_VILLE_THIES_01_859",
-  "objet": "Coupes, récompenses et prix",
-  "typeMarche": "Fourniture",
-  "financement": [
-   "Budget propre"
-  ],
-  "mode": "Demande de renseignement et de prix à compétition restreinte",
-  "lancement": "2026-09-14",
-  "attribution": "2026-09-25",
-  "demarrage": "2026-10-14",
-  "achevement": null,
-  "etat": null,
-  "montantFcfa": null
- },
- {
-  "autorite": "VILLE DE THIES",
-  "plan": "VILLE_THIES_2031",
-  "direction": "VILLE DE THIES",
-  "reference": "T_VILLE_THIES_01_15982",
-  "objet": "Travaux d'aménagement de chaussées et de voies publiques dans la Ville de Thiès",
-  "typeMarche": "Travaux",
-  "financement": [
-   "Budget propre"
-  ],
-  "mode": "Appel d'offres ouvert",
-  "lancement": "2026-08-17",
-  "attribution": "2026-09-29",
-  "demarrage": "2026-10-29",
-  "achevement": null,
-  "etat": null,
-  "montantFcfa": null
- },
- {
-  "autorite": "VILLE DE THIES",
-  "plan": "VILLE_THIES_2031",
-  "direction": "VILLE DE THIES",
-  "reference": "S_VILLE_THIES_01_7866",
-  "objet": "Location de matériels de terrassement",
-  "typeMarche": "Services",
-  "financement": [
-   "Budget propre"
-  ],
-  "mode": "Demande de renseignement et de prix à compétition restreinte",
-  "lancement": "2026-03-13",
-  "attribution": "2026-03-20",
-  "demarrage": "2026-04-01",
-  "achevement": null,
-  "etat": null,
-  "montantFcfa": null
- },
- {
-  "autorite": "VILLE DE THIES",
-  "plan": "VILLE_THIES_2031",
-  "direction": "VILLE DE THIES",
-  "reference": "T_VILLE_THIES_01_815",
-  "objet": "Grosses réparations Mairie et annexes",
-  "typeMarche": "Travaux",
-  "financement": [
-   "Budget propre"
-  ],
-  "mode": "Demande de renseignement et de prix à compétition restreinte",
-  "lancement": "2026-05-11",
-  "attribution": "2026-05-25",
-  "demarrage": "2026-06-15",
-  "achevement": null,
-  "etat": null,
-  "montantFcfa": null
- },
- {
-  "autorite": "VILLE DE THIES",
-  "plan": "VILLE_THIES_2031",
-  "direction": "VILLE DE THIES",
-  "reference": "T_VILLE_THIES_01_825",
-  "objet": "Pose et installation de bouches d'incendies",
-  "typeMarche": "Travaux",
-  "financement": [
-   "Budget propre"
-  ],
-  "mode": "Demande de renseignement et de prix à compétition restreinte",
-  "lancement": "2026-10-01",
-  "attribution": "2026-09-16",
-  "demarrage": "2026-10-05",
-  "achevement": null,
-  "etat": null,
-  "montantFcfa": null
- },
- {
-  "autorite": "VILLE DE THIES",
-  "plan": "VILLE_THIES_2031",
-  "direction": "VILLE DE THIES",
-  "reference": "T_VILLE_THIES_01_826",
-  "objet": "Construction de bibliothèque municipale",
-  "typeMarche": "Travaux",
-  "financement": [
-   "Budget propre"
-  ],
-  "mode": "Appel d'offres ouvert",
-  "lancement": "2026-04-24",
-  "attribution": "2026-06-05",
-  "demarrage": "2026-07-13",
-  "achevement": null,
-  "etat": null,
-  "montantFcfa": null
- },
- {
-  "autorite": "VILLE DE THIES",
-  "plan": "VILLE_THIES_2031",
-  "direction": "VILLE DE THIES",
-  "reference": "T_VILLE_THIES_01_819",
-  "objet": "Travaux de remblais et de terrassement",
-  "typeMarche": "Travaux",
-  "financement": [
-   "Budget propre"
-  ],
-  "mode": "Demande de renseignement et de prix à compétition restreinte",
-  "lancement": "2026-04-14",
-  "attribution": "2026-04-23",
-  "demarrage": "2026-05-18",
-  "achevement": null,
-  "etat": null,
-  "montantFcfa": null
- },
- {
-  "autorite": "VILLE DE THIES",
-  "plan": "VILLE_THIES_2031",
-  "direction": "VILLE DE THIES",
-  "reference": "T_VILLE_THIES_01_828",
-  "objet": "Construction de bibliothèque municipale",
-  "typeMarche": "Travaux",
-  "financement": [
-   "Budget propre"
-  ],
-  "mode": "Appel d'offres ouvert",
-  "lancement": "2026-04-24",
-  "attribution": "2026-05-08",
-  "demarrage": "2026-06-12",
-  "achevement": null,
-  "etat": null,
-  "montantFcfa": null
- },
- {
-  "autorite": "VILLE DE THIES",
-  "plan": "VILLE_THIES_2031",
-  "direction": "VILLE DE THIES",
-  "reference": "T_VILLE_THIES_01_830",
-  "objet": "Travaux d'installation de signalisation routière",
-  "typeMarche": "Travaux",
-  "financement": [
-   "Budget propre"
-  ],
-  "mode": "Appel d'offres ouvert",
-  "lancement": "2026-06-01",
-  "attribution": "2026-07-10",
-  "demarrage": "2026-08-17",
-  "achevement": null,
-  "etat": null,
-  "montantFcfa": null
- },
- {
-  "autorite": "VILLE DE THIES",
-  "plan": "VILLE_THIES_2031",
-  "direction": "VILLE DE THIES",
-  "reference": "F_VILLE_THIES_01_842",
-  "objet": "Acquisition de mobilier de bureau",
-  "typeMarche": "Fourniture",
-  "financement": [
-   "Budget propre"
-  ],
-  "mode": "Demande de renseignement et de prix à compétition restreinte",
-  "lancement": "2026-02-16",
-  "attribution": "2026-03-02",
-  "demarrage": "2026-03-16",
-  "achevement": null,
-  "etat": null,
-  "montantFcfa": null
- },
- {
-  "autorite": "VILLE DE THIES",
-  "plan": "VILLE_THIES_2031",
-  "direction": "VILLE DE THIES",
-  "reference": "F_VILLE_THIES_01_846",
-  "objet": "Acquisition et installation d’appareils de sonorisation",
-  "typeMarche": "Fourniture",
-  "financement": [
-   "Budget propre"
-  ],
-  "mode": "Demande de renseignement et de prix à compétition restreinte",
-  "lancement": "2026-03-13",
-  "attribution": "2026-03-24",
-  "demarrage": "2026-03-09",
-  "achevement": null,
-  "etat": null,
-  "montantFcfa": null
- },
- {
-  "autorite": "VILLE DE THIES",
-  "plan": "VILLE_THIES_2031",
-  "direction": "VILLE DE THIES",
-  "reference": "F_VILLE_THIES_01_858",
-  "objet": "Acquisition de pièces ou matériels de rechange électriques",
-  "typeMarche": "Fourniture",
-  "financement": [
-   "Budget propre"
-  ],
-  "mode": "Demande de renseignement et de prix à compétition restreinte",
-  "lancement": "2026-10-19",
-  "attribution": "2026-10-29",
-  "demarrage": "2026-11-16",
-  "achevement": null,
-  "etat": null,
-  "montantFcfa": null
- },
- {
-  "autorite": "VILLE DE THIES",
-  "plan": "VILLE_THIES_2031",
-  "direction": "VILLE DE THIES",
-  "reference": "F_VILLE_THIES_01_849",
-  "objet": "Acquisition de machines et appareils de bureau",
-  "typeMarche": "Fourniture",
-  "financement": [
-   "Budget propre"
-  ],
-  "mode": "Demande de renseignement et de prix à compétition restreinte",
-  "lancement": "2026-05-04",
-  "attribution": "2026-05-18",
-  "demarrage": "2026-06-01",
-  "achevement": null,
-  "etat": null,
-  "montantFcfa": null
- },
- {
-  "autorite": "VILLE DE THIES",
-  "plan": "VILLE_THIES_2031",
-  "direction": "VILLE DE THIES",
-  "reference": "T_VILLE_THIES_01_822",
-  "objet": "Travaux de réhabilitation des canaux et caniveaux",
-  "typeMarche": "Travaux",
-  "financement": [
-   "Budget propre"
-  ],
-  "mode": "Demande de renseignement et de prix à compétition restreinte",
-  "lancement": "2026-06-01",
-  "attribution": "2026-06-17",
-  "demarrage": "2026-06-30",
-  "achevement": null,
-  "etat": null,
-  "montantFcfa": null
- },
- {
-  "autorite": "VILLE DE THIES",
-  "plan": "VILLE_THIES_2031",
-  "direction": "VILLE DE THIES",
-  "reference": "F_VILLE_THIES_01_862",
-  "objet": "Fourniture de denrées alimentaires (Lot 1: Fournitures de denrées alimentaires non taxables, Lo 2: Fournitures de denrées alimentaires taxables)",
-  "typeMarche": "Fourniture",
-  "financement": [
-   "Budget propre"
-  ],
-  "mode": "Appel d'offres ouvert",
-  "lancement": "2026-01-13",
-  "attribution": "2026-02-23",
-  "demarrage": "2026-04-02",
-  "achevement": null,
-  "etat": null,
-  "montantFcfa": null
- },
- {
-  "autorite": "VILLE DE THIES",
-  "plan": "VILLE_THIES_2031",
-  "direction": "VILLE DE THIES",
-  "reference": "F_VILLE_THIES_01_857",
-  "objet": "Acquisition de pièces ou matériels de rechange (atelier et garage)",
-  "typeMarche": "Fourniture",
-  "financement": [
-   "Budget propre"
-  ],
-  "mode": "Demande de renseignement et de prix à compétition restreinte",
-  "lancement": "2026-08-03",
-  "attribution": "2026-08-17",
-  "demarrage": "2026-09-04",
-  "achevement": null,
-  "etat": null,
-  "montantFcfa": null
- },
- {
-  "autorite": "VILLE DE THIES",
-  "plan": "VILLE_THIES_2031",
-  "direction": "VILLE DE THIES",
-  "reference": "F_VILLE_THIES_01_854",
-  "objet": "Imprimés et registres,  tickets de perception (lot 1 Imprimés et registres, lot 2 tickets de perception)",
-  "typeMarche": "Fourniture",
-  "financement": [
-   "Budget propre"
-  ],
-  "mode": "Demande de renseignements et de prix à compétition ouverte",
-  "lancement": "2026-03-16",
-  "attribution": "2026-04-10",
-  "demarrage": "2026-04-24",
-  "achevement": null,
-  "etat": null,
-  "montantFcfa": null
- },
- {
-  "autorite": "VILLE DE THIES",
-  "plan": "VILLE_THIES_2031",
-  "direction": "VILLE DE THIES",
-  "reference": "S_VILLE_THIES_01_871",
-  "objet": "Entretien de réseau d’éclairage public",
-  "typeMarche": "Services",
-  "financement": [
-   "Budget propre"
-  ],
-  "mode": "Demande de renseignement et de prix à compétition restreinte",
-  "lancement": "2026-09-14",
-  "attribution": "2026-09-25",
-  "demarrage": "2026-10-16",
-  "achevement": null,
-  "etat": null,
-  "montantFcfa": null
- },
- {
-  "autorite": "VILLE DE THIES",
-  "plan": "VILLE_THIES_2031",
-  "direction": "VILLE DE THIES",
-  "reference": "F_VILLE_THIES_01_845",
-  "objet": "Fournitures de bureau",
-  "typeMarche": "Fourniture",
-  "financement": [
-   "Budget propre"
-  ],
-  "mode": "Demande de renseignement et de prix à compétition restreinte",
-  "lancement": "2026-02-16",
-  "attribution": "2026-02-26",
-  "demarrage": "2026-03-13",
-  "achevement": null,
-  "etat": null,
-  "montantFcfa": null
- },
- {
-  "autorite": "VILLE DE THIES",
-  "plan": "VILLE_THIES_2031",
-  "direction": "VILLE DE THIES",
-  "reference": "S_VILLE_THIES_01_869",
-  "objet": "Elagage et recépage",
-  "typeMarche": "Services",
-  "financement": [
-   "Budget propre"
-  ],
-  "mode": "Demande de renseignement et de prix à compétition restreinte",
-  "lancement": "2026-07-06",
-  "attribution": "2026-07-20",
-  "demarrage": "2026-08-05",
-  "achevement": null,
-  "etat": null,
-  "montantFcfa": null
- },
- {
-  "autorite": "VILLE DE THIES",
-  "plan": "VILLE_THIES_2031",
-  "direction": "VILLE DE THIES",
-  "reference": "S_VILLE_THIES_01_867",
-  "objet": "Entretien des parcs, squares et jardins",
-  "typeMarche": "Services",
-  "financement": [
-   "Budget propre"
-  ],
-  "mode": "Demande de renseignement et de prix à compétition restreinte",
-  "lancement": "2026-09-01",
-  "attribution": "2026-09-11",
-  "demarrage": "2026-09-30",
-  "achevement": null,
-  "etat": null,
-  "montantFcfa": null
- },
- {
-  "autorite": "VILLE DE THIES",
-  "plan": "VILLE_THIES_2031",
-  "direction": "VILLE DE THIES",
-  "reference": "S_VILLE_THIES_01_7860",
-  "objet": "Entretien et réparation des bâtiments locaux",
-  "typeMarche": "Services",
-  "financement": [
-   "Budget propre"
-  ],
-  "mode": "Demande de renseignement et de prix à compétition restreinte",
-  "lancement": "2026-03-13",
-  "attribution": "2026-03-20",
-  "demarrage": "2026-04-01",
-  "achevement": null,
-  "etat": null,
-  "montantFcfa": null
- },
- {
-  "autorite": "VILLE DE THIES",
-  "plan": "VILLE_THIES_2031",
-  "direction": "VILLE DE THIES",
-  "reference": "F_VILLE_THIES_01_860",
-  "objet": "Achat d’articles d’habillement",
-  "typeMarche": "Fourniture",
-  "financement": [
-   "Budget propre"
-  ],
-  "mode": "Demande de renseignement et de prix à compétition restreinte",
-  "lancement": "2026-03-23",
-  "attribution": "2026-04-03",
-  "demarrage": "2026-04-23",
-  "achevement": null,
-  "etat": null,
-  "montantFcfa": null
- },
- {
-  "autorite": "VILLE DE THIES",
-  "plan": "VILLE_THIES_2031",
-  "direction": "VILLE DE THIES",
-  "reference": "F_VILLE_THIES_01_16999",
-  "objet": "Fournitures de denrées alimentaires",
-  "typeMarche": "Fourniture",
-  "financement": [
-   "Budget propre"
-  ],
-  "mode": "Demande de renseignement et de prix à compétition restreinte",
-  "lancement": "2026-09-07",
-  "attribution": "2026-09-15",
-  "demarrage": "2026-09-24",
-  "achevement": null,
-  "etat": null,
-  "montantFcfa": null
- },
- {
-  "autorite": "VILLE DE THIES",
-  "plan": "VILLE_THIES_2031",
-  "direction": "VILLE DE THIES",
-  "reference": "F_VILLE_THIES_01_856",
-  "objet": "Acquisition de matériel de balayage",
-  "typeMarche": "Fourniture",
-  "financement": [
-   "Budget propre"
-  ],
-  "mode": "Demande de renseignement et de prix à compétition restreinte",
-  "lancement": "2026-04-07",
-  "attribution": "2026-04-23",
-  "demarrage": "2026-05-12",
-  "achevement": null,
-  "etat": null,
-  "montantFcfa": null
- },
- {
-  "autorite": "VILLE DE THIES",
-  "plan": "VILLE_THIES_2031",
-  "direction": "VILLE DE THIES",
-  "reference": "S_VILLE_THIES_01_7868",
-  "objet": "Organisation d’un forum pour la préparation de la fête de l'indépendance",
-  "typeMarche": "Services",
-  "financement": [
-   "Budget propre"
-  ],
-  "mode": "Demande de renseignement et de prix à compétition restreinte",
-  "lancement": "2026-03-13",
-  "attribution": "2026-03-20",
-  "demarrage": "2026-04-01",
-  "achevement": null,
-  "etat": null,
-  "montantFcfa": null
- },
- {
-  "autorite": "VILLE DE THIES",
-  "plan": "VILLE_THIES_2031",
-  "direction": "VILLE DE THIES",
-  "reference": "T_VILLE_THIES_01_7871",
-  "objet": "Aménagement de la voirie de l’avenue CAEN",
-  "typeMarche": "Travaux",
-  "financement": [
-   "Budget propre"
-  ],
-  "mode": "Demande de renseignement et de prix à compétition restreinte",
-  "lancement": "2026-03-13",
-  "attribution": "2026-03-20",
-  "demarrage": "2026-04-01",
-  "achevement": null,
-  "etat": null,
-  "montantFcfa": null
- },
- {
-  "autorite": "VILLE DE THIES",
-  "plan": "VILLE_THIES_2031",
-  "direction": "VILLE DE THIES",
-  "reference": "S_VILLE_THIES_01_7996",
-  "objet": "Organisation d’une cérémonie de remise des médailles de la Ville",
-  "typeMarche": "Services",
-  "financement": [
-   "Budget propre"
-  ],
-  "mode": "Demande de renseignement et de prix à compétition restreinte",
-  "lancement": "2026-03-13",
-  "attribution": "2026-03-24",
-  "demarrage": "2026-04-02",
-  "achevement": null,
-  "etat": null,
-  "montantFcfa": null
- },
- {
-  "autorite": "VILLE DE THIES",
-  "plan": "VILLE_THIES_2031",
-  "direction": "VILLE DE THIES",
-  "reference": "S_VILLE_THIES_01_7856",
-  "objet": "Location de véhicules",
-  "typeMarche": "Services",
-  "financement": [
-   "Budget propre"
-  ],
-  "mode": "Demande de renseignement et de prix à compétition restreinte",
-  "lancement": "2026-03-13",
-  "attribution": "2026-03-20",
-  "demarrage": "2026-04-01",
-  "achevement": null,
-  "etat": null,
-  "montantFcfa": null
- },
- {
-  "autorite": "VILLE DE THIES",
-  "plan": "VILLE_THIES_2031",
-  "direction": "VILLE DE THIES",
-  "reference": "T_VILLE_THIES_01_7872",
-  "objet": "Travaux d’aménagement des parcs, squares et jardins (pavage, espaces verts)",
-  "typeMarche": "Travaux",
-  "financement": [
-   "Budget propre"
-  ],
-  "mode": "Demande de renseignement et de prix à compétition restreinte",
-  "lancement": "2026-03-13",
-  "attribution": "2026-03-20",
-  "demarrage": "2026-04-01",
-  "achevement": null,
-  "etat": null,
-  "montantFcfa": null
- },
- {
-  "autorite": "VILLE DE THIES",
-  "plan": "VILLE_THIES_2031",
-  "direction": "VILLE DE THIES",
-  "reference": "T_VILLE_THIES_01_7997",
-  "objet": "Travaux de déblayage et de dégagement de sites",
-  "typeMarche": "Travaux",
-  "financement": [
-   "Budget propre"
-  ],
-  "mode": "Demande de renseignement et de prix à compétition restreinte",
-  "lancement": "2026-04-09",
-  "attribution": "2026-04-24",
-  "demarrage": "2026-05-06",
-  "achevement": null,
-  "etat": null,
-  "montantFcfa": null
- },
- {
-  "autorite": "VILLE DE THIES",
-  "plan": "VILLE_THIES_2031",
-  "direction": "VILLE DE THIES",
-  "reference": "T_VILLE_THIES_01_7869",
-  "objet": "Travaux d’embellissement (peinture) de l’Hôtel de Ville",
-  "typeMarche": "Travaux",
-  "financement": [
-   "Budget propre"
-  ],
-  "mode": "Demande de renseignement et de prix à compétition restreinte",
-  "lancement": "2026-03-13",
-  "attribution": "2026-03-20",
-  "demarrage": "2026-04-01",
-  "achevement": null,
-  "etat": null,
-  "montantFcfa": null
- },
- {
-  "autorite": "VILLE DE THIES",
-  "plan": "VILLE_THIES_2031",
-  "direction": "VILLE DE THIES",
-  "reference": "S_VILLE_THIES_01_10552",
-  "objet": "Location et mise en place de matériels événementiels pour les besoins de l’organisation de la Fête de la Musique",
-  "typeMarche": "Services",
-  "financement": [
-   "Budget propre"
-  ],
-  "mode": "Demande de renseignement et de prix à compétition restreinte",
-  "lancement": "2026-06-01",
-  "attribution": "2026-06-10",
-  "demarrage": "2026-06-21",
-  "achevement": null,
-  "etat": null,
-  "montantFcfa": null
- },
- {
-  "autorite": "VILLE DE THIES",
-  "plan": "VILLE_THIES_2031",
-  "direction": "VILLE DE THIES",
-  "reference": "F_VILLE_THIES_01_855",
-  "objet": "Acquisition de matériel de voirie",
-  "typeMarche": "Fourniture",
-  "financement": [
-   "Budget propre"
-  ],
-  "mode": "Demande de renseignement et de prix à compétition restreinte",
-  "lancement": "2026-06-08",
-  "attribution": "2026-06-23",
-  "demarrage": "2026-07-16",
-  "achevement": null,
-  "etat": null,
-  "montantFcfa": null
- },
- {
-  "autorite": "VILLE DE THIES",
-  "plan": "VILLE_THIES_2031",
-  "direction": "VILLE DE THIES",
-  "reference": "F_VILLE_THIES_01_852",
-  "objet": "Acquisition et installation d’appareils de ventilation et de climatisation",
-  "typeMarche": "Fourniture",
-  "financement": [
-   "Budget propre"
-  ],
-  "mode": "Demande de renseignement et de prix à compétition restreinte",
-  "lancement": "2026-05-04",
-  "attribution": "2026-05-18",
-  "demarrage": "2026-06-10",
-  "achevement": null,
-  "etat": null,
-  "montantFcfa": null
- },
- {
-  "autorite": "VILLE DE THIES",
-  "plan": "VILLE_THIES_2031",
-  "direction": "VILLE DE THIES",
-  "reference": "S_VILLE_THIES_01_15982",
-  "objet": "Entretien de logiciels de gestion municipale",
-  "typeMarche": "Services",
-  "financement": [
-   "Budget propre"
-  ],
-  "mode": "Demande de renseignement et de prix à compétition restreinte",
-  "lancement": "2026-08-17",
-  "attribution": "2026-08-31",
-  "demarrage": "2026-09-10",
-  "achevement": null,
-  "etat": null,
-  "montantFcfa": null
- },
- {
   "autorite": "Ville de Rufisque",
   "plan": "VR_2026_5",
   "direction": "Direction des finances et de la comptabilité",
@@ -53869,6 +53203,798 @@
   "lancement": "2026-10-26",
   "attribution": "2026-11-26",
   "demarrage": "2026-12-09",
+  "achevement": null,
+  "etat": null,
+  "montantFcfa": null
+ },
+ {
+  "autorite": "VILLE DE THIES",
+  "plan": "VILLE_THIES_2032",
+  "direction": "VILLE DE THIES",
+  "reference": "S_VILLE_THIES_01_18500",
+  "objet": "Elagage et recepage",
+  "typeMarche": "Services",
+  "financement": [
+   "Budget propre"
+  ],
+  "mode": "Demande de renseignement et de prix à compétition restreinte",
+  "lancement": "2026-10-15",
+  "attribution": "2026-10-23",
+  "demarrage": "2026-11-03",
+  "achevement": null,
+  "etat": null,
+  "montantFcfa": null
+ },
+ {
+  "autorite": "VILLE DE THIES",
+  "plan": "VILLE_THIES_2032",
+  "direction": "VILLE DE THIES",
+  "reference": "T_VILLE_THIES_01_15980",
+  "objet": "Travaux d'aménagement et de modernisation de l'Hôtel de Ville de Thiès",
+  "typeMarche": "Travaux",
+  "financement": [
+   "Budget propre"
+  ],
+  "mode": "Appel d'offres ouvert",
+  "lancement": "2026-08-17",
+  "attribution": "2026-09-29",
+  "demarrage": "2026-10-29",
+  "achevement": null,
+  "etat": null,
+  "montantFcfa": null
+ },
+ {
+  "autorite": "VILLE DE THIES",
+  "plan": "VILLE_THIES_2032",
+  "direction": "VILLE DE THIES",
+  "reference": "F_VILLE_THIES_01_859",
+  "objet": "Coupes, récompenses et prix",
+  "typeMarche": "Fourniture",
+  "financement": [
+   "Budget propre"
+  ],
+  "mode": "Demande de renseignement et de prix à compétition restreinte",
+  "lancement": "2026-09-14",
+  "attribution": "2026-09-25",
+  "demarrage": "2026-10-14",
+  "achevement": null,
+  "etat": null,
+  "montantFcfa": null
+ },
+ {
+  "autorite": "VILLE DE THIES",
+  "plan": "VILLE_THIES_2032",
+  "direction": "VILLE DE THIES",
+  "reference": "T_VILLE_THIES_01_15982",
+  "objet": "Travaux d'aménagement de chaussées et de voies publiques dans la Ville de Thiès",
+  "typeMarche": "Travaux",
+  "financement": [
+   "Budget propre"
+  ],
+  "mode": "Appel d'offres ouvert",
+  "lancement": "2026-08-17",
+  "attribution": "2026-09-29",
+  "demarrage": "2026-10-29",
+  "achevement": null,
+  "etat": null,
+  "montantFcfa": null
+ },
+ {
+  "autorite": "VILLE DE THIES",
+  "plan": "VILLE_THIES_2032",
+  "direction": "VILLE DE THIES",
+  "reference": "S_VILLE_THIES_01_7866",
+  "objet": "Location de matériels de terrassement",
+  "typeMarche": "Services",
+  "financement": [
+   "Budget propre"
+  ],
+  "mode": "Demande de renseignement et de prix à compétition restreinte",
+  "lancement": "2026-03-13",
+  "attribution": "2026-03-20",
+  "demarrage": "2026-04-01",
+  "achevement": null,
+  "etat": null,
+  "montantFcfa": null
+ },
+ {
+  "autorite": "VILLE DE THIES",
+  "plan": "VILLE_THIES_2032",
+  "direction": "VILLE DE THIES",
+  "reference": "T_VILLE_THIES_01_815",
+  "objet": "Grosses réparations Mairie et annexes",
+  "typeMarche": "Travaux",
+  "financement": [
+   "Budget propre"
+  ],
+  "mode": "Demande de renseignement et de prix à compétition restreinte",
+  "lancement": "2026-05-11",
+  "attribution": "2026-05-25",
+  "demarrage": "2026-06-15",
+  "achevement": null,
+  "etat": null,
+  "montantFcfa": null
+ },
+ {
+  "autorite": "VILLE DE THIES",
+  "plan": "VILLE_THIES_2032",
+  "direction": "VILLE DE THIES",
+  "reference": "T_VILLE_THIES_01_825",
+  "objet": "Pose et installation de bouches d'incendies",
+  "typeMarche": "Travaux",
+  "financement": [
+   "Budget propre"
+  ],
+  "mode": "Demande de renseignement et de prix à compétition restreinte",
+  "lancement": "2026-10-01",
+  "attribution": "2026-09-16",
+  "demarrage": "2026-10-05",
+  "achevement": null,
+  "etat": null,
+  "montantFcfa": null
+ },
+ {
+  "autorite": "VILLE DE THIES",
+  "plan": "VILLE_THIES_2032",
+  "direction": "VILLE DE THIES",
+  "reference": "T_VILLE_THIES_01_826",
+  "objet": "Construction de bibliothèque municipale",
+  "typeMarche": "Travaux",
+  "financement": [
+   "Budget propre"
+  ],
+  "mode": "Appel d'offres ouvert",
+  "lancement": "2026-04-24",
+  "attribution": "2026-06-05",
+  "demarrage": "2026-07-13",
+  "achevement": null,
+  "etat": null,
+  "montantFcfa": null
+ },
+ {
+  "autorite": "VILLE DE THIES",
+  "plan": "VILLE_THIES_2032",
+  "direction": "VILLE DE THIES",
+  "reference": "T_VILLE_THIES_01_819",
+  "objet": "Travaux de remblais et de terrassement",
+  "typeMarche": "Travaux",
+  "financement": [
+   "Budget propre"
+  ],
+  "mode": "Demande de renseignement et de prix à compétition restreinte",
+  "lancement": "2026-04-14",
+  "attribution": "2026-04-23",
+  "demarrage": "2026-05-18",
+  "achevement": null,
+  "etat": null,
+  "montantFcfa": null
+ },
+ {
+  "autorite": "VILLE DE THIES",
+  "plan": "VILLE_THIES_2032",
+  "direction": "VILLE DE THIES",
+  "reference": "T_VILLE_THIES_01_828",
+  "objet": "Construction de bibliothèque municipale",
+  "typeMarche": "Travaux",
+  "financement": [
+   "Budget propre"
+  ],
+  "mode": "Appel d'offres ouvert",
+  "lancement": "2026-04-24",
+  "attribution": "2026-05-08",
+  "demarrage": "2026-06-12",
+  "achevement": null,
+  "etat": null,
+  "montantFcfa": null
+ },
+ {
+  "autorite": "VILLE DE THIES",
+  "plan": "VILLE_THIES_2032",
+  "direction": "VILLE DE THIES",
+  "reference": "T_VILLE_THIES_01_830",
+  "objet": "Travaux d'installation de signalisation routière",
+  "typeMarche": "Travaux",
+  "financement": [
+   "Budget propre"
+  ],
+  "mode": "Appel d'offres ouvert",
+  "lancement": "2026-06-01",
+  "attribution": "2026-07-10",
+  "demarrage": "2026-08-17",
+  "achevement": null,
+  "etat": null,
+  "montantFcfa": null
+ },
+ {
+  "autorite": "VILLE DE THIES",
+  "plan": "VILLE_THIES_2032",
+  "direction": "VILLE DE THIES",
+  "reference": "F_VILLE_THIES_01_842",
+  "objet": "Acquisition de mobilier de bureau",
+  "typeMarche": "Fourniture",
+  "financement": [
+   "Budget propre"
+  ],
+  "mode": "Demande de renseignement et de prix à compétition restreinte",
+  "lancement": "2026-02-16",
+  "attribution": "2026-03-02",
+  "demarrage": "2026-03-16",
+  "achevement": null,
+  "etat": null,
+  "montantFcfa": null
+ },
+ {
+  "autorite": "VILLE DE THIES",
+  "plan": "VILLE_THIES_2032",
+  "direction": "VILLE DE THIES",
+  "reference": "F_VILLE_THIES_01_846",
+  "objet": "Acquisition et installation d’appareils de sonorisation",
+  "typeMarche": "Fourniture",
+  "financement": [
+   "Budget propre"
+  ],
+  "mode": "Demande de renseignement et de prix à compétition restreinte",
+  "lancement": "2026-03-13",
+  "attribution": "2026-03-24",
+  "demarrage": "2026-03-09",
+  "achevement": null,
+  "etat": null,
+  "montantFcfa": null
+ },
+ {
+  "autorite": "VILLE DE THIES",
+  "plan": "VILLE_THIES_2032",
+  "direction": "VILLE DE THIES",
+  "reference": "F_VILLE_THIES_01_858",
+  "objet": "Acquisition de pièces ou matériels de rechange électriques",
+  "typeMarche": "Fourniture",
+  "financement": [
+   "Budget propre"
+  ],
+  "mode": "Demande de renseignement et de prix à compétition restreinte",
+  "lancement": "2026-10-19",
+  "attribution": "2026-10-29",
+  "demarrage": "2026-11-16",
+  "achevement": null,
+  "etat": null,
+  "montantFcfa": null
+ },
+ {
+  "autorite": "VILLE DE THIES",
+  "plan": "VILLE_THIES_2032",
+  "direction": "VILLE DE THIES",
+  "reference": "F_VILLE_THIES_01_849",
+  "objet": "Acquisition de machines et appareils de bureau",
+  "typeMarche": "Fourniture",
+  "financement": [
+   "Budget propre"
+  ],
+  "mode": "Demande de renseignement et de prix à compétition restreinte",
+  "lancement": "2026-05-04",
+  "attribution": "2026-05-18",
+  "demarrage": "2026-06-01",
+  "achevement": null,
+  "etat": null,
+  "montantFcfa": null
+ },
+ {
+  "autorite": "VILLE DE THIES",
+  "plan": "VILLE_THIES_2032",
+  "direction": "VILLE DE THIES",
+  "reference": "T_VILLE_THIES_01_822",
+  "objet": "Travaux de réhabilitation des canaux et caniveaux",
+  "typeMarche": "Travaux",
+  "financement": [
+   "Budget propre"
+  ],
+  "mode": "Demande de renseignement et de prix à compétition restreinte",
+  "lancement": "2026-06-01",
+  "attribution": "2026-06-17",
+  "demarrage": "2026-06-30",
+  "achevement": null,
+  "etat": null,
+  "montantFcfa": null
+ },
+ {
+  "autorite": "VILLE DE THIES",
+  "plan": "VILLE_THIES_2032",
+  "direction": "VILLE DE THIES",
+  "reference": "F_VILLE_THIES_01_862",
+  "objet": "Fourniture de denrées alimentaires (Lot 1: Fournitures de denrées alimentaires non taxables, Lo 2: Fournitures de denrées alimentaires taxables)",
+  "typeMarche": "Fourniture",
+  "financement": [
+   "Budget propre"
+  ],
+  "mode": "Appel d'offres ouvert",
+  "lancement": "2026-01-13",
+  "attribution": "2026-02-23",
+  "demarrage": "2026-04-02",
+  "achevement": null,
+  "etat": null,
+  "montantFcfa": null
+ },
+ {
+  "autorite": "VILLE DE THIES",
+  "plan": "VILLE_THIES_2032",
+  "direction": "VILLE DE THIES",
+  "reference": "F_VILLE_THIES_01_857",
+  "objet": "Acquisition de pièces ou matériels de rechange (atelier et garage)",
+  "typeMarche": "Fourniture",
+  "financement": [
+   "Budget propre"
+  ],
+  "mode": "Demande de renseignement et de prix à compétition restreinte",
+  "lancement": "2026-08-03",
+  "attribution": "2026-08-17",
+  "demarrage": "2026-09-04",
+  "achevement": null,
+  "etat": null,
+  "montantFcfa": null
+ },
+ {
+  "autorite": "VILLE DE THIES",
+  "plan": "VILLE_THIES_2032",
+  "direction": "VILLE DE THIES",
+  "reference": "F_VILLE_THIES_01_854",
+  "objet": "Imprimés et registres,  tickets de perception (lot 1 Imprimés et registres, lot 2 tickets de perception)",
+  "typeMarche": "Fourniture",
+  "financement": [
+   "Budget propre"
+  ],
+  "mode": "Demande de renseignements et de prix à compétition ouverte",
+  "lancement": "2026-03-16",
+  "attribution": "2026-04-10",
+  "demarrage": "2026-04-24",
+  "achevement": null,
+  "etat": null,
+  "montantFcfa": null
+ },
+ {
+  "autorite": "VILLE DE THIES",
+  "plan": "VILLE_THIES_2032",
+  "direction": "VILLE DE THIES",
+  "reference": "F_VILLE_THIES_01_845",
+  "objet": "Fournitures de bureau",
+  "typeMarche": "Fourniture",
+  "financement": [
+   "Budget propre"
+  ],
+  "mode": "Demande de renseignement et de prix à compétition restreinte",
+  "lancement": "2026-02-16",
+  "attribution": "2026-02-26",
+  "demarrage": "2026-03-13",
+  "achevement": null,
+  "etat": null,
+  "montantFcfa": null
+ },
+ {
+  "autorite": "VILLE DE THIES",
+  "plan": "VILLE_THIES_2032",
+  "direction": "VILLE DE THIES",
+  "reference": "S_VILLE_THIES_01_869",
+  "objet": "Elagage et recépage",
+  "typeMarche": "Services",
+  "financement": [
+   "Budget propre"
+  ],
+  "mode": "Demande de renseignement et de prix à compétition restreinte",
+  "lancement": "2026-07-06",
+  "attribution": "2026-07-20",
+  "demarrage": "2026-08-05",
+  "achevement": null,
+  "etat": null,
+  "montantFcfa": null
+ },
+ {
+  "autorite": "VILLE DE THIES",
+  "plan": "VILLE_THIES_2032",
+  "direction": "VILLE DE THIES",
+  "reference": "S_VILLE_THIES_01_867",
+  "objet": "Entretien des parcs, squares et jardins",
+  "typeMarche": "Services",
+  "financement": [
+   "Budget propre"
+  ],
+  "mode": "Demande de renseignement et de prix à compétition restreinte",
+  "lancement": "2026-09-01",
+  "attribution": "2026-09-11",
+  "demarrage": "2026-09-30",
+  "achevement": null,
+  "etat": null,
+  "montantFcfa": null
+ },
+ {
+  "autorite": "VILLE DE THIES",
+  "plan": "VILLE_THIES_2032",
+  "direction": "VILLE DE THIES",
+  "reference": "S_VILLE_THIES_01_7860",
+  "objet": "Entretien et réparation des bâtiments locaux",
+  "typeMarche": "Services",
+  "financement": [
+   "Budget propre"
+  ],
+  "mode": "Demande de renseignement et de prix à compétition restreinte",
+  "lancement": "2026-03-13",
+  "attribution": "2026-03-20",
+  "demarrage": "2026-04-01",
+  "achevement": null,
+  "etat": null,
+  "montantFcfa": null
+ },
+ {
+  "autorite": "VILLE DE THIES",
+  "plan": "VILLE_THIES_2032",
+  "direction": "VILLE DE THIES",
+  "reference": "F_VILLE_THIES_01_860",
+  "objet": "Achat d’articles d’habillement",
+  "typeMarche": "Fourniture",
+  "financement": [
+   "Budget propre"
+  ],
+  "mode": "Demande de renseignement et de prix à compétition restreinte",
+  "lancement": "2026-03-23",
+  "attribution": "2026-04-03",
+  "demarrage": "2026-04-23",
+  "achevement": null,
+  "etat": null,
+  "montantFcfa": null
+ },
+ {
+  "autorite": "VILLE DE THIES",
+  "plan": "VILLE_THIES_2032",
+  "direction": "VILLE DE THIES",
+  "reference": "F_VILLE_THIES_01_16999",
+  "objet": "Fournitures de denrées alimentaires",
+  "typeMarche": "Fourniture",
+  "financement": [
+   "Budget propre"
+  ],
+  "mode": "Demande de renseignement et de prix à compétition restreinte",
+  "lancement": "2026-09-07",
+  "attribution": "2026-09-15",
+  "demarrage": "2026-09-24",
+  "achevement": null,
+  "etat": null,
+  "montantFcfa": null
+ },
+ {
+  "autorite": "VILLE DE THIES",
+  "plan": "VILLE_THIES_2032",
+  "direction": "VILLE DE THIES",
+  "reference": "F_VILLE_THIES_01_856",
+  "objet": "Acquisition de matériel de balayage",
+  "typeMarche": "Fourniture",
+  "financement": [
+   "Budget propre"
+  ],
+  "mode": "Demande de renseignement et de prix à compétition restreinte",
+  "lancement": "2026-04-07",
+  "attribution": "2026-04-23",
+  "demarrage": "2026-05-12",
+  "achevement": null,
+  "etat": null,
+  "montantFcfa": null
+ },
+ {
+  "autorite": "VILLE DE THIES",
+  "plan": "VILLE_THIES_2032",
+  "direction": "VILLE DE THIES",
+  "reference": "S_VILLE_THIES_01_7868",
+  "objet": "Organisation d’un forum pour la préparation de la fête de l'indépendance",
+  "typeMarche": "Services",
+  "financement": [
+   "Budget propre"
+  ],
+  "mode": "Demande de renseignement et de prix à compétition restreinte",
+  "lancement": "2026-03-13",
+  "attribution": "2026-03-20",
+  "demarrage": "2026-04-01",
+  "achevement": null,
+  "etat": null,
+  "montantFcfa": null
+ },
+ {
+  "autorite": "VILLE DE THIES",
+  "plan": "VILLE_THIES_2032",
+  "direction": "VILLE DE THIES",
+  "reference": "T_VILLE_THIES_01_7871",
+  "objet": "Aménagement de la voirie de l’avenue CAEN",
+  "typeMarche": "Travaux",
+  "financement": [
+   "Budget propre"
+  ],
+  "mode": "Demande de renseignement et de prix à compétition restreinte",
+  "lancement": "2026-03-13",
+  "attribution": "2026-03-20",
+  "demarrage": "2026-04-01",
+  "achevement": null,
+  "etat": null,
+  "montantFcfa": null
+ },
+ {
+  "autorite": "VILLE DE THIES",
+  "plan": "VILLE_THIES_2032",
+  "direction": "VILLE DE THIES",
+  "reference": "S_VILLE_THIES_01_871",
+  "objet": "Entretien de réseau d’éclairage public",
+  "typeMarche": "Services",
+  "financement": [
+   "Budget propre"
+  ],
+  "mode": "Demande de renseignement et de prix à compétition restreinte",
+  "lancement": "2026-09-14",
+  "attribution": "2026-09-25",
+  "demarrage": "2026-10-16",
+  "achevement": null,
+  "etat": null,
+  "montantFcfa": null
+ },
+ {
+  "autorite": "VILLE DE THIES",
+  "plan": "VILLE_THIES_2032",
+  "direction": "VILLE DE THIES",
+  "reference": "S_VILLE_THIES_01_7996",
+  "objet": "Organisation d’une cérémonie de remise des médailles de la Ville",
+  "typeMarche": "Services",
+  "financement": [
+   "Budget propre"
+  ],
+  "mode": "Demande de renseignement et de prix à compétition restreinte",
+  "lancement": "2026-03-13",
+  "attribution": "2026-03-24",
+  "demarrage": "2026-04-02",
+  "achevement": null,
+  "etat": null,
+  "montantFcfa": null
+ },
+ {
+  "autorite": "VILLE DE THIES",
+  "plan": "VILLE_THIES_2032",
+  "direction": "VILLE DE THIES",
+  "reference": "S_VILLE_THIES_01_7856",
+  "objet": "Location de véhicules",
+  "typeMarche": "Services",
+  "financement": [
+   "Budget propre"
+  ],
+  "mode": "Demande de renseignement et de prix à compétition restreinte",
+  "lancement": "2026-03-13",
+  "attribution": "2026-03-20",
+  "demarrage": "2026-04-01",
+  "achevement": null,
+  "etat": null,
+  "montantFcfa": null
+ },
+ {
+  "autorite": "VILLE DE THIES",
+  "plan": "VILLE_THIES_2032",
+  "direction": "VILLE DE THIES",
+  "reference": "T_VILLE_THIES_01_7872",
+  "objet": "Travaux d’aménagement des parcs, squares et jardins (pavage, espaces verts)",
+  "typeMarche": "Travaux",
+  "financement": [
+   "Budget propre"
+  ],
+  "mode": "Demande de renseignement et de prix à compétition restreinte",
+  "lancement": "2026-03-13",
+  "attribution": "2026-03-20",
+  "demarrage": "2026-04-01",
+  "achevement": null,
+  "etat": null,
+  "montantFcfa": null
+ },
+ {
+  "autorite": "VILLE DE THIES",
+  "plan": "VILLE_THIES_2032",
+  "direction": "VILLE DE THIES",
+  "reference": "T_VILLE_THIES_01_7997",
+  "objet": "Travaux de déblayage et de dégagement de sites",
+  "typeMarche": "Travaux",
+  "financement": [
+   "Budget propre"
+  ],
+  "mode": "Demande de renseignement et de prix à compétition restreinte",
+  "lancement": "2026-04-09",
+  "attribution": "2026-04-24",
+  "demarrage": "2026-05-06",
+  "achevement": null,
+  "etat": null,
+  "montantFcfa": null
+ },
+ {
+  "autorite": "VILLE DE THIES",
+  "plan": "VILLE_THIES_2032",
+  "direction": "VILLE DE THIES",
+  "reference": "T_VILLE_THIES_01_7869",
+  "objet": "Travaux d’embellissement (peinture) de l’Hôtel de Ville",
+  "typeMarche": "Travaux",
+  "financement": [
+   "Budget propre"
+  ],
+  "mode": "Demande de renseignement et de prix à compétition restreinte",
+  "lancement": "2026-03-13",
+  "attribution": "2026-03-20",
+  "demarrage": "2026-04-01",
+  "achevement": null,
+  "etat": null,
+  "montantFcfa": null
+ },
+ {
+  "autorite": "VILLE DE THIES",
+  "plan": "VILLE_THIES_2032",
+  "direction": "VILLE DE THIES",
+  "reference": "S_VILLE_THIES_01_10552",
+  "objet": "Location et mise en place de matériels événementiels pour les besoins de l’organisation de la Fête de la Musique",
+  "typeMarche": "Services",
+  "financement": [
+   "Budget propre"
+  ],
+  "mode": "Demande de renseignement et de prix à compétition restreinte",
+  "lancement": "2026-06-01",
+  "attribution": "2026-06-10",
+  "demarrage": "2026-06-21",
+  "achevement": null,
+  "etat": null,
+  "montantFcfa": null
+ },
+ {
+  "autorite": "VILLE DE THIES",
+  "plan": "VILLE_THIES_2032",
+  "direction": "VILLE DE THIES",
+  "reference": "F_VILLE_THIES_01_855",
+  "objet": "Acquisition de matériel de voirie",
+  "typeMarche": "Fourniture",
+  "financement": [
+   "Budget propre"
+  ],
+  "mode": "Demande de renseignement et de prix à compétition restreinte",
+  "lancement": "2026-06-08",
+  "attribution": "2026-06-23",
+  "demarrage": "2026-07-16",
+  "achevement": null,
+  "etat": null,
+  "montantFcfa": null
+ },
+ {
+  "autorite": "VILLE DE THIES",
+  "plan": "VILLE_THIES_2032",
+  "direction": "VILLE DE THIES",
+  "reference": "F_VILLE_THIES_01_852",
+  "objet": "Acquisition et installation d’appareils de ventilation et de climatisation",
+  "typeMarche": "Fourniture",
+  "financement": [
+   "Budget propre"
+  ],
+  "mode": "Demande de renseignement et de prix à compétition restreinte",
+  "lancement": "2026-05-04",
+  "attribution": "2026-05-18",
+  "demarrage": "2026-06-10",
+  "achevement": null,
+  "etat": null,
+  "montantFcfa": null
+ },
+ {
+  "autorite": "VILLE DE THIES",
+  "plan": "VILLE_THIES_2032",
+  "direction": "VILLE DE THIES",
+  "reference": "S_VILLE_THIES_01_15982",
+  "objet": "Entretien de logiciels de gestion municipale",
+  "typeMarche": "Services",
+  "financement": [
+   "Budget propre"
+  ],
+  "mode": "Demande de renseignement et de prix à compétition restreinte",
+  "lancement": "2026-08-17",
+  "attribution": "2026-08-31",
+  "demarrage": "2026-09-10",
+  "achevement": null,
+  "etat": null,
+  "montantFcfa": null
+ },
+ {
+  "autorite": "VILLE DE THIES",
+  "plan": "VILLE_THIES_2032",
+  "direction": "VILLE DE THIES",
+  "reference": "C_VILLE_THIES_01_18493",
+  "objet": "Recrutement d’un consultant chargé d’appuyer la Ville de Thiès dans la gestion et la promotion des affaires culturelles",
+  "typeMarche": "Prestation intellectuelle",
+  "financement": [
+   "Budget propre"
+  ],
+  "mode": "Demande de renseignement et de prix à compétition restreinte",
+  "lancement": "2026-10-15",
+  "attribution": "2026-10-23",
+  "demarrage": "2026-11-03",
+  "achevement": null,
+  "etat": null,
+  "montantFcfa": null
+ },
+ {
+  "autorite": "VILLE DE THIES",
+  "plan": "VILLE_THIES_2032",
+  "direction": "VILLE DE THIES",
+  "reference": "C_VILLE_THIES_01_18494",
+  "objet": "Mission d’assistance et d’appui à la planification, à l’organisation et au suivi des événements de la Ville de Thiès",
+  "typeMarche": "Prestation intellectuelle",
+  "financement": [
+   "Budget propre"
+  ],
+  "mode": "Demande de renseignement et de prix à compétition restreinte",
+  "lancement": "2026-10-15",
+  "attribution": "2026-10-23",
+  "demarrage": "2026-11-03",
+  "achevement": null,
+  "etat": null,
+  "montantFcfa": null
+ },
+ {
+  "autorite": "VILLE DE THIES",
+  "plan": "VILLE_THIES_2032",
+  "direction": "VILLE DE THIES",
+  "reference": "C_VILLE_THIES_01_18495",
+  "objet": "Formation des agents administratifs de la Ville de Thiès sur l’organisation et le fonctionnement des collectivités territoriales et sur la commande publique",
+  "typeMarche": "Prestation intellectuelle",
+  "financement": [
+   "Budget propre"
+  ],
+  "mode": "Demande de renseignement et de prix à compétition restreinte",
+  "lancement": "2026-10-15",
+  "attribution": "2026-10-23",
+  "demarrage": "2026-11-03",
+  "achevement": null,
+  "etat": null,
+  "montantFcfa": null
+ },
+ {
+  "autorite": "VILLE DE THIES",
+  "plan": "VILLE_THIES_2032",
+  "direction": "VILLE DE THIES",
+  "reference": "T_VILLE_THIES_01_18498",
+  "objet": "Travaux de réhabilitation des canaux et caniveaux",
+  "typeMarche": "Travaux",
+  "financement": [
+   "Budget propre"
+  ],
+  "mode": "Demande de renseignement et de prix à compétition restreinte",
+  "lancement": "2026-10-15",
+  "attribution": "2026-10-23",
+  "demarrage": "2026-11-03",
+  "achevement": null,
+  "etat": null,
+  "montantFcfa": null
+ },
+ {
+  "autorite": "VILLE DE THIES",
+  "plan": "VILLE_THIES_2032",
+  "direction": "VILLE DE THIES",
+  "reference": "F_VILLE_THIES_01_18499",
+  "objet": "Acquisition de guirlandes lumineuses pour la décoration et l’illumination des espaces publics de la Ville de Thiès",
+  "typeMarche": "Fourniture",
+  "financement": [
+   "Budget propre"
+  ],
+  "mode": "Demande de renseignement et de prix à compétition restreinte",
+  "lancement": "2026-10-15",
+  "attribution": "2026-10-23",
+  "demarrage": "2026-11-03",
+  "achevement": null,
+  "etat": null,
+  "montantFcfa": null
+ },
+ {
+  "autorite": "VILLE DE THIES",
+  "plan": "VILLE_THIES_2032",
+  "direction": "VILLE DE THIES",
+  "reference": "T_VILLE_THIES_01_18497",
+  "objet": "Travaux de déblayage, de dégagement de sites, de remblaiement et de terrassement",
+  "typeMarche": "Travaux",
+  "financement": [
+   "Budget propre"
+  ],
+  "mode": "Demande de renseignements et de prix à compétition ouverte",
+  "lancement": "2026-10-15",
+  "attribution": "2026-11-06",
+  "demarrage": "2026-11-23",
   "achevement": null,
   "etat": null,
   "montantFcfa": null
