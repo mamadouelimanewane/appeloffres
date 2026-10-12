@@ -1,5 +1,5 @@
 {
- "sondeLe": "2026-10-06T18:37:54.540Z",
+ "sondeLe": "2026-10-12T12:37:44.409Z",
  "resultats": [
   {
    "domaine": "arcop.sn",
@@ -187,7 +187,7 @@
    "domaine": "asepex.sn",
    "categorie": "Agences et établissements",
    "joignable": true,
-   "base": "https://www.asepex.sn",
+   "base": "https://asepex.sn",
    "robotsInterdit": false,
    "wordpress": true,
    "avisRecents": 0,
@@ -252,18 +252,6 @@
    "categorie": "Ministères",
    "joignable": true,
    "base": "https://culture.gouv.sn",
-   "robotsInterdit": false,
-   "wordpress": true,
-   "avisRecents": 0,
-   "typesAvis": [],
-   "dernier": null,
-   "exemple": null
-  },
-  {
-   "domaine": "dakar.aics.gov.it",
-   "categorie": "Bailleurs, coopération et ONG",
-   "joignable": true,
-   "base": "https://dakar.aics.gov.it",
    "robotsInterdit": false,
    "wordpress": true,
    "avisRecents": 0,
@@ -454,6 +442,18 @@
    "exemple": null
   },
   {
+   "domaine": "sicap.sn",
+   "categorie": "Agences et établissements",
+   "joignable": true,
+   "base": "https://sicap.sn",
+   "robotsInterdit": false,
+   "wordpress": true,
+   "avisRecents": 0,
+   "typesAvis": [],
+   "dernier": null,
+   "exemple": null
+  },
+  {
    "domaine": "sogip.sn",
    "categorie": "Sociétés nationales",
    "joignable": true,
@@ -636,8 +636,8 @@
   {
    "domaine": "anacim.sn",
    "categorie": "Agences et établissements",
-   "joignable": true,
-   "base": "https://anacim.sn",
+   "joignable": false,
+   "base": null,
    "robotsInterdit": false,
    "wordpress": false,
    "avisRecents": 0,
@@ -732,8 +732,8 @@
   {
    "domaine": "ansd.sn",
    "categorie": "Agences et établissements",
-   "joignable": true,
-   "base": "https://www.ansd.sn",
+   "joignable": false,
+   "base": null,
    "robotsInterdit": false,
    "wordpress": false,
    "avisRecents": 0,
@@ -756,8 +756,8 @@
   {
    "domaine": "artp.sn",
    "categorie": "Agences et établissements",
-   "joignable": true,
-   "base": "https://artp.sn",
+   "joignable": false,
+   "base": null,
    "robotsInterdit": false,
    "wordpress": false,
    "avisRecents": 0,
@@ -1150,6 +1150,18 @@
    "exemple": null
   },
   {
+   "domaine": "dakar.aics.gov.it",
+   "categorie": "Bailleurs, coopération et ONG",
+   "joignable": false,
+   "base": null,
+   "robotsInterdit": false,
+   "wordpress": false,
+   "avisRecents": 0,
+   "typesAvis": [],
+   "dernier": null,
+   "exemple": null
+  },
+  {
    "domaine": "dalaljamm.sn",
    "categorie": "Santé",
    "joignable": false,
@@ -1380,8 +1392,8 @@
   {
    "domaine": "finances.gouv.sn",
    "categorie": "Ministères",
-   "joignable": false,
-   "base": null,
+   "joignable": true,
+   "base": "https://finances.gouv.sn",
    "robotsInterdit": false,
    "wordpress": false,
    "avisRecents": 0,
@@ -1716,8 +1728,8 @@
   {
    "domaine": "petrosen.sn",
    "categorie": "Sociétés nationales",
-   "joignable": true,
-   "base": "https://petrosen.sn",
+   "joignable": false,
+   "base": null,
    "robotsInterdit": false,
    "wordpress": false,
    "avisRecents": 0,
@@ -1740,8 +1752,8 @@
   {
    "domaine": "portdakar.sn",
    "categorie": "Sociétés nationales",
-   "joignable": true,
-   "base": "https://www.portdakar.sn",
+   "joignable": false,
+   "base": null,
    "robotsInterdit": false,
    "wordpress": false,
    "avisRecents": 0,
@@ -1895,18 +1907,6 @@
   },
   {
    "domaine": "senum.sn",
-   "categorie": "Agences et établissements",
-   "joignable": false,
-   "base": null,
-   "robotsInterdit": false,
-   "wordpress": false,
-   "avisRecents": 0,
-   "typesAvis": [],
-   "dernier": null,
-   "exemple": null
-  },
-  {
-   "domaine": "sicap.sn",
    "categorie": "Agences et établissements",
    "joignable": false,
    "base": null,
@@ -2076,8 +2076,8 @@
   {
    "domaine": "uemoa.int",
    "categorie": "Bailleurs, coopération et ONG",
-   "joignable": true,
-   "base": "https://www.uemoa.int",
+   "joignable": false,
+   "base": null,
    "robotsInterdit": false,
    "wordpress": false,
    "avisRecents": 0,
@@ -2100,8 +2100,8 @@
   {
    "domaine": "uidt.sn",
    "categorie": "Universités et écoles",
-   "joignable": true,
-   "base": "https://www.uidt.sn",
+   "joignable": false,
+   "base": null,
    "robotsInterdit": false,
    "wordpress": false,
    "avisRecents": 0,
@@ -2148,8 +2148,8 @@
   {
    "domaine": "univ-thies.sn",
    "categorie": "Universités et écoles",
-   "joignable": true,
-   "base": "https://www.univ-thies.sn",
+   "joignable": false,
+   "base": null,
    "robotsInterdit": false,
    "wordpress": false,
    "avisRecents": 0,
