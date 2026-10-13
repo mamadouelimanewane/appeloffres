@@ -1,5 +1,5 @@
 {
- "misAJourLe": "2026-10-12T14:45:03.882Z",
+ "misAJourLe": "2026-10-13T13:50:01.238Z",
  "avis": {
   "senelec:https://www.senelec.sn/media/marches/appels/AVIS_DE_REPORT_AON_33_2026.pdf": {
    "source": "senelec",
@@ -5671,6 +5671,94 @@
    "url": "https://www.pfongue.org/Appel-d-offres-_-L-ONG-Solthis-envisage-d-etablir-des-contrats-cadres-pour.html",
    "autorite": "ONG (plate-forme PFONGUE)",
    "vuLe": "2026-10-09"
+  },
+  "ungm:https://www.ungm.org/Public/Notice/317810": {
+   "source": "ungm",
+   "reference": "2026/FRSEN/FRSEN/138424",
+   "objet": "Acquisition et pose de clôture en grillage galvanisé, de panneaux de visibilité, de poteaux et divers accessoires de fixation, de tension et de fermeture pour 400 ha de périmètres communautaires répartis en deux (2) lots",
+   "type": "Appel d'offres",
+   "publieLe": "2026-10-12",
+   "dateLimite": "2026-11-02",
+   "url": "https://www.ungm.org/Public/Notice/317810",
+   "autorite": "FAO (Nations unies)",
+   "vuLe": "2026-10-13"
+  },
+  "ungm:https://www.ungm.org/Public/Notice/317806": {
+   "source": "ungm",
+   "reference": "rfx_12252_ROAF",
+   "objet": "Demande de Cotation hôtel pour l’organisation de l’atelier de Validation technique de la SNIFEI",
+   "type": "Demande de cotation",
+   "publieLe": "2026-10-12",
+   "dateLimite": "2026-10-16",
+   "url": "https://www.ungm.org/Public/Notice/317806",
+   "autorite": "OIT (Nations unies)",
+   "vuLe": "2026-10-13"
+  },
+  "wp:lesoleil.sn:https://lesoleil.sn/marche-public/avis-dappel-doffres-7/": {
+   "source": "wp:lesoleil.sn",
+   "reference": "non communiquée",
+   "objet": "Avis d’Appel d’offres",
+   "type": "Appel d'offres",
+   "publieLe": "2026-10-13",
+   "dateLimite": "2026-11-17",
+   "url": "https://lesoleil.sn/marche-public/avis-dappel-doffres-7/",
+   "autorite": "Le Soleil",
+   "vuLe": "2026-10-13"
+  },
+  "wp:lesoleil.sn:https://lesoleil.sn/marche-public/avis-dappel-doffres-6/": {
+   "source": "wp:lesoleil.sn",
+   "reference": "F_DTA_004",
+   "objet": "AVIS D'APPEL D'OFFRES",
+   "type": "Appel d'offres",
+   "publieLe": "2026-10-13",
+   "dateLimite": "2026-11-12",
+   "url": "https://lesoleil.sn/marche-public/avis-dappel-doffres-6/",
+   "autorite": "Le Soleil",
+   "vuLe": "2026-10-13"
+  },
+  "wp:lesoleil.sn:https://lesoleil.sn/marche-public/avis-dappel-doffres-national-aaon-n43%e2%80%902026/": {
+   "source": "wp:lesoleil.sn",
+   "reference": "16668",
+   "objet": "AVIS D’APPEL D’OFFRES NATIONAL (AAON) N°43‐2026",
+   "type": "Appel d'offres",
+   "publieLe": "2026-10-13",
+   "dateLimite": "2026-11-18",
+   "url": "https://lesoleil.sn/marche-public/avis-dappel-doffres-national-aaon-n43%e2%80%902026/",
+   "autorite": "Le Soleil",
+   "vuLe": "2026-10-13"
+  },
+  "pfongue:https://www.pfongue.org/Appel-d-offres-_-ENTRETIEN-ET-REPARATION-VEHICULES.html": {
+   "source": "pfongue",
+   "reference": "non communiquée",
+   "objet": "ENTRETIEN ET REPARATION VEHICULES",
+   "type": "Appel d'offres",
+   "publieLe": "2026-10-13",
+   "dateLimite": null,
+   "url": "https://www.pfongue.org/Appel-d-offres-_-ENTRETIEN-ET-REPARATION-VEHICULES.html",
+   "autorite": "ONG (plate-forme PFONGUE)",
+   "vuLe": "2026-10-13"
+  },
+  "pfongue:https://www.pfongue.org/Appel-d-offres-_-Realisation-d-etudes-dans-le-cadre-du-projet-SANSAS-2-pour-le.html": {
+   "source": "pfongue",
+   "reference": "non communiquée",
+   "objet": "APPEL À MANIFESTATIONS D'INTÉRÊT _ Réalisation d'études dans le cadre du projet SANSAS 2 pour le compte de Solthis Sénégal",
+   "type": "Appel à manifestation d'intérêt",
+   "publieLe": "2026-10-13",
+   "dateLimite": null,
+   "url": "https://www.pfongue.org/Appel-d-offres-_-Realisation-d-etudes-dans-le-cadre-du-projet-SANSAS-2-pour-le.html",
+   "autorite": "ONG (plate-forme PFONGUE)",
+   "vuLe": "2026-10-13"
+  },
+  "bceao:https://www.bceao.int/fr/appels-offres/renovation-du-systeme-de-climatisation-dune-salle-serveurs-informatiques-lagence": {
+   "source": "bceao",
+   "reference": "non communiquée",
+   "objet": "Rénovation du système de climatisation d’une salle serveurs informatiques à l’Agence Principale de la BCEAO à Dakar",
+   "type": null,
+   "publieLe": "2026-10-13",
+   "dateLimite": "2026-10-30",
+   "url": "https://www.bceao.int/fr/appels-offres/renovation-du-systeme-de-climatisation-dune-salle-serveurs-informatiques-lagence",
+   "autorite": "BCEAO",
+   "vuLe": "2026-10-13"
   }
  }
 }

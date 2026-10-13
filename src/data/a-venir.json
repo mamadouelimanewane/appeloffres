@@ -1,114 +1,6 @@
 {
- "misAJourLe": "2026-10-12",
+ "misAJourLe": "2026-10-13",
  "realisations": [
-  {
-   "id": "ppm-bfd64ed9d4",
-   "autorite": "Ministère de l'Economie,  des Finances et du Plan",
-   "plan": "MFB_2026_3",
-   "direction": "Direction de l'Administration et du personnel (DGB/DAP)",
-   "reference": "C_MFB_DGB_2519",
-   "objet": "Formation du personnel de la DAP Excel avancé, Word, Powerpoint, rédaction administrative",
-   "typeMarche": "Prestation intellectuelle",
-   "secteur": "Services",
-   "financement": [
-    "Budget propre"
-   ],
-   "mode": "Demande de renseignement et de prix à compétition restreinte",
-   "lancement": "2026-08-13",
-   "attribution": "2026-09-15",
-   "etat": null,
-   "montantFcfa": null
-  },
-  {
-   "id": "ppm-6cad35ce38",
-   "autorite": "Ministère de l'Economie,  des Finances et du Plan",
-   "plan": "MFB_2026_3",
-   "direction": "Direction Générale du Secteur Financier",
-   "reference": "S_MFB_DGSF_2666",
-   "objet": "Autres entretien et maintenance (entretien et maintenance du circuit électrique)",
-   "typeMarche": "Services",
-   "secteur": "Services",
-   "financement": [
-    "Budget propre"
-   ],
-   "mode": "Demande de renseignement et de prix à compétition restreinte",
-   "lancement": "2026-08-13",
-   "attribution": "2026-09-15",
-   "etat": null,
-   "montantFcfa": null
-  },
-  {
-   "id": "ppm-095bad9fea",
-   "autorite": "Société des Infrastructures de Réparation Navale",
-   "plan": "SIRN_2026_1",
-   "direction": "Direction Générale",
-   "reference": "C_SIRN_DIRGEN_12227",
-   "objet": "Séléction d'un consultation pour la mise à jour du mannuel de procédures de la SIRN",
-   "typeMarche": "Prestation intellectuelle",
-   "secteur": "Services",
-   "financement": [
-    "Budget propre"
-   ],
-   "mode": "Demande de renseignements et de prix à compétition ouverte",
-   "lancement": "2026-08-13",
-   "attribution": "2026-09-15",
-   "etat": null,
-   "montantFcfa": null
-  },
-  {
-   "id": "ppm-86e708d118",
-   "autorite": "Hôpital Général Idrissa POUYE",
-   "plan": "HOGIP_2026_1",
-   "direction": "Service Administratif et financier",
-   "reference": "F_HOGIP_SAF_12186",
-   "objet": "Achat de consommables Medico pharmaceutiques",
-   "typeMarche": "Fourniture",
-   "secteur": "Fournitures",
-   "financement": [
-    "Budget propre"
-   ],
-   "mode": "Appel d'offres ouvert",
-   "lancement": "2026-08-13",
-   "attribution": "2026-11-16",
-   "etat": null,
-   "montantFcfa": null
-  },
-  {
-   "id": "ppm-1871931ba0",
-   "autorite": "Office Nationale de l'Assainissement du Sénégal",
-   "plan": "ONAS_2026_3",
-   "direction": "Direction des Ressources Humaines",
-   "reference": "S_ONAS_DRH_12256",
-   "objet": "Recrutement d'un prestataire pour l'organisation de l'arbre de Noel",
-   "typeMarche": "Services",
-   "secteur": "Études",
-   "financement": [
-    "Budget propre"
-   ],
-   "mode": "Appel d'offres ouvert",
-   "lancement": "2026-08-13",
-   "attribution": "2026-12-07",
-   "etat": null,
-   "montantFcfa": null
-  },
-  {
-   "id": "ppm-f6335236ff",
-   "autorite": "SENELEC",
-   "plan": "SENELEC_2026_4",
-   "direction": "Direction Transports",
-   "reference": "T_SENELEC_DT_9466",
-   "objet": "Réhabilitation de lignes : remplacement de tronçons de pylônes oxydés, reprise des embases oxydés, reprise et encastrement des MALT coupées, reprise câble de garde etc.)",
-   "typeMarche": "Travaux",
-   "secteur": "BTP",
-   "financement": [
-    "Budget propre"
-   ],
-   "mode": "Appel d'offres ouvert",
-   "lancement": "2026-08-13",
-   "attribution": "2026-11-16",
-   "etat": null,
-   "montantFcfa": null
-  },
   {
    "id": "ppm-9862e3455c",
    "autorite": "Port Autonome de Dakar",
@@ -2144,24 +2036,6 @@
    "montantFcfa": null
   },
   {
-   "id": "ppm-4142831ed3",
-   "autorite": "Autorité de Régulation des Télécommunications et des Postes (ARTP)",
-   "plan": "ARTP_2026_19",
-   "direction": "ARTP",
-   "reference": "T_ARTP_01_3716",
-   "objet": "Travaux de menuiserie (Aluminium, Bois, Fer Forge)",
-   "typeMarche": "Travaux",
-   "secteur": "BTP",
-   "financement": [
-    "Budget propre"
-   ],
-   "mode": "Demande de renseignement et de prix à compétition restreinte",
-   "lancement": "2026-09-01",
-   "attribution": "2026-10-02",
-   "etat": null,
-   "montantFcfa": null
-  },
-  {
    "id": "ppm-d1b5409afe",
    "autorite": "VILLE DE THIES",
    "plan": "VILLE_THIES_2032",
@@ -2176,6 +2050,24 @@
    "mode": "Demande de renseignement et de prix à compétition restreinte",
    "lancement": "2026-09-01",
    "attribution": "2026-09-11",
+   "etat": null,
+   "montantFcfa": null
+  },
+  {
+   "id": "ppm-e1e02d04ef",
+   "autorite": "Autorité de Régulation des Télécommunications et des Postes (ARTP)",
+   "plan": "ARTP_2026_20",
+   "direction": "ARTP",
+   "reference": "T_ARTP_01_3716",
+   "objet": "Travaux de menuiserie (Aluminium, Bois, Fer Forge)",
+   "typeMarche": "Travaux",
+   "secteur": "BTP",
+   "financement": [
+    "Budget propre"
+   ],
+   "mode": "Demande de renseignement et de prix à compétition restreinte",
+   "lancement": "2026-09-01",
+   "attribution": "2026-10-02",
    "etat": null,
    "montantFcfa": null
   },
@@ -3458,9 +3350,9 @@
    "montantFcfa": null
   },
   {
-   "id": "ppm-5386f09ac3",
+   "id": "ppm-e674ac7de5",
    "autorite": "Autorité de Régulation des Télécommunications et des Postes (ARTP)",
-   "plan": "ARTP_2026_19",
+   "plan": "ARTP_2026_20",
    "direction": "ARTP",
    "reference": "F_ARTP_01_17600",
    "objet": "Acquisition de quatre modules de puissance 20 kva pour onduleur Delta",
@@ -4502,9 +4394,9 @@
    "montantFcfa": null
   },
   {
-   "id": "ppm-d50a043108",
+   "id": "ppm-03cfd72f15",
    "autorite": "Autorité de Régulation des Télécommunications et des Postes (ARTP)",
-   "plan": "ARTP_2026_19",
+   "plan": "ARTP_2026_20",
    "direction": "ARTP",
    "reference": "S_ARTP_01_17599",
    "objet": "Relance marché N° S_ARTP_059 / S_ARTP_01_3749 \"Sélection d’un prestataire pour l’entretien et la réparation des véhicules du parc auto de l’ARTP en trois lots\" Lot 2 : Toyota",
@@ -4520,9 +4412,9 @@
    "montantFcfa": null
   },
   {
-   "id": "ppm-e5d5a10558",
+   "id": "ppm-9ef7aee837",
    "autorite": "Autorité de Régulation des Télécommunications et des Postes (ARTP)",
-   "plan": "ARTP_2026_19",
+   "plan": "ARTP_2026_20",
    "direction": "ARTP",
    "reference": "T_ARTP_01_18285",
    "objet": "Travaux de mise en conformité de l'alimentation électrique générale du Siège de l'ARTP, du local groupe électrogène au local TGBT (Tableau Général Basse Tension)",
@@ -5204,24 +5096,6 @@
    "montantFcfa": null
   },
   {
-   "id": "ppm-c068207ca6",
-   "autorite": "Ville de Guédiawaye",
-   "plan": "VG_2026_6",
-   "direction": "Direction des services Techniques VG",
-   "reference": "T_VG_DST_18387",
-   "objet": "CONSTRUCTION DE SALLES DE CLASSES, CONSTRUCTION DE SALLE MULTI-SPORTS, CONSTRUCTION DE CENTRE D'HEBERGEMENT SPORTIF PHASE 2",
-   "typeMarche": "Travaux",
-   "secteur": "BTP",
-   "financement": [
-    "Budget propre"
-   ],
-   "mode": "Appel d'offres ouvert",
-   "lancement": "2026-10-07",
-   "attribution": "2026-11-23",
-   "etat": null,
-   "montantFcfa": null
-  },
-  {
    "id": "ppm-5a1d7abc50",
    "autorite": "SENPNA",
    "plan": "SENPNA_2026_13",
@@ -5272,24 +5146,6 @@
    "mode": "Appel d'offres ouvert",
    "lancement": "2026-10-08",
    "attribution": "2027-02-01",
-   "etat": null,
-   "montantFcfa": null
-  },
-  {
-   "id": "ppm-7785b27449",
-   "autorite": "Ville de Guédiawaye",
-   "plan": "VG_2026_6",
-   "direction": "Division de l'Administration Générale et des Finances VG",
-   "reference": "F_VG_DAF_18389",
-   "objet": "ACQUISITION DE COUPES, RECOMPENSES ET PRIX",
-   "typeMarche": "Fourniture",
-   "secteur": "Fournitures",
-   "financement": [
-    "Budget propre"
-   ],
-   "mode": "Demande de renseignement et de prix à compétition restreinte",
-   "lancement": "2026-10-08",
-   "attribution": "2026-10-20",
    "etat": null,
    "montantFcfa": null
   },
@@ -5366,9 +5222,9 @@
    "montantFcfa": null
   },
   {
-   "id": "ppm-d1581c7a6b",
+   "id": "ppm-19b4d315b6",
    "autorite": "Ville de Guédiawaye",
-   "plan": "VG_2026_6",
+   "plan": "VG_2026_7",
    "direction": "Division de l'Administration Générale et des Finances VG",
    "reference": "F_VG_DAF_18390",
    "objet": "ACQUISITION DE MACHINES ET APPAREILS DE BUREAUX, APPAREILS DE VENTILATIONS ET DE CLIMATISATION",
@@ -5380,42 +5236,6 @@
    "mode": "Demande de renseignement et de prix à compétition restreinte",
    "lancement": "2026-10-09",
    "attribution": "2026-10-20",
-   "etat": null,
-   "montantFcfa": null
-  },
-  {
-   "id": "ppm-ded8103e2d",
-   "autorite": "Ville de Guédiawaye",
-   "plan": "VG_2026_6",
-   "direction": "Division de l'Administration Générale et des Finances VG",
-   "reference": "F_VG_DAF_18303",
-   "objet": "ACQUISATION DE FOURNITURES DE BUREAUX",
-   "typeMarche": "Fourniture",
-   "secteur": "Fournitures",
-   "financement": [
-    "Budget propre"
-   ],
-   "mode": "Demande de renseignements et de prix à compétition ouverte",
-   "lancement": "2026-10-11",
-   "attribution": "2026-11-03",
-   "etat": null,
-   "montantFcfa": null
-  },
-  {
-   "id": "ppm-ff29f8ab06",
-   "autorite": "Ville de Guédiawaye",
-   "plan": "VG_2026_6",
-   "direction": "Division de l'Administration Générale et des Finances VG",
-   "reference": "F_VG_DAF_3683",
-   "objet": "HABILLEMENT DU PERSONNEL",
-   "typeMarche": "Fourniture",
-   "secteur": "Fournitures",
-   "financement": [
-    "Budget propre"
-   ],
-   "mode": "Demande de renseignement et de prix à compétition restreinte",
-   "lancement": "2026-10-11",
-   "attribution": "2026-10-22",
    "etat": null,
    "montantFcfa": null
   },
@@ -5452,24 +5272,6 @@
    "mode": "Appel d'offres ouvert international",
    "lancement": "2026-10-12",
    "attribution": "2026-12-18",
-   "etat": null,
-   "montantFcfa": null
-  },
-  {
-   "id": "ppm-fd4a190809",
-   "autorite": "Ville de Guédiawaye",
-   "plan": "VG_2026_6",
-   "direction": "Direction des services Techniques VG",
-   "reference": "T_VG_DST_18388",
-   "objet": "GROSSES REPARATIONS AUX EQUIPEMENTS SANITAIRES, GROSSES REPARATIONS AUX EQUIPEMENTS SCOLAIRES, AUTRES OPERATIONS DE VOIRIE (PAVAGE), ENTRETIEN DIVERS",
-   "typeMarche": "Travaux",
-   "secteur": "BTP",
-   "financement": [
-    "Budget propre"
-   ],
-   "mode": "Appel d'offres ouvert",
-   "lancement": "2026-10-12",
-   "attribution": "2026-11-26",
    "etat": null,
    "montantFcfa": null
   },
@@ -5528,9 +5330,9 @@
    "montantFcfa": null
   },
   {
-   "id": "ppm-7570b6494e",
+   "id": "ppm-8b1dddedd9",
    "autorite": "Ville de Guédiawaye",
-   "plan": "VG_2026_6",
+   "plan": "VG_2026_7",
    "direction": "Division de l'Administration Générale et des Finances VG",
    "reference": "F_VG_DAF_18392",
    "objet": "ACQUISITION DE PRODUITS D'ENTRETIEN, DE DESINFECTION ET D'HYGIENE",
@@ -5582,9 +5384,9 @@
    "montantFcfa": null
   },
   {
-   "id": "ppm-b14e732964",
+   "id": "ppm-254818130b",
    "autorite": "Ville de Guédiawaye",
-   "plan": "VG_2026_6",
+   "plan": "VG_2026_7",
    "direction": "Division de l'Administration Générale et des Finances VG",
    "reference": "F_VG_DAF_18391",
    "objet": "ACQUISITION DE MATERIELS ET MOBILIERS SCOLAIRES, ACQUISITION DE FOURNITURES SCOLAIRES",
@@ -5596,6 +5398,24 @@
    "mode": "Appel d'offres ouvert",
    "lancement": "2026-10-14",
    "attribution": "2026-10-28",
+   "etat": null,
+   "montantFcfa": null
+  },
+  {
+   "id": "ppm-366f7fc92a",
+   "autorite": "Ville de Guédiawaye",
+   "plan": "VG_2026_7",
+   "direction": "Direction des services Techniques VG",
+   "reference": "T_VG_DST_18387",
+   "objet": "CONSTRUCTION DE SALLES DE CLASSES, CONSTRUCTION DE SALLE MULTI-SPORTS, CONSTRUCTION DE CENTRE D'HEBERGEMENT SPORTIF PHASE 2",
+   "typeMarche": "Travaux",
+   "secteur": "BTP",
+   "financement": [
+    "Budget propre"
+   ],
+   "mode": "Appel d'offres ouvert",
+   "lancement": "2026-10-14",
+   "attribution": "2026-11-30",
    "etat": null,
    "montantFcfa": null
   },
@@ -5636,12 +5456,12 @@
    "montantFcfa": null
   },
   {
-   "id": "ppm-d53de3efd4",
-   "autorite": "Autorité de Régulation des Télécommunications et des Postes (ARTP)",
-   "plan": "ARTP_2026_19",
-   "direction": "ARTP",
-   "reference": "F_ARTP_01_3725",
-   "objet": "Acquisition de gadgets et de bagageries (goodies, agendas led hitech, sacs, portes travail ordinateurs, étui téléphones, gourdes…)",
+   "id": "ppm-7bd5ef1094",
+   "autorite": "SENPNA",
+   "plan": "SENPNA_2026_13",
+   "direction": "SECRETARIAT GENERAL-SERVICE DES SYSTEMES D'INFORMATION GLOBALE",
+   "reference": "F_SENPNA_SG-SIG_13486",
+   "objet": "Acquisition et fourniture de DUA et implémentions des modules Eloficash et Youdoc à Sage ERPX3 v12 de la SEN PNA",
    "typeMarche": "Fourniture",
    "secteur": "Fournitures",
    "financement": [
@@ -5654,9 +5474,9 @@
    "montantFcfa": null
   },
   {
-   "id": "ppm-5a28f1c8ca",
+   "id": "ppm-940d9a636d",
    "autorite": "Ville de Guédiawaye",
-   "plan": "VG_2026_6",
+   "plan": "VG_2026_7",
    "direction": "Division de l'Administration Générale et des Finances VG",
    "reference": "F_VG_DAF_18393",
    "objet": "ACHAT DE TICKETS DE PERCEPTION",
@@ -5672,20 +5492,20 @@
    "montantFcfa": null
   },
   {
-   "id": "ppm-7bd5ef1094",
-   "autorite": "SENPNA",
-   "plan": "SENPNA_2026_13",
-   "direction": "SECRETARIAT GENERAL-SERVICE DES SYSTEMES D'INFORMATION GLOBALE",
-   "reference": "F_SENPNA_SG-SIG_13486",
-   "objet": "Acquisition et fourniture de DUA et implémentions des modules Eloficash et Youdoc à Sage ERPX3 v12 de la SEN PNA",
+   "id": "ppm-ffbbb7a039",
+   "autorite": "Ville de Guédiawaye",
+   "plan": "VG_2026_7",
+   "direction": "Division de l'Administration Générale et des Finances VG",
+   "reference": "F_VG_DAF_3683",
+   "objet": "HABILLEMENT DU PERSONNEL",
    "typeMarche": "Fourniture",
    "secteur": "Fournitures",
    "financement": [
     "Budget propre"
    ],
-   "mode": "Appel d'offres ouvert",
+   "mode": "Demande de renseignement et de prix à compétition restreinte",
    "lancement": "2026-10-15",
-   "attribution": "2027-02-08",
+   "attribution": "2026-10-27",
    "etat": null,
    "montantFcfa": null
   },
@@ -5816,6 +5636,24 @@
    "montantFcfa": null
   },
   {
+   "id": "ppm-8034b33403",
+   "autorite": "Autorité de Régulation des Télécommunications et des Postes (ARTP)",
+   "plan": "ARTP_2026_20",
+   "direction": "ARTP",
+   "reference": "F_ARTP_01_3725",
+   "objet": "Acquisition de gadgets et de bagageries (goodies, tote bag, coffrets produits Sénégal…)",
+   "typeMarche": "Fourniture",
+   "secteur": "Fournitures",
+   "financement": [
+    "Budget propre"
+   ],
+   "mode": "Demande de renseignement et de prix à compétition restreinte",
+   "lancement": "2026-10-15",
+   "attribution": "2027-02-08",
+   "etat": null,
+   "montantFcfa": null
+  },
+  {
    "id": "ppm-558019ef92",
    "autorite": "SENELEC",
    "plan": "P_SENELEC_2026_2",
@@ -5942,6 +5780,42 @@
    "montantFcfa": null
   },
   {
+   "id": "ppm-7b691ef626",
+   "autorite": "Ville de Guédiawaye",
+   "plan": "VG_2026_7",
+   "direction": "Division de l'Administration Générale et des Finances VG",
+   "reference": "F_VG_DAF_18389",
+   "objet": "ACQUISITION DE COUPES, RECOMPENSES ET PRIX",
+   "typeMarche": "Fourniture",
+   "secteur": "Fournitures",
+   "financement": [
+    "Budget propre"
+   ],
+   "mode": "Demande de renseignement et de prix à compétition restreinte",
+   "lancement": "2026-10-16",
+   "attribution": "2026-10-27",
+   "etat": null,
+   "montantFcfa": null
+  },
+  {
+   "id": "ppm-4e3022cf4a",
+   "autorite": "Ville de Guédiawaye",
+   "plan": "VG_2026_7",
+   "direction": "Division de l'Administration Générale et des Finances VG",
+   "reference": "F_VG_DAF_18303",
+   "objet": "ACQUISATION DE FOURNITURES DE BUREAUX",
+   "typeMarche": "Fourniture",
+   "secteur": "Fournitures",
+   "financement": [
+    "Budget propre"
+   ],
+   "mode": "Demande de renseignements et de prix à compétition ouverte",
+   "lancement": "2026-10-16",
+   "attribution": "2026-11-10",
+   "etat": null,
+   "montantFcfa": null
+  },
+  {
    "id": "ppm-17d7c9e061",
    "autorite": "Ministère de l'Intérieur et de la Sécurité Publique",
    "plan": "MISP_2026_2",
@@ -5992,6 +5866,24 @@
    "mode": "Demande de renseignements et de  prix simple",
    "lancement": "2026-10-19",
    "attribution": "2026-10-26",
+   "etat": null,
+   "montantFcfa": null
+  },
+  {
+   "id": "ppm-7b9ffceb69",
+   "autorite": "Ville de Guédiawaye",
+   "plan": "VG_2026_7",
+   "direction": "Direction des services Techniques VG",
+   "reference": "T_VG_DST_18388",
+   "objet": "GROSSES REPARATIONS AUX EQUIPEMENTS SANITAIRES, GROSSES REPARATIONS AUX EQUIPEMENTS SCOLAIRES, AUTRES OPERATIONS DE VOIRIE (PAVAGE), ENTRETIEN DIVERS",
+   "typeMarche": "Travaux",
+   "secteur": "BTP",
+   "financement": [
+    "Budget propre"
+   ],
+   "mode": "Appel d'offres ouvert",
+   "lancement": "2026-10-19",
+   "attribution": "2026-12-07",
    "etat": null,
    "montantFcfa": null
   },
@@ -6302,9 +6194,9 @@
    "montantFcfa": null
   },
   {
-   "id": "ppm-a7cb39f56c",
+   "id": "ppm-64c5e148f3",
    "autorite": "Autorité de Régulation des Télécommunications et des Postes (ARTP)",
-   "plan": "ARTP_2026_19",
+   "plan": "ARTP_2026_20",
    "direction": "ARTP",
    "reference": "S_ARTP_01_3745",
    "objet": "Recrutement d’une agence événementielle",
@@ -6320,9 +6212,9 @@
    "montantFcfa": null
   },
   {
-   "id": "ppm-9f45183bf7",
+   "id": "ppm-15f6470e0c",
    "autorite": "Autorité de Régulation des Télécommunications et des Postes (ARTP)",
-   "plan": "ARTP_2026_19",
+   "plan": "ARTP_2026_20",
    "direction": "ARTP",
    "reference": "F_ARTP_01_3724",
    "objet": "Acquisition de trophées de prestige personnalisés destinés aux hôtes du Directeur général (partenaires, chefs d'entreprises, Ambassadeurs)",
@@ -6338,9 +6230,9 @@
    "montantFcfa": null
   },
   {
-   "id": "ppm-45752a6716",
+   "id": "ppm-570d9c9bb7",
    "autorite": "Autorité de Régulation des Télécommunications et des Postes (ARTP)",
-   "plan": "ARTP_2026_19",
+   "plan": "ARTP_2026_20",
    "direction": "ARTP",
    "reference": "T_ARTP_01_3714",
    "objet": "Travaux de rénovation du siège de l’ARTP, phase 2 (peinture, revêtement, esthétique)",
@@ -6356,9 +6248,9 @@
    "montantFcfa": null
   },
   {
-   "id": "ppm-d604545476",
+   "id": "ppm-1ae5e4d80e",
    "autorite": "Autorité de Régulation des Télécommunications et des Postes (ARTP)",
-   "plan": "ARTP_2026_19",
+   "plan": "ARTP_2026_20",
    "direction": "ARTP",
    "reference": "T_ARTP_01_18286",
    "objet": "Aménagement d'une salle polyvalente au 5ème étage du bâtiment A",
@@ -7742,9 +7634,9 @@
    "montantFcfa": null
   },
   {
-   "id": "ppm-7964aa1f05",
+   "id": "ppm-44f8974910",
    "autorite": "Autorité de Régulation des Télécommunications et des Postes (ARTP)",
-   "plan": "ARTP_2026_19",
+   "plan": "ARTP_2026_20",
    "direction": "ARTP",
    "reference": "S_ARTP_01_11388",
    "objet": "Sélection d'un prestataire pour l'organisation d'un team building",
@@ -7760,9 +7652,9 @@
    "montantFcfa": null
   },
   {
-   "id": "ppm-4eca368932",
+   "id": "ppm-6d77b6b510",
    "autorite": "Autorité de Régulation des Télécommunications et des Postes (ARTP)",
-   "plan": "ARTP_2026_19",
+   "plan": "ARTP_2026_20",
    "direction": "ARTP",
    "reference": "T_ARTP_01_3713",
    "objet": "Travaux de construction d'un mur de clôture pour le site de Khombole",
@@ -7922,9 +7814,9 @@
    "montantFcfa": null
   },
   {
-   "id": "ppm-be74da0a96",
+   "id": "ppm-3b2de9f73c",
    "autorite": "Autorité de Régulation des Télécommunications et des Postes (ARTP)",
-   "plan": "ARTP_2026_19",
+   "plan": "ARTP_2026_20",
    "direction": "ARTP",
    "reference": "S_ARTP_01_18149",
    "objet": "Entretien, maintenance et réparation des installations de menuiserie (Aluminium, Bois et Fer Forgé) des sites de l’ARTP",
@@ -7940,9 +7832,9 @@
    "montantFcfa": null
   },
   {
-   "id": "ppm-c3aa32b94b",
+   "id": "ppm-38ac0c2c8b",
    "autorite": "Autorité de Régulation des Télécommunications et des Postes (ARTP)",
-   "plan": "ARTP_2026_19",
+   "plan": "ARTP_2026_20",
    "direction": "ARTP",
    "reference": "S_ARTP_01_3748",
    "objet": "Sélection d'un prestataire pour l’organisation d’un Arbre de Noel et cérémonie des vœux",

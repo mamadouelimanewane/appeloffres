@@ -51282,1428 +51282,6 @@
   "montantFcfa": null
  },
  {
-  "autorite": "Autorité de Régulation des Télécommunications et des Postes (ARTP)",
-  "plan": "ARTP_2026_19",
-  "direction": "ARTP",
-  "reference": "F_ARTP_01_12014",
-  "objet": "Acquisition de smartphones",
-  "typeMarche": "Fourniture",
-  "financement": [
-   "Budget propre"
-  ],
-  "mode": "Demande de renseignement et de prix à compétition restreinte",
-  "lancement": "2026-06-22",
-  "attribution": "2026-07-23",
-  "demarrage": "2026-08-05",
-  "achevement": null,
-  "etat": null,
-  "montantFcfa": null
- },
- {
-  "autorite": "Autorité de Régulation des Télécommunications et des Postes (ARTP)",
-  "plan": "ARTP_2026_19",
-  "direction": "ARTP",
-  "reference": "C_ARTP_01_3710",
-  "objet": "Recrutement d’un consultant pour un accompagnement sur les sujets économiques",
-  "typeMarche": "Prestation intellectuelle",
-  "financement": [
-   "Budget propre"
-  ],
-  "mode": "Demande de renseignement et de prix à compétition restreinte",
-  "lancement": "2026-05-15",
-  "attribution": "2026-06-17",
-  "demarrage": "2026-06-30",
-  "achevement": null,
-  "etat": null,
-  "montantFcfa": null
- },
- {
-  "autorite": "Autorité de Régulation des Télécommunications et des Postes (ARTP)",
-  "plan": "ARTP_2026_19",
-  "direction": "ARTP",
-  "reference": "F_ARTP_01_3731",
-  "objet": "Acquisition de fournitures de bureau et consommables informatiques en deux lots lot 1 : Fournitures de bureau Lot 2 : Consommables informatiques",
-  "typeMarche": "Fourniture",
-  "financement": [
-   "Budget propre"
-  ],
-  "mode": "Appel d'offres ouvert",
-  "lancement": "2026-06-30",
-  "attribution": "2026-10-28",
-  "demarrage": "2027-04-28",
-  "achevement": null,
-  "etat": null,
-  "montantFcfa": null
- },
- {
-  "autorite": "Autorité de Régulation des Télécommunications et des Postes (ARTP)",
-  "plan": "ARTP_2026_19",
-  "direction": "ARTP",
-  "reference": "F_ARTP_01_3732",
-  "objet": "Approvisionnement en eau en deux lots : lot 1 : Eau pour consommation interne lot 2 : Eau pour événements religieux",
-  "typeMarche": "Fourniture",
-  "financement": [
-   "Budget propre"
-  ],
-  "mode": "Demande de renseignements et de prix à compétition ouverte",
-  "lancement": "2026-06-05",
-  "attribution": "2026-07-09",
-  "demarrage": "2026-08-21",
-  "achevement": null,
-  "etat": null,
-  "montantFcfa": null
- },
- {
-  "autorite": "Autorité de Régulation des Télécommunications et des Postes (ARTP)",
-  "plan": "ARTP_2026_19",
-  "direction": "ARTP",
-  "reference": "S_ARTP_01_3733",
-  "objet": "Sélection d’un prestataire pour assurer l'étalonnage et la calibration des équipements de radio surveillance",
-  "typeMarche": "Services",
-  "financement": [
-   "Budget propre"
-  ],
-  "mode": "Appel d'offres ouvert",
-  "lancement": "2026-05-01",
-  "attribution": "2026-08-31",
-  "demarrage": "2027-03-01",
-  "achevement": null,
-  "etat": null,
-  "montantFcfa": null
- },
- {
-  "autorite": "Autorité de Régulation des Télécommunications et des Postes (ARTP)",
-  "plan": "ARTP_2026_19",
-  "direction": "ARTP",
-  "reference": "S_ARTP_01_5144",
-  "objet": "Sélection d’un prestataire pour le nettoiement du parc automobile de l’ARTP",
-  "typeMarche": "Services",
-  "financement": [
-   "Budget propre"
-  ],
-  "mode": "Demande de renseignements et de  prix simple",
-  "lancement": "2026-02-06",
-  "attribution": "2026-02-16",
-  "demarrage": "2026-02-16",
-  "achevement": null,
-  "etat": null,
-  "montantFcfa": null
- },
- {
-  "autorite": "Autorité de Régulation des Télécommunications et des Postes (ARTP)",
-  "plan": "ARTP_2026_19",
-  "direction": "ARTP",
-  "reference": "S_ARTP_01_6141",
-  "objet": "Désherbage, déreptilisation, désinsectisation et dératisation des sites de l'ARTP (siège, Khombole et Matam)",
-  "typeMarche": "Services",
-  "financement": [
-   "Budget propre"
-  ],
-  "mode": "Demande de renseignement et de prix à compétition restreinte",
-  "lancement": "2026-02-17",
-  "attribution": "2026-03-20",
-  "demarrage": "2026-04-02",
-  "achevement": null,
-  "etat": null,
-  "montantFcfa": null
- },
- {
-  "autorite": "Autorité de Régulation des Télécommunications et des Postes (ARTP)",
-  "plan": "ARTP_2026_19",
-  "direction": "ARTP",
-  "reference": "S_ARTP_01_3741",
-  "objet": "Maintenance du SIGAF",
-  "typeMarche": "Services",
-  "financement": [
-   "Budget propre"
-  ],
-  "mode": "Appel d'offres ouvert",
-  "lancement": "2026-07-01",
-  "attribution": "2026-10-29",
-  "demarrage": "2027-04-29",
-  "achevement": null,
-  "etat": null,
-  "montantFcfa": null
- },
- {
-  "autorite": "Autorité de Régulation des Télécommunications et des Postes (ARTP)",
-  "plan": "ARTP_2026_19",
-  "direction": "ARTP",
-  "reference": "F_ARTP_01_3722",
-  "objet": "Acquisition de matériels informatiques en six (6) lots",
-  "typeMarche": "Fourniture",
-  "financement": [
-   "Budget propre"
-  ],
-  "mode": "Appel d'offres ouvert",
-  "lancement": "2026-03-31",
-  "attribution": "2026-07-29",
-  "demarrage": "2027-01-27",
-  "achevement": null,
-  "etat": null,
-  "montantFcfa": null
- },
- {
-  "autorite": "Autorité de Régulation des Télécommunications et des Postes (ARTP)",
-  "plan": "ARTP_2026_19",
-  "direction": "ARTP",
-  "reference": "F_ARTP_01_3730",
-  "objet": "Fourniture de matériels et produits d’entretien",
-  "typeMarche": "Fourniture",
-  "financement": [
-   "Budget propre"
-  ],
-  "mode": "Demande de renseignement et de prix à compétition restreinte",
-  "lancement": "2026-06-19",
-  "attribution": "2026-07-22",
-  "demarrage": "2026-08-04",
-  "achevement": null,
-  "etat": null,
-  "montantFcfa": null
- },
- {
-  "autorite": "Autorité de Régulation des Télécommunications et des Postes (ARTP)",
-  "plan": "ARTP_2026_19",
-  "direction": "ARTP",
-  "reference": "S_ARTP_01_1402",
-  "objet": "Sélection d’un médecin d'entreprise",
-  "typeMarche": "Services",
-  "financement": [
-   "Budget propre"
-  ],
-  "mode": "Demande de renseignement et de prix à compétition restreinte",
-  "lancement": "2026-05-07",
-  "attribution": "2026-06-09",
-  "demarrage": "2026-06-22",
-  "achevement": null,
-  "etat": null,
-  "montantFcfa": null
- },
- {
-  "autorite": "Autorité de Régulation des Télécommunications et des Postes (ARTP)",
-  "plan": "ARTP_2026_19",
-  "direction": "ARTP",
-  "reference": "S_ARTP_01_7606",
-  "objet": "Entretien des espaces verts du siège",
-  "typeMarche": "Services",
-  "financement": [
-   "Budget propre"
-  ],
-  "mode": "Demande de renseignements et de  prix simple",
-  "lancement": "2026-06-30",
-  "attribution": "2026-07-08",
-  "demarrage": "2026-07-08",
-  "achevement": null,
-  "etat": null,
-  "montantFcfa": null
- },
- {
-  "autorite": "Autorité de Régulation des Télécommunications et des Postes (ARTP)",
-  "plan": "ARTP_2026_19",
-  "direction": "ARTP",
-  "reference": "F_ARTP_01_3725",
-  "objet": "Acquisition de gadgets et de bagageries (goodies, agendas led hitech, sacs, portes travail ordinateurs, étui téléphones, gourdes…)",
-  "typeMarche": "Fourniture",
-  "financement": [
-   "Budget propre"
-  ],
-  "mode": "Appel d'offres ouvert",
-  "lancement": "2026-10-15",
-  "attribution": "2027-02-08",
-  "demarrage": "2027-04-05",
-  "achevement": null,
-  "etat": null,
-  "montantFcfa": null
- },
- {
-  "autorite": "Autorité de Régulation des Télécommunications et des Postes (ARTP)",
-  "plan": "ARTP_2026_19",
-  "direction": "ARTP",
-  "reference": "S_ARTP_01_3472",
-  "objet": "Sélection d’un prestataire pour le service traiteur",
-  "typeMarche": "Services",
-  "financement": [
-   "Budget propre"
-  ],
-  "mode": "Demande de renseignement et de prix à compétition restreinte",
-  "lancement": "2026-03-04",
-  "attribution": "2026-03-27",
-  "demarrage": "2026-04-09",
-  "achevement": null,
-  "etat": null,
-  "montantFcfa": null
- },
- {
-  "autorite": "Autorité de Régulation des Télécommunications et des Postes (ARTP)",
-  "plan": "ARTP_2026_19",
-  "direction": "ARTP",
-  "reference": "F_ARTP_01_3723",
-  "objet": "Acquisition de licences et logiciels en dix (10) lots (logiciel Manage Engine, renouvellement, licence Fortinet, logiciel divers (statistique, Adobe, etc), licence Microsoft, renouvellement SAGE, solution de télétravail, licence ELK, outil de pentest...)",
-  "typeMarche": "Fourniture",
-  "financement": [
-   "Budget propre"
-  ],
-  "mode": "Appel d'offres ouvert",
-  "lancement": "2026-04-28",
-  "attribution": "2026-08-26",
-  "demarrage": "2027-02-24",
-  "achevement": null,
-  "etat": null,
-  "montantFcfa": null
- },
- {
-  "autorite": "Autorité de Régulation des Télécommunications et des Postes (ARTP)",
-  "plan": "ARTP_2026_19",
-  "direction": "ARTP",
-  "reference": "S_ARTP_01_3750",
-  "objet": "Sélection d’un prestataire pour l’entretien et la réparation des lots techniques en trois (3) lots: lot 1 : Electricité lot 2 : Onduleurs et groupes électrogènes lot 3 : Sécurité Incendie",
-  "typeMarche": "Services",
-  "financement": [
-   "Budget propre"
-  ],
-  "mode": "Demande de renseignement et de prix à compétition restreinte",
-  "lancement": "2026-03-16",
-  "attribution": "2026-04-16",
-  "demarrage": "2026-04-29",
-  "achevement": null,
-  "etat": null,
-  "montantFcfa": null
- },
- {
-  "autorite": "Autorité de Régulation des Télécommunications et des Postes (ARTP)",
-  "plan": "ARTP_2026_19",
-  "direction": "ARTP",
-  "reference": "T_ARTP_01_7607",
-  "objet": "Démontage et réinstallation de l'infrastructure RNT",
-  "typeMarche": "Travaux",
-  "financement": [
-   "Budget propre"
-  ],
-  "mode": "Demande de renseignements et de  prix simple",
-  "lancement": "2026-03-11",
-  "attribution": "2026-03-19",
-  "demarrage": "2026-03-19",
-  "achevement": null,
-  "etat": null,
-  "montantFcfa": null
- },
- {
-  "autorite": "Autorité de Régulation des Télécommunications et des Postes (ARTP)",
-  "plan": "ARTP_2026_19",
-  "direction": "ARTP",
-  "reference": "F_ARTP_01_8566",
-  "objet": "Fourniture et installation d'un simplex Otis",
-  "typeMarche": "Fourniture",
-  "financement": [
-   "Budget propre"
-  ],
-  "mode": "Demande de renseignements et de prix à compétition ouverte",
-  "lancement": "2026-03-30",
-  "attribution": "2026-04-30",
-  "demarrage": "2026-06-12",
-  "achevement": null,
-  "etat": null,
-  "montantFcfa": null
- },
- {
-  "autorite": "Autorité de Régulation des Télécommunications et des Postes (ARTP)",
-  "plan": "ARTP_2026_19",
-  "direction": "ARTP",
-  "reference": "F_ARTP_01_7772",
-  "objet": "Acquisition de matériels d'inventaire",
-  "typeMarche": "Fourniture",
-  "financement": [
-   "Budget propre"
-  ],
-  "mode": "Demande de renseignement et de prix à compétition restreinte",
-  "lancement": "2026-03-13",
-  "attribution": "2026-04-15",
-  "demarrage": "2026-04-28",
-  "achevement": null,
-  "etat": null,
-  "montantFcfa": null
- },
- {
-  "autorite": "Autorité de Régulation des Télécommunications et des Postes (ARTP)",
-  "plan": "ARTP_2026_19",
-  "direction": "ARTP",
-  "reference": "S_ARTP_01_3754",
-  "objet": "Sélection d’un prestataire pour l’entretien et la maintenance de la plomberie",
-  "typeMarche": "Services",
-  "financement": [
-   "Budget propre"
-  ],
-  "mode": "Demande de renseignement et de prix à compétition restreinte",
-  "lancement": "2026-03-16",
-  "attribution": "2026-04-16",
-  "demarrage": "2026-04-29",
-  "achevement": null,
-  "etat": null,
-  "montantFcfa": null
- },
- {
-  "autorite": "Autorité de Régulation des Télécommunications et des Postes (ARTP)",
-  "plan": "ARTP_2026_19",
-  "direction": "ARTP",
-  "reference": "S_ARTP_01_3752",
-  "objet": "Sélection de compagnie d’assurances en 2 lots : Lot 1 : Assurance du parc automobile Lot 2 : Assurance multirisque professionnelle",
-  "typeMarche": "Services",
-  "financement": [
-   "Budget propre"
-  ],
-  "mode": "Demande de renseignement et de prix à compétition restreinte",
-  "lancement": "2026-04-08",
-  "attribution": "2026-05-11",
-  "demarrage": "2026-05-22",
-  "achevement": null,
-  "etat": null,
-  "montantFcfa": null
- },
- {
-  "autorite": "Autorité de Régulation des Télécommunications et des Postes (ARTP)",
-  "plan": "ARTP_2026_19",
-  "direction": "ARTP",
-  "reference": "S_ARTP_01_3473",
-  "objet": "Sélection d’un prestataire pour la location de matériels de restauration",
-  "typeMarche": "Services",
-  "financement": [
-   "Budget propre"
-  ],
-  "mode": "Demande de renseignement et de prix à compétition restreinte",
-  "lancement": "2026-04-08",
-  "attribution": "2026-05-11",
-  "demarrage": "2026-05-22",
-  "achevement": null,
-  "etat": null,
-  "montantFcfa": null
- },
- {
-  "autorite": "Autorité de Régulation des Télécommunications et des Postes (ARTP)",
-  "plan": "ARTP_2026_19",
-  "direction": "ARTP",
-  "reference": "F_ARTP_01_9426",
-  "objet": "Acquisition de la plateforme Xcal manager (piloter des campagnes de mesure réseau (2G, 3G, 4G, 5G), superviser des équipements de test à distance Et analyser les performances radio en temps réel).",
-  "typeMarche": "Fourniture",
-  "financement": [
-   "Budget propre"
-  ],
-  "mode": "Appel d'offres ouvert international",
-  "lancement": "2026-06-01",
-  "attribution": "2026-07-31",
-  "demarrage": "2026-09-01",
-  "achevement": null,
-  "etat": null,
-  "montantFcfa": null
- },
- {
-  "autorite": "Autorité de Régulation des Télécommunications et des Postes (ARTP)",
-  "plan": "ARTP_2026_19",
-  "direction": "ARTP",
-  "reference": "F_ARTP_01_9425",
-  "objet": "Relance F-ARTP-002 : fourniture et livraison de produits de collation",
-  "typeMarche": "Fourniture",
-  "financement": [
-   "Budget propre"
-  ],
-  "mode": "Demande de renseignement et de prix à compétition restreinte",
-  "lancement": "2026-04-15",
-  "attribution": "2026-05-18",
-  "demarrage": "2026-05-29",
-  "achevement": null,
-  "etat": null,
-  "montantFcfa": null
- },
- {
-  "autorite": "Autorité de Régulation des Télécommunications et des Postes (ARTP)",
-  "plan": "ARTP_2026_19",
-  "direction": "ARTP",
-  "reference": "F_ARTP_01_9774",
-  "objet": "Acquisition de sanitaires",
-  "typeMarche": "Fourniture",
-  "financement": [
-   "Budget propre"
-  ],
-  "mode": "Demande de renseignement et de prix à compétition restreinte",
-  "lancement": "2026-04-20",
-  "attribution": "2026-05-21",
-  "demarrage": "2026-06-03",
-  "achevement": null,
-  "etat": null,
-  "montantFcfa": null
- },
- {
-  "autorite": "Autorité de Régulation des Télécommunications et des Postes (ARTP)",
-  "plan": "ARTP_2026_19",
-  "direction": "ARTP",
-  "reference": "F_ARTP_01_11387",
-  "objet": "Acquisition de denrées alimentaires",
-  "typeMarche": "Fourniture",
-  "financement": [
-   "Budget propre"
-  ],
-  "mode": "Demande de renseignement et de prix à compétition restreinte",
-  "lancement": "2026-06-18",
-  "attribution": "2026-07-21",
-  "demarrage": "2026-08-03",
-  "achevement": null,
-  "etat": null,
-  "montantFcfa": null
- },
- {
-  "autorite": "Autorité de Régulation des Télécommunications et des Postes (ARTP)",
-  "plan": "ARTP_2026_19",
-  "direction": "ARTP",
-  "reference": "S_ARTP_01_3739",
-  "objet": "Maintenance du Système d'information géographique des infrastructures de Télécommunications (SIGIT)",
-  "typeMarche": "Services",
-  "financement": [
-   "Budget propre"
-  ],
-  "mode": "Demande de renseignement et de prix à compétition restreinte",
-  "lancement": "2026-04-20",
-  "attribution": "2026-05-21",
-  "demarrage": "2026-06-03",
-  "achevement": null,
-  "etat": null,
-  "montantFcfa": null
- },
- {
-  "autorite": "Autorité de Régulation des Télécommunications et des Postes (ARTP)",
-  "plan": "ARTP_2026_19",
-  "direction": "ARTP",
-  "reference": "S_ARTP_01_3747",
-  "objet": "Sélection d'un prestataire pour l’organisation d’une colonie de vacances",
-  "typeMarche": "Services",
-  "financement": [
-   "Budget propre"
-  ],
-  "mode": "Demande de renseignements et de prix à compétition ouverte",
-  "lancement": "2026-06-30",
-  "attribution": "2026-07-31",
-  "demarrage": "2026-09-14",
-  "achevement": null,
-  "etat": null,
-  "montantFcfa": null
- },
- {
-  "autorite": "Autorité de Régulation des Télécommunications et des Postes (ARTP)",
-  "plan": "ARTP_2026_19",
-  "direction": "ARTP",
-  "reference": "S_ARTP_01_3745",
-  "objet": "Recrutement d’une agence événementielle",
-  "typeMarche": "Services",
-  "financement": [
-   "Budget propre"
-  ],
-  "mode": "Appel d'offres ouvert",
-  "lancement": "2026-10-30",
-  "attribution": "2027-02-23",
-  "demarrage": "2027-04-20",
-  "achevement": null,
-  "etat": null,
-  "montantFcfa": null
- },
- {
-  "autorite": "Autorité de Régulation des Télécommunications et des Postes (ARTP)",
-  "plan": "ARTP_2026_19",
-  "direction": "ARTP",
-  "reference": "F_ARTP_01_3724",
-  "objet": "Acquisition de trophées de prestige personnalisés destinés aux hôtes du Directeur général (partenaires, chefs d'entreprises, Ambassadeurs)",
-  "typeMarche": "Fourniture",
-  "financement": [
-   "Budget propre"
-  ],
-  "mode": "Demande de renseignement et de prix à compétition restreinte",
-  "lancement": "2026-10-30",
-  "attribution": "2026-12-02",
-  "demarrage": "2026-12-15",
-  "achevement": null,
-  "etat": null,
-  "montantFcfa": null
- },
- {
-  "autorite": "Autorité de Régulation des Télécommunications et des Postes (ARTP)",
-  "plan": "ARTP_2026_19",
-  "direction": "ARTP",
-  "reference": "S_ARTP_01_11388",
-  "objet": "Sélection d'un prestataire pour l'organisation d'un team building",
-  "typeMarche": "Services",
-  "financement": [
-   "Budget propre"
-  ],
-  "mode": "Demande de renseignement et de prix à compétition restreinte",
-  "lancement": "2026-11-03",
-  "attribution": "2026-12-04",
-  "demarrage": "2026-12-17",
-  "achevement": null,
-  "etat": null,
-  "montantFcfa": null
- },
- {
-  "autorite": "Autorité de Régulation des Télécommunications et des Postes (ARTP)",
-  "plan": "ARTP_2026_19",
-  "direction": "ARTP",
-  "reference": "S_ARTP_01_3734",
-  "objet": "Maintenance de la chaine de mesure QoS (connecteurs, batterie téléphone, modules de navigation)",
-  "typeMarche": "Services",
-  "financement": [
-   "Budget propre"
-  ],
-  "mode": "Demande de renseignements et de prix à compétition ouverte",
-  "lancement": "2026-06-30",
-  "attribution": "2026-08-03",
-  "demarrage": "2026-09-15",
-  "achevement": null,
-  "etat": null,
-  "montantFcfa": null
- },
- {
-  "autorite": "Autorité de Régulation des Télécommunications et des Postes (ARTP)",
-  "plan": "ARTP_2026_19",
-  "direction": "ARTP",
-  "reference": "S_ARTP_01_1403",
-  "objet": "Sélection d'un prestataire pour la maintenance, l'entretien et la réparation des installations de Plomberie des locaux de l'ARTP",
-  "typeMarche": "Services",
-  "financement": [
-   "Budget propre"
-  ],
-  "mode": "Demande de renseignement et de prix à compétition restreinte",
-  "lancement": "2026-03-12",
-  "attribution": "2026-04-27",
-  "demarrage": "2026-05-22",
-  "achevement": null,
-  "etat": null,
-  "montantFcfa": null
- },
- {
-  "autorite": "Autorité de Régulation des Télécommunications et des Postes (ARTP)",
-  "plan": "ARTP_2026_19",
-  "direction": "ARTP",
-  "reference": "S_ARTP_01_3749",
-  "objet": "Sélection d’un prestataire pour l’entretien et la réparation des véhicules du parc auto de l’ARTP en trois lots :\nLot 1 : Mitsubishi\nLot 2 : Toyota\nLot 3 : Autres marques",
-  "typeMarche": "Services",
-  "financement": [
-   "Budget propre"
-  ],
-  "mode": "Demande de renseignements et de prix à compétition ouverte",
-  "lancement": "2026-07-08",
-  "attribution": "2026-08-10",
-  "demarrage": "2026-09-22",
-  "achevement": null,
-  "etat": null,
-  "montantFcfa": null
- },
- {
-  "autorite": "Autorité de Régulation des Télécommunications et des Postes (ARTP)",
-  "plan": "ARTP_2026_19",
-  "direction": "ARTP",
-  "reference": "S_ARTP_01_3753",
-  "objet": "Location de photocopieurs",
-  "typeMarche": "Services",
-  "financement": [
-   "Budget propre"
-  ],
-  "mode": "Demande de renseignement et de prix à compétition restreinte",
-  "lancement": "2026-05-01",
-  "attribution": "2026-06-03",
-  "demarrage": "2026-06-16",
-  "achevement": null,
-  "etat": null,
-  "montantFcfa": null
- },
- {
-  "autorite": "Autorité de Régulation des Télécommunications et des Postes (ARTP)",
-  "plan": "ARTP_2026_19",
-  "direction": "ARTP",
-  "reference": "F_ARTP_01_1396",
-  "objet": "Fourniture et livraison de produits de collation",
-  "typeMarche": "Fourniture",
-  "financement": [
-   "Budget propre"
-  ],
-  "mode": "Demande de renseignements et de prix à compétition ouverte",
-  "lancement": "2026-03-23",
-  "attribution": "2026-05-06",
-  "demarrage": "2026-06-02",
-  "achevement": null,
-  "etat": null,
-  "montantFcfa": null
- },
- {
-  "autorite": "Autorité de Régulation des Télécommunications et des Postes (ARTP)",
-  "plan": "ARTP_2026_19",
-  "direction": "ARTP",
-  "reference": "C_ARTP_01_3707",
-  "objet": "Accompagnement certification ISO 27001",
-  "typeMarche": "Prestation intellectuelle",
-  "financement": [
-   "Budget propre"
-  ],
-  "mode": "Demande de renseignement et de prix à compétition restreinte",
-  "lancement": "2026-06-10",
-  "attribution": "2026-07-13",
-  "demarrage": "2026-07-24",
-  "achevement": null,
-  "etat": null,
-  "montantFcfa": null
- },
- {
-  "autorite": "Autorité de Régulation des Télécommunications et des Postes (ARTP)",
-  "plan": "ARTP_2026_19",
-  "direction": "ARTP",
-  "reference": "C_ARTP_01_3706",
-  "objet": "Sélection d’un cabinet pour réaliser la cartographie et la mise en place d'un système d'information géographique des infrastructures postales",
-  "typeMarche": "Prestation intellectuelle",
-  "financement": [
-   "Budget propre"
-  ],
-  "mode": "Demande de renseignement et de prix à compétition restreinte",
-  "lancement": "2026-05-25",
-  "attribution": "2026-06-25",
-  "demarrage": "2026-07-08",
-  "achevement": null,
-  "etat": null,
-  "montantFcfa": null
- },
- {
-  "autorite": "Autorité de Régulation des Télécommunications et des Postes (ARTP)",
-  "plan": "ARTP_2026_19",
-  "direction": "ARTP",
-  "reference": "T_ARTP_01_3712",
-  "objet": "Aménagement d'une salle polyvalente au 5ème étage du bâtiment A",
-  "typeMarche": "Travaux",
-  "financement": [
-   "Budget propre"
-  ],
-  "mode": "Demande de renseignement et de prix à compétition restreinte",
-  "lancement": "2026-06-30",
-  "attribution": "2026-07-31",
-  "demarrage": "2026-08-13",
-  "achevement": null,
-  "etat": null,
-  "montantFcfa": null
- },
- {
-  "autorite": "Autorité de Régulation des Télécommunications et des Postes (ARTP)",
-  "plan": "ARTP_2026_19",
-  "direction": "ARTP",
-  "reference": "F_ARTP_01_3717",
-  "objet": "Acquisition d’une station fixe et une station mobile pour le Centre National de Contrôle des Fréquences (CNCF, SIGAF) à Dakar",
-  "typeMarche": "Fourniture",
-  "financement": [
-   "Budget propre"
-  ],
-  "mode": "Appel d'offres ouvert",
-  "lancement": "2026-03-02",
-  "attribution": "2026-06-30",
-  "demarrage": "2026-12-29",
-  "achevement": null,
-  "etat": null,
-  "montantFcfa": null
- },
- {
-  "autorite": "Autorité de Régulation des Télécommunications et des Postes (ARTP)",
-  "plan": "ARTP_2026_19",
-  "direction": "ARTP",
-  "reference": "T_ARTP_01_3714",
-  "objet": "Travaux de rénovation du siège de l’ARTP, phase 2 (peinture, revêtement, esthétique)",
-  "typeMarche": "Travaux",
-  "financement": [
-   "Budget propre"
-  ],
-  "mode": "Demande de renseignement et de prix à compétition restreinte",
-  "lancement": "2026-10-30",
-  "attribution": "2026-05-27",
-  "demarrage": "2026-06-09",
-  "achevement": null,
-  "etat": null,
-  "montantFcfa": null
- },
- {
-  "autorite": "Autorité de Régulation des Télécommunications et des Postes (ARTP)",
-  "plan": "ARTP_2026_19",
-  "direction": "ARTP",
-  "reference": "T_ARTP_01_3713",
-  "objet": "Travaux de construction d'un mur de clôture pour le site de Khombole",
-  "typeMarche": "Travaux",
-  "financement": [
-   "Budget propre"
-  ],
-  "mode": "Demande de renseignements et de prix à compétition ouverte",
-  "lancement": "2026-11-03",
-  "attribution": "2026-12-04",
-  "demarrage": "2027-01-18",
-  "achevement": null,
-  "etat": null,
-  "montantFcfa": null
- },
- {
-  "autorite": "Autorité de Régulation des Télécommunications et des Postes (ARTP)",
-  "plan": "ARTP_2026_19",
-  "direction": "ARTP",
-  "reference": "F_ARTP_01_3718",
-  "objet": "Acquisition d’équipements pour mise à niveau du laboratoire d'homologation (calibration, hard et software pour la prise en charge de la 5G, mise à jour des procédures)",
-  "typeMarche": "Fourniture",
-  "financement": [
-   "Budget propre"
-  ],
-  "mode": "Appel d'offres ouvert",
-  "lancement": "2026-04-01",
-  "attribution": "2026-07-30",
-  "demarrage": "2027-01-28",
-  "achevement": null,
-  "etat": null,
-  "montantFcfa": null
- },
- {
-  "autorite": "Autorité de Régulation des Télécommunications et des Postes (ARTP)",
-  "plan": "ARTP_2026_19",
-  "direction": "ARTP",
-  "reference": "F_ARTP_01_3720",
-  "objet": "Acquisition de sondes de tests et de monitoring de la qualité des services mobiles",
-  "typeMarche": "Fourniture",
-  "financement": [
-   "Budget propre"
-  ],
-  "mode": "Appel d'offres ouvert",
-  "lancement": "2026-03-02",
-  "attribution": "2026-06-30",
-  "demarrage": "2026-12-29",
-  "achevement": null,
-  "etat": null,
-  "montantFcfa": null
- },
- {
-  "autorite": "Autorité de Régulation des Télécommunications et des Postes (ARTP)",
-  "plan": "ARTP_2026_19",
-  "direction": "ARTP",
-  "reference": "S_ARTP_01_13247",
-  "objet": "Sélection d’un prestataire pour le nettoiement des sites de l’ARTP en quatre (4) lots :\nLot 1 : Nettoiement des locaux du Siège \nLot 2 : Nettoiement des locaux du Collège\nLot 3 : Nettoiement des locaux du centre de Khombole\nLot 4 : Nettoiement des locaux du centre de Matam",
-  "typeMarche": "Services",
-  "financement": [
-   "Budget propre"
-  ],
-  "mode": "Appel d'offres ouvert",
-  "lancement": "2026-06-30",
-  "attribution": "2026-10-22",
-  "demarrage": "2026-12-17",
-  "achevement": null,
-  "etat": null,
-  "montantFcfa": null
- },
- {
-  "autorite": "Autorité de Régulation des Télécommunications et des Postes (ARTP)",
-  "plan": "ARTP_2026_19",
-  "direction": "ARTP",
-  "reference": "T_ARTP_01_3716",
-  "objet": "Travaux de menuiserie (Aluminium, Bois, Fer Forge)",
-  "typeMarche": "Travaux",
-  "financement": [
-   "Budget propre"
-  ],
-  "mode": "Demande de renseignement et de prix à compétition restreinte",
-  "lancement": "2026-09-01",
-  "attribution": "2026-10-02",
-  "demarrage": "2026-10-15",
-  "achevement": null,
-  "etat": null,
-  "montantFcfa": null
- },
- {
-  "autorite": "Autorité de Régulation des Télécommunications et des Postes (ARTP)",
-  "plan": "ARTP_2026_19",
-  "direction": "ARTP",
-  "reference": "F_ARTP_01_3726",
-  "objet": "Acquisition d'un onduleur modulaire triphasé 40kva avec armoire batterie évolutif jusqu'à 80kva",
-  "typeMarche": "Fourniture",
-  "financement": [
-   "Budget propre"
-  ],
-  "mode": "Demande de renseignement et de prix à compétition restreinte",
-  "lancement": "2026-08-11",
-  "attribution": "2026-09-11",
-  "demarrage": "2026-09-24",
-  "achevement": null,
-  "etat": null,
-  "montantFcfa": null
- },
- {
-  "autorite": "Autorité de Régulation des Télécommunications et des Postes (ARTP)",
-  "plan": "ARTP_2026_19",
-  "direction": "ARTP",
-  "reference": "S_ARTP_01_3744",
-  "objet": "Service d’impression",
-  "typeMarche": "Services",
-  "financement": [
-   "Budget propre"
-  ],
-  "mode": "Demande de renseignement et de prix à compétition restreinte",
-  "lancement": "2026-06-01",
-  "attribution": "2026-07-02",
-  "demarrage": "2026-07-15",
-  "achevement": null,
-  "etat": null,
-  "montantFcfa": null
- },
- {
-  "autorite": "Autorité de Régulation des Télécommunications et des Postes (ARTP)",
-  "plan": "ARTP_2026_19",
-  "direction": "ARTP",
-  "reference": "S_ARTP_01_1404",
-  "objet": "Entretien et maintenance de la climatisation des sites de l'ARTP",
-  "typeMarche": "Services",
-  "financement": [
-   "Budget propre"
-  ],
-  "mode": "Demande de renseignement et de prix à compétition restreinte",
-  "lancement": "2026-08-10",
-  "attribution": "2026-09-23",
-  "demarrage": "2026-10-20",
-  "achevement": null,
-  "etat": null,
-  "montantFcfa": null
- },
- {
-  "autorite": "Autorité de Régulation des Télécommunications et des Postes (ARTP)",
-  "plan": "ARTP_2026_19",
-  "direction": "ARTP",
-  "reference": "S_ARTP_01_17599",
-  "objet": "Relance marché N° S_ARTP_059 / S_ARTP_01_3749 \"Sélection d’un prestataire pour l’entretien et la réparation des véhicules du parc auto de l’ARTP en trois lots\" Lot 2 : Toyota",
-  "typeMarche": "Services",
-  "financement": [
-   "Budget propre"
-  ],
-  "mode": "Demande de renseignement et de prix à compétition restreinte",
-  "lancement": "2026-09-28",
-  "attribution": "2026-10-29",
-  "demarrage": "2026-11-11",
-  "achevement": null,
-  "etat": null,
-  "montantFcfa": null
- },
- {
-  "autorite": "Autorité de Régulation des Télécommunications et des Postes (ARTP)",
-  "plan": "ARTP_2026_19",
-  "direction": "ARTP",
-  "reference": "F_ARTP_01_17600",
-  "objet": "Acquisition de quatre modules de puissance 20 kva pour onduleur Delta",
-  "typeMarche": "Fourniture",
-  "financement": [
-   "Budget propre"
-  ],
-  "mode": "Demande de renseignement et de prix à compétition restreinte",
-  "lancement": "2026-09-17",
-  "attribution": "2026-10-20",
-  "demarrage": "2026-11-02",
-  "achevement": null,
-  "etat": null,
-  "montantFcfa": null
- },
- {
-  "autorite": "Autorité de Régulation des Télécommunications et des Postes (ARTP)",
-  "plan": "ARTP_2026_19",
-  "direction": "ARTP",
-  "reference": "S_ARTP_01_18149",
-  "objet": "Entretien, maintenance et réparation des installations de menuiserie (Aluminium, Bois et Fer Forgé) des sites de l’ARTP",
-  "typeMarche": "Services",
-  "financement": [
-   "Budget propre"
-  ],
-  "mode": "Demande de renseignement et de prix à compétition restreinte",
-  "lancement": "2026-11-16",
-  "attribution": "2026-12-17",
-  "demarrage": "2026-12-30",
-  "achevement": null,
-  "etat": null,
-  "montantFcfa": null
- },
- {
-  "autorite": "Autorité de Régulation des Télécommunications et des Postes (ARTP)",
-  "plan": "ARTP_2026_19",
-  "direction": "ARTP",
-  "reference": "S_ARTP_01_3748",
-  "objet": "Sélection d'un prestataire pour l’organisation d’un Arbre de Noel et cérémonie des vœux",
-  "typeMarche": "Services",
-  "financement": [
-   "Budget propre"
-  ],
-  "mode": "Appel d'offres ouvert",
-  "lancement": "2026-11-16",
-  "attribution": "2027-03-10",
-  "demarrage": "2027-05-05",
-  "achevement": null,
-  "etat": null,
-  "montantFcfa": null
- },
- {
-  "autorite": "Autorité de Régulation des Télécommunications et des Postes (ARTP)",
-  "plan": "ARTP_2026_19",
-  "direction": "ARTP",
-  "reference": "T_ARTP_01_18285",
-  "objet": "Travaux de mise en conformité de l'alimentation électrique générale du Siège de l'ARTP, du local groupe électrogène au local TGBT (Tableau Général Basse Tension)",
-  "typeMarche": "Travaux",
-  "financement": [
-   "Budget propre"
-  ],
-  "mode": "Demande de renseignement et de prix à compétition restreinte",
-  "lancement": "2026-09-29",
-  "attribution": "2026-10-30",
-  "demarrage": "2026-11-12",
-  "achevement": null,
-  "etat": null,
-  "montantFcfa": null
- },
- {
-  "autorite": "Autorité de Régulation des Télécommunications et des Postes (ARTP)",
-  "plan": "ARTP_2026_19",
-  "direction": "ARTP",
-  "reference": "T_ARTP_01_18286",
-  "objet": "Aménagement d'une salle polyvalente au 5ème étage du bâtiment A",
-  "typeMarche": "Travaux",
-  "financement": [
-   "Budget propre"
-  ],
-  "mode": "Demande de renseignement et de prix à compétition restreinte",
-  "lancement": "2026-10-30",
-  "attribution": "2026-12-02",
-  "demarrage": "2026-12-15",
-  "achevement": null,
-  "etat": null,
-  "montantFcfa": null
- },
- {
-  "autorite": "Ville de Guédiawaye",
-  "plan": "VG_2026_6",
-  "direction": "Direction des services Techniques VG",
-  "reference": "T_VG_DST_5416",
-  "objet": "EXTENSION DU RESEAU ELECTRIQUE",
-  "typeMarche": "Travaux",
-  "financement": [
-   "Budget propre"
-  ],
-  "mode": "Demande de renseignements et de prix à compétition ouverte",
-  "lancement": "2026-05-06",
-  "attribution": "2026-06-09",
-  "demarrage": "2026-07-22",
-  "achevement": null,
-  "etat": null,
-  "montantFcfa": null
- },
- {
-  "autorite": "Ville de Guédiawaye",
-  "plan": "VG_2026_6",
-  "direction": "Division de l'Administration Générale et des Finances VG",
-  "reference": "F_VG_DAF_18303",
-  "objet": "ACQUISATION DE FOURNITURES DE BUREAUX",
-  "typeMarche": "Fourniture",
-  "financement": [
-   "Budget propre"
-  ],
-  "mode": "Demande de renseignements et de prix à compétition ouverte",
-  "lancement": "2026-10-11",
-  "attribution": "2026-11-03",
-  "demarrage": "2026-11-16",
-  "achevement": null,
-  "etat": null,
-  "montantFcfa": null
- },
- {
-  "autorite": "Ville de Guédiawaye",
-  "plan": "VG_2026_6",
-  "direction": "Division de l'Administration Générale et des Finances VG",
-  "reference": "F_VG_DAF_18389",
-  "objet": "ACQUISITION DE COUPES, RECOMPENSES ET PRIX",
-  "typeMarche": "Fourniture",
-  "financement": [
-   "Budget propre"
-  ],
-  "mode": "Demande de renseignement et de prix à compétition restreinte",
-  "lancement": "2026-10-08",
-  "attribution": "2026-10-20",
-  "demarrage": "2026-10-28",
-  "achevement": null,
-  "etat": null,
-  "montantFcfa": null
- },
- {
-  "autorite": "Ville de Guédiawaye",
-  "plan": "VG_2026_6",
-  "direction": "Division de l'Administration Générale et des Finances VG",
-  "reference": "F_VG_DAF_18393",
-  "objet": "ACHAT DE TICKETS DE PERCEPTION",
-  "typeMarche": "Fourniture",
-  "financement": [
-   "Budget propre"
-  ],
-  "mode": "Demande de renseignement et de prix à compétition restreinte",
-  "lancement": "2026-10-15",
-  "attribution": "2026-10-27",
-  "demarrage": "2026-11-05",
-  "achevement": null,
-  "etat": null,
-  "montantFcfa": null
- },
- {
-  "autorite": "Ville de Guédiawaye",
-  "plan": "VG_2026_6",
-  "direction": "Division de l'Administration Générale et des Finances VG",
-  "reference": "F_VG_DAF_18390",
-  "objet": "ACQUISITION DE MACHINES ET APPAREILS DE BUREAUX, APPAREILS DE VENTILATIONS ET DE CLIMATISATION",
-  "typeMarche": "Fourniture",
-  "financement": [
-   "Budget propre"
-  ],
-  "mode": "Demande de renseignement et de prix à compétition restreinte",
-  "lancement": "2026-10-09",
-  "attribution": "2026-10-20",
-  "demarrage": "2026-10-29",
-  "achevement": null,
-  "etat": null,
-  "montantFcfa": null
- },
- {
-  "autorite": "Ville de Guédiawaye",
-  "plan": "VG_2026_6",
-  "direction": "Direction des services Techniques VG",
-  "reference": "C_VG_DST_5414",
-  "objet": "ETUDES A OBJECTIFS MULTIPLES ( élaboration du plan climat )",
-  "typeMarche": "Prestation intellectuelle",
-  "financement": [
-   "Budget propre"
-  ],
-  "mode": "Avis à Manifestation d’intérêt",
-  "lancement": "2026-03-09",
-  "attribution": "2026-04-03",
-  "demarrage": "2026-04-29",
-  "achevement": null,
-  "etat": null,
-  "montantFcfa": null
- },
- {
-  "autorite": "Ville de Guédiawaye",
-  "plan": "VG_2026_6",
-  "direction": "Division de l'Administration Générale et des Finances VG",
-  "reference": "F_VG_DAF_2312",
-  "objet": "ACQUISITION DE FOURNITURES SCOLAIRES ET MATERIELS ET MOBILIERS SCOLAIRES",
-  "typeMarche": "Fourniture",
-  "financement": [
-   "Budget propre"
-  ],
-  "mode": "Appel d'offres ouvert",
-  "lancement": "2026-06-02",
-  "attribution": "2026-07-22",
-  "demarrage": "2026-08-24",
-  "achevement": null,
-  "etat": null,
-  "montantFcfa": null
- },
- {
-  "autorite": "Ville de Guédiawaye",
-  "plan": "VG_2026_6",
-  "direction": "Division de l'Administration Générale et des Finances VG",
-  "reference": "F_VG_DAF_3682",
-  "objet": "ACQUISITION DE COUPES RECOMPENCES ET PRIX",
-  "typeMarche": "Fourniture",
-  "financement": [
-   "Budget propre"
-  ],
-  "mode": "Demande de renseignement et de prix à compétition restreinte",
-  "lancement": "2026-04-15",
-  "attribution": "2026-04-24",
-  "demarrage": "2026-05-01",
-  "achevement": null,
-  "etat": null,
-  "montantFcfa": null
- },
- {
-  "autorite": "Ville de Guédiawaye",
-  "plan": "VG_2026_6",
-  "direction": "Direction des services Techniques VG",
-  "reference": "T_VG_DST_5417",
-  "objet": "INSTALLATION DE MOBILIERS URBAIN",
-  "typeMarche": "Travaux",
-  "financement": [
-   "Budget propre"
-  ],
-  "mode": "Demande de renseignement et de prix à compétition restreinte",
-  "lancement": "2026-05-18",
-  "attribution": "2026-06-18",
-  "demarrage": "2026-07-01",
-  "achevement": null,
-  "etat": null,
-  "montantFcfa": null
- },
- {
-  "autorite": "Ville de Guédiawaye",
-  "plan": "VG_2026_6",
-  "direction": "Division de l'Administration Générale et des Finances VG",
-  "reference": "F_VG_DAF_1556",
-  "objet": "ACQUISITION DE FOURNITURES DE BUREAU",
-  "typeMarche": "Fourniture",
-  "financement": [
-   "Budget propre"
-  ],
-  "mode": "Demande de renseignement et de prix à compétition restreinte",
-  "lancement": "2026-05-15",
-  "attribution": "2026-05-27",
-  "demarrage": "2026-06-04",
-  "achevement": null,
-  "etat": null,
-  "montantFcfa": null
- },
- {
-  "autorite": "Ville de Guédiawaye",
-  "plan": "VG_2026_6",
-  "direction": "Direction des services Techniques VG",
-  "reference": "S_VG_DST_5419",
-  "objet": "ENTRETIEN DE VEHICULES",
-  "typeMarche": "Services",
-  "financement": [
-   "Budget propre"
-  ],
-  "mode": "Demande de renseignements et de  prix simple",
-  "lancement": "2026-03-24",
-  "attribution": "2026-04-01",
-  "demarrage": "2026-04-01",
-  "achevement": null,
-  "etat": null,
-  "montantFcfa": null
- },
- {
-  "autorite": "Ville de Guédiawaye",
-  "plan": "VG_2026_6",
-  "direction": "Division de l'Administration Générale et des Finances VG",
-  "reference": "F_VG_DAF_5421",
-  "objet": "ACQUISITION DE VEHICULES",
-  "typeMarche": "Fourniture",
-  "financement": [
-   "Budget propre"
-  ],
-  "mode": "Appel d'offres ouvert",
-  "lancement": "2026-06-16",
-  "attribution": "2026-08-06",
-  "demarrage": "2027-04-14",
-  "achevement": null,
-  "etat": null,
-  "montantFcfa": null
- },
- {
-  "autorite": "Ville de Guédiawaye",
-  "plan": "VG_2026_6",
-  "direction": "Division de l'Administration Générale et des Finances VG",
-  "reference": "F_VG_DAF_10517",
-  "objet": "ACQUISITION DE DENREES ALIMENTAIRES",
-  "typeMarche": "Fourniture",
-  "financement": [
-   "Budget propre"
-  ],
-  "mode": "Demande de renseignement et de prix à compétition restreinte",
-  "lancement": "2026-06-11",
-  "attribution": "2026-06-24",
-  "demarrage": "2026-06-30",
-  "achevement": null,
-  "etat": null,
-  "montantFcfa": null
- },
- {
-  "autorite": "Ville de Guédiawaye",
-  "plan": "VG_2026_6",
-  "direction": "Division de l'Administration Générale et des Finances VG",
-  "reference": "F_VG_DAF_10519",
-  "objet": "ACQUISITION ET INSTALLATION D'APPAREILS DE VENTILATION ET DE CLIMATISATION",
-  "typeMarche": "Fourniture",
-  "financement": [
-   "Budget propre"
-  ],
-  "mode": "Demande de renseignement et de prix à compétition restreinte",
-  "lancement": "2026-05-18",
-  "attribution": "2026-05-29",
-  "demarrage": "2026-05-05",
-  "achevement": null,
-  "etat": null,
-  "montantFcfa": null
- },
- {
-  "autorite": "Ville de Guédiawaye",
-  "plan": "VG_2026_6",
-  "direction": "Division de l'Administration Générale et des Finances VG",
-  "reference": "F_VG_DAF_11123",
-  "objet": "ACQUISITION DE MATERIELS DE BALAYAGE",
-  "typeMarche": "Fourniture",
-  "financement": [
-   "Budget propre"
-  ],
-  "mode": "Demande de renseignement et de prix à compétition restreinte",
-  "lancement": "2026-06-04",
-  "attribution": "2026-06-19",
-  "demarrage": "2026-06-24",
-  "achevement": null,
-  "etat": null,
-  "montantFcfa": null
- },
- {
-  "autorite": "Ville de Guédiawaye",
-  "plan": "VG_2026_6",
-  "direction": "Division de l'Administration Générale et des Finances VG",
-  "reference": "F_VG_DAF_3681",
-  "objet": "ACQUISITION DE MOBILIERS DE BUREAUX ET DE MACHINES ET APPAREILS DE BUREAUX",
-  "typeMarche": "Fourniture",
-  "financement": [
-   "Budget propre"
-  ],
-  "mode": "Demande de renseignements et de prix à compétition ouverte",
-  "lancement": "2026-06-05",
-  "attribution": "2026-06-30",
-  "demarrage": "2026-07-14",
-  "achevement": null,
-  "etat": null,
-  "montantFcfa": null
- },
- {
-  "autorite": "Ville de Guédiawaye",
-  "plan": "VG_2026_6",
-  "direction": "Direction des services Techniques VG",
-  "reference": "T_VG_DST_5418",
-  "objet": "PAVAGE DE RUES ET D'ACCOTEMENT DE CHAUSSEES",
-  "typeMarche": "Travaux",
-  "financement": [
-   "Budget propre"
-  ],
-  "mode": "Appel d'offres ouvert",
-  "lancement": "2026-07-02",
-  "attribution": "2026-09-17",
-  "demarrage": "2027-04-30",
-  "achevement": null,
-  "etat": null,
-  "montantFcfa": null
- },
- {
-  "autorite": "Ville de Guédiawaye",
-  "plan": "VG_2026_6",
-  "direction": "Direction des services Techniques VG",
-  "reference": "T_VG_DST_5415",
-  "objet": "CONSTRUCTION D'UN IMMEUBLE A USAGE LOCATIVE",
-  "typeMarche": "Travaux",
-  "financement": [
-   "Budget propre"
-  ],
-  "mode": "Demande de renseignements et de prix à compétition ouverte",
-  "lancement": "2026-07-07",
-  "attribution": "2026-08-10",
-  "demarrage": "2026-09-22",
-  "achevement": null,
-  "etat": null,
-  "montantFcfa": null
- },
- {
-  "autorite": "Ville de Guédiawaye",
-  "plan": "VG_2026_6",
-  "direction": "Division de l'Administration Générale et des Finances VG",
-  "reference": "F_VG_DAF_3683",
-  "objet": "HABILLEMENT DU PERSONNEL",
-  "typeMarche": "Fourniture",
-  "financement": [
-   "Budget propre"
-  ],
-  "mode": "Demande de renseignement et de prix à compétition restreinte",
-  "lancement": "2026-10-11",
-  "attribution": "2026-10-22",
-  "demarrage": "2026-10-27",
-  "achevement": null,
-  "etat": null,
-  "montantFcfa": null
- },
- {
-  "autorite": "Ville de Guédiawaye",
-  "plan": "VG_2026_6",
-  "direction": "Direction des services Techniques VG",
-  "reference": "T_VG_DST_18387",
-  "objet": "CONSTRUCTION DE SALLES DE CLASSES, CONSTRUCTION DE SALLE MULTI-SPORTS, CONSTRUCTION DE CENTRE D'HEBERGEMENT SPORTIF PHASE 2",
-  "typeMarche": "Travaux",
-  "financement": [
-   "Budget propre"
-  ],
-  "mode": "Appel d'offres ouvert",
-  "lancement": "2026-10-07",
-  "attribution": "2026-11-23",
-  "demarrage": "2026-12-21",
-  "achevement": null,
-  "etat": null,
-  "montantFcfa": null
- },
- {
-  "autorite": "Ville de Guédiawaye",
-  "plan": "VG_2026_6",
-  "direction": "Direction des services Techniques VG",
-  "reference": "T_VG_DST_18388",
-  "objet": "GROSSES REPARATIONS AUX EQUIPEMENTS SANITAIRES, GROSSES REPARATIONS AUX EQUIPEMENTS SCOLAIRES, AUTRES OPERATIONS DE VOIRIE (PAVAGE), ENTRETIEN DIVERS",
-  "typeMarche": "Travaux",
-  "financement": [
-   "Budget propre"
-  ],
-  "mode": "Appel d'offres ouvert",
-  "lancement": "2026-10-12",
-  "attribution": "2026-11-26",
-  "demarrage": "2026-12-18",
-  "achevement": null,
-  "etat": null,
-  "montantFcfa": null
- },
- {
-  "autorite": "Ville de Guédiawaye",
-  "plan": "VG_2026_6",
-  "direction": "Division de l'Administration Générale et des Finances VG",
-  "reference": "F_VG_DAF_18391",
-  "objet": "ACQUISITION DE MATERIELS ET MOBILIERS SCOLAIRES, ACQUISITION DE FOURNITURES SCOLAIRES",
-  "typeMarche": "Fourniture",
-  "financement": [
-   "Budget propre"
-  ],
-  "mode": "Appel d'offres ouvert",
-  "lancement": "2026-10-14",
-  "attribution": "2026-10-28",
-  "demarrage": "2026-11-23",
-  "achevement": null,
-  "etat": null,
-  "montantFcfa": null
- },
- {
-  "autorite": "Ville de Guédiawaye",
-  "plan": "VG_2026_6",
-  "direction": "Division de l'Administration Générale et des Finances VG",
-  "reference": "F_VG_DAF_18392",
-  "objet": "ACQUISITION DE PRODUITS D'ENTRETIEN, DE DESINFECTION ET D'HYGIENE",
-  "typeMarche": "Fourniture",
-  "financement": [
-   "Budget propre"
-  ],
-  "mode": "Demande de renseignements et de prix à compétition ouverte",
-  "lancement": "2026-10-13",
-  "attribution": "2026-11-05",
-  "demarrage": "2026-11-20",
-  "achevement": null,
-  "etat": null,
-  "montantFcfa": null
- },
- {
-  "autorite": "Ville de Guédiawaye",
-  "plan": "VG_2026_6",
-  "direction": "Division de l'Administration Générale et des Finances VG",
-  "reference": "F_VG_DAF_5413",
-  "objet": "ACQUISITION D'IMPRIMES ET REGISTRES",
-  "typeMarche": "Fourniture",
-  "financement": [
-   "Budget propre"
-  ],
-  "mode": "Demande de renseignement et de prix à compétition restreinte",
-  "lancement": "2026-05-26",
-  "attribution": "2026-06-08",
-  "demarrage": "2026-06-11",
-  "achevement": null,
-  "etat": null,
-  "montantFcfa": null
- },
- {
   "autorite": "SENPNA",
   "plan": "SENPNA_2026_13",
   "direction": "DIRECTION DE L'ADMINISTRATION ET DES FINANCES",
@@ -53203,6 +51781,384 @@
   "lancement": "2026-10-26",
   "attribution": "2026-11-26",
   "demarrage": "2026-12-09",
+  "achevement": null,
+  "etat": null,
+  "montantFcfa": null
+ },
+ {
+  "autorite": "Ville de Guédiawaye",
+  "plan": "VG_2026_7",
+  "direction": "Division de l'Administration Générale et des Finances VG",
+  "reference": "F_VG_DAF_18389",
+  "objet": "ACQUISITION DE COUPES, RECOMPENSES ET PRIX",
+  "typeMarche": "Fourniture",
+  "financement": [
+   "Budget propre"
+  ],
+  "mode": "Demande de renseignement et de prix à compétition restreinte",
+  "lancement": "2026-10-16",
+  "attribution": "2026-10-27",
+  "demarrage": "2026-11-04",
+  "achevement": null,
+  "etat": null,
+  "montantFcfa": null
+ },
+ {
+  "autorite": "Ville de Guédiawaye",
+  "plan": "VG_2026_7",
+  "direction": "Division de l'Administration Générale et des Finances VG",
+  "reference": "F_VG_DAF_18303",
+  "objet": "ACQUISATION DE FOURNITURES DE BUREAUX",
+  "typeMarche": "Fourniture",
+  "financement": [
+   "Budget propre"
+  ],
+  "mode": "Demande de renseignements et de prix à compétition ouverte",
+  "lancement": "2026-10-16",
+  "attribution": "2026-11-10",
+  "demarrage": "2026-11-25",
+  "achevement": null,
+  "etat": null,
+  "montantFcfa": null
+ },
+ {
+  "autorite": "Ville de Guédiawaye",
+  "plan": "VG_2026_7",
+  "direction": "Direction des services Techniques VG",
+  "reference": "T_VG_DST_5416",
+  "objet": "EXTENSION DU RESEAU ELECTRIQUE",
+  "typeMarche": "Travaux",
+  "financement": [
+   "Budget propre"
+  ],
+  "mode": "Demande de renseignements et de prix à compétition ouverte",
+  "lancement": "2026-05-06",
+  "attribution": "2026-06-09",
+  "demarrage": "2026-07-22",
+  "achevement": null,
+  "etat": null,
+  "montantFcfa": null
+ },
+ {
+  "autorite": "Ville de Guédiawaye",
+  "plan": "VG_2026_7",
+  "direction": "Division de l'Administration Générale et des Finances VG",
+  "reference": "F_VG_DAF_18393",
+  "objet": "ACHAT DE TICKETS DE PERCEPTION",
+  "typeMarche": "Fourniture",
+  "financement": [
+   "Budget propre"
+  ],
+  "mode": "Demande de renseignement et de prix à compétition restreinte",
+  "lancement": "2026-10-15",
+  "attribution": "2026-10-27",
+  "demarrage": "2026-11-05",
+  "achevement": null,
+  "etat": null,
+  "montantFcfa": null
+ },
+ {
+  "autorite": "Ville de Guédiawaye",
+  "plan": "VG_2026_7",
+  "direction": "Division de l'Administration Générale et des Finances VG",
+  "reference": "F_VG_DAF_18390",
+  "objet": "ACQUISITION DE MACHINES ET APPAREILS DE BUREAUX, APPAREILS DE VENTILATIONS ET DE CLIMATISATION",
+  "typeMarche": "Fourniture",
+  "financement": [
+   "Budget propre"
+  ],
+  "mode": "Demande de renseignement et de prix à compétition restreinte",
+  "lancement": "2026-10-09",
+  "attribution": "2026-10-20",
+  "demarrage": "2026-10-29",
+  "achevement": null,
+  "etat": null,
+  "montantFcfa": null
+ },
+ {
+  "autorite": "Ville de Guédiawaye",
+  "plan": "VG_2026_7",
+  "direction": "Direction des services Techniques VG",
+  "reference": "C_VG_DST_5414",
+  "objet": "ETUDES A OBJECTIFS MULTIPLES ( élaboration du plan climat )",
+  "typeMarche": "Prestation intellectuelle",
+  "financement": [
+   "Budget propre"
+  ],
+  "mode": "Avis à Manifestation d’intérêt",
+  "lancement": "2026-03-09",
+  "attribution": "2026-04-03",
+  "demarrage": "2026-04-29",
+  "achevement": null,
+  "etat": null,
+  "montantFcfa": null
+ },
+ {
+  "autorite": "Ville de Guédiawaye",
+  "plan": "VG_2026_7",
+  "direction": "Division de l'Administration Générale et des Finances VG",
+  "reference": "F_VG_DAF_3682",
+  "objet": "ACQUISITION DE COUPES RECOMPENCES ET PRIX",
+  "typeMarche": "Fourniture",
+  "financement": [
+   "Budget propre"
+  ],
+  "mode": "Demande de renseignement et de prix à compétition restreinte",
+  "lancement": "2026-04-15",
+  "attribution": "2026-04-24",
+  "demarrage": "2026-05-01",
+  "achevement": null,
+  "etat": null,
+  "montantFcfa": null
+ },
+ {
+  "autorite": "Ville de Guédiawaye",
+  "plan": "VG_2026_7",
+  "direction": "Direction des services Techniques VG",
+  "reference": "T_VG_DST_5417",
+  "objet": "INSTALLATION DE MOBILIERS URBAIN",
+  "typeMarche": "Travaux",
+  "financement": [
+   "Budget propre"
+  ],
+  "mode": "Demande de renseignement et de prix à compétition restreinte",
+  "lancement": "2026-05-18",
+  "attribution": "2026-06-18",
+  "demarrage": "2026-07-01",
+  "achevement": null,
+  "etat": null,
+  "montantFcfa": null
+ },
+ {
+  "autorite": "Ville de Guédiawaye",
+  "plan": "VG_2026_7",
+  "direction": "Division de l'Administration Générale et des Finances VG",
+  "reference": "F_VG_DAF_1556",
+  "objet": "ACQUISITION DE FOURNITURES DE BUREAU",
+  "typeMarche": "Fourniture",
+  "financement": [
+   "Budget propre"
+  ],
+  "mode": "Demande de renseignement et de prix à compétition restreinte",
+  "lancement": "2026-05-15",
+  "attribution": "2026-05-27",
+  "demarrage": "2026-06-04",
+  "achevement": null,
+  "etat": null,
+  "montantFcfa": null
+ },
+ {
+  "autorite": "Ville de Guédiawaye",
+  "plan": "VG_2026_7",
+  "direction": "Direction des services Techniques VG",
+  "reference": "S_VG_DST_5419",
+  "objet": "ENTRETIEN DE VEHICULES",
+  "typeMarche": "Services",
+  "financement": [
+   "Budget propre"
+  ],
+  "mode": "Demande de renseignements et de  prix simple",
+  "lancement": "2026-03-24",
+  "attribution": "2026-04-01",
+  "demarrage": "2026-04-01",
+  "achevement": null,
+  "etat": null,
+  "montantFcfa": null
+ },
+ {
+  "autorite": "Ville de Guédiawaye",
+  "plan": "VG_2026_7",
+  "direction": "Division de l'Administration Générale et des Finances VG",
+  "reference": "F_VG_DAF_5421",
+  "objet": "ACQUISITION DE VEHICULES",
+  "typeMarche": "Fourniture",
+  "financement": [
+   "Budget propre"
+  ],
+  "mode": "Appel d'offres ouvert",
+  "lancement": "2026-06-16",
+  "attribution": "2026-08-06",
+  "demarrage": "2027-04-14",
+  "achevement": null,
+  "etat": null,
+  "montantFcfa": null
+ },
+ {
+  "autorite": "Ville de Guédiawaye",
+  "plan": "VG_2026_7",
+  "direction": "Division de l'Administration Générale et des Finances VG",
+  "reference": "F_VG_DAF_10517",
+  "objet": "ACQUISITION DE DENREES ALIMENTAIRES",
+  "typeMarche": "Fourniture",
+  "financement": [
+   "Budget propre"
+  ],
+  "mode": "Demande de renseignement et de prix à compétition restreinte",
+  "lancement": "2026-06-11",
+  "attribution": "2026-06-24",
+  "demarrage": "2026-06-30",
+  "achevement": null,
+  "etat": null,
+  "montantFcfa": null
+ },
+ {
+  "autorite": "Ville de Guédiawaye",
+  "plan": "VG_2026_7",
+  "direction": "Division de l'Administration Générale et des Finances VG",
+  "reference": "F_VG_DAF_10519",
+  "objet": "ACQUISITION ET INSTALLATION D'APPAREILS DE VENTILATION ET DE CLIMATISATION",
+  "typeMarche": "Fourniture",
+  "financement": [
+   "Budget propre"
+  ],
+  "mode": "Demande de renseignement et de prix à compétition restreinte",
+  "lancement": "2026-05-18",
+  "attribution": "2026-05-29",
+  "demarrage": "2026-05-05",
+  "achevement": null,
+  "etat": null,
+  "montantFcfa": null
+ },
+ {
+  "autorite": "Ville de Guédiawaye",
+  "plan": "VG_2026_7",
+  "direction": "Division de l'Administration Générale et des Finances VG",
+  "reference": "F_VG_DAF_11123",
+  "objet": "ACQUISITION DE MATERIELS DE BALAYAGE",
+  "typeMarche": "Fourniture",
+  "financement": [
+   "Budget propre"
+  ],
+  "mode": "Demande de renseignement et de prix à compétition restreinte",
+  "lancement": "2026-06-04",
+  "attribution": "2026-06-19",
+  "demarrage": "2026-06-24",
+  "achevement": null,
+  "etat": null,
+  "montantFcfa": null
+ },
+ {
+  "autorite": "Ville de Guédiawaye",
+  "plan": "VG_2026_7",
+  "direction": "Division de l'Administration Générale et des Finances VG",
+  "reference": "F_VG_DAF_3681",
+  "objet": "ACQUISITION DE MOBILIERS DE BUREAUX ET DE MACHINES ET APPAREILS DE BUREAUX",
+  "typeMarche": "Fourniture",
+  "financement": [
+   "Budget propre"
+  ],
+  "mode": "Demande de renseignements et de prix à compétition ouverte",
+  "lancement": "2026-06-05",
+  "attribution": "2026-06-30",
+  "demarrage": "2026-07-14",
+  "achevement": null,
+  "etat": null,
+  "montantFcfa": null
+ },
+ {
+  "autorite": "Ville de Guédiawaye",
+  "plan": "VG_2026_7",
+  "direction": "Division de l'Administration Générale et des Finances VG",
+  "reference": "F_VG_DAF_2312",
+  "objet": "ACQUISITION DE FOURNITURES SCOLAIRES ET MATERIELS ET MOBILIERS SCOLAIRES",
+  "typeMarche": "Fourniture",
+  "financement": [
+   "Budget propre"
+  ],
+  "mode": "Appel d'offres ouvert",
+  "lancement": "2026-06-02",
+  "attribution": "2026-07-22",
+  "demarrage": "2026-08-24",
+  "achevement": null,
+  "etat": null,
+  "montantFcfa": null
+ },
+ {
+  "autorite": "Ville de Guédiawaye",
+  "plan": "VG_2026_7",
+  "direction": "Division de l'Administration Générale et des Finances VG",
+  "reference": "F_VG_DAF_18391",
+  "objet": "ACQUISITION DE MATERIELS ET MOBILIERS SCOLAIRES, ACQUISITION DE FOURNITURES SCOLAIRES",
+  "typeMarche": "Fourniture",
+  "financement": [
+   "Budget propre"
+  ],
+  "mode": "Appel d'offres ouvert",
+  "lancement": "2026-10-14",
+  "attribution": "2026-10-28",
+  "demarrage": "2026-11-23",
+  "achevement": null,
+  "etat": null,
+  "montantFcfa": null
+ },
+ {
+  "autorite": "Ville de Guédiawaye",
+  "plan": "VG_2026_7",
+  "direction": "Division de l'Administration Générale et des Finances VG",
+  "reference": "F_VG_DAF_18392",
+  "objet": "ACQUISITION DE PRODUITS D'ENTRETIEN, DE DESINFECTION ET D'HYGIENE",
+  "typeMarche": "Fourniture",
+  "financement": [
+   "Budget propre"
+  ],
+  "mode": "Demande de renseignements et de prix à compétition ouverte",
+  "lancement": "2026-10-13",
+  "attribution": "2026-11-05",
+  "demarrage": "2026-11-20",
+  "achevement": null,
+  "etat": null,
+  "montantFcfa": null
+ },
+ {
+  "autorite": "Ville de Guédiawaye",
+  "plan": "VG_2026_7",
+  "direction": "Direction des services Techniques VG",
+  "reference": "T_VG_DST_18387",
+  "objet": "CONSTRUCTION DE SALLES DE CLASSES, CONSTRUCTION DE SALLE MULTI-SPORTS, CONSTRUCTION DE CENTRE D'HEBERGEMENT SPORTIF PHASE 2",
+  "typeMarche": "Travaux",
+  "financement": [
+   "Budget propre"
+  ],
+  "mode": "Appel d'offres ouvert",
+  "lancement": "2026-10-14",
+  "attribution": "2026-11-30",
+  "demarrage": "2026-12-22",
+  "achevement": null,
+  "etat": null,
+  "montantFcfa": null
+ },
+ {
+  "autorite": "Ville de Guédiawaye",
+  "plan": "VG_2026_7",
+  "direction": "Direction des services Techniques VG",
+  "reference": "T_VG_DST_18388",
+  "objet": "GROSSES REPARATIONS AUX EQUIPEMENTS SANITAIRES, GROSSES REPARATIONS AUX EQUIPEMENTS SCOLAIRES, AUTRES OPERATIONS DE VOIRIE (PAVAGE), ENTRETIEN DIVERS",
+  "typeMarche": "Travaux",
+  "financement": [
+   "Budget propre"
+  ],
+  "mode": "Appel d'offres ouvert",
+  "lancement": "2026-10-19",
+  "attribution": "2026-12-07",
+  "demarrage": "2026-12-30",
+  "achevement": null,
+  "etat": null,
+  "montantFcfa": null
+ },
+ {
+  "autorite": "Ville de Guédiawaye",
+  "plan": "VG_2026_7",
+  "direction": "Division de l'Administration Générale et des Finances VG",
+  "reference": "F_VG_DAF_3683",
+  "objet": "HABILLEMENT DU PERSONNEL",
+  "typeMarche": "Fourniture",
+  "financement": [
+   "Budget propre"
+  ],
+  "mode": "Demande de renseignement et de prix à compétition restreinte",
+  "lancement": "2026-10-15",
+  "attribution": "2026-10-27",
+  "demarrage": "2026-11-04",
   "achevement": null,
   "etat": null,
   "montantFcfa": null
@@ -53995,6 +52951,996 @@
   "lancement": "2026-10-15",
   "attribution": "2026-11-06",
   "demarrage": "2026-11-23",
+  "achevement": null,
+  "etat": null,
+  "montantFcfa": null
+ },
+ {
+  "autorite": "Autorité de Régulation des Télécommunications et des Postes (ARTP)",
+  "plan": "ARTP_2026_20",
+  "direction": "ARTP",
+  "reference": "F_ARTP_01_12014",
+  "objet": "Acquisition de smartphones",
+  "typeMarche": "Fourniture",
+  "financement": [
+   "Budget propre"
+  ],
+  "mode": "Demande de renseignement et de prix à compétition restreinte",
+  "lancement": "2026-06-22",
+  "attribution": "2026-07-23",
+  "demarrage": "2026-08-05",
+  "achevement": null,
+  "etat": null,
+  "montantFcfa": null
+ },
+ {
+  "autorite": "Autorité de Régulation des Télécommunications et des Postes (ARTP)",
+  "plan": "ARTP_2026_20",
+  "direction": "ARTP",
+  "reference": "C_ARTP_01_3710",
+  "objet": "Recrutement d’un consultant pour un accompagnement sur les sujets économiques",
+  "typeMarche": "Prestation intellectuelle",
+  "financement": [
+   "Budget propre"
+  ],
+  "mode": "Demande de renseignement et de prix à compétition restreinte",
+  "lancement": "2026-05-15",
+  "attribution": "2026-06-17",
+  "demarrage": "2026-06-30",
+  "achevement": null,
+  "etat": null,
+  "montantFcfa": null
+ },
+ {
+  "autorite": "Autorité de Régulation des Télécommunications et des Postes (ARTP)",
+  "plan": "ARTP_2026_20",
+  "direction": "ARTP",
+  "reference": "F_ARTP_01_3731",
+  "objet": "Acquisition de fournitures de bureau et consommables informatiques en deux lots lot 1 : Fournitures de bureau Lot 2 : Consommables informatiques",
+  "typeMarche": "Fourniture",
+  "financement": [
+   "Budget propre"
+  ],
+  "mode": "Appel d'offres ouvert",
+  "lancement": "2026-06-30",
+  "attribution": "2026-10-28",
+  "demarrage": "2027-04-28",
+  "achevement": null,
+  "etat": null,
+  "montantFcfa": null
+ },
+ {
+  "autorite": "Autorité de Régulation des Télécommunications et des Postes (ARTP)",
+  "plan": "ARTP_2026_20",
+  "direction": "ARTP",
+  "reference": "F_ARTP_01_3732",
+  "objet": "Approvisionnement en eau en deux lots : lot 1 : Eau pour consommation interne lot 2 : Eau pour événements religieux",
+  "typeMarche": "Fourniture",
+  "financement": [
+   "Budget propre"
+  ],
+  "mode": "Demande de renseignements et de prix à compétition ouverte",
+  "lancement": "2026-06-05",
+  "attribution": "2026-07-09",
+  "demarrage": "2026-08-21",
+  "achevement": null,
+  "etat": null,
+  "montantFcfa": null
+ },
+ {
+  "autorite": "Autorité de Régulation des Télécommunications et des Postes (ARTP)",
+  "plan": "ARTP_2026_20",
+  "direction": "ARTP",
+  "reference": "S_ARTP_01_3733",
+  "objet": "Sélection d’un prestataire pour assurer l'étalonnage et la calibration des équipements de radio surveillance",
+  "typeMarche": "Services",
+  "financement": [
+   "Budget propre"
+  ],
+  "mode": "Appel d'offres ouvert",
+  "lancement": "2026-05-01",
+  "attribution": "2026-08-31",
+  "demarrage": "2027-03-01",
+  "achevement": null,
+  "etat": null,
+  "montantFcfa": null
+ },
+ {
+  "autorite": "Autorité de Régulation des Télécommunications et des Postes (ARTP)",
+  "plan": "ARTP_2026_20",
+  "direction": "ARTP",
+  "reference": "S_ARTP_01_5144",
+  "objet": "Sélection d’un prestataire pour le nettoiement du parc automobile de l’ARTP",
+  "typeMarche": "Services",
+  "financement": [
+   "Budget propre"
+  ],
+  "mode": "Demande de renseignements et de  prix simple",
+  "lancement": "2026-02-06",
+  "attribution": "2026-02-16",
+  "demarrage": "2026-02-16",
+  "achevement": null,
+  "etat": null,
+  "montantFcfa": null
+ },
+ {
+  "autorite": "Autorité de Régulation des Télécommunications et des Postes (ARTP)",
+  "plan": "ARTP_2026_20",
+  "direction": "ARTP",
+  "reference": "S_ARTP_01_6141",
+  "objet": "Désherbage, déreptilisation, désinsectisation et dératisation des sites de l'ARTP (siège, Khombole et Matam)",
+  "typeMarche": "Services",
+  "financement": [
+   "Budget propre"
+  ],
+  "mode": "Demande de renseignement et de prix à compétition restreinte",
+  "lancement": "2026-02-17",
+  "attribution": "2026-03-20",
+  "demarrage": "2026-04-02",
+  "achevement": null,
+  "etat": null,
+  "montantFcfa": null
+ },
+ {
+  "autorite": "Autorité de Régulation des Télécommunications et des Postes (ARTP)",
+  "plan": "ARTP_2026_20",
+  "direction": "ARTP",
+  "reference": "S_ARTP_01_3741",
+  "objet": "Maintenance du SIGAF",
+  "typeMarche": "Services",
+  "financement": [
+   "Budget propre"
+  ],
+  "mode": "Appel d'offres ouvert",
+  "lancement": "2026-07-01",
+  "attribution": "2026-10-29",
+  "demarrage": "2027-04-29",
+  "achevement": null,
+  "etat": null,
+  "montantFcfa": null
+ },
+ {
+  "autorite": "Autorité de Régulation des Télécommunications et des Postes (ARTP)",
+  "plan": "ARTP_2026_20",
+  "direction": "ARTP",
+  "reference": "F_ARTP_01_3722",
+  "objet": "Acquisition de matériels informatiques en six (6) lots",
+  "typeMarche": "Fourniture",
+  "financement": [
+   "Budget propre"
+  ],
+  "mode": "Appel d'offres ouvert",
+  "lancement": "2026-03-31",
+  "attribution": "2026-07-29",
+  "demarrage": "2027-01-27",
+  "achevement": null,
+  "etat": null,
+  "montantFcfa": null
+ },
+ {
+  "autorite": "Autorité de Régulation des Télécommunications et des Postes (ARTP)",
+  "plan": "ARTP_2026_20",
+  "direction": "ARTP",
+  "reference": "F_ARTP_01_3730",
+  "objet": "Fourniture de matériels et produits d’entretien",
+  "typeMarche": "Fourniture",
+  "financement": [
+   "Budget propre"
+  ],
+  "mode": "Demande de renseignement et de prix à compétition restreinte",
+  "lancement": "2026-06-19",
+  "attribution": "2026-07-22",
+  "demarrage": "2026-08-04",
+  "achevement": null,
+  "etat": null,
+  "montantFcfa": null
+ },
+ {
+  "autorite": "Autorité de Régulation des Télécommunications et des Postes (ARTP)",
+  "plan": "ARTP_2026_20",
+  "direction": "ARTP",
+  "reference": "S_ARTP_01_1402",
+  "objet": "Sélection d’un médecin d'entreprise",
+  "typeMarche": "Services",
+  "financement": [
+   "Budget propre"
+  ],
+  "mode": "Demande de renseignement et de prix à compétition restreinte",
+  "lancement": "2026-05-07",
+  "attribution": "2026-06-09",
+  "demarrage": "2026-06-22",
+  "achevement": null,
+  "etat": null,
+  "montantFcfa": null
+ },
+ {
+  "autorite": "Autorité de Régulation des Télécommunications et des Postes (ARTP)",
+  "plan": "ARTP_2026_20",
+  "direction": "ARTP",
+  "reference": "S_ARTP_01_7606",
+  "objet": "Entretien des espaces verts du siège",
+  "typeMarche": "Services",
+  "financement": [
+   "Budget propre"
+  ],
+  "mode": "Demande de renseignements et de  prix simple",
+  "lancement": "2026-06-30",
+  "attribution": "2026-07-08",
+  "demarrage": "2026-07-08",
+  "achevement": null,
+  "etat": null,
+  "montantFcfa": null
+ },
+ {
+  "autorite": "Autorité de Régulation des Télécommunications et des Postes (ARTP)",
+  "plan": "ARTP_2026_20",
+  "direction": "ARTP",
+  "reference": "S_ARTP_01_3472",
+  "objet": "Sélection d’un prestataire pour le service traiteur",
+  "typeMarche": "Services",
+  "financement": [
+   "Budget propre"
+  ],
+  "mode": "Demande de renseignement et de prix à compétition restreinte",
+  "lancement": "2026-03-04",
+  "attribution": "2026-03-27",
+  "demarrage": "2026-04-09",
+  "achevement": null,
+  "etat": null,
+  "montantFcfa": null
+ },
+ {
+  "autorite": "Autorité de Régulation des Télécommunications et des Postes (ARTP)",
+  "plan": "ARTP_2026_20",
+  "direction": "ARTP",
+  "reference": "F_ARTP_01_3723",
+  "objet": "Acquisition de licences et logiciels en dix (10) lots (logiciel Manage Engine, renouvellement, licence Fortinet, logiciel divers (statistique, Adobe, etc), licence Microsoft, renouvellement SAGE, solution de télétravail, licence ELK, outil de pentest...)",
+  "typeMarche": "Fourniture",
+  "financement": [
+   "Budget propre"
+  ],
+  "mode": "Appel d'offres ouvert",
+  "lancement": "2026-04-28",
+  "attribution": "2026-08-26",
+  "demarrage": "2027-02-24",
+  "achevement": null,
+  "etat": null,
+  "montantFcfa": null
+ },
+ {
+  "autorite": "Autorité de Régulation des Télécommunications et des Postes (ARTP)",
+  "plan": "ARTP_2026_20",
+  "direction": "ARTP",
+  "reference": "S_ARTP_01_1404",
+  "objet": "Entretien et maintenance de la climatisation des sites de l'ARTP",
+  "typeMarche": "Services",
+  "financement": [
+   "Budget propre"
+  ],
+  "mode": "Demande de renseignement et de prix à compétition restreinte",
+  "lancement": "2026-08-10",
+  "attribution": "2026-09-23",
+  "demarrage": "2026-10-20",
+  "achevement": null,
+  "etat": null,
+  "montantFcfa": null
+ },
+ {
+  "autorite": "Autorité de Régulation des Télécommunications et des Postes (ARTP)",
+  "plan": "ARTP_2026_20",
+  "direction": "ARTP",
+  "reference": "F_ARTP_01_3725",
+  "objet": "Acquisition de gadgets et de bagageries (goodies, tote bag, coffrets produits Sénégal…)",
+  "typeMarche": "Fourniture",
+  "financement": [
+   "Budget propre"
+  ],
+  "mode": "Demande de renseignement et de prix à compétition restreinte",
+  "lancement": "2026-10-15",
+  "attribution": "2027-02-08",
+  "demarrage": "2027-04-05",
+  "achevement": null,
+  "etat": null,
+  "montantFcfa": null
+ },
+ {
+  "autorite": "Autorité de Régulation des Télécommunications et des Postes (ARTP)",
+  "plan": "ARTP_2026_20",
+  "direction": "ARTP",
+  "reference": "S_ARTP_01_3750",
+  "objet": "Sélection d’un prestataire pour l’entretien et la réparation des lots techniques en trois (3) lots: lot 1 : Electricité lot 2 : Onduleurs et groupes électrogènes lot 3 : Sécurité Incendie",
+  "typeMarche": "Services",
+  "financement": [
+   "Budget propre"
+  ],
+  "mode": "Demande de renseignement et de prix à compétition restreinte",
+  "lancement": "2026-03-16",
+  "attribution": "2026-04-16",
+  "demarrage": "2026-04-29",
+  "achevement": null,
+  "etat": null,
+  "montantFcfa": null
+ },
+ {
+  "autorite": "Autorité de Régulation des Télécommunications et des Postes (ARTP)",
+  "plan": "ARTP_2026_20",
+  "direction": "ARTP",
+  "reference": "T_ARTP_01_7607",
+  "objet": "Démontage et réinstallation de l'infrastructure RNT",
+  "typeMarche": "Travaux",
+  "financement": [
+   "Budget propre"
+  ],
+  "mode": "Demande de renseignements et de  prix simple",
+  "lancement": "2026-03-11",
+  "attribution": "2026-03-19",
+  "demarrage": "2026-03-19",
+  "achevement": null,
+  "etat": null,
+  "montantFcfa": null
+ },
+ {
+  "autorite": "Autorité de Régulation des Télécommunications et des Postes (ARTP)",
+  "plan": "ARTP_2026_20",
+  "direction": "ARTP",
+  "reference": "F_ARTP_01_8566",
+  "objet": "Fourniture et installation d'un simplex Otis",
+  "typeMarche": "Fourniture",
+  "financement": [
+   "Budget propre"
+  ],
+  "mode": "Demande de renseignements et de prix à compétition ouverte",
+  "lancement": "2026-03-30",
+  "attribution": "2026-04-30",
+  "demarrage": "2026-06-12",
+  "achevement": null,
+  "etat": null,
+  "montantFcfa": null
+ },
+ {
+  "autorite": "Autorité de Régulation des Télécommunications et des Postes (ARTP)",
+  "plan": "ARTP_2026_20",
+  "direction": "ARTP",
+  "reference": "F_ARTP_01_7772",
+  "objet": "Acquisition de matériels d'inventaire",
+  "typeMarche": "Fourniture",
+  "financement": [
+   "Budget propre"
+  ],
+  "mode": "Demande de renseignement et de prix à compétition restreinte",
+  "lancement": "2026-03-13",
+  "attribution": "2026-04-15",
+  "demarrage": "2026-04-28",
+  "achevement": null,
+  "etat": null,
+  "montantFcfa": null
+ },
+ {
+  "autorite": "Autorité de Régulation des Télécommunications et des Postes (ARTP)",
+  "plan": "ARTP_2026_20",
+  "direction": "ARTP",
+  "reference": "S_ARTP_01_3754",
+  "objet": "Sélection d’un prestataire pour l’entretien et la maintenance de la plomberie",
+  "typeMarche": "Services",
+  "financement": [
+   "Budget propre"
+  ],
+  "mode": "Demande de renseignement et de prix à compétition restreinte",
+  "lancement": "2026-03-16",
+  "attribution": "2026-04-16",
+  "demarrage": "2026-04-29",
+  "achevement": null,
+  "etat": null,
+  "montantFcfa": null
+ },
+ {
+  "autorite": "Autorité de Régulation des Télécommunications et des Postes (ARTP)",
+  "plan": "ARTP_2026_20",
+  "direction": "ARTP",
+  "reference": "S_ARTP_01_3752",
+  "objet": "Sélection de compagnie d’assurances en 2 lots : Lot 1 : Assurance du parc automobile Lot 2 : Assurance multirisque professionnelle",
+  "typeMarche": "Services",
+  "financement": [
+   "Budget propre"
+  ],
+  "mode": "Demande de renseignement et de prix à compétition restreinte",
+  "lancement": "2026-04-08",
+  "attribution": "2026-05-11",
+  "demarrage": "2026-05-22",
+  "achevement": null,
+  "etat": null,
+  "montantFcfa": null
+ },
+ {
+  "autorite": "Autorité de Régulation des Télécommunications et des Postes (ARTP)",
+  "plan": "ARTP_2026_20",
+  "direction": "ARTP",
+  "reference": "S_ARTP_01_3473",
+  "objet": "Sélection d’un prestataire pour la location de matériels de restauration",
+  "typeMarche": "Services",
+  "financement": [
+   "Budget propre"
+  ],
+  "mode": "Demande de renseignement et de prix à compétition restreinte",
+  "lancement": "2026-04-08",
+  "attribution": "2026-05-11",
+  "demarrage": "2026-05-22",
+  "achevement": null,
+  "etat": null,
+  "montantFcfa": null
+ },
+ {
+  "autorite": "Autorité de Régulation des Télécommunications et des Postes (ARTP)",
+  "plan": "ARTP_2026_20",
+  "direction": "ARTP",
+  "reference": "F_ARTP_01_9426",
+  "objet": "Acquisition de la plateforme Xcal manager (piloter des campagnes de mesure réseau (2G, 3G, 4G, 5G), superviser des équipements de test à distance Et analyser les performances radio en temps réel).",
+  "typeMarche": "Fourniture",
+  "financement": [
+   "Budget propre"
+  ],
+  "mode": "Appel d'offres ouvert international",
+  "lancement": "2026-06-01",
+  "attribution": "2026-07-31",
+  "demarrage": "2026-09-01",
+  "achevement": null,
+  "etat": null,
+  "montantFcfa": null
+ },
+ {
+  "autorite": "Autorité de Régulation des Télécommunications et des Postes (ARTP)",
+  "plan": "ARTP_2026_20",
+  "direction": "ARTP",
+  "reference": "F_ARTP_01_9425",
+  "objet": "Relance F-ARTP-002 : fourniture et livraison de produits de collation",
+  "typeMarche": "Fourniture",
+  "financement": [
+   "Budget propre"
+  ],
+  "mode": "Demande de renseignement et de prix à compétition restreinte",
+  "lancement": "2026-04-15",
+  "attribution": "2026-05-18",
+  "demarrage": "2026-05-29",
+  "achevement": null,
+  "etat": null,
+  "montantFcfa": null
+ },
+ {
+  "autorite": "Autorité de Régulation des Télécommunications et des Postes (ARTP)",
+  "plan": "ARTP_2026_20",
+  "direction": "ARTP",
+  "reference": "F_ARTP_01_9774",
+  "objet": "Acquisition de sanitaires",
+  "typeMarche": "Fourniture",
+  "financement": [
+   "Budget propre"
+  ],
+  "mode": "Demande de renseignement et de prix à compétition restreinte",
+  "lancement": "2026-04-20",
+  "attribution": "2026-05-21",
+  "demarrage": "2026-06-03",
+  "achevement": null,
+  "etat": null,
+  "montantFcfa": null
+ },
+ {
+  "autorite": "Autorité de Régulation des Télécommunications et des Postes (ARTP)",
+  "plan": "ARTP_2026_20",
+  "direction": "ARTP",
+  "reference": "F_ARTP_01_11387",
+  "objet": "Acquisition de denrées alimentaires",
+  "typeMarche": "Fourniture",
+  "financement": [
+   "Budget propre"
+  ],
+  "mode": "Demande de renseignement et de prix à compétition restreinte",
+  "lancement": "2026-06-18",
+  "attribution": "2026-07-21",
+  "demarrage": "2026-08-03",
+  "achevement": null,
+  "etat": null,
+  "montantFcfa": null
+ },
+ {
+  "autorite": "Autorité de Régulation des Télécommunications et des Postes (ARTP)",
+  "plan": "ARTP_2026_20",
+  "direction": "ARTP",
+  "reference": "C_ARTP_01_3707",
+  "objet": "Accompagnement certification ISO 27001",
+  "typeMarche": "Prestation intellectuelle",
+  "financement": [
+   "Budget propre"
+  ],
+  "mode": "Demande de renseignement et de prix à compétition restreinte",
+  "lancement": "2026-06-10",
+  "attribution": "2026-07-13",
+  "demarrage": "2026-07-24",
+  "achevement": null,
+  "etat": null,
+  "montantFcfa": null
+ },
+ {
+  "autorite": "Autorité de Régulation des Télécommunications et des Postes (ARTP)",
+  "plan": "ARTP_2026_20",
+  "direction": "ARTP",
+  "reference": "S_ARTP_01_3739",
+  "objet": "Maintenance du Système d'information géographique des infrastructures de Télécommunications (SIGIT)",
+  "typeMarche": "Services",
+  "financement": [
+   "Budget propre"
+  ],
+  "mode": "Demande de renseignement et de prix à compétition restreinte",
+  "lancement": "2026-04-20",
+  "attribution": "2026-05-21",
+  "demarrage": "2026-06-03",
+  "achevement": null,
+  "etat": null,
+  "montantFcfa": null
+ },
+ {
+  "autorite": "Autorité de Régulation des Télécommunications et des Postes (ARTP)",
+  "plan": "ARTP_2026_20",
+  "direction": "ARTP",
+  "reference": "S_ARTP_01_3747",
+  "objet": "Sélection d'un prestataire pour l’organisation d’une colonie de vacances",
+  "typeMarche": "Services",
+  "financement": [
+   "Budget propre"
+  ],
+  "mode": "Demande de renseignements et de prix à compétition ouverte",
+  "lancement": "2026-06-30",
+  "attribution": "2026-07-31",
+  "demarrage": "2026-09-14",
+  "achevement": null,
+  "etat": null,
+  "montantFcfa": null
+ },
+ {
+  "autorite": "Autorité de Régulation des Télécommunications et des Postes (ARTP)",
+  "plan": "ARTP_2026_20",
+  "direction": "ARTP",
+  "reference": "S_ARTP_01_3745",
+  "objet": "Recrutement d’une agence événementielle",
+  "typeMarche": "Services",
+  "financement": [
+   "Budget propre"
+  ],
+  "mode": "Appel d'offres ouvert",
+  "lancement": "2026-10-30",
+  "attribution": "2027-02-23",
+  "demarrage": "2027-04-20",
+  "achevement": null,
+  "etat": null,
+  "montantFcfa": null
+ },
+ {
+  "autorite": "Autorité de Régulation des Télécommunications et des Postes (ARTP)",
+  "plan": "ARTP_2026_20",
+  "direction": "ARTP",
+  "reference": "F_ARTP_01_3724",
+  "objet": "Acquisition de trophées de prestige personnalisés destinés aux hôtes du Directeur général (partenaires, chefs d'entreprises, Ambassadeurs)",
+  "typeMarche": "Fourniture",
+  "financement": [
+   "Budget propre"
+  ],
+  "mode": "Demande de renseignement et de prix à compétition restreinte",
+  "lancement": "2026-10-30",
+  "attribution": "2026-12-02",
+  "demarrage": "2026-12-15",
+  "achevement": null,
+  "etat": null,
+  "montantFcfa": null
+ },
+ {
+  "autorite": "Autorité de Régulation des Télécommunications et des Postes (ARTP)",
+  "plan": "ARTP_2026_20",
+  "direction": "ARTP",
+  "reference": "S_ARTP_01_11388",
+  "objet": "Sélection d'un prestataire pour l'organisation d'un team building",
+  "typeMarche": "Services",
+  "financement": [
+   "Budget propre"
+  ],
+  "mode": "Demande de renseignement et de prix à compétition restreinte",
+  "lancement": "2026-11-03",
+  "attribution": "2026-12-04",
+  "demarrage": "2026-12-17",
+  "achevement": null,
+  "etat": null,
+  "montantFcfa": null
+ },
+ {
+  "autorite": "Autorité de Régulation des Télécommunications et des Postes (ARTP)",
+  "plan": "ARTP_2026_20",
+  "direction": "ARTP",
+  "reference": "S_ARTP_01_3734",
+  "objet": "Maintenance de la chaine de mesure QoS (connecteurs, batterie téléphone, modules de navigation)",
+  "typeMarche": "Services",
+  "financement": [
+   "Budget propre"
+  ],
+  "mode": "Demande de renseignements et de prix à compétition ouverte",
+  "lancement": "2026-06-30",
+  "attribution": "2026-08-03",
+  "demarrage": "2026-09-15",
+  "achevement": null,
+  "etat": null,
+  "montantFcfa": null
+ },
+ {
+  "autorite": "Autorité de Régulation des Télécommunications et des Postes (ARTP)",
+  "plan": "ARTP_2026_20",
+  "direction": "ARTP",
+  "reference": "S_ARTP_01_1403",
+  "objet": "Sélection d'un prestataire pour la maintenance, l'entretien et la réparation des installations de Plomberie des locaux de l'ARTP",
+  "typeMarche": "Services",
+  "financement": [
+   "Budget propre"
+  ],
+  "mode": "Demande de renseignement et de prix à compétition restreinte",
+  "lancement": "2026-03-12",
+  "attribution": "2026-04-27",
+  "demarrage": "2026-05-22",
+  "achevement": null,
+  "etat": null,
+  "montantFcfa": null
+ },
+ {
+  "autorite": "Autorité de Régulation des Télécommunications et des Postes (ARTP)",
+  "plan": "ARTP_2026_20",
+  "direction": "ARTP",
+  "reference": "S_ARTP_01_3749",
+  "objet": "Sélection d’un prestataire pour l’entretien et la réparation des véhicules du parc auto de l’ARTP en trois lots :\nLot 1 : Mitsubishi\nLot 2 : Toyota\nLot 3 : Autres marques",
+  "typeMarche": "Services",
+  "financement": [
+   "Budget propre"
+  ],
+  "mode": "Demande de renseignements et de prix à compétition ouverte",
+  "lancement": "2026-07-08",
+  "attribution": "2026-08-10",
+  "demarrage": "2026-09-22",
+  "achevement": null,
+  "etat": null,
+  "montantFcfa": null
+ },
+ {
+  "autorite": "Autorité de Régulation des Télécommunications et des Postes (ARTP)",
+  "plan": "ARTP_2026_20",
+  "direction": "ARTP",
+  "reference": "S_ARTP_01_3753",
+  "objet": "Location de photocopieurs",
+  "typeMarche": "Services",
+  "financement": [
+   "Budget propre"
+  ],
+  "mode": "Demande de renseignement et de prix à compétition restreinte",
+  "lancement": "2026-05-01",
+  "attribution": "2026-06-03",
+  "demarrage": "2026-06-16",
+  "achevement": null,
+  "etat": null,
+  "montantFcfa": null
+ },
+ {
+  "autorite": "Autorité de Régulation des Télécommunications et des Postes (ARTP)",
+  "plan": "ARTP_2026_20",
+  "direction": "ARTP",
+  "reference": "F_ARTP_01_1396",
+  "objet": "Fourniture et livraison de produits de collation",
+  "typeMarche": "Fourniture",
+  "financement": [
+   "Budget propre"
+  ],
+  "mode": "Demande de renseignements et de prix à compétition ouverte",
+  "lancement": "2026-03-23",
+  "attribution": "2026-05-06",
+  "demarrage": "2026-06-02",
+  "achevement": null,
+  "etat": null,
+  "montantFcfa": null
+ },
+ {
+  "autorite": "Autorité de Régulation des Télécommunications et des Postes (ARTP)",
+  "plan": "ARTP_2026_20",
+  "direction": "ARTP",
+  "reference": "C_ARTP_01_3706",
+  "objet": "Sélection d’un cabinet pour réaliser la cartographie et la mise en place d'un système d'information géographique des infrastructures postales",
+  "typeMarche": "Prestation intellectuelle",
+  "financement": [
+   "Budget propre"
+  ],
+  "mode": "Demande de renseignement et de prix à compétition restreinte",
+  "lancement": "2026-05-25",
+  "attribution": "2026-06-25",
+  "demarrage": "2026-07-08",
+  "achevement": null,
+  "etat": null,
+  "montantFcfa": null
+ },
+ {
+  "autorite": "Autorité de Régulation des Télécommunications et des Postes (ARTP)",
+  "plan": "ARTP_2026_20",
+  "direction": "ARTP",
+  "reference": "T_ARTP_01_3712",
+  "objet": "Aménagement d'une salle polyvalente au 5ème étage du bâtiment A",
+  "typeMarche": "Travaux",
+  "financement": [
+   "Budget propre"
+  ],
+  "mode": "Demande de renseignement et de prix à compétition restreinte",
+  "lancement": "2026-06-30",
+  "attribution": "2026-07-31",
+  "demarrage": "2026-08-13",
+  "achevement": null,
+  "etat": null,
+  "montantFcfa": null
+ },
+ {
+  "autorite": "Autorité de Régulation des Télécommunications et des Postes (ARTP)",
+  "plan": "ARTP_2026_20",
+  "direction": "ARTP",
+  "reference": "F_ARTP_01_3717",
+  "objet": "Acquisition d’une station fixe et une station mobile pour le Centre National de Contrôle des Fréquences (CNCF, SIGAF) à Dakar",
+  "typeMarche": "Fourniture",
+  "financement": [
+   "Budget propre"
+  ],
+  "mode": "Appel d'offres ouvert",
+  "lancement": "2026-03-02",
+  "attribution": "2026-06-30",
+  "demarrage": "2026-12-29",
+  "achevement": null,
+  "etat": null,
+  "montantFcfa": null
+ },
+ {
+  "autorite": "Autorité de Régulation des Télécommunications et des Postes (ARTP)",
+  "plan": "ARTP_2026_20",
+  "direction": "ARTP",
+  "reference": "T_ARTP_01_3714",
+  "objet": "Travaux de rénovation du siège de l’ARTP, phase 2 (peinture, revêtement, esthétique)",
+  "typeMarche": "Travaux",
+  "financement": [
+   "Budget propre"
+  ],
+  "mode": "Demande de renseignement et de prix à compétition restreinte",
+  "lancement": "2026-10-30",
+  "attribution": "2026-05-27",
+  "demarrage": "2026-06-09",
+  "achevement": null,
+  "etat": null,
+  "montantFcfa": null
+ },
+ {
+  "autorite": "Autorité de Régulation des Télécommunications et des Postes (ARTP)",
+  "plan": "ARTP_2026_20",
+  "direction": "ARTP",
+  "reference": "T_ARTP_01_3713",
+  "objet": "Travaux de construction d'un mur de clôture pour le site de Khombole",
+  "typeMarche": "Travaux",
+  "financement": [
+   "Budget propre"
+  ],
+  "mode": "Demande de renseignements et de prix à compétition ouverte",
+  "lancement": "2026-11-03",
+  "attribution": "2026-12-04",
+  "demarrage": "2027-01-18",
+  "achevement": null,
+  "etat": null,
+  "montantFcfa": null
+ },
+ {
+  "autorite": "Autorité de Régulation des Télécommunications et des Postes (ARTP)",
+  "plan": "ARTP_2026_20",
+  "direction": "ARTP",
+  "reference": "F_ARTP_01_3718",
+  "objet": "Acquisition d’équipements pour mise à niveau du laboratoire d'homologation (calibration, hard et software pour la prise en charge de la 5G, mise à jour des procédures)",
+  "typeMarche": "Fourniture",
+  "financement": [
+   "Budget propre"
+  ],
+  "mode": "Appel d'offres ouvert",
+  "lancement": "2026-04-01",
+  "attribution": "2026-07-30",
+  "demarrage": "2027-01-28",
+  "achevement": null,
+  "etat": null,
+  "montantFcfa": null
+ },
+ {
+  "autorite": "Autorité de Régulation des Télécommunications et des Postes (ARTP)",
+  "plan": "ARTP_2026_20",
+  "direction": "ARTP",
+  "reference": "F_ARTP_01_3720",
+  "objet": "Acquisition de sondes de tests et de monitoring de la qualité des services mobiles",
+  "typeMarche": "Fourniture",
+  "financement": [
+   "Budget propre"
+  ],
+  "mode": "Appel d'offres ouvert",
+  "lancement": "2026-03-02",
+  "attribution": "2026-06-30",
+  "demarrage": "2026-12-29",
+  "achevement": null,
+  "etat": null,
+  "montantFcfa": null
+ },
+ {
+  "autorite": "Autorité de Régulation des Télécommunications et des Postes (ARTP)",
+  "plan": "ARTP_2026_20",
+  "direction": "ARTP",
+  "reference": "S_ARTP_01_13247",
+  "objet": "Sélection d’un prestataire pour le nettoiement des sites de l’ARTP en quatre (4) lots :\nLot 1 : Nettoiement des locaux du Siège \nLot 2 : Nettoiement des locaux du Collège\nLot 3 : Nettoiement des locaux du centre de Khombole\nLot 4 : Nettoiement des locaux du centre de Matam",
+  "typeMarche": "Services",
+  "financement": [
+   "Budget propre"
+  ],
+  "mode": "Appel d'offres ouvert",
+  "lancement": "2026-06-30",
+  "attribution": "2026-10-22",
+  "demarrage": "2026-12-17",
+  "achevement": null,
+  "etat": null,
+  "montantFcfa": null
+ },
+ {
+  "autorite": "Autorité de Régulation des Télécommunications et des Postes (ARTP)",
+  "plan": "ARTP_2026_20",
+  "direction": "ARTP",
+  "reference": "T_ARTP_01_3716",
+  "objet": "Travaux de menuiserie (Aluminium, Bois, Fer Forge)",
+  "typeMarche": "Travaux",
+  "financement": [
+   "Budget propre"
+  ],
+  "mode": "Demande de renseignement et de prix à compétition restreinte",
+  "lancement": "2026-09-01",
+  "attribution": "2026-10-02",
+  "demarrage": "2026-10-15",
+  "achevement": null,
+  "etat": null,
+  "montantFcfa": null
+ },
+ {
+  "autorite": "Autorité de Régulation des Télécommunications et des Postes (ARTP)",
+  "plan": "ARTP_2026_20",
+  "direction": "ARTP",
+  "reference": "F_ARTP_01_3726",
+  "objet": "Acquisition d'un onduleur modulaire triphasé 40kva avec armoire batterie évolutif jusqu'à 80kva",
+  "typeMarche": "Fourniture",
+  "financement": [
+   "Budget propre"
+  ],
+  "mode": "Demande de renseignement et de prix à compétition restreinte",
+  "lancement": "2026-08-11",
+  "attribution": "2026-09-11",
+  "demarrage": "2026-09-24",
+  "achevement": null,
+  "etat": null,
+  "montantFcfa": null
+ },
+ {
+  "autorite": "Autorité de Régulation des Télécommunications et des Postes (ARTP)",
+  "plan": "ARTP_2026_20",
+  "direction": "ARTP",
+  "reference": "S_ARTP_01_3744",
+  "objet": "Service d’impression",
+  "typeMarche": "Services",
+  "financement": [
+   "Budget propre"
+  ],
+  "mode": "Demande de renseignement et de prix à compétition restreinte",
+  "lancement": "2026-06-01",
+  "attribution": "2026-07-02",
+  "demarrage": "2026-07-15",
+  "achevement": null,
+  "etat": null,
+  "montantFcfa": null
+ },
+ {
+  "autorite": "Autorité de Régulation des Télécommunications et des Postes (ARTP)",
+  "plan": "ARTP_2026_20",
+  "direction": "ARTP",
+  "reference": "S_ARTP_01_17599",
+  "objet": "Relance marché N° S_ARTP_059 / S_ARTP_01_3749 \"Sélection d’un prestataire pour l’entretien et la réparation des véhicules du parc auto de l’ARTP en trois lots\" Lot 2 : Toyota",
+  "typeMarche": "Services",
+  "financement": [
+   "Budget propre"
+  ],
+  "mode": "Demande de renseignement et de prix à compétition restreinte",
+  "lancement": "2026-09-28",
+  "attribution": "2026-10-29",
+  "demarrage": "2026-11-11",
+  "achevement": null,
+  "etat": null,
+  "montantFcfa": null
+ },
+ {
+  "autorite": "Autorité de Régulation des Télécommunications et des Postes (ARTP)",
+  "plan": "ARTP_2026_20",
+  "direction": "ARTP",
+  "reference": "F_ARTP_01_17600",
+  "objet": "Acquisition de quatre modules de puissance 20 kva pour onduleur Delta",
+  "typeMarche": "Fourniture",
+  "financement": [
+   "Budget propre"
+  ],
+  "mode": "Demande de renseignement et de prix à compétition restreinte",
+  "lancement": "2026-09-17",
+  "attribution": "2026-10-20",
+  "demarrage": "2026-11-02",
+  "achevement": null,
+  "etat": null,
+  "montantFcfa": null
+ },
+ {
+  "autorite": "Autorité de Régulation des Télécommunications et des Postes (ARTP)",
+  "plan": "ARTP_2026_20",
+  "direction": "ARTP",
+  "reference": "S_ARTP_01_18149",
+  "objet": "Entretien, maintenance et réparation des installations de menuiserie (Aluminium, Bois et Fer Forgé) des sites de l’ARTP",
+  "typeMarche": "Services",
+  "financement": [
+   "Budget propre"
+  ],
+  "mode": "Demande de renseignement et de prix à compétition restreinte",
+  "lancement": "2026-11-16",
+  "attribution": "2026-12-17",
+  "demarrage": "2026-12-30",
+  "achevement": null,
+  "etat": null,
+  "montantFcfa": null
+ },
+ {
+  "autorite": "Autorité de Régulation des Télécommunications et des Postes (ARTP)",
+  "plan": "ARTP_2026_20",
+  "direction": "ARTP",
+  "reference": "S_ARTP_01_3748",
+  "objet": "Sélection d'un prestataire pour l’organisation d’un Arbre de Noel et cérémonie des vœux",
+  "typeMarche": "Services",
+  "financement": [
+   "Budget propre"
+  ],
+  "mode": "Appel d'offres ouvert",
+  "lancement": "2026-11-16",
+  "attribution": "2027-03-10",
+  "demarrage": "2027-05-05",
+  "achevement": null,
+  "etat": null,
+  "montantFcfa": null
+ },
+ {
+  "autorite": "Autorité de Régulation des Télécommunications et des Postes (ARTP)",
+  "plan": "ARTP_2026_20",
+  "direction": "ARTP",
+  "reference": "T_ARTP_01_18285",
+  "objet": "Travaux de mise en conformité de l'alimentation électrique générale du Siège de l'ARTP, du local groupe électrogène au local TGBT (Tableau Général Basse Tension)",
+  "typeMarche": "Travaux",
+  "financement": [
+   "Budget propre"
+  ],
+  "mode": "Demande de renseignement et de prix à compétition restreinte",
+  "lancement": "2026-09-29",
+  "attribution": "2026-10-30",
+  "demarrage": "2026-11-12",
+  "achevement": null,
+  "etat": null,
+  "montantFcfa": null
+ },
+ {
+  "autorite": "Autorité de Régulation des Télécommunications et des Postes (ARTP)",
+  "plan": "ARTP_2026_20",
+  "direction": "ARTP",
+  "reference": "T_ARTP_01_18286",
+  "objet": "Aménagement d'une salle polyvalente au 5ème étage du bâtiment A",
+  "typeMarche": "Travaux",
+  "financement": [
+   "Budget propre"
+  ],
+  "mode": "Demande de renseignement et de prix à compétition restreinte",
+  "lancement": "2026-10-30",
+  "attribution": "2026-12-02",
+  "demarrage": "2026-12-15",
   "achevement": null,
   "etat": null,
   "montantFcfa": null

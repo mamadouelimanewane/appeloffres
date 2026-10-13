@@ -1,143 +1,6 @@
 {
- "misAJourLe": "2026-10-12",
+ "misAJourLe": "2026-10-13",
  "avis": [
-  {
-   "id": "ungm-dfe9eced5d",
-   "source": "ungm",
-   "sourceLibelle": "Nations unies (UNGM)",
-   "reference": "UNW-WCA-2026-00032",
-   "titre": "Sélection d’une agence événementielle dans le cadre du Forum international sur l",
-   "autorite": "UN-Women (Nations unies)",
-   "secteur": "Services",
-   "region": null,
-   "mode": "Demande de cotation",
-   "budgetEstime": null,
-   "garantieSoumission": null,
-   "publieLe": "2026-09-30",
-   "dateLimite": "2026-10-12",
-   "url": "https://www.ungm.org/Public/Notice/316406"
-  },
-  {
-   "id": "bceao-2c3ad897a6",
-   "source": "bceao",
-   "sourceLibelle": "BCEAO",
-   "reference": "non communiquée",
-   "titre": "Fourniture d'équipements de sport pour la salle de gymnastique du Siège de la BCEAO",
-   "autorite": "BCEAO",
-   "secteur": "Fournitures",
-   "region": null,
-   "mode": null,
-   "budgetEstime": null,
-   "garantieSoumission": null,
-   "publieLe": "2026-09-18",
-   "dateLimite": "2026-10-12",
-   "url": "https://www.bceao.int/fr/appels-offres/fourniture-dequipements-de-sport-pour-la-salle-de-gymnastique-du-siege-de-la-bceao-0",
-   "lectureIa": {
-    "resume": null,
-    "piecesExigees": [],
-    "heureLimite": null,
-    "dateLimiteAvis": null,
-    "exigences": {
-     "chiffreAffairesMinFcfa": null,
-     "ligneCreditMinFcfa": null,
-     "marchesSimilairesMin": null,
-     "experienceMinAnnees": null,
-     "personnelCle": [],
-     "materiel": []
-    },
-    "autresDates": [],
-    "lieuDepot": null,
-    "modele": "deepseek-flash",
-    "tronque": true
-   }
-  },
-  {
-   "id": "pfongue-ad6540336d",
-   "source": "pfongue",
-   "sourceLibelle": "ONG (PFONGUE)",
-   "reference": "non communiquée",
-   "titre": "MISE EN PLACE D'UNE COUVERTURE SANTE POUR LE PERSONNEL DE HI SOUS LE REGIME D'AUTOFINANCEMENT",
-   "autorite": "ONG (plate-forme PFONGUE)",
-   "secteur": "Services",
-   "region": null,
-   "mode": "Appel d'offres",
-   "budgetEstime": null,
-   "garantieSoumission": null,
-   "publieLe": "2026-09-30",
-   "dateLimite": "2026-10-12",
-   "url": "https://www.pfongue.org/Appel-d-offres-_-MISE-EN-PLACE-D-UNE-COUVERTURE-SANTE-POUR-LE-PERSONNEL-DE-HI.html",
-   "lectureIa": {
-    "resume": "Humanité & Inclusion recherche une société de courtage pour gérer la couverture santé de son personnel et de ses ayants droit dans 7 pays du programme Sahel Afrique de l'Ouest, sous régime d'autofinancement. L'offre doit être envoyée par email avant le 12 octobre 2026 à 14H00 (heure de Niamey) avec un dossier administratif complet, une offre technique et une offre financière.",
-    "piecesExigees": [
-     "Une copie du registre de commerce et du crédit mobilier (RCCM)",
-     "Une copie de l’autorisation de gestion de fonds maladie délivrée par les autorités compétentes",
-     "Une copie du contrat d'assurance responsabilité civile professionnelle",
-     "Une copie du numéro identifiant fiscal (NIF ou IUF)",
-     "Une copie du certificat de non faillite valide à la date de clôture (obligatoire)",
-     "Une copie de l’attestation de régularité fiscale valide à la date de clôture (obligatoire)",
-     "Le RIB de l’entreprise (obligatoire)",
-     "Une copie de la pièce d’identité ou du passeport du responsable de la société (Eliminatoire)",
-     "L’annexe HI « Conditions Générales d’achats » dûment renseignée, cachetée et signée",
-     "L’annexe HI « Bonnes Pratiques Commerciales » dûment renseignées, cachetées et signées",
-     "La déclaration d’intégrité AFD » dûment renseignées, cachetées et signées"
-    ],
-    "heureLimite": "14H00",
-    "dateLimiteAvis": "2026-10-12",
-    "exigences": {
-     "chiffreAffairesMinFcfa": null,
-     "ligneCreditMinFcfa": null,
-     "marchesSimilairesMin": 3,
-     "experienceMinAnnees": null,
-     "personnelCle": [],
-     "materiel": []
-    },
-    "autresDates": [
-     {
-      "libelle": "Dernier jour où HI donne des clarifications",
-      "date": "2026-10-05"
-     },
-     {
-      "libelle": "Signature de contrat",
-      "date": "2026-12-15"
-     }
-    ],
-    "lieuDepot": "achats@niger.hi.org",
-    "modele": "deepseek-flash",
-    "tronque": false
-   }
-  },
-  {
-   "id": "ungm-1247400fd7",
-   "source": "ungm",
-   "sourceLibelle": "Nations unies (UNGM)",
-   "reference": "2026/FRSEN/FRSEN/138587",
-   "titre": "Achat de goodies (T-shirts, brochures, sacs, banderoles, Roll-up) pour la célébration de la Journée mondiale de l’Alimentation à livrer à Dakar (Sénégal)",
-   "autorite": "FAO (Nations unies)",
-   "secteur": "Fournitures",
-   "region": null,
-   "mode": "Demande de cotation",
-   "budgetEstime": null,
-   "garantieSoumission": null,
-   "publieLe": "2026-10-07",
-   "dateLimite": "2026-10-12",
-   "url": "https://www.ungm.org/Public/Notice/317288"
-  },
-  {
-   "id": "ungm-d06d0157e7",
-   "source": "ungm",
-   "sourceLibelle": "Nations unies (UNGM)",
-   "reference": "UNFPA-R42-00013",
-   "titre": "Hotel Procurement for the Joint WCARO/ESARO Technical Workshop at Saly Senegal",
-   "autorite": "UNFPA (Nations unies)",
-   "secteur": "Services",
-   "region": null,
-   "mode": "Demande de cotation",
-   "budgetEstime": null,
-   "garantieSoumission": null,
-   "publieLe": "2026-10-07",
-   "dateLimite": "2026-10-12",
-   "url": "https://www.ungm.org/Public/Notice/317237"
-  },
   {
    "id": "ungm-43f1a7c018",
    "source": "ungm",
@@ -313,6 +176,22 @@
    "publieLe": "2026-10-08",
    "dateLimite": "2026-10-16",
    "url": "https://www.ungm.org/Public/Notice/317450"
+  },
+  {
+   "id": "ungm-fc1226e66e",
+   "source": "ungm",
+   "sourceLibelle": "Nations unies (UNGM)",
+   "reference": "rfx_12252_ROAF",
+   "titre": "Demande de Cotation hôtel pour l’organisation de l’atelier de Validation technique de la SNIFEI",
+   "autorite": "OIT (Nations unies)",
+   "secteur": "Services",
+   "region": null,
+   "mode": "Demande de cotation",
+   "budgetEstime": null,
+   "garantieSoumission": null,
+   "publieLe": "2026-10-12",
+   "dateLimite": "2026-10-16",
+   "url": "https://www.ungm.org/Public/Notice/317806"
   },
   {
    "id": "banquemondiale-3503211614",
@@ -959,6 +838,22 @@
    "url": "https://www.ungm.org/Public/Notice/316402"
   },
   {
+   "id": "bceao-a4dca558cc",
+   "source": "bceao",
+   "sourceLibelle": "BCEAO",
+   "reference": "non communiquée",
+   "titre": "Rénovation du système de climatisation d’une salle serveurs informatiques à l’Agence Principale de la BCEAO à Dakar",
+   "autorite": "BCEAO",
+   "secteur": "Informatique",
+   "region": null,
+   "mode": null,
+   "budgetEstime": null,
+   "garantieSoumission": null,
+   "publieLe": "2026-10-13",
+   "dateLimite": "2026-10-30",
+   "url": "https://www.bceao.int/fr/appels-offres/renovation-du-systeme-de-climatisation-dune-salle-serveurs-informatiques-lagence"
+  },
+  {
    "id": "senelec-0ee190f3f3",
    "source": "senelec",
    "sourceLibelle": "Senelec",
@@ -1025,6 +920,22 @@
     "modele": "deepseek-flash",
     "tronque": false
    }
+  },
+  {
+   "id": "ungm-220720c164",
+   "source": "ungm",
+   "sourceLibelle": "Nations unies (UNGM)",
+   "reference": "2026/FRSEN/FRSEN/138424",
+   "titre": "Acquisition et pose de clôture en grillage galvanisé, de panneaux de visibilité, de poteaux et divers accessoires de fixation, de tension et de fermeture pour 400 ha de périmètres communautaires répartis en deux (2) lots",
+   "autorite": "FAO (Nations unies)",
+   "secteur": "Fournitures",
+   "region": null,
+   "mode": "Appel d'offres",
+   "budgetEstime": null,
+   "garantieSoumission": null,
+   "publieLe": "2026-10-12",
+   "dateLimite": "2026-11-02",
+   "url": "https://www.ungm.org/Public/Notice/317810"
   },
   {
    "id": "ageroute-23682bcf93",
@@ -1260,6 +1171,54 @@
    }
   },
   {
+   "id": "wp:lesoleil.sn-733b612fae",
+   "source": "wp:lesoleil.sn",
+   "sourceLibelle": "Sites institutionnels",
+   "reference": "F_DTA_004",
+   "titre": "AVIS D'APPEL D'OFFRES",
+   "autorite": "Le Soleil",
+   "secteur": "Services",
+   "region": null,
+   "mode": "Appel d'offres",
+   "budgetEstime": null,
+   "garantieSoumission": null,
+   "publieLe": "2026-10-13",
+   "dateLimite": "2026-11-12",
+   "url": "https://lesoleil.sn/marche-public/avis-dappel-doffres-6/"
+  },
+  {
+   "id": "wp:lesoleil.sn-1584af0b32",
+   "source": "wp:lesoleil.sn",
+   "sourceLibelle": "Sites institutionnels",
+   "reference": "non communiquée",
+   "titre": "Avis d’Appel d’offres",
+   "autorite": "Le Soleil",
+   "secteur": "Services",
+   "region": null,
+   "mode": "Appel d'offres",
+   "budgetEstime": null,
+   "garantieSoumission": null,
+   "publieLe": "2026-10-13",
+   "dateLimite": "2026-11-17",
+   "url": "https://lesoleil.sn/marche-public/avis-dappel-doffres-7/"
+  },
+  {
+   "id": "wp:lesoleil.sn-c1c5ade3d8",
+   "source": "wp:lesoleil.sn",
+   "sourceLibelle": "Sites institutionnels",
+   "reference": "16668",
+   "titre": "AVIS D’APPEL D’OFFRES NATIONAL (AAON) N°43‐2026",
+   "autorite": "Le Soleil",
+   "secteur": "Services",
+   "region": null,
+   "mode": "Appel d'offres",
+   "budgetEstime": null,
+   "garantieSoumission": null,
+   "publieLe": "2026-10-13",
+   "dateLimite": "2026-11-18",
+   "url": "https://lesoleil.sn/marche-public/avis-dappel-doffres-national-aaon-n43%e2%80%902026/"
+  },
+  {
    "id": "pfongue-9f99da90fc",
    "source": "pfongue",
    "sourceLibelle": "ONG (PFONGUE)",
@@ -1274,6 +1233,38 @@
    "publieLe": "2026-10-08",
    "dateLimite": null,
    "url": "https://www.pfongue.org/Appel-d-offres-_-L-ONG-Solthis-envisage-d-etablir-des-contrats-cadres-pour.html"
+  },
+  {
+   "id": "pfongue-827681e18f",
+   "source": "pfongue",
+   "sourceLibelle": "ONG (PFONGUE)",
+   "reference": "non communiquée",
+   "titre": "ENTRETIEN ET REPARATION VEHICULES",
+   "autorite": "ONG (plate-forme PFONGUE)",
+   "secteur": "Services",
+   "region": null,
+   "mode": "Appel d'offres",
+   "budgetEstime": null,
+   "garantieSoumission": null,
+   "publieLe": "2026-10-13",
+   "dateLimite": null,
+   "url": "https://www.pfongue.org/Appel-d-offres-_-ENTRETIEN-ET-REPARATION-VEHICULES.html"
+  },
+  {
+   "id": "pfongue-87a64f1077",
+   "source": "pfongue",
+   "sourceLibelle": "ONG (PFONGUE)",
+   "reference": "non communiquée",
+   "titre": "APPEL À MANIFESTATIONS D'INTÉRÊT _ Réalisation d'études dans le cadre du projet SANSAS 2 pour le compte de Solthis Sénégal",
+   "autorite": "ONG (plate-forme PFONGUE)",
+   "secteur": "Études",
+   "region": null,
+   "mode": "Appel à manifestation d'intérêt",
+   "budgetEstime": null,
+   "garantieSoumission": null,
+   "publieLe": "2026-10-13",
+   "dateLimite": null,
+   "url": "https://www.pfongue.org/Appel-d-offres-_-Realisation-d-etudes-dans-le-cadre-du-projet-SANSAS-2-pour-le.html"
   }
  ]
 }
