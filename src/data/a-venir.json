@@ -1,96 +1,6 @@
 {
- "misAJourLe": "2026-10-13",
+ "misAJourLe": "2026-10-14",
  "realisations": [
-  {
-   "id": "ppm-9862e3455c",
-   "autorite": "Port Autonome de Dakar",
-   "plan": "PAD_2026_6",
-   "direction": "DIRECTION DU DIGITAL",
-   "reference": "F_PAD_DD_1457",
-   "objet": "acquisition d'une plateforme de sensibilisation à la cybersécurité",
-   "typeMarche": "Fourniture",
-   "secteur": "Informatique",
-   "financement": [
-    "Budget propre"
-   ],
-   "mode": "Demande de renseignement et de prix à compétition restreinte",
-   "lancement": "2026-08-14",
-   "attribution": "2026-06-04",
-   "etat": null,
-   "montantFcfa": null
-  },
-  {
-   "id": "ppm-fd4f1775ae",
-   "autorite": "Port Autonome de Dakar",
-   "plan": "PAD_2026_6",
-   "direction": "SECRETARIAT GENERAL",
-   "reference": "S_PAD_SG_15983",
-   "objet": "Avenant de renouvellement n°2 au marché de base n° S1719/24-DK (Lot 3 : Direction de l’Exploitation, Salon d’honneur et box Service Exploitation, etc.) de l'appel d'offre ouvert portant nettoiement des locaux à usage de bureaux et d'habitation en 12 lots",
-   "typeMarche": "Services",
-   "secteur": "Services",
-   "financement": [
-    "Budget propre"
-   ],
-   "mode": "Demande de renseignements et de prix à compétition ouverte",
-   "lancement": "2026-08-14",
-   "attribution": "2026-09-16",
-   "etat": null,
-   "montantFcfa": null
-  },
-  {
-   "id": "ppm-9a2aec50dc",
-   "autorite": "Port Autonome de Dakar",
-   "plan": "PAD_2026_6",
-   "direction": "DIRECTION DE L’EXPLOITATION/HAUT COMMANDEMENT",
-   "reference": "F_PAD_DEX/HC_13946",
-   "objet": "Acquisition de matériel de sûreté (Herse anti intrusion véhicule , Miroir Télescopique, signalisation de sécurité)",
-   "typeMarche": "Fourniture",
-   "secteur": "Fournitures",
-   "financement": [
-    "Budget propre"
-   ],
-   "mode": "Demande de renseignement et de prix à compétition restreinte",
-   "lancement": "2026-08-14",
-   "attribution": "2026-08-26",
-   "etat": null,
-   "montantFcfa": null
-  },
-  {
-   "id": "ppm-6e96f153e7",
-   "autorite": "Ville de Rufisque",
-   "plan": "VR_2026_5",
-   "direction": "Direction des finances et de la comptabilité",
-   "reference": "F_VR_DFC_1779",
-   "objet": "Fournitures d'imprimes et registres (lot 1) et de tickets de perception (Lot 2)",
-   "typeMarche": "Fourniture",
-   "secteur": "Fournitures",
-   "financement": [
-    "Budget propre"
-   ],
-   "mode": "Demande de renseignement et de prix à compétition restreinte",
-   "lancement": "2026-08-14",
-   "attribution": "2026-09-17",
-   "etat": null,
-   "montantFcfa": null
-  },
-  {
-   "id": "ppm-4d6cfa2e16",
-   "autorite": "SENPNA",
-   "plan": "SENPNA_2026_13",
-   "direction": "DIRECTION DE L'ADMINISTRATION ET DES FINANCES",
-   "reference": "F_SENPNA_DAF_12184",
-   "objet": "Acquisition et installation de système de géolocalisation (gestion de la flotte automobile)",
-   "typeMarche": "Fourniture",
-   "secteur": "Fournitures",
-   "financement": [
-    "Budget propre"
-   ],
-   "mode": "Demande de renseignements et de prix à compétition ouverte",
-   "lancement": "2026-08-14",
-   "attribution": "2026-09-16",
-   "etat": null,
-   "montantFcfa": null
-  },
   {
    "id": "ppm-3207d1b9df",
    "autorite": "Dakar Dem Dikk",
@@ -5326,24 +5236,6 @@
    "mode": "Demande de renseignements et de  prix simple",
    "lancement": "2026-10-13",
    "attribution": "2026-10-20",
-   "etat": null,
-   "montantFcfa": null
-  },
-  {
-   "id": "ppm-8b1dddedd9",
-   "autorite": "Ville de Guédiawaye",
-   "plan": "VG_2026_7",
-   "direction": "Division de l'Administration Générale et des Finances VG",
-   "reference": "F_VG_DAF_18392",
-   "objet": "ACQUISITION DE PRODUITS D'ENTRETIEN, DE DESINFECTION ET D'HYGIENE",
-   "typeMarche": "Fourniture",
-   "secteur": "Fournitures",
-   "financement": [
-    "Budget propre"
-   ],
-   "mode": "Demande de renseignements et de prix à compétition ouverte",
-   "lancement": "2026-10-13",
-   "attribution": "2026-11-05",
    "etat": null,
    "montantFcfa": null
   },

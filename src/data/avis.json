@@ -1,5 +1,5 @@
 {
- "misAJourLe": "2026-10-13",
+ "misAJourLe": "2026-10-14",
  "avis": [
   {
    "id": "ungm-43f1a7c018",
@@ -13,7 +13,7 @@
    "mode": "Demande de propositions",
    "budgetEstime": null,
    "garantieSoumission": null,
-   "publieLe": "2026-10-10",
+   "publieLe": "2026-10-14",
    "dateLimite": "2026-10-14",
    "url": "https://www.ungm.org/Public/Notice/315067"
   },
@@ -192,6 +192,22 @@
    "publieLe": "2026-10-12",
    "dateLimite": "2026-10-16",
    "url": "https://www.ungm.org/Public/Notice/317806"
+  },
+  {
+   "id": "ungm-7101f75596",
+   "source": "ungm",
+   "sourceLibelle": "Nations unies (UNGM)",
+   "reference": "rfx_12359_ROAF",
+   "titre": "Demande de cotation « Traduction de l’anglais vers le français de l’étude et de la fiche pays sur les impacts du stress thermique sur l’emploi et la productivité au Sénégal ».",
+   "autorite": "OIT (Nations unies)",
+   "secteur": "Études",
+   "region": null,
+   "mode": "Demande de cotation",
+   "budgetEstime": null,
+   "garantieSoumission": null,
+   "publieLe": "2026-10-13",
+   "dateLimite": "2026-10-16",
+   "url": "https://www.ungm.org/Public/Notice/318011"
   },
   {
    "id": "banquemondiale-3503211614",
@@ -601,6 +617,22 @@
    "url": "https://www.ungm.org/Public/Notice/316728"
   },
   {
+   "id": "ungm-5b96939f9b",
+   "source": "ungm",
+   "sourceLibelle": "Nations unies (UNGM)",
+   "reference": "UNDP-SEN-00625",
+   "titre": "BORNAGE TERRESTRE AIRE MARINE COMMUNAUTAIRE DE SOKONE / ENVIRONNEMENT",
+   "autorite": "PNUD (Nations unies)",
+   "secteur": "Services",
+   "region": null,
+   "mode": "Demande de cotation",
+   "budgetEstime": null,
+   "garantieSoumission": null,
+   "publieLe": "2026-10-13",
+   "dateLimite": "2026-10-25",
+   "url": "https://www.ungm.org/Public/Notice/317995"
+  },
+  {
    "id": "bceao-e7656ff954",
    "source": "bceao",
    "sourceLibelle": "BCEAO",
@@ -804,6 +836,22 @@
     "modele": "deepseek-flash",
     "tronque": false
    }
+  },
+  {
+   "id": "appel-46090753c6",
+   "source": "appel",
+   "sourceLibelle": "APPEL (plateforme officielle)",
+   "reference": "F_VG_DAF_18392",
+   "titre": "ACQUISITION DE PRODUITS D'ENTRETIEN, DE DESINFECTION ET D'HYGIENE",
+   "autorite": "Ville de Guédiawaye",
+   "secteur": "Fournitures",
+   "region": null,
+   "mode": "Demande de renseignements et de prix à compétition ouverte",
+   "budgetEstime": null,
+   "garantieSoumission": null,
+   "publieLe": "2026-10-13",
+   "dateLimite": "2026-10-28",
+   "url": "https://www.achatspublics.sn/consultations/tenders?ref=F_VG_DAF_18392"
   },
   {
    "id": "ungm-a4370dc44a",
@@ -1219,6 +1267,22 @@
    "url": "https://lesoleil.sn/marche-public/avis-dappel-doffres-national-aaon-n43%e2%80%902026/"
   },
   {
+   "id": "wp:lesoleil.sn-898ae073f8",
+   "source": "wp:lesoleil.sn",
+   "sourceLibelle": "Sites institutionnels",
+   "reference": "16668",
+   "titre": "AVIS D’APPEL D’OFFRES NATIONAL",
+   "autorite": "Le Soleil",
+   "secteur": "Services",
+   "region": null,
+   "mode": "Appel d'offres",
+   "budgetEstime": null,
+   "garantieSoumission": null,
+   "publieLe": "2026-10-13",
+   "dateLimite": "2026-11-25",
+   "url": "https://lesoleil.sn/marche-public/avis-dappel-doffres-national-2/"
+  },
+  {
    "id": "pfongue-9f99da90fc",
    "source": "pfongue",
    "sourceLibelle": "ONG (PFONGUE)",
@@ -1265,6 +1329,22 @@
    "publieLe": "2026-10-13",
    "dateLimite": null,
    "url": "https://www.pfongue.org/Appel-d-offres-_-Realisation-d-etudes-dans-le-cadre-du-projet-SANSAS-2-pour-le.html"
+  },
+  {
+   "id": "wp:sodefitex.sn-19c0ace27b",
+   "source": "wp:sodefitex.sn",
+   "sourceLibelle": "Sites institutionnels",
+   "reference": "04/2026/DARH/SSI",
+   "titre": "Modernisation technologique à la SODEFITEX : appel d'offres stratégique pour le renouvellement du parc informatique",
+   "autorite": "Sodefitex",
+   "secteur": "Informatique",
+   "region": null,
+   "mode": "Appel d'offres",
+   "budgetEstime": null,
+   "garantieSoumission": null,
+   "publieLe": "2026-10-13",
+   "dateLimite": null,
+   "url": "https://sodefitex.sn/non-cat/modernisation-technologique-a-la-sodefitex-appel-doffres-strategique-pour-le-renouvellement-du-parc-informatique/"
   }
  ]
 }

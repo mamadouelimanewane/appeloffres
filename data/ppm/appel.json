@@ -52094,24 +52094,6 @@
  {
   "autorite": "Ville de Guédiawaye",
   "plan": "VG_2026_7",
-  "direction": "Division de l'Administration Générale et des Finances VG",
-  "reference": "F_VG_DAF_18392",
-  "objet": "ACQUISITION DE PRODUITS D'ENTRETIEN, DE DESINFECTION ET D'HYGIENE",
-  "typeMarche": "Fourniture",
-  "financement": [
-   "Budget propre"
-  ],
-  "mode": "Demande de renseignements et de prix à compétition ouverte",
-  "lancement": "2026-10-13",
-  "attribution": "2026-11-05",
-  "demarrage": "2026-11-20",
-  "achevement": null,
-  "etat": null,
-  "montantFcfa": null
- },
- {
-  "autorite": "Ville de Guédiawaye",
-  "plan": "VG_2026_7",
   "direction": "Direction des services Techniques VG",
   "reference": "T_VG_DST_18387",
   "objet": "CONSTRUCTION DE SALLES DE CLASSES, CONSTRUCTION DE SALLE MULTI-SPORTS, CONSTRUCTION DE CENTRE D'HEBERGEMENT SPORTIF PHASE 2",
@@ -52159,6 +52141,24 @@
   "lancement": "2026-10-15",
   "attribution": "2026-10-27",
   "demarrage": "2026-11-04",
+  "achevement": null,
+  "etat": null,
+  "montantFcfa": null
+ },
+ {
+  "autorite": "Ville de Guédiawaye",
+  "plan": "VG_2026_7",
+  "direction": "Division de l'Administration Générale et des Finances VG",
+  "reference": "F_VG_DAF_18392",
+  "objet": "ACQUISITION DE PRODUITS D'ENTRETIEN, DE DESINFECTION ET D'HYGIENE",
+  "typeMarche": "Fourniture",
+  "financement": [
+   "Budget propre"
+  ],
+  "mode": "Demande de renseignements et de prix à compétition ouverte",
+  "lancement": "2026-10-13",
+  "attribution": "2026-11-05",
+  "demarrage": "2026-11-20",
   "achevement": null,
   "etat": null,
   "montantFcfa": null
