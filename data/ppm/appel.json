@@ -52076,42 +52076,6 @@
  {
   "autorite": "Ville de Guédiawaye",
   "plan": "VG_2026_7",
-  "direction": "Division de l'Administration Générale et des Finances VG",
-  "reference": "F_VG_DAF_18391",
-  "objet": "ACQUISITION DE MATERIELS ET MOBILIERS SCOLAIRES, ACQUISITION DE FOURNITURES SCOLAIRES",
-  "typeMarche": "Fourniture",
-  "financement": [
-   "Budget propre"
-  ],
-  "mode": "Appel d'offres ouvert",
-  "lancement": "2026-10-14",
-  "attribution": "2026-10-28",
-  "demarrage": "2026-11-23",
-  "achevement": null,
-  "etat": null,
-  "montantFcfa": null
- },
- {
-  "autorite": "Ville de Guédiawaye",
-  "plan": "VG_2026_7",
-  "direction": "Direction des services Techniques VG",
-  "reference": "T_VG_DST_18387",
-  "objet": "CONSTRUCTION DE SALLES DE CLASSES, CONSTRUCTION DE SALLE MULTI-SPORTS, CONSTRUCTION DE CENTRE D'HEBERGEMENT SPORTIF PHASE 2",
-  "typeMarche": "Travaux",
-  "financement": [
-   "Budget propre"
-  ],
-  "mode": "Appel d'offres ouvert",
-  "lancement": "2026-10-14",
-  "attribution": "2026-11-30",
-  "demarrage": "2026-12-22",
-  "achevement": null,
-  "etat": null,
-  "montantFcfa": null
- },
- {
-  "autorite": "Ville de Guédiawaye",
-  "plan": "VG_2026_7",
   "direction": "Direction des services Techniques VG",
   "reference": "T_VG_DST_18388",
   "objet": "GROSSES REPARATIONS AUX EQUIPEMENTS SANITAIRES, GROSSES REPARATIONS AUX EQUIPEMENTS SCOLAIRES, AUTRES OPERATIONS DE VOIRIE (PAVAGE), ENTRETIEN DIVERS",
@@ -52159,6 +52123,42 @@
   "lancement": "2026-10-13",
   "attribution": "2026-11-05",
   "demarrage": "2026-11-20",
+  "achevement": null,
+  "etat": null,
+  "montantFcfa": null
+ },
+ {
+  "autorite": "Ville de Guédiawaye",
+  "plan": "VG_2026_7",
+  "direction": "Division de l'Administration Générale et des Finances VG",
+  "reference": "F_VG_DAF_18391",
+  "objet": "ACQUISITION DE MATERIELS ET MOBILIERS SCOLAIRES, ACQUISITION DE FOURNITURES SCOLAIRES",
+  "typeMarche": "Fourniture",
+  "financement": [
+   "Budget propre"
+  ],
+  "mode": "Appel d'offres ouvert",
+  "lancement": "2026-10-14",
+  "attribution": "2026-10-28",
+  "demarrage": "2026-11-23",
+  "achevement": null,
+  "etat": null,
+  "montantFcfa": null
+ },
+ {
+  "autorite": "Ville de Guédiawaye",
+  "plan": "VG_2026_7",
+  "direction": "Direction des services Techniques VG",
+  "reference": "T_VG_DST_18387",
+  "objet": "CONSTRUCTION DE SALLES DE CLASSES, CONSTRUCTION DE SALLE MULTI-SPORTS, CONSTRUCTION DE CENTRE D'HEBERGEMENT SPORTIF PHASE 2",
+  "typeMarche": "Travaux",
+  "financement": [
+   "Budget propre"
+  ],
+  "mode": "Appel d'offres ouvert",
+  "lancement": "2026-10-14",
+  "attribution": "2026-11-30",
+  "demarrage": "2026-12-22",
   "achevement": null,
   "etat": null,
   "montantFcfa": null

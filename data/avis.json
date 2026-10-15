@@ -1,5 +1,5 @@
 {
- "misAJourLe": "2026-10-14T11:28:57.811Z",
+ "misAJourLe": "2026-10-15T11:06:52.224Z",
  "avis": {
   "senelec:https://www.senelec.sn/media/marches/appels/AVIS_DE_REPORT_AON_33_2026.pdf": {
    "source": "senelec",
@@ -5814,6 +5814,116 @@
    "url": "https://www.achatspublics.sn/consultations/tenders?ref=F_VG_DAF_18392",
    "autorite": "Ville de Guédiawaye",
    "vuLe": "2026-10-14"
+  },
+  "ungm:https://www.ungm.org/Public/Notice/318351": {
+   "source": "ungm",
+   "reference": "2026/FRSEN/FRSEN/138642",
+   "objet": "Location de salle et restauration de 50 personnes pour un atelier de formulation du Projet PNA-Pêche le lundi 22 octobre 2026 à Dakar",
+   "type": "Demande de cotation",
+   "publieLe": "2026-10-15",
+   "dateLimite": "2026-10-19",
+   "url": "https://www.ungm.org/Public/Notice/318351",
+   "autorite": "FAO (Nations unies)",
+   "vuLe": "2026-10-15"
+  },
+  "ungm:https://www.ungm.org/Public/Notice/318173": {
+   "source": "ungm",
+   "reference": "9206686",
+   "objet": "9206686 la conception, la fourniture et la pose de panneaux de sécurité, de plans d’évacuation/intervention et de panneaux d’identification de places de parking pour la maison des nations un",
+   "type": "Demande de propositions",
+   "publieLe": "2026-10-14",
+   "dateLimite": "2026-11-05",
+   "url": "https://www.ungm.org/Public/Notice/318173",
+   "autorite": "UNICEF (Nations unies)",
+   "vuLe": "2026-10-15"
+  },
+  "wp:lesoleil.sn:https://lesoleil.sn/marche-public/avis-dappel-doffres-12/": {
+   "source": "wp:lesoleil.sn",
+   "reference": "2026/04",
+   "objet": "AVIS D’APPEL D’OFFRES",
+   "type": "Appel d'offres",
+   "publieLe": "2026-10-15",
+   "dateLimite": null,
+   "url": "https://lesoleil.sn/marche-public/avis-dappel-doffres-12/",
+   "autorite": "Le Soleil",
+   "vuLe": "2026-10-15"
+  },
+  "wp:lesoleil.sn:https://lesoleil.sn/marche-public/avis-dappel-doffres-11/": {
+   "source": "wp:lesoleil.sn",
+   "reference": "F_SWEDD",
+   "objet": "Avis d'appel d’Offres",
+   "type": "Appel d'offres",
+   "publieLe": "2026-10-14",
+   "dateLimite": "2026-11-13",
+   "url": "https://lesoleil.sn/marche-public/avis-dappel-doffres-11/",
+   "autorite": "Le Soleil",
+   "vuLe": "2026-10-15"
+  },
+  "wp:lesoleil.sn:https://lesoleil.sn/marche-public/avis-dappel-doffres-10/": {
+   "source": "wp:lesoleil.sn",
+   "reference": "011_26_F.BUREAU.CONINF./MSAS/DES/CHRESNDTH",
+   "objet": "Avis d’Appel d’Offres",
+   "type": "Appel d'offres",
+   "publieLe": "2026-10-14",
+   "dateLimite": "2026-11-19",
+   "url": "https://lesoleil.sn/marche-public/avis-dappel-doffres-10/",
+   "autorite": "Le Soleil",
+   "vuLe": "2026-10-15"
+  },
+  "wp:lesoleil.sn:https://lesoleil.sn/marche-public/112377/": {
+   "source": "wp:lesoleil.sn",
+   "reference": "non communiquée",
+   "objet": "Avis d’Appel d’Offres",
+   "type": "Appel d'offres",
+   "publieLe": "2026-10-14",
+   "dateLimite": "2026-11-16",
+   "url": "https://lesoleil.sn/marche-public/112377/",
+   "autorite": "Le Soleil",
+   "vuLe": "2026-10-15"
+  },
+  "wp:lesoleil.sn:https://lesoleil.sn/marche-public/avis-dappel-doffres-9/": {
+   "source": "wp:lesoleil.sn",
+   "reference": "015_26_F.I",
+   "objet": "Avis d’Appel d’Offres",
+   "type": "Appel d'offres",
+   "publieLe": "2026-10-14",
+   "dateLimite": "2026-11-03",
+   "url": "https://lesoleil.sn/marche-public/avis-dappel-doffres-9/",
+   "autorite": "Le Soleil",
+   "vuLe": "2026-10-15"
+  },
+  "wp:lesoleil.sn:https://lesoleil.sn/marche-public/avis-dappel-doffres-8/": {
+   "source": "wp:lesoleil.sn",
+   "reference": "016_26_F.P",
+   "objet": "Avis d’Appel d’Offres",
+   "type": "Appel d'offres",
+   "publieLe": "2026-10-14",
+   "dateLimite": null,
+   "url": "https://lesoleil.sn/marche-public/avis-dappel-doffres-8/",
+   "autorite": "Le Soleil",
+   "vuLe": "2026-10-15"
+  },
+  "appel:https://www.achatspublics.sn/consultations/tenders?ref=T_VG_DST_18387": {
+   "source": "appel",
+   "reference": "T_VG_DST_18387",
+   "objet": "CONSTRUCTION DE SALLES DE CLASSES, CONSTRUCTION DE SALLE MULTI-SPORTS, CONSTRUCTION DE CENTRE D'HEBERGEMENT SPORTIF PHASE 2",
+   "type": "Appel d'offres ouvert",
+   "publieLe": "2026-10-14",
+   "dateLimite": "2026-11-13",
+   "url": "https://www.achatspublics.sn/consultations/tenders?ref=T_VG_DST_18387",
+   "autorite": "Ville de Guédiawaye",
+   "vuLe": "2026-10-15"
+  },
+  "appel:https://www.achatspublics.sn/consultations/tenders?ref=F_VG_DAF_18391": {
+   "source": "appel",
+   "reference": "F_VG_DAF_18391",
+   "objet": "ACQUISITION DE MATERIELS ET MOBILIERS SCOLAIRES, ACQUISITION DE FOURNITURES SCOLAIRES",
+   "type": "Appel d'offres ouvert",
+   "publieLe": "2026-10-14",
+   "dateLimite": "2026-11-13",
+   "url": "https://www.achatspublics.sn/consultations/tenders?ref=F_VG_DAF_18391",
+   "autorite": "Ville de Guédiawaye",
+   "vuLe": "2026-10-15"
   }
  }
 }
