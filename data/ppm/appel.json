@@ -51843,24 +51843,6 @@
   "autorite": "Ville de Guédiawaye",
   "plan": "VG_2026_7",
   "direction": "Division de l'Administration Générale et des Finances VG",
-  "reference": "F_VG_DAF_18393",
-  "objet": "ACHAT DE TICKETS DE PERCEPTION",
-  "typeMarche": "Fourniture",
-  "financement": [
-   "Budget propre"
-  ],
-  "mode": "Demande de renseignement et de prix à compétition restreinte",
-  "lancement": "2026-10-15",
-  "attribution": "2026-10-27",
-  "demarrage": "2026-11-05",
-  "achevement": null,
-  "etat": null,
-  "montantFcfa": null
- },
- {
-  "autorite": "Ville de Guédiawaye",
-  "plan": "VG_2026_7",
-  "direction": "Division de l'Administration Générale et des Finances VG",
   "reference": "F_VG_DAF_18390",
   "objet": "ACQUISITION DE MACHINES ET APPAREILS DE BUREAUX, APPAREILS DE VENTILATIONS ET DE CLIMATISATION",
   "typeMarche": "Fourniture",
@@ -52076,17 +52058,17 @@
  {
   "autorite": "Ville de Guédiawaye",
   "plan": "VG_2026_7",
-  "direction": "Direction des services Techniques VG",
-  "reference": "T_VG_DST_18388",
-  "objet": "GROSSES REPARATIONS AUX EQUIPEMENTS SANITAIRES, GROSSES REPARATIONS AUX EQUIPEMENTS SCOLAIRES, AUTRES OPERATIONS DE VOIRIE (PAVAGE), ENTRETIEN DIVERS",
-  "typeMarche": "Travaux",
+  "direction": "Division de l'Administration Générale et des Finances VG",
+  "reference": "F_VG_DAF_18393",
+  "objet": "ACHAT DE TICKETS DE PERCEPTION",
+  "typeMarche": "Fourniture",
   "financement": [
    "Budget propre"
   ],
-  "mode": "Appel d'offres ouvert",
-  "lancement": "2026-10-19",
-  "attribution": "2026-12-07",
-  "demarrage": "2026-12-30",
+  "mode": "Demande de renseignement et de prix à compétition restreinte",
+  "lancement": "2026-10-15",
+  "attribution": "2026-10-27",
+  "demarrage": "2026-11-05",
   "achevement": null,
   "etat": null,
   "montantFcfa": null
@@ -52105,6 +52087,24 @@
   "lancement": "2026-10-15",
   "attribution": "2026-10-27",
   "demarrage": "2026-11-04",
+  "achevement": null,
+  "etat": null,
+  "montantFcfa": null
+ },
+ {
+  "autorite": "Ville de Guédiawaye",
+  "plan": "VG_2026_7",
+  "direction": "Direction des services Techniques VG",
+  "reference": "T_VG_DST_18388",
+  "objet": "GROSSES REPARATIONS AUX EQUIPEMENTS SANITAIRES, GROSSES REPARATIONS AUX EQUIPEMENTS SCOLAIRES, AUTRES OPERATIONS DE VOIRIE (PAVAGE), ENTRETIEN DIVERS",
+  "typeMarche": "Travaux",
+  "financement": [
+   "Budget propre"
+  ],
+  "mode": "Appel d'offres ouvert",
+  "lancement": "2026-10-19",
+  "attribution": "2026-12-07",
+  "demarrage": "2026-12-30",
   "achevement": null,
   "etat": null,
   "montantFcfa": null
@@ -52905,9 +52905,9 @@
   "autorite": "VILLE DE THIES",
   "plan": "VILLE_THIES_2032",
   "direction": "VILLE DE THIES",
-  "reference": "T_VILLE_THIES_01_18498",
-  "objet": "Travaux de réhabilitation des canaux et caniveaux",
-  "typeMarche": "Travaux",
+  "reference": "F_VILLE_THIES_01_18499",
+  "objet": "Acquisition de guirlandes lumineuses pour la décoration et l’illumination des espaces publics de la Ville de Thiès",
+  "typeMarche": "Fourniture",
   "financement": [
    "Budget propre"
   ],
@@ -52923,9 +52923,9 @@
   "autorite": "VILLE DE THIES",
   "plan": "VILLE_THIES_2032",
   "direction": "VILLE DE THIES",
-  "reference": "F_VILLE_THIES_01_18499",
-  "objet": "Acquisition de guirlandes lumineuses pour la décoration et l’illumination des espaces publics de la Ville de Thiès",
-  "typeMarche": "Fourniture",
+  "reference": "T_VILLE_THIES_01_18498",
+  "objet": "Travaux de réhabilitation des canaux et caniveaux",
+  "typeMarche": "Travaux",
   "financement": [
    "Budget propre"
   ],

@@ -1,5 +1,5 @@
 {
- "misAJourLe": "2026-10-15T11:06:52.224Z",
+ "misAJourLe": "2026-10-16T10:58:35.551Z",
  "avis": {
   "senelec:https://www.senelec.sn/media/marches/appels/AVIS_DE_REPORT_AON_33_2026.pdf": {
    "source": "senelec",
@@ -4227,7 +4227,7 @@
    "objet": "RFI RECRUTEMENT OSC POUR ASSISTANCE JURIDIQUE / GOUVERNANCE",
    "type": "Grant support-call for proposal",
    "publieLe": "2026-09-30",
-   "dateLimite": "2026-10-15",
+   "dateLimite": "2026-10-22",
    "url": "https://www.ungm.org/Public/Notice/316323",
    "autorite": "PNUD (Nations unies)",
    "vuLe": "2026-10-06"
@@ -5623,7 +5623,7 @@
    "objet": "Hotel Procurement for WCARO Annual Retreat 2026",
    "type": "Demande de cotation",
    "publieLe": "2026-10-07",
-   "dateLimite": "2026-10-16",
+   "dateLimite": "2026-10-20",
    "url": "https://www.ungm.org/Public/Notice/317251",
    "autorite": "UNFPA (Nations unies)",
    "vuLe": "2026-10-08"
@@ -5924,6 +5924,72 @@
    "url": "https://www.achatspublics.sn/consultations/tenders?ref=F_VG_DAF_18391",
    "autorite": "Ville de Guédiawaye",
    "vuLe": "2026-10-15"
+  },
+  "banquemondiale:https://projects.worldbank.org/fr/projects-operations/procurement-detail/OP00475552": {
+   "source": "banquemondiale",
+   "reference": "SN-PROMOGED-574436-CS-QCBS",
+   "objet": "Sélection d’un cabinet pour (I) l’élaboration de (EIES), (II) DU (PAR) ET DU (PRMS) du projet de réhabilitation de la décharge de THIES, de construction et d’exploitation des CIVD DE NOTTO DIOBASS ET DE SANDIARA ET DU CTT MALICOUNDA",
+   "type": "Appel à manifestation d'intérêt",
+   "publieLe": "2026-10-15",
+   "dateLimite": "2026-11-05",
+   "url": "https://projects.worldbank.org/fr/projects-operations/procurement-detail/OP00475552",
+   "autorite": "Unité de coordination de la Gestion des déchets solides (UCG)",
+   "vuLe": "2026-10-16"
+  },
+  "ungm:https://www.ungm.org/Public/Notice/318416": {
+   "source": "ungm",
+   "reference": "rfx_12558_ROAF",
+   "objet": "Demande de cotations pour l'atelier de consultation avec les pêcheurs, du 3 au 4 novembre 2026 et l'atelier avec les acteurs extractifs du 5 au 6 Novembre 2026 à Saint Louis, Sénégal",
+   "type": "Demande de cotation",
+   "publieLe": "2026-10-15",
+   "dateLimite": "2026-10-19",
+   "url": "https://www.ungm.org/Public/Notice/318416",
+   "autorite": "OIT (Nations unies)",
+   "vuLe": "2026-10-16"
+  },
+  "ungm:https://www.ungm.org/Public/Notice/318440": {
+   "source": "ungm",
+   "reference": "UNDP-SEN-00626",
+   "objet": "MISE A DISPOSITION SERVICES HOTELIERS A SALY - ATELIER FANFAR 09 AU 13/11/26",
+   "type": "Demande de cotation",
+   "publieLe": "2026-10-15",
+   "dateLimite": "2026-10-30",
+   "url": "https://www.ungm.org/Public/Notice/318440",
+   "autorite": "PNUD (Nations unies)",
+   "vuLe": "2026-10-16"
+  },
+  "wp:lesoleil.sn:https://lesoleil.sn/marche-public/avis-dappel-doffre/": {
+   "source": "wp:lesoleil.sn",
+   "reference": "non communiquée",
+   "objet": "Avis d'appel d'offre",
+   "type": "Appel d'offres",
+   "publieLe": "2026-10-16",
+   "dateLimite": "2026-11-06",
+   "url": "https://lesoleil.sn/marche-public/avis-dappel-doffre/",
+   "autorite": "Le Soleil",
+   "vuLe": "2026-10-16"
+  },
+  "wp:lesoleil.sn:https://lesoleil.sn/marche-public/avis-dappel-doffres-14/": {
+   "source": "wp:lesoleil.sn",
+   "reference": "03/FY27/",
+   "objet": "AVIS D’APPEL D’OFFRES",
+   "type": "Appel d'offres",
+   "publieLe": "2026-10-16",
+   "dateLimite": null,
+   "url": "https://lesoleil.sn/marche-public/avis-dappel-doffres-14/",
+   "autorite": "Le Soleil",
+   "vuLe": "2026-10-16"
+  },
+  "wp:lesoleil.sn:https://lesoleil.sn/marche-public/avis-dappel-doffres-13/": {
+   "source": "wp:lesoleil.sn",
+   "reference": "non communiquée",
+   "objet": "Avis d’appel d’offres",
+   "type": "Appel d'offres",
+   "publieLe": "2026-10-16",
+   "dateLimite": null,
+   "url": "https://lesoleil.sn/marche-public/avis-dappel-doffres-13/",
+   "autorite": "Le Soleil",
+   "vuLe": "2026-10-16"
   }
  }
 }

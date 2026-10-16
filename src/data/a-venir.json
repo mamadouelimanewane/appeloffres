@@ -1,24 +1,6 @@
 {
- "misAJourLe": "2026-10-15",
+ "misAJourLe": "2026-10-16",
  "realisations": [
-  {
-   "id": "ppm-3207d1b9df",
-   "autorite": "Dakar Dem Dikk",
-   "plan": "DDD_2026_2",
-   "direction": "DIRECTION DES MOYENS GENERAUX",
-   "reference": "T_DDD_DMG_12358",
-   "objet": "Construction du nouveau siège",
-   "typeMarche": "Travaux",
-   "secteur": "BTP",
-   "financement": [
-    "Budget propre"
-   ],
-   "mode": "Appel d'offres ouvert",
-   "lancement": "2026-08-16",
-   "attribution": "2026-12-08",
-   "etat": null,
-   "montantFcfa": null
-  },
   {
    "id": "ppm-04c2473df5",
    "autorite": "Ministère de l'Intérieur et de la Sécurité Publique",
@@ -5438,14 +5420,14 @@
    "montantFcfa": null
   },
   {
-   "id": "ppm-292dfb4538",
+   "id": "ppm-d5bc1314a9",
    "autorite": "VILLE DE THIES",
    "plan": "VILLE_THIES_2032",
    "direction": "VILLE DE THIES",
-   "reference": "T_VILLE_THIES_01_18498",
-   "objet": "Travaux de réhabilitation des canaux et caniveaux",
-   "typeMarche": "Travaux",
-   "secteur": "BTP",
+   "reference": "F_VILLE_THIES_01_18499",
+   "objet": "Acquisition de guirlandes lumineuses pour la décoration et l’illumination des espaces publics de la Ville de Thiès",
+   "typeMarche": "Fourniture",
+   "secteur": "Fournitures",
    "financement": [
     "Budget propre"
    ],
@@ -5456,14 +5438,14 @@
    "montantFcfa": null
   },
   {
-   "id": "ppm-d5bc1314a9",
+   "id": "ppm-292dfb4538",
    "autorite": "VILLE DE THIES",
    "plan": "VILLE_THIES_2032",
    "direction": "VILLE DE THIES",
-   "reference": "F_VILLE_THIES_01_18499",
-   "objet": "Acquisition de guirlandes lumineuses pour la décoration et l’illumination des espaces publics de la Ville de Thiès",
-   "typeMarche": "Fourniture",
-   "secteur": "Fournitures",
+   "reference": "T_VILLE_THIES_01_18498",
+   "objet": "Travaux de réhabilitation des canaux et caniveaux",
+   "typeMarche": "Travaux",
+   "secteur": "BTP",
    "financement": [
     "Budget propre"
    ],
