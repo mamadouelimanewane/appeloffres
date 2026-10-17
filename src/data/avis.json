@@ -1,70 +1,6 @@
 {
- "misAJourLe": "2026-10-16",
+ "misAJourLe": "2026-10-17",
  "avis": [
-  {
-   "id": "ungm-e8bb769e4e",
-   "source": "ungm",
-   "sourceLibelle": "Nations unies (UNGM)",
-   "reference": "LRFQs-2026-9206481",
-   "titre": "Polio training in Dakar",
-   "autorite": "UNICEF (Nations unies)",
-   "secteur": "Services",
-   "region": null,
-   "mode": "Demande de cotation",
-   "budgetEstime": null,
-   "garantieSoumission": null,
-   "publieLe": "2026-10-01",
-   "dateLimite": "2026-10-16",
-   "url": "https://www.ungm.org/Public/Notice/316564"
-  },
-  {
-   "id": "ungm-1fbe9e8e04",
-   "source": "ungm",
-   "sourceLibelle": "Nations unies (UNGM)",
-   "reference": "rfx_11675_ROAF",
-   "titre": "Demande de Cotation pour l’atelier de restitution des résultats et de construction de la feuille de route de l’étude sur le mécanisme d’optimisation des opportunités d’emplois décents et de formalisation des travailleurs à travers les investissements publi",
-   "autorite": "OIT (Nations unies)",
-   "secteur": "BTP",
-   "region": null,
-   "mode": "Demande de cotation",
-   "budgetEstime": null,
-   "garantieSoumission": null,
-   "publieLe": "2026-09-30",
-   "dateLimite": "2026-10-16",
-   "url": "https://www.ungm.org/Public/Notice/316423"
-  },
-  {
-   "id": "ungm-13dcf85dd6",
-   "source": "ungm",
-   "sourceLibelle": "Nations unies (UNGM)",
-   "reference": "9206582",
-   "titre": "Recrutement d'une agence/société de marketing d’influence pour la promotion des efforts de collecte de fonds digitale (Individual Giving) de l'UNICEF WCAR",
-   "autorite": "UNICEF (Nations unies)",
-   "secteur": "Informatique",
-   "region": null,
-   "mode": "Demande de cotation",
-   "budgetEstime": null,
-   "garantieSoumission": null,
-   "publieLe": "2026-10-08",
-   "dateLimite": "2026-10-16",
-   "url": "https://www.ungm.org/Public/Notice/317444"
-  },
-  {
-   "id": "ungm-b61297ea90",
-   "source": "ungm",
-   "sourceLibelle": "Nations unies (UNGM)",
-   "reference": "9206581",
-   "titre": "Recrutement d'un prestataire pour la production et la diffusion d'une web-série autour des thèmes du Fonds Muskoka dans le cadre des Jeux Olympiques de la Jeunesse (JOJ) de Dakar 2026",
-   "autorite": "UNICEF (Nations unies)",
-   "secteur": "Études",
-   "region": null,
-   "mode": "Demande de cotation",
-   "budgetEstime": null,
-   "garantieSoumission": null,
-   "publieLe": "2026-10-08",
-   "dateLimite": "2026-10-16",
-   "url": "https://www.ungm.org/Public/Notice/317450"
-  },
   {
    "id": "ungm-fc1226e66e",
    "source": "ungm",
@@ -78,24 +14,8 @@
    "budgetEstime": null,
    "garantieSoumission": null,
    "publieLe": "2026-10-12",
-   "dateLimite": "2026-10-16",
+   "dateLimite": "2026-10-18",
    "url": "https://www.ungm.org/Public/Notice/317806"
-  },
-  {
-   "id": "ungm-7101f75596",
-   "source": "ungm",
-   "sourceLibelle": "Nations unies (UNGM)",
-   "reference": "rfx_12359_ROAF",
-   "titre": "Demande de cotation « Traduction de l’anglais vers le français de l’étude et de la fiche pays sur les impacts du stress thermique sur l’emploi et la productivité au Sénégal ».",
-   "autorite": "OIT (Nations unies)",
-   "secteur": "Études",
-   "region": null,
-   "mode": "Demande de cotation",
-   "budgetEstime": null,
-   "garantieSoumission": null,
-   "publieLe": "2026-10-13",
-   "dateLimite": "2026-10-16",
-   "url": "https://www.ungm.org/Public/Notice/318011"
   },
   {
    "id": "banquemondiale-3503211614",
@@ -569,6 +489,38 @@
    "url": "https://www.ungm.org/Public/Notice/316728"
   },
   {
+   "id": "ungm-26efc9a323",
+   "source": "ungm",
+   "sourceLibelle": "Nations unies (UNGM)",
+   "reference": "UNDP-SEN-00628",
+   "titre": "ATELIER CONSULTATION ADB / ENVIRONNEMENT",
+   "autorite": "PNUD (Nations unies)",
+   "secteur": "Services",
+   "region": null,
+   "mode": "Demande de cotation",
+   "budgetEstime": null,
+   "garantieSoumission": null,
+   "publieLe": "2026-10-16",
+   "dateLimite": "2026-10-23",
+   "url": "https://www.ungm.org/Public/Notice/318589"
+  },
+  {
+   "id": "ungm-1fbe9e8e04",
+   "source": "ungm",
+   "sourceLibelle": "Nations unies (UNGM)",
+   "reference": "rfx_11675_ROAF",
+   "titre": "Demande de Cotation pour l’atelier de restitution des résultats et de construction de la feuille de route de l’étude sur le mécanisme d’optimisation des opportunités d’emplois décents et de formalisation des travailleurs à travers les investissements publi",
+   "autorite": "OIT (Nations unies)",
+   "secteur": "BTP",
+   "region": null,
+   "mode": "Demande de cotation",
+   "budgetEstime": null,
+   "garantieSoumission": null,
+   "publieLe": "2026-09-30",
+   "dateLimite": "2026-10-24",
+   "url": "https://www.ungm.org/Public/Notice/316423"
+  },
+  {
    "id": "ungm-5b96939f9b",
    "source": "ungm",
    "sourceLibelle": "Nations unies (UNGM)",
@@ -868,6 +820,22 @@
    "publieLe": "2026-10-15",
    "dateLimite": "2026-10-30",
    "url": "https://www.ungm.org/Public/Notice/318440"
+  },
+  {
+   "id": "appel-fcdbe8e0c1",
+   "source": "appel",
+   "sourceLibelle": "APPEL (plateforme officielle)",
+   "reference": "F_VG_DAF_18303",
+   "titre": "ACQUISATION DE FOURNITURES DE BUREAUX",
+   "autorite": "Ville de Guédiawaye",
+   "secteur": "Fournitures",
+   "region": null,
+   "mode": "Demande de renseignements et de prix à compétition ouverte",
+   "budgetEstime": null,
+   "garantieSoumission": null,
+   "publieLe": "2026-10-16",
+   "dateLimite": "2026-10-31",
+   "url": "https://www.achatspublics.sn/consultations/tenders?ref=F_VG_DAF_18303"
   },
   {
    "id": "senelec-0ee190f3f3",
@@ -1521,6 +1489,22 @@
    "publieLe": "2026-10-16",
    "dateLimite": null,
    "url": "https://lesoleil.sn/marche-public/avis-dappel-doffres-13/"
+  },
+  {
+   "id": "wp:lesoleil.sn-34f25c6a14",
+   "source": "wp:lesoleil.sn",
+   "sourceLibelle": "Sites institutionnels",
+   "reference": "2026",
+   "titre": "Aviis d’Appel d’Offres",
+   "autorite": "Le Soleil",
+   "secteur": "Services",
+   "region": null,
+   "mode": "Appel d'offres",
+   "budgetEstime": null,
+   "garantieSoumission": null,
+   "publieLe": "2026-10-17",
+   "dateLimite": null,
+   "url": "https://lesoleil.sn/marche-public/aviis-dappel-doffres/"
   }
  ]
 }

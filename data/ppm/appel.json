@@ -51788,6 +51788,24 @@
  {
   "autorite": "Ville de Guédiawaye",
   "plan": "VG_2026_7",
+  "direction": "Direction des services Techniques VG",
+  "reference": "T_VG_DST_5416",
+  "objet": "EXTENSION DU RESEAU ELECTRIQUE",
+  "typeMarche": "Travaux",
+  "financement": [
+   "Budget propre"
+  ],
+  "mode": "Demande de renseignements et de prix à compétition ouverte",
+  "lancement": "2026-05-06",
+  "attribution": "2026-06-09",
+  "demarrage": "2026-07-22",
+  "achevement": null,
+  "etat": null,
+  "montantFcfa": null
+ },
+ {
+  "autorite": "Ville de Guédiawaye",
+  "plan": "VG_2026_7",
   "direction": "Division de l'Administration Générale et des Finances VG",
   "reference": "F_VG_DAF_18389",
   "objet": "ACQUISITION DE COUPES, RECOMPENSES ET PRIX",
@@ -51817,24 +51835,6 @@
   "lancement": "2026-10-16",
   "attribution": "2026-11-10",
   "demarrage": "2026-11-25",
-  "achevement": null,
-  "etat": null,
-  "montantFcfa": null
- },
- {
-  "autorite": "Ville de Guédiawaye",
-  "plan": "VG_2026_7",
-  "direction": "Direction des services Techniques VG",
-  "reference": "T_VG_DST_5416",
-  "objet": "EXTENSION DU RESEAU ELECTRIQUE",
-  "typeMarche": "Travaux",
-  "financement": [
-   "Budget propre"
-  ],
-  "mode": "Demande de renseignements et de prix à compétition ouverte",
-  "lancement": "2026-05-06",
-  "attribution": "2026-06-09",
-  "demarrage": "2026-07-22",
   "achevement": null,
   "etat": null,
   "montantFcfa": null

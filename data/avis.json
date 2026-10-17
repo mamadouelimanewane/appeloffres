@@ -1,5 +1,5 @@
 {
- "misAJourLe": "2026-10-16T10:58:35.551Z",
+ "misAJourLe": "2026-10-17T10:23:43.180Z",
  "avis": {
   "senelec:https://www.senelec.sn/media/marches/appels/AVIS_DE_REPORT_AON_33_2026.pdf": {
    "source": "senelec",
@@ -4183,7 +4183,7 @@
    "objet": "Demande de Cotation pour l’atelier de restitution des résultats et de construction de la feuille de route de l’étude sur le mécanisme d’optimisation des opportunités d’emplois décents et de formalisation des travailleurs à travers les investissements publi",
    "type": "Demande de cotation",
    "publieLe": "2026-09-30",
-   "dateLimite": "2026-10-16",
+   "dateLimite": "2026-10-24",
    "url": "https://www.ungm.org/Public/Notice/316423",
    "autorite": "OIT (Nations unies)",
    "vuLe": "2026-10-06"
@@ -5689,7 +5689,7 @@
    "objet": "Demande de Cotation hôtel pour l’organisation de l’atelier de Validation technique de la SNIFEI",
    "type": "Demande de cotation",
    "publieLe": "2026-10-12",
-   "dateLimite": "2026-10-16",
+   "dateLimite": "2026-10-18",
    "url": "https://www.ungm.org/Public/Notice/317806",
    "autorite": "OIT (Nations unies)",
    "vuLe": "2026-10-13"
@@ -5990,6 +5990,39 @@
    "url": "https://lesoleil.sn/marche-public/avis-dappel-doffres-13/",
    "autorite": "Le Soleil",
    "vuLe": "2026-10-16"
+  },
+  "ungm:https://www.ungm.org/Public/Notice/318589": {
+   "source": "ungm",
+   "reference": "UNDP-SEN-00628",
+   "objet": "ATELIER CONSULTATION ADB / ENVIRONNEMENT",
+   "type": "Demande de cotation",
+   "publieLe": "2026-10-16",
+   "dateLimite": "2026-10-23",
+   "url": "https://www.ungm.org/Public/Notice/318589",
+   "autorite": "PNUD (Nations unies)",
+   "vuLe": "2026-10-17"
+  },
+  "wp:lesoleil.sn:https://lesoleil.sn/marche-public/aviis-dappel-doffres/": {
+   "source": "wp:lesoleil.sn",
+   "reference": "2026",
+   "objet": "Aviis d’Appel d’Offres",
+   "type": "Appel d'offres",
+   "publieLe": "2026-10-17",
+   "dateLimite": null,
+   "url": "https://lesoleil.sn/marche-public/aviis-dappel-doffres/",
+   "autorite": "Le Soleil",
+   "vuLe": "2026-10-17"
+  },
+  "appel:https://www.achatspublics.sn/consultations/tenders?ref=F_VG_DAF_18303": {
+   "source": "appel",
+   "reference": "F_VG_DAF_18303",
+   "objet": "ACQUISATION DE FOURNITURES DE BUREAUX",
+   "type": "Demande de renseignements et de prix à compétition ouverte",
+   "publieLe": "2026-10-16",
+   "dateLimite": "2026-10-31",
+   "url": "https://www.achatspublics.sn/consultations/tenders?ref=F_VG_DAF_18303",
+   "autorite": "Ville de Guédiawaye",
+   "vuLe": "2026-10-17"
   }
  }
 }
