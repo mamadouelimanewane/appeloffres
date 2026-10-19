@@ -1,22 +1,6 @@
 {
- "misAJourLe": "2026-10-18",
+ "misAJourLe": "2026-10-19",
  "avis": [
-  {
-   "id": "ungm-fc1226e66e",
-   "source": "ungm",
-   "sourceLibelle": "Nations unies (UNGM)",
-   "reference": "rfx_12252_ROAF",
-   "titre": "Demande de Cotation hôtel pour l’organisation de l’atelier de Validation technique de la SNIFEI",
-   "autorite": "OIT (Nations unies)",
-   "secteur": "Services",
-   "region": null,
-   "mode": "Demande de cotation",
-   "budgetEstime": null,
-   "garantieSoumission": null,
-   "publieLe": "2026-10-12",
-   "dateLimite": "2026-10-18",
-   "url": "https://www.ungm.org/Public/Notice/317806"
-  },
   {
    "id": "banquemondiale-3503211614",
    "source": "banquemondiale",
@@ -160,6 +144,22 @@
    "publieLe": "2026-10-07",
    "dateLimite": "2026-10-20",
    "url": "https://www.ungm.org/Public/Notice/317251"
+  },
+  {
+   "id": "ageroute-bf116964fb",
+   "source": "ageroute",
+   "sourceLibelle": "AGEROUTE",
+   "reference": "",
+   "titre": "Sélection d’un consultant pour la maitrise d'œuvre des travaux du PERA",
+   "autorite": "AGEROUTE Sénégal",
+   "secteur": "BTP",
+   "region": null,
+   "mode": "Avis de manifestation d’intérêt",
+   "budgetEstime": null,
+   "garantieSoumission": null,
+   "publieLe": "2026-10-05",
+   "dateLimite": "2026-10-20",
+   "url": "https://ageroute.sn/download/32/avis-de-manifestation-dinterets/13309/selection-dun-consultant-pour-la-maitrise-doeuvre-des-travaux-du-pera.pdf"
   },
   {
    "id": "senelec-5ff38a44fc",
@@ -473,6 +473,22 @@
    }
   },
   {
+   "id": "ungm-874e79cadb",
+   "source": "ungm",
+   "sourceLibelle": "Nations unies (UNGM)",
+   "reference": "2026/FRSEN/SFWDD/138675",
+   "titre": "Achat de 34 Cartouches Toner Canon NPG – 88L",
+   "autorite": "FAO (Nations unies)",
+   "secteur": "Fournitures",
+   "region": null,
+   "mode": "Demande de cotation",
+   "budgetEstime": null,
+   "garantieSoumission": null,
+   "publieLe": "2026-10-19",
+   "dateLimite": "2026-10-22",
+   "url": "https://www.ungm.org/Public/Notice/318751"
+  },
+  {
    "id": "ungm-e2a7ce4f71",
    "source": "ungm",
    "sourceLibelle": "Nations unies (UNGM)",
@@ -619,6 +635,22 @@
     "modele": "deepseek-flash",
     "tronque": true
    }
+  },
+  {
+   "id": "wp:lesoleil.sn-d8d1e06c6b",
+   "source": "wp:lesoleil.sn",
+   "sourceLibelle": "Sites institutionnels",
+   "reference": "non communiquée",
+   "titre": "AVIS D’APPEL D’OFFRES",
+   "autorite": "Le Soleil",
+   "secteur": "Services",
+   "region": null,
+   "mode": "Appel d'offres",
+   "budgetEstime": null,
+   "garantieSoumission": null,
+   "publieLe": "2026-10-19",
+   "dateLimite": "2026-10-26",
+   "url": "https://lesoleil.sn/marche-public/avis-dappel-doffres-16/"
   },
   {
    "id": "senelec-23aaa52225",
@@ -790,6 +822,38 @@
    "url": "https://www.ungm.org/Public/Notice/316402"
   },
   {
+   "id": "ungm-e33037ceb3",
+   "source": "ungm",
+   "sourceLibelle": "Nations unies (UNGM)",
+   "reference": "rfx_12668_ROAF",
+   "titre": "Recrutement d’un consultant pour l’élaboration de notes de d’analyse et de recherche basées sur le SMSD (Structural model for sustainable developpement) pour le Sénégal",
+   "autorite": "OIT (Nations unies)",
+   "secteur": "Études",
+   "region": null,
+   "mode": "Recrutement de consultant",
+   "budgetEstime": null,
+   "garantieSoumission": null,
+   "publieLe": "2026-10-19",
+   "dateLimite": "2026-10-29",
+   "url": "https://www.ungm.org/Public/Notice/318735"
+  },
+  {
+   "id": "ageroute-a138a8f51e",
+   "source": "ageroute",
+   "sourceLibelle": "AGEROUTE",
+   "reference": "",
+   "titre": "Sélection d’un consultant pour la maitrise d'œuvre des travaux du PERA en six lots",
+   "autorite": "AGEROUTE Sénégal",
+   "secteur": "BTP",
+   "region": null,
+   "mode": "Avis de manifestation d’intérêt",
+   "budgetEstime": null,
+   "garantieSoumission": null,
+   "publieLe": "2026-10-13",
+   "dateLimite": "2026-10-29",
+   "url": "https://ageroute.sn/download/32/avis-de-manifestation-dinterets/13312/selection-dun-consultant-pour-la-maitrise-doeuvre-des-travaux-du-pera-en-six-lots.pdf"
+  },
+  {
    "id": "bceao-a4dca558cc",
    "source": "bceao",
    "sourceLibelle": "BCEAO",
@@ -922,6 +986,22 @@
    "url": "https://www.ungm.org/Public/Notice/317810"
   },
   {
+   "id": "wp:lesoleil.sn-bbfa1dce91",
+   "source": "wp:lesoleil.sn",
+   "sourceLibelle": "Sites institutionnels",
+   "reference": "non communiquée",
+   "titre": "AVIS D’APPEL D’OFFRES",
+   "autorite": "Le Soleil",
+   "secteur": "Services",
+   "region": null,
+   "mode": "Appel d'offres",
+   "budgetEstime": null,
+   "garantieSoumission": null,
+   "publieLe": "2026-10-19",
+   "dateLimite": "2026-11-02",
+   "url": "https://lesoleil.sn/marche-public/avis-dappel-doffres-17/"
+  },
+  {
    "id": "ageroute-23682bcf93",
    "source": "ageroute",
    "sourceLibelle": "AGEROUTE",
@@ -968,6 +1048,22 @@
    "publieLe": "2026-10-14",
    "dateLimite": "2026-11-03",
    "url": "https://lesoleil.sn/marche-public/avis-dappel-doffres-9/"
+  },
+  {
+   "id": "ageroute-69da7874b1",
+   "source": "ageroute",
+   "sourceLibelle": "AGEROUTE",
+   "reference": "",
+   "titre": "Supervision des travaux d’aménagements connexes (écoles, établissements de santé, marchés, magasins de stockage, plateformes multifonctionnelles pour les femmes, etc.) dans le cadre du Projet d’amélioration de la Connectivité des Zones de production Agricole (PCZA) du nord et du centre du Sénégal -Phase II",
+   "autorite": "AGEROUTE Sénégal",
+   "secteur": "BTP",
+   "region": null,
+   "mode": "Avis de manifestation d’intérêt",
+   "budgetEstime": null,
+   "garantieSoumission": null,
+   "publieLe": "2026-10-19",
+   "dateLimite": "2026-11-03",
+   "url": "https://ageroute.sn/download/32/avis-de-manifestation-dinterets/13314/supervision-des-travaux-damenagements-connexes-ecoles-etablissements-de-sante-marches-magasins-de-stockage-plateformes-multifonctionnelles-pour-les-femmes-etc-dans-le-cadre-du-projet.pdf"
   },
   {
    "id": "senelec-3cfa1abdc2",
@@ -1345,6 +1441,22 @@
    "publieLe": "2026-10-14",
    "dateLimite": "2026-11-19",
    "url": "https://lesoleil.sn/marche-public/avis-dappel-doffres-10/"
+  },
+  {
+   "id": "wp:lesoleil.sn-76c4bcaadb",
+   "source": "wp:lesoleil.sn",
+   "sourceLibelle": "Sites institutionnels",
+   "reference": "non communiquée",
+   "titre": "Avis d’appel d’offres",
+   "autorite": "Le Soleil",
+   "secteur": "Services",
+   "region": null,
+   "mode": "Appel d'offres",
+   "budgetEstime": null,
+   "garantieSoumission": null,
+   "publieLe": "2026-10-19",
+   "dateLimite": "2026-11-19",
+   "url": "https://lesoleil.sn/marche-public/avis-dappel-doffres-15/"
   },
   {
    "id": "wp:lesoleil.sn-898ae073f8",

@@ -1,5 +1,5 @@
 {
- "misAJourLe": "2026-10-18T10:38:53.998Z",
+ "misAJourLe": "2026-10-19T12:29:00.136Z",
  "avis": {
   "senelec:https://www.senelec.sn/media/marches/appels/AVIS_DE_REPORT_AON_33_2026.pdf": {
    "source": "senelec",
@@ -6023,6 +6023,101 @@
    "url": "https://www.achatspublics.sn/consultations/tenders?ref=F_VG_DAF_18303",
    "autorite": "Ville de Guédiawaye",
    "vuLe": "2026-10-17"
+  },
+  "ungm:https://www.ungm.org/Public/Notice/318751": {
+   "source": "ungm",
+   "reference": "2026/FRSEN/SFWDD/138675",
+   "objet": "Achat de 34 Cartouches Toner Canon NPG – 88L",
+   "type": "Demande de cotation",
+   "publieLe": "2026-10-19",
+   "dateLimite": "2026-10-22",
+   "url": "https://www.ungm.org/Public/Notice/318751",
+   "autorite": "FAO (Nations unies)",
+   "vuLe": "2026-10-19"
+  },
+  "ungm:https://www.ungm.org/Public/Notice/318735": {
+   "source": "ungm",
+   "reference": "rfx_12668_ROAF",
+   "objet": "Recrutement d’un consultant pour l’élaboration de notes de d’analyse et de recherche basées sur le SMSD (Structural model for sustainable developpement) pour le Sénégal",
+   "type": "Recrutement de consultant",
+   "publieLe": "2026-10-19",
+   "dateLimite": "2026-10-29",
+   "url": "https://www.ungm.org/Public/Notice/318735",
+   "autorite": "OIT (Nations unies)",
+   "vuLe": "2026-10-19"
+  },
+  "wp:lesoleil.sn:https://lesoleil.sn/marche-public/avis-dappel-doffres-17/": {
+   "source": "wp:lesoleil.sn",
+   "reference": "non communiquée",
+   "objet": "AVIS D’APPEL D’OFFRES",
+   "type": "Appel d'offres",
+   "publieLe": "2026-10-19",
+   "dateLimite": "2026-11-02",
+   "url": "https://lesoleil.sn/marche-public/avis-dappel-doffres-17/",
+   "autorite": "Le Soleil",
+   "vuLe": "2026-10-19"
+  },
+  "wp:lesoleil.sn:https://lesoleil.sn/marche-public/avis-dappel-doffres-16/": {
+   "source": "wp:lesoleil.sn",
+   "reference": "non communiquée",
+   "objet": "AVIS D’APPEL D’OFFRES",
+   "type": "Appel d'offres",
+   "publieLe": "2026-10-19",
+   "dateLimite": "2026-10-26",
+   "url": "https://lesoleil.sn/marche-public/avis-dappel-doffres-16/",
+   "autorite": "Le Soleil",
+   "vuLe": "2026-10-19"
+  },
+  "wp:lesoleil.sn:https://lesoleil.sn/marche-public/avis-dappel-doffres-15/": {
+   "source": "wp:lesoleil.sn",
+   "reference": "non communiquée",
+   "objet": "Avis d’appel d’offres",
+   "type": "Appel d'offres",
+   "publieLe": "2026-10-19",
+   "dateLimite": "2026-11-19",
+   "url": "https://lesoleil.sn/marche-public/avis-dappel-doffres-15/",
+   "autorite": "Le Soleil",
+   "vuLe": "2026-10-19"
+  },
+  "ageroute:https://ageroute.sn/download/32/avis-de-manifestation-dinterets/13314/supervision-des-travaux-damenagements-connexes-ecoles-etablissements-de-sante-marches-magasins-de-stockage-plateformes-multifonctionnelles-pour-les-femmes-etc-dans-le-cadre-du-projet.pdf": {
+   "source": "ageroute",
+   "reference": "",
+   "objet": "Supervision des travaux d’aménagements connexes (écoles, établissements de santé, marchés, magasins de stockage, plateformes multifonctionnelles pour les femmes, etc.) dans le cadre du Projet d’amélioration de la Connectivité des Zones de production Agricole (PCZA) du nord et du centre du Sénégal -Phase II",
+   "type": "Avis de manifestation d’intérêt",
+   "publieLe": "2026-10-19",
+   "dateLimite": "2026-11-03",
+   "url": "https://ageroute.sn/download/32/avis-de-manifestation-dinterets/13314/supervision-des-travaux-damenagements-connexes-ecoles-etablissements-de-sante-marches-magasins-de-stockage-plateformes-multifonctionnelles-pour-les-femmes-etc-dans-le-cadre-du-projet.pdf",
+   "vuLe": "2026-10-19"
+  },
+  "ageroute:https://ageroute.sn/download/32/avis-de-manifestation-dinterets/13312/selection-dun-consultant-pour-la-maitrise-doeuvre-des-travaux-du-pera-en-six-lots.pdf": {
+   "source": "ageroute",
+   "reference": "",
+   "objet": "Sélection d’un consultant pour la maitrise d'œuvre des travaux du PERA en six lots",
+   "type": "Avis de manifestation d’intérêt",
+   "publieLe": "2026-10-13",
+   "dateLimite": "2026-10-29",
+   "url": "https://ageroute.sn/download/32/avis-de-manifestation-dinterets/13312/selection-dun-consultant-pour-la-maitrise-doeuvre-des-travaux-du-pera-en-six-lots.pdf",
+   "vuLe": "2026-10-19"
+  },
+  "ageroute:https://ageroute.sn/download/32/avis-de-manifestation-dinterets/13309/selection-dun-consultant-pour-la-maitrise-doeuvre-des-travaux-du-pera.pdf": {
+   "source": "ageroute",
+   "reference": "",
+   "objet": "Sélection d’un consultant pour la maitrise d'œuvre des travaux du PERA",
+   "type": "Avis de manifestation d’intérêt",
+   "publieLe": "2026-10-05",
+   "dateLimite": "2026-10-20",
+   "url": "https://ageroute.sn/download/32/avis-de-manifestation-dinterets/13309/selection-dun-consultant-pour-la-maitrise-doeuvre-des-travaux-du-pera.pdf",
+   "vuLe": "2026-10-19"
+  },
+  "ageroute:https://ageroute.sn/download/32/avis-de-manifestation-dinterets/13307/travaux-damenagement-de-voiries-connexes-au-brt-pilote-de-dakar-dao-1-dans-le-cadre-du-projet-de-mobilite-urbaine-durable-de-dakar-pmudd.pdf": {
+   "source": "ageroute",
+   "reference": "",
+   "objet": "Travaux d'aménagement de voiries connexes au BRT pilote de Dakar (DAO 1), dans le cadre du Projet de Mobilité Urbaine Durable de Dakar (PMUDD)",
+   "type": "Avis de manifestation d’intérêt",
+   "publieLe": "2026-09-30",
+   "dateLimite": "2026-10-07",
+   "url": "https://ageroute.sn/download/32/avis-de-manifestation-dinterets/13307/travaux-damenagement-de-voiries-connexes-au-brt-pilote-de-dakar-dao-1-dans-le-cadre-du-projet-de-mobilite-urbaine-durable-de-dakar-pmudd.pdf",
+   "vuLe": "2026-10-19"
   }
  }
 }

@@ -1,186 +1,6 @@
 {
- "misAJourLe": "2026-10-18",
+ "misAJourLe": "2026-10-19",
  "realisations": [
-  {
-   "id": "ppm-80efcf869a",
-   "autorite": "Ministère de l'Intérieur et de la Sécurité Publique",
-   "plan": "MISP_2026_2",
-   "direction": "Direction Générale des Elections",
-   "reference": "S_MISP_DGE_5075",
-   "objet": "Service de désinsectisation, désinfection, dératisation des bureaux et du magasin de stockage de la DGE",
-   "typeMarche": "Services",
-   "secteur": "Services",
-   "financement": [
-    "Budget propre"
-   ],
-   "mode": "Demande de renseignement et de prix à compétition restreinte",
-   "lancement": "2026-08-19",
-   "attribution": "2026-08-25",
-   "etat": null,
-   "montantFcfa": null
-  },
-  {
-   "id": "ppm-4e3e3c9508",
-   "autorite": "Fonds de Garantie des Investissements Prioritaires",
-   "plan": "FONGIP_2026_2",
-   "direction": "Département Moyens Généraux et Logistiques",
-   "reference": "S_FONGIP_DMGL_12381",
-   "objet": "Recrutement d'un prestataire pour l'entretien et réparation de la climatisation",
-   "typeMarche": "Services",
-   "secteur": "Études",
-   "financement": [
-    "Budget propre"
-   ],
-   "mode": "Demande de renseignement et de prix à compétition restreinte",
-   "lancement": "2026-08-19",
-   "attribution": "2026-09-21",
-   "etat": null,
-   "montantFcfa": null
-  },
-  {
-   "id": "ppm-c73aa3d17e",
-   "autorite": "ISEP AT de  Diamniadio",
-   "plan": "ISEPAT_2026_2",
-   "direction": "DEPARTEMENT AUTOMOBILE",
-   "reference": "F_ISEPAT_AUTO_12099",
-   "objet": "Acquisition d’engins lourds et de véhicules d'occasion pour les métiers de l'automobile (02lots)",
-   "typeMarche": "Fourniture",
-   "secteur": "Fournitures",
-   "financement": [
-    "Budget propre"
-   ],
-   "mode": "Appel d'offres ouvert",
-   "lancement": "2026-08-19",
-   "attribution": "2026-11-20",
-   "etat": null,
-   "montantFcfa": null
-  },
-  {
-   "id": "ppm-6d6ad38ae8",
-   "autorite": "Port Autonome de Dakar",
-   "plan": "PAD_2026_6",
-   "direction": "DIRECTION DE L’EXPLOITATION/HAUT COMMANDEMENT",
-   "reference": "F_PAD_DEX/HC_4021",
-   "objet": "Acquisition et Pose de deux (02) \nMoteurs Cummins ou équivalent \nau profit de la P16 et P17 avec les \nservices connexes prévu pour \n4000 heures de service",
-   "typeMarche": "Fourniture",
-   "secteur": "Fournitures",
-   "financement": [
-    "Budget propre"
-   ],
-   "mode": "Appel d'offres ouvert",
-   "lancement": "2026-08-19",
-   "attribution": "2026-06-01",
-   "etat": null,
-   "montantFcfa": null
-  },
-  {
-   "id": "ppm-fb86561e0a",
-   "autorite": "Port Autonome de Dakar",
-   "plan": "PAD_2026_6",
-   "direction": "DIRECTION DE L’EXPLOITATION/HAUT COMMANDEMENT",
-   "reference": "F_PAD_DEX/HC_4025",
-   "objet": "Avenant de renouvellement n°01 du Marché de base n°F1109/25-DK Fourniture de Peintures Marines pour la flotte navale\n\nDK Fourniture de Peintures \nMarines pour la flotte navale",
-   "typeMarche": "Fourniture",
-   "secteur": "Fournitures",
-   "financement": [
-    "Budget propre"
-   ],
-   "mode": "Appel d'offres ouvert",
-   "lancement": "2026-08-19",
-   "attribution": "2026-11-06",
-   "etat": null,
-   "montantFcfa": null
-  },
-  {
-   "id": "ppm-cdd6671c48",
-   "autorite": "SENELEC",
-   "plan": "SENELEC_2026_4",
-   "direction": "Direction Principale Production",
-   "reference": "T_SENELEC_DPP_4059",
-   "objet": "Travaux de fiabilisation des auxiliaires de la centrale de Boutoute (chaudières, compresseurs, calorifugeages, filtres…)",
-   "typeMarche": "Travaux",
-   "secteur": "BTP",
-   "financement": [
-    "Budget propre"
-   ],
-   "mode": "Appel d'offres ouvert",
-   "lancement": "2026-08-19",
-   "attribution": "2026-11-20",
-   "etat": null,
-   "montantFcfa": null
-  },
-  {
-   "id": "ppm-b8de373601",
-   "autorite": "SENELEC",
-   "plan": "SENELEC_2026_4",
-   "direction": "Direction des _Systèmes d'Information",
-   "reference": "S_SENELEC_DSI_9453",
-   "objet": "Sélection de prestataire pour le contrat de maintenance et support du Datacenter de Diamniadio",
-   "typeMarche": "Services",
-   "secteur": "Services",
-   "financement": [
-    "Budget propre"
-   ],
-   "mode": "Appel d'offres ouvert",
-   "lancement": "2026-08-19",
-   "attribution": "2026-11-20",
-   "etat": null,
-   "montantFcfa": null
-  },
-  {
-   "id": "ppm-6494fd41a1",
-   "autorite": "SENELEC",
-   "plan": "SENELEC_2026_4",
-   "direction": "Direction Transports",
-   "reference": "F_SENELEC_DT_9476",
-   "objet": "Marché clientèle pour la fourniture de matériel accessoire Télécoms (fibre, carte SDH, MS-OTN)",
-   "typeMarche": "Fourniture",
-   "secteur": "Fournitures",
-   "financement": [
-    "Budget propre"
-   ],
-   "mode": "Appel d'offres ouvert",
-   "lancement": "2026-08-19",
-   "attribution": "2026-11-20",
-   "etat": null,
-   "montantFcfa": null
-  },
-  {
-   "id": "ppm-c54d0dfe0c",
-   "autorite": "SENELEC",
-   "plan": "SENELEC_2026_4",
-   "direction": "Direction Principale Production",
-   "reference": "F_SENELEC_DPP_4097",
-   "objet": "Fourniture d'équipements (pièces de plomberie, climatisation, peinture, Kit de travaux en hauteur…) pour les centrales de Cap des Biches et Bel-Air (marché de clientèle)",
-   "typeMarche": "Fourniture",
-   "secteur": "BTP",
-   "financement": [
-    "Budget propre"
-   ],
-   "mode": "Appel d'offres ouvert",
-   "lancement": "2026-08-19",
-   "attribution": "2026-11-20",
-   "etat": null,
-   "montantFcfa": null
-  },
-  {
-   "id": "ppm-069d2dbdf2",
-   "autorite": "Primature / Sécrétariat Général du gouvernement",
-   "plan": "PM / SGG_2026_22",
-   "direction": "Secrétariat exécutif du Conseil national de Lutte contre le Sida",
-   "reference": "C_PM / SGG_SE/CNLS_15232",
-   "objet": "Sélection d’un consultant pour l’élaboration d’un guide des services différenciés de prévention et prise en charge intégrée du VIH, des IST, des hépatites, de la tuberculose chez les populations les plus vulnérables",
-   "typeMarche": "Prestation intellectuelle",
-   "secteur": "Études",
-   "financement": [
-    "Financement extérieur"
-   ],
-   "mode": "Demande de renseignement et de prix à compétition restreinte",
-   "lancement": "2026-08-19",
-   "attribution": "2026-10-07",
-   "etat": null,
-   "montantFcfa": null
-  },
   {
    "id": "ppm-a24b7fa0ef",
    "autorite": "Ministère de l'Economie du Plan et de la Coopération",
@@ -830,9 +650,9 @@
    "montantFcfa": null
   },
   {
-   "id": "ppm-8a69cb1224",
+   "id": "ppm-0c2c2f061e",
    "autorite": "Primature / Sécrétariat Général du gouvernement",
-   "plan": "PM / SGG_2026_22",
+   "plan": "PM / SGG_2026_23",
    "direction": "Direction de l'Imprimerie nationale",
    "reference": "F_PM / SGG_DIN_1585",
    "objet": "Achat des intrants nécessaires à la réalisation des publications officielles (bombe dégrippant, blanchets, Alcool, eau de mouillage, encre offset.... )",
@@ -3062,9 +2882,27 @@
    "montantFcfa": null
   },
   {
-   "id": "ppm-2ee04fbd16",
+   "id": "ppm-bad85af3f7",
+   "autorite": "SENPNA",
+   "plan": "SENPNA_2026_13",
+   "direction": "DIRECTION DE L'ADMINISTRATION ET DES FINANCES",
+   "reference": "S_SENPNA_DAF_13005",
+   "objet": "Services d'assistance en Pharmacie, manutention ,Administratif ,et Technique",
+   "typeMarche": "Services",
+   "secteur": "Services",
+   "financement": [
+    "Budget propre"
+   ],
+   "mode": "Appel d'offres ouvert",
+   "lancement": "2026-09-23",
+   "attribution": "2027-01-15",
+   "etat": null,
+   "montantFcfa": null
+  },
+  {
+   "id": "ppm-dfa2a48cd9",
    "autorite": "Primature / Sécrétariat Général du gouvernement",
-   "plan": "PM / SGG_2026_22",
+   "plan": "PM / SGG_2026_23",
    "direction": "Direction générale de la Surveillance et du Contrôle de l'Occupation du Sol",
    "reference": "F_PM / SGG_DGSCOS_1767",
    "objet": "Location d'engins pour opérations de démolition",
@@ -3080,9 +2918,9 @@
    "montantFcfa": null
   },
   {
-   "id": "ppm-11bb76806d",
+   "id": "ppm-66fa38b5f3",
    "autorite": "Primature / Sécrétariat Général du gouvernement",
-   "plan": "PM / SGG_2026_22",
+   "plan": "PM / SGG_2026_23",
    "direction": "Secrétariat permanent du Haut Conseil national de Sécurité sanitaire One Health",
    "reference": "S_PM / SGG_ONE HEALTH_17788",
    "objet": "Sélection d'un prestataire pour l'impression des documents One Health et la reproduction de kakémonos",
@@ -3098,9 +2936,9 @@
    "montantFcfa": null
   },
   {
-   "id": "ppm-6cd0ae1a0f",
+   "id": "ppm-3b55d97d05",
    "autorite": "Primature / Sécrétariat Général du gouvernement",
-   "plan": "PM / SGG_2026_22",
+   "plan": "PM / SGG_2026_23",
    "direction": "Direction générale de la Surveillance et du Contrôle de l'Occupation du Sol",
    "reference": "S_PM / SGG_DGSCOS_17251",
    "objet": "Entretien et nettoiement des locaux de la DGCOS",
@@ -3112,24 +2950,6 @@
    "mode": "Demande de renseignement et de prix à compétition restreinte",
    "lancement": "2026-09-23",
    "attribution": "2026-11-11",
-   "etat": null,
-   "montantFcfa": null
-  },
-  {
-   "id": "ppm-bad85af3f7",
-   "autorite": "SENPNA",
-   "plan": "SENPNA_2026_13",
-   "direction": "DIRECTION DE L'ADMINISTRATION ET DES FINANCES",
-   "reference": "S_SENPNA_DAF_13005",
-   "objet": "Services d'assistance en Pharmacie, manutention ,Administratif ,et Technique",
-   "typeMarche": "Services",
-   "secteur": "Services",
-   "financement": [
-    "Budget propre"
-   ],
-   "mode": "Appel d'offres ouvert",
-   "lancement": "2026-09-23",
-   "attribution": "2027-01-15",
    "etat": null,
    "montantFcfa": null
   },
@@ -3854,6 +3674,24 @@
    "montantFcfa": null
   },
   {
+   "id": "ppm-296831f99a",
+   "autorite": "Primature / Sécrétariat Général du gouvernement",
+   "plan": "PM / SGG_2026_23",
+   "direction": "Secrétariat exécutif du Conseil national de Lutte contre le Sida",
+   "reference": "F_PM / SGG_SE/CNLS_18891",
+   "objet": "Sélection d’un prestataire pour la location d’équipements de sonorisation pour la 5ème édition des JSSS et de la JMS",
+   "typeMarche": "Fourniture",
+   "secteur": "Fournitures",
+   "financement": [
+    "Budget propre"
+   ],
+   "mode": "Demande de renseignement et de prix à compétition restreinte",
+   "lancement": "2026-09-29",
+   "attribution": "2026-11-17",
+   "etat": null,
+   "montantFcfa": null
+  },
+  {
    "id": "ppm-9ef7aee837",
    "autorite": "Autorité de Régulation des Télécommunications et des Postes (ARTP)",
    "plan": "ARTP_2026_20",
@@ -3998,24 +3836,6 @@
    "montantFcfa": null
   },
   {
-   "id": "ppm-d8af3a602a",
-   "autorite": "Primature / Sécrétariat Général du gouvernement",
-   "plan": "PM / SGG_2026_22",
-   "direction": "Secrétariat permanent du Haut Conseil national de Sécurité sanitaire One Health",
-   "reference": "F_PM / SGG_ONE HEALTH_17781",
-   "objet": "Acquisition de mobiliers de bureau (équipement salle de réunion, équipement des bureaux)",
-   "typeMarche": "Fourniture",
-   "secteur": "Fournitures",
-   "financement": [
-    "Budget propre"
-   ],
-   "mode": "Demande de renseignement et de prix à compétition restreinte",
-   "lancement": "2026-09-30",
-   "attribution": "2026-11-18",
-   "etat": null,
-   "montantFcfa": null
-  },
-  {
    "id": "ppm-42d2946d7b",
    "autorite": "SENPNA",
    "plan": "SENPNA_2026_13",
@@ -4030,6 +3850,24 @@
    "mode": "Demande de renseignement et de prix à compétition restreinte",
    "lancement": "2026-09-30",
    "attribution": "2026-11-02",
+   "etat": null,
+   "montantFcfa": null
+  },
+  {
+   "id": "ppm-8cd634d5c3",
+   "autorite": "Primature / Sécrétariat Général du gouvernement",
+   "plan": "PM / SGG_2026_23",
+   "direction": "Secrétariat permanent du Haut Conseil national de Sécurité sanitaire One Health",
+   "reference": "F_PM / SGG_ONE HEALTH_17781",
+   "objet": "Acquisition de mobiliers de bureau (équipement salle de réunion, équipement des bureaux)",
+   "typeMarche": "Fourniture",
+   "secteur": "Fournitures",
+   "financement": [
+    "Budget propre"
+   ],
+   "mode": "Demande de renseignement et de prix à compétition restreinte",
+   "lancement": "2026-09-30",
+   "attribution": "2026-11-18",
    "etat": null,
    "montantFcfa": null
   },
@@ -4520,24 +4358,6 @@
    "montantFcfa": null
   },
   {
-   "id": "ppm-a11d8c907d",
-   "autorite": "Primature / Sécrétariat Général du gouvernement",
-   "plan": "PM / SGG_2026_22",
-   "direction": "Secrétariat permanent du Haut Conseil national de Sécurité sanitaire One Health",
-   "reference": "F_PM / SGG_ONE HEALTH_17780",
-   "objet": "Acquisition de matériels informatiques (ordinateurs portables et fixes)",
-   "typeMarche": "Fourniture",
-   "secteur": "Informatique",
-   "financement": [
-    "Budget propre"
-   ],
-   "mode": "Demande de renseignements et de prix à compétition ouverte",
-   "lancement": "2026-10-07",
-   "attribution": "2026-11-25",
-   "etat": null,
-   "montantFcfa": null
-  },
-  {
    "id": "ppm-5a1d7abc50",
    "autorite": "SENPNA",
    "plan": "SENPNA_2026_13",
@@ -4552,6 +4372,24 @@
    "mode": "Demande de renseignements et de prix à compétition ouverte",
    "lancement": "2026-10-07",
    "attribution": "2026-11-09",
+   "etat": null,
+   "montantFcfa": null
+  },
+  {
+   "id": "ppm-902f05982c",
+   "autorite": "Primature / Sécrétariat Général du gouvernement",
+   "plan": "PM / SGG_2026_23",
+   "direction": "Secrétariat permanent du Haut Conseil national de Sécurité sanitaire One Health",
+   "reference": "F_PM / SGG_ONE HEALTH_17780",
+   "objet": "Acquisition de matériels informatiques (ordinateurs portables et fixes)",
+   "typeMarche": "Fourniture",
+   "secteur": "Informatique",
+   "financement": [
+    "Budget propre"
+   ],
+   "mode": "Demande de renseignements et de prix à compétition ouverte",
+   "lancement": "2026-10-07",
+   "attribution": "2026-11-25",
    "etat": null,
    "montantFcfa": null
   },
@@ -4736,9 +4574,9 @@
    "montantFcfa": null
   },
   {
-   "id": "ppm-f1248d6dfb",
+   "id": "ppm-eee71ccd5a",
    "autorite": "Primature / Sécrétariat Général du gouvernement",
-   "plan": "PM / SGG_2026_22",
+   "plan": "PM / SGG_2026_23",
    "direction": "Secrétariat permanent du Haut Conseil national de Sécurité sanitaire One Health",
    "reference": "S_PM / SGG_ONE HEALTH_17784",
    "objet": "Entretien de véhicules",
@@ -4754,9 +4592,9 @@
    "montantFcfa": null
   },
   {
-   "id": "ppm-938485c1e0",
+   "id": "ppm-28c2df4f59",
    "autorite": "Primature / Sécrétariat Général du gouvernement",
-   "plan": "PM / SGG_2026_22",
+   "plan": "PM / SGG_2026_23",
    "direction": "Secrétariat permanent du Haut Conseil national de Sécurité sanitaire One Health",
    "reference": "S_PM / SGG_ONE HEALTH_17785",
    "objet": "Entretien et nettoiement de locaux du One Health",
@@ -5132,24 +4970,6 @@
    "montantFcfa": null
   },
   {
-   "id": "ppm-814c684aad",
-   "autorite": "Primature / Sécrétariat Général du gouvernement",
-   "plan": "PM / SGG_2026_22",
-   "direction": "Secrétariat permanent du Haut Conseil national de Sécurité sanitaire One Health",
-   "reference": "S_PM / SGG_ONE HEALTH_17787",
-   "objet": "Sélection d'un infographiste pour le PANSS et autres documents élaborés finalisés et validés par OH",
-   "typeMarche": "Services",
-   "secteur": "Services",
-   "financement": [
-    "Budget propre"
-   ],
-   "mode": "Demande de renseignements et de  prix simple",
-   "lancement": "2026-10-16",
-   "attribution": "2026-10-23",
-   "etat": null,
-   "montantFcfa": null
-  },
-  {
    "id": "ppm-994354afb5",
    "autorite": "SENPNA",
    "plan": "SENPNA_2026_13",
@@ -5182,6 +5002,24 @@
    "mode": "Demande de renseignement et de prix à compétition restreinte",
    "lancement": "2026-10-16",
    "attribution": "2026-10-27",
+   "etat": null,
+   "montantFcfa": null
+  },
+  {
+   "id": "ppm-63ce929c76",
+   "autorite": "Primature / Sécrétariat Général du gouvernement",
+   "plan": "PM / SGG_2026_23",
+   "direction": "Secrétariat permanent du Haut Conseil national de Sécurité sanitaire One Health",
+   "reference": "S_PM / SGG_ONE HEALTH_17787",
+   "objet": "Sélection d'un infographiste pour le PANSS et autres documents élaborés finalisés et validés par OH",
+   "typeMarche": "Services",
+   "secteur": "Services",
+   "financement": [
+    "Budget propre"
+   ],
+   "mode": "Demande de renseignements et de  prix simple",
+   "lancement": "2026-10-16",
+   "attribution": "2026-10-23",
    "etat": null,
    "montantFcfa": null
   },
@@ -5222,24 +5060,6 @@
    "montantFcfa": null
   },
   {
-   "id": "ppm-3e0776ee1e",
-   "autorite": "Primature / Sécrétariat Général du gouvernement",
-   "plan": "PM / SGG_2026_22",
-   "direction": "Secrétariat permanent du Haut Conseil national de Sécurité sanitaire One Health",
-   "reference": "F_PM / SGG_ONE HEALTH_17779",
-   "objet": "Acquisition de fournitures de bureau",
-   "typeMarche": "Fourniture",
-   "secteur": "Fournitures",
-   "financement": [
-    "Budget propre"
-   ],
-   "mode": "Demande de renseignements et de  prix simple",
-   "lancement": "2026-10-19",
-   "attribution": "2026-10-26",
-   "etat": null,
-   "montantFcfa": null
-  },
-  {
    "id": "ppm-7b9ffceb69",
    "autorite": "Ville de Guédiawaye",
    "plan": "VG_2026_7",
@@ -5254,6 +5074,24 @@
    "mode": "Appel d'offres ouvert",
    "lancement": "2026-10-19",
    "attribution": "2026-12-07",
+   "etat": null,
+   "montantFcfa": null
+  },
+  {
+   "id": "ppm-259e8123fa",
+   "autorite": "Primature / Sécrétariat Général du gouvernement",
+   "plan": "PM / SGG_2026_23",
+   "direction": "Secrétariat permanent du Haut Conseil national de Sécurité sanitaire One Health",
+   "reference": "F_PM / SGG_ONE HEALTH_17779",
+   "objet": "Acquisition de fournitures de bureau",
+   "typeMarche": "Fourniture",
+   "secteur": "Fournitures",
+   "financement": [
+    "Budget propre"
+   ],
+   "mode": "Demande de renseignements et de  prix simple",
+   "lancement": "2026-10-19",
+   "attribution": "2026-10-26",
    "etat": null,
    "montantFcfa": null
   },
@@ -5276,9 +5114,9 @@
    "montantFcfa": null
   },
   {
-   "id": "ppm-46a4cd30d5",
+   "id": "ppm-0c6561ffbb",
    "autorite": "Primature / Sécrétariat Général du gouvernement",
-   "plan": "PM / SGG_2026_22",
+   "plan": "PM / SGG_2026_23",
    "direction": "Secrétariat permanent du Haut Conseil national de Sécurité sanitaire One Health",
    "reference": "C_PM / SGG_ONE HEALTH_17778",
    "objet": "Recrutement d'un consultant pour la finalisation du PANSS et d'autres documents stratégiques du programme One Health",
@@ -5294,9 +5132,9 @@
    "montantFcfa": null
   },
   {
-   "id": "ppm-3c793e3347",
+   "id": "ppm-b595290800",
    "autorite": "Primature / Sécrétariat Général du gouvernement",
-   "plan": "PM / SGG_2026_22",
+   "plan": "PM / SGG_2026_23",
    "direction": "Secrétariat permanent du Haut Conseil national de Sécurité sanitaire One Health",
    "reference": "F_PM / SGG_ONE HEALTH_17782",
    "objet": "Acquisition de denrées alimentaires",
@@ -5312,9 +5150,9 @@
    "montantFcfa": null
   },
   {
-   "id": "ppm-fce6170066",
+   "id": "ppm-aaa4e419d6",
    "autorite": "Primature / Sécrétariat Général du gouvernement",
-   "plan": "PM / SGG_2026_22",
+   "plan": "PM / SGG_2026_23",
    "direction": "Secrétariat permanent du Haut Conseil national de Sécurité sanitaire One Health",
    "reference": "F_PM / SGG_ONE HEALTH_17783",
    "objet": "Acquisition de matériels et équipements de communication",
@@ -5330,9 +5168,9 @@
    "montantFcfa": null
   },
   {
-   "id": "ppm-65b8b2f968",
+   "id": "ppm-f7486b9bbf",
    "autorite": "Primature / Sécrétariat Général du gouvernement",
-   "plan": "PM / SGG_2026_22",
+   "plan": "PM / SGG_2026_23",
    "direction": "Secrétariat exécutif du Conseil national de Développement de la Nutrition",
    "reference": "C_PM / SGG_SE-CNDN_17978",
    "objet": "Sélection d’un consultant chargé de l'étude sur \"le statut en iode des populations vulnérables (femmes enceintes et enfants), la couverture en sel iodé et l’identification des principales sources d’iode alimentaires des ménages au Sénégal\"",
@@ -5456,9 +5294,9 @@
    "montantFcfa": null
   },
   {
-   "id": "ppm-1dfd4c3fc7",
+   "id": "ppm-bd434e6105",
    "autorite": "Primature / Sécrétariat Général du gouvernement",
-   "plan": "PM / SGG_2026_22",
+   "plan": "PM / SGG_2026_23",
    "direction": "Secrétariat exécutif du Conseil national de Lutte contre le Sida",
    "reference": "C_PM / SGG_SE/CNLS_15233",
    "objet": "Sélection d’un cabinet pour la formation et la migration du logiciel comptable SYSCEBNL pour le SECNLS",
@@ -5474,9 +5312,9 @@
    "montantFcfa": null
   },
   {
-   "id": "ppm-67a140093d",
+   "id": "ppm-234ef89a24",
    "autorite": "Primature / Sécrétariat Général du gouvernement",
-   "plan": "PM / SGG_2026_22",
+   "plan": "PM / SGG_2026_23",
    "direction": "Secrétariat permanent du Haut Conseil national de Sécurité sanitaire One Health",
    "reference": "S_PM / SGG_ONE HEALTH_17786",
    "objet": "Sélection d'un prestataire pour la Décoration de locaux du One Health",
@@ -5506,6 +5344,42 @@
    "mode": "Appel d'offres ouvert",
    "lancement": "2026-10-28",
    "attribution": "2027-02-19",
+   "etat": null,
+   "montantFcfa": null
+  },
+  {
+   "id": "ppm-a692e8e9f0",
+   "autorite": "Primature / Sécrétariat Général du gouvernement",
+   "plan": "PM / SGG_2026_23",
+   "direction": "Secrétariat exécutif du Conseil national de Lutte contre le Sida",
+   "reference": "F_PM / SGG_SE/CNLS_18890",
+   "objet": "Sélection d’un prestataire pour la location et l’aménagement de stands pour la 5ème édition des JSSS et de la JMS",
+   "typeMarche": "Fourniture",
+   "secteur": "BTP",
+   "financement": [
+    "MIXED"
+   ],
+   "mode": "Demande de renseignement et de prix à compétition restreinte",
+   "lancement": "2026-10-28",
+   "attribution": "2026-12-16",
+   "etat": null,
+   "montantFcfa": null
+  },
+  {
+   "id": "ppm-1fc2307557",
+   "autorite": "Primature / Sécrétariat Général du gouvernement",
+   "plan": "PM / SGG_2026_23",
+   "direction": "Secrétariat exécutif du Conseil national de Lutte contre le Sida",
+   "reference": "T_PM / SGG_SE/CNLS_18893",
+   "objet": "Travaux de réparation et de réhabilitation du bâtiment du SE/CNLS",
+   "typeMarche": "Travaux",
+   "secteur": "BTP",
+   "financement": [
+    "Budget propre"
+   ],
+   "mode": "Demande de renseignement et de prix à compétition restreinte",
+   "lancement": "2026-10-28",
+   "attribution": "2026-12-16",
    "etat": null,
    "montantFcfa": null
   },
@@ -5546,9 +5420,9 @@
    "montantFcfa": null
   },
   {
-   "id": "ppm-4551add55c",
+   "id": "ppm-869f02e169",
    "autorite": "Primature / Sécrétariat Général du gouvernement",
-   "plan": "PM / SGG_2026_22",
+   "plan": "PM / SGG_2026_23",
    "direction": "Secrétariat exécutif du Conseil national de Développement de la Nutrition",
    "reference": "F_PM / SGG_SE-CNDN_17977",
    "objet": "Acquisition de farine composée destinée aux enfants de 6 à 23 mois et de kits alimentaires (en deux lots)",
@@ -6968,9 +6842,9 @@
    "montantFcfa": null
   },
   {
-   "id": "ppm-809b92df36",
+   "id": "ppm-7726a5f52b",
    "autorite": "Primature / Sécrétariat Général du gouvernement",
-   "plan": "PM / SGG_2026_22",
+   "plan": "PM / SGG_2026_23",
    "direction": "Secrétariat exécutif du Conseil national de Lutte contre le Sida",
    "reference": "S_PM / SGG_SE/CNLS_1812",
    "objet": "Sélection d'un prestataire pour l'entretien des équipements et des installations électriques",
@@ -7148,6 +7022,42 @@
    "montantFcfa": null
   },
   {
+   "id": "ppm-6aad6c990e",
+   "autorite": "Primature / Sécrétariat Général du gouvernement",
+   "plan": "PM / SGG_2026_23",
+   "direction": "Secrétariat exécutif du Conseil national de Lutte contre le Sida",
+   "reference": "C_PM / SGG_SE/CNLS_18892",
+   "objet": "Sélection d’un Consultant pour l’élaboration d’un guide de prise en charge du VIH pédiatrique (relance)",
+   "typeMarche": "Prestation intellectuelle",
+   "secteur": "Études",
+   "financement": [
+    "Financement extérieur"
+   ],
+   "mode": "Demande de renseignements et de  prix simple",
+   "lancement": "2026-11-10",
+   "attribution": "2026-11-17",
+   "etat": null,
+   "montantFcfa": null
+  },
+  {
+   "id": "ppm-11c0ed0fd4",
+   "autorite": "Primature / Sécrétariat Général du gouvernement",
+   "plan": "PM / SGG_2026_23",
+   "direction": "Secrétariat exécutif du Conseil national de Lutte contre le Sida",
+   "reference": "S_PM / SGG_SE/CNLS_18894",
+   "objet": "Sélection d’un prestataire pour le renouvellement des admissions temporaires des véhicules et des titres d’exonérations du SECNLS (relance)",
+   "typeMarche": "Services",
+   "secteur": "Services",
+   "financement": [
+    "Budget propre"
+   ],
+   "mode": "Demande de renseignements et de  prix simple",
+   "lancement": "2026-11-10",
+   "attribution": "2026-11-17",
+   "etat": null,
+   "montantFcfa": null
+  },
+  {
    "id": "ppm-2e7af82385",
    "autorite": "SENPNA",
    "plan": "SENPNA_2026_13",
@@ -7162,6 +7072,24 @@
    "mode": "Appel d'offres ouvert",
    "lancement": "2026-11-11",
    "attribution": "2027-02-12",
+   "etat": null,
+   "montantFcfa": null
+  },
+  {
+   "id": "ppm-e13d035988",
+   "autorite": "Primature / Sécrétariat Général du gouvernement",
+   "plan": "PM / SGG_2026_23",
+   "direction": "Secrétariat exécutif du Conseil national de Lutte contre le Sida",
+   "reference": "S_PM / SGG_SE/CNLS_1808",
+   "objet": "Sélection de prestataires pour la production de supports de communication pour le SECNLS (supports tissus, bâches)",
+   "typeMarche": "Services",
+   "secteur": "Services",
+   "financement": [
+    "MIXED"
+   ],
+   "mode": "Demande de renseignements et de prix à compétition ouverte",
+   "lancement": "2026-11-11",
+   "attribution": "2026-12-30",
    "etat": null,
    "montantFcfa": null
   },
