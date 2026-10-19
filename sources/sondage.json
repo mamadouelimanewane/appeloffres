@@ -1,5 +1,5 @@
 {
- "sondeLe": "2026-10-12T12:37:44.409Z",
+ "sondeLe": "2026-10-19T10:26:53.194Z",
  "resultats": [
   {
    "domaine": "arcop.sn",
@@ -8,7 +8,7 @@
    "base": "https://arcop.sn",
    "robotsInterdit": false,
    "wordpress": true,
-   "avisRecents": 6,
+   "avisRecents": 5,
    "typesAvis": [],
    "dernier": "2026-08-06",
    "exemple": "APPEL, DIX MOIS QUI ONT CHANGE LE VISAGE DE LA COMMANDE PUBLIQUE :Fonctionnalités renforcé"
@@ -20,7 +20,7 @@
    "base": "https://aps.sn",
    "robotsInterdit": false,
    "wordpress": true,
-   "avisRecents": 4,
+   "avisRecents": 3,
    "typesAvis": [],
    "dernier": "2026-08-18",
    "exemple": "Numérique responsable : l&#8217;interopérabilité présentée comme un levier de sobriété"
@@ -46,10 +46,10 @@
    "base": "https://sodefitex.sn",
    "robotsInterdit": false,
    "wordpress": true,
-   "avisRecents": 1,
+   "avisRecents": 2,
    "typesAvis": [],
-   "dernier": "2026-07-27",
-   "exemple": "Le dynamisme innovateur au service d&rsquo;une chaîne d&rsquo;approvisionnement éthique"
+   "dernier": "2026-10-13",
+   "exemple": "Modernisation technologique à la SODEFITEX : appel d&rsquo;offres stratégique pour le reno"
   },
   {
    "domaine": "adepme.sn",
@@ -454,18 +454,6 @@
    "exemple": null
   },
   {
-   "domaine": "sogip.sn",
-   "categorie": "Sociétés nationales",
-   "joignable": true,
-   "base": "https://sogip.sn",
-   "robotsInterdit": false,
-   "wordpress": true,
-   "avisRecents": 0,
-   "typesAvis": [],
-   "dernier": null,
-   "exemple": null
-  },
-  {
    "domaine": "uasz.sn",
    "categorie": "Universités et écoles",
    "joignable": true,
@@ -817,7 +805,7 @@
    "domaine": "bad.org",
    "categorie": "Bailleurs, coopération et ONG",
    "joignable": true,
-   "base": "https://bad.org",
+   "base": "https://www.bad.org",
    "robotsInterdit": false,
    "wordpress": false,
    "avisRecents": 0,
@@ -972,9 +960,9 @@
   {
    "domaine": "chrthies.sn",
    "categorie": "Santé",
-   "joignable": true,
-   "base": "https://chrthies.sn",
-   "robotsInterdit": true,
+   "joignable": false,
+   "base": null,
+   "robotsInterdit": false,
    "wordpress": false,
    "avisRecents": 0,
    "typesAvis": [],
@@ -1032,8 +1020,8 @@
   {
    "domaine": "cnts.sn",
    "categorie": "Agences et établissements",
-   "joignable": true,
-   "base": "https://cnts.sn",
+   "joignable": false,
+   "base": null,
    "robotsInterdit": false,
    "wordpress": false,
    "avisRecents": 0,
@@ -1728,8 +1716,8 @@
   {
    "domaine": "petrosen.sn",
    "categorie": "Sociétés nationales",
-   "joignable": false,
-   "base": null,
+   "joignable": true,
+   "base": "https://petrosen.sn",
    "robotsInterdit": false,
    "wordpress": false,
    "avisRecents": 0,
@@ -1966,6 +1954,18 @@
    "exemple": null
   },
   {
+   "domaine": "sogip.sn",
+   "categorie": "Sociétés nationales",
+   "joignable": false,
+   "base": null,
+   "robotsInterdit": false,
+   "wordpress": false,
+   "avisRecents": 0,
+   "typesAvis": [],
+   "dernier": null,
+   "exemple": null
+  },
+  {
    "domaine": "soleil.sn",
    "categorie": "Sociétés nationales",
    "joignable": false,
@@ -2100,8 +2100,8 @@
   {
    "domaine": "uidt.sn",
    "categorie": "Universités et écoles",
-   "joignable": false,
-   "base": null,
+   "joignable": true,
+   "base": "https://www.uidt.sn",
    "robotsInterdit": false,
    "wordpress": false,
    "avisRecents": 0,
@@ -2148,8 +2148,8 @@
   {
    "domaine": "univ-thies.sn",
    "categorie": "Universités et écoles",
-   "joignable": false,
-   "base": null,
+   "joignable": true,
+   "base": "https://www.univ-thies.sn",
    "robotsInterdit": false,
    "wordpress": false,
    "avisRecents": 0,
