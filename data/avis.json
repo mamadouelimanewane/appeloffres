@@ -1,5 +1,5 @@
 {
- "misAJourLe": "2026-10-19T12:29:00.136Z",
+ "misAJourLe": "2026-10-20T11:08:34.599Z",
  "avis": {
   "senelec:https://www.senelec.sn/media/marches/appels/AVIS_DE_REPORT_AON_33_2026.pdf": {
    "source": "senelec",
@@ -3060,8 +3060,8 @@
    "reference": "34-CONS-PADAES-2026",
    "objet": "Recrutement d'un Consultant pour la Réalisation des Etudes APS et APD pour l'Electrification à Moindre Coût de Localités dans le Périmètre de Senelec - MEPM (1600 Localités)",
    "type": "Appel à manifestation d'intérêt",
-   "publieLe": "2026-09-21",
-   "dateLimite": "2026-10-21",
+   "publieLe": "2026-10-19",
+   "dateLimite": "2026-11-04",
    "url": "https://projects.worldbank.org/fr/projects-operations/procurement-detail/OP00469523",
    "autorite": "SENEGAL NATIONAL ELECTRICITY AGENCY",
    "vuLe": "2026-10-05"
@@ -6118,6 +6118,83 @@
    "dateLimite": "2026-10-07",
    "url": "https://ageroute.sn/download/32/avis-de-manifestation-dinterets/13307/travaux-damenagement-de-voiries-connexes-au-brt-pilote-de-dakar-dao-1-dans-le-cadre-du-projet-de-mobilite-urbaine-durable-de-dakar-pmudd.pdf",
    "vuLe": "2026-10-19"
+  },
+  "banquemondiale:https://projects.worldbank.org/fr/projects-operations/procurement-detail/OP00475998": {
+   "source": "banquemondiale",
+   "reference": "SN-AGEROUTE-567713-CS-QCBS",
+   "objet": "Contrôle et Supervision de la construction d’aménagements connexes (salles de classe, poste de santé, marchés, PTFM, etc…) phase 2",
+   "type": "Appel à manifestation d'intérêt",
+   "publieLe": "2026-10-19",
+   "dateLimite": "2026-11-03",
+   "url": "https://projects.worldbank.org/fr/projects-operations/procurement-detail/OP00475998",
+   "autorite": "AGEROUTE",
+   "vuLe": "2026-10-20"
+  },
+  "ungm:https://www.ungm.org/Public/Notice/318901": {
+   "source": "ungm",
+   "reference": "rfx_12731_ROAF",
+   "objet": "Demande de cotations pour 2 ateliers consécutifs: ATELIER de consultation avec les pêcheurs, du 3 au 4 novembre 2026 et ATELIER avec les acteurs extractifs du 5 au 6 Novembre 2026 à Saint Louis, Sénégal",
+   "type": "Demande de cotation",
+   "publieLe": "2026-10-20",
+   "dateLimite": "2026-10-20",
+   "url": "https://www.ungm.org/Public/Notice/318901",
+   "autorite": "OIT (Nations unies)",
+   "vuLe": "2026-10-20"
+  },
+  "ungm:https://www.ungm.org/Public/Notice/318770": {
+   "source": "ungm",
+   "reference": "UNDP-SEN-00629",
+   "objet": "EQUIPEMENT ET MATERIEL POUR LA CRECHE DE LA MAF DE LIBERTE 6",
+   "type": "Demande de cotation",
+   "publieLe": "2026-10-19",
+   "dateLimite": "2026-11-02",
+   "url": "https://www.ungm.org/Public/Notice/318770",
+   "autorite": "PNUD (Nations unies)",
+   "vuLe": "2026-10-20"
+  },
+  "ungm:https://www.ungm.org/Public/Notice/318809": {
+   "source": "ungm",
+   "reference": "REOI/SENA/2026/001",
+   "objet": "Appel à manifestation d’intérêt_Prestataires de services de transport à Dakar et dans les régions.",
+   "type": "Appel à manifestation d'intérêt",
+   "publieLe": "2026-10-19",
+   "dateLimite": "2026-10-30",
+   "url": "https://www.ungm.org/Public/Notice/318809",
+   "autorite": "UNICEF (Nations unies)",
+   "vuLe": "2026-10-20"
+  },
+  "ungm:https://www.ungm.org/Public/Notice/318821": {
+   "source": "ungm",
+   "reference": "LRFQs-2926-9206770",
+   "objet": "Realisation d'une série d'émission TV sur l'inclusion en Afrique",
+   "type": "Demande de cotation",
+   "publieLe": "2026-10-19",
+   "dateLimite": "2026-10-27",
+   "url": "https://www.ungm.org/Public/Notice/318821",
+   "autorite": "UNICEF (Nations unies)",
+   "vuLe": "2026-10-20"
+  },
+  "wp:lesoleil.sn:https://lesoleil.sn/marche-public/avis-dappel-doffres-18/": {
+   "source": "wp:lesoleil.sn",
+   "reference": "non communiquée",
+   "objet": "Avis d’Appel d’offres",
+   "type": "Appel d'offres",
+   "publieLe": "2026-10-19",
+   "dateLimite": "2026-11-24",
+   "url": "https://lesoleil.sn/marche-public/avis-dappel-doffres-18/",
+   "autorite": "Le Soleil",
+   "vuLe": "2026-10-20"
+  },
+  "appel:https://www.achatspublics.sn/consultations/tenders?ref=T_VG_DST_18388": {
+   "source": "appel",
+   "reference": "T_VG_DST_18388",
+   "objet": "GROSSES REPARATIONS AUX EQUIPEMENTS SANITAIRES, GROSSES REPARATIONS AUX EQUIPEMENTS SCOLAIRES, AUTRES OPERATIONS DE VOIRIE (PAVAGE), ENTRETIEN DIVERS",
+   "type": "Appel d'offres ouvert",
+   "publieLe": "2026-10-19",
+   "dateLimite": "2026-11-18",
+   "url": "https://www.achatspublics.sn/consultations/tenders?ref=T_VG_DST_18388",
+   "autorite": "Ville de Guédiawaye",
+   "vuLe": "2026-10-20"
   }
  }
 }

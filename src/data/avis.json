@@ -1,134 +1,6 @@
 {
- "misAJourLe": "2026-10-19",
+ "misAJourLe": "2026-10-20",
  "avis": [
-  {
-   "id": "banquemondiale-3503211614",
-   "source": "banquemondiale",
-   "sourceLibelle": "Banque mondiale",
-   "reference": "SN-MEN-557258-CS-CQS",
-   "titre": "Recrutement d’un (e) consultant (e ) pour la capitalisation de la mise en œuvre des classes passerelles PAPSE",
-   "autorite": "Ministry of Education",
-   "secteur": "Études",
-   "region": null,
-   "mode": "Appel à manifestation d'intérêt",
-   "budgetEstime": null,
-   "garantieSoumission": null,
-   "publieLe": "2026-10-01",
-   "dateLimite": "2026-10-19",
-   "url": "https://projects.worldbank.org/fr/projects-operations/procurement-detail/OP00472470"
-  },
-  {
-   "id": "banquemondiale-98cd7a967c",
-   "source": "banquemondiale",
-   "sourceLibelle": "Banque mondiale",
-   "reference": "SN-MEN-569186-CS-INDV",
-   "titre": "Recrutement d’un consultant individuel chargé de la gestion organisationnelle en mise en place de procédures pour l’UCP et la mobilisation des ressources.",
-   "autorite": "Ministry of Education",
-   "secteur": "Études",
-   "region": null,
-   "mode": "Appel à manifestation d'intérêt",
-   "budgetEstime": null,
-   "garantieSoumission": null,
-   "publieLe": "2026-10-01",
-   "dateLimite": "2026-10-19",
-   "url": "https://projects.worldbank.org/fr/projects-operations/procurement-detail/OP00472543"
-  },
-  {
-   "id": "banquemondiale-02fe938bf1",
-   "source": "banquemondiale",
-   "sourceLibelle": "Banque mondiale",
-   "reference": "SN-MEN-560754-CS-QCBS",
-   "titre": "Recrutement d’un cabinet de vérificateur indépendant chargé de l'évaluation des CDP daara",
-   "autorite": "Ministry of Education",
-   "secteur": "Études",
-   "region": null,
-   "mode": "Appel à manifestation d'intérêt",
-   "budgetEstime": null,
-   "garantieSoumission": null,
-   "publieLe": "2026-10-01",
-   "dateLimite": "2026-10-19",
-   "url": "https://projects.worldbank.org/fr/projects-operations/procurement-detail/OP00472481"
-  },
-  {
-   "id": "pfongue-59a87bb6ca",
-   "source": "pfongue",
-   "sourceLibelle": "ONG (PFONGUE)",
-   "reference": "non communiquée",
-   "titre": "Consultant.e Etude de faisabilité technico-économique et business plan Activité AQUACULTURE (Fabrication d'aliments pour poissons) Région de Ziguinchor",
-   "autorite": "ONG (plate-forme PFONGUE)",
-   "secteur": "Études",
-   "region": null,
-   "mode": "Appel d'offres",
-   "budgetEstime": null,
-   "garantieSoumission": null,
-   "publieLe": "2026-09-30",
-   "dateLimite": "2026-10-19",
-   "url": "https://www.pfongue.org/Appel-d-offres-_-Consultant-e-Etude-de-faisabilite-technico-economique-et.html",
-   "lectureIa": {
-    "resume": "ISCOS recrute un consultant pour réaliser une étude de faisabilité technico-économique et un business plan pour une unité de fabrication d’aliments pour poissons et de valorisation des sous-produits de la pêche en farine à Niaguis, région de Ziguinchor. Le candidat doit avoir au moins 5 ans d’expérience en aquaculture et un diplôme Bac+3 minimum, et déposer son dossier avant le 19/10/2026.",
-    "piecesExigees": [
-     "Offre technique et financière"
-    ],
-    "heureLimite": null,
-    "dateLimiteAvis": "2026-10-19",
-    "exigences": {
-     "chiffreAffairesMinFcfa": null,
-     "ligneCreditMinFcfa": null,
-     "marchesSimilairesMin": null,
-     "experienceMinAnnees": 5,
-     "personnelCle": [
-      "Diplôme universitaire ou technique supérieur (Bac+3 minimum) en aquaculture, sciences halieutiques, biologie, agronomie ou domaine similaire",
-      "Expérience professionnelle d’au moins 5 ans dans le domaine de l’aquaculture",
-      "Expérience avérée dans la réalisation d’études de faisabilité et business plan",
-      "Bonne connaissance du contexte aquacole sénégalais, idéalement une expérience dans la région de Casamance",
-      "Excellentes capacités d’analyse et de rédaction en français",
-      "Capacité de travailler de manière autonome et en collaboration avec les acteurs locaux et les équipes du projet"
-     ],
-     "materiel": []
-    },
-    "autresDates": [
-     {
-      "libelle": "Publication",
-      "date": "2026-09-30"
-     }
-    ],
-    "lieuDepot": "À envoyer à : iscos.senegal@iscoscisl.eu avec l’objet « Consultant.e - Aquaculture »",
-    "modele": "deepseek-flash",
-    "tronque": false
-   }
-  },
-  {
-   "id": "ungm-64c4cf94b7",
-   "source": "ungm",
-   "sourceLibelle": "Nations unies (UNGM)",
-   "reference": "2026/FRSEN/FRSEN/138642",
-   "titre": "Location de salle et restauration de 50 personnes pour un atelier de formulation du Projet PNA-Pêche le lundi 22 octobre 2026 à Dakar",
-   "autorite": "FAO (Nations unies)",
-   "secteur": "Services",
-   "region": null,
-   "mode": "Demande de cotation",
-   "budgetEstime": null,
-   "garantieSoumission": null,
-   "publieLe": "2026-10-15",
-   "dateLimite": "2026-10-19",
-   "url": "https://www.ungm.org/Public/Notice/318351"
-  },
-  {
-   "id": "ungm-fbd0559a86",
-   "source": "ungm",
-   "sourceLibelle": "Nations unies (UNGM)",
-   "reference": "rfx_12558_ROAF",
-   "titre": "Demande de cotations pour l'atelier de consultation avec les pêcheurs, du 3 au 4 novembre 2026 et l'atelier avec les acteurs extractifs du 5 au 6 Novembre 2026 à Saint Louis, Sénégal",
-   "autorite": "OIT (Nations unies)",
-   "secteur": "Services",
-   "region": null,
-   "mode": "Demande de cotation",
-   "budgetEstime": null,
-   "garantieSoumission": null,
-   "publieLe": "2026-10-15",
-   "dateLimite": "2026-10-19",
-   "url": "https://www.ungm.org/Public/Notice/318416"
-  },
   {
    "id": "ungm-78c9184e49",
    "source": "ungm",
@@ -160,6 +32,22 @@
    "publieLe": "2026-10-05",
    "dateLimite": "2026-10-20",
    "url": "https://ageroute.sn/download/32/avis-de-manifestation-dinterets/13309/selection-dun-consultant-pour-la-maitrise-doeuvre-des-travaux-du-pera.pdf"
+  },
+  {
+   "id": "ungm-745efeb9f1",
+   "source": "ungm",
+   "sourceLibelle": "Nations unies (UNGM)",
+   "reference": "rfx_12731_ROAF",
+   "titre": "Demande de cotations pour 2 ateliers consécutifs: ATELIER de consultation avec les pêcheurs, du 3 au 4 novembre 2026 et ATELIER avec les acteurs extractifs du 5 au 6 Novembre 2026 à Saint Louis, Sénégal",
+   "autorite": "OIT (Nations unies)",
+   "secteur": "Services",
+   "region": null,
+   "mode": "Demande de cotation",
+   "budgetEstime": null,
+   "garantieSoumission": null,
+   "publieLe": "2026-10-20",
+   "dateLimite": "2026-10-20",
+   "url": "https://www.ungm.org/Public/Notice/318901"
   },
   {
    "id": "senelec-5ff38a44fc",
@@ -310,22 +198,6 @@
     "modele": "deepseek-flash",
     "tronque": false
    }
-  },
-  {
-   "id": "banquemondiale-becf8c298a",
-   "source": "banquemondiale",
-   "sourceLibelle": "Banque mondiale",
-   "reference": "34-CONS-PADAES-2026",
-   "titre": "Recrutement d'un Consultant pour la Réalisation des Etudes APS et APD pour l'Electrification à Moindre Coût de Localités dans le Périmètre de Senelec - MEPM (1600 Localités)",
-   "autorite": "SENEGAL NATIONAL ELECTRICITY AGENCY",
-   "secteur": "Études",
-   "region": null,
-   "mode": "Appel à manifestation d'intérêt",
-   "budgetEstime": null,
-   "garantieSoumission": null,
-   "publieLe": "2026-09-21",
-   "dateLimite": "2026-10-21",
-   "url": "https://projects.worldbank.org/fr/projects-operations/procurement-detail/OP00469523"
   },
   {
    "id": "ungm-4e3af73272",
@@ -653,6 +525,22 @@
    "url": "https://lesoleil.sn/marche-public/avis-dappel-doffres-16/"
   },
   {
+   "id": "ungm-d1f92c178a",
+   "source": "ungm",
+   "sourceLibelle": "Nations unies (UNGM)",
+   "reference": "LRFQs-2926-9206770",
+   "titre": "Realisation d'une série d'émission TV sur l'inclusion en Afrique",
+   "autorite": "UNICEF (Nations unies)",
+   "secteur": "Services",
+   "region": null,
+   "mode": "Demande de cotation",
+   "budgetEstime": null,
+   "garantieSoumission": null,
+   "publieLe": "2026-10-19",
+   "dateLimite": "2026-10-27",
+   "url": "https://www.ungm.org/Public/Notice/318821"
+  },
+  {
    "id": "senelec-23aaa52225",
    "source": "senelec",
    "sourceLibelle": "Senelec",
@@ -886,6 +774,22 @@
    "url": "https://www.ungm.org/Public/Notice/318440"
   },
   {
+   "id": "ungm-7d913f8bfe",
+   "source": "ungm",
+   "sourceLibelle": "Nations unies (UNGM)",
+   "reference": "REOI/SENA/2026/001",
+   "titre": "Appel à manifestation d’intérêt_Prestataires de services de transport à Dakar et dans les régions.",
+   "autorite": "UNICEF (Nations unies)",
+   "secteur": "Études",
+   "region": null,
+   "mode": "Appel à manifestation d'intérêt",
+   "budgetEstime": null,
+   "garantieSoumission": null,
+   "publieLe": "2026-10-19",
+   "dateLimite": "2026-10-30",
+   "url": "https://www.ungm.org/Public/Notice/318809"
+  },
+  {
    "id": "appel-fcdbe8e0c1",
    "source": "appel",
    "sourceLibelle": "APPEL (plateforme officielle)",
@@ -1002,6 +906,22 @@
    "url": "https://lesoleil.sn/marche-public/avis-dappel-doffres-17/"
   },
   {
+   "id": "ungm-da29a56893",
+   "source": "ungm",
+   "sourceLibelle": "Nations unies (UNGM)",
+   "reference": "UNDP-SEN-00629",
+   "titre": "EQUIPEMENT ET MATERIEL POUR LA CRECHE DE LA MAF DE LIBERTE 6",
+   "autorite": "PNUD (Nations unies)",
+   "secteur": "Fournitures",
+   "region": null,
+   "mode": "Demande de cotation",
+   "budgetEstime": null,
+   "garantieSoumission": null,
+   "publieLe": "2026-10-19",
+   "dateLimite": "2026-11-02",
+   "url": "https://www.ungm.org/Public/Notice/318770"
+  },
+  {
    "id": "ageroute-23682bcf93",
    "source": "ageroute",
    "sourceLibelle": "AGEROUTE",
@@ -1064,6 +984,22 @@
    "publieLe": "2026-10-19",
    "dateLimite": "2026-11-03",
    "url": "https://ageroute.sn/download/32/avis-de-manifestation-dinterets/13314/supervision-des-travaux-damenagements-connexes-ecoles-etablissements-de-sante-marches-magasins-de-stockage-plateformes-multifonctionnelles-pour-les-femmes-etc-dans-le-cadre-du-projet.pdf"
+  },
+  {
+   "id": "banquemondiale-cbfe4f4e14",
+   "source": "banquemondiale",
+   "sourceLibelle": "Banque mondiale",
+   "reference": "SN-AGEROUTE-567713-CS-QCBS",
+   "titre": "Contrôle et Supervision de la construction d’aménagements connexes (salles de classe, poste de santé, marchés, PTFM, etc…) phase 2",
+   "autorite": "AGEROUTE",
+   "secteur": "BTP",
+   "region": null,
+   "mode": "Appel à manifestation d'intérêt",
+   "budgetEstime": null,
+   "garantieSoumission": null,
+   "publieLe": "2026-10-19",
+   "dateLimite": "2026-11-03",
+   "url": "https://projects.worldbank.org/fr/projects-operations/procurement-detail/OP00475998"
   },
   {
    "id": "senelec-3cfa1abdc2",
@@ -1137,6 +1073,22 @@
     "modele": "deepseek-flash",
     "tronque": false
    }
+  },
+  {
+   "id": "banquemondiale-becf8c298a",
+   "source": "banquemondiale",
+   "sourceLibelle": "Banque mondiale",
+   "reference": "34-CONS-PADAES-2026",
+   "titre": "Recrutement d'un Consultant pour la Réalisation des Etudes APS et APD pour l'Electrification à Moindre Coût de Localités dans le Périmètre de Senelec - MEPM (1600 Localités)",
+   "autorite": "SENEGAL NATIONAL ELECTRICITY AGENCY",
+   "secteur": "Études",
+   "region": null,
+   "mode": "Appel à manifestation d'intérêt",
+   "budgetEstime": null,
+   "garantieSoumission": null,
+   "publieLe": "2026-10-19",
+   "dateLimite": "2026-11-04",
+   "url": "https://projects.worldbank.org/fr/projects-operations/procurement-detail/OP00469523"
   },
   {
    "id": "ungm-6cc18c82c0",
@@ -1427,6 +1379,22 @@
    "url": "https://lesoleil.sn/marche-public/avis-dappel-doffres-national-aaon-n43%e2%80%902026/"
   },
   {
+   "id": "appel-57a0514baa",
+   "source": "appel",
+   "sourceLibelle": "APPEL (plateforme officielle)",
+   "reference": "T_VG_DST_18388",
+   "titre": "GROSSES REPARATIONS AUX EQUIPEMENTS SANITAIRES, GROSSES REPARATIONS AUX EQUIPEMENTS SCOLAIRES, AUTRES OPERATIONS DE VOIRIE (PAVAGE), ENTRETIEN DIVERS",
+   "autorite": "Ville de Guédiawaye",
+   "secteur": "Fournitures",
+   "region": null,
+   "mode": "Appel d'offres ouvert",
+   "budgetEstime": null,
+   "garantieSoumission": null,
+   "publieLe": "2026-10-19",
+   "dateLimite": "2026-11-18",
+   "url": "https://www.achatspublics.sn/consultations/tenders?ref=T_VG_DST_18388"
+  },
+  {
    "id": "wp:lesoleil.sn-d2a41d8d0e",
    "source": "wp:lesoleil.sn",
    "sourceLibelle": "Sites institutionnels",
@@ -1457,6 +1425,22 @@
    "publieLe": "2026-10-19",
    "dateLimite": "2026-11-19",
    "url": "https://lesoleil.sn/marche-public/avis-dappel-doffres-15/"
+  },
+  {
+   "id": "wp:lesoleil.sn-2791c45bcd",
+   "source": "wp:lesoleil.sn",
+   "sourceLibelle": "Sites institutionnels",
+   "reference": "non communiquée",
+   "titre": "Avis d’Appel d’offres",
+   "autorite": "Le Soleil",
+   "secteur": "Services",
+   "region": null,
+   "mode": "Appel d'offres",
+   "budgetEstime": null,
+   "garantieSoumission": null,
+   "publieLe": "2026-10-19",
+   "dateLimite": "2026-11-24",
+   "url": "https://lesoleil.sn/marche-public/avis-dappel-doffres-18/"
   },
   {
    "id": "wp:lesoleil.sn-898ae073f8",

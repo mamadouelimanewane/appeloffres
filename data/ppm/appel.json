@@ -28910,24 +28910,6 @@
  {
   "autorite": "Caisse de Sécurité Sociale (CSS)",
   "plan": "CSS_2026_1",
-  "direction": "DIRECTION DU PATRIMOINE ET DE LA LOGISTIQUE",
-  "reference": "F_CSS_DPL_12092",
-  "objet": "Remplacement d'un ascenseur R+4",
-  "typeMarche": "Fourniture",
-  "financement": [
-   "Budget propre"
-  ],
-  "mode": "Demande de renseignement et de prix à compétition restreinte",
-  "lancement": "2026-08-25",
-  "attribution": "2026-09-25",
-  "demarrage": "2026-10-08",
-  "achevement": null,
-  "etat": null,
-  "montantFcfa": null
- },
- {
-  "autorite": "Caisse de Sécurité Sociale (CSS)",
-  "plan": "CSS_2026_1",
   "direction": "Service des Achats et Approvisionnements",
   "reference": "S_CSS_SAA_12139",
   "objet": "Restauration ateliers et séminaires siège de la CSS (Marché de clientéle)",
@@ -29353,6 +29335,24 @@
   "lancement": "2026-10-16",
   "attribution": "2026-11-18",
   "demarrage": "2026-12-01",
+  "achevement": null,
+  "etat": null,
+  "montantFcfa": null
+ },
+ {
+  "autorite": "Caisse de Sécurité Sociale (CSS)",
+  "plan": "CSS_2026_1",
+  "direction": "DIRECTION DU PATRIMOINE ET DE LA LOGISTIQUE",
+  "reference": "F_CSS_DPL_12092",
+  "objet": "Remplacement d'un ascenseur R+4",
+  "typeMarche": "Fourniture",
+  "financement": [
+   "Budget propre"
+  ],
+  "mode": "Demande de renseignement et de prix à compétition restreinte",
+  "lancement": "2026-08-25",
+  "attribution": "2026-09-25",
+  "demarrage": "2026-10-08",
   "achevement": null,
   "etat": null,
   "montantFcfa": null
@@ -43653,24 +43653,6 @@
   "autorite": "SENELEC",
   "plan": "SENELEC_2026_4",
   "direction": "Direction Principale Production",
-  "reference": "F_SENELEC_DPP_16666",
-  "objet": "Fourniture d’équipements IGBT,compteurs enerium,…) pour les centrales du département production Dakar de SENELEC (relance F-DPP-073)",
-  "typeMarche": "Fourniture",
-  "financement": [
-   "Budget propre"
-  ],
-  "mode": "Demande de renseignements et de prix à compétition ouverte",
-  "lancement": "2026-09-24",
-  "attribution": "2026-10-27",
-  "demarrage": "2026-12-09",
-  "achevement": null,
-  "etat": null,
-  "montantFcfa": null
- },
- {
-  "autorite": "SENELEC",
-  "plan": "SENELEC_2026_4",
-  "direction": "Direction Principale Production",
   "reference": "F_SENELEC_DPP_16667",
   "objet": "Fourniture et mise en service système de nettoyage des panneaux Solaires de DIASS et CICAD (relance F-DPP-103)",
   "typeMarche": "Fourniture",
@@ -43699,6 +43681,24 @@
   "lancement": "2026-09-24",
   "attribution": "2026-10-27",
   "demarrage": "2026-11-09",
+  "achevement": null,
+  "etat": null,
+  "montantFcfa": null
+ },
+ {
+  "autorite": "SENELEC",
+  "plan": "SENELEC_2026_4",
+  "direction": "Direction Principale Production",
+  "reference": "F_SENELEC_DPP_16666",
+  "objet": "Fourniture d’équipements IGBT,compteurs enerium,…) pour les centrales du département production Dakar de SENELEC (relance F-DPP-073)",
+  "typeMarche": "Fourniture",
+  "financement": [
+   "Budget propre"
+  ],
+  "mode": "Demande de renseignements et de prix à compétition ouverte",
+  "lancement": "2026-09-24",
+  "attribution": "2026-10-27",
+  "demarrage": "2026-12-09",
   "achevement": null,
   "etat": null,
   "montantFcfa": null
@@ -48674,24 +48674,6 @@
  {
   "autorite": "Ville de Guédiawaye",
   "plan": "VG_2026_7",
-  "direction": "Direction des services Techniques VG",
-  "reference": "T_VG_DST_18388",
-  "objet": "GROSSES REPARATIONS AUX EQUIPEMENTS SANITAIRES, GROSSES REPARATIONS AUX EQUIPEMENTS SCOLAIRES, AUTRES OPERATIONS DE VOIRIE (PAVAGE), ENTRETIEN DIVERS",
-  "typeMarche": "Travaux",
-  "financement": [
-   "Budget propre"
-  ],
-  "mode": "Appel d'offres ouvert",
-  "lancement": "2026-10-19",
-  "attribution": "2026-12-07",
-  "demarrage": "2026-12-30",
-  "achevement": null,
-  "etat": null,
-  "montantFcfa": null
- },
- {
-  "autorite": "Ville de Guédiawaye",
-  "plan": "VG_2026_7",
   "direction": "Division de l'Administration Générale et des Finances VG",
   "reference": "F_VG_DAF_18392",
   "objet": "ACQUISITION DE PRODUITS D'ENTRETIEN, DE DESINFECTION ET D'HYGIENE",
@@ -48739,6 +48721,24 @@
   "lancement": "2026-10-14",
   "attribution": "2026-11-30",
   "demarrage": "2026-12-22",
+  "achevement": null,
+  "etat": null,
+  "montantFcfa": null
+ },
+ {
+  "autorite": "Ville de Guédiawaye",
+  "plan": "VG_2026_7",
+  "direction": "Direction des services Techniques VG",
+  "reference": "T_VG_DST_18388",
+  "objet": "GROSSES REPARATIONS AUX EQUIPEMENTS SANITAIRES, GROSSES REPARATIONS AUX EQUIPEMENTS SCOLAIRES, AUTRES OPERATIONS DE VOIRIE (PAVAGE), ENTRETIEN DIVERS",
+  "typeMarche": "Travaux",
+  "financement": [
+   "Budget propre"
+  ],
+  "mode": "Appel d'offres ouvert",
+  "lancement": "2026-10-19",
+  "attribution": "2026-12-07",
+  "demarrage": "2026-12-30",
   "achevement": null,
   "etat": null,
   "montantFcfa": null
