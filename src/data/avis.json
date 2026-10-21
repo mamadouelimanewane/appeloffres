@@ -1,54 +1,6 @@
 {
- "misAJourLe": "2026-10-20",
+ "misAJourLe": "2026-10-21",
  "avis": [
-  {
-   "id": "ungm-78c9184e49",
-   "source": "ungm",
-   "sourceLibelle": "Nations unies (UNGM)",
-   "reference": "UNFPA-R42-00014",
-   "titre": "Hotel Procurement for WCARO Annual Retreat 2026",
-   "autorite": "UNFPA (Nations unies)",
-   "secteur": "Services",
-   "region": null,
-   "mode": "Demande de cotation",
-   "budgetEstime": null,
-   "garantieSoumission": null,
-   "publieLe": "2026-10-07",
-   "dateLimite": "2026-10-20",
-   "url": "https://www.ungm.org/Public/Notice/317251"
-  },
-  {
-   "id": "ageroute-bf116964fb",
-   "source": "ageroute",
-   "sourceLibelle": "AGEROUTE",
-   "reference": "",
-   "titre": "Sélection d’un consultant pour la maitrise d'œuvre des travaux du PERA",
-   "autorite": "AGEROUTE Sénégal",
-   "secteur": "BTP",
-   "region": null,
-   "mode": "Avis de manifestation d’intérêt",
-   "budgetEstime": null,
-   "garantieSoumission": null,
-   "publieLe": "2026-10-05",
-   "dateLimite": "2026-10-20",
-   "url": "https://ageroute.sn/download/32/avis-de-manifestation-dinterets/13309/selection-dun-consultant-pour-la-maitrise-doeuvre-des-travaux-du-pera.pdf"
-  },
-  {
-   "id": "ungm-745efeb9f1",
-   "source": "ungm",
-   "sourceLibelle": "Nations unies (UNGM)",
-   "reference": "rfx_12731_ROAF",
-   "titre": "Demande de cotations pour 2 ateliers consécutifs: ATELIER de consultation avec les pêcheurs, du 3 au 4 novembre 2026 et ATELIER avec les acteurs extractifs du 5 au 6 Novembre 2026 à Saint Louis, Sénégal",
-   "autorite": "OIT (Nations unies)",
-   "secteur": "Services",
-   "region": null,
-   "mode": "Demande de cotation",
-   "budgetEstime": null,
-   "garantieSoumission": null,
-   "publieLe": "2026-10-20",
-   "dateLimite": "2026-10-20",
-   "url": "https://www.ungm.org/Public/Notice/318901"
-  },
   {
    "id": "senelec-5ff38a44fc",
    "source": "senelec",
@@ -509,6 +461,22 @@
    }
   },
   {
+   "id": "ungm-78c9184e49",
+   "source": "ungm",
+   "sourceLibelle": "Nations unies (UNGM)",
+   "reference": "UNFPA-R42-00014",
+   "titre": "Hotel Procurement for WCARO Annual Retreat 2026",
+   "autorite": "UNFPA (Nations unies)",
+   "secteur": "Services",
+   "region": null,
+   "mode": "Demande de cotation",
+   "budgetEstime": null,
+   "garantieSoumission": null,
+   "publieLe": "2026-10-07",
+   "dateLimite": "2026-10-26",
+   "url": "https://www.ungm.org/Public/Notice/317251"
+  },
+  {
    "id": "wp:lesoleil.sn-d8d1e06c6b",
    "source": "wp:lesoleil.sn",
    "sourceLibelle": "Sites institutionnels",
@@ -539,6 +507,22 @@
    "publieLe": "2026-10-19",
    "dateLimite": "2026-10-27",
    "url": "https://www.ungm.org/Public/Notice/318821"
+  },
+  {
+   "id": "ungm-74a2017d1b",
+   "source": "ungm",
+   "sourceLibelle": "Nations unies (UNGM)",
+   "reference": "UNW-WCA-2026-00034",
+   "titre": "Services de communication et production audiovisuelle pour l’organisation d’un r",
+   "autorite": "UN-Women (Nations unies)",
+   "secteur": "Services",
+   "region": null,
+   "mode": "Demande de cotation",
+   "budgetEstime": null,
+   "garantieSoumission": null,
+   "publieLe": "2026-10-20",
+   "dateLimite": "2026-10-27",
+   "url": "https://www.ungm.org/Public/Notice/319004"
   },
   {
    "id": "senelec-23aaa52225",
@@ -740,6 +724,22 @@
    "publieLe": "2026-10-13",
    "dateLimite": "2026-10-29",
    "url": "https://ageroute.sn/download/32/avis-de-manifestation-dinterets/13312/selection-dun-consultant-pour-la-maitrise-doeuvre-des-travaux-du-pera-en-six-lots.pdf"
+  },
+  {
+   "id": "ungm-a30c00503d",
+   "source": "ungm",
+   "sourceLibelle": "Nations unies (UNGM)",
+   "reference": "rfx_12742_ROAF",
+   "titre": "Appel pour un contrat de collaboration externe – Evaluation finale indépendante du projet ADIJEFE «Stimuler la création d’emplois décents par l’amélioration du dispositif d’insertion des jeunes femmes et hommes et la formalisation des entreprises au Sénéga",
+   "autorite": "OIT (Nations unies)",
+   "secteur": "Études",
+   "region": null,
+   "mode": "Recrutement de consultant",
+   "budgetEstime": null,
+   "garantieSoumission": null,
+   "publieLe": "2026-10-20",
+   "dateLimite": "2026-10-29",
+   "url": "https://www.ungm.org/Public/Notice/319021"
   },
   {
    "id": "bceao-a4dca558cc",
@@ -1091,6 +1091,22 @@
    "url": "https://projects.worldbank.org/fr/projects-operations/procurement-detail/OP00469523"
   },
   {
+   "id": "senelec-fe5dbcf169",
+   "source": "senelec",
+   "sourceLibelle": "Senelec",
+   "reference": "AMI N°35/2026",
+   "titre": "RECRUTEMENT D’UN CONSULTANT POUR LA REALISATION DES ETUDES APS, APD, POUR L’ELECTRIFICATION A MOINDRE COÛT DES LOCALITES DANS LE PERIMETRE DE SENELEC",
+   "autorite": "Senelec",
+   "secteur": "Études",
+   "region": null,
+   "mode": "AVIS DE CLARIFICATION ET DE REPORT DE DATE DE LA SOLLICITATION DE MANIFESTATIONS D’INTERETS",
+   "budgetEstime": null,
+   "garantieSoumission": null,
+   "publieLe": null,
+   "dateLimite": "2026-11-04",
+   "url": "https://www.senelec.sn/media/marches/appels/Avis_de_Clarification_et_de_Report_sur_AMI_N35-2026.pdf"
+  },
+  {
    "id": "ungm-6cc18c82c0",
    "source": "ungm",
    "sourceLibelle": "Nations unies (UNGM)",
@@ -1299,22 +1315,6 @@
    "url": "https://lesoleil.sn/marche-public/avis-dappel-doffres-11/"
   },
   {
-   "id": "appel-f367f1c234",
-   "source": "appel",
-   "sourceLibelle": "APPEL (plateforme officielle)",
-   "reference": "T_VG_DST_18387",
-   "titre": "CONSTRUCTION DE SALLES DE CLASSES, CONSTRUCTION DE SALLE MULTI-SPORTS, CONSTRUCTION DE CENTRE D'HEBERGEMENT SPORTIF PHASE 2",
-   "autorite": "Ville de Guédiawaye",
-   "secteur": "BTP",
-   "region": null,
-   "mode": "Appel d'offres ouvert",
-   "budgetEstime": null,
-   "garantieSoumission": null,
-   "publieLe": "2026-10-14",
-   "dateLimite": "2026-11-13",
-   "url": "https://www.achatspublics.sn/consultations/tenders?ref=T_VG_DST_18387"
-  },
-  {
    "id": "appel-b3c0f4b279",
    "source": "appel",
    "sourceLibelle": "APPEL (plateforme officielle)",
@@ -1409,6 +1409,22 @@
    "publieLe": "2026-10-14",
    "dateLimite": "2026-11-19",
    "url": "https://lesoleil.sn/marche-public/avis-dappel-doffres-10/"
+  },
+  {
+   "id": "appel-f367f1c234",
+   "source": "appel",
+   "sourceLibelle": "APPEL (plateforme officielle)",
+   "reference": "T_VG_DST_18387",
+   "titre": "CONSTRUCTION DE SALLES DE CLASSES, CONSTRUCTION DE SALLE MULTI-SPORTS, CONSTRUCTION DE CENTRE D'HEBERGEMENT SPORTIF PHASE 2",
+   "autorite": "Ville de Guédiawaye",
+   "secteur": "BTP",
+   "region": null,
+   "mode": "Appel d'offres ouvert",
+   "budgetEstime": null,
+   "garantieSoumission": null,
+   "publieLe": "2026-10-20",
+   "dateLimite": "2026-11-19",
+   "url": "https://www.achatspublics.sn/consultations/tenders?ref=T_VG_DST_18387"
   },
   {
    "id": "wp:lesoleil.sn-76c4bcaadb",

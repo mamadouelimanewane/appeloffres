@@ -46728,1644 +46728,6 @@
   "montantFcfa": null
  },
  {
-  "autorite": "Commune de Touba Mosquée",
-  "plan": "CTM_2026_16",
-  "direction": "COMMUNE DE TOUBA MOSQUEE(CTM)",
-  "reference": "F_CTM_CPM_3983",
-  "objet": "Acquisition de tables bancs",
-  "typeMarche": "Fourniture",
-  "financement": [
-   "Financement extérieur"
-  ],
-  "mode": "Appel d'offres ouvert",
-  "lancement": "2026-05-05",
-  "attribution": "2026-09-02",
-  "demarrage": "2027-03-03",
-  "achevement": null,
-  "etat": null,
-  "montantFcfa": null
- },
- {
-  "autorite": "Commune de Touba Mosquée",
-  "plan": "CTM_2026_16",
-  "direction": "COMMUNE DE TOUBA MOSQUEE(CTM)",
-  "reference": "T_CTM_CPM_3958",
-  "objet": "Aménagement de hangar pour les artisans",
-  "typeMarche": "Travaux",
-  "financement": [
-   "Financement extérieur"
-  ],
-  "mode": "Demande de renseignements et de prix à compétition ouverte",
-  "lancement": "2026-02-25",
-  "attribution": "2026-03-23",
-  "demarrage": "2026-05-05",
-  "achevement": null,
-  "etat": null,
-  "montantFcfa": null
- },
- {
-  "autorite": "Commune de Touba Mosquée",
-  "plan": "CTM_2026_16",
-  "direction": "COMMUNE DE TOUBA MOSQUEE(CTM)",
-  "reference": "T_CTM_CPM_6801",
-  "objet": "Travaux de construction de salles de classes répartis en lots",
-  "typeMarche": "Travaux",
-  "financement": [
-   "Financement extérieur"
-  ],
-  "mode": "Appel d'offres ouvert",
-  "lancement": "2026-02-27",
-  "attribution": "2026-06-29",
-  "demarrage": "2026-12-28",
-  "achevement": null,
-  "etat": null,
-  "montantFcfa": null
- },
- {
-  "autorite": "Commune de Touba Mosquée",
-  "plan": "CTM_2026_16",
-  "direction": "COMMUNE DE TOUBA MOSQUEE(CTM)",
-  "reference": "F_CTM_CPM_11737",
-  "objet": "Achat de matériels de sonorisation",
-  "typeMarche": "Fourniture",
-  "financement": [
-   "Budget propre"
-  ],
-  "mode": "Demande de renseignement et de prix à compétition restreinte",
-  "lancement": "2026-06-17",
-  "attribution": "2026-07-30",
-  "demarrage": "2026-08-12",
-  "achevement": null,
-  "etat": null,
-  "montantFcfa": null
- },
- {
-  "autorite": "Commune de Touba Mosquée",
-  "plan": "CTM_2026_16",
-  "direction": "COMMUNE DE TOUBA MOSQUEE(CTM)",
-  "reference": "T_CTM_CPM_7639",
-  "objet": "Travaux de construction de poste police",
-  "typeMarche": "Travaux",
-  "financement": [
-   "Budget propre"
-  ],
-  "mode": "Demande de renseignement et de prix à compétition restreinte",
-  "lancement": "2026-05-08",
-  "attribution": "2026-06-10",
-  "demarrage": "2026-06-23",
-  "achevement": null,
-  "etat": null,
-  "montantFcfa": null
- },
- {
-  "autorite": "Commune de Touba Mosquée",
-  "plan": "CTM_2026_16",
-  "direction": "COMMUNE DE TOUBA MOSQUEE(CTM)",
-  "reference": "S_CTM_CPM_10208",
-  "objet": "Réparation de véhicules",
-  "typeMarche": "Services",
-  "financement": [
-   "Budget propre"
-  ],
-  "mode": "Demande de renseignement et de prix à compétition restreinte",
-  "lancement": "2026-05-11",
-  "attribution": "2026-06-11",
-  "demarrage": "2026-06-24",
-  "achevement": null,
-  "etat": null,
-  "montantFcfa": null
- },
- {
-  "autorite": "Commune de Touba Mosquée",
-  "plan": "CTM_2026_16",
-  "direction": "COMMUNE DE TOUBA MOSQUEE(CTM)",
-  "reference": "T_CTM_CPM_3957",
-  "objet": "Construction de halles de marché",
-  "typeMarche": "Travaux",
-  "financement": [
-   "Financement extérieur"
-  ],
-  "mode": "Appel d'offres ouvert",
-  "lancement": "2026-02-20",
-  "attribution": "2026-06-22",
-  "demarrage": "2026-12-21",
-  "achevement": null,
-  "etat": null,
-  "montantFcfa": null
- },
- {
-  "autorite": "Commune de Touba Mosquée",
-  "plan": "CTM_2026_16",
-  "direction": "COMMUNE DE TOUBA MOSQUEE(CTM)",
-  "reference": "T_CTM_CPM_11105",
-  "objet": "Travaux de remise en état de la voirie près du rond point de MBACKE",
-  "typeMarche": "Travaux",
-  "financement": [
-   "Budget propre"
-  ],
-  "mode": "Demande de renseignement et de prix à compétition restreinte",
-  "lancement": "2026-05-15",
-  "attribution": "2026-06-12",
-  "demarrage": "2026-06-25",
-  "achevement": null,
-  "etat": null,
-  "montantFcfa": null
- },
- {
-  "autorite": "Commune de Touba Mosquée",
-  "plan": "CTM_2026_16",
-  "direction": "COMMUNE DE TOUBA MOSQUEE(CTM)",
-  "reference": "T_CTM_CPM_6802",
-  "objet": "Construction de chaussées sur six(06) axes routiers",
-  "typeMarche": "Travaux",
-  "financement": [
-   "Financement extérieur"
-  ],
-  "mode": "Appel d'offres ouvert",
-  "lancement": "2026-04-06",
-  "attribution": "2026-08-04",
-  "demarrage": "2027-02-02",
-  "achevement": null,
-  "etat": null,
-  "montantFcfa": null
- },
- {
-  "autorite": "Commune de Touba Mosquée",
-  "plan": "CTM_2026_16",
-  "direction": "COMMUNE DE TOUBA MOSQUEE(CTM)",
-  "reference": "F_CTM_CPM_7637",
-  "objet": "Acquisition de pneumatiques",
-  "typeMarche": "Fourniture",
-  "financement": [
-   "Budget propre"
-  ],
-  "mode": "Demande de renseignement et de prix à compétition restreinte",
-  "lancement": "2026-05-12",
-  "attribution": "2026-06-12",
-  "demarrage": "2026-06-25",
-  "achevement": null,
-  "etat": null,
-  "montantFcfa": null
- },
- {
-  "autorite": "Commune de Touba Mosquée",
-  "plan": "CTM_2026_16",
-  "direction": "COMMUNE DE TOUBA MOSQUEE(CTM)",
-  "reference": "F_CTM_CPM_7638",
-  "objet": "Acquisition de matériels informatiques",
-  "typeMarche": "Fourniture",
-  "financement": [
-   "Budget propre"
-  ],
-  "mode": "Demande de renseignement et de prix à compétition restreinte",
-  "lancement": "2026-03-24",
-  "attribution": "2026-04-24",
-  "demarrage": "2026-05-07",
-  "achevement": null,
-  "etat": null,
-  "montantFcfa": null
- },
- {
-  "autorite": "Commune de Touba Mosquée",
-  "plan": "CTM_2026_16",
-  "direction": "COMMUNE DE TOUBA MOSQUEE(CTM)",
-  "reference": "F_CTM_CPM_10207",
-  "objet": "Achat de pièces de rechange automobile",
-  "typeMarche": "Fourniture",
-  "financement": [
-   "Budget propre"
-  ],
-  "mode": "Demande de renseignement et de prix à compétition restreinte",
-  "lancement": "2026-09-15",
-  "attribution": "2026-10-16",
-  "demarrage": "2026-10-29",
-  "achevement": null,
-  "etat": null,
-  "montantFcfa": null
- },
- {
-  "autorite": "Commune de Touba Mosquée",
-  "plan": "CTM_2026_16",
-  "direction": "COMMUNE DE TOUBA MOSQUEE(CTM)",
-  "reference": "T_CTM_CPM_10882",
-  "objet": "Travaux de curage des caniveaux dans la Commune de Touba Mosquée",
-  "typeMarche": "Travaux",
-  "financement": [
-   "Budget propre"
-  ],
-  "mode": "Demande de renseignement et de prix à compétition restreinte",
-  "lancement": "2026-05-15",
-  "attribution": "2026-06-17",
-  "demarrage": "2026-06-30",
-  "achevement": null,
-  "etat": null,
-  "montantFcfa": null
- },
- {
-  "autorite": "Commune de Touba Mosquée",
-  "plan": "CTM_2026_16",
-  "direction": "COMMUNE DE TOUBA MOSQUEE(CTM)",
-  "reference": "T_CTM_CPM_10881",
-  "objet": "Travaux de cloture metallique de l'ancienne banque sise au marché Ocass",
-  "typeMarche": "Travaux",
-  "financement": [
-   "Budget propre"
-  ],
-  "mode": "Demande de renseignement et de prix à compétition restreinte",
-  "lancement": "2026-05-15",
-  "attribution": "2026-06-17",
-  "demarrage": "2026-06-30",
-  "achevement": null,
-  "etat": null,
-  "montantFcfa": null
- },
- {
-  "autorite": "Commune de Touba Mosquée",
-  "plan": "CTM_2026_16",
-  "direction": "COMMUNE DE TOUBA MOSQUEE(CTM)",
-  "reference": "F_CTM_CPM_11735",
-  "objet": "Achat d'habillements pour le personnel",
-  "typeMarche": "Fourniture",
-  "financement": [
-   "Budget propre"
-  ],
-  "mode": "Demande de renseignement et de prix à compétition restreinte",
-  "lancement": "2026-08-28",
-  "attribution": "2026-09-30",
-  "demarrage": "2026-10-13",
-  "achevement": null,
-  "etat": null,
-  "montantFcfa": null
- },
- {
-  "autorite": "Commune de Touba Mosquée",
-  "plan": "CTM_2026_16",
-  "direction": "COMMUNE DE TOUBA MOSQUEE(CTM)",
-  "reference": "F_CTM_CPM_1233",
-  "objet": "Acquisition de pompes hydrauliques pour forages",
-  "typeMarche": "Fourniture",
-  "financement": [
-   "Budget propre"
-  ],
-  "mode": "Appel d'offres ouvert",
-  "lancement": "2026-01-12",
-  "attribution": "2026-05-12",
-  "demarrage": "2026-11-10",
-  "achevement": null,
-  "etat": null,
-  "montantFcfa": null
- },
- {
-  "autorite": "Commune de Touba Mosquée",
-  "plan": "CTM_2026_16",
-  "direction": "COMMUNE DE TOUBA MOSQUEE(CTM)",
-  "reference": "T_CTM_CPM_880",
-  "objet": "Travaux d'aménagement d'espaces publics",
-  "typeMarche": "Travaux",
-  "financement": [
-   "Financement extérieur"
-  ],
-  "mode": "Appel d'offres ouvert",
-  "lancement": "2026-02-03",
-  "attribution": "2026-06-03",
-  "demarrage": "2026-12-02",
-  "achevement": null,
-  "etat": null,
-  "montantFcfa": null
- },
- {
-  "autorite": "Commune de Touba Mosquée",
-  "plan": "CTM_2026_16",
-  "direction": "COMMUNE DE TOUBA MOSQUEE(CTM)",
-  "reference": "T_CTM_CPM_878",
-  "objet": "Travaux de drainage des eaux pluviales",
-  "typeMarche": "Travaux",
-  "financement": [
-   "Financement extérieur"
-  ],
-  "mode": "Appel d'offres ouvert",
-  "lancement": "2026-02-03",
-  "attribution": "2026-03-24",
-  "demarrage": "2026-05-25",
-  "achevement": null,
-  "etat": null,
-  "montantFcfa": null
- },
- {
-  "autorite": "Commune de Touba Mosquée",
-  "plan": "CTM_2026_16",
-  "direction": "COMMUNE DE TOUBA MOSQUEE(CTM)",
-  "reference": "T_CTM_CPM_881",
-  "objet": "Travaux de réhabilitation de deux (02) postes de santé",
-  "typeMarche": "Travaux",
-  "financement": [
-   "Financement extérieur"
-  ],
-  "mode": "Appel d'offres ouvert",
-  "lancement": "2026-02-25",
-  "attribution": "2026-06-25",
-  "demarrage": "2026-12-24",
-  "achevement": null,
-  "etat": null,
-  "montantFcfa": null
- },
- {
-  "autorite": "Commune de Touba Mosquée",
-  "plan": "CTM_2026_16",
-  "direction": "COMMUNE DE TOUBA MOSQUEE(CTM)",
-  "reference": "F_CTM_CPM_1235",
-  "objet": "Acquisition de matériels roulants repartis en quatre(04) lots",
-  "typeMarche": "Fourniture",
-  "financement": [
-   "Financement extérieur"
-  ],
-  "mode": "Appel d'offres ouvert",
-  "lancement": "2026-01-22",
-  "attribution": "2026-05-22",
-  "demarrage": "2026-11-20",
-  "achevement": null,
-  "etat": null,
-  "montantFcfa": null
- },
- {
-  "autorite": "Commune de Touba Mosquée",
-  "plan": "CTM_2026_16",
-  "direction": "COMMUNE DE TOUBA MOSQUEE(CTM)",
-  "reference": "T_CTM_CPM_1209",
-  "objet": "Acquisition d'équipement de cinq（05） postes de santé, un （01） centre médico-social",
-  "typeMarche": "Travaux",
-  "financement": [
-   "Financement extérieur"
-  ],
-  "mode": "Appel d'offres ouvert",
-  "lancement": "2026-03-17",
-  "attribution": "2026-07-15",
-  "demarrage": "2027-01-13",
-  "achevement": null,
-  "etat": null,
-  "montantFcfa": null
- },
- {
-  "autorite": "Commune de Touba Mosquée",
-  "plan": "CTM_2026_16",
-  "direction": "COMMUNE DE TOUBA MOSQUEE(CTM)",
-  "reference": "F_CTM_CPM_1230",
-  "objet": "Acquisition de motopompe et accessoires",
-  "typeMarche": "Fourniture",
-  "financement": [
-   "Budget propre"
-  ],
-  "mode": "Appel d'offres ouvert",
-  "lancement": "2026-02-25",
-  "attribution": "2026-06-25",
-  "demarrage": "2026-12-24",
-  "achevement": null,
-  "etat": null,
-  "montantFcfa": null
- },
- {
-  "autorite": "Commune de Touba Mosquée",
-  "plan": "CTM_2026_16",
-  "direction": "COMMUNE DE TOUBA MOSQUEE(CTM)",
-  "reference": "F_CTM_CPM_3702",
-  "objet": "Acquisition de matériaux de construction repartis en deux(02) lots",
-  "typeMarche": "Fourniture",
-  "financement": [
-   "Budget propre"
-  ],
-  "mode": "Appel d'offres ouvert",
-  "lancement": "2026-01-16",
-  "attribution": "2026-05-05",
-  "demarrage": "2026-11-03",
-  "achevement": null,
-  "etat": null,
-  "montantFcfa": null
- },
- {
-  "autorite": "Commune de Touba Mosquée",
-  "plan": "CTM_2026_16",
-  "direction": "COMMUNE DE TOUBA MOSQUEE(CTM)",
-  "reference": "T_CTM_CPM_3951",
-  "objet": "Construction de salles de classe répartis en lots",
-  "typeMarche": "Travaux",
-  "financement": [
-   "Financement extérieur"
-  ],
-  "mode": "Appel d'offres ouvert",
-  "lancement": "2026-02-04",
-  "attribution": "2026-06-04",
-  "demarrage": "2026-12-03",
-  "achevement": null,
-  "etat": null,
-  "montantFcfa": null
- },
- {
-  "autorite": "Commune de Touba Mosquée",
-  "plan": "CTM_2026_16",
-  "direction": "COMMUNE DE TOUBA MOSQUEE(CTM)",
-  "reference": "T_CTM_CPM_3953",
-  "objet": "Solarisation des édifices publiques",
-  "typeMarche": "Travaux",
-  "financement": [
-   "Financement extérieur"
-  ],
-  "mode": "Appel d'offres ouvert",
-  "lancement": "2026-04-13",
-  "attribution": "2026-08-11",
-  "demarrage": "2027-02-09",
-  "achevement": null,
-  "etat": null,
-  "montantFcfa": null
- },
- {
-  "autorite": "Commune de Touba Mosquée",
-  "plan": "CTM_2026_16",
-  "direction": "COMMUNE DE TOUBA MOSQUEE(CTM)",
-  "reference": "T_CTM_CPM_3954",
-  "objet": "Travaux d'aménagement de pistes",
-  "typeMarche": "Travaux",
-  "financement": [
-   "Financement extérieur"
-  ],
-  "mode": "Appel d'offres ouvert",
-  "lancement": "2026-02-26",
-  "attribution": "2026-06-26",
-  "demarrage": "2026-12-25",
-  "achevement": null,
-  "etat": null,
-  "montantFcfa": null
- },
- {
-  "autorite": "Commune de Touba Mosquée",
-  "plan": "CTM_2026_16",
-  "direction": "COMMUNE DE TOUBA MOSQUEE(CTM)",
-  "reference": "T_CTM_CPM_3960",
-  "objet": "Travaux d'adduction d'eau potable",
-  "typeMarche": "Travaux",
-  "financement": [
-   "Financement extérieur"
-  ],
-  "mode": "Appel d'offres ouvert",
-  "lancement": "2026-03-03",
-  "attribution": "2026-07-01",
-  "demarrage": "2026-12-30",
-  "achevement": null,
-  "etat": null,
-  "montantFcfa": null
- },
- {
-  "autorite": "Commune de Touba Mosquée",
-  "plan": "CTM_2026_16",
-  "direction": "COMMUNE DE TOUBA MOSQUEE(CTM)",
-  "reference": "T_CTM_CPM_3961",
-  "objet": "Travaux d'aménagements de deux(02) ronds-points",
-  "typeMarche": "Travaux",
-  "financement": [
-   "Financement extérieur"
-  ],
-  "mode": "Appel d'offres ouvert",
-  "lancement": "2026-01-20",
-  "attribution": "2026-05-20",
-  "demarrage": "2026-11-18",
-  "achevement": null,
-  "etat": null,
-  "montantFcfa": null
- },
- {
-  "autorite": "Commune de Touba Mosquée",
-  "plan": "CTM_2026_16",
-  "direction": "COMMUNE DE TOUBA MOSQUEE(CTM)",
-  "reference": "F_CTM_CPM_3962",
-  "objet": "Acquisition de vingt cyclomoteurs et quinze tricycles",
-  "typeMarche": "Fourniture",
-  "financement": [
-   "Budget propre"
-  ],
-  "mode": "Demande de renseignements et de prix à compétition ouverte",
-  "lancement": "2026-03-17",
-  "attribution": "2026-04-20",
-  "demarrage": "2026-06-02",
-  "achevement": null,
-  "etat": null,
-  "montantFcfa": null
- },
- {
-  "autorite": "Commune de Touba Mosquée",
-  "plan": "CTM_2026_16",
-  "direction": "COMMUNE DE TOUBA MOSQUEE(CTM)",
-  "reference": "T_CTM_CPM_7610",
-  "objet": "Grosses réparations dans les gares routières",
-  "typeMarche": "Travaux",
-  "financement": [
-   "Budget propre"
-  ],
-  "mode": "Demande de renseignement et de prix à compétition restreinte",
-  "lancement": "2026-03-30",
-  "attribution": "2026-04-30",
-  "demarrage": "2026-05-13",
-  "achevement": null,
-  "etat": null,
-  "montantFcfa": null
- },
- {
-  "autorite": "Commune de Touba Mosquée",
-  "plan": "CTM_2026_16",
-  "direction": "COMMUNE DE TOUBA MOSQUEE(CTM)",
-  "reference": "F_CTM_CPM_7633",
-  "objet": "Acquisition de tickets de perception",
-  "typeMarche": "Fourniture",
-  "financement": [
-   "Budget propre"
-  ],
-  "mode": "Demande de renseignement et de prix à compétition restreinte",
-  "lancement": "2026-03-18",
-  "attribution": "2026-04-20",
-  "demarrage": "2026-05-01",
-  "achevement": null,
-  "etat": null,
-  "montantFcfa": null
- },
- {
-  "autorite": "Commune de Touba Mosquée",
-  "plan": "CTM_2026_16",
-  "direction": "COMMUNE DE TOUBA MOSQUEE(CTM)",
-  "reference": "S_CTM_CPM_7636",
-  "objet": "Entretien véhicules",
-  "typeMarche": "Services",
-  "financement": [
-   "Budget propre"
-  ],
-  "mode": "Demande de renseignement et de prix à compétition restreinte",
-  "lancement": "2026-04-30",
-  "attribution": "2026-06-02",
-  "demarrage": "2026-06-15",
-  "achevement": null,
-  "etat": null,
-  "montantFcfa": null
- },
- {
-  "autorite": "Commune de Touba Mosquée",
-  "plan": "CTM_2026_16",
-  "direction": "COMMUNE DE TOUBA MOSQUEE(CTM)",
-  "reference": "F_CTM_CPM_6798",
-  "objet": "Acquisition de trois (03) groupes électrogènes",
-  "typeMarche": "Fourniture",
-  "financement": [
-   "Financement extérieur"
-  ],
-  "mode": "Appel d'offres ouvert",
-  "lancement": "2026-03-10",
-  "attribution": "2026-07-08",
-  "demarrage": "2027-01-06",
-  "achevement": null,
-  "etat": null,
-  "montantFcfa": null
- },
- {
-  "autorite": "Commune de Touba Mosquée",
-  "plan": "CTM_2026_16",
-  "direction": "COMMUNE DE TOUBA MOSQUEE(CTM)",
-  "reference": "T_CTM_CPM_6800",
-  "objet": "Travaux d'aménagements de pistes",
-  "typeMarche": "Travaux",
-  "financement": [
-   "Financement extérieur"
-  ],
-  "mode": "Appel d'offres ouvert",
-  "lancement": "2026-02-27",
-  "attribution": "2026-06-29",
-  "demarrage": "2026-12-28",
-  "achevement": null,
-  "etat": null,
-  "montantFcfa": null
- },
- {
-  "autorite": "Commune de Touba Mosquée",
-  "plan": "CTM_2026_16",
-  "direction": "COMMUNE DE TOUBA MOSQUEE(CTM)",
-  "reference": "T_CTM_CPM_6803",
-  "objet": "Travaux de construction d'un centre commercial au marché Ocass",
-  "typeMarche": "Travaux",
-  "financement": [
-   "Financement extérieur"
-  ],
-  "mode": "Appel d'offres ouvert",
-  "lancement": "2026-02-26",
-  "attribution": "2026-06-26",
-  "demarrage": "2026-12-25",
-  "achevement": null,
-  "etat": null,
-  "montantFcfa": null
- },
- {
-  "autorite": "Commune de Touba Mosquée",
-  "plan": "CTM_2026_16",
-  "direction": "COMMUNE DE TOUBA MOSQUEE(CTM)",
-  "reference": "F_CTM_CPM_9310",
-  "objet": "Acquisition de deux mille cents (2100) barrières métalliques dans la Commune de Touba Mosquée",
-  "typeMarche": "Fourniture",
-  "financement": [
-   "Budget propre"
-  ],
-  "mode": "Appel d'offres ouvert",
-  "lancement": "2026-04-08",
-  "attribution": "2026-07-10",
-  "demarrage": "2026-09-04",
-  "achevement": null,
-  "etat": null,
-  "montantFcfa": null
- },
- {
-  "autorite": "Commune de Touba Mosquée",
-  "plan": "CTM_2026_16",
-  "direction": "COMMUNE DE TOUBA MOSQUEE(CTM)",
-  "reference": "F_CTM_CPM_7631",
-  "objet": "Acquisition de matériels de signalisation",
-  "typeMarche": "Fourniture",
-  "financement": [
-   "Budget propre"
-  ],
-  "mode": "Demande de renseignement et de prix à compétition restreinte",
-  "lancement": "2026-06-22",
-  "attribution": "2026-07-23",
-  "demarrage": "2026-08-05",
-  "achevement": null,
-  "etat": null,
-  "montantFcfa": null
- },
- {
-  "autorite": "Commune de Touba Mosquée",
-  "plan": "CTM_2026_16",
-  "direction": "COMMUNE DE TOUBA MOSQUEE(CTM)",
-  "reference": "F_CTM_CPM_7634",
-  "objet": "Achat de produits d'entretien",
-  "typeMarche": "Fourniture",
-  "financement": [
-   "Budget propre"
-  ],
-  "mode": "Demande de renseignement et de prix à compétition restreinte",
-  "lancement": "2026-06-19",
-  "attribution": "2026-07-22",
-  "demarrage": "2026-08-04",
-  "achevement": null,
-  "etat": null,
-  "montantFcfa": null
- },
- {
-  "autorite": "Commune de Touba Mosquée",
-  "plan": "CTM_2026_16",
-  "direction": "COMMUNE DE TOUBA MOSQUEE(CTM)",
-  "reference": "F_CTM_CPM_7635",
-  "objet": "Achat de produits de traitement des eaux pluviales",
-  "typeMarche": "Fourniture",
-  "financement": [
-   "Budget propre"
-  ],
-  "mode": "Demande de renseignement et de prix à compétition restreinte",
-  "lancement": "2026-06-19",
-  "attribution": "2026-07-22",
-  "demarrage": "2026-08-04",
-  "achevement": null,
-  "etat": null,
-  "montantFcfa": null
- },
- {
-  "autorite": "Commune de Touba Mosquée",
-  "plan": "CTM_2026_16",
-  "direction": "COMMUNE DE TOUBA MOSQUEE(CTM)",
-  "reference": "F_CTM_CPM_7608",
-  "objet": "Achat de fournitures de bureau",
-  "typeMarche": "Fourniture",
-  "financement": [
-   "Budget propre"
-  ],
-  "mode": "Demande de renseignement et de prix à compétition restreinte",
-  "lancement": "2026-07-10",
-  "attribution": "2026-08-13",
-  "demarrage": "2026-08-26",
-  "achevement": null,
-  "etat": null,
-  "montantFcfa": null
- },
- {
-  "autorite": "Commune de Touba Mosquée",
-  "plan": "CTM_2026_16",
-  "direction": "COMMUNE DE TOUBA MOSQUEE(CTM)",
-  "reference": "T_CTM_CPM_9311",
-  "objet": "Travaux d'aménagement gare routière de Daara Djolof",
-  "typeMarche": "Travaux",
-  "financement": [
-   "Budget propre"
-  ],
-  "mode": "Demande de renseignement et de prix à compétition restreinte",
-  "lancement": "2026-04-13",
-  "attribution": "2026-05-14",
-  "demarrage": "2026-05-27",
-  "achevement": null,
-  "etat": null,
-  "montantFcfa": null
- },
- {
-  "autorite": "Commune de Touba Mosquée",
-  "plan": "CTM_2026_16",
-  "direction": "COMMUNE DE TOUBA MOSQUEE(CTM)",
-  "reference": "C_CTM_CPM_10205",
-  "objet": "Recrutement d'un bureau de contrôle",
-  "typeMarche": "Prestation intellectuelle",
-  "financement": [
-   "Financement extérieur"
-  ],
-  "mode": "Demande de renseignements et de prix à compétition ouverte",
-  "lancement": "2026-04-27",
-  "attribution": "2026-06-09",
-  "demarrage": "2026-07-22",
-  "achevement": null,
-  "etat": null,
-  "montantFcfa": null
- },
- {
-  "autorite": "Commune de Touba Mosquée",
-  "plan": "CTM_2026_16",
-  "direction": "COMMUNE DE TOUBA MOSQUEE(CTM)",
-  "reference": "T_CTM_CPM_10204",
-  "objet": "Achèvement d'édicules publics",
-  "typeMarche": "Travaux",
-  "financement": [
-   "Budget propre"
-  ],
-  "mode": "Demande de renseignement et de prix à compétition restreinte",
-  "lancement": "2026-05-11",
-  "attribution": "2026-06-11",
-  "demarrage": "2026-06-24",
-  "achevement": null,
-  "etat": null,
-  "montantFcfa": null
- },
- {
-  "autorite": "Commune de Touba Mosquée",
-  "plan": "CTM_2026_16",
-  "direction": "COMMUNE DE TOUBA MOSQUEE(CTM)",
-  "reference": "T_CTM_CPM_10203",
-  "objet": "Construction de blocs sanitaires dans la Commune de Touba Mosquée",
-  "typeMarche": "Travaux",
-  "financement": [
-   "Budget propre"
-  ],
-  "mode": "Demande de renseignement et de prix à compétition restreinte",
-  "lancement": "2026-05-08",
-  "attribution": "2026-06-10",
-  "demarrage": "2026-06-23",
-  "achevement": null,
-  "etat": null,
-  "montantFcfa": null
- },
- {
-  "autorite": "Commune de Touba Mosquée",
-  "plan": "CTM_2026_16",
-  "direction": "COMMUNE DE TOUBA MOSQUEE(CTM)",
-  "reference": "S_CTM_CPM_1236",
-  "objet": "Location de matériels de terrassement",
-  "typeMarche": "Services",
-  "financement": [
-   "Budget propre"
-  ],
-  "mode": "Demande de renseignement et de prix à compétition restreinte",
-  "lancement": "2026-05-08",
-  "attribution": "2026-06-10",
-  "demarrage": "2026-06-23",
-  "achevement": null,
-  "etat": null,
-  "montantFcfa": null
- },
- {
-  "autorite": "Commune de Touba Mosquée",
-  "plan": "CTM_2026_16",
-  "direction": "COMMUNE DE TOUBA MOSQUEE(CTM)",
-  "reference": "T_CTM_CPM_10747",
-  "objet": "Achèvement de salles de classe à Kelel et Belel",
-  "typeMarche": "Travaux",
-  "financement": [
-   "Financement extérieur"
-  ],
-  "mode": "Demande de renseignement et de prix à compétition restreinte",
-  "lancement": "2026-05-08",
-  "attribution": "2026-06-10",
-  "demarrage": "2026-06-23",
-  "achevement": null,
-  "etat": null,
-  "montantFcfa": null
- },
- {
-  "autorite": "Commune de Touba Mosquée",
-  "plan": "CTM_2026_16",
-  "direction": "COMMUNE DE TOUBA MOSQUEE(CTM)",
-  "reference": "F_CTM_CPM_7609",
-  "objet": "Acquisition de mobiliers de bureau",
-  "typeMarche": "Fourniture",
-  "financement": [
-   "Budget propre"
-  ],
-  "mode": "Demande de renseignement et de prix à compétition restreinte",
-  "lancement": "2026-07-10",
-  "attribution": "2026-08-13",
-  "demarrage": "2026-08-26",
-  "achevement": null,
-  "etat": null,
-  "montantFcfa": null
- },
- {
-  "autorite": "Commune de Touba Mosquée",
-  "plan": "CTM_2026_16",
-  "direction": "COMMUNE DE TOUBA MOSQUEE(CTM)",
-  "reference": "T_CTM_CPM_3959",
-  "objet": "Construction de cantines préfabriquées réparties en trois(03) lots",
-  "typeMarche": "Travaux",
-  "financement": [
-   "Financement extérieur"
-  ],
-  "mode": "Appel d'offres ouvert",
-  "lancement": "2026-07-15",
-  "attribution": "2026-11-06",
-  "demarrage": "2027-01-01",
-  "achevement": null,
-  "etat": null,
-  "montantFcfa": null
- },
- {
-  "autorite": "Commune de Touba Mosquée",
-  "plan": "CTM_2026_16",
-  "direction": "COMMUNE DE TOUBA MOSQUEE(CTM)",
-  "reference": "T_CTM_CPM_10209",
-  "objet": "Travaux de remise en état de la voirie sur les deux(02) voies allant de la Commune au ronds point",
-  "typeMarche": "Travaux",
-  "financement": [
-   "Budget propre"
-  ],
-  "mode": "Demande de renseignement et de prix à compétition restreinte",
-  "lancement": "2026-05-04",
-  "attribution": "2026-06-04",
-  "demarrage": "2026-06-17",
-  "achevement": null,
-  "etat": null,
-  "montantFcfa": null
- },
- {
-  "autorite": "Commune de Touba Mosquée",
-  "plan": "CTM_2026_16",
-  "direction": "COMMUNE DE TOUBA MOSQUEE(CTM)",
-  "reference": "C_CTM_CPM_10749",
-  "objet": "Recrutement d'un service de maitre d'ouvres pour le suivi des travaux d'aménagement de l'espace public et infrastructures marchandes",
-  "typeMarche": "Prestation intellectuelle",
-  "financement": [
-   "Financement extérieur"
-  ],
-  "mode": "Demande de renseignements et de prix à compétition ouverte",
-  "lancement": "2026-05-12",
-  "attribution": "2026-06-22",
-  "demarrage": "2026-09-03",
-  "achevement": null,
-  "etat": null,
-  "montantFcfa": null
- },
- {
-  "autorite": "Commune de Touba Mosquée",
-  "plan": "CTM_2026_16",
-  "direction": "COMMUNE DE TOUBA MOSQUEE(CTM)",
-  "reference": "F_CTM_CPM_6799",
-  "objet": "Acquisition d'un kit compresseur tractable plus marteau piqueur, découpeuse de chaussées, dumpers et deux(02) bétonnières répartie en trois(03) lots",
-  "typeMarche": "Fourniture",
-  "financement": [
-   "Financement extérieur"
-  ],
-  "mode": "Appel d'offres ouvert",
-  "lancement": "2026-05-11",
-  "attribution": "2026-08-24",
-  "demarrage": "2026-10-19",
-  "achevement": null,
-  "etat": null,
-  "montantFcfa": null
- },
- {
-  "autorite": "Commune de Touba Mosquée",
-  "plan": "CTM_2026_16",
-  "direction": "COMMUNE DE TOUBA MOSQUEE(CTM)",
-  "reference": "F_CTM_CPM_10206",
-  "objet": "Achat de bœufs pour la tamkharite",
-  "typeMarche": "Fourniture",
-  "financement": [
-   "Budget propre"
-  ],
-  "mode": "Demande de renseignement et de prix à compétition restreinte",
-  "lancement": "2026-06-05",
-  "attribution": "2026-07-08",
-  "demarrage": "2026-07-21",
-  "achevement": null,
-  "etat": null,
-  "montantFcfa": null
- },
- {
-  "autorite": "Commune de Touba Mosquée",
-  "plan": "CTM_2026_16",
-  "direction": "COMMUNE DE TOUBA MOSQUEE(CTM)",
-  "reference": "T_CTM_CPM_7632",
-  "objet": "Construction de 15 ralentisseurs de vitesse dans la Commune de Touba Mosquée",
-  "typeMarche": "Travaux",
-  "financement": [
-   "Budget propre"
-  ],
-  "mode": "Demande de renseignement et de prix à compétition restreinte",
-  "lancement": "2026-05-19",
-  "attribution": "2026-06-05",
-  "demarrage": "2026-06-19",
-  "achevement": null,
-  "etat": null,
-  "montantFcfa": null
- },
- {
-  "autorite": "Commune de Touba Mosquée",
-  "plan": "CTM_2026_16",
-  "direction": "COMMUNE DE TOUBA MOSQUEE(CTM)",
-  "reference": "T_CTM_CPM_10749",
-  "objet": "Travaux de réhabilitation et couverture de collecteurs",
-  "typeMarche": "Travaux",
-  "financement": [
-   "Budget propre"
-  ],
-  "mode": "Demande de renseignement et de prix à compétition restreinte",
-  "lancement": "2026-05-15",
-  "attribution": "2026-06-11",
-  "demarrage": "2026-06-24",
-  "achevement": null,
-  "etat": null,
-  "montantFcfa": null
- },
- {
-  "autorite": "Commune de Touba Mosquée",
-  "plan": "CTM_2026_16",
-  "direction": "COMMUNE DE TOUBA MOSQUEE(CTM)",
-  "reference": "S_CTM_CPM_11106",
-  "objet": "Service de mise en œuvre de la stratégie de communication de Mairie de Touba Mosquée",
-  "typeMarche": "Services",
-  "financement": [
-   "Budget propre"
-  ],
-  "mode": "Demande de renseignement et de prix à compétition restreinte",
-  "lancement": "2026-05-01",
-  "attribution": "2026-06-15",
-  "demarrage": "2026-06-26",
-  "achevement": null,
-  "etat": null,
-  "montantFcfa": null
- },
- {
-  "autorite": "Commune de Touba Mosquée",
-  "plan": "CTM_2026_16",
-  "direction": "COMMUNE DE TOUBA MOSQUEE(CTM)",
-  "reference": "F_CTM_CPM_12013",
-  "objet": "Fourniture et installation d’équipements de ventilation et de climatisation",
-  "typeMarche": "Fourniture",
-  "financement": [
-   "Budget propre"
-  ],
-  "mode": "Demande de renseignement et de prix à compétition restreinte",
-  "lancement": "2026-07-13",
-  "attribution": "2026-08-06",
-  "demarrage": "2026-08-19",
-  "achevement": null,
-  "etat": null,
-  "montantFcfa": null
- },
- {
-  "autorite": "Commune de Touba Mosquée",
-  "plan": "CTM_2026_16",
-  "direction": "COMMUNE DE TOUBA MOSQUEE(CTM)",
-  "reference": "F_CTM_CPM_11733",
-  "objet": "Acquisition de matériels de nettoyage (seaux, serpillères, chariots de nettoyage balayeuses manuelles, mécaniques)",
-  "typeMarche": "Fourniture",
-  "financement": [
-   "Budget propre"
-  ],
-  "mode": "Demande de renseignement et de prix à compétition restreinte",
-  "lancement": "2026-07-10",
-  "attribution": "2026-08-12",
-  "demarrage": "2026-08-25",
-  "achevement": null,
-  "etat": null,
-  "montantFcfa": null
- },
- {
-  "autorite": "Commune de Touba Mosquée",
-  "plan": "CTM_2026_16",
-  "direction": "COMMUNE DE TOUBA MOSQUEE(CTM)",
-  "reference": "T_CTM_CPM_3984",
-  "objet": "Grosse réparation d'équipement des abattoirs",
-  "typeMarche": "Travaux",
-  "financement": [
-   "Budget propre"
-  ],
-  "mode": "Demande de renseignement et de prix à compétition restreinte",
-  "lancement": "2026-07-10",
-  "attribution": "2026-08-12",
-  "demarrage": "2026-08-25",
-  "achevement": null,
-  "etat": null,
-  "montantFcfa": null
- },
- {
-  "autorite": "Commune de Touba Mosquée",
-  "plan": "CTM_2026_16",
-  "direction": "COMMUNE DE TOUBA MOSQUEE(CTM)",
-  "reference": "F_CTM_CPM_13658",
-  "objet": "Achat de vignettes d'état civil",
-  "typeMarche": "Fourniture",
-  "financement": [
-   "Budget propre"
-  ],
-  "mode": "Demande de renseignement et de prix à compétition restreinte",
-  "lancement": "2026-07-10",
-  "attribution": "2026-08-12",
-  "demarrage": "2026-08-25",
-  "achevement": null,
-  "etat": null,
-  "montantFcfa": null
- },
- {
-  "autorite": "Commune de Touba Mosquée",
-  "plan": "CTM_2026_16",
-  "direction": "COMMUNE DE TOUBA MOSQUEE(CTM)",
-  "reference": "F_CTM_CPM_11844",
-  "objet": "Fourniture et pose d'enseignes devant les postes de santé de Touba",
-  "typeMarche": "Fourniture",
-  "financement": [
-   "Budget propre"
-  ],
-  "mode": "Demande de renseignement et de prix à compétition restreinte",
-  "lancement": "2026-07-13",
-  "attribution": "2026-08-13",
-  "demarrage": "2026-08-26",
-  "achevement": null,
-  "etat": null,
-  "montantFcfa": null
- },
- {
-  "autorite": "Commune de Touba Mosquée",
-  "plan": "CTM_2026_16",
-  "direction": "COMMUNE DE TOUBA MOSQUEE(CTM)",
-  "reference": "S_CTM_CPM_14482",
-  "objet": "Vidange des fosses septiques dans certains quartiers de la Commune de Touba Mosquée",
-  "typeMarche": "Services",
-  "financement": [
-   "Budget propre"
-  ],
-  "mode": "Demande de renseignement et de prix à compétition restreinte",
-  "lancement": "2026-07-14",
-  "attribution": "2026-08-14",
-  "demarrage": "2026-08-27",
-  "achevement": null,
-  "etat": null,
-  "montantFcfa": null
- },
- {
-  "autorite": "Commune de Touba Mosquée",
-  "plan": "CTM_2026_16",
-  "direction": "COMMUNE DE TOUBA MOSQUEE(CTM)",
-  "reference": "F_CTM_CPM_17391",
-  "objet": "Acquisition de gilets, sacs, chaussures, casquettes personnalisés pour la perception",
-  "typeMarche": "Fourniture",
-  "financement": [
-   "Budget propre"
-  ],
-  "mode": "Demande de renseignement et de prix à compétition restreinte",
-  "lancement": "2026-09-15",
-  "attribution": "2026-10-16",
-  "demarrage": "2026-10-29",
-  "achevement": null,
-  "etat": null,
-  "montantFcfa": null
- },
- {
-  "autorite": "Commune de Touba Mosquée",
-  "plan": "CTM_2026_16",
-  "direction": "COMMUNE DE TOUBA MOSQUEE(CTM)",
-  "reference": "T_CTM_CPM_1207",
-  "objet": "Travaux de terrassement et de nivellement dans la Commune de Touba Mosquée",
-  "typeMarche": "Travaux",
-  "financement": [
-   "Budget propre"
-  ],
-  "mode": "Demande de renseignement et de prix à compétition restreinte",
-  "lancement": "2026-09-21",
-  "attribution": "2026-10-22",
-  "demarrage": "2026-11-04",
-  "achevement": null,
-  "etat": null,
-  "montantFcfa": null
- },
- {
-  "autorite": "SENPNA",
-  "plan": "SENPNA_2026_13",
-  "direction": "DIRECTION DE L'ADMINISTRATION ET DES FINANCES",
-  "reference": "F_SENPNA_DAF_17417",
-  "objet": "Acquisition de pneumatiques",
-  "typeMarche": "Fourniture",
-  "financement": [
-   "Budget propre"
-  ],
-  "mode": "Demande de renseignements et de prix à compétition ouverte",
-  "lancement": "2026-10-07",
-  "attribution": "2026-11-09",
-  "demarrage": "2026-12-22",
-  "achevement": null,
-  "etat": null,
-  "montantFcfa": null
- },
- {
-  "autorite": "SENPNA",
-  "plan": "SENPNA_2026_13",
-  "direction": "DIRECTION DE L'ADMINISTRATION ET DES FINANCES",
-  "reference": "F_SENPNA_DAF_12175",
-  "objet": "acquisition de matériel et mobilier de bureau",
-  "typeMarche": "Fourniture",
-  "financement": [
-   "Budget propre"
-  ],
-  "mode": "Appel d'offres ouvert",
-  "lancement": "2026-08-18",
-  "attribution": "2026-11-19",
-  "demarrage": "2027-01-14",
-  "achevement": null,
-  "etat": null,
-  "montantFcfa": null
- },
- {
-  "autorite": "SENPNA",
-  "plan": "SENPNA_2026_13",
-  "direction": "DIRECTION DE L'ADMINISTRATION ET DES FINANCES",
-  "reference": "S_SENPNA_DAF_12146",
-  "objet": "selection d'un prestataire pour l'organisation d'ateliers seminaire et session du CA à la SEN PNA",
-  "typeMarche": "Services",
-  "financement": [
-   "Budget propre"
-  ],
-  "mode": "Demande de renseignements et de prix à compétition ouverte",
-  "lancement": "2026-07-29",
-  "attribution": "2026-08-31",
-  "demarrage": "2026-10-13",
-  "achevement": null,
-  "etat": null,
-  "montantFcfa": null
- },
- {
-  "autorite": "SENPNA",
-  "plan": "SENPNA_2026_13",
-  "direction": "SECRETARIAT GENERAL-SERVICE DES SYSTEMES D'INFORMATION GLOBALE",
-  "reference": "F_SENPNA_SG-SIG_12179",
-  "objet": "Acquisition de fourniture et renouvellement de licence M365,PowerBI pour la SEN-PNA",
-  "typeMarche": "Fourniture",
-  "financement": [
-   "Budget propre"
-  ],
-  "mode": "Demande de renseignements et de prix à compétition ouverte",
-  "lancement": "2026-07-27",
-  "attribution": "2026-08-27",
-  "demarrage": "2026-10-09",
-  "achevement": null,
-  "etat": null,
-  "montantFcfa": null
- },
- {
-  "autorite": "SENPNA",
-  "plan": "SENPNA_2026_13",
-  "direction": "DIRECTION DE LA DISTRIBUTION ET DU MARKETING COMMERCIAL",
-  "reference": "F_SENPNA_DDMC_12162",
-  "objet": "Matériel de communication (Caméras Appareils photo, Drônes...)",
-  "typeMarche": "Fourniture",
-  "financement": [
-   "Budget propre"
-  ],
-  "mode": "Demande de renseignements et de prix à compétition ouverte",
-  "lancement": "2026-07-24",
-  "attribution": "2026-08-26",
-  "demarrage": "2026-10-08",
-  "achevement": null,
-  "etat": null,
-  "montantFcfa": null
- },
- {
-  "autorite": "SENPNA",
-  "plan": "SENPNA_2026_13",
-  "direction": "DIRECTION DE L'ADMINISTRATION ET DES FINANCES",
-  "reference": "F_SENPNA_DAF_12165",
-  "objet": "Acquisition de fontaines d'eau pour les PRA",
-  "typeMarche": "Fourniture",
-  "financement": [
-   "Budget propre"
-  ],
-  "mode": "Demande de renseignements et de prix à compétition ouverte",
-  "lancement": "2026-07-21",
-  "attribution": "2026-08-21",
-  "demarrage": "2026-10-05",
-  "achevement": null,
-  "etat": null,
-  "montantFcfa": null
- },
- {
-  "autorite": "SENPNA",
-  "plan": "SENPNA_2026_13",
-  "direction": "DIRECTION DE L'ADMINISTRATION ET DES FINANCES",
-  "reference": "F_SENPNA_DAF_12194",
-  "objet": "acquisition de matériels roulant au profit de la SEN PNA(Relance du credit-bail)",
-  "typeMarche": "Fourniture",
-  "financement": [
-   "Financement extérieur"
-  ],
-  "mode": "Appel d'offres ouvert",
-  "lancement": "2026-10-16",
-  "attribution": "2027-01-19",
-  "demarrage": "2027-03-16",
-  "achevement": null,
-  "etat": null,
-  "montantFcfa": null
- },
- {
-  "autorite": "SENPNA",
-  "plan": "SENPNA_2026_13",
-  "direction": "SECRETARIAT GENERAL-SERVICE DES SYSTEMES D'INFORMATION GLOBALE",
-  "reference": "S_SENPNA_SG-SIG_12205",
-  "objet": "Sélection d'un prestataire pour le leasing des imprimantes de la SEN-PNA",
-  "typeMarche": "Services",
-  "financement": [
-   "Budget propre"
-  ],
-  "mode": "Demande de renseignements et de prix à compétition ouverte",
-  "lancement": "2026-07-22",
-  "attribution": "2026-08-24",
-  "demarrage": "2026-10-06",
-  "achevement": null,
-  "etat": null,
-  "montantFcfa": null
- },
- {
-  "autorite": "SENPNA",
-  "plan": "SENPNA_2026_13",
-  "direction": "DIRECTION DE L'ADMINISTRATION ET DES FINANCES",
-  "reference": "T_SENPNA_DAF_12211",
-  "objet": "Installation de hangars et bureaux en préfabriqué",
-  "typeMarche": "Travaux",
-  "financement": [
-   "Budget propre"
-  ],
-  "mode": "Appel d'offres ouvert",
-  "lancement": "2026-11-11",
-  "attribution": "2027-02-12",
-  "demarrage": "2027-04-09",
-  "achevement": null,
-  "etat": null,
-  "montantFcfa": null
- },
- {
-  "autorite": "SENPNA",
-  "plan": "SENPNA_2026_13",
-  "direction": "SERVICE QUALITE HYGIENE SECURITE ENVIRONNEMENT",
-  "reference": "F_SENPNA_ SQHSE_12392",
-  "objet": "Acquisition de matériel de sureté et de sécurité (système anti-incendie)",
-  "typeMarche": "Fourniture",
-  "financement": [
-   "Budget propre"
-  ],
-  "mode": "Appel d'offres ouvert",
-  "lancement": "2026-09-03",
-  "attribution": "2026-12-28",
-  "demarrage": "2027-02-22",
-  "achevement": null,
-  "etat": null,
-  "montantFcfa": null
- },
- {
-  "autorite": "SENPNA",
-  "plan": "SENPNA_2026_13",
-  "direction": "DIRECTION DE L'ADMINISTRATION ET DES FINANCES",
-  "reference": "T_SENPNA_DAF_12527",
-  "objet": "Finalisation des travaux de construction de la PRA de Kaffrine et du dépôt de Touba",
-  "typeMarche": "Travaux",
-  "financement": [
-   "Budget propre"
-  ],
-  "mode": "Appel d'offres ouvert",
-  "lancement": "2026-09-07",
-  "attribution": "2026-12-30",
-  "demarrage": "2027-02-24",
-  "achevement": null,
-  "etat": null,
-  "montantFcfa": null
- },
- {
-  "autorite": "SENPNA",
-  "plan": "SENPNA_2026_13",
-  "direction": "DIRECTION DE L'ADMINISTRATION ET DES FINANCES",
-  "reference": "F_SENPNA_DAF_12493",
-  "objet": "Acquisition de tenues de travail",
-  "typeMarche": "Fourniture",
-  "financement": [
-   "Budget propre"
-  ],
-  "mode": "Demande de renseignement et de prix à compétition restreinte",
-  "lancement": "2026-07-15",
-  "attribution": "2026-08-17",
-  "demarrage": "2026-08-28",
-  "achevement": null,
-  "etat": null,
-  "montantFcfa": null
- },
- {
-  "autorite": "SENPNA",
-  "plan": "SENPNA_2026_13",
-  "direction": "DIRECTION DE L'ADMINISTRATION ET DES FINANCES",
-  "reference": "T_SENPNA_DAF_13004",
-  "objet": "Réhabilitation des PRA",
-  "typeMarche": "Travaux",
-  "financement": [
-   "Budget propre"
-  ],
-  "mode": "Appel d'offres ouvert",
-  "lancement": "2026-09-14",
-  "attribution": "2027-01-06",
-  "demarrage": "2027-03-03",
-  "achevement": null,
-  "etat": null,
-  "montantFcfa": null
- },
- {
-  "autorite": "SENPNA",
-  "plan": "SENPNA_2026_13",
-  "direction": "DIRECTION DE L'ADMINISTRATION ET DES FINANCES",
-  "reference": "F_SENPNA_DAF_12184",
-  "objet": "Acquisition et installation de système de géolocalisation (gestion de la flotte automobile)",
-  "typeMarche": "Fourniture",
-  "financement": [
-   "Budget propre"
-  ],
-  "mode": "Demande de renseignements et de prix à compétition ouverte",
-  "lancement": "2026-08-14",
-  "attribution": "2026-09-16",
-  "demarrage": "2026-10-29",
-  "achevement": null,
-  "etat": null,
-  "montantFcfa": null
- },
- {
-  "autorite": "SENPNA",
-  "plan": "SENPNA_2026_13",
-  "direction": "DIRECTION DE L'ADMINISTRATION ET DES FINANCES",
-  "reference": "S_SENPNA_DAF_13005",
-  "objet": "Services d'assistance en Pharmacie, manutention ,Administratif ,et Technique",
-  "typeMarche": "Services",
-  "financement": [
-   "Budget propre"
-  ],
-  "mode": "Appel d'offres ouvert",
-  "lancement": "2026-09-23",
-  "attribution": "2027-01-15",
-  "demarrage": "2027-03-12",
-  "achevement": null,
-  "etat": null,
-  "montantFcfa": null
- },
- {
-  "autorite": "SENPNA",
-  "plan": "SENPNA_2026_13",
-  "direction": "SECRETARIAT GENERAL-SERVICE DES SYSTEMES D'INFORMATION GLOBALE",
-  "reference": "F_SENPNA_SG-SIG_13486",
-  "objet": "Acquisition et fourniture de DUA et implémentions des modules Eloficash et Youdoc à Sage ERPX3 v12 de la SEN PNA",
-  "typeMarche": "Fourniture",
-  "financement": [
-   "Budget propre"
-  ],
-  "mode": "Appel d'offres ouvert",
-  "lancement": "2026-10-15",
-  "attribution": "2027-02-08",
-  "demarrage": "2027-04-05",
-  "achevement": null,
-  "etat": null,
-  "montantFcfa": null
- },
- {
-  "autorite": "SENPNA",
-  "plan": "SENPNA_2026_13",
-  "direction": "DIRECTION DE L'ADMINISTRATION ET DES FINANCES",
-  "reference": "C_SENPNA_DAF_13485",
-  "objet": "Renforcement de capacité des agents de la SEN-PNA (formation sur divers modules axés sur le métier)",
-  "typeMarche": "Prestation intellectuelle",
-  "financement": [
-   "Budget propre"
-  ],
-  "mode": "Demande de renseignements et de prix à compétition ouverte",
-  "lancement": "2026-08-06",
-  "attribution": "2026-09-08",
-  "demarrage": "2026-10-21",
-  "achevement": null,
-  "etat": null,
-  "montantFcfa": null
- },
- {
-  "autorite": "SENPNA",
-  "plan": "SENPNA_2026_13",
-  "direction": "SECRETARIAT GENERAL-SERVICE DES SYSTEMES D'INFORMATION GLOBALE",
-  "reference": "F_SENPNA_SG-SIG_13487",
-  "objet": "Acquisition, installation et Mise en services d'un SIRH-et progiciel intégrés de gestion des ressources humaine et gestion de la PAIE pour la SEN -PNA",
-  "typeMarche": "Fourniture",
-  "financement": [
-   "Budget propre"
-  ],
-  "mode": "Appel d'offres ouvert",
-  "lancement": "2026-10-26",
-  "attribution": "2027-02-17",
-  "demarrage": "2027-04-14",
-  "achevement": null,
-  "etat": null,
-  "montantFcfa": null
- },
- {
-  "autorite": "SENPNA",
-  "plan": "SENPNA_2026_13",
-  "direction": "SECRETARIAT GENERAL-SERVICE DES SYSTEMES D'INFORMATION GLOBALE",
-  "reference": "F_SENPNA_SG-SIG_13489",
-  "objet": "Acquisition et Déploiement d'une solution de Gestion Electronique de document GED et d'Archivage",
-  "typeMarche": "Fourniture",
-  "financement": [
-   "Budget propre"
-  ],
-  "mode": "Appel d'offres ouvert",
-  "lancement": "2026-09-15",
-  "attribution": "2027-01-07",
-  "demarrage": "2027-03-04",
-  "achevement": null,
-  "etat": null,
-  "montantFcfa": null
- },
- {
-  "autorite": "SENPNA",
-  "plan": "SENPNA_2026_13",
-  "direction": "SECRETARIAT GENERAL-SERVICE DES SYSTEMES D'INFORMATION GLOBALE",
-  "reference": "F_SENPNA_SG-SIG_13488",
-  "objet": "Acquisition et déploiement d'une solution XDR (Extended Detection AND Response",
-  "typeMarche": "Fourniture",
-  "financement": [
-   "Budget propre"
-  ],
-  "mode": "Demande de renseignements et de prix à compétition ouverte",
-  "lancement": "2026-08-12",
-  "attribution": "2026-09-14",
-  "demarrage": "2026-10-27",
-  "achevement": null,
-  "etat": null,
-  "montantFcfa": null
- },
- {
-  "autorite": "SENPNA",
-  "plan": "SENPNA_2026_13",
-  "direction": "SECRETARIAT GENERAL-SERVICE DES SYSTEMES D'INFORMATION GLOBALE",
-  "reference": "F_SENPNA_SG-SIG_13490",
-  "objet": "Acquisition et en place d'un extranet de suivi et de commande en ligne",
-  "typeMarche": "Fourniture",
-  "financement": [
-   "Budget propre"
-  ],
-  "mode": "Demande de renseignements et de prix à compétition ouverte",
-  "lancement": "2026-07-24",
-  "attribution": "2026-08-26",
-  "demarrage": "2026-10-08",
-  "achevement": null,
-  "etat": null,
-  "montantFcfa": null
- },
- {
-  "autorite": "SENPNA",
-  "plan": "SENPNA_2026_13",
-  "direction": "DIRECTION DE LA DISTRIBUTION ET DU MARKETING COMMERCIAL",
-  "reference": "S_SENPNA_DDMC_13512",
-  "objet": "Sélection d'un prestataire pour le Branding du matériel roulant",
-  "typeMarche": "Services",
-  "financement": [
-   "Budget propre"
-  ],
-  "mode": "Demande de renseignement et de prix à compétition restreinte",
-  "lancement": "2026-07-24",
-  "attribution": "2026-08-26",
-  "demarrage": "2026-09-08",
-  "achevement": null,
-  "etat": null,
-  "montantFcfa": null
- },
- {
-  "autorite": "SENPNA",
-  "plan": "SENPNA_2026_13",
-  "direction": "DIRECTION DE LA DISTRIBUTION ET DU MARKETING COMMERCIAL",
-  "reference": "C_SENPNA_DDMC_13511",
-  "objet": "Sélection d'un consultant pour  la communication institutionnelle",
-  "typeMarche": "Prestation intellectuelle",
-  "financement": [
-   "Budget propre"
-  ],
-  "mode": "Demande de renseignement et de prix à compétition restreinte",
-  "lancement": "2026-08-03",
-  "attribution": "2026-09-03",
-  "demarrage": "2026-09-16",
-  "achevement": null,
-  "etat": null,
-  "montantFcfa": null
- },
- {
-  "autorite": "SENPNA",
-  "plan": "SENPNA_2026_13",
-  "direction": "DIRECTION DE L'ADMINISTRATION ET DES FINANCES",
-  "reference": "F_SENPNA_DAF_14514",
-  "objet": "ACQUISITION DE FOURNITURES DE BUREAU, D’IMPRIMÉS ET DE CONSOMMABLES INFORMATIQUES",
-  "typeMarche": "Fourniture",
-  "financement": [
-   "Budget propre"
-  ],
-  "mode": "Demande de renseignements et de prix à compétition ouverte",
-  "lancement": "2026-08-18",
-  "attribution": "2026-09-18",
-  "demarrage": "2026-11-02",
-  "achevement": null,
-  "etat": null,
-  "montantFcfa": null
- },
- {
-  "autorite": "SENPNA",
-  "plan": "SENPNA_2026_13",
-  "direction": "DIRECTION DE LA DISTRIBUTION ET DU MARKETING COMMERCIAL",
-  "reference": "S_SENPNA_DDMC_16011",
-  "objet": "Sélection d'un prestataire pour le Branding du matériel roulant(relance de la procedure S_DDMC_023/2026)",
-  "typeMarche": "Services",
-  "financement": [
-   "Budget propre"
-  ],
-  "mode": "Demande de renseignement et de prix à compétition restreinte",
-  "lancement": "2026-09-03",
-  "attribution": "2026-10-06",
-  "demarrage": "2026-10-19",
-  "achevement": null,
-  "etat": null,
-  "montantFcfa": null
- },
- {
-  "autorite": "SENPNA",
-  "plan": "SENPNA_2026_13",
-  "direction": "DIRECTION DE L'ADMINISTRATION ET DES FINANCES",
-  "reference": "F_SENPNA_DAF_17276",
-  "objet": "Fourniture de Bouteilles D'eau pour Fontaines et de Gobelets en cartons",
-  "typeMarche": "Fourniture",
-  "financement": [
-   "Budget propre"
-  ],
-  "mode": "Demande de renseignement et de prix à compétition restreinte",
-  "lancement": "2026-09-30",
-  "attribution": "2026-11-02",
-  "demarrage": "2026-11-13",
-  "achevement": null,
-  "etat": null,
-  "montantFcfa": null
- },
- {
-  "autorite": "SENPNA",
-  "plan": "SENPNA_2026_13",
-  "direction": "DIRECTION DE L'ADMINISTRATION ET DES FINANCES",
-  "reference": "S_SENPNA_DAF_18231",
-  "objet": "Demande de Renseignements et de Prix à Compétition Restreinte\nPour la sélection d’une agence pour le recrutement de prestataires au profit de la SEN-PNA",
-  "typeMarche": "Services",
-  "financement": [
-   "Budget propre"
-  ],
-  "mode": "Demande de renseignement et de prix à compétition restreinte",
-  "lancement": "2026-10-22",
-  "attribution": "2026-11-24",
-  "demarrage": "2026-12-07",
-  "achevement": null,
-  "etat": null,
-  "montantFcfa": null
- },
- {
-  "autorite": "SENPNA",
-  "plan": "SENPNA_2026_13",
-  "direction": "DIRECTION DE L'ADMINISTRATION ET DES FINANCES",
-  "reference": "C_SENPNA_DAF_18331",
-  "objet": "Sélection d’un consultant pour les études techniques de maîtrise d'œuvre, de contrôle et surveillance des travaux",
-  "typeMarche": "Prestation intellectuelle",
-  "financement": [
-   "Budget propre"
-  ],
-  "mode": "Demande de renseignement et de prix à compétition restreinte",
-  "lancement": "2026-10-26",
-  "attribution": "2026-11-26",
-  "demarrage": "2026-12-09",
-  "achevement": null,
-  "etat": null,
-  "montantFcfa": null
- },
- {
   "autorite": "Ville de Guédiawaye",
   "plan": "VG_2026_7",
   "direction": "Direction des services Techniques VG",
@@ -52254,6 +50616,1176 @@
   "montantFcfa": null
  },
  {
+  "autorite": "Commune de Touba Mosquée",
+  "plan": "CTM_2026_17",
+  "direction": "COMMUNE DE TOUBA MOSQUEE(CTM)",
+  "reference": "F_CTM_CPM_3983",
+  "objet": "Acquisition de tables bancs",
+  "typeMarche": "Fourniture",
+  "financement": [
+   "Financement extérieur"
+  ],
+  "mode": "Appel d'offres ouvert",
+  "lancement": "2026-05-05",
+  "attribution": "2026-09-02",
+  "demarrage": "2027-03-03",
+  "achevement": null,
+  "etat": null,
+  "montantFcfa": null
+ },
+ {
+  "autorite": "Commune de Touba Mosquée",
+  "plan": "CTM_2026_17",
+  "direction": "COMMUNE DE TOUBA MOSQUEE(CTM)",
+  "reference": "T_CTM_CPM_3958",
+  "objet": "Aménagement de hangar pour les artisans",
+  "typeMarche": "Travaux",
+  "financement": [
+   "Financement extérieur"
+  ],
+  "mode": "Demande de renseignements et de prix à compétition ouverte",
+  "lancement": "2026-02-25",
+  "attribution": "2026-03-23",
+  "demarrage": "2026-05-05",
+  "achevement": null,
+  "etat": null,
+  "montantFcfa": null
+ },
+ {
+  "autorite": "Commune de Touba Mosquée",
+  "plan": "CTM_2026_17",
+  "direction": "COMMUNE DE TOUBA MOSQUEE(CTM)",
+  "reference": "T_CTM_CPM_6801",
+  "objet": "Travaux de construction de salles de classes répartis en lots",
+  "typeMarche": "Travaux",
+  "financement": [
+   "Financement extérieur"
+  ],
+  "mode": "Appel d'offres ouvert",
+  "lancement": "2026-02-27",
+  "attribution": "2026-06-29",
+  "demarrage": "2026-12-28",
+  "achevement": null,
+  "etat": null,
+  "montantFcfa": null
+ },
+ {
+  "autorite": "Commune de Touba Mosquée",
+  "plan": "CTM_2026_17",
+  "direction": "COMMUNE DE TOUBA MOSQUEE(CTM)",
+  "reference": "F_CTM_CPM_11737",
+  "objet": "Achat de matériels de sonorisation",
+  "typeMarche": "Fourniture",
+  "financement": [
+   "Budget propre"
+  ],
+  "mode": "Demande de renseignement et de prix à compétition restreinte",
+  "lancement": "2026-06-17",
+  "attribution": "2026-07-30",
+  "demarrage": "2026-08-12",
+  "achevement": null,
+  "etat": null,
+  "montantFcfa": null
+ },
+ {
+  "autorite": "Commune de Touba Mosquée",
+  "plan": "CTM_2026_17",
+  "direction": "COMMUNE DE TOUBA MOSQUEE(CTM)",
+  "reference": "T_CTM_CPM_7639",
+  "objet": "Travaux de construction de poste police",
+  "typeMarche": "Travaux",
+  "financement": [
+   "Budget propre"
+  ],
+  "mode": "Demande de renseignement et de prix à compétition restreinte",
+  "lancement": "2026-05-08",
+  "attribution": "2026-06-10",
+  "demarrage": "2026-06-23",
+  "achevement": null,
+  "etat": null,
+  "montantFcfa": null
+ },
+ {
+  "autorite": "Commune de Touba Mosquée",
+  "plan": "CTM_2026_17",
+  "direction": "COMMUNE DE TOUBA MOSQUEE(CTM)",
+  "reference": "S_CTM_CPM_10208",
+  "objet": "Réparation de véhicules",
+  "typeMarche": "Services",
+  "financement": [
+   "Budget propre"
+  ],
+  "mode": "Demande de renseignement et de prix à compétition restreinte",
+  "lancement": "2026-05-11",
+  "attribution": "2026-06-11",
+  "demarrage": "2026-06-24",
+  "achevement": null,
+  "etat": null,
+  "montantFcfa": null
+ },
+ {
+  "autorite": "Commune de Touba Mosquée",
+  "plan": "CTM_2026_17",
+  "direction": "COMMUNE DE TOUBA MOSQUEE(CTM)",
+  "reference": "T_CTM_CPM_3957",
+  "objet": "Construction de halles de marché",
+  "typeMarche": "Travaux",
+  "financement": [
+   "Financement extérieur"
+  ],
+  "mode": "Appel d'offres ouvert",
+  "lancement": "2026-02-20",
+  "attribution": "2026-06-22",
+  "demarrage": "2026-12-21",
+  "achevement": null,
+  "etat": null,
+  "montantFcfa": null
+ },
+ {
+  "autorite": "Commune de Touba Mosquée",
+  "plan": "CTM_2026_17",
+  "direction": "COMMUNE DE TOUBA MOSQUEE(CTM)",
+  "reference": "T_CTM_CPM_11105",
+  "objet": "Travaux de remise en état de la voirie près du rond point de MBACKE",
+  "typeMarche": "Travaux",
+  "financement": [
+   "Budget propre"
+  ],
+  "mode": "Demande de renseignement et de prix à compétition restreinte",
+  "lancement": "2026-05-15",
+  "attribution": "2026-06-12",
+  "demarrage": "2026-06-25",
+  "achevement": null,
+  "etat": null,
+  "montantFcfa": null
+ },
+ {
+  "autorite": "Commune de Touba Mosquée",
+  "plan": "CTM_2026_17",
+  "direction": "COMMUNE DE TOUBA MOSQUEE(CTM)",
+  "reference": "T_CTM_CPM_6802",
+  "objet": "Construction de chaussées sur six(06) axes routiers",
+  "typeMarche": "Travaux",
+  "financement": [
+   "Financement extérieur"
+  ],
+  "mode": "Appel d'offres ouvert",
+  "lancement": "2026-04-06",
+  "attribution": "2026-08-04",
+  "demarrage": "2027-02-02",
+  "achevement": null,
+  "etat": null,
+  "montantFcfa": null
+ },
+ {
+  "autorite": "Commune de Touba Mosquée",
+  "plan": "CTM_2026_17",
+  "direction": "COMMUNE DE TOUBA MOSQUEE(CTM)",
+  "reference": "F_CTM_CPM_7637",
+  "objet": "Acquisition de pneumatiques",
+  "typeMarche": "Fourniture",
+  "financement": [
+   "Budget propre"
+  ],
+  "mode": "Demande de renseignement et de prix à compétition restreinte",
+  "lancement": "2026-05-12",
+  "attribution": "2026-06-12",
+  "demarrage": "2026-06-25",
+  "achevement": null,
+  "etat": null,
+  "montantFcfa": null
+ },
+ {
+  "autorite": "Commune de Touba Mosquée",
+  "plan": "CTM_2026_17",
+  "direction": "COMMUNE DE TOUBA MOSQUEE(CTM)",
+  "reference": "F_CTM_CPM_7638",
+  "objet": "Acquisition de matériels informatiques",
+  "typeMarche": "Fourniture",
+  "financement": [
+   "Budget propre"
+  ],
+  "mode": "Demande de renseignement et de prix à compétition restreinte",
+  "lancement": "2026-03-24",
+  "attribution": "2026-04-24",
+  "demarrage": "2026-05-07",
+  "achevement": null,
+  "etat": null,
+  "montantFcfa": null
+ },
+ {
+  "autorite": "Commune de Touba Mosquée",
+  "plan": "CTM_2026_17",
+  "direction": "COMMUNE DE TOUBA MOSQUEE(CTM)",
+  "reference": "F_CTM_CPM_10207",
+  "objet": "Achat de pièces de rechange automobile",
+  "typeMarche": "Fourniture",
+  "financement": [
+   "Budget propre"
+  ],
+  "mode": "Demande de renseignement et de prix à compétition restreinte",
+  "lancement": "2026-09-15",
+  "attribution": "2026-10-16",
+  "demarrage": "2026-10-29",
+  "achevement": null,
+  "etat": null,
+  "montantFcfa": null
+ },
+ {
+  "autorite": "Commune de Touba Mosquée",
+  "plan": "CTM_2026_17",
+  "direction": "COMMUNE DE TOUBA MOSQUEE(CTM)",
+  "reference": "T_CTM_CPM_10882",
+  "objet": "Travaux de curage des caniveaux dans la Commune de Touba Mosquée",
+  "typeMarche": "Travaux",
+  "financement": [
+   "Budget propre"
+  ],
+  "mode": "Demande de renseignement et de prix à compétition restreinte",
+  "lancement": "2026-05-15",
+  "attribution": "2026-06-17",
+  "demarrage": "2026-06-30",
+  "achevement": null,
+  "etat": null,
+  "montantFcfa": null
+ },
+ {
+  "autorite": "Commune de Touba Mosquée",
+  "plan": "CTM_2026_17",
+  "direction": "COMMUNE DE TOUBA MOSQUEE(CTM)",
+  "reference": "T_CTM_CPM_10881",
+  "objet": "Travaux de cloture metallique de l'ancienne banque sise au marché Ocass",
+  "typeMarche": "Travaux",
+  "financement": [
+   "Budget propre"
+  ],
+  "mode": "Demande de renseignement et de prix à compétition restreinte",
+  "lancement": "2026-05-15",
+  "attribution": "2026-06-17",
+  "demarrage": "2026-06-30",
+  "achevement": null,
+  "etat": null,
+  "montantFcfa": null
+ },
+ {
+  "autorite": "Commune de Touba Mosquée",
+  "plan": "CTM_2026_17",
+  "direction": "COMMUNE DE TOUBA MOSQUEE(CTM)",
+  "reference": "F_CTM_CPM_11735",
+  "objet": "Achat d'habillements pour le personnel",
+  "typeMarche": "Fourniture",
+  "financement": [
+   "Budget propre"
+  ],
+  "mode": "Demande de renseignement et de prix à compétition restreinte",
+  "lancement": "2026-08-28",
+  "attribution": "2026-09-30",
+  "demarrage": "2026-10-13",
+  "achevement": null,
+  "etat": null,
+  "montantFcfa": null
+ },
+ {
+  "autorite": "Commune de Touba Mosquée",
+  "plan": "CTM_2026_17",
+  "direction": "COMMUNE DE TOUBA MOSQUEE(CTM)",
+  "reference": "F_CTM_CPM_1233",
+  "objet": "Acquisition de pompes hydrauliques pour forages",
+  "typeMarche": "Fourniture",
+  "financement": [
+   "Budget propre"
+  ],
+  "mode": "Appel d'offres ouvert",
+  "lancement": "2026-01-12",
+  "attribution": "2026-05-12",
+  "demarrage": "2026-11-10",
+  "achevement": null,
+  "etat": null,
+  "montantFcfa": null
+ },
+ {
+  "autorite": "Commune de Touba Mosquée",
+  "plan": "CTM_2026_17",
+  "direction": "COMMUNE DE TOUBA MOSQUEE(CTM)",
+  "reference": "T_CTM_CPM_880",
+  "objet": "Travaux d'aménagement d'espaces publics",
+  "typeMarche": "Travaux",
+  "financement": [
+   "Financement extérieur"
+  ],
+  "mode": "Appel d'offres ouvert",
+  "lancement": "2026-02-03",
+  "attribution": "2026-06-03",
+  "demarrage": "2026-12-02",
+  "achevement": null,
+  "etat": null,
+  "montantFcfa": null
+ },
+ {
+  "autorite": "Commune de Touba Mosquée",
+  "plan": "CTM_2026_17",
+  "direction": "COMMUNE DE TOUBA MOSQUEE(CTM)",
+  "reference": "T_CTM_CPM_878",
+  "objet": "Travaux de drainage des eaux pluviales",
+  "typeMarche": "Travaux",
+  "financement": [
+   "Financement extérieur"
+  ],
+  "mode": "Appel d'offres ouvert",
+  "lancement": "2026-02-03",
+  "attribution": "2026-03-24",
+  "demarrage": "2026-05-25",
+  "achevement": null,
+  "etat": null,
+  "montantFcfa": null
+ },
+ {
+  "autorite": "Commune de Touba Mosquée",
+  "plan": "CTM_2026_17",
+  "direction": "COMMUNE DE TOUBA MOSQUEE(CTM)",
+  "reference": "T_CTM_CPM_881",
+  "objet": "Travaux de réhabilitation de deux (02) postes de santé",
+  "typeMarche": "Travaux",
+  "financement": [
+   "Financement extérieur"
+  ],
+  "mode": "Appel d'offres ouvert",
+  "lancement": "2026-02-25",
+  "attribution": "2026-06-25",
+  "demarrage": "2026-12-24",
+  "achevement": null,
+  "etat": null,
+  "montantFcfa": null
+ },
+ {
+  "autorite": "Commune de Touba Mosquée",
+  "plan": "CTM_2026_17",
+  "direction": "COMMUNE DE TOUBA MOSQUEE(CTM)",
+  "reference": "F_CTM_CPM_1235",
+  "objet": "Acquisition de matériels roulants repartis en quatre(04) lots",
+  "typeMarche": "Fourniture",
+  "financement": [
+   "Financement extérieur"
+  ],
+  "mode": "Appel d'offres ouvert",
+  "lancement": "2026-01-22",
+  "attribution": "2026-05-22",
+  "demarrage": "2026-11-20",
+  "achevement": null,
+  "etat": null,
+  "montantFcfa": null
+ },
+ {
+  "autorite": "Commune de Touba Mosquée",
+  "plan": "CTM_2026_17",
+  "direction": "COMMUNE DE TOUBA MOSQUEE(CTM)",
+  "reference": "T_CTM_CPM_1209",
+  "objet": "Acquisition d'équipement de cinq（05） postes de santé, un （01） centre médico-social",
+  "typeMarche": "Travaux",
+  "financement": [
+   "Financement extérieur"
+  ],
+  "mode": "Appel d'offres ouvert",
+  "lancement": "2026-03-17",
+  "attribution": "2026-07-15",
+  "demarrage": "2027-01-13",
+  "achevement": null,
+  "etat": null,
+  "montantFcfa": null
+ },
+ {
+  "autorite": "Commune de Touba Mosquée",
+  "plan": "CTM_2026_17",
+  "direction": "COMMUNE DE TOUBA MOSQUEE(CTM)",
+  "reference": "F_CTM_CPM_1230",
+  "objet": "Acquisition de motopompe et accessoires",
+  "typeMarche": "Fourniture",
+  "financement": [
+   "Budget propre"
+  ],
+  "mode": "Appel d'offres ouvert",
+  "lancement": "2026-02-25",
+  "attribution": "2026-06-25",
+  "demarrage": "2026-12-24",
+  "achevement": null,
+  "etat": null,
+  "montantFcfa": null
+ },
+ {
+  "autorite": "Commune de Touba Mosquée",
+  "plan": "CTM_2026_17",
+  "direction": "COMMUNE DE TOUBA MOSQUEE(CTM)",
+  "reference": "F_CTM_CPM_3702",
+  "objet": "Acquisition de matériaux de construction repartis en deux(02) lots",
+  "typeMarche": "Fourniture",
+  "financement": [
+   "Budget propre"
+  ],
+  "mode": "Appel d'offres ouvert",
+  "lancement": "2026-01-16",
+  "attribution": "2026-05-05",
+  "demarrage": "2026-11-03",
+  "achevement": null,
+  "etat": null,
+  "montantFcfa": null
+ },
+ {
+  "autorite": "Commune de Touba Mosquée",
+  "plan": "CTM_2026_17",
+  "direction": "COMMUNE DE TOUBA MOSQUEE(CTM)",
+  "reference": "T_CTM_CPM_3951",
+  "objet": "Construction de salles de classe répartis en lots",
+  "typeMarche": "Travaux",
+  "financement": [
+   "Financement extérieur"
+  ],
+  "mode": "Appel d'offres ouvert",
+  "lancement": "2026-02-04",
+  "attribution": "2026-06-04",
+  "demarrage": "2026-12-03",
+  "achevement": null,
+  "etat": null,
+  "montantFcfa": null
+ },
+ {
+  "autorite": "Commune de Touba Mosquée",
+  "plan": "CTM_2026_17",
+  "direction": "COMMUNE DE TOUBA MOSQUEE(CTM)",
+  "reference": "T_CTM_CPM_3953",
+  "objet": "Solarisation des édifices publiques",
+  "typeMarche": "Travaux",
+  "financement": [
+   "Financement extérieur"
+  ],
+  "mode": "Appel d'offres ouvert",
+  "lancement": "2026-04-13",
+  "attribution": "2026-08-11",
+  "demarrage": "2027-02-09",
+  "achevement": null,
+  "etat": null,
+  "montantFcfa": null
+ },
+ {
+  "autorite": "Commune de Touba Mosquée",
+  "plan": "CTM_2026_17",
+  "direction": "COMMUNE DE TOUBA MOSQUEE(CTM)",
+  "reference": "T_CTM_CPM_3954",
+  "objet": "Travaux d'aménagement de pistes",
+  "typeMarche": "Travaux",
+  "financement": [
+   "Financement extérieur"
+  ],
+  "mode": "Appel d'offres ouvert",
+  "lancement": "2026-02-26",
+  "attribution": "2026-06-26",
+  "demarrage": "2026-12-25",
+  "achevement": null,
+  "etat": null,
+  "montantFcfa": null
+ },
+ {
+  "autorite": "Commune de Touba Mosquée",
+  "plan": "CTM_2026_17",
+  "direction": "COMMUNE DE TOUBA MOSQUEE(CTM)",
+  "reference": "T_CTM_CPM_3960",
+  "objet": "Travaux d'adduction d'eau potable",
+  "typeMarche": "Travaux",
+  "financement": [
+   "Financement extérieur"
+  ],
+  "mode": "Appel d'offres ouvert",
+  "lancement": "2026-03-03",
+  "attribution": "2026-07-01",
+  "demarrage": "2026-12-30",
+  "achevement": null,
+  "etat": null,
+  "montantFcfa": null
+ },
+ {
+  "autorite": "Commune de Touba Mosquée",
+  "plan": "CTM_2026_17",
+  "direction": "COMMUNE DE TOUBA MOSQUEE(CTM)",
+  "reference": "T_CTM_CPM_3961",
+  "objet": "Travaux d'aménagements de deux(02) ronds-points",
+  "typeMarche": "Travaux",
+  "financement": [
+   "Financement extérieur"
+  ],
+  "mode": "Appel d'offres ouvert",
+  "lancement": "2026-01-20",
+  "attribution": "2026-05-20",
+  "demarrage": "2026-11-18",
+  "achevement": null,
+  "etat": null,
+  "montantFcfa": null
+ },
+ {
+  "autorite": "Commune de Touba Mosquée",
+  "plan": "CTM_2026_17",
+  "direction": "COMMUNE DE TOUBA MOSQUEE(CTM)",
+  "reference": "F_CTM_CPM_3962",
+  "objet": "Acquisition de vingt cyclomoteurs et quinze tricycles",
+  "typeMarche": "Fourniture",
+  "financement": [
+   "Budget propre"
+  ],
+  "mode": "Demande de renseignements et de prix à compétition ouverte",
+  "lancement": "2026-03-17",
+  "attribution": "2026-04-20",
+  "demarrage": "2026-06-02",
+  "achevement": null,
+  "etat": null,
+  "montantFcfa": null
+ },
+ {
+  "autorite": "Commune de Touba Mosquée",
+  "plan": "CTM_2026_17",
+  "direction": "COMMUNE DE TOUBA MOSQUEE(CTM)",
+  "reference": "T_CTM_CPM_7610",
+  "objet": "Grosses réparations dans les gares routières",
+  "typeMarche": "Travaux",
+  "financement": [
+   "Budget propre"
+  ],
+  "mode": "Demande de renseignement et de prix à compétition restreinte",
+  "lancement": "2026-03-30",
+  "attribution": "2026-04-30",
+  "demarrage": "2026-05-13",
+  "achevement": null,
+  "etat": null,
+  "montantFcfa": null
+ },
+ {
+  "autorite": "Commune de Touba Mosquée",
+  "plan": "CTM_2026_17",
+  "direction": "COMMUNE DE TOUBA MOSQUEE(CTM)",
+  "reference": "F_CTM_CPM_7633",
+  "objet": "Acquisition de tickets de perception",
+  "typeMarche": "Fourniture",
+  "financement": [
+   "Budget propre"
+  ],
+  "mode": "Demande de renseignement et de prix à compétition restreinte",
+  "lancement": "2026-03-18",
+  "attribution": "2026-04-20",
+  "demarrage": "2026-05-01",
+  "achevement": null,
+  "etat": null,
+  "montantFcfa": null
+ },
+ {
+  "autorite": "Commune de Touba Mosquée",
+  "plan": "CTM_2026_17",
+  "direction": "COMMUNE DE TOUBA MOSQUEE(CTM)",
+  "reference": "S_CTM_CPM_7636",
+  "objet": "Entretien véhicules",
+  "typeMarche": "Services",
+  "financement": [
+   "Budget propre"
+  ],
+  "mode": "Demande de renseignement et de prix à compétition restreinte",
+  "lancement": "2026-04-30",
+  "attribution": "2026-06-02",
+  "demarrage": "2026-06-15",
+  "achevement": null,
+  "etat": null,
+  "montantFcfa": null
+ },
+ {
+  "autorite": "Commune de Touba Mosquée",
+  "plan": "CTM_2026_17",
+  "direction": "COMMUNE DE TOUBA MOSQUEE(CTM)",
+  "reference": "F_CTM_CPM_6798",
+  "objet": "Acquisition de trois (03) groupes électrogènes",
+  "typeMarche": "Fourniture",
+  "financement": [
+   "Financement extérieur"
+  ],
+  "mode": "Appel d'offres ouvert",
+  "lancement": "2026-03-10",
+  "attribution": "2026-07-08",
+  "demarrage": "2027-01-06",
+  "achevement": null,
+  "etat": null,
+  "montantFcfa": null
+ },
+ {
+  "autorite": "Commune de Touba Mosquée",
+  "plan": "CTM_2026_17",
+  "direction": "COMMUNE DE TOUBA MOSQUEE(CTM)",
+  "reference": "T_CTM_CPM_6800",
+  "objet": "Travaux d'aménagements de pistes",
+  "typeMarche": "Travaux",
+  "financement": [
+   "Financement extérieur"
+  ],
+  "mode": "Appel d'offres ouvert",
+  "lancement": "2026-02-27",
+  "attribution": "2026-06-29",
+  "demarrage": "2026-12-28",
+  "achevement": null,
+  "etat": null,
+  "montantFcfa": null
+ },
+ {
+  "autorite": "Commune de Touba Mosquée",
+  "plan": "CTM_2026_17",
+  "direction": "COMMUNE DE TOUBA MOSQUEE(CTM)",
+  "reference": "T_CTM_CPM_6803",
+  "objet": "Travaux de construction d'un centre commercial au marché Ocass",
+  "typeMarche": "Travaux",
+  "financement": [
+   "Financement extérieur"
+  ],
+  "mode": "Appel d'offres ouvert",
+  "lancement": "2026-02-26",
+  "attribution": "2026-06-26",
+  "demarrage": "2026-12-25",
+  "achevement": null,
+  "etat": null,
+  "montantFcfa": null
+ },
+ {
+  "autorite": "Commune de Touba Mosquée",
+  "plan": "CTM_2026_17",
+  "direction": "COMMUNE DE TOUBA MOSQUEE(CTM)",
+  "reference": "F_CTM_CPM_9310",
+  "objet": "Acquisition de deux mille cents (2100) barrières métalliques dans la Commune de Touba Mosquée",
+  "typeMarche": "Fourniture",
+  "financement": [
+   "Budget propre"
+  ],
+  "mode": "Appel d'offres ouvert",
+  "lancement": "2026-04-08",
+  "attribution": "2026-07-10",
+  "demarrage": "2026-09-04",
+  "achevement": null,
+  "etat": null,
+  "montantFcfa": null
+ },
+ {
+  "autorite": "Commune de Touba Mosquée",
+  "plan": "CTM_2026_17",
+  "direction": "COMMUNE DE TOUBA MOSQUEE(CTM)",
+  "reference": "F_CTM_CPM_7631",
+  "objet": "Acquisition de matériels de signalisation",
+  "typeMarche": "Fourniture",
+  "financement": [
+   "Budget propre"
+  ],
+  "mode": "Demande de renseignement et de prix à compétition restreinte",
+  "lancement": "2026-06-22",
+  "attribution": "2026-07-23",
+  "demarrage": "2026-08-05",
+  "achevement": null,
+  "etat": null,
+  "montantFcfa": null
+ },
+ {
+  "autorite": "Commune de Touba Mosquée",
+  "plan": "CTM_2026_17",
+  "direction": "COMMUNE DE TOUBA MOSQUEE(CTM)",
+  "reference": "F_CTM_CPM_7634",
+  "objet": "Achat de produits d'entretien",
+  "typeMarche": "Fourniture",
+  "financement": [
+   "Budget propre"
+  ],
+  "mode": "Demande de renseignement et de prix à compétition restreinte",
+  "lancement": "2026-06-19",
+  "attribution": "2026-07-22",
+  "demarrage": "2026-08-04",
+  "achevement": null,
+  "etat": null,
+  "montantFcfa": null
+ },
+ {
+  "autorite": "Commune de Touba Mosquée",
+  "plan": "CTM_2026_17",
+  "direction": "COMMUNE DE TOUBA MOSQUEE(CTM)",
+  "reference": "F_CTM_CPM_7635",
+  "objet": "Achat de produits de traitement des eaux pluviales",
+  "typeMarche": "Fourniture",
+  "financement": [
+   "Budget propre"
+  ],
+  "mode": "Demande de renseignement et de prix à compétition restreinte",
+  "lancement": "2026-06-19",
+  "attribution": "2026-07-22",
+  "demarrage": "2026-08-04",
+  "achevement": null,
+  "etat": null,
+  "montantFcfa": null
+ },
+ {
+  "autorite": "Commune de Touba Mosquée",
+  "plan": "CTM_2026_17",
+  "direction": "COMMUNE DE TOUBA MOSQUEE(CTM)",
+  "reference": "F_CTM_CPM_7608",
+  "objet": "Achat de fournitures de bureau",
+  "typeMarche": "Fourniture",
+  "financement": [
+   "Budget propre"
+  ],
+  "mode": "Demande de renseignement et de prix à compétition restreinte",
+  "lancement": "2026-07-10",
+  "attribution": "2026-08-13",
+  "demarrage": "2026-08-26",
+  "achevement": null,
+  "etat": null,
+  "montantFcfa": null
+ },
+ {
+  "autorite": "Commune de Touba Mosquée",
+  "plan": "CTM_2026_17",
+  "direction": "COMMUNE DE TOUBA MOSQUEE(CTM)",
+  "reference": "T_CTM_CPM_9311",
+  "objet": "Travaux d'aménagement gare routière de Daara Djolof",
+  "typeMarche": "Travaux",
+  "financement": [
+   "Budget propre"
+  ],
+  "mode": "Demande de renseignement et de prix à compétition restreinte",
+  "lancement": "2026-04-13",
+  "attribution": "2026-05-14",
+  "demarrage": "2026-05-27",
+  "achevement": null,
+  "etat": null,
+  "montantFcfa": null
+ },
+ {
+  "autorite": "Commune de Touba Mosquée",
+  "plan": "CTM_2026_17",
+  "direction": "COMMUNE DE TOUBA MOSQUEE(CTM)",
+  "reference": "C_CTM_CPM_10205",
+  "objet": "Recrutement d'un bureau de contrôle",
+  "typeMarche": "Prestation intellectuelle",
+  "financement": [
+   "Financement extérieur"
+  ],
+  "mode": "Demande de renseignements et de prix à compétition ouverte",
+  "lancement": "2026-04-27",
+  "attribution": "2026-06-09",
+  "demarrage": "2026-07-22",
+  "achevement": null,
+  "etat": null,
+  "montantFcfa": null
+ },
+ {
+  "autorite": "Commune de Touba Mosquée",
+  "plan": "CTM_2026_17",
+  "direction": "COMMUNE DE TOUBA MOSQUEE(CTM)",
+  "reference": "T_CTM_CPM_10204",
+  "objet": "Achèvement d'édicules publics",
+  "typeMarche": "Travaux",
+  "financement": [
+   "Budget propre"
+  ],
+  "mode": "Demande de renseignement et de prix à compétition restreinte",
+  "lancement": "2026-05-11",
+  "attribution": "2026-06-11",
+  "demarrage": "2026-06-24",
+  "achevement": null,
+  "etat": null,
+  "montantFcfa": null
+ },
+ {
+  "autorite": "Commune de Touba Mosquée",
+  "plan": "CTM_2026_17",
+  "direction": "COMMUNE DE TOUBA MOSQUEE(CTM)",
+  "reference": "F_CTM_CPM_18639",
+  "objet": "Achat d'imprimés et registres",
+  "typeMarche": "Fourniture",
+  "financement": [
+   "Budget propre"
+  ],
+  "mode": "Demande de renseignement et de prix à compétition restreinte",
+  "lancement": "2026-10-23",
+  "attribution": "2026-11-25",
+  "demarrage": "2026-12-08",
+  "achevement": null,
+  "etat": null,
+  "montantFcfa": null
+ },
+ {
+  "autorite": "Commune de Touba Mosquée",
+  "plan": "CTM_2026_17",
+  "direction": "COMMUNE DE TOUBA MOSQUEE(CTM)",
+  "reference": "T_CTM_CPM_10203",
+  "objet": "Construction de blocs sanitaires dans la Commune de Touba Mosquée",
+  "typeMarche": "Travaux",
+  "financement": [
+   "Budget propre"
+  ],
+  "mode": "Demande de renseignement et de prix à compétition restreinte",
+  "lancement": "2026-05-08",
+  "attribution": "2026-06-10",
+  "demarrage": "2026-06-23",
+  "achevement": null,
+  "etat": null,
+  "montantFcfa": null
+ },
+ {
+  "autorite": "Commune de Touba Mosquée",
+  "plan": "CTM_2026_17",
+  "direction": "COMMUNE DE TOUBA MOSQUEE(CTM)",
+  "reference": "S_CTM_CPM_1236",
+  "objet": "Location de matériels de terrassement",
+  "typeMarche": "Services",
+  "financement": [
+   "Budget propre"
+  ],
+  "mode": "Demande de renseignement et de prix à compétition restreinte",
+  "lancement": "2026-05-08",
+  "attribution": "2026-06-10",
+  "demarrage": "2026-06-23",
+  "achevement": null,
+  "etat": null,
+  "montantFcfa": null
+ },
+ {
+  "autorite": "Commune de Touba Mosquée",
+  "plan": "CTM_2026_17",
+  "direction": "COMMUNE DE TOUBA MOSQUEE(CTM)",
+  "reference": "T_CTM_CPM_10747",
+  "objet": "Achèvement de salles de classe à Kelel et Belel",
+  "typeMarche": "Travaux",
+  "financement": [
+   "Financement extérieur"
+  ],
+  "mode": "Demande de renseignement et de prix à compétition restreinte",
+  "lancement": "2026-05-08",
+  "attribution": "2026-06-10",
+  "demarrage": "2026-06-23",
+  "achevement": null,
+  "etat": null,
+  "montantFcfa": null
+ },
+ {
+  "autorite": "Commune de Touba Mosquée",
+  "plan": "CTM_2026_17",
+  "direction": "COMMUNE DE TOUBA MOSQUEE(CTM)",
+  "reference": "F_CTM_CPM_7609",
+  "objet": "Acquisition de mobiliers de bureau",
+  "typeMarche": "Fourniture",
+  "financement": [
+   "Budget propre"
+  ],
+  "mode": "Demande de renseignement et de prix à compétition restreinte",
+  "lancement": "2026-07-10",
+  "attribution": "2026-08-13",
+  "demarrage": "2026-08-26",
+  "achevement": null,
+  "etat": null,
+  "montantFcfa": null
+ },
+ {
+  "autorite": "Commune de Touba Mosquée",
+  "plan": "CTM_2026_17",
+  "direction": "COMMUNE DE TOUBA MOSQUEE(CTM)",
+  "reference": "T_CTM_CPM_3959",
+  "objet": "Construction de cantines préfabriquées réparties en trois(03) lots",
+  "typeMarche": "Travaux",
+  "financement": [
+   "Financement extérieur"
+  ],
+  "mode": "Appel d'offres ouvert",
+  "lancement": "2026-07-15",
+  "attribution": "2026-11-06",
+  "demarrage": "2027-01-01",
+  "achevement": null,
+  "etat": null,
+  "montantFcfa": null
+ },
+ {
+  "autorite": "Commune de Touba Mosquée",
+  "plan": "CTM_2026_17",
+  "direction": "COMMUNE DE TOUBA MOSQUEE(CTM)",
+  "reference": "T_CTM_CPM_10209",
+  "objet": "Travaux de remise en état de la voirie sur les deux(02) voies allant de la Commune au ronds point",
+  "typeMarche": "Travaux",
+  "financement": [
+   "Budget propre"
+  ],
+  "mode": "Demande de renseignement et de prix à compétition restreinte",
+  "lancement": "2026-05-04",
+  "attribution": "2026-06-04",
+  "demarrage": "2026-06-17",
+  "achevement": null,
+  "etat": null,
+  "montantFcfa": null
+ },
+ {
+  "autorite": "Commune de Touba Mosquée",
+  "plan": "CTM_2026_17",
+  "direction": "COMMUNE DE TOUBA MOSQUEE(CTM)",
+  "reference": "C_CTM_CPM_10749",
+  "objet": "Recrutement d'un service de maitre d'ouvres pour le suivi des travaux d'aménagement de l'espace public et infrastructures marchandes",
+  "typeMarche": "Prestation intellectuelle",
+  "financement": [
+   "Financement extérieur"
+  ],
+  "mode": "Demande de renseignements et de prix à compétition ouverte",
+  "lancement": "2026-05-12",
+  "attribution": "2026-06-22",
+  "demarrage": "2026-09-03",
+  "achevement": null,
+  "etat": null,
+  "montantFcfa": null
+ },
+ {
+  "autorite": "Commune de Touba Mosquée",
+  "plan": "CTM_2026_17",
+  "direction": "COMMUNE DE TOUBA MOSQUEE(CTM)",
+  "reference": "F_CTM_CPM_6799",
+  "objet": "Acquisition d'un kit compresseur tractable plus marteau piqueur, découpeuse de chaussées, dumpers et deux(02) bétonnières répartie en trois(03) lots",
+  "typeMarche": "Fourniture",
+  "financement": [
+   "Financement extérieur"
+  ],
+  "mode": "Appel d'offres ouvert",
+  "lancement": "2026-05-11",
+  "attribution": "2026-08-24",
+  "demarrage": "2026-10-19",
+  "achevement": null,
+  "etat": null,
+  "montantFcfa": null
+ },
+ {
+  "autorite": "Commune de Touba Mosquée",
+  "plan": "CTM_2026_17",
+  "direction": "COMMUNE DE TOUBA MOSQUEE(CTM)",
+  "reference": "F_CTM_CPM_10206",
+  "objet": "Achat de bœufs pour la tamkharite",
+  "typeMarche": "Fourniture",
+  "financement": [
+   "Budget propre"
+  ],
+  "mode": "Demande de renseignement et de prix à compétition restreinte",
+  "lancement": "2026-06-05",
+  "attribution": "2026-07-08",
+  "demarrage": "2026-07-21",
+  "achevement": null,
+  "etat": null,
+  "montantFcfa": null
+ },
+ {
+  "autorite": "Commune de Touba Mosquée",
+  "plan": "CTM_2026_17",
+  "direction": "COMMUNE DE TOUBA MOSQUEE(CTM)",
+  "reference": "T_CTM_CPM_7632",
+  "objet": "Construction de 15 ralentisseurs de vitesse dans la Commune de Touba Mosquée",
+  "typeMarche": "Travaux",
+  "financement": [
+   "Budget propre"
+  ],
+  "mode": "Demande de renseignement et de prix à compétition restreinte",
+  "lancement": "2026-05-19",
+  "attribution": "2026-06-05",
+  "demarrage": "2026-06-19",
+  "achevement": null,
+  "etat": null,
+  "montantFcfa": null
+ },
+ {
+  "autorite": "Commune de Touba Mosquée",
+  "plan": "CTM_2026_17",
+  "direction": "COMMUNE DE TOUBA MOSQUEE(CTM)",
+  "reference": "T_CTM_CPM_10749",
+  "objet": "Travaux de réhabilitation et couverture de collecteurs",
+  "typeMarche": "Travaux",
+  "financement": [
+   "Budget propre"
+  ],
+  "mode": "Demande de renseignement et de prix à compétition restreinte",
+  "lancement": "2026-05-15",
+  "attribution": "2026-06-11",
+  "demarrage": "2026-06-24",
+  "achevement": null,
+  "etat": null,
+  "montantFcfa": null
+ },
+ {
+  "autorite": "Commune de Touba Mosquée",
+  "plan": "CTM_2026_17",
+  "direction": "COMMUNE DE TOUBA MOSQUEE(CTM)",
+  "reference": "S_CTM_CPM_11106",
+  "objet": "Service de mise en œuvre de la stratégie de communication de Mairie de Touba Mosquée",
+  "typeMarche": "Services",
+  "financement": [
+   "Budget propre"
+  ],
+  "mode": "Demande de renseignement et de prix à compétition restreinte",
+  "lancement": "2026-05-01",
+  "attribution": "2026-06-15",
+  "demarrage": "2026-06-26",
+  "achevement": null,
+  "etat": null,
+  "montantFcfa": null
+ },
+ {
+  "autorite": "Commune de Touba Mosquée",
+  "plan": "CTM_2026_17",
+  "direction": "COMMUNE DE TOUBA MOSQUEE(CTM)",
+  "reference": "F_CTM_CPM_12013",
+  "objet": "Fourniture et installation d’équipements de ventilation et de climatisation",
+  "typeMarche": "Fourniture",
+  "financement": [
+   "Budget propre"
+  ],
+  "mode": "Demande de renseignement et de prix à compétition restreinte",
+  "lancement": "2026-07-13",
+  "attribution": "2026-08-06",
+  "demarrage": "2026-08-19",
+  "achevement": null,
+  "etat": null,
+  "montantFcfa": null
+ },
+ {
+  "autorite": "Commune de Touba Mosquée",
+  "plan": "CTM_2026_17",
+  "direction": "COMMUNE DE TOUBA MOSQUEE(CTM)",
+  "reference": "F_CTM_CPM_11733",
+  "objet": "Acquisition de matériels de nettoyage (seaux, serpillères, chariots de nettoyage balayeuses manuelles, mécaniques)",
+  "typeMarche": "Fourniture",
+  "financement": [
+   "Budget propre"
+  ],
+  "mode": "Demande de renseignement et de prix à compétition restreinte",
+  "lancement": "2026-07-10",
+  "attribution": "2026-08-12",
+  "demarrage": "2026-08-25",
+  "achevement": null,
+  "etat": null,
+  "montantFcfa": null
+ },
+ {
+  "autorite": "Commune de Touba Mosquée",
+  "plan": "CTM_2026_17",
+  "direction": "COMMUNE DE TOUBA MOSQUEE(CTM)",
+  "reference": "T_CTM_CPM_3984",
+  "objet": "Grosse réparation d'équipement des abattoirs",
+  "typeMarche": "Travaux",
+  "financement": [
+   "Budget propre"
+  ],
+  "mode": "Demande de renseignement et de prix à compétition restreinte",
+  "lancement": "2026-07-10",
+  "attribution": "2026-08-12",
+  "demarrage": "2026-08-25",
+  "achevement": null,
+  "etat": null,
+  "montantFcfa": null
+ },
+ {
+  "autorite": "Commune de Touba Mosquée",
+  "plan": "CTM_2026_17",
+  "direction": "COMMUNE DE TOUBA MOSQUEE(CTM)",
+  "reference": "F_CTM_CPM_13658",
+  "objet": "Achat de vignettes d'état civil",
+  "typeMarche": "Fourniture",
+  "financement": [
+   "Budget propre"
+  ],
+  "mode": "Demande de renseignement et de prix à compétition restreinte",
+  "lancement": "2026-07-10",
+  "attribution": "2026-08-12",
+  "demarrage": "2026-08-25",
+  "achevement": null,
+  "etat": null,
+  "montantFcfa": null
+ },
+ {
+  "autorite": "Commune de Touba Mosquée",
+  "plan": "CTM_2026_17",
+  "direction": "COMMUNE DE TOUBA MOSQUEE(CTM)",
+  "reference": "F_CTM_CPM_11844",
+  "objet": "Fourniture et pose d'enseignes devant les postes de santé de Touba",
+  "typeMarche": "Fourniture",
+  "financement": [
+   "Budget propre"
+  ],
+  "mode": "Demande de renseignement et de prix à compétition restreinte",
+  "lancement": "2026-07-13",
+  "attribution": "2026-08-13",
+  "demarrage": "2026-08-26",
+  "achevement": null,
+  "etat": null,
+  "montantFcfa": null
+ },
+ {
+  "autorite": "Commune de Touba Mosquée",
+  "plan": "CTM_2026_17",
+  "direction": "COMMUNE DE TOUBA MOSQUEE(CTM)",
+  "reference": "S_CTM_CPM_14482",
+  "objet": "Vidange des fosses septiques dans certains quartiers de la Commune de Touba Mosquée",
+  "typeMarche": "Services",
+  "financement": [
+   "Budget propre"
+  ],
+  "mode": "Demande de renseignement et de prix à compétition restreinte",
+  "lancement": "2026-07-14",
+  "attribution": "2026-08-14",
+  "demarrage": "2026-08-27",
+  "achevement": null,
+  "etat": null,
+  "montantFcfa": null
+ },
+ {
+  "autorite": "Commune de Touba Mosquée",
+  "plan": "CTM_2026_17",
+  "direction": "COMMUNE DE TOUBA MOSQUEE(CTM)",
+  "reference": "F_CTM_CPM_17391",
+  "objet": "Acquisition de gilets, sacs, chaussures, casquettes personnalisés pour la perception",
+  "typeMarche": "Fourniture",
+  "financement": [
+   "Budget propre"
+  ],
+  "mode": "Demande de renseignement et de prix à compétition restreinte",
+  "lancement": "2026-09-15",
+  "attribution": "2026-10-16",
+  "demarrage": "2026-10-29",
+  "achevement": null,
+  "etat": null,
+  "montantFcfa": null
+ },
+ {
+  "autorite": "Commune de Touba Mosquée",
+  "plan": "CTM_2026_17",
+  "direction": "COMMUNE DE TOUBA MOSQUEE(CTM)",
+  "reference": "T_CTM_CPM_1207",
+  "objet": "Travaux de terrassement et de nivellement dans la Commune de Touba Mosquée",
+  "typeMarche": "Travaux",
+  "financement": [
+   "Budget propre"
+  ],
+  "mode": "Demande de renseignement et de prix à compétition restreinte",
+  "lancement": "2026-09-21",
+  "attribution": "2026-10-22",
+  "demarrage": "2026-11-04",
+  "achevement": null,
+  "etat": null,
+  "montantFcfa": null
+ },
+ {
+  "autorite": "Commune de Touba Mosquée",
+  "plan": "CTM_2026_17",
+  "direction": "COMMUNE DE TOUBA MOSQUEE(CTM)",
+  "reference": "S_CTM_CPM_18640",
+  "objet": "Divers entretien de machines et appareils de bureau pour la perception",
+  "typeMarche": "Services",
+  "financement": [
+   "Budget propre"
+  ],
+  "mode": "Demande de renseignement et de prix à compétition restreinte",
+  "lancement": "2026-10-23",
+  "attribution": "2026-11-25",
+  "demarrage": "2026-12-08",
+  "achevement": null,
+  "etat": null,
+  "montantFcfa": null
+ },
+ {
   "autorite": "VILLE DE THIES",
   "plan": "VILLE_THIES_2032",
   "direction": "VILLE DE THIES",
@@ -53041,6 +52573,546 @@
   "lancement": "2026-10-15",
   "attribution": "2026-11-06",
   "demarrage": "2026-11-23",
+  "achevement": null,
+  "etat": null,
+  "montantFcfa": null
+ },
+ {
+  "autorite": "SENPNA",
+  "plan": "SENPNA_2026_14",
+  "direction": "DIRECTION DE L'ADMINISTRATION ET DES FINANCES",
+  "reference": "F_SENPNA_DAF_17417",
+  "objet": "Acquisition de pneumatiques",
+  "typeMarche": "Fourniture",
+  "financement": [
+   "Budget propre"
+  ],
+  "mode": "Demande de renseignements et de prix à compétition ouverte",
+  "lancement": "2026-10-07",
+  "attribution": "2026-11-09",
+  "demarrage": "2026-12-22",
+  "achevement": null,
+  "etat": null,
+  "montantFcfa": null
+ },
+ {
+  "autorite": "SENPNA",
+  "plan": "SENPNA_2026_14",
+  "direction": "DIRECTION DE L'ADMINISTRATION ET DES FINANCES",
+  "reference": "F_SENPNA_DAF_12175",
+  "objet": "acquisition de matériel et mobilier de bureau",
+  "typeMarche": "Fourniture",
+  "financement": [
+   "Budget propre"
+  ],
+  "mode": "Appel d'offres ouvert",
+  "lancement": "2026-08-18",
+  "attribution": "2026-11-19",
+  "demarrage": "2027-01-14",
+  "achevement": null,
+  "etat": null,
+  "montantFcfa": null
+ },
+ {
+  "autorite": "SENPNA",
+  "plan": "SENPNA_2026_14",
+  "direction": "DIRECTION DE L'ADMINISTRATION ET DES FINANCES",
+  "reference": "S_SENPNA_DAF_12146",
+  "objet": "selection d'un prestataire pour l'organisation d'ateliers seminaire et session du CA à la SEN PNA",
+  "typeMarche": "Services",
+  "financement": [
+   "Budget propre"
+  ],
+  "mode": "Demande de renseignements et de prix à compétition ouverte",
+  "lancement": "2026-07-29",
+  "attribution": "2026-08-31",
+  "demarrage": "2026-10-13",
+  "achevement": null,
+  "etat": null,
+  "montantFcfa": null
+ },
+ {
+  "autorite": "SENPNA",
+  "plan": "SENPNA_2026_14",
+  "direction": "SECRETARIAT GENERAL-SERVICE DES SYSTEMES D'INFORMATION GLOBALE",
+  "reference": "F_SENPNA_SG-SIG_12179",
+  "objet": "Acquisition de fourniture et renouvellement de licence M365,PowerBI pour la SEN-PNA",
+  "typeMarche": "Fourniture",
+  "financement": [
+   "Budget propre"
+  ],
+  "mode": "Demande de renseignements et de prix à compétition ouverte",
+  "lancement": "2026-07-27",
+  "attribution": "2026-08-27",
+  "demarrage": "2026-10-09",
+  "achevement": null,
+  "etat": null,
+  "montantFcfa": null
+ },
+ {
+  "autorite": "SENPNA",
+  "plan": "SENPNA_2026_14",
+  "direction": "DIRECTION DE LA DISTRIBUTION ET DU MARKETING COMMERCIAL",
+  "reference": "F_SENPNA_DDMC_12162",
+  "objet": "Matériel de communication (Caméras Appareils photo, Drônes...)",
+  "typeMarche": "Fourniture",
+  "financement": [
+   "Budget propre"
+  ],
+  "mode": "Demande de renseignements et de prix à compétition ouverte",
+  "lancement": "2026-07-24",
+  "attribution": "2026-08-26",
+  "demarrage": "2026-10-08",
+  "achevement": null,
+  "etat": null,
+  "montantFcfa": null
+ },
+ {
+  "autorite": "SENPNA",
+  "plan": "SENPNA_2026_14",
+  "direction": "DIRECTION DE L'ADMINISTRATION ET DES FINANCES",
+  "reference": "F_SENPNA_DAF_12165",
+  "objet": "Acquisition de fontaines d'eau pour les PRA",
+  "typeMarche": "Fourniture",
+  "financement": [
+   "Budget propre"
+  ],
+  "mode": "Demande de renseignements et de prix à compétition ouverte",
+  "lancement": "2026-07-21",
+  "attribution": "2026-08-21",
+  "demarrage": "2026-10-05",
+  "achevement": null,
+  "etat": null,
+  "montantFcfa": null
+ },
+ {
+  "autorite": "SENPNA",
+  "plan": "SENPNA_2026_14",
+  "direction": "DIRECTION DE L'ADMINISTRATION ET DES FINANCES",
+  "reference": "F_SENPNA_DAF_12194",
+  "objet": "acquisition de matériels roulant au profit de la SEN PNA(Relance du credit-bail)",
+  "typeMarche": "Fourniture",
+  "financement": [
+   "Financement extérieur"
+  ],
+  "mode": "Appel d'offres ouvert",
+  "lancement": "2026-10-16",
+  "attribution": "2027-01-19",
+  "demarrage": "2027-03-16",
+  "achevement": null,
+  "etat": null,
+  "montantFcfa": null
+ },
+ {
+  "autorite": "SENPNA",
+  "plan": "SENPNA_2026_14",
+  "direction": "SECRETARIAT GENERAL-SERVICE DES SYSTEMES D'INFORMATION GLOBALE",
+  "reference": "S_SENPNA_SG-SIG_12205",
+  "objet": "Sélection d'un prestataire pour le leasing des imprimantes de la SEN-PNA",
+  "typeMarche": "Services",
+  "financement": [
+   "Budget propre"
+  ],
+  "mode": "Demande de renseignements et de prix à compétition ouverte",
+  "lancement": "2026-07-22",
+  "attribution": "2026-08-24",
+  "demarrage": "2026-10-06",
+  "achevement": null,
+  "etat": null,
+  "montantFcfa": null
+ },
+ {
+  "autorite": "SENPNA",
+  "plan": "SENPNA_2026_14",
+  "direction": "DIRECTION DE L'ADMINISTRATION ET DES FINANCES",
+  "reference": "T_SENPNA_DAF_12211",
+  "objet": "Installation de hangars et bureaux en préfabriqué",
+  "typeMarche": "Travaux",
+  "financement": [
+   "Budget propre"
+  ],
+  "mode": "Appel d'offres ouvert",
+  "lancement": "2026-11-11",
+  "attribution": "2027-02-12",
+  "demarrage": "2027-04-09",
+  "achevement": null,
+  "etat": null,
+  "montantFcfa": null
+ },
+ {
+  "autorite": "SENPNA",
+  "plan": "SENPNA_2026_14",
+  "direction": "SERVICE QUALITE HYGIENE SECURITE ENVIRONNEMENT",
+  "reference": "F_SENPNA_ SQHSE_12392",
+  "objet": "Acquisition de matériel de sureté et de sécurité (système anti-incendie)",
+  "typeMarche": "Fourniture",
+  "financement": [
+   "Budget propre"
+  ],
+  "mode": "Appel d'offres ouvert",
+  "lancement": "2026-09-03",
+  "attribution": "2026-12-28",
+  "demarrage": "2027-02-22",
+  "achevement": null,
+  "etat": null,
+  "montantFcfa": null
+ },
+ {
+  "autorite": "SENPNA",
+  "plan": "SENPNA_2026_14",
+  "direction": "DIRECTION DE L'ADMINISTRATION ET DES FINANCES",
+  "reference": "T_SENPNA_DAF_12527",
+  "objet": "Finalisation des travaux de construction de la PRA de Kaffrine et du dépôt de Touba",
+  "typeMarche": "Travaux",
+  "financement": [
+   "Budget propre"
+  ],
+  "mode": "Appel d'offres ouvert",
+  "lancement": "2026-09-07",
+  "attribution": "2026-12-30",
+  "demarrage": "2027-02-24",
+  "achevement": null,
+  "etat": null,
+  "montantFcfa": null
+ },
+ {
+  "autorite": "SENPNA",
+  "plan": "SENPNA_2026_14",
+  "direction": "DIRECTION DE L'ADMINISTRATION ET DES FINANCES",
+  "reference": "F_SENPNA_DAF_12493",
+  "objet": "Acquisition de tenues de travail",
+  "typeMarche": "Fourniture",
+  "financement": [
+   "Budget propre"
+  ],
+  "mode": "Demande de renseignement et de prix à compétition restreinte",
+  "lancement": "2026-07-15",
+  "attribution": "2026-08-17",
+  "demarrage": "2026-08-28",
+  "achevement": null,
+  "etat": null,
+  "montantFcfa": null
+ },
+ {
+  "autorite": "SENPNA",
+  "plan": "SENPNA_2026_14",
+  "direction": "DIRECTION DE L'ADMINISTRATION ET DES FINANCES",
+  "reference": "T_SENPNA_DAF_13004",
+  "objet": "Réhabilitation des PRA",
+  "typeMarche": "Travaux",
+  "financement": [
+   "Budget propre"
+  ],
+  "mode": "Appel d'offres ouvert",
+  "lancement": "2026-09-14",
+  "attribution": "2027-01-06",
+  "demarrage": "2027-03-03",
+  "achevement": null,
+  "etat": null,
+  "montantFcfa": null
+ },
+ {
+  "autorite": "SENPNA",
+  "plan": "SENPNA_2026_14",
+  "direction": "DIRECTION DE L'ADMINISTRATION ET DES FINANCES",
+  "reference": "F_SENPNA_DAF_12184",
+  "objet": "Acquisition et installation de système de géolocalisation (gestion de la flotte automobile)",
+  "typeMarche": "Fourniture",
+  "financement": [
+   "Budget propre"
+  ],
+  "mode": "Demande de renseignements et de prix à compétition ouverte",
+  "lancement": "2026-08-14",
+  "attribution": "2026-09-16",
+  "demarrage": "2026-10-29",
+  "achevement": null,
+  "etat": null,
+  "montantFcfa": null
+ },
+ {
+  "autorite": "SENPNA",
+  "plan": "SENPNA_2026_14",
+  "direction": "DIRECTION DE L'ADMINISTRATION ET DES FINANCES",
+  "reference": "S_SENPNA_DAF_13005",
+  "objet": "Services d'assistance en Pharmacie, manutention ,Administratif ,et Technique",
+  "typeMarche": "Services",
+  "financement": [
+   "Budget propre"
+  ],
+  "mode": "Appel d'offres ouvert",
+  "lancement": "2026-09-23",
+  "attribution": "2027-01-15",
+  "demarrage": "2027-03-12",
+  "achevement": null,
+  "etat": null,
+  "montantFcfa": null
+ },
+ {
+  "autorite": "SENPNA",
+  "plan": "SENPNA_2026_14",
+  "direction": "SECRETARIAT GENERAL-SERVICE DES SYSTEMES D'INFORMATION GLOBALE",
+  "reference": "F_SENPNA_SG-SIG_13486",
+  "objet": "Acquisition et fourniture de DUA et implémentions des modules Eloficash et Youdoc à Sage ERPX3 v12 de la SEN PNA",
+  "typeMarche": "Fourniture",
+  "financement": [
+   "Budget propre"
+  ],
+  "mode": "Appel d'offres ouvert",
+  "lancement": "2026-10-15",
+  "attribution": "2027-02-08",
+  "demarrage": "2027-04-05",
+  "achevement": null,
+  "etat": null,
+  "montantFcfa": null
+ },
+ {
+  "autorite": "SENPNA",
+  "plan": "SENPNA_2026_14",
+  "direction": "DIRECTION DE L'ADMINISTRATION ET DES FINANCES",
+  "reference": "C_SENPNA_DAF_13485",
+  "objet": "Renforcement de capacité des agents de la SEN-PNA (formation sur divers modules axés sur le métier)",
+  "typeMarche": "Prestation intellectuelle",
+  "financement": [
+   "Budget propre"
+  ],
+  "mode": "Demande de renseignements et de prix à compétition ouverte",
+  "lancement": "2026-08-06",
+  "attribution": "2026-09-08",
+  "demarrage": "2026-10-21",
+  "achevement": null,
+  "etat": null,
+  "montantFcfa": null
+ },
+ {
+  "autorite": "SENPNA",
+  "plan": "SENPNA_2026_14",
+  "direction": "SECRETARIAT GENERAL-SERVICE DES SYSTEMES D'INFORMATION GLOBALE",
+  "reference": "F_SENPNA_SG-SIG_13487",
+  "objet": "Acquisition, installation et Mise en services d'un SIRH-et progiciel intégrés de gestion des ressources humaine et gestion de la PAIE pour la SEN -PNA",
+  "typeMarche": "Fourniture",
+  "financement": [
+   "Budget propre"
+  ],
+  "mode": "Appel d'offres ouvert",
+  "lancement": "2026-10-26",
+  "attribution": "2027-02-17",
+  "demarrage": "2027-04-14",
+  "achevement": null,
+  "etat": null,
+  "montantFcfa": null
+ },
+ {
+  "autorite": "SENPNA",
+  "plan": "SENPNA_2026_14",
+  "direction": "SECRETARIAT GENERAL-SERVICE DES SYSTEMES D'INFORMATION GLOBALE",
+  "reference": "F_SENPNA_SG-SIG_13489",
+  "objet": "Acquisition et Déploiement d'une solution de Gestion Electronique de document GED et d'Archivage",
+  "typeMarche": "Fourniture",
+  "financement": [
+   "Budget propre"
+  ],
+  "mode": "Appel d'offres ouvert",
+  "lancement": "2026-09-15",
+  "attribution": "2027-01-07",
+  "demarrage": "2027-03-04",
+  "achevement": null,
+  "etat": null,
+  "montantFcfa": null
+ },
+ {
+  "autorite": "SENPNA",
+  "plan": "SENPNA_2026_14",
+  "direction": "SECRETARIAT GENERAL-SERVICE DES SYSTEMES D'INFORMATION GLOBALE",
+  "reference": "F_SENPNA_SG-SIG_13488",
+  "objet": "Acquisition et déploiement d'une solution XDR (Extended Detection AND Response",
+  "typeMarche": "Fourniture",
+  "financement": [
+   "Budget propre"
+  ],
+  "mode": "Demande de renseignements et de prix à compétition ouverte",
+  "lancement": "2026-08-12",
+  "attribution": "2026-09-14",
+  "demarrage": "2026-10-27",
+  "achevement": null,
+  "etat": null,
+  "montantFcfa": null
+ },
+ {
+  "autorite": "SENPNA",
+  "plan": "SENPNA_2026_14",
+  "direction": "SECRETARIAT GENERAL-SERVICE DES SYSTEMES D'INFORMATION GLOBALE",
+  "reference": "F_SENPNA_SG-SIG_13490",
+  "objet": "Acquisition et en place d'un extranet de suivi et de commande en ligne",
+  "typeMarche": "Fourniture",
+  "financement": [
+   "Budget propre"
+  ],
+  "mode": "Demande de renseignements et de prix à compétition ouverte",
+  "lancement": "2026-07-24",
+  "attribution": "2026-08-26",
+  "demarrage": "2026-10-08",
+  "achevement": null,
+  "etat": null,
+  "montantFcfa": null
+ },
+ {
+  "autorite": "SENPNA",
+  "plan": "SENPNA_2026_14",
+  "direction": "DIRECTION DE LA DISTRIBUTION ET DU MARKETING COMMERCIAL",
+  "reference": "S_SENPNA_DDMC_13512",
+  "objet": "Sélection d'un prestataire pour le Branding du matériel roulant",
+  "typeMarche": "Services",
+  "financement": [
+   "Budget propre"
+  ],
+  "mode": "Demande de renseignement et de prix à compétition restreinte",
+  "lancement": "2026-07-24",
+  "attribution": "2026-08-26",
+  "demarrage": "2026-09-08",
+  "achevement": null,
+  "etat": null,
+  "montantFcfa": null
+ },
+ {
+  "autorite": "SENPNA",
+  "plan": "SENPNA_2026_14",
+  "direction": "DIRECTION DE LA DISTRIBUTION ET DU MARKETING COMMERCIAL",
+  "reference": "C_SENPNA_DDMC_13511",
+  "objet": "Sélection d'un consultant pour  la communication institutionnelle",
+  "typeMarche": "Prestation intellectuelle",
+  "financement": [
+   "Budget propre"
+  ],
+  "mode": "Demande de renseignement et de prix à compétition restreinte",
+  "lancement": "2026-08-03",
+  "attribution": "2026-09-03",
+  "demarrage": "2026-09-16",
+  "achevement": null,
+  "etat": null,
+  "montantFcfa": null
+ },
+ {
+  "autorite": "SENPNA",
+  "plan": "SENPNA_2026_14",
+  "direction": "DIRECTION DE L'ADMINISTRATION ET DES FINANCES",
+  "reference": "F_SENPNA_DAF_14514",
+  "objet": "ACQUISITION DE FOURNITURES DE BUREAU, D’IMPRIMÉS ET DE CONSOMMABLES INFORMATIQUES",
+  "typeMarche": "Fourniture",
+  "financement": [
+   "Budget propre"
+  ],
+  "mode": "Demande de renseignements et de prix à compétition ouverte",
+  "lancement": "2026-08-18",
+  "attribution": "2026-09-18",
+  "demarrage": "2026-11-02",
+  "achevement": null,
+  "etat": null,
+  "montantFcfa": null
+ },
+ {
+  "autorite": "SENPNA",
+  "plan": "SENPNA_2026_14",
+  "direction": "DIRECTION DE LA DISTRIBUTION ET DU MARKETING COMMERCIAL",
+  "reference": "S_SENPNA_DDMC_16011",
+  "objet": "Sélection d'un prestataire pour le Branding du matériel roulant(relance de la procedure S_DDMC_023/2026)",
+  "typeMarche": "Services",
+  "financement": [
+   "Budget propre"
+  ],
+  "mode": "Demande de renseignement et de prix à compétition restreinte",
+  "lancement": "2026-09-03",
+  "attribution": "2026-10-06",
+  "demarrage": "2026-10-19",
+  "achevement": null,
+  "etat": null,
+  "montantFcfa": null
+ },
+ {
+  "autorite": "SENPNA",
+  "plan": "SENPNA_2026_14",
+  "direction": "DIRECTION DE L'ADMINISTRATION ET DES FINANCES",
+  "reference": "F_SENPNA_DAF_17276",
+  "objet": "Fourniture de Bouteilles D'eau pour Fontaines et de Gobelets en cartons",
+  "typeMarche": "Fourniture",
+  "financement": [
+   "Budget propre"
+  ],
+  "mode": "Demande de renseignement et de prix à compétition restreinte",
+  "lancement": "2026-09-30",
+  "attribution": "2026-11-02",
+  "demarrage": "2026-11-13",
+  "achevement": null,
+  "etat": null,
+  "montantFcfa": null
+ },
+ {
+  "autorite": "SENPNA",
+  "plan": "SENPNA_2026_14",
+  "direction": "DIRECTION DE L'ADMINISTRATION ET DES FINANCES",
+  "reference": "S_SENPNA_DAF_18231",
+  "objet": "Demande de Renseignements et de Prix à Compétition Restreinte\nPour la sélection d’une agence pour le recrutement de prestataires au profit de la SEN-PNA",
+  "typeMarche": "Services",
+  "financement": [
+   "Budget propre"
+  ],
+  "mode": "Demande de renseignement et de prix à compétition restreinte",
+  "lancement": "2026-10-22",
+  "attribution": "2026-11-24",
+  "demarrage": "2026-12-07",
+  "achevement": null,
+  "etat": null,
+  "montantFcfa": null
+ },
+ {
+  "autorite": "SENPNA",
+  "plan": "SENPNA_2026_14",
+  "direction": "DIRECTION DE L'ADMINISTRATION ET DES FINANCES",
+  "reference": "C_SENPNA_DAF_18331",
+  "objet": "Sélection d’un consultant pour les études techniques de maîtrise d'œuvre, de contrôle et surveillance des travaux",
+  "typeMarche": "Prestation intellectuelle",
+  "financement": [
+   "Budget propre"
+  ],
+  "mode": "Demande de renseignement et de prix à compétition restreinte",
+  "lancement": "2026-10-26",
+  "attribution": "2026-11-26",
+  "demarrage": "2026-12-09",
+  "achevement": null,
+  "etat": null,
+  "montantFcfa": null
+ },
+ {
+  "autorite": "SENPNA",
+  "plan": "SENPNA_2026_14",
+  "direction": "DIRECTION DE L'ADMINISTRATION ET DES FINANCES",
+  "reference": "C_SENPNA_DAF_18698",
+  "objet": "Sélection d'un cabinet d'intérim pour la mise à disposition de travailleurs temporaires",
+  "typeMarche": "Prestation intellectuelle",
+  "financement": [
+   "Budget propre"
+  ],
+  "mode": "Demande de renseignements et de prix à compétition ouverte",
+  "lancement": "2026-11-11",
+  "attribution": "2026-12-14",
+  "demarrage": "2027-01-26",
+  "achevement": null,
+  "etat": null,
+  "montantFcfa": null
+ },
+ {
+  "autorite": "SENPNA",
+  "plan": "SENPNA_2026_14",
+  "direction": "DIRECTION DE L'ADMINISTRATION ET DES FINANCES",
+  "reference": "F_SENPNA_DAF_18699",
+  "objet": "Acquisition de Bouteilles d'eau Pour Fontaines et de gobelets en cartons (Relance de la procédure F_DAF_ 043\\2026",
+  "typeMarche": "Fourniture",
+  "financement": [
+   "Budget propre"
+  ],
+  "mode": "Demande de renseignement et de prix à compétition restreinte",
+  "lancement": "2026-11-11",
+  "attribution": "2026-12-14",
+  "demarrage": "2026-12-25",
   "achevement": null,
   "etat": null,
   "montantFcfa": null

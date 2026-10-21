@@ -1,96 +1,6 @@
 {
- "misAJourLe": "2026-10-20",
+ "misAJourLe": "2026-10-21",
  "realisations": [
-  {
-   "id": "ppm-921b5812fb",
-   "autorite": "Conseil Executif des Transports Urbains Durables",
-   "plan": "CETUD_2026_1",
-   "direction": "Projet de Soutien à la Transition vers la Mobilité électrique au Sénégal",
-   "reference": "C_CETUD_PSTMES_12169",
-   "objet": "Recrutement d'un consultant pour l'élaboration de la stratégie de mobilité durable sensible au genre pour la transition vers la mobilité électrique au Senegal",
-   "typeMarche": "Prestation intellectuelle",
-   "secteur": "Études",
-   "financement": [
-    "Financement extérieur"
-   ],
-   "mode": "Avis à Manifestation d’intérêt",
-   "lancement": "2026-08-21",
-   "attribution": "2026-10-09",
-   "etat": null,
-   "montantFcfa": null
-  },
-  {
-   "id": "ppm-b22934c18f",
-   "autorite": "Ministère de l'Enseignement Supérieur de la Recherche et de l'Innovation",
-   "plan": "MESRI_2026_2",
-   "direction": "DIRECTION DE LA MAINTENANCE ET DE L'EQUIPEMENT DE L'ENSEIGNEMENT SUPERIEUR",
-   "reference": "F_MESRI_DMEES_12091",
-   "objet": "Acquisition de mobilier de bureau et d'équipement informatique pour l'ENO de Tamba réparti en deux lots",
-   "typeMarche": "Fourniture",
-   "secteur": "Informatique",
-   "financement": [
-    "Budget propre"
-   ],
-   "mode": "Appel d'offres ouvert",
-   "lancement": "2026-08-21",
-   "attribution": "2026-11-24",
-   "etat": null,
-   "montantFcfa": null
-  },
-  {
-   "id": "ppm-073bf4b38e",
-   "autorite": "IPRES",
-   "plan": "IPRES_2026_1",
-   "direction": "Direction du Patrimoine et de la Logistique",
-   "reference": "S_IPRES_DPL_12452",
-   "objet": "Entretien et maintenance des immeubles, agences et CMS de l'IPRES (marché à clientèle) en vingt et un (21) lots",
-   "typeMarche": "Services",
-   "secteur": "Services",
-   "financement": [
-    "Budget propre"
-   ],
-   "mode": "Appel d'offres ouvert",
-   "lancement": "2026-08-21",
-   "attribution": "2026-12-15",
-   "etat": null,
-   "montantFcfa": null
-  },
-  {
-   "id": "ppm-680f0452e1",
-   "autorite": "LONASE (Loterie Nationale Sénégalaise)",
-   "plan": "LONASE_2026_2",
-   "direction": "DIRECTION DES MOYENS GENERAUX (DMG)",
-   "reference": "F_LONASE_DMG_15052",
-   "objet": "ACQUISITION DE MATÉRIEL ET CONSOMMABLES MÉDICAUX POUR LE CMT DE LA LONASE",
-   "typeMarche": "Fourniture",
-   "secteur": "Fournitures",
-   "financement": [
-    "Budget propre"
-   ],
-   "mode": "Demande de renseignement et de prix à compétition restreinte",
-   "lancement": "2026-08-21",
-   "attribution": "2026-09-23",
-   "etat": null,
-   "montantFcfa": null
-  },
-  {
-   "id": "ppm-61e7c42ec8",
-   "autorite": "La Poste",
-   "plan": "POSTE_2026_2",
-   "direction": "Direction des Moyens Généraux",
-   "reference": "T_POSTE_DMG_12444",
-   "objet": "Travaux d'étanchéité de divers bureaux de Poste",
-   "typeMarche": "Travaux",
-   "secteur": "BTP",
-   "financement": [
-    "Budget propre"
-   ],
-   "mode": "Appel d'offres ouvert",
-   "lancement": "2026-08-21",
-   "attribution": "2026-12-15",
-   "etat": null,
-   "montantFcfa": null
-  },
   {
    "id": "ppm-b6faf58853",
    "autorite": "Ministère de l'Economie,  des Finances et du Plan",
@@ -794,9 +704,9 @@
    "montantFcfa": null
   },
   {
-   "id": "ppm-5fecf2ae24",
+   "id": "ppm-63a53dc965",
    "autorite": "Commune de Touba Mosquée",
-   "plan": "CTM_2026_16",
+   "plan": "CTM_2026_17",
    "direction": "COMMUNE DE TOUBA MOSQUEE(CTM)",
    "reference": "F_CTM_CPM_11735",
    "objet": "Achat d'habillements pour le personnel",
@@ -1622,9 +1532,9 @@
    "montantFcfa": null
   },
   {
-   "id": "ppm-d16d46ff8f",
+   "id": "ppm-8f25cce848",
    "autorite": "SENPNA",
-   "plan": "SENPNA_2026_13",
+   "plan": "SENPNA_2026_14",
    "direction": "SERVICE QUALITE HYGIENE SECURITE ENVIRONNEMENT",
    "reference": "F_SENPNA_ SQHSE_12392",
    "objet": "Acquisition de matériel de sureté et de sécurité (système anti-incendie)",
@@ -1640,9 +1550,9 @@
    "montantFcfa": null
   },
   {
-   "id": "ppm-f6565d3664",
+   "id": "ppm-5bc0ee3a29",
    "autorite": "SENPNA",
-   "plan": "SENPNA_2026_13",
+   "plan": "SENPNA_2026_14",
    "direction": "DIRECTION DE LA DISTRIBUTION ET DU MARKETING COMMERCIAL",
    "reference": "S_SENPNA_DDMC_16011",
    "objet": "Sélection d'un prestataire pour le Branding du matériel roulant(relance de la procedure S_DDMC_023/2026)",
@@ -1784,24 +1694,6 @@
    "montantFcfa": null
   },
   {
-   "id": "ppm-00ffa3e2cd",
-   "autorite": "SENPNA",
-   "plan": "SENPNA_2026_13",
-   "direction": "DIRECTION DE L'ADMINISTRATION ET DES FINANCES",
-   "reference": "T_SENPNA_DAF_12527",
-   "objet": "Finalisation des travaux de construction de la PRA de Kaffrine et du dépôt de Touba",
-   "typeMarche": "Travaux",
-   "secteur": "BTP",
-   "financement": [
-    "Budget propre"
-   ],
-   "mode": "Appel d'offres ouvert",
-   "lancement": "2026-09-07",
-   "attribution": "2026-12-30",
-   "etat": null,
-   "montantFcfa": null
-  },
-  {
    "id": "ppm-434f3ef5f6",
    "autorite": "VILLE DE THIES",
    "plan": "VILLE_THIES_2032",
@@ -1816,6 +1708,24 @@
    "mode": "Demande de renseignement et de prix à compétition restreinte",
    "lancement": "2026-09-07",
    "attribution": "2026-09-15",
+   "etat": null,
+   "montantFcfa": null
+  },
+  {
+   "id": "ppm-a8731107f3",
+   "autorite": "SENPNA",
+   "plan": "SENPNA_2026_14",
+   "direction": "DIRECTION DE L'ADMINISTRATION ET DES FINANCES",
+   "reference": "T_SENPNA_DAF_12527",
+   "objet": "Finalisation des travaux de construction de la PRA de Kaffrine et du dépôt de Touba",
+   "typeMarche": "Travaux",
+   "secteur": "BTP",
+   "financement": [
+    "Budget propre"
+   ],
+   "mode": "Appel d'offres ouvert",
+   "lancement": "2026-09-07",
+   "attribution": "2026-12-30",
    "etat": null,
    "montantFcfa": null
   },
@@ -1982,24 +1892,6 @@
    "montantFcfa": null
   },
   {
-   "id": "ppm-08699327ef",
-   "autorite": "SENPNA",
-   "plan": "SENPNA_2026_13",
-   "direction": "DIRECTION DE L'ADMINISTRATION ET DES FINANCES",
-   "reference": "T_SENPNA_DAF_13004",
-   "objet": "Réhabilitation des PRA",
-   "typeMarche": "Travaux",
-   "secteur": "BTP",
-   "financement": [
-    "Budget propre"
-   ],
-   "mode": "Appel d'offres ouvert",
-   "lancement": "2026-09-14",
-   "attribution": "2027-01-06",
-   "etat": null,
-   "montantFcfa": null
-  },
-  {
    "id": "ppm-3fd8a1395c",
    "autorite": "VILLE DE THIES",
    "plan": "VILLE_THIES_2032",
@@ -2032,6 +1924,24 @@
    "mode": "Demande de renseignement et de prix à compétition restreinte",
    "lancement": "2026-09-14",
    "attribution": "2026-09-25",
+   "etat": null,
+   "montantFcfa": null
+  },
+  {
+   "id": "ppm-b8f28fb13b",
+   "autorite": "SENPNA",
+   "plan": "SENPNA_2026_14",
+   "direction": "DIRECTION DE L'ADMINISTRATION ET DES FINANCES",
+   "reference": "T_SENPNA_DAF_13004",
+   "objet": "Réhabilitation des PRA",
+   "typeMarche": "Travaux",
+   "secteur": "BTP",
+   "financement": [
+    "Budget propre"
+   ],
+   "mode": "Appel d'offres ouvert",
+   "lancement": "2026-09-14",
+   "attribution": "2027-01-06",
    "etat": null,
    "montantFcfa": null
   },
@@ -2216,9 +2126,9 @@
    "montantFcfa": null
   },
   {
-   "id": "ppm-d3fd2a99d7",
+   "id": "ppm-e6fcc85e89",
    "autorite": "Commune de Touba Mosquée",
-   "plan": "CTM_2026_16",
+   "plan": "CTM_2026_17",
    "direction": "COMMUNE DE TOUBA MOSQUEE(CTM)",
    "reference": "F_CTM_CPM_10207",
    "objet": "Achat de pièces de rechange automobile",
@@ -2234,9 +2144,9 @@
    "montantFcfa": null
   },
   {
-   "id": "ppm-05b050b97b",
+   "id": "ppm-53ad41c0f9",
    "autorite": "Commune de Touba Mosquée",
-   "plan": "CTM_2026_16",
+   "plan": "CTM_2026_17",
    "direction": "COMMUNE DE TOUBA MOSQUEE(CTM)",
    "reference": "F_CTM_CPM_17391",
    "objet": "Acquisition de gilets, sacs, chaussures, casquettes personnalisés pour la perception",
@@ -2252,9 +2162,9 @@
    "montantFcfa": null
   },
   {
-   "id": "ppm-0b68a6fc56",
+   "id": "ppm-58d7a0961b",
    "autorite": "SENPNA",
-   "plan": "SENPNA_2026_13",
+   "plan": "SENPNA_2026_14",
    "direction": "SECRETARIAT GENERAL-SERVICE DES SYSTEMES D'INFORMATION GLOBALE",
    "reference": "F_SENPNA_SG-SIG_13489",
    "objet": "Acquisition et Déploiement d'une solution de Gestion Electronique de document GED et d'Archivage",
@@ -2720,9 +2630,9 @@
    "montantFcfa": null
   },
   {
-   "id": "ppm-560b04ddfd",
+   "id": "ppm-8144dc1e89",
    "autorite": "Commune de Touba Mosquée",
-   "plan": "CTM_2026_16",
+   "plan": "CTM_2026_17",
    "direction": "COMMUNE DE TOUBA MOSQUEE(CTM)",
    "reference": "T_CTM_CPM_1207",
    "objet": "Travaux de terrassement et de nivellement dans la Commune de Touba Mosquée",
@@ -2792,24 +2702,6 @@
    "montantFcfa": null
   },
   {
-   "id": "ppm-bad85af3f7",
-   "autorite": "SENPNA",
-   "plan": "SENPNA_2026_13",
-   "direction": "DIRECTION DE L'ADMINISTRATION ET DES FINANCES",
-   "reference": "S_SENPNA_DAF_13005",
-   "objet": "Services d'assistance en Pharmacie, manutention ,Administratif ,et Technique",
-   "typeMarche": "Services",
-   "secteur": "Services",
-   "financement": [
-    "Budget propre"
-   ],
-   "mode": "Appel d'offres ouvert",
-   "lancement": "2026-09-23",
-   "attribution": "2027-01-15",
-   "etat": null,
-   "montantFcfa": null
-  },
-  {
    "id": "ppm-dfa2a48cd9",
    "autorite": "Primature / Sécrétariat Général du gouvernement",
    "plan": "PM / SGG_2026_23",
@@ -2860,6 +2752,24 @@
    "mode": "Demande de renseignement et de prix à compétition restreinte",
    "lancement": "2026-09-23",
    "attribution": "2026-11-11",
+   "etat": null,
+   "montantFcfa": null
+  },
+  {
+   "id": "ppm-8e4081c76a",
+   "autorite": "SENPNA",
+   "plan": "SENPNA_2026_14",
+   "direction": "DIRECTION DE L'ADMINISTRATION ET DES FINANCES",
+   "reference": "S_SENPNA_DAF_13005",
+   "objet": "Services d'assistance en Pharmacie, manutention ,Administratif ,et Technique",
+   "typeMarche": "Services",
+   "secteur": "Services",
+   "financement": [
+    "Budget propre"
+   ],
+   "mode": "Appel d'offres ouvert",
+   "lancement": "2026-09-23",
+   "attribution": "2027-01-15",
    "etat": null,
    "montantFcfa": null
   },
@@ -3746,24 +3656,6 @@
    "montantFcfa": null
   },
   {
-   "id": "ppm-42d2946d7b",
-   "autorite": "SENPNA",
-   "plan": "SENPNA_2026_13",
-   "direction": "DIRECTION DE L'ADMINISTRATION ET DES FINANCES",
-   "reference": "F_SENPNA_DAF_17276",
-   "objet": "Fourniture de Bouteilles D'eau pour Fontaines et de Gobelets en cartons",
-   "typeMarche": "Fourniture",
-   "secteur": "Fournitures",
-   "financement": [
-    "Budget propre"
-   ],
-   "mode": "Demande de renseignement et de prix à compétition restreinte",
-   "lancement": "2026-09-30",
-   "attribution": "2026-11-02",
-   "etat": null,
-   "montantFcfa": null
-  },
-  {
    "id": "ppm-8cd634d5c3",
    "autorite": "Primature / Sécrétariat Général du gouvernement",
    "plan": "PM / SGG_2026_23",
@@ -3778,6 +3670,24 @@
    "mode": "Demande de renseignement et de prix à compétition restreinte",
    "lancement": "2026-09-30",
    "attribution": "2026-11-18",
+   "etat": null,
+   "montantFcfa": null
+  },
+  {
+   "id": "ppm-28a8bf99f8",
+   "autorite": "SENPNA",
+   "plan": "SENPNA_2026_14",
+   "direction": "DIRECTION DE L'ADMINISTRATION ET DES FINANCES",
+   "reference": "F_SENPNA_DAF_17276",
+   "objet": "Fourniture de Bouteilles D'eau pour Fontaines et de Gobelets en cartons",
+   "typeMarche": "Fourniture",
+   "secteur": "Fournitures",
+   "financement": [
+    "Budget propre"
+   ],
+   "mode": "Demande de renseignement et de prix à compétition restreinte",
+   "lancement": "2026-09-30",
+   "attribution": "2026-11-02",
    "etat": null,
    "montantFcfa": null
   },
@@ -4268,24 +4178,6 @@
    "montantFcfa": null
   },
   {
-   "id": "ppm-5a1d7abc50",
-   "autorite": "SENPNA",
-   "plan": "SENPNA_2026_13",
-   "direction": "DIRECTION DE L'ADMINISTRATION ET DES FINANCES",
-   "reference": "F_SENPNA_DAF_17417",
-   "objet": "Acquisition de pneumatiques",
-   "typeMarche": "Fourniture",
-   "secteur": "Fournitures",
-   "financement": [
-    "Budget propre"
-   ],
-   "mode": "Demande de renseignements et de prix à compétition ouverte",
-   "lancement": "2026-10-07",
-   "attribution": "2026-11-09",
-   "etat": null,
-   "montantFcfa": null
-  },
-  {
    "id": "ppm-902f05982c",
    "autorite": "Primature / Sécrétariat Général du gouvernement",
    "plan": "PM / SGG_2026_23",
@@ -4300,6 +4192,24 @@
    "mode": "Demande de renseignements et de prix à compétition ouverte",
    "lancement": "2026-10-07",
    "attribution": "2026-11-25",
+   "etat": null,
+   "montantFcfa": null
+  },
+  {
+   "id": "ppm-c3528cbe2b",
+   "autorite": "SENPNA",
+   "plan": "SENPNA_2026_14",
+   "direction": "DIRECTION DE L'ADMINISTRATION ET DES FINANCES",
+   "reference": "F_SENPNA_DAF_17417",
+   "objet": "Acquisition de pneumatiques",
+   "typeMarche": "Fourniture",
+   "secteur": "Fournitures",
+   "financement": [
+    "Budget propre"
+   ],
+   "mode": "Demande de renseignements et de prix à compétition ouverte",
+   "lancement": "2026-10-07",
+   "attribution": "2026-11-09",
    "etat": null,
    "montantFcfa": null
   },
@@ -4592,24 +4502,6 @@
    "montantFcfa": null
   },
   {
-   "id": "ppm-7bd5ef1094",
-   "autorite": "SENPNA",
-   "plan": "SENPNA_2026_13",
-   "direction": "SECRETARIAT GENERAL-SERVICE DES SYSTEMES D'INFORMATION GLOBALE",
-   "reference": "F_SENPNA_SG-SIG_13486",
-   "objet": "Acquisition et fourniture de DUA et implémentions des modules Eloficash et Youdoc à Sage ERPX3 v12 de la SEN PNA",
-   "typeMarche": "Fourniture",
-   "secteur": "Fournitures",
-   "financement": [
-    "Budget propre"
-   ],
-   "mode": "Appel d'offres ouvert",
-   "lancement": "2026-10-15",
-   "attribution": "2027-02-08",
-   "etat": null,
-   "montantFcfa": null
-  },
-  {
    "id": "ppm-940d9a636d",
    "autorite": "Ville de Guédiawaye",
    "plan": "VG_2026_7",
@@ -4772,6 +4664,24 @@
    "montantFcfa": null
   },
   {
+   "id": "ppm-a5fcde0225",
+   "autorite": "SENPNA",
+   "plan": "SENPNA_2026_14",
+   "direction": "SECRETARIAT GENERAL-SERVICE DES SYSTEMES D'INFORMATION GLOBALE",
+   "reference": "F_SENPNA_SG-SIG_13486",
+   "objet": "Acquisition et fourniture de DUA et implémentions des modules Eloficash et Youdoc à Sage ERPX3 v12 de la SEN PNA",
+   "typeMarche": "Fourniture",
+   "secteur": "Fournitures",
+   "financement": [
+    "Budget propre"
+   ],
+   "mode": "Appel d'offres ouvert",
+   "lancement": "2026-10-15",
+   "attribution": "2027-02-08",
+   "etat": null,
+   "montantFcfa": null
+  },
+  {
    "id": "ppm-8034b33403",
    "autorite": "Autorité de Régulation des Télécommunications et des Postes (ARTP)",
    "plan": "ARTP_2026_20",
@@ -4880,24 +4790,6 @@
    "montantFcfa": null
   },
   {
-   "id": "ppm-994354afb5",
-   "autorite": "SENPNA",
-   "plan": "SENPNA_2026_13",
-   "direction": "DIRECTION DE L'ADMINISTRATION ET DES FINANCES",
-   "reference": "F_SENPNA_DAF_12194",
-   "objet": "acquisition de matériels roulant au profit de la SEN PNA(Relance du credit-bail)",
-   "typeMarche": "Fourniture",
-   "secteur": "Fournitures",
-   "financement": [
-    "Financement extérieur"
-   ],
-   "mode": "Appel d'offres ouvert",
-   "lancement": "2026-10-16",
-   "attribution": "2027-01-19",
-   "etat": null,
-   "montantFcfa": null
-  },
-  {
    "id": "ppm-7b691ef626",
    "autorite": "Ville de Guédiawaye",
    "plan": "VG_2026_7",
@@ -4930,6 +4822,24 @@
    "mode": "Demande de renseignements et de  prix simple",
    "lancement": "2026-10-16",
    "attribution": "2026-10-23",
+   "etat": null,
+   "montantFcfa": null
+  },
+  {
+   "id": "ppm-be33e36a57",
+   "autorite": "SENPNA",
+   "plan": "SENPNA_2026_14",
+   "direction": "DIRECTION DE L'ADMINISTRATION ET DES FINANCES",
+   "reference": "F_SENPNA_DAF_12194",
+   "objet": "acquisition de matériels roulant au profit de la SEN PNA(Relance du credit-bail)",
+   "typeMarche": "Fourniture",
+   "secteur": "Fournitures",
+   "financement": [
+    "Financement extérieur"
+   ],
+   "mode": "Appel d'offres ouvert",
+   "lancement": "2026-10-16",
+   "attribution": "2027-01-19",
    "etat": null,
    "montantFcfa": null
   },
@@ -5096,9 +5006,9 @@
    "montantFcfa": null
   },
   {
-   "id": "ppm-8f8e684377",
+   "id": "ppm-50b1ed1683",
    "autorite": "SENPNA",
-   "plan": "SENPNA_2026_13",
+   "plan": "SENPNA_2026_14",
    "direction": "DIRECTION DE L'ADMINISTRATION ET DES FINANCES",
    "reference": "S_SENPNA_DAF_18231",
    "objet": "Demande de Renseignements et de Prix à Compétition Restreinte\nPour la sélection d’une agence pour le recrutement de prestataires au profit de la SEN-PNA",
@@ -5110,6 +5020,42 @@
    "mode": "Demande de renseignement et de prix à compétition restreinte",
    "lancement": "2026-10-22",
    "attribution": "2026-11-24",
+   "etat": null,
+   "montantFcfa": null
+  },
+  {
+   "id": "ppm-ceaef3ad6c",
+   "autorite": "Commune de Touba Mosquée",
+   "plan": "CTM_2026_17",
+   "direction": "COMMUNE DE TOUBA MOSQUEE(CTM)",
+   "reference": "F_CTM_CPM_18639",
+   "objet": "Achat d'imprimés et registres",
+   "typeMarche": "Fourniture",
+   "secteur": "Fournitures",
+   "financement": [
+    "Budget propre"
+   ],
+   "mode": "Demande de renseignement et de prix à compétition restreinte",
+   "lancement": "2026-10-23",
+   "attribution": "2026-11-25",
+   "etat": null,
+   "montantFcfa": null
+  },
+  {
+   "id": "ppm-8fcfec0efd",
+   "autorite": "Commune de Touba Mosquée",
+   "plan": "CTM_2026_17",
+   "direction": "COMMUNE DE TOUBA MOSQUEE(CTM)",
+   "reference": "S_CTM_CPM_18640",
+   "objet": "Divers entretien de machines et appareils de bureau pour la perception",
+   "typeMarche": "Services",
+   "secteur": "Services",
+   "financement": [
+    "Budget propre"
+   ],
+   "mode": "Demande de renseignement et de prix à compétition restreinte",
+   "lancement": "2026-10-23",
+   "attribution": "2026-11-25",
    "etat": null,
    "montantFcfa": null
   },
@@ -5132,9 +5078,9 @@
    "montantFcfa": null
   },
   {
-   "id": "ppm-585905bc6b",
+   "id": "ppm-b4eedb341a",
    "autorite": "SENPNA",
-   "plan": "SENPNA_2026_13",
+   "plan": "SENPNA_2026_14",
    "direction": "SECRETARIAT GENERAL-SERVICE DES SYSTEMES D'INFORMATION GLOBALE",
    "reference": "F_SENPNA_SG-SIG_13487",
    "objet": "Acquisition, installation et Mise en services d'un SIRH-et progiciel intégrés de gestion des ressources humaine et gestion de la PAIE pour la SEN -PNA",
@@ -5150,9 +5096,9 @@
    "montantFcfa": null
   },
   {
-   "id": "ppm-290307362b",
+   "id": "ppm-62a20938dd",
    "autorite": "SENPNA",
-   "plan": "SENPNA_2026_13",
+   "plan": "SENPNA_2026_14",
    "direction": "DIRECTION DE L'ADMINISTRATION ET DES FINANCES",
    "reference": "C_SENPNA_DAF_18331",
    "objet": "Sélection d’un consultant pour les études techniques de maîtrise d'œuvre, de contrôle et surveillance des travaux",
@@ -6950,9 +6896,27 @@
    "montantFcfa": null
   },
   {
-   "id": "ppm-2e7af82385",
+   "id": "ppm-e13d035988",
+   "autorite": "Primature / Sécrétariat Général du gouvernement",
+   "plan": "PM / SGG_2026_23",
+   "direction": "Secrétariat exécutif du Conseil national de Lutte contre le Sida",
+   "reference": "S_PM / SGG_SE/CNLS_1808",
+   "objet": "Sélection de prestataires pour la production de supports de communication pour le SECNLS (supports tissus, bâches)",
+   "typeMarche": "Services",
+   "secteur": "Services",
+   "financement": [
+    "MIXED"
+   ],
+   "mode": "Demande de renseignements et de prix à compétition ouverte",
+   "lancement": "2026-11-11",
+   "attribution": "2026-12-30",
+   "etat": null,
+   "montantFcfa": null
+  },
+  {
+   "id": "ppm-34de76015c",
    "autorite": "SENPNA",
-   "plan": "SENPNA_2026_13",
+   "plan": "SENPNA_2026_14",
    "direction": "DIRECTION DE L'ADMINISTRATION ET DES FINANCES",
    "reference": "T_SENPNA_DAF_12211",
    "objet": "Installation de hangars et bureaux en préfabriqué",
@@ -6968,20 +6932,38 @@
    "montantFcfa": null
   },
   {
-   "id": "ppm-e13d035988",
-   "autorite": "Primature / Sécrétariat Général du gouvernement",
-   "plan": "PM / SGG_2026_23",
-   "direction": "Secrétariat exécutif du Conseil national de Lutte contre le Sida",
-   "reference": "S_PM / SGG_SE/CNLS_1808",
-   "objet": "Sélection de prestataires pour la production de supports de communication pour le SECNLS (supports tissus, bâches)",
-   "typeMarche": "Services",
-   "secteur": "Services",
+   "id": "ppm-5948220656",
+   "autorite": "SENPNA",
+   "plan": "SENPNA_2026_14",
+   "direction": "DIRECTION DE L'ADMINISTRATION ET DES FINANCES",
+   "reference": "C_SENPNA_DAF_18698",
+   "objet": "Sélection d'un cabinet d'intérim pour la mise à disposition de travailleurs temporaires",
+   "typeMarche": "Prestation intellectuelle",
+   "secteur": "Études",
    "financement": [
-    "MIXED"
+    "Budget propre"
    ],
    "mode": "Demande de renseignements et de prix à compétition ouverte",
    "lancement": "2026-11-11",
-   "attribution": "2026-12-30",
+   "attribution": "2026-12-14",
+   "etat": null,
+   "montantFcfa": null
+  },
+  {
+   "id": "ppm-5007998bfa",
+   "autorite": "SENPNA",
+   "plan": "SENPNA_2026_14",
+   "direction": "DIRECTION DE L'ADMINISTRATION ET DES FINANCES",
+   "reference": "F_SENPNA_DAF_18699",
+   "objet": "Acquisition de Bouteilles d'eau Pour Fontaines et de gobelets en cartons (Relance de la procédure F_DAF_ 043\\2026",
+   "typeMarche": "Fourniture",
+   "secteur": "Fournitures",
+   "financement": [
+    "Budget propre"
+   ],
+   "mode": "Demande de renseignement et de prix à compétition restreinte",
+   "lancement": "2026-11-11",
+   "attribution": "2026-12-14",
    "etat": null,
    "montantFcfa": null
   },

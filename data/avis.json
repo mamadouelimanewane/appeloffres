@@ -1,5 +1,5 @@
 {
- "misAJourLe": "2026-10-20T11:08:34.599Z",
+ "misAJourLe": "2026-10-21T11:25:41.504Z",
  "avis": {
   "senelec:https://www.senelec.sn/media/marches/appels/AVIS_DE_REPORT_AON_33_2026.pdf": {
    "source": "senelec",
@@ -5623,7 +5623,7 @@
    "objet": "Hotel Procurement for WCARO Annual Retreat 2026",
    "type": "Demande de cotation",
    "publieLe": "2026-10-07",
-   "dateLimite": "2026-10-20",
+   "dateLimite": "2026-10-26",
    "url": "https://www.ungm.org/Public/Notice/317251",
    "autorite": "UNFPA (Nations unies)",
    "vuLe": "2026-10-08"
@@ -5908,8 +5908,8 @@
    "reference": "T_VG_DST_18387",
    "objet": "CONSTRUCTION DE SALLES DE CLASSES, CONSTRUCTION DE SALLE MULTI-SPORTS, CONSTRUCTION DE CENTRE D'HEBERGEMENT SPORTIF PHASE 2",
    "type": "Appel d'offres ouvert",
-   "publieLe": "2026-10-14",
-   "dateLimite": "2026-11-13",
+   "publieLe": "2026-10-20",
+   "dateLimite": "2026-11-19",
    "url": "https://www.achatspublics.sn/consultations/tenders?ref=T_VG_DST_18387",
    "autorite": "Ville de Guédiawaye",
    "vuLe": "2026-10-15"
@@ -6195,6 +6195,48 @@
    "url": "https://www.achatspublics.sn/consultations/tenders?ref=T_VG_DST_18388",
    "autorite": "Ville de Guédiawaye",
    "vuLe": "2026-10-20"
+  },
+  "senelec:https://www.senelec.sn/media/marches/appels/Avis_DRPCO_22_2026_RELANCE.pdf": {
+   "source": "senelec",
+   "reference": "DRPCO N°22/2026",
+   "objet": "FOURNITURE D’EQUIPEMENTS (IGBT, COMPTEURS ENERIUM,) POUR LES CENTRALES DU DEPARTEMENT PRODUCTION DAKAR DE SENELEC (RELANCE F-DPP-073) F_DPP_374",
+   "type": "AVIS DE DEMANDE DE RENSEIGNEMENTS ET DE PRIX A COMPETITION OUVERTE",
+   "publieLe": null,
+   "dateLimite": "2026-10-18",
+   "url": "https://www.senelec.sn/media/marches/appels/Avis_DRPCO_22_2026_RELANCE.pdf",
+   "vuLe": "2026-10-21"
+  },
+  "senelec:https://www.senelec.sn/media/marches/appels/Avis_de_Clarification_et_de_Report_sur_AMI_N35-2026.pdf": {
+   "source": "senelec",
+   "reference": "AMI N°35/2026",
+   "objet": "RECRUTEMENT D’UN CONSULTANT POUR LA REALISATION DES ETUDES APS, APD, POUR L’ELECTRIFICATION A MOINDRE COÛT DES LOCALITES DANS LE PERIMETRE DE SENELEC",
+   "type": "AVIS DE CLARIFICATION ET DE REPORT DE DATE DE LA SOLLICITATION DE MANIFESTATIONS D’INTERETS",
+   "publieLe": null,
+   "dateLimite": "2026-11-04",
+   "url": "https://www.senelec.sn/media/marches/appels/Avis_de_Clarification_et_de_Report_sur_AMI_N35-2026.pdf",
+   "vuLe": "2026-10-21"
+  },
+  "ungm:https://www.ungm.org/Public/Notice/319021": {
+   "source": "ungm",
+   "reference": "rfx_12742_ROAF",
+   "objet": "Appel pour un contrat de collaboration externe – Evaluation finale indépendante du projet ADIJEFE «Stimuler la création d’emplois décents par l’amélioration du dispositif d’insertion des jeunes femmes et hommes et la formalisation des entreprises au Sénéga",
+   "type": "Recrutement de consultant",
+   "publieLe": "2026-10-20",
+   "dateLimite": "2026-10-29",
+   "url": "https://www.ungm.org/Public/Notice/319021",
+   "autorite": "OIT (Nations unies)",
+   "vuLe": "2026-10-21"
+  },
+  "ungm:https://www.ungm.org/Public/Notice/319004": {
+   "source": "ungm",
+   "reference": "UNW-WCA-2026-00034",
+   "objet": "Services de communication et production audiovisuelle pour l’organisation d’un r",
+   "type": "Demande de cotation",
+   "publieLe": "2026-10-20",
+   "dateLimite": "2026-10-27",
+   "url": "https://www.ungm.org/Public/Notice/319004",
+   "autorite": "UN-Women (Nations unies)",
+   "vuLe": "2026-10-21"
   }
  }
 }
