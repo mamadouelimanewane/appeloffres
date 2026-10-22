@@ -1,204 +1,6 @@
 {
- "misAJourLe": "2026-10-21",
+ "misAJourLe": "2026-10-22",
  "avis": [
-  {
-   "id": "senelec-5ff38a44fc",
-   "source": "senelec",
-   "sourceLibelle": "Senelec",
-   "reference": "TDR AMI 25 - 2026",
-   "titre": "RECRUTEMENT D’UN CONSULTANT POUR LA REALISATION DES ETUDES APS, APD POUR L’ELECTRIFICATION A MOINDRE COÛT DES LOCALITES DANS LE PERIMETRE DE SENELEC (1600 LOCALITES)",
-   "autorite": "Senelec",
-   "secteur": "Études",
-   "region": null,
-   "mode": "AVIS D’APPEL D’OFFRES NATIONAL",
-   "budgetEstime": null,
-   "garantieSoumission": null,
-   "publieLe": null,
-   "dateLimite": "2026-10-21",
-   "url": "https://www.senelec.sn/media/marches/appels/TDR_AMI_25_-_2026_5JXCeQ6.pdf",
-   "lectureIa": {
-    "resume": "Le projet PADAES/SENELEC recrute un consultant pour réaliser des études de faisabilité technique, économique, environnementale et sociale en vue de l'électrification à moindre coût de 1600 localités dans le périmètre de SENELEC. Le consultant devra également élaborer le dossier d'appel d'offres pour les travaux.",
-    "piecesExigees": [],
-    "heureLimite": null,
-    "dateLimiteAvis": null,
-    "exigences": {
-     "chiffreAffairesMinFcfa": null,
-     "ligneCreditMinFcfa": null,
-     "marchesSimilairesMin": null,
-     "experienceMinAnnees": null,
-     "personnelCle": [],
-     "materiel": []
-    },
-    "autresDates": [],
-    "lieuDepot": null,
-    "modele": "deepseek-flash",
-    "tronque": true
-   }
-  },
-  {
-   "id": "senelec-24b8a3afda",
-   "source": "senelec",
-   "sourceLibelle": "Senelec",
-   "reference": "AA0 N°36/2026",
-   "titre": "ACQUISITION DE BATTERIES D’ONDULEURS POUR LES SALLES D’ENERGIE",
-   "autorite": "Senelec",
-   "secteur": "Fournitures",
-   "region": null,
-   "mode": "Avis d’Appel d’offres national",
-   "budgetEstime": null,
-   "garantieSoumission": 1500000,
-   "publieLe": null,
-   "dateLimite": "2026-10-21",
-   "url": "https://www.senelec.sn/media/marches/appels/AVIS_AO__36-2026_-_BATTERIES_POUR_SALLES_DENERGIES.pdf",
-   "lectureIa": {
-    "resume": "Senelec lance un appel d'offres pour l'acquisition de batteries d'onduleurs destinées à ses salles d'énergie. Les offres doivent être déposées au plus tard le 21 octobre 2026 à 09h30, avec une garantie de soumission de 1 500 000 FCFA.",
-    "piecesExigees": [
-     "États financiers des trois derniers exercices (2023, 2024 et 2025) certifiés par un commissaire aux comptes ou visés par un membre de l'ONECCA",
-     "Attestation de bonne exécution d'un marché de fourniture et installation de batteries d'onduleurs réalisé entre 2021 et 2025",
-     "Attestation de partenariat valide du fabriquant des batteries ou du distributeur agréé",
-     "CV signé et copies légalisées des diplômes/attestations du chef de projet et des techniciens",
-     "Preuves de propriété ou contrats de location des moyens matériels",
-     "Documents justifiant la régularité fiscale et sociale : quitus fiscal, IPRES, Sécurité Sociale, Inspection du Travail, attestation de paiement de la redevance ARCOP gestion 2025 au 31 décembre 2025",
-     "Attestation de non-faillite à la signature du contrat",
-     "Garantie de soumission de 1 500 000 FCFA"
-    ],
-    "heureLimite": "09 HEURES 30 MINUTES",
-    "dateLimiteAvis": "2026-10-21",
-    "exigences": {
-     "chiffreAffairesMinFcfa": null,
-     "ligneCreditMinFcfa": null,
-     "marchesSimilairesMin": 1,
-     "experienceMinAnnees": null,
-     "personnelCle": [
-      "Chef de projet, ingénieur en électricité ou électrotechnique, BAC +4/5, expérience professionnelle d'au moins 5 ans",
-      "Deux techniciens, chacun BTS en électricité ou électrotechnique, expérience professionnelle de 3 ans"
-     ],
-     "materiel": [
-      "Tapis d'isolation DC",
-      "Gants de protection",
-      "Lunettes de protection",
-      "Chaussures de sécurité",
-      "Transpalette manuel",
-      "Véhicule fourgonnette"
-     ]
-    },
-    "autresDates": [
-     {
-      "libelle": "Ouverture des plis",
-      "date": "2026-10-21"
-     }
-    ],
-    "lieuDepot": "SENELEC, Salle Commission des Marchés sise au 19, rue Abdou Karim Bourgi x Wagane Diouf au 2ème étage de la Résidence Khoudia, Dakar",
-    "modele": "deepseek-flash",
-    "tronque": false
-   }
-  },
-  {
-   "id": "senelec-4766b12ffb",
-   "source": "senelec",
-   "sourceLibelle": "Senelec",
-   "reference": "AMI N°35/2026",
-   "titre": "RECRUTEMENT D’UN CONSULTANT POUR LA REALISATION DES ETUDES APS, APD, POUR L’ELECTRIFICATION A MOINDRE COÛT DES LOCALITES DANS LE PERIMETRE DE SENELEC",
-   "autorite": "Senelec",
-   "secteur": "Études",
-   "region": null,
-   "mode": "AMI N°35/2026",
-   "budgetEstime": null,
-   "garantieSoumission": null,
-   "publieLe": null,
-   "dateLimite": "2026-10-21",
-   "url": "https://www.senelec.sn/media/marches/appels/AMI_N35-2026_-_RECRUTEMENT_CONSULTANT_APS-APD_-_PADAES_-_CPBM-UE-BM-DPM-__Ohowbc8.pdf",
-   "lectureIa": {
-    "resume": "SENELEC recrute un consultant pour réaliser les études APS, APD et le DAO pour l'électrification à moindre coût de 1661 localités, réparties en deux lots. Il faut un cabinet d'études techniques et environnementales avec au moins 10 ans d'expérience en électricité et un agrément du Ministère de l'Environnement, le dépôt des manifestations d'intérêt étant fixé au 21 octobre 2026 à 09h30.",
-    "piecesExigees": [
-     "Attestations de Bonne Exécution ou de Services Faits pour chaque expérience annoncée",
-     "Agrément délivré par le Ministère de l'Environnement et de la Transition Écologique du Sénégal pour la réalisation d'études environnementales",
-     "Licence et capacité d'utilisation d'un Logiciel spécialisé SIG",
-     "Licence et capacité d'utilisation d'un Logiciel de Planification",
-     "Lettre de soumission précisant le(s) lot(s) choisi(s)",
-     "Un (01) original et trois (03) copies en version physique",
-     "Version électronique par courriel"
-    ],
-    "heureLimite": "09 heures 30 mn",
-    "dateLimiteAvis": "2026-10-21",
-    "exigences": {
-     "chiffreAffairesMinFcfa": null,
-     "ligneCreditMinFcfa": null,
-     "marchesSimilairesMin": 1,
-     "experienceMinAnnees": 10,
-     "personnelCle": [],
-     "materiel": [
-      "Logiciel spécialisé SIG (licence)",
-      "Logiciel de Planification (licence)"
-     ]
-    },
-    "autresDates": [
-     {
-      "libelle": "Ouverture des manifestations d'intérêt",
-      "date": "2026-10-21"
-     },
-     {
-      "libelle": "Publication nationale dans Le Soleil N° 16668",
-      "date": "2025-12-25"
-     },
-     {
-      "libelle": "Publication de l'Avis Général de Passation des Marchés",
-      "date": "2022-03-29"
-     }
-    ],
-    "lieuDepot": "Senelec, Salle de la Commission des Marchés, 19 rue Abdou Karim Bourgi x Wagane Diouf, 2ème étage de la Résidence Khoudia, Dakar (version physique) et par courriel à notificationcpm@senelec.sn & mamearame.ndieguene@senelec.sn (version électronique)",
-    "modele": "deepseek-flash",
-    "tronque": false
-   }
-  },
-  {
-   "id": "ungm-4e3af73272",
-   "source": "ungm",
-   "sourceLibelle": "Nations unies (UNGM)",
-   "reference": "2026/FRSEN/FRSEN/138456",
-   "titre": "RECRUTEMENT D’UN CABINET POUR APPUYER LA CEDEAO ET LE MASAE DANS LA PREPARATION D’ECOWAP 2035, LA FINALISATION DE LA LOASP ET LA FORMULATION DE PROGRAMMES D’INVESTISSEMENT AGRICOLES ALIGNES SUR L’AGENDA NATIONAL DE TRANSFORMATION SENEGAL 2050",
-   "autorite": "FAO (Nations unies)",
-   "secteur": "Études",
-   "region": null,
-   "mode": "Demande de propositions",
-   "budgetEstime": null,
-   "garantieSoumission": null,
-   "publieLe": "2026-09-30",
-   "dateLimite": "2026-10-21",
-   "url": "https://www.ungm.org/Public/Notice/316411"
-  },
-  {
-   "id": "ungm-ab9bc74bd0",
-   "source": "ungm",
-   "sourceLibelle": "Nations unies (UNGM)",
-   "reference": "UNDP-SEN-00623",
-   "titre": "CABINET ASSISTANCE TECHNIQUE AU MFEP / ENVIRONNEMENT",
-   "autorite": "PNUD (Nations unies)",
-   "secteur": "Études",
-   "region": null,
-   "mode": "Demande de propositions",
-   "budgetEstime": null,
-   "garantieSoumission": null,
-   "publieLe": "2026-09-30",
-   "dateLimite": "2026-10-21",
-   "url": "https://www.ungm.org/Public/Notice/316405"
-  },
-  {
-   "id": "ungm-e4b5730dc0",
-   "source": "ungm",
-   "sourceLibelle": "Nations unies (UNGM)",
-   "reference": "LRFP-2026-9206302",
-   "titre": "LTA PRINTING SERVICES UNICEF SENEGAL",
-   "autorite": "UNICEF (Nations unies)",
-   "secteur": "Services",
-   "region": null,
-   "mode": "Demande de propositions",
-   "budgetEstime": null,
-   "garantieSoumission": null,
-   "publieLe": "2026-09-22",
-   "dateLimite": "2026-10-21",
-   "url": "https://www.ungm.org/Public/Notice/315325"
-  },
   {
    "id": "ageroute-5a410ba1a6",
    "source": "ageroute",
@@ -660,6 +462,22 @@
    "publieLe": "2026-10-13",
    "dateLimite": "2026-10-28",
    "url": "https://www.achatspublics.sn/consultations/tenders?ref=F_VG_DAF_18392"
+  },
+  {
+   "id": "ungm-84bf4c17d1",
+   "source": "ungm",
+   "sourceLibelle": "Nations unies (UNGM)",
+   "reference": "2026/FRSEN/FRSEN/138445",
+   "titre": "Recrutement d’un cabinet pour appuyer la CEDEAO et le MASAE dans la préparation d’ECOWAP 2035,",
+   "autorite": "FAO (Nations unies)",
+   "secteur": "Études",
+   "region": null,
+   "mode": "Appel d'offres",
+   "budgetEstime": null,
+   "garantieSoumission": null,
+   "publieLe": "2026-10-21",
+   "dateLimite": "2026-10-28",
+   "url": "https://www.ungm.org/Public/Notice/319138"
   },
   {
    "id": "ungm-a4370dc44a",
@@ -1393,6 +1211,22 @@
    "publieLe": "2026-10-19",
    "dateLimite": "2026-11-18",
    "url": "https://www.achatspublics.sn/consultations/tenders?ref=T_VG_DST_18388"
+  },
+  {
+   "id": "appel-3a2a7bbc18",
+   "source": "appel",
+   "sourceLibelle": "APPEL (plateforme officielle)",
+   "reference": "F_SENELEC_DPP_16666",
+   "titre": "Fourniture d’équipements IGBT,compteurs enerium,…) pour les centrales du département production Dakar de SENELEC (relance F-DPP-073)",
+   "autorite": "SENELEC",
+   "secteur": "Fournitures",
+   "region": null,
+   "mode": "Demande de renseignements et de prix à compétition ouverte",
+   "budgetEstime": null,
+   "garantieSoumission": null,
+   "publieLe": "2026-10-21",
+   "dateLimite": "2026-11-18",
+   "url": "https://www.achatspublics.sn/consultations/tenders?ref=F_SENELEC_DPP_16666"
   },
   {
    "id": "wp:lesoleil.sn-d2a41d8d0e",

@@ -1,5 +1,5 @@
 {
- "misAJourLe": "2026-10-21",
+ "misAJourLe": "2026-10-22",
  "realisations": [
   {
    "id": "ppm-b6faf58853",
@@ -470,9 +470,9 @@
    "montantFcfa": null
   },
   {
-   "id": "ppm-0c2c2f061e",
+   "id": "ppm-affd9939f7",
    "autorite": "Primature / Sécrétariat Général du gouvernement",
-   "plan": "PM / SGG_2026_23",
+   "plan": "PM / SGG_2026_24",
    "direction": "Direction de l'Imprimerie nationale",
    "reference": "F_PM / SGG_DIN_1585",
    "objet": "Achat des intrants nécessaires à la réalisation des publications officielles (bombe dégrippant, blanchets, Alcool, eau de mouillage, encre offset.... )",
@@ -2702,9 +2702,9 @@
    "montantFcfa": null
   },
   {
-   "id": "ppm-dfa2a48cd9",
+   "id": "ppm-bdc7d56bec",
    "autorite": "Primature / Sécrétariat Général du gouvernement",
-   "plan": "PM / SGG_2026_23",
+   "plan": "PM / SGG_2026_24",
    "direction": "Direction générale de la Surveillance et du Contrôle de l'Occupation du Sol",
    "reference": "F_PM / SGG_DGSCOS_1767",
    "objet": "Location d'engins pour opérations de démolition",
@@ -2720,9 +2720,9 @@
    "montantFcfa": null
   },
   {
-   "id": "ppm-66fa38b5f3",
+   "id": "ppm-aa6d075545",
    "autorite": "Primature / Sécrétariat Général du gouvernement",
-   "plan": "PM / SGG_2026_23",
+   "plan": "PM / SGG_2026_24",
    "direction": "Secrétariat permanent du Haut Conseil national de Sécurité sanitaire One Health",
    "reference": "S_PM / SGG_ONE HEALTH_17788",
    "objet": "Sélection d'un prestataire pour l'impression des documents One Health et la reproduction de kakémonos",
@@ -2738,9 +2738,9 @@
    "montantFcfa": null
   },
   {
-   "id": "ppm-3b55d97d05",
+   "id": "ppm-94dc4dab96",
    "autorite": "Primature / Sécrétariat Général du gouvernement",
-   "plan": "PM / SGG_2026_23",
+   "plan": "PM / SGG_2026_24",
    "direction": "Direction générale de la Surveillance et du Contrôle de l'Occupation du Sol",
    "reference": "S_PM / SGG_DGSCOS_17251",
    "objet": "Entretien et nettoiement des locaux de la DGCOS",
@@ -3224,24 +3224,6 @@
    "montantFcfa": null
   },
   {
-   "id": "ppm-5ba1b1b0df",
-   "autorite": "SENELEC",
-   "plan": "SENELEC_2026_4",
-   "direction": "Direction Principale Production",
-   "reference": "F_SENELEC_DPP_16666",
-   "objet": "Fourniture d’équipements IGBT,compteurs enerium,…) pour les centrales du département production Dakar de SENELEC (relance F-DPP-073)",
-   "typeMarche": "Fourniture",
-   "secteur": "Fournitures",
-   "financement": [
-    "Budget propre"
-   ],
-   "mode": "Demande de renseignements et de prix à compétition ouverte",
-   "lancement": "2026-09-24",
-   "attribution": "2026-10-27",
-   "etat": null,
-   "montantFcfa": null
-  },
-  {
    "id": "ppm-f0918720c2",
    "autorite": "SENELEC",
    "plan": "SENELEC_2026_4",
@@ -3494,9 +3476,9 @@
    "montantFcfa": null
   },
   {
-   "id": "ppm-296831f99a",
+   "id": "ppm-c9a9db09fa",
    "autorite": "Primature / Sécrétariat Général du gouvernement",
-   "plan": "PM / SGG_2026_23",
+   "plan": "PM / SGG_2026_24",
    "direction": "Secrétariat exécutif du Conseil national de Lutte contre le Sida",
    "reference": "F_PM / SGG_SE/CNLS_18891",
    "objet": "Sélection d’un prestataire pour la location d’équipements de sonorisation pour la 5ème édition des JSSS et de la JMS",
@@ -3656,9 +3638,9 @@
    "montantFcfa": null
   },
   {
-   "id": "ppm-8cd634d5c3",
+   "id": "ppm-1bc1957d18",
    "autorite": "Primature / Sécrétariat Général du gouvernement",
-   "plan": "PM / SGG_2026_23",
+   "plan": "PM / SGG_2026_24",
    "direction": "Secrétariat permanent du Haut Conseil national de Sécurité sanitaire One Health",
    "reference": "F_PM / SGG_ONE HEALTH_17781",
    "objet": "Acquisition de mobiliers de bureau (équipement salle de réunion, équipement des bureaux)",
@@ -4178,9 +4160,9 @@
    "montantFcfa": null
   },
   {
-   "id": "ppm-902f05982c",
+   "id": "ppm-155d010f8c",
    "autorite": "Primature / Sécrétariat Général du gouvernement",
-   "plan": "PM / SGG_2026_23",
+   "plan": "PM / SGG_2026_24",
    "direction": "Secrétariat permanent du Haut Conseil national de Sécurité sanitaire One Health",
    "reference": "F_PM / SGG_ONE HEALTH_17780",
    "objet": "Acquisition de matériels informatiques (ordinateurs portables et fixes)",
@@ -4394,9 +4376,9 @@
    "montantFcfa": null
   },
   {
-   "id": "ppm-eee71ccd5a",
+   "id": "ppm-b6e3688fb8",
    "autorite": "Primature / Sécrétariat Général du gouvernement",
-   "plan": "PM / SGG_2026_23",
+   "plan": "PM / SGG_2026_24",
    "direction": "Secrétariat permanent du Haut Conseil national de Sécurité sanitaire One Health",
    "reference": "S_PM / SGG_ONE HEALTH_17784",
    "objet": "Entretien de véhicules",
@@ -4412,9 +4394,9 @@
    "montantFcfa": null
   },
   {
-   "id": "ppm-28c2df4f59",
+   "id": "ppm-8b341a7171",
    "autorite": "Primature / Sécrétariat Général du gouvernement",
-   "plan": "PM / SGG_2026_23",
+   "plan": "PM / SGG_2026_24",
    "direction": "Secrétariat permanent du Haut Conseil national de Sécurité sanitaire One Health",
    "reference": "S_PM / SGG_ONE HEALTH_17785",
    "objet": "Entretien et nettoiement de locaux du One Health",
@@ -4808,9 +4790,9 @@
    "montantFcfa": null
   },
   {
-   "id": "ppm-63ce929c76",
+   "id": "ppm-ea5e3f6f0f",
    "autorite": "Primature / Sécrétariat Général du gouvernement",
-   "plan": "PM / SGG_2026_23",
+   "plan": "PM / SGG_2026_24",
    "direction": "Secrétariat permanent du Haut Conseil national de Sécurité sanitaire One Health",
    "reference": "S_PM / SGG_ONE HEALTH_17787",
    "objet": "Sélection d'un infographiste pour le PANSS et autres documents élaborés finalisés et validés par OH",
@@ -4880,9 +4862,9 @@
    "montantFcfa": null
   },
   {
-   "id": "ppm-259e8123fa",
+   "id": "ppm-a9fd512f0c",
    "autorite": "Primature / Sécrétariat Général du gouvernement",
-   "plan": "PM / SGG_2026_23",
+   "plan": "PM / SGG_2026_24",
    "direction": "Secrétariat permanent du Haut Conseil national de Sécurité sanitaire One Health",
    "reference": "F_PM / SGG_ONE HEALTH_17779",
    "objet": "Acquisition de fournitures de bureau",
@@ -4916,9 +4898,9 @@
    "montantFcfa": null
   },
   {
-   "id": "ppm-0c6561ffbb",
+   "id": "ppm-2913ddee9f",
    "autorite": "Primature / Sécrétariat Général du gouvernement",
-   "plan": "PM / SGG_2026_23",
+   "plan": "PM / SGG_2026_24",
    "direction": "Secrétariat permanent du Haut Conseil national de Sécurité sanitaire One Health",
    "reference": "C_PM / SGG_ONE HEALTH_17778",
    "objet": "Recrutement d'un consultant pour la finalisation du PANSS et d'autres documents stratégiques du programme One Health",
@@ -4934,9 +4916,9 @@
    "montantFcfa": null
   },
   {
-   "id": "ppm-b595290800",
+   "id": "ppm-032136bc0a",
    "autorite": "Primature / Sécrétariat Général du gouvernement",
-   "plan": "PM / SGG_2026_23",
+   "plan": "PM / SGG_2026_24",
    "direction": "Secrétariat permanent du Haut Conseil national de Sécurité sanitaire One Health",
    "reference": "F_PM / SGG_ONE HEALTH_17782",
    "objet": "Acquisition de denrées alimentaires",
@@ -4952,9 +4934,9 @@
    "montantFcfa": null
   },
   {
-   "id": "ppm-aaa4e419d6",
+   "id": "ppm-5ece2caefb",
    "autorite": "Primature / Sécrétariat Général du gouvernement",
-   "plan": "PM / SGG_2026_23",
+   "plan": "PM / SGG_2026_24",
    "direction": "Secrétariat permanent du Haut Conseil national de Sécurité sanitaire One Health",
    "reference": "F_PM / SGG_ONE HEALTH_17783",
    "objet": "Acquisition de matériels et équipements de communication",
@@ -4970,9 +4952,9 @@
    "montantFcfa": null
   },
   {
-   "id": "ppm-f7486b9bbf",
+   "id": "ppm-70a443b5f6",
    "autorite": "Primature / Sécrétariat Général du gouvernement",
-   "plan": "PM / SGG_2026_23",
+   "plan": "PM / SGG_2026_24",
    "direction": "Secrétariat exécutif du Conseil national de Développement de la Nutrition",
    "reference": "C_PM / SGG_SE-CNDN_17978",
    "objet": "Sélection d’un consultant chargé de l'étude sur \"le statut en iode des populations vulnérables (femmes enceintes et enfants), la couverture en sel iodé et l’identification des principales sources d’iode alimentaires des ménages au Sénégal\"",
@@ -5132,9 +5114,9 @@
    "montantFcfa": null
   },
   {
-   "id": "ppm-bd434e6105",
+   "id": "ppm-d41bd4ffb7",
    "autorite": "Primature / Sécrétariat Général du gouvernement",
-   "plan": "PM / SGG_2026_23",
+   "plan": "PM / SGG_2026_24",
    "direction": "Secrétariat exécutif du Conseil national de Lutte contre le Sida",
    "reference": "C_PM / SGG_SE/CNLS_15233",
    "objet": "Sélection d’un cabinet pour la formation et la migration du logiciel comptable SYSCEBNL pour le SECNLS",
@@ -5150,9 +5132,9 @@
    "montantFcfa": null
   },
   {
-   "id": "ppm-234ef89a24",
+   "id": "ppm-cfdb531853",
    "autorite": "Primature / Sécrétariat Général du gouvernement",
-   "plan": "PM / SGG_2026_23",
+   "plan": "PM / SGG_2026_24",
    "direction": "Secrétariat permanent du Haut Conseil national de Sécurité sanitaire One Health",
    "reference": "S_PM / SGG_ONE HEALTH_17786",
    "objet": "Sélection d'un prestataire pour la Décoration de locaux du One Health",
@@ -5186,9 +5168,9 @@
    "montantFcfa": null
   },
   {
-   "id": "ppm-a692e8e9f0",
+   "id": "ppm-0fbfad08ad",
    "autorite": "Primature / Sécrétariat Général du gouvernement",
-   "plan": "PM / SGG_2026_23",
+   "plan": "PM / SGG_2026_24",
    "direction": "Secrétariat exécutif du Conseil national de Lutte contre le Sida",
    "reference": "F_PM / SGG_SE/CNLS_18890",
    "objet": "Sélection d’un prestataire pour la location et l’aménagement de stands pour la 5ème édition des JSSS et de la JMS",
@@ -5204,9 +5186,9 @@
    "montantFcfa": null
   },
   {
-   "id": "ppm-1fc2307557",
+   "id": "ppm-7344742ecb",
    "autorite": "Primature / Sécrétariat Général du gouvernement",
-   "plan": "PM / SGG_2026_23",
+   "plan": "PM / SGG_2026_24",
    "direction": "Secrétariat exécutif du Conseil national de Lutte contre le Sida",
    "reference": "T_PM / SGG_SE/CNLS_18893",
    "objet": "Travaux de réparation et de réhabilitation du bâtiment du SE/CNLS",
@@ -5258,9 +5240,9 @@
    "montantFcfa": null
   },
   {
-   "id": "ppm-869f02e169",
+   "id": "ppm-f0499020f3",
    "autorite": "Primature / Sécrétariat Général du gouvernement",
-   "plan": "PM / SGG_2026_23",
+   "plan": "PM / SGG_2026_24",
    "direction": "Secrétariat exécutif du Conseil national de Développement de la Nutrition",
    "reference": "F_PM / SGG_SE-CNDN_17977",
    "objet": "Acquisition de farine composée destinée aux enfants de 6 à 23 mois et de kits alimentaires (en deux lots)",
@@ -6680,9 +6662,9 @@
    "montantFcfa": null
   },
   {
-   "id": "ppm-7726a5f52b",
+   "id": "ppm-9dea63d57e",
    "autorite": "Primature / Sécrétariat Général du gouvernement",
-   "plan": "PM / SGG_2026_23",
+   "plan": "PM / SGG_2026_24",
    "direction": "Secrétariat exécutif du Conseil national de Lutte contre le Sida",
    "reference": "S_PM / SGG_SE/CNLS_1812",
    "objet": "Sélection d'un prestataire pour l'entretien des équipements et des installations électriques",
@@ -6860,9 +6842,27 @@
    "montantFcfa": null
   },
   {
-   "id": "ppm-6aad6c990e",
+   "id": "ppm-7196d299b9",
    "autorite": "Primature / Sécrétariat Général du gouvernement",
-   "plan": "PM / SGG_2026_23",
+   "plan": "PM / SGG_2026_24",
+   "direction": "Direction des Archives du Sénégal",
+   "reference": "S_PM / SGG_DAS_1612",
+   "objet": "entretien et maintenance de la climatisation et de l'éclairage",
+   "typeMarche": "Services",
+   "secteur": "Services",
+   "financement": [
+    "Budget propre"
+   ],
+   "mode": "Demande de renseignements et de  prix simple",
+   "lancement": "2026-11-10",
+   "attribution": "2026-11-17",
+   "etat": null,
+   "montantFcfa": null
+  },
+  {
+   "id": "ppm-b5b4db1c93",
+   "autorite": "Primature / Sécrétariat Général du gouvernement",
+   "plan": "PM / SGG_2026_24",
    "direction": "Secrétariat exécutif du Conseil national de Lutte contre le Sida",
    "reference": "C_PM / SGG_SE/CNLS_18892",
    "objet": "Sélection d’un Consultant pour l’élaboration d’un guide de prise en charge du VIH pédiatrique (relance)",
@@ -6878,9 +6878,9 @@
    "montantFcfa": null
   },
   {
-   "id": "ppm-11c0ed0fd4",
+   "id": "ppm-3c2e9ea776",
    "autorite": "Primature / Sécrétariat Général du gouvernement",
-   "plan": "PM / SGG_2026_23",
+   "plan": "PM / SGG_2026_24",
    "direction": "Secrétariat exécutif du Conseil national de Lutte contre le Sida",
    "reference": "S_PM / SGG_SE/CNLS_18894",
    "objet": "Sélection d’un prestataire pour le renouvellement des admissions temporaires des véhicules et des titres d’exonérations du SECNLS (relance)",
@@ -6896,9 +6896,9 @@
    "montantFcfa": null
   },
   {
-   "id": "ppm-e13d035988",
+   "id": "ppm-1ab4f11c8e",
    "autorite": "Primature / Sécrétariat Général du gouvernement",
-   "plan": "PM / SGG_2026_23",
+   "plan": "PM / SGG_2026_24",
    "direction": "Secrétariat exécutif du Conseil national de Lutte contre le Sida",
    "reference": "S_PM / SGG_SE/CNLS_1808",
    "objet": "Sélection de prestataires pour la production de supports de communication pour le SECNLS (supports tissus, bâches)",

@@ -1,5 +1,5 @@
 {
- "misAJourLe": "2026-10-21T11:25:41.504Z",
+ "misAJourLe": "2026-10-22T11:25:11.689Z",
  "avis": {
   "senelec:https://www.senelec.sn/media/marches/appels/AVIS_DE_REPORT_AON_33_2026.pdf": {
    "source": "senelec",
@@ -6237,6 +6237,28 @@
    "url": "https://www.ungm.org/Public/Notice/319004",
    "autorite": "UN-Women (Nations unies)",
    "vuLe": "2026-10-21"
+  },
+  "ungm:https://www.ungm.org/Public/Notice/319138": {
+   "source": "ungm",
+   "reference": "2026/FRSEN/FRSEN/138445",
+   "objet": "Recrutement d’un cabinet pour appuyer la CEDEAO et le MASAE dans la préparation d’ECOWAP 2035,",
+   "type": "Appel d'offres",
+   "publieLe": "2026-10-21",
+   "dateLimite": "2026-10-28",
+   "url": "https://www.ungm.org/Public/Notice/319138",
+   "autorite": "FAO (Nations unies)",
+   "vuLe": "2026-10-22"
+  },
+  "appel:https://www.achatspublics.sn/consultations/tenders?ref=F_SENELEC_DPP_16666": {
+   "source": "appel",
+   "reference": "F_SENELEC_DPP_16666",
+   "objet": "Fourniture d’équipements IGBT,compteurs enerium,…) pour les centrales du département production Dakar de SENELEC (relance F-DPP-073)",
+   "type": "Demande de renseignements et de prix à compétition ouverte",
+   "publieLe": "2026-10-21",
+   "dateLimite": "2026-11-18",
+   "url": "https://www.achatspublics.sn/consultations/tenders?ref=F_SENELEC_DPP_16666",
+   "autorite": "SENELEC",
+   "vuLe": "2026-10-22"
   }
  }
 }
