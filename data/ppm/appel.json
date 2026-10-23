@@ -48008,24 +48008,6 @@
  {
   "autorite": "Primature / Sécrétariat Général du gouvernement",
   "plan": "PM / SGG_2026_24",
-  "direction": "Direction des Archives du Sénégal",
-  "reference": "S_PM / SGG_DAS_1612",
-  "objet": "Entretien et réparation de la plomberie et sanitaire des toilettes de la Direction.",
-  "typeMarche": "Services",
-  "financement": [
-   "Budget propre"
-  ],
-  "mode": "Demande de renseignements et de  prix simple",
-  "lancement": "2026-11-09",
-  "attribution": "2026-11-16",
-  "demarrage": "2026-11-17",
-  "achevement": null,
-  "etat": null,
-  "montantFcfa": null
- },
- {
-  "autorite": "Primature / Sécrétariat Général du gouvernement",
-  "plan": "PM / SGG_2026_24",
   "direction": "Direction de la Coopération technique",
   "reference": "S_PM / SGG_DCT_1280",
   "objet": "Assurance incendie vol",
@@ -48855,24 +48837,6 @@
   "autorite": "Primature / Sécrétariat Général du gouvernement",
   "plan": "PM / SGG_2026_24",
   "direction": "Service de Gestion du Building administratif",
-  "reference": "S_PM / SGG_SGBA_1803",
-  "objet": "Entretien et maintenance des extincteurs d’incendie du Building Administratif",
-  "typeMarche": "Services",
-  "financement": [
-   "Budget propre"
-  ],
-  "mode": "Demande de renseignement et de prix à compétition restreinte",
-  "lancement": "2026-02-05",
-  "attribution": "2026-03-11",
-  "demarrage": "2026-03-30",
-  "achevement": null,
-  "etat": null,
-  "montantFcfa": null
- },
- {
-  "autorite": "Primature / Sécrétariat Général du gouvernement",
-  "plan": "PM / SGG_2026_24",
-  "direction": "Service de Gestion du Building administratif",
   "reference": "S_PM / SGG_SGBA_1805",
   "objet": "Entretien et maintenance de la façade vitrée du Building administratif",
   "typeMarche": "Services",
@@ -48919,6 +48883,24 @@
   "lancement": "2026-11-02",
   "attribution": "2026-11-16",
   "demarrage": "2026-11-18",
+  "achevement": null,
+  "etat": null,
+  "montantFcfa": null
+ },
+ {
+  "autorite": "Primature / Sécrétariat Général du gouvernement",
+  "plan": "PM / SGG_2026_24",
+  "direction": "Service de Gestion du Building administratif",
+  "reference": "S_PM / SGG_SGBA_1803",
+  "objet": "Entretien et maintenance des extincteurs d’incendie du Building Administratif",
+  "typeMarche": "Services",
+  "financement": [
+   "Budget propre"
+  ],
+  "mode": "Demande de renseignement et de prix à compétition restreinte",
+  "lancement": "2026-02-05",
+  "attribution": "2026-03-11",
+  "demarrage": "2026-03-30",
   "achevement": null,
   "etat": null,
   "montantFcfa": null
@@ -50583,6 +50565,24 @@
   "autorite": "Primature / Sécrétariat Général du gouvernement",
   "plan": "PM / SGG_2026_24",
   "direction": "Secrétariat exécutif du Conseil national de Lutte contre le Sida",
+  "reference": "S_PM / SGG_SE/CNLS_1808",
+  "objet": "Sélection de prestataires pour la production de supports de communication pour le SECNLS (supports tissus, bâches)",
+  "typeMarche": "Services",
+  "financement": [
+   "MIXED"
+  ],
+  "mode": "Demande de renseignements et de prix à compétition ouverte",
+  "lancement": "2026-11-11",
+  "attribution": "2026-12-30",
+  "demarrage": "2027-02-11",
+  "achevement": null,
+  "etat": null,
+  "montantFcfa": null
+ },
+ {
+  "autorite": "Primature / Sécrétariat Général du gouvernement",
+  "plan": "PM / SGG_2026_24",
+  "direction": "Secrétariat exécutif du Conseil national de Lutte contre le Sida",
   "reference": "S_PM / SGG_SE/CNLS_18894",
   "objet": "Sélection d’un prestataire pour le renouvellement des admissions temporaires des véhicules et des titres d’exonérations du SECNLS (relance)",
   "typeMarche": "Services",
@@ -50600,17 +50600,71 @@
  {
   "autorite": "Primature / Sécrétariat Général du gouvernement",
   "plan": "PM / SGG_2026_24",
-  "direction": "Secrétariat exécutif du Conseil national de Lutte contre le Sida",
-  "reference": "S_PM / SGG_SE/CNLS_1808",
-  "objet": "Sélection de prestataires pour la production de supports de communication pour le SECNLS (supports tissus, bâches)",
+  "direction": "Direction des Archives du Sénégal",
+  "reference": "S_PM / SGG_DAS_1612",
+  "objet": "Entretien et réparation de la plomberie et sanitaire des toilettes de la Direction.",
   "typeMarche": "Services",
   "financement": [
-   "MIXED"
+   "Budget propre"
   ],
-  "mode": "Demande de renseignements et de prix à compétition ouverte",
-  "lancement": "2026-11-11",
-  "attribution": "2026-12-30",
-  "demarrage": "2027-02-11",
+  "mode": "Demande de renseignements et de  prix simple",
+  "lancement": "2026-11-09",
+  "attribution": "2026-11-16",
+  "demarrage": "2026-11-17",
+  "achevement": null,
+  "etat": null,
+  "montantFcfa": null
+ },
+ {
+  "autorite": "Programme de Modernisation Des Marchés",
+  "plan": "PROMOGEM_2026_1",
+  "direction": "mbaye",
+  "reference": "T_PROMOGEM_GC_18955",
+  "objet": "travaux construction marché de tawfekh",
+  "typeMarche": "Travaux",
+  "financement": [
+   "Budget propre"
+  ],
+  "mode": "Appel d'offres ouvert",
+  "lancement": "2026-12-22",
+  "attribution": "2027-04-15",
+  "demarrage": "2027-06-10",
+  "achevement": null,
+  "etat": null,
+  "montantFcfa": null
+ },
+ {
+  "autorite": "Programme de Modernisation Des Marchés",
+  "plan": "PROMOGEM_2026_1",
+  "direction": "NIANG",
+  "reference": "S_PROMOGEM_RAF_18956",
+  "objet": "entretien reparation de vehicules",
+  "typeMarche": "Services",
+  "financement": [
+   "Budget propre"
+  ],
+  "mode": "Demande de renseignement et de prix à compétition restreinte",
+  "lancement": "2026-11-13",
+  "attribution": "2026-12-16",
+  "demarrage": "2026-12-29",
+  "achevement": null,
+  "etat": null,
+  "montantFcfa": null
+ },
+ {
+  "autorite": "Programme de Modernisation Des Marchés",
+  "plan": "PROMOGEM_2026_1",
+  "direction": "Cellule de Passation des Marchés",
+  "reference": "F_PROMOGEM_CPM_18954",
+  "objet": "ACHAT DE MOBILIERS DE BUREAU",
+  "typeMarche": "Fourniture",
+  "financement": [
+   "Budget propre"
+  ],
+  "mode": "Demande de renseignement et de prix à compétition restreinte",
+  "lancement": "2026-11-13",
+  "attribution": "2026-12-16",
+  "demarrage": "2026-12-29",
   "achevement": null,
   "etat": null,
   "montantFcfa": null

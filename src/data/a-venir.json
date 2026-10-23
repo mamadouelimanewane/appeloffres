@@ -1,5 +1,5 @@
 {
- "misAJourLe": "2026-10-22",
+ "misAJourLe": "2026-10-23",
  "realisations": [
   {
    "id": "ppm-b6faf58853",
@@ -6986,6 +6986,42 @@
    "montantFcfa": null
   },
   {
+   "id": "ppm-5c1bbd5f66",
+   "autorite": "Programme de Modernisation Des Marchés",
+   "plan": "PROMOGEM_2026_1",
+   "direction": "NIANG",
+   "reference": "S_PROMOGEM_RAF_18956",
+   "objet": "entretien reparation de vehicules",
+   "typeMarche": "Services",
+   "secteur": "Services",
+   "financement": [
+    "Budget propre"
+   ],
+   "mode": "Demande de renseignement et de prix à compétition restreinte",
+   "lancement": "2026-11-13",
+   "attribution": "2026-12-16",
+   "etat": null,
+   "montantFcfa": null
+  },
+  {
+   "id": "ppm-e057fc6744",
+   "autorite": "Programme de Modernisation Des Marchés",
+   "plan": "PROMOGEM_2026_1",
+   "direction": "Cellule de Passation des Marchés",
+   "reference": "F_PROMOGEM_CPM_18954",
+   "objet": "ACHAT DE MOBILIERS DE BUREAU",
+   "typeMarche": "Fourniture",
+   "secteur": "Fournitures",
+   "financement": [
+    "Budget propre"
+   ],
+   "mode": "Demande de renseignement et de prix à compétition restreinte",
+   "lancement": "2026-11-13",
+   "attribution": "2026-12-16",
+   "etat": null,
+   "montantFcfa": null
+  },
+  {
    "id": "ppm-3b2de9f73c",
    "autorite": "Autorité de Régulation des Télécommunications et des Postes (ARTP)",
    "plan": "ARTP_2026_20",
@@ -7126,6 +7162,24 @@
    "mode": "Demande de renseignements et de  prix simple",
    "lancement": "2026-12-07",
    "attribution": "2026-12-11",
+   "etat": null,
+   "montantFcfa": null
+  },
+  {
+   "id": "ppm-b937514874",
+   "autorite": "Programme de Modernisation Des Marchés",
+   "plan": "PROMOGEM_2026_1",
+   "direction": "mbaye",
+   "reference": "T_PROMOGEM_GC_18955",
+   "objet": "travaux construction marché de tawfekh",
+   "typeMarche": "Travaux",
+   "secteur": "BTP",
+   "financement": [
+    "Budget propre"
+   ],
+   "mode": "Appel d'offres ouvert",
+   "lancement": "2026-12-22",
+   "attribution": "2027-04-15",
    "etat": null,
    "montantFcfa": null
   },

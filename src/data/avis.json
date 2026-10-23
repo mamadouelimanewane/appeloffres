@@ -1,119 +1,6 @@
 {
- "misAJourLe": "2026-10-22",
+ "misAJourLe": "2026-10-23",
  "avis": [
-  {
-   "id": "ageroute-5a410ba1a6",
-   "source": "ageroute",
-   "sourceLibelle": "AGEROUTE",
-   "reference": "D/1828/A2",
-   "titre": "Travaux d'entretien des routes revêtues dans les régions de Dakar, Thiès, Saint-Louis, Diourbel, Louga, Matam, Tambacounda et Kédougou",
-   "autorite": "AGEROUTE Sénégal",
-   "secteur": "BTP",
-   "region": null,
-   "mode": "Avis d’appel d’offres de travaux",
-   "budgetEstime": null,
-   "garantieSoumission": 60000000,
-   "publieLe": "2026-09-22",
-   "dateLimite": "2026-10-22",
-   "url": "https://ageroute.sn/download/34/avis-appels-offres-travaux/13304/travaux-dentretien-des-routes-revetues-dans-les-regions-de-dakar-thies-saint-louis-diourbel-louga-matam-tambacounda-et-kedougou.pdf",
-   "lectureIa": {
-    "resume": "L’AGEROUTE Sénégal lance un appel d’offres ouvert pour l’entretien des routes revêtues dans huit régions, en un seul lot, pour 12 mois. Il faut notamment avoir exécuté au moins deux marchés similaires de travaux routiers d’au moins 2,4 milliards FCFA chacun et disposer d’une ligne de crédit de 800 millions FCFA, avec une garantie de soumission de 60 millions FCFA.",
-    "piecesExigees": [
-     "Garantie de soumission d’un montant de 60 000 000 FCFA délivrée par une institution financière agréée",
-     "États financiers accompagnés de l’attestation de visa établie par un membre de l’ONECCA ou un organisme assimilé pour les trois dernières années (2023, 2024 et 2025)",
-     "Attestation de ligne de crédit auprès d’une banque agréée par le Ministère de l’Économie, des Finances et du Plan du Sénégal d’un montant de 800 000 000 FCFA"
-    ],
-    "heureLimite": "11 heures 30 minutes",
-    "dateLimiteAvis": "2026-10-22",
-    "exigences": {
-     "chiffreAffairesMinFcfa": 4500000000,
-     "ligneCreditMinFcfa": 800000000,
-     "marchesSimilairesMin": 2,
-     "experienceMinAnnees": 10,
-     "personnelCle": [],
-     "materiel": []
-    },
-    "autresDates": [
-     {
-      "libelle": "Consultation du DAO à partir du",
-      "date": "2026-09-22"
-     },
-     {
-      "libelle": "Ouverture des plis",
-      "date": "2026-10-22"
-     }
-    ],
-    "lieuDepot": "Secrétariat de la Direction de passation des marchés de l’AGEROUTE SENEGAL, Rue David DIOP x F, Fann Résidence - Tel : 33 869 07 51",
-    "modele": "deepseek-flash",
-    "tronque": false
-   }
-  },
-  {
-   "id": "ungm-15f940d388",
-   "source": "ungm",
-   "sourceLibelle": "Nations unies (UNGM)",
-   "reference": "UNDP-SEN-00622",
-   "titre": "RFI RECRUTEMENT OSC POUR ASSISTANCE JURIDIQUE / GOUVERNANCE",
-   "autorite": "PNUD (Nations unies)",
-   "secteur": "Études",
-   "region": null,
-   "mode": "Grant support-call for proposal",
-   "budgetEstime": null,
-   "garantieSoumission": null,
-   "publieLe": "2026-09-30",
-   "dateLimite": "2026-10-22",
-   "url": "https://www.ungm.org/Public/Notice/316323"
-  },
-  {
-   "id": "bceao-f1cfa61b68",
-   "source": "bceao",
-   "sourceLibelle": "BCEAO",
-   "reference": "DP/Z00/DBA/081/2026",
-   "titre": "Sélection d’un prestataire pour la réalisation de l'audit de la communication de la Banque Centrale des Etats de l'Afrique de l'Ouest (BCEAO) (relance)",
-   "autorite": "BCEAO",
-   "secteur": "Études",
-   "region": null,
-   "mode": "Demande de propositions",
-   "budgetEstime": null,
-   "garantieSoumission": null,
-   "publieLe": "2026-09-29",
-   "dateLimite": "2026-10-22",
-   "url": "https://www.bceao.int/fr/appels-offres/selection-dun-prestataire-pour-la-realisation-de-laudit-de-la-communication-de-la-0",
-   "lectureIa": {
-    "resume": null,
-    "piecesExigees": [],
-    "heureLimite": null,
-    "dateLimiteAvis": null,
-    "exigences": {
-     "chiffreAffairesMinFcfa": null,
-     "ligneCreditMinFcfa": null,
-     "marchesSimilairesMin": null,
-     "experienceMinAnnees": null,
-     "personnelCle": [],
-     "materiel": []
-    },
-    "autresDates": [],
-    "lieuDepot": null,
-    "modele": "deepseek-flash",
-    "tronque": true
-   }
-  },
-  {
-   "id": "ungm-874e79cadb",
-   "source": "ungm",
-   "sourceLibelle": "Nations unies (UNGM)",
-   "reference": "2026/FRSEN/SFWDD/138675",
-   "titre": "Achat de 34 Cartouches Toner Canon NPG – 88L",
-   "autorite": "FAO (Nations unies)",
-   "secteur": "Fournitures",
-   "region": null,
-   "mode": "Demande de cotation",
-   "budgetEstime": null,
-   "garantieSoumission": null,
-   "publieLe": "2026-10-19",
-   "dateLimite": "2026-10-22",
-   "url": "https://www.ungm.org/Public/Notice/318751"
-  },
   {
    "id": "ungm-e2a7ce4f71",
    "source": "ungm",
@@ -740,6 +627,22 @@
    "url": "https://www.ungm.org/Public/Notice/318770"
   },
   {
+   "id": "ungm-cb4df944df",
+   "source": "ungm",
+   "sourceLibelle": "Nations unies (UNGM)",
+   "reference": "UNDP-SEN-00630",
+   "titre": "CABINET ASSISTANCE TECHNIQUE AU MFEP / ENVIRONNEMENT",
+   "autorite": "PNUD (Nations unies)",
+   "secteur": "Études",
+   "region": null,
+   "mode": "Demande de propositions",
+   "budgetEstime": null,
+   "garantieSoumission": null,
+   "publieLe": "2026-10-22",
+   "dateLimite": "2026-11-02",
+   "url": "https://www.ungm.org/Public/Notice/319356"
+  },
+  {
    "id": "ageroute-23682bcf93",
    "source": "ageroute",
    "sourceLibelle": "AGEROUTE",
@@ -1101,6 +1004,22 @@
    }
   },
   {
+   "id": "ungm-c56b1a44c3",
+   "source": "ungm",
+   "sourceLibelle": "Nations unies (UNGM)",
+   "reference": "2026/FRSEN/FRSEN/138662",
+   "titre": "Réalisation de forages en quatre (4) lots dans les régions de Kaffrine, Matam et Louga",
+   "autorite": "FAO (Nations unies)",
+   "secteur": "Services",
+   "region": null,
+   "mode": "Appel d'offres",
+   "budgetEstime": null,
+   "garantieSoumission": null,
+   "publieLe": "2026-10-23",
+   "dateLimite": "2026-11-11",
+   "url": "https://www.ungm.org/Public/Notice/319439"
+  },
+  {
    "id": "wp:lesoleil.sn-733b612fae",
    "source": "wp:lesoleil.sn",
    "sourceLibelle": "Sites institutionnels",
@@ -1451,6 +1370,22 @@
    "publieLe": "2026-10-17",
    "dateLimite": null,
    "url": "https://lesoleil.sn/marche-public/aviis-dappel-doffres/"
+  },
+  {
+   "id": "pfongue-ae1ef1f093",
+   "source": "pfongue",
+   "sourceLibelle": "ONG (PFONGUE)",
+   "reference": "non communiquée",
+   "titre": "Consultants individuels ou Cabinets_ Diagnostic organisationnel des SIFA et élaboration des Plans d'Affaires du Projet Sahel Opportunités II au Sénégal",
+   "autorite": "ONG (plate-forme PFONGUE)",
+   "secteur": "Études",
+   "region": null,
+   "mode": "Appel d'offres",
+   "budgetEstime": null,
+   "garantieSoumission": null,
+   "publieLe": "2026-10-22",
+   "dateLimite": null,
+   "url": "https://www.pfongue.org/Appel-d-offres-_Consultants-individuels-ou-Cabinets_-Diagnostic-organisationnel.html"
   }
  ]
 }

@@ -1,5 +1,5 @@
 {
- "misAJourLe": "2026-10-22T11:25:11.689Z",
+ "misAJourLe": "2026-10-23T11:15:40.360Z",
  "avis": {
   "senelec:https://www.senelec.sn/media/marches/appels/AVIS_DE_REPORT_AON_33_2026.pdf": {
    "source": "senelec",
@@ -6259,6 +6259,39 @@
    "url": "https://www.achatspublics.sn/consultations/tenders?ref=F_SENELEC_DPP_16666",
    "autorite": "SENELEC",
    "vuLe": "2026-10-22"
+  },
+  "ungm:https://www.ungm.org/Public/Notice/319439": {
+   "source": "ungm",
+   "reference": "2026/FRSEN/FRSEN/138662",
+   "objet": "Réalisation de forages en quatre (4) lots dans les régions de Kaffrine, Matam et Louga",
+   "type": "Appel d'offres",
+   "publieLe": "2026-10-23",
+   "dateLimite": "2026-11-11",
+   "url": "https://www.ungm.org/Public/Notice/319439",
+   "autorite": "FAO (Nations unies)",
+   "vuLe": "2026-10-23"
+  },
+  "ungm:https://www.ungm.org/Public/Notice/319356": {
+   "source": "ungm",
+   "reference": "UNDP-SEN-00630",
+   "objet": "CABINET ASSISTANCE TECHNIQUE AU MFEP / ENVIRONNEMENT",
+   "type": "Demande de propositions",
+   "publieLe": "2026-10-22",
+   "dateLimite": "2026-11-02",
+   "url": "https://www.ungm.org/Public/Notice/319356",
+   "autorite": "PNUD (Nations unies)",
+   "vuLe": "2026-10-23"
+  },
+  "pfongue:https://www.pfongue.org/Appel-d-offres-_Consultants-individuels-ou-Cabinets_-Diagnostic-organisationnel.html": {
+   "source": "pfongue",
+   "reference": "non communiquée",
+   "objet": "Consultants individuels ou Cabinets_ Diagnostic organisationnel des SIFA et élaboration des Plans d'Affaires du Projet Sahel Opportunités II au Sénégal",
+   "type": "Appel d'offres",
+   "publieLe": "2026-10-22",
+   "dateLimite": null,
+   "url": "https://www.pfongue.org/Appel-d-offres-_Consultants-individuels-ou-Cabinets_-Diagnostic-organisationnel.html",
+   "autorite": "ONG (plate-forme PFONGUE)",
+   "vuLe": "2026-10-23"
   }
  }
 }
