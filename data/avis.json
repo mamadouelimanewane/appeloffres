@@ -1,5 +1,5 @@
 {
- "misAJourLe": "2026-10-25T11:00:23.035Z",
+ "misAJourLe": "2026-10-26T12:32:09.464Z",
  "avis": {
   "senelec:https://www.senelec.sn/media/marches/appels/AVIS_DE_REPORT_AON_33_2026.pdf": {
    "source": "senelec",
@@ -5623,7 +5623,7 @@
    "objet": "Hotel Procurement for WCARO Annual Retreat 2026",
    "type": "Demande de cotation",
    "publieLe": "2026-10-07",
-   "dateLimite": "2026-10-26",
+   "dateLimite": "2026-10-28",
    "url": "https://www.ungm.org/Public/Notice/317251",
    "autorite": "UNFPA (Nations unies)",
    "vuLe": "2026-10-08"
@@ -6292,6 +6292,17 @@
    "url": "https://www.pfongue.org/Appel-d-offres-_Consultants-individuels-ou-Cabinets_-Diagnostic-organisationnel.html",
    "autorite": "ONG (plate-forme PFONGUE)",
    "vuLe": "2026-10-23"
+  },
+  "ungm:https://www.ungm.org/Public/Notice/319632": {
+   "source": "ungm",
+   "reference": "rfx_13041_ROAF",
+   "objet": "Sélection d’un cabinet d’étude pour la réalisation de la collecte des données de terrain dans le cadre de l’étude coûts-bénéfices de l’apprentissage traditionnel et de l’apprentissage rénové au Sénégal",
+   "type": "Demande de cotation",
+   "publieLe": "2026-10-25",
+   "dateLimite": "2026-10-31",
+   "url": "https://www.ungm.org/Public/Notice/319632",
+   "autorite": "OIT (Nations unies)",
+   "vuLe": "2026-10-26"
   }
  }
 }

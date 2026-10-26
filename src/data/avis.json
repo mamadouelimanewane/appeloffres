@@ -1,22 +1,6 @@
 {
- "misAJourLe": "2026-10-25",
+ "misAJourLe": "2026-10-26",
  "avis": [
-  {
-   "id": "ungm-5b96939f9b",
-   "source": "ungm",
-   "sourceLibelle": "Nations unies (UNGM)",
-   "reference": "UNDP-SEN-00625",
-   "titre": "BORNAGE TERRESTRE AIRE MARINE COMMUNAUTAIRE DE SOKONE / ENVIRONNEMENT",
-   "autorite": "PNUD (Nations unies)",
-   "secteur": "Services",
-   "region": null,
-   "mode": "Demande de cotation",
-   "budgetEstime": null,
-   "garantieSoumission": null,
-   "publieLe": "2026-10-13",
-   "dateLimite": "2026-10-25",
-   "url": "https://www.ungm.org/Public/Notice/317995"
-  },
   {
    "id": "bceao-e7656ff954",
    "source": "bceao",
@@ -100,22 +84,6 @@
     "modele": "deepseek-flash",
     "tronque": true
    }
-  },
-  {
-   "id": "ungm-78c9184e49",
-   "source": "ungm",
-   "sourceLibelle": "Nations unies (UNGM)",
-   "reference": "UNFPA-R42-00014",
-   "titre": "Hotel Procurement for WCARO Annual Retreat 2026",
-   "autorite": "UNFPA (Nations unies)",
-   "secteur": "Services",
-   "region": null,
-   "mode": "Demande de cotation",
-   "budgetEstime": null,
-   "garantieSoumission": null,
-   "publieLe": "2026-10-07",
-   "dateLimite": "2026-10-26",
-   "url": "https://www.ungm.org/Public/Notice/317251"
   },
   {
    "id": "wp:lesoleil.sn-d8d1e06c6b",
@@ -285,6 +253,22 @@
     "modele": "deepseek-flash",
     "tronque": false
    }
+  },
+  {
+   "id": "ungm-78c9184e49",
+   "source": "ungm",
+   "sourceLibelle": "Nations unies (UNGM)",
+   "reference": "UNFPA-R42-00014",
+   "titre": "Hotel Procurement for WCARO Annual Retreat 2026",
+   "autorite": "UNFPA (Nations unies)",
+   "secteur": "Services",
+   "region": null,
+   "mode": "Demande de cotation",
+   "budgetEstime": null,
+   "garantieSoumission": null,
+   "publieLe": "2026-10-07",
+   "dateLimite": "2026-10-28",
+   "url": "https://www.ungm.org/Public/Notice/317251"
   },
   {
    "id": "appel-46090753c6",
@@ -461,6 +445,22 @@
    "publieLe": "2026-10-16",
    "dateLimite": "2026-10-31",
    "url": "https://www.achatspublics.sn/consultations/tenders?ref=F_VG_DAF_18303"
+  },
+  {
+   "id": "ungm-192ae8953a",
+   "source": "ungm",
+   "sourceLibelle": "Nations unies (UNGM)",
+   "reference": "rfx_13041_ROAF",
+   "titre": "Sélection d’un cabinet d’étude pour la réalisation de la collecte des données de terrain dans le cadre de l’étude coûts-bénéfices de l’apprentissage traditionnel et de l’apprentissage rénové au Sénégal",
+   "autorite": "OIT (Nations unies)",
+   "secteur": "Études",
+   "region": null,
+   "mode": "Demande de cotation",
+   "budgetEstime": null,
+   "garantieSoumission": null,
+   "publieLe": "2026-10-25",
+   "dateLimite": "2026-10-31",
+   "url": "https://www.ungm.org/Public/Notice/319632"
   },
   {
    "id": "senelec-0ee190f3f3",
