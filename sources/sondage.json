@@ -1,5 +1,5 @@
 {
- "sondeLe": "2026-10-19T10:26:53.194Z",
+ "sondeLe": "2026-10-26T10:41:41.223Z",
  "resultats": [
   {
    "domaine": "arcop.sn",
@@ -32,12 +32,12 @@
    "base": "https://lesoleil.sn",
    "robotsInterdit": false,
    "wordpress": true,
-   "avisRecents": 2,
+   "avisRecents": 3,
    "typesAvis": [
     "marche-public"
    ],
-   "dernier": "2026-08-03",
-   "exemple": "Croisement de Saly (Mbour) : au cœur du quotidien des travailleurs de l&rsquo;ombre"
+   "dernier": "2026-10-23",
+   "exemple": "Faut-il repenser le modèle des sociétés publiques au Sénégal? (Par Cheih NDIAYE)"
   },
   {
    "domaine": "sodefitex.sn",
@@ -260,6 +260,30 @@
    "exemple": null
   },
   {
+   "domaine": "dakar.aics.gov.it",
+   "categorie": "Bailleurs, coopération et ONG",
+   "joignable": true,
+   "base": "https://dakar.aics.gov.it",
+   "robotsInterdit": false,
+   "wordpress": true,
+   "avisRecents": 0,
+   "typesAvis": [],
+   "dernier": null,
+   "exemple": null
+  },
+  {
+   "domaine": "der.sn",
+   "categorie": "Agences et établissements",
+   "joignable": true,
+   "base": "https://der.sn",
+   "robotsInterdit": false,
+   "wordpress": true,
+   "avisRecents": 0,
+   "typesAvis": [],
+   "dernier": null,
+   "exemple": null
+  },
+  {
    "domaine": "douanes.sn",
    "categorie": "Régies financières",
    "joignable": true,
@@ -290,6 +314,18 @@
    "categorie": "Bailleurs, coopération et ONG",
    "joignable": true,
    "base": "https://endatiersmonde.org",
+   "robotsInterdit": false,
+   "wordpress": true,
+   "avisRecents": 0,
+   "typesAvis": [],
+   "dernier": null,
+   "exemple": null
+  },
+  {
+   "domaine": "ept.sn",
+   "categorie": "Universités et écoles",
+   "joignable": true,
+   "base": "https://ept.sn",
    "robotsInterdit": false,
    "wordpress": true,
    "avisRecents": 0,
@@ -350,18 +386,6 @@
    "categorie": "Agences et établissements",
    "joignable": true,
    "base": "https://ita.sn",
-   "robotsInterdit": false,
-   "wordpress": true,
-   "avisRecents": 0,
-   "typesAvis": [],
-   "dernier": null,
-   "exemple": null
-  },
-  {
-   "domaine": "jeunesse.gouv.sn",
-   "categorie": "Ministères",
-   "joignable": true,
-   "base": "https://jeunesse.gouv.sn",
    "robotsInterdit": false,
    "wordpress": true,
    "avisRecents": 0,
@@ -805,7 +829,7 @@
    "domaine": "bad.org",
    "categorie": "Bailleurs, coopération et ONG",
    "joignable": true,
-   "base": "https://www.bad.org",
+   "base": "https://bad.org",
    "robotsInterdit": false,
    "wordpress": false,
    "avisRecents": 0,
@@ -960,9 +984,9 @@
   {
    "domaine": "chrthies.sn",
    "categorie": "Santé",
-   "joignable": false,
-   "base": null,
-   "robotsInterdit": false,
+   "joignable": true,
+   "base": "https://chrthies.sn",
+   "robotsInterdit": true,
    "wordpress": false,
    "avisRecents": 0,
    "typesAvis": [],
@@ -1020,8 +1044,8 @@
   {
    "domaine": "cnts.sn",
    "categorie": "Agences et établissements",
-   "joignable": false,
-   "base": null,
+   "joignable": true,
+   "base": "https://cnts.sn",
    "robotsInterdit": false,
    "wordpress": false,
    "avisRecents": 0,
@@ -1138,18 +1162,6 @@
    "exemple": null
   },
   {
-   "domaine": "dakar.aics.gov.it",
-   "categorie": "Bailleurs, coopération et ONG",
-   "joignable": false,
-   "base": null,
-   "robotsInterdit": false,
-   "wordpress": false,
-   "avisRecents": 0,
-   "typesAvis": [],
-   "dernier": null,
-   "exemple": null
-  },
-  {
    "domaine": "dalaljamm.sn",
    "categorie": "Santé",
    "joignable": false,
@@ -1164,18 +1176,6 @@
   {
    "domaine": "ddd.sn",
    "categorie": "Sociétés nationales",
-   "joignable": false,
-   "base": null,
-   "robotsInterdit": false,
-   "wordpress": false,
-   "avisRecents": 0,
-   "typesAvis": [],
-   "dernier": null,
-   "exemple": null
-  },
-  {
-   "domaine": "der.sn",
-   "categorie": "Agences et établissements",
    "joignable": false,
    "base": null,
    "robotsInterdit": false,
@@ -1322,18 +1322,6 @@
    "categorie": "Ministères",
    "joignable": true,
    "base": "https://environnement.gouv.sn",
-   "robotsInterdit": false,
-   "wordpress": false,
-   "avisRecents": 0,
-   "typesAvis": [],
-   "dernier": null,
-   "exemple": null
-  },
-  {
-   "domaine": "ept.sn",
-   "categorie": "Universités et écoles",
-   "joignable": true,
-   "base": "https://ept.sn",
    "robotsInterdit": false,
    "wordpress": false,
    "avisRecents": 0,
@@ -1574,6 +1562,18 @@
    "categorie": "Bailleurs, coopération et ONG",
    "joignable": true,
    "base": "https://www.isdb.org",
+   "robotsInterdit": false,
+   "wordpress": false,
+   "avisRecents": 0,
+   "typesAvis": [],
+   "dernier": null,
+   "exemple": null
+  },
+  {
+   "domaine": "jeunesse.gouv.sn",
+   "categorie": "Ministères",
+   "joignable": true,
+   "base": "https://jeunesse.gouv.sn",
    "robotsInterdit": false,
    "wordpress": false,
    "avisRecents": 0,
@@ -1956,8 +1956,8 @@
   {
    "domaine": "sogip.sn",
    "categorie": "Sociétés nationales",
-   "joignable": false,
-   "base": null,
+   "joignable": true,
+   "base": "https://sogip.sn",
    "robotsInterdit": false,
    "wordpress": false,
    "avisRecents": 0,
@@ -2005,7 +2005,7 @@
    "domaine": "sports.gouv.sn",
    "categorie": "Ministères",
    "joignable": true,
-   "base": "https://www.sports.gouv.sn",
+   "base": "https://sports.gouv.sn",
    "robotsInterdit": false,
    "wordpress": false,
    "avisRecents": 0,
@@ -2088,8 +2088,8 @@
   {
    "domaine": "ugb.sn",
    "categorie": "Universités et écoles",
-   "joignable": true,
-   "base": "https://ugb.sn",
+   "joignable": false,
+   "base": null,
    "robotsInterdit": false,
    "wordpress": false,
    "avisRecents": 0,
