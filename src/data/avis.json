@@ -1,106 +1,6 @@
 {
- "misAJourLe": "2026-10-26",
+ "misAJourLe": "2026-10-27",
  "avis": [
-  {
-   "id": "bceao-e7656ff954",
-   "source": "bceao",
-   "sourceLibelle": "BCEAO",
-   "reference": "AC/K01/AAK/002/2026",
-   "titre": "Travaux de remplacement d'un scanner de colis à rayons X et des équipements de détection de métaux (portique et portatif) de l'Agence Auxiliaire de la BCEAO à Kaolack",
-   "autorite": "BCEAO",
-   "secteur": "BTP",
-   "region": null,
-   "mode": "Appel à la concurrence",
-   "budgetEstime": null,
-   "garantieSoumission": null,
-   "publieLe": "2026-10-05",
-   "dateLimite": "2026-10-26",
-   "url": "https://www.bceao.int/fr/appels-offres/travaux-de-remplacement-dun-scanner-de-colis-rayons-x-et-des-equipements-de-detection",
-   "lectureIa": {
-    "resume": "Ce document n'est pas un avis d'appel d'offres : il s'agit du Rapport sur la politique monétaire dans l'UMOA de juin 2023, publié par la BCEAO. Aucune demande de soumission, date limite de dépôt ni condition de qualification n'y figure.",
-    "piecesExigees": [],
-    "heureLimite": null,
-    "dateLimiteAvis": null,
-    "exigences": {
-     "chiffreAffairesMinFcfa": null,
-     "ligneCreditMinFcfa": null,
-     "marchesSimilairesMin": null,
-     "experienceMinAnnees": null,
-     "personnelCle": [],
-     "materiel": []
-    },
-    "autresDates": [],
-    "lieuDepot": null,
-    "modele": "deepseek-flash",
-    "tronque": true
-   }
-  },
-  {
-   "id": "wp:enabel.be-a5ec1d0cdb",
-   "source": "wp:enabel.be",
-   "sourceLibelle": "Sites institutionnels",
-   "reference": "non communiquée",
-   "titre": "Institutional Capacity Building for Women in Tech (WiT) Communities in Tanzania, Uganda and Senegal.",
-   "autorite": "Enabel - Belgian Agency for International Cooperation",
-   "secteur": "Services",
-   "region": null,
-   "mode": "Appel d'offres",
-   "budgetEstime": null,
-   "garantieSoumission": null,
-   "publieLe": "2026-10-01",
-   "dateLimite": "2026-10-26",
-   "url": "https://www.enabel.be/tenders/institutional-capacity-building-for-women-in-tech-wit-communities-in-tanzania-uganda-and-senegal/",
-   "lectureIa": {
-    "resume": "Enabel lance un contrat de services pour renforcer les capacités des communautés Women in Tech en Tanzanie, Ouganda et Sénégal. La procédure est négociée avec publication préalable ; les offres doivent être déposées avant la date limite et comprendre les formulaires, références et preuves de capacités exigés.",
-    "piecesExigees": [
-     "Identification form (clause 1 of chapter 8 Forms)",
-     "List of subcontractors (clause 2 of chapter 8 Forms)",
-     "Technical offer form (clause 3 of chapter 8)",
-     "Tender form - Prices (clause 4 of chapter 8 Forms)",
-     "Declaration on honour - Exclusion grounds (clause 5 of chapter 8 Forms)",
-     "Documents demanded for qualitative selection and award criteria",
-     "Detail of prices quoted, listing for each item the various elements included in the price and applicable taxes",
-     "Statutes and any other document required to establish power of attorney of the signer(s)",
-     "For a group of economic operators: for each participant, Identification form, Declaration on honour - Exclusion grounds, statutes and power of attorney, association agreement signed by each participan",
-     "If relying on capacities of other entities: proof of resources necessary, e.g. commitment by those entities"
-    ],
-    "heureLimite": "04:00",
-    "dateLimiteAvis": "2026-10-26",
-    "exigences": {
-     "chiffreAffairesMinFcfa": null,
-     "ligneCreditMinFcfa": null,
-     "marchesSimilairesMin": null,
-     "experienceMinAnnees": null,
-     "personnelCle": [],
-     "materiel": []
-    },
-    "autresDates": [
-     {
-      "libelle": "Deadline for submission of tenders (tender specifications)",
-      "date": "2026-10-23"
-     }
-    ],
-    "lieuDepot": null,
-    "modele": "deepseek-flash",
-    "tronque": true
-   }
-  },
-  {
-   "id": "wp:lesoleil.sn-d8d1e06c6b",
-   "source": "wp:lesoleil.sn",
-   "sourceLibelle": "Sites institutionnels",
-   "reference": "non communiquée",
-   "titre": "AVIS D’APPEL D’OFFRES",
-   "autorite": "Le Soleil",
-   "secteur": "Services",
-   "region": null,
-   "mode": "Appel d'offres",
-   "budgetEstime": null,
-   "garantieSoumission": null,
-   "publieLe": "2026-10-19",
-   "dateLimite": "2026-10-26",
-   "url": "https://lesoleil.sn/marche-public/avis-dappel-doffres-16/"
-  },
   {
    "id": "ungm-d1f92c178a",
    "source": "ungm",
@@ -118,20 +18,20 @@
    "url": "https://www.ungm.org/Public/Notice/318821"
   },
   {
-   "id": "ungm-74a2017d1b",
+   "id": "ungm-a74ee225ee",
    "source": "ungm",
    "sourceLibelle": "Nations unies (UNGM)",
-   "reference": "UNW-WCA-2026-00034",
-   "titre": "Services de communication et production audiovisuelle pour l’organisation d’un r",
-   "autorite": "UN-Women (Nations unies)",
-   "secteur": "Services",
+   "reference": "REOI-SENA-2026-002",
+   "titre": "***CANCELLED***",
+   "autorite": "UNICEF (Nations unies)",
+   "secteur": "Études",
    "region": null,
-   "mode": "Demande de cotation",
+   "mode": "Appel à manifestation d'intérêt",
    "budgetEstime": null,
    "garantieSoumission": null,
-   "publieLe": "2026-10-20",
+   "publieLe": "2026-10-27",
    "dateLimite": "2026-10-27",
-   "url": "https://www.ungm.org/Public/Notice/319004"
+   "url": "https://www.ungm.org/Public/Notice/319879"
   },
   {
    "id": "senelec-23aaa52225",
@@ -381,6 +281,38 @@
    "publieLe": "2026-10-20",
    "dateLimite": "2026-10-29",
    "url": "https://www.ungm.org/Public/Notice/319021"
+  },
+  {
+   "id": "ungm-74a2017d1b",
+   "source": "ungm",
+   "sourceLibelle": "Nations unies (UNGM)",
+   "reference": "UNW-WCA-2026-00034",
+   "titre": "Services de communication et production audiovisuelle pour l’organisation d’un r",
+   "autorite": "UN-Women (Nations unies)",
+   "secteur": "Services",
+   "region": null,
+   "mode": "Demande de cotation",
+   "budgetEstime": null,
+   "garantieSoumission": null,
+   "publieLe": "2026-10-20",
+   "dateLimite": "2026-10-29",
+   "url": "https://www.ungm.org/Public/Notice/319004"
+  },
+  {
+   "id": "ungm-205f9385d4",
+   "source": "ungm",
+   "sourceLibelle": "Nations unies (UNGM)",
+   "reference": "rfx_13202_ROAF",
+   "titre": "Recrutement d’un cabinet d’étude pour la réalisation de la collecte des données de terrain dans le cadre de l’étude coûts-bénéfices de l’apprentissage traditionnel et de l’apprentissage rénové au Sénégal",
+   "autorite": "OIT (Nations unies)",
+   "secteur": "Études",
+   "region": null,
+   "mode": "Demande de cotation",
+   "budgetEstime": null,
+   "garantieSoumission": null,
+   "publieLe": "2026-10-27",
+   "dateLimite": "2026-10-29",
+   "url": "https://www.ungm.org/Public/Notice/319884"
   },
   {
    "id": "bceao-a4dca558cc",
@@ -1084,6 +1016,22 @@
    "url": "https://www.achatspublics.sn/consultations/tenders?ref=T_VG_DST_18388"
   },
   {
+   "id": "senelec-647b19e761",
+   "source": "senelec",
+   "sourceLibelle": "Senelec",
+   "reference": "DRPCO N°22/2026",
+   "titre": "FOURNITURE D’EQUIPEMENTS (IGBT, COMPTEURS ENERIUM,) POUR LES CENTRALES DU DEPARTEMENT PRODUCTION DAKAR DE SENELEC (RELANCE F-DPP-073) F_DPP_374",
+   "autorite": "Senelec",
+   "secteur": "Fournitures",
+   "region": null,
+   "mode": "AVIS DE DEMANDE DE RENSEIGNEMENTS ET DE PRIX A COMPETITION OUVERTE",
+   "budgetEstime": null,
+   "garantieSoumission": null,
+   "publieLe": null,
+   "dateLimite": "2026-11-18",
+   "url": "https://www.senelec.sn/media/marches/appels/Avis_DRPCO_22_2026_RELANCE.pdf"
+  },
+  {
    "id": "appel-3a2a7bbc18",
    "source": "appel",
    "sourceLibelle": "APPEL (plateforme officielle)",
@@ -1338,6 +1286,70 @@
    "publieLe": "2026-10-22",
    "dateLimite": null,
    "url": "https://www.pfongue.org/Appel-d-offres-_Consultants-individuels-ou-Cabinets_-Diagnostic-organisationnel.html"
+  },
+  {
+   "id": "pfongue-897f3add27",
+   "source": "pfongue",
+   "sourceLibelle": "ONG (PFONGUE)",
+   "reference": "non communiquée",
+   "titre": "Sélection d'un prestataire pour l'entretien et à la maintenance des véhicules",
+   "autorite": "ONG (plate-forme PFONGUE)",
+   "secteur": "Services",
+   "region": null,
+   "mode": "Appel d'offres",
+   "budgetEstime": null,
+   "garantieSoumission": null,
+   "publieLe": "2026-10-27",
+   "dateLimite": null,
+   "url": "https://www.pfongue.org/Appel-d-offres-_-Selection-d-un-prestataire-pour-l-entretien-et-a-la.html"
+  },
+  {
+   "id": "pfongue-d2fccbe9a1",
+   "source": "pfongue",
+   "sourceLibelle": "ONG (PFONGUE)",
+   "reference": "non communiquée",
+   "titre": "Sélection d'un fournisseur de forfaits de télécommunication mobile",
+   "autorite": "ONG (plate-forme PFONGUE)",
+   "secteur": "Services",
+   "region": null,
+   "mode": "Appel d'offres",
+   "budgetEstime": null,
+   "garantieSoumission": null,
+   "publieLe": "2026-10-27",
+   "dateLimite": null,
+   "url": "https://www.pfongue.org/Appel-d-offres-_-Selection-d-un-fournisseur-de-forfaits-de-telecommunication.html"
+  },
+  {
+   "id": "pfongue-ad74e1e11f",
+   "source": "pfongue",
+   "sourceLibelle": "ONG (PFONGUE)",
+   "reference": "non communiquée",
+   "titre": "Sélection d'un fournisseur pour la fourniture de carburant",
+   "autorite": "ONG (plate-forme PFONGUE)",
+   "secteur": "Fournitures",
+   "region": null,
+   "mode": "Appel d'offres",
+   "budgetEstime": null,
+   "garantieSoumission": null,
+   "publieLe": "2026-10-27",
+   "dateLimite": null,
+   "url": "https://www.pfongue.org/Appel-d-offres-_-Selection-d-un-fournisseur-pour-la-fourniture-de-carburant.html"
+  },
+  {
+   "id": "pfongue-8207a643b1",
+   "source": "pfongue",
+   "sourceLibelle": "ONG (PFONGUE)",
+   "reference": "non communiquée",
+   "titre": "Sélection d'une entreprise pour la fourniture de matériel de bureau",
+   "autorite": "ONG (plate-forme PFONGUE)",
+   "secteur": "Fournitures",
+   "region": null,
+   "mode": "Appel d'offres",
+   "budgetEstime": null,
+   "garantieSoumission": null,
+   "publieLe": "2026-10-27",
+   "dateLimite": null,
+   "url": "https://www.pfongue.org/Appel-d-offres-_-Selection-d-une-entreprise-pour-la-fourniture-de-materiel-de.html"
   }
  ]
 }

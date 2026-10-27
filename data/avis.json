@@ -1,5 +1,5 @@
 {
- "misAJourLe": "2026-10-26T12:32:09.464Z",
+ "misAJourLe": "2026-10-27T11:51:06.626Z",
  "avis": {
   "senelec:https://www.senelec.sn/media/marches/appels/AVIS_DE_REPORT_AON_33_2026.pdf": {
    "source": "senelec",
@@ -6202,7 +6202,7 @@
    "objet": "FOURNITURE D’EQUIPEMENTS (IGBT, COMPTEURS ENERIUM,) POUR LES CENTRALES DU DEPARTEMENT PRODUCTION DAKAR DE SENELEC (RELANCE F-DPP-073) F_DPP_374",
    "type": "AVIS DE DEMANDE DE RENSEIGNEMENTS ET DE PRIX A COMPETITION OUVERTE",
    "publieLe": null,
-   "dateLimite": "2026-10-18",
+   "dateLimite": "2026-11-18",
    "url": "https://www.senelec.sn/media/marches/appels/Avis_DRPCO_22_2026_RELANCE.pdf",
    "vuLe": "2026-10-21"
   },
@@ -6233,7 +6233,7 @@
    "objet": "Services de communication et production audiovisuelle pour l’organisation d’un r",
    "type": "Demande de cotation",
    "publieLe": "2026-10-20",
-   "dateLimite": "2026-10-27",
+   "dateLimite": "2026-10-29",
    "url": "https://www.ungm.org/Public/Notice/319004",
    "autorite": "UN-Women (Nations unies)",
    "vuLe": "2026-10-21"
@@ -6303,6 +6303,72 @@
    "url": "https://www.ungm.org/Public/Notice/319632",
    "autorite": "OIT (Nations unies)",
    "vuLe": "2026-10-26"
+  },
+  "ungm:https://www.ungm.org/Public/Notice/319884": {
+   "source": "ungm",
+   "reference": "rfx_13202_ROAF",
+   "objet": "Recrutement d’un cabinet d’étude pour la réalisation de la collecte des données de terrain dans le cadre de l’étude coûts-bénéfices de l’apprentissage traditionnel et de l’apprentissage rénové au Sénégal",
+   "type": "Demande de cotation",
+   "publieLe": "2026-10-27",
+   "dateLimite": "2026-10-29",
+   "url": "https://www.ungm.org/Public/Notice/319884",
+   "autorite": "OIT (Nations unies)",
+   "vuLe": "2026-10-27"
+  },
+  "ungm:https://www.ungm.org/Public/Notice/319879": {
+   "source": "ungm",
+   "reference": "REOI-SENA-2026-002",
+   "objet": "***CANCELLED***",
+   "type": "Appel à manifestation d'intérêt",
+   "publieLe": "2026-10-27",
+   "dateLimite": "2026-10-27",
+   "url": "https://www.ungm.org/Public/Notice/319879",
+   "autorite": "UNICEF (Nations unies)",
+   "vuLe": "2026-10-27"
+  },
+  "pfongue:https://www.pfongue.org/Appel-d-offres-_-Selection-d-un-prestataire-pour-l-entretien-et-a-la.html": {
+   "source": "pfongue",
+   "reference": "non communiquée",
+   "objet": "Sélection d'un prestataire pour l'entretien et à la maintenance des véhicules",
+   "type": "Appel d'offres",
+   "publieLe": "2026-10-27",
+   "dateLimite": null,
+   "url": "https://www.pfongue.org/Appel-d-offres-_-Selection-d-un-prestataire-pour-l-entretien-et-a-la.html",
+   "autorite": "ONG (plate-forme PFONGUE)",
+   "vuLe": "2026-10-27"
+  },
+  "pfongue:https://www.pfongue.org/Appel-d-offres-_-Selection-d-un-fournisseur-de-forfaits-de-telecommunication.html": {
+   "source": "pfongue",
+   "reference": "non communiquée",
+   "objet": "Sélection d'un fournisseur de forfaits de télécommunication mobile",
+   "type": "Appel d'offres",
+   "publieLe": "2026-10-27",
+   "dateLimite": null,
+   "url": "https://www.pfongue.org/Appel-d-offres-_-Selection-d-un-fournisseur-de-forfaits-de-telecommunication.html",
+   "autorite": "ONG (plate-forme PFONGUE)",
+   "vuLe": "2026-10-27"
+  },
+  "pfongue:https://www.pfongue.org/Appel-d-offres-_-Selection-d-un-fournisseur-pour-la-fourniture-de-carburant.html": {
+   "source": "pfongue",
+   "reference": "non communiquée",
+   "objet": "Sélection d'un fournisseur pour la fourniture de carburant",
+   "type": "Appel d'offres",
+   "publieLe": "2026-10-27",
+   "dateLimite": null,
+   "url": "https://www.pfongue.org/Appel-d-offres-_-Selection-d-un-fournisseur-pour-la-fourniture-de-carburant.html",
+   "autorite": "ONG (plate-forme PFONGUE)",
+   "vuLe": "2026-10-27"
+  },
+  "pfongue:https://www.pfongue.org/Appel-d-offres-_-Selection-d-une-entreprise-pour-la-fourniture-de-materiel-de.html": {
+   "source": "pfongue",
+   "reference": "non communiquée",
+   "objet": "Sélection d'une entreprise pour la fourniture de matériel de bureau",
+   "type": "Appel d'offres",
+   "publieLe": "2026-10-27",
+   "dateLimite": null,
+   "url": "https://www.pfongue.org/Appel-d-offres-_-Selection-d-une-entreprise-pour-la-fourniture-de-materiel-de.html",
+   "autorite": "ONG (plate-forme PFONGUE)",
+   "vuLe": "2026-10-27"
   }
  }
 }
