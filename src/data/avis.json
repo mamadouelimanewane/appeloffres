@@ -1,38 +1,6 @@
 {
- "misAJourLe": "2026-10-27",
+ "misAJourLe": "2026-10-28",
  "avis": [
-  {
-   "id": "ungm-d1f92c178a",
-   "source": "ungm",
-   "sourceLibelle": "Nations unies (UNGM)",
-   "reference": "LRFQs-2926-9206770",
-   "titre": "Realisation d'une série d'émission TV sur l'inclusion en Afrique",
-   "autorite": "UNICEF (Nations unies)",
-   "secteur": "Services",
-   "region": null,
-   "mode": "Demande de cotation",
-   "budgetEstime": null,
-   "garantieSoumission": null,
-   "publieLe": "2026-10-19",
-   "dateLimite": "2026-10-27",
-   "url": "https://www.ungm.org/Public/Notice/318821"
-  },
-  {
-   "id": "ungm-a74ee225ee",
-   "source": "ungm",
-   "sourceLibelle": "Nations unies (UNGM)",
-   "reference": "REOI-SENA-2026-002",
-   "titre": "***CANCELLED***",
-   "autorite": "UNICEF (Nations unies)",
-   "secteur": "Études",
-   "region": null,
-   "mode": "Appel à manifestation d'intérêt",
-   "budgetEstime": null,
-   "garantieSoumission": null,
-   "publieLe": "2026-10-27",
-   "dateLimite": "2026-10-27",
-   "url": "https://www.ungm.org/Public/Notice/319879"
-  },
   {
    "id": "senelec-23aaa52225",
    "source": "senelec",
@@ -283,22 +251,6 @@
    "url": "https://www.ungm.org/Public/Notice/319021"
   },
   {
-   "id": "ungm-74a2017d1b",
-   "source": "ungm",
-   "sourceLibelle": "Nations unies (UNGM)",
-   "reference": "UNW-WCA-2026-00034",
-   "titre": "Services de communication et production audiovisuelle pour l’organisation d’un r",
-   "autorite": "UN-Women (Nations unies)",
-   "secteur": "Services",
-   "region": null,
-   "mode": "Demande de cotation",
-   "budgetEstime": null,
-   "garantieSoumission": null,
-   "publieLe": "2026-10-20",
-   "dateLimite": "2026-10-29",
-   "url": "https://www.ungm.org/Public/Notice/319004"
-  },
-  {
    "id": "ungm-205f9385d4",
    "source": "ungm",
    "sourceLibelle": "Nations unies (UNGM)",
@@ -361,6 +313,22 @@
    "publieLe": "2026-10-19",
    "dateLimite": "2026-10-30",
    "url": "https://www.ungm.org/Public/Notice/318809"
+  },
+  {
+   "id": "ungm-4d4eab0377",
+   "source": "ungm",
+   "sourceLibelle": "Nations unies (UNGM)",
+   "reference": "2026/FRSEN/SFWDD/138723",
+   "titre": "Confection de materiel promotionelle pour le MDT18 à Conakry",
+   "autorite": "FAO (Nations unies)",
+   "secteur": "Fournitures",
+   "region": null,
+   "mode": "Demande de cotation",
+   "budgetEstime": null,
+   "garantieSoumission": null,
+   "publieLe": "2026-10-27",
+   "dateLimite": "2026-10-30",
+   "url": "https://www.ungm.org/Public/Notice/319952"
   },
   {
    "id": "appel-fcdbe8e0c1",
@@ -509,22 +477,6 @@
    "publieLe": "2026-10-19",
    "dateLimite": "2026-11-02",
    "url": "https://www.ungm.org/Public/Notice/318770"
-  },
-  {
-   "id": "ungm-cb4df944df",
-   "source": "ungm",
-   "sourceLibelle": "Nations unies (UNGM)",
-   "reference": "UNDP-SEN-00630",
-   "titre": "CABINET ASSISTANCE TECHNIQUE AU MFEP / ENVIRONNEMENT",
-   "autorite": "PNUD (Nations unies)",
-   "secteur": "Études",
-   "region": null,
-   "mode": "Demande de propositions",
-   "budgetEstime": null,
-   "garantieSoumission": null,
-   "publieLe": "2026-10-22",
-   "dateLimite": "2026-11-02",
-   "url": "https://www.ungm.org/Public/Notice/319356"
   },
   {
    "id": "ageroute-23682bcf93",
@@ -712,6 +664,22 @@
    "url": "https://www.senelec.sn/media/marches/appels/Avis_de_Clarification_et_de_Report_sur_AMI_N35-2026.pdf"
   },
   {
+   "id": "ungm-74a2017d1b",
+   "source": "ungm",
+   "sourceLibelle": "Nations unies (UNGM)",
+   "reference": "UNW-WCA-2026-00034,1",
+   "titre": "Services de communication et production audiovisuelle pour l’organisation d’un r",
+   "autorite": "UN-Women (Nations unies)",
+   "secteur": "Services",
+   "region": null,
+   "mode": "Demande de cotation",
+   "budgetEstime": null,
+   "garantieSoumission": null,
+   "publieLe": "2026-10-20",
+   "dateLimite": "2026-11-04",
+   "url": "https://www.ungm.org/Public/Notice/319004"
+  },
+  {
    "id": "ungm-6cc18c82c0",
    "source": "ungm",
    "sourceLibelle": "Nations unies (UNGM)",
@@ -758,6 +726,22 @@
    "publieLe": "2026-10-16",
    "dateLimite": "2026-11-06",
    "url": "https://lesoleil.sn/marche-public/avis-dappel-doffre/"
+  },
+  {
+   "id": "ungm-cb4df944df",
+   "source": "ungm",
+   "sourceLibelle": "Nations unies (UNGM)",
+   "reference": "UNDP-SEN-00630",
+   "titre": "CABINET ASSISTANCE TECHNIQUE AU MFEP / ENVIRONNEMENT",
+   "autorite": "PNUD (Nations unies)",
+   "secteur": "Études",
+   "region": null,
+   "mode": "Demande de propositions",
+   "budgetEstime": null,
+   "garantieSoumission": null,
+   "publieLe": "2026-10-22",
+   "dateLimite": "2026-11-06",
+   "url": "https://www.ungm.org/Public/Notice/319356"
   },
   {
    "id": "ageroute-117c4e5463",
@@ -952,6 +936,22 @@
    "url": "https://www.achatspublics.sn/consultations/tenders?ref=F_VG_DAF_18391"
   },
   {
+   "id": "bceao-2904800129",
+   "source": "bceao",
+   "sourceLibelle": "BCEAO",
+   "reference": "AC/K00/APD/012/2026",
+   "titre": "Sélection d’un Bureau de Contrôle Technique pour l'expertise des défauts d’étanchéité des toitures-terrasses des locaux de l'Agence Principale de Dakar",
+   "autorite": "BCEAO",
+   "secteur": "Études",
+   "region": null,
+   "mode": "Appel à la concurrence",
+   "budgetEstime": null,
+   "garantieSoumission": null,
+   "publieLe": "2026-10-27",
+   "dateLimite": "2026-11-13",
+   "url": "https://www.bceao.int/fr/appels-offres/selection-dun-bureau-de-controle-technique-pour-lexpertise-des-defauts-detancheite"
+  },
+  {
    "id": "wp:lesoleil.sn-a31679df5a",
    "source": "wp:lesoleil.sn",
    "sourceLibelle": "Sites institutionnels",
@@ -1126,6 +1126,22 @@
    "publieLe": "2026-10-13",
    "dateLimite": "2026-11-25",
    "url": "https://lesoleil.sn/marche-public/avis-dappel-doffres-national-2/"
+  },
+  {
+   "id": "bceao-aa6ca5d9d2",
+   "source": "bceao",
+   "sourceLibelle": "BCEAO",
+   "reference": "non communiquée",
+   "titre": "Présélection d'entreprises spécialisées en prestations de fourniture, installation et maintenance de dispositifs de sûreté",
+   "autorite": "BCEAO",
+   "secteur": "Fournitures",
+   "region": null,
+   "mode": null,
+   "budgetEstime": null,
+   "garantieSoumission": null,
+   "publieLe": "2026-10-27",
+   "dateLimite": "2026-12-10",
+   "url": "https://www.bceao.int/fr/appels-offres/preselection-dentreprises-specialisees-en-prestations-de-fourniture-installation-et"
   },
   {
    "id": "pfongue-9f99da90fc",
@@ -1350,6 +1366,22 @@
    "publieLe": "2026-10-27",
    "dateLimite": null,
    "url": "https://www.pfongue.org/Appel-d-offres-_-Selection-d-une-entreprise-pour-la-fourniture-de-materiel-de.html"
+  },
+  {
+   "id": "pfongue-e9f4479dc5",
+   "source": "pfongue",
+   "sourceLibelle": "ONG (PFONGUE)",
+   "reference": "non communiquée",
+   "titre": "APPEL À CANDIDATURES : Programme d'incubation entrepreneuriale",
+   "autorite": "ONG (plate-forme PFONGUE)",
+   "secteur": "Services",
+   "region": null,
+   "mode": "Appel d'offres",
+   "budgetEstime": null,
+   "garantieSoumission": null,
+   "publieLe": "2026-10-28",
+   "dateLimite": null,
+   "url": "https://www.pfongue.org/APPEL-A-CANDIDATURES-Programme-d-incubation-entrepreneuriale.html"
   }
  ]
 }

@@ -1,5 +1,5 @@
 {
- "misAJourLe": "2026-10-27T11:51:06.626Z",
+ "misAJourLe": "2026-10-28T12:23:09.727Z",
  "avis": {
   "senelec:https://www.senelec.sn/media/marches/appels/AVIS_DE_REPORT_AON_33_2026.pdf": {
    "source": "senelec",
@@ -6229,11 +6229,11 @@
   },
   "ungm:https://www.ungm.org/Public/Notice/319004": {
    "source": "ungm",
-   "reference": "UNW-WCA-2026-00034",
+   "reference": "UNW-WCA-2026-00034,1",
    "objet": "Services de communication et production audiovisuelle pour l’organisation d’un r",
    "type": "Demande de cotation",
    "publieLe": "2026-10-20",
-   "dateLimite": "2026-10-29",
+   "dateLimite": "2026-11-04",
    "url": "https://www.ungm.org/Public/Notice/319004",
    "autorite": "UN-Women (Nations unies)",
    "vuLe": "2026-10-21"
@@ -6277,7 +6277,7 @@
    "objet": "CABINET ASSISTANCE TECHNIQUE AU MFEP / ENVIRONNEMENT",
    "type": "Demande de propositions",
    "publieLe": "2026-10-22",
-   "dateLimite": "2026-11-02",
+   "dateLimite": "2026-11-06",
    "url": "https://www.ungm.org/Public/Notice/319356",
    "autorite": "PNUD (Nations unies)",
    "vuLe": "2026-10-23"
@@ -6369,6 +6369,50 @@
    "url": "https://www.pfongue.org/Appel-d-offres-_-Selection-d-une-entreprise-pour-la-fourniture-de-materiel-de.html",
    "autorite": "ONG (plate-forme PFONGUE)",
    "vuLe": "2026-10-27"
+  },
+  "ungm:https://www.ungm.org/Public/Notice/319952": {
+   "source": "ungm",
+   "reference": "2026/FRSEN/SFWDD/138723",
+   "objet": "Confection de materiel promotionelle pour le MDT18 à Conakry",
+   "type": "Demande de cotation",
+   "publieLe": "2026-10-27",
+   "dateLimite": "2026-10-30",
+   "url": "https://www.ungm.org/Public/Notice/319952",
+   "autorite": "FAO (Nations unies)",
+   "vuLe": "2026-10-28"
+  },
+  "pfongue:https://www.pfongue.org/APPEL-A-CANDIDATURES-Programme-d-incubation-entrepreneuriale.html": {
+   "source": "pfongue",
+   "reference": "non communiquée",
+   "objet": "APPEL À CANDIDATURES : Programme d'incubation entrepreneuriale",
+   "type": "Appel d'offres",
+   "publieLe": "2026-10-28",
+   "dateLimite": null,
+   "url": "https://www.pfongue.org/APPEL-A-CANDIDATURES-Programme-d-incubation-entrepreneuriale.html",
+   "autorite": "ONG (plate-forme PFONGUE)",
+   "vuLe": "2026-10-28"
+  },
+  "bceao:https://www.bceao.int/fr/appels-offres/selection-dun-bureau-de-controle-technique-pour-lexpertise-des-defauts-detancheite": {
+   "source": "bceao",
+   "reference": "AC/K00/APD/012/2026",
+   "objet": "Sélection d’un Bureau de Contrôle Technique pour l'expertise des défauts d’étanchéité des toitures-terrasses des locaux de l'Agence Principale de Dakar",
+   "type": "Appel à la concurrence",
+   "publieLe": "2026-10-27",
+   "dateLimite": "2026-11-13",
+   "url": "https://www.bceao.int/fr/appels-offres/selection-dun-bureau-de-controle-technique-pour-lexpertise-des-defauts-detancheite",
+   "autorite": "BCEAO",
+   "vuLe": "2026-10-28"
+  },
+  "bceao:https://www.bceao.int/fr/appels-offres/preselection-dentreprises-specialisees-en-prestations-de-fourniture-installation-et": {
+   "source": "bceao",
+   "reference": "non communiquée",
+   "objet": "Présélection d'entreprises spécialisées en prestations de fourniture, installation et maintenance de dispositifs de sûreté",
+   "type": null,
+   "publieLe": "2026-10-27",
+   "dateLimite": "2026-12-10",
+   "url": "https://www.bceao.int/fr/appels-offres/preselection-dentreprises-specialisees-en-prestations-de-fourniture-installation-et",
+   "autorite": "BCEAO",
+   "vuLe": "2026-10-28"
   }
  }
 }
