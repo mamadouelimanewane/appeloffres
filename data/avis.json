@@ -1,5 +1,5 @@
 {
- "misAJourLe": "2026-10-28T12:23:09.727Z",
+ "misAJourLe": "2026-10-29T12:33:47.287Z",
  "avis": {
   "senelec:https://www.senelec.sn/media/marches/appels/AVIS_DE_REPORT_AON_33_2026.pdf": {
    "source": "senelec",
@@ -4249,7 +4249,7 @@
    "objet": "TRAVAUX DE REHABILITATION DES PERIMETRES RIZICOLES A MBAKHANA ET MBARIGO SITUE D",
    "type": "Demande de cotation",
    "publieLe": "2026-09-30",
-   "dateLimite": "2026-10-29",
+   "dateLimite": "2026-11-02",
    "url": "https://www.ungm.org/Public/Notice/316402",
    "autorite": "PNUD (Nations unies)",
    "vuLe": "2026-10-06"
@@ -6413,6 +6413,61 @@
    "url": "https://www.bceao.int/fr/appels-offres/preselection-dentreprises-specialisees-en-prestations-de-fourniture-installation-et",
    "autorite": "BCEAO",
    "vuLe": "2026-10-28"
+  },
+  "ungm:https://www.ungm.org/Public/Notice/320357": {
+   "source": "ungm",
+   "reference": "UNFPA-R42-00014-2",
+   "objet": "Hotel Procurement for WCARO Annual Retreat 2026",
+   "type": "Demande de cotation",
+   "publieLe": "2026-10-29",
+   "dateLimite": "2026-10-30",
+   "url": "https://www.ungm.org/Public/Notice/320357",
+   "autorite": "UNFPA (Nations unies)",
+   "vuLe": "2026-10-29"
+  },
+  "ungm:https://www.ungm.org/Public/Notice/320230": {
+   "source": "ungm",
+   "reference": "rfx_13342_ROAF",
+   "objet": "Recrutement d’un cabinet pour mise aux normes de l’étiquetage des produits des société coopérative et conception d’une plateforme E-commerce pour les produits du delta",
+   "type": "Demande de cotation",
+   "publieLe": "2026-10-28",
+   "dateLimite": "2026-11-03",
+   "url": "https://www.ungm.org/Public/Notice/320230",
+   "autorite": "OIT (Nations unies)",
+   "vuLe": "2026-10-29"
+  },
+  "wp:cetud.sn:https://cetud.sn/avis-marche-public/avis-a-manifestation-dinteret-2/": {
+   "source": "wp:cetud.sn",
+   "reference": "non communiquée",
+   "objet": "Avis à manifestation d'intérêt",
+   "type": "Appel à manifestation d'intérêt",
+   "publieLe": "2026-10-28",
+   "dateLimite": null,
+   "url": "https://cetud.sn/avis-marche-public/avis-a-manifestation-dinteret-2/",
+   "autorite": "CETUD - Conseil Exécutif des Transports Urbains durables",
+   "vuLe": "2026-10-29"
+  },
+  "pfongue:https://www.pfongue.org/Appel-d-offres-_-Prestation-de-services-Conseil-independant-e-Expert-e.html": {
+   "source": "pfongue",
+   "reference": "non communiquée",
+   "objet": "Prestation de services / Conseil indépendant(e) : Expert(e) comptable",
+   "type": "Appel d'offres",
+   "publieLe": "2026-10-28",
+   "dateLimite": null,
+   "url": "https://www.pfongue.org/Appel-d-offres-_-Prestation-de-services-Conseil-independant-e-Expert-e.html",
+   "autorite": "ONG (plate-forme PFONGUE)",
+   "vuLe": "2026-10-29"
+  },
+  "pfongue:https://www.pfongue.org/APPEL-A-CANDIDATURES-POUR-LE-RECRUTEMENT-DE-PRESTATAIRES-DE-SERVICES-EN.html": {
+   "source": "pfongue",
+   "reference": "non communiquée",
+   "objet": "APPEL À CANDIDATURES : POUR LE RECRUTEMENT DE PRESTATAIRES DE SERVICES EN ANIMATION SOCIO-ÉDUCATIVE COMMUNAUTAIRE",
+   "type": "Appel d'offres",
+   "publieLe": "2026-10-28",
+   "dateLimite": null,
+   "url": "https://www.pfongue.org/APPEL-A-CANDIDATURES-POUR-LE-RECRUTEMENT-DE-PRESTATAIRES-DE-SERVICES-EN.html",
+   "autorite": "ONG (plate-forme PFONGUE)",
+   "vuLe": "2026-10-29"
   }
  }
 }

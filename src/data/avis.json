@@ -1,175 +1,6 @@
 {
- "misAJourLe": "2026-10-28",
+ "misAJourLe": "2026-10-29",
  "avis": [
-  {
-   "id": "senelec-23aaa52225",
-   "source": "senelec",
-   "sourceLibelle": "Senelec",
-   "reference": "AAON Nº33/2026",
-   "titre": "FOURNITURE D’EQUIPEMENTS (ELECTROPOMPES, MOTO VENTILATEURS, ELECTROCOMPRESSEURS…) POUR LA FIABILISATION DES AUXILIAIRES DE LA CENTRALE C4 DE CAP DES BICHES F_DPP_099",
-   "autorite": "Senelec",
-   "secteur": "Fournitures",
-   "region": null,
-   "mode": "AVIS DE REPORT",
-   "budgetEstime": null,
-   "garantieSoumission": null,
-   "publieLe": null,
-   "dateLimite": "2026-10-28",
-   "url": "https://www.senelec.sn/media/marches/appels/AVIS_DE_REPORT_AON_33_2026.pdf",
-   "lectureIa": {
-    "resume": "Senelec reporte la date limite de dépôt des offres pour la fourniture d’équipements (électropompes, moto ventilateurs, électrocompresseurs) destinés à la fiabilisation des auxiliaires de la centrale C4 de Cap des Biches. La nouvelle date limite est fixée au mercredi 28 octobre 2026 à 09 heures 30 mn, heure locale.",
-    "piecesExigees": [],
-    "heureLimite": "09 heures 30 mn heur",
-    "dateLimiteAvis": "2026-10-28",
-    "exigences": {
-     "chiffreAffairesMinFcfa": null,
-     "ligneCreditMinFcfa": null,
-     "marchesSimilairesMin": null,
-     "experienceMinAnnees": null,
-     "personnelCle": [],
-     "materiel": []
-    },
-    "autresDates": [
-     {
-      "libelle": "Date limite initiale (reportée)",
-      "date": "2026-10-14"
-     }
-    ],
-    "lieuDepot": null,
-    "modele": "deepseek-flash",
-    "tronque": false
-   }
-  },
-  {
-   "id": "senelec-357951e299",
-   "source": "senelec",
-   "sourceLibelle": "Senelec",
-   "reference": "AAO N°38-2026",
-   "titre": "SERVICE DE MAINTENANCE DES CENTRALES SOLAIRES REGIONALES DE SENELEC (MARCHE DE CLIENTELE) - S_DPP_129",
-   "autorite": "Senelec",
-   "secteur": "Services",
-   "region": null,
-   "mode": "AVIS D’APPEL D’OFFRES NATIONAL",
-   "budgetEstime": null,
-   "garantieSoumission": 4000000,
-   "publieLe": null,
-   "dateLimite": "2026-10-28",
-   "url": "https://www.senelec.sn/media/marches/appels/AVIS_AO_38_2026__DPP_.pdf",
-   "lectureIa": {
-    "resume": "Senelec recherche des prestataires pour la maintenance des centrales solaires régionales, avec des exigences techniques et financières précises. Il faut notamment fournir une ligne de crédit ou une attestation de capacité financière de 75 000 000 FCFA et une garantie de soumission de 4 000 000 FCFA, avec dépôt au plus tard le 28 octobre 2026 à 09h30.",
-    "piecesExigees": [
-     "États financiers des trois derniers exercices comptables (2023, 2024, 2025) certifiés par un commissaire aux comptes ou accompagnés de l’attestation de visa ONECCA",
-     "Rapports d’opinion du commissaire aux comptes relatifs aux états financiers 2023, 2024 et 2025 si le soumissionnaire remplit les conditions de nomination d’un commissaire aux comptes",
-     "Attestation de capacité financière ou ligne de crédit à hauteur de 75 000 000 FCFA",
-     "Attestation de bonne exécution ou procès-verbal de réception délivré par le maître d’ouvrage ou l’exploitant",
-     "Description du périmètre des travaux réalisés, année d’exécution, site et rôle exact du soumissionnaire",
-     "CV détaillé et signé par chaque membre du personnel clé",
-     "Copie légalisée du diplôme ou attestation équivalente",
-     "Liste des projets similaires réalisés par le personnel clé",
-     "Pièces administratives des administrations fiscales et sociales (IPRES, IMPOTS, SECURITE SOCIALE, INSPECTION DU TRAVAIL)",
-     "Attestation de paiement de la redevance ARCOP (Gestion 2025) au 31 Décembre 2025",
-     "Acte d’engagement à respecter la Charte de transparence et d’Ethique",
-     "Déclaration sur l’honneur attestant qu’il ne fait pas l’objet de faillite personnelle ou de liquidation des biens",
-     "Attestation de non-faillite produite au plus tard à la signature du contrat",
-     "Garantie de soumission d’un montant de 4 000 000 FCFA"
-    ],
-    "heureLimite": "09 heures 30mn",
-    "dateLimiteAvis": "2026-10-28",
-    "exigences": {
-     "chiffreAffairesMinFcfa": null,
-     "ligneCreditMinFcfa": 75000000,
-     "marchesSimilairesMin": 1,
-     "experienceMinAnnees": 3,
-     "personnelCle": [
-      "Chef de chantier : Ingénieur BAC+4 au moins en électromécanique, génie électrique, génie énergétique, énergies renouvelables, maintenance industrielle ; au moins cinq (05) années d’expérience ; au moi",
-      "Deux techniciens de maintenance : BAC+2 au moins en électromécanique, électricité, électrotechnique, maintenance industrielle, énergies renouvelables ; au moins trois (03) années d’expérience ; partic"
-     ],
-     "materiel": [
-      "Chariot élévateur de 7 tonnes",
-      "Transpalette de 3 tonnes",
-      "Palan de 5 tonnes",
-      "Accessoires de manutention (sangle, corde, etc.)",
-      "Vedette motorisée pour le déplacement des techniciens et des équipements de poids légers vers les îles",
-      "Engagement à mobiliser une barge de 25 tonnes si le transfert d’un équipement ou des pièces de rechange l’exige",
-      "Véhicule Pick up 4x4 pour les déplacements terrestres",
-      "Caisse outillage complet pour mécaniciens",
-      "Caisse à outil complet pour électricien",
-      "Contrôleurs électriques/détecteurs de tension",
-      "Équipements de mise à la terre et de court-circuit pour chaque tableau BT et HTA",
-      "Photovoltaïques"
-     ]
-    },
-    "autresDates": [
-     {
-      "libelle": "Visite de site - Centrale de Médina Gounass",
-      "date": "2026-09-30"
-     },
-     {
-      "libelle": "Visite de site - Centrales de Dionewar et Bettenty",
-      "date": "2026-10-01"
-     },
-     {
-      "libelle": "Visite de site - Centrales de Bassoul et Djirnda",
-      "date": "2026-10-02"
-     },
-     {
-      "libelle": "Ouverture des plis",
-      "date": "2026-10-28"
-     }
-    ],
-    "lieuDepot": "Senelec, Direction Passation des Marchés de Senelec sise au 19, rue Abdou Karim Bourgi x Wagane Diouf au 2ème étage Résidence Khoudia, Salle commission des marchés - Dakar",
-    "modele": "deepseek-flash",
-    "tronque": false
-   }
-  },
-  {
-   "id": "ungm-78c9184e49",
-   "source": "ungm",
-   "sourceLibelle": "Nations unies (UNGM)",
-   "reference": "UNFPA-R42-00014",
-   "titre": "Hotel Procurement for WCARO Annual Retreat 2026",
-   "autorite": "UNFPA (Nations unies)",
-   "secteur": "Services",
-   "region": null,
-   "mode": "Demande de cotation",
-   "budgetEstime": null,
-   "garantieSoumission": null,
-   "publieLe": "2026-10-07",
-   "dateLimite": "2026-10-28",
-   "url": "https://www.ungm.org/Public/Notice/317251"
-  },
-  {
-   "id": "appel-46090753c6",
-   "source": "appel",
-   "sourceLibelle": "APPEL (plateforme officielle)",
-   "reference": "F_VG_DAF_18392",
-   "titre": "ACQUISITION DE PRODUITS D'ENTRETIEN, DE DESINFECTION ET D'HYGIENE",
-   "autorite": "Ville de Guédiawaye",
-   "secteur": "Fournitures",
-   "region": null,
-   "mode": "Demande de renseignements et de prix à compétition ouverte",
-   "budgetEstime": null,
-   "garantieSoumission": null,
-   "publieLe": "2026-10-13",
-   "dateLimite": "2026-10-28",
-   "url": "https://www.achatspublics.sn/consultations/tenders?ref=F_VG_DAF_18392"
-  },
-  {
-   "id": "ungm-84bf4c17d1",
-   "source": "ungm",
-   "sourceLibelle": "Nations unies (UNGM)",
-   "reference": "2026/FRSEN/FRSEN/138445",
-   "titre": "Recrutement d’un cabinet pour appuyer la CEDEAO et le MASAE dans la préparation d’ECOWAP 2035,",
-   "autorite": "FAO (Nations unies)",
-   "secteur": "Études",
-   "region": null,
-   "mode": "Appel d'offres",
-   "budgetEstime": null,
-   "garantieSoumission": null,
-   "publieLe": "2026-10-21",
-   "dateLimite": "2026-10-28",
-   "url": "https://www.ungm.org/Public/Notice/319138"
-  },
   {
    "id": "ungm-a4370dc44a",
    "source": "ungm",
@@ -185,22 +16,6 @@
    "publieLe": "2026-10-02",
    "dateLimite": "2026-10-29",
    "url": "https://www.ungm.org/Public/Notice/316660"
-  },
-  {
-   "id": "ungm-f5aa3810c4",
-   "source": "ungm",
-   "sourceLibelle": "Nations unies (UNGM)",
-   "reference": "UNDP-SEN-00621",
-   "titre": "TRAVAUX DE REHABILITATION DES PERIMETRES RIZICOLES A MBAKHANA ET MBARIGO SITUE D",
-   "autorite": "PNUD (Nations unies)",
-   "secteur": "BTP",
-   "region": null,
-   "mode": "Demande de cotation",
-   "budgetEstime": null,
-   "garantieSoumission": null,
-   "publieLe": "2026-09-30",
-   "dateLimite": "2026-10-29",
-   "url": "https://www.ungm.org/Public/Notice/316402"
   },
   {
    "id": "ungm-e33037ceb3",
@@ -331,6 +146,22 @@
    "url": "https://www.ungm.org/Public/Notice/319952"
   },
   {
+   "id": "ungm-096401002b",
+   "source": "ungm",
+   "sourceLibelle": "Nations unies (UNGM)",
+   "reference": "UNFPA-R42-00014-2",
+   "titre": "Hotel Procurement for WCARO Annual Retreat 2026",
+   "autorite": "UNFPA (Nations unies)",
+   "secteur": "Services",
+   "region": null,
+   "mode": "Demande de cotation",
+   "budgetEstime": null,
+   "garantieSoumission": null,
+   "publieLe": "2026-10-29",
+   "dateLimite": "2026-10-30",
+   "url": "https://www.ungm.org/Public/Notice/320357"
+  },
+  {
    "id": "appel-fcdbe8e0c1",
    "source": "appel",
    "sourceLibelle": "APPEL (plateforme officielle)",
@@ -429,6 +260,22 @@
     "modele": "deepseek-flash",
     "tronque": false
    }
+  },
+  {
+   "id": "ungm-f5aa3810c4",
+   "source": "ungm",
+   "sourceLibelle": "Nations unies (UNGM)",
+   "reference": "UNDP-SEN-00621",
+   "titre": "TRAVAUX DE REHABILITATION DES PERIMETRES RIZICOLES A MBAKHANA ET MBARIGO SITUE D",
+   "autorite": "PNUD (Nations unies)",
+   "secteur": "BTP",
+   "region": null,
+   "mode": "Demande de cotation",
+   "budgetEstime": null,
+   "garantieSoumission": null,
+   "publieLe": "2026-09-30",
+   "dateLimite": "2026-11-02",
+   "url": "https://www.ungm.org/Public/Notice/316402"
   },
   {
    "id": "ungm-220720c164",
@@ -557,6 +404,22 @@
    "publieLe": "2026-10-19",
    "dateLimite": "2026-11-03",
    "url": "https://projects.worldbank.org/fr/projects-operations/procurement-detail/OP00475998"
+  },
+  {
+   "id": "ungm-0df36b63e5",
+   "source": "ungm",
+   "sourceLibelle": "Nations unies (UNGM)",
+   "reference": "rfx_13342_ROAF",
+   "titre": "Recrutement d’un cabinet pour mise aux normes de l’étiquetage des produits des société coopérative et conception d’une plateforme E-commerce pour les produits du delta",
+   "autorite": "OIT (Nations unies)",
+   "secteur": "Études",
+   "region": null,
+   "mode": "Demande de cotation",
+   "budgetEstime": null,
+   "garantieSoumission": null,
+   "publieLe": "2026-10-28",
+   "dateLimite": "2026-11-03",
+   "url": "https://www.ungm.org/Public/Notice/320230"
   },
   {
    "id": "senelec-3cfa1abdc2",
@@ -1382,6 +1245,54 @@
    "publieLe": "2026-10-28",
    "dateLimite": null,
    "url": "https://www.pfongue.org/APPEL-A-CANDIDATURES-Programme-d-incubation-entrepreneuriale.html"
+  },
+  {
+   "id": "wp:cetud.sn-1a37f93a09",
+   "source": "wp:cetud.sn",
+   "sourceLibelle": "Sites institutionnels",
+   "reference": "non communiquée",
+   "titre": "Avis à manifestation d'intérêt",
+   "autorite": "CETUD - Conseil Exécutif des Transports Urbains durables",
+   "secteur": "Études",
+   "region": null,
+   "mode": "Appel à manifestation d'intérêt",
+   "budgetEstime": null,
+   "garantieSoumission": null,
+   "publieLe": "2026-10-28",
+   "dateLimite": null,
+   "url": "https://cetud.sn/avis-marche-public/avis-a-manifestation-dinteret-2/"
+  },
+  {
+   "id": "pfongue-fb98616b0b",
+   "source": "pfongue",
+   "sourceLibelle": "ONG (PFONGUE)",
+   "reference": "non communiquée",
+   "titre": "Prestation de services / Conseil indépendant(e) : Expert(e) comptable",
+   "autorite": "ONG (plate-forme PFONGUE)",
+   "secteur": "Études",
+   "region": null,
+   "mode": "Appel d'offres",
+   "budgetEstime": null,
+   "garantieSoumission": null,
+   "publieLe": "2026-10-28",
+   "dateLimite": null,
+   "url": "https://www.pfongue.org/Appel-d-offres-_-Prestation-de-services-Conseil-independant-e-Expert-e.html"
+  },
+  {
+   "id": "pfongue-e573c13b55",
+   "source": "pfongue",
+   "sourceLibelle": "ONG (PFONGUE)",
+   "reference": "non communiquée",
+   "titre": "APPEL À CANDIDATURES : POUR LE RECRUTEMENT DE PRESTATAIRES DE SERVICES EN ANIMATION SOCIO-ÉDUCATIVE COMMUNAUTAIRE",
+   "autorite": "ONG (plate-forme PFONGUE)",
+   "secteur": "Études",
+   "region": null,
+   "mode": "Appel d'offres",
+   "budgetEstime": null,
+   "garantieSoumission": null,
+   "publieLe": "2026-10-28",
+   "dateLimite": null,
+   "url": "https://www.pfongue.org/APPEL-A-CANDIDATURES-POUR-LE-RECRUTEMENT-DE-PRESTATAIRES-DE-SERVICES-EN.html"
   }
  ]
 }
