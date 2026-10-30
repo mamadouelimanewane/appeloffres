@@ -1,5 +1,5 @@
 {
- "misAJourLe": "2026-10-29T12:33:47.287Z",
+ "misAJourLe": "2026-10-30T12:24:25.108Z",
  "avis": {
   "senelec:https://www.senelec.sn/media/marches/appels/AVIS_DE_REPORT_AON_33_2026.pdf": {
    "source": "senelec",
@@ -6041,7 +6041,7 @@
    "objet": "Recrutement d’un consultant pour l’élaboration de notes de d’analyse et de recherche basées sur le SMSD (Structural model for sustainable developpement) pour le Sénégal",
    "type": "Recrutement de consultant",
    "publieLe": "2026-10-19",
-   "dateLimite": "2026-10-29",
+   "dateLimite": "2026-11-03",
    "url": "https://www.ungm.org/Public/Notice/318735",
    "autorite": "OIT (Nations unies)",
    "vuLe": "2026-10-19"
@@ -6468,6 +6468,83 @@
    "url": "https://www.pfongue.org/APPEL-A-CANDIDATURES-POUR-LE-RECRUTEMENT-DE-PRESTATAIRES-DE-SERVICES-EN.html",
    "autorite": "ONG (plate-forme PFONGUE)",
    "vuLe": "2026-10-29"
+  },
+  "banquemondiale:https://projects.worldbank.org/fr/projects-operations/procurement-detail/OP00478007": {
+   "source": "banquemondiale",
+   "reference": "SFQC/ AVI/ NAATANGUE 2030",
+   "objet": "Recrutement d’un cabinet/agent de vérification indépendant du programme naatangue 2030",
+   "type": "Appel à manifestation d'intérêt",
+   "publieLe": "2026-10-29",
+   "dateLimite": "2026-11-13",
+   "url": "https://projects.worldbank.org/fr/projects-operations/procurement-detail/OP00478007",
+   "autorite": "Ministry of Health Senegal",
+   "vuLe": "2026-10-30"
+  },
+  "banquemondiale:https://projects.worldbank.org/fr/projects-operations/procurement-detail/OP00478010": {
+   "source": "banquemondiale",
+   "reference": "CI 01/MAN OPERATIONEL/ NAATANGUE 2030",
+   "objet": "Recrutement d’un consultant individuel chargé d’élaborer le manuel opérationnel du programme naatangue 2030",
+   "type": "Appel à manifestation d'intérêt",
+   "publieLe": "2026-10-29",
+   "dateLimite": "2026-11-13",
+   "url": "https://projects.worldbank.org/fr/projects-operations/procurement-detail/OP00478010",
+   "autorite": "Ministry of Health Senegal",
+   "vuLe": "2026-10-30"
+  },
+  "ungm:https://www.ungm.org/Public/Notice/320548": {
+   "source": "ungm",
+   "reference": "rfx_13452_ROAF",
+   "objet": "Demande de cotation hôtel pour l’atelier de restitution des résultats et de construction de la feuille de route de l’étude sur le mécanisme d’optimisation des opportunités d’emplois décents et de formalisation des travailleurs",
+   "type": "Demande de cotation",
+   "publieLe": "2026-10-30",
+   "dateLimite": "2026-11-07",
+   "url": "https://www.ungm.org/Public/Notice/320548",
+   "autorite": "OIT (Nations unies)",
+   "vuLe": "2026-10-30"
+  },
+  "ungm:https://www.ungm.org/Public/Notice/320453": {
+   "source": "ungm",
+   "reference": "2026/FRSEN/FRSEN/138683",
+   "objet": "Acquition de materiels de luttre contre les feux de brousse",
+   "type": "Demande de cotation",
+   "publieLe": "2026-10-29",
+   "dateLimite": "2026-11-05",
+   "url": "https://www.ungm.org/Public/Notice/320453",
+   "autorite": "FAO (Nations unies)",
+   "vuLe": "2026-10-30"
+  },
+  "ungm:https://www.ungm.org/Public/Notice/320462": {
+   "source": "ungm",
+   "reference": "UNDP-SEN-00631",
+   "objet": "PAR LOT ACQUISITION, LIVRAISON ET POSE EQUIPEMENTS AGRICOLES / ENVIRONNEMENT",
+   "type": "Demande de cotation",
+   "publieLe": "2026-10-29",
+   "dateLimite": "2026-11-23",
+   "url": "https://www.ungm.org/Public/Notice/320462",
+   "autorite": "PNUD (Nations unies)",
+   "vuLe": "2026-10-30"
+  },
+  "pfongue:https://www.pfongue.org/APPEL-A-CANDIDATURES-Bureau-du-Senegal-recrute-un-e-Conseiller-ere-technique.html": {
+   "source": "pfongue",
+   "reference": "non communiquée",
+   "objet": "APPEL À CANDIDATURES : Bureau du Sénégal recrute : un (e) Conseiller.ère technique régional Protection Afrique",
+   "type": "Appel d'offres",
+   "publieLe": "2026-10-29",
+   "dateLimite": null,
+   "url": "https://www.pfongue.org/APPEL-A-CANDIDATURES-Bureau-du-Senegal-recrute-un-e-Conseiller-ere-technique.html",
+   "autorite": "ONG (plate-forme PFONGUE)",
+   "vuLe": "2026-10-30"
+  },
+  "pfongue:https://www.pfongue.org/APPEL-A-CANDIDATURES-Bureau-du-Senegal-recrute-un-e-Charge-e-des-Operations.html": {
+   "source": "pfongue",
+   "reference": "non communiquée",
+   "objet": "APPEL À CANDIDATURES : Bureau du Sénégal recrute : un (e) Chargé-e des Opérations",
+   "type": "Appel d'offres",
+   "publieLe": "2026-10-29",
+   "dateLimite": null,
+   "url": "https://www.pfongue.org/APPEL-A-CANDIDATURES-Bureau-du-Senegal-recrute-un-e-Charge-e-des-Operations.html",
+   "autorite": "ONG (plate-forme PFONGUE)",
+   "vuLe": "2026-10-30"
   }
  }
 }
