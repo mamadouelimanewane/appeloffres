@@ -29612,7 +29612,7 @@
  {
   "autorite": "Ministère de la Jeunesse et des sports (MJS)",
   "plan": "MJS_2026_1",
-  "direction": "Direction de l'Administration générale et de l'Equipement",
+  "direction": "DIRECTION DE L'ADMINISTRATION GENERALE ET DE L'EQUIPEMENT",
   "reference": "S_MJS_DAGE_12154",
   "objet": "Entretien maintenance matériel informatique",
   "typeMarche": "Services",
@@ -29630,7 +29630,7 @@
  {
   "autorite": "Ministère de la Jeunesse et des sports (MJS)",
   "plan": "MJS_2026_1",
-  "direction": "Direction de l'Administration générale et de l'Equipement",
+  "direction": "DIRECTION DE L'ADMINISTRATION GENERALE ET DE L'EQUIPEMENT",
   "reference": "F_MJS_DAGE_12187",
   "objet": "Acquisition de matériels informatiques",
   "typeMarche": "Fourniture",
@@ -29648,7 +29648,7 @@
  {
   "autorite": "Ministère de la Jeunesse et des sports (MJS)",
   "plan": "MJS_2026_1",
-  "direction": "Direction de l'Administration générale et de l'Equipement",
+  "direction": "DIRECTION DE L'ADMINISTRATION GENERALE ET DE L'EQUIPEMENT",
   "reference": "F_MJS_DAGE_12222",
   "objet": "Acquisition de matériels de communication (caméra, drones, téléphones et accessoires etc….)",
   "typeMarche": "Fourniture",
@@ -29666,7 +29666,7 @@
  {
   "autorite": "Ministère de la Jeunesse et des sports (MJS)",
   "plan": "MJS_2026_1",
-  "direction": "Direction de l'Administration générale et de l'Equipement",
+  "direction": "DIRECTION DE L'ADMINISTRATION GENERALE ET DE L'EQUIPEMENT",
   "reference": "F_MJS_DAGE_12247",
   "objet": "Acquisition d'appareils téléphoniques",
   "typeMarche": "Fourniture",
@@ -40945,1482 +40945,6 @@
   "lancement": "2026-09-16",
   "attribution": "2027-01-08",
   "demarrage": "2027-03-05",
-  "achevement": null,
-  "etat": null,
-  "montantFcfa": null
- },
- {
-  "autorite": "Presidence de la République",
-  "plan": "PR_2026_12",
-  "direction": "Contrôle Financier",
-  "reference": "F_PR_CF_1238",
-  "objet": "ACQUISITION DE MATERIELS PEDAGOGIQUES ET DIDACTIQUES",
-  "typeMarche": "Fourniture",
-  "financement": [
-   "Budget propre"
-  ],
-  "mode": "Demande de renseignement et de prix à compétition restreinte",
-  "lancement": "2026-07-06",
-  "attribution": "2026-07-22",
-  "demarrage": "2026-07-27",
-  "achevement": null,
-  "etat": null,
-  "montantFcfa": null
- },
- {
-  "autorite": "Presidence de la République",
-  "plan": "PR_2026_12",
-  "direction": "Contrôle Financier",
-  "reference": "F_PR_CF_1239",
-  "objet": "CONFECTION HABILLEMENTS ET ACCESSOIRES",
-  "typeMarche": "Fourniture",
-  "financement": [
-   "Budget propre"
-  ],
-  "mode": "Demande de renseignement et de prix à compétition restreinte",
-  "lancement": "2026-07-06",
-  "attribution": "2026-07-22",
-  "demarrage": "2026-07-27",
-  "achevement": null,
-  "etat": null,
-  "montantFcfa": null
- },
- {
-  "autorite": "Presidence de la République",
-  "plan": "PR_2026_12",
-  "direction": "Bureau Organisation et Méthodes",
-  "reference": "S_PR_BOM_1319",
-  "objet": "ENTRETIEN MATERIELS ET MOBILIERS DE BUREAU",
-  "typeMarche": "Services",
-  "financement": [
-   "Budget propre"
-  ],
-  "mode": "Demande de renseignement et de prix à compétition restreinte",
-  "lancement": "2026-02-13",
-  "attribution": "2026-02-27",
-  "demarrage": "2026-03-06",
-  "achevement": null,
-  "etat": null,
-  "montantFcfa": null
- },
- {
-  "autorite": "Presidence de la République",
-  "plan": "PR_2026_12",
-  "direction": "Bureau d'Architecture et de Conservation des Palais nationaux",
-  "reference": "F_PR_BAC_16123",
-  "objet": "ACQUISITION CONSOMMABLES INFORMATIQUES ET FOURNITURES DE BUREAU EN DEUX LOTS",
-  "typeMarche": "Fourniture",
-  "financement": [
-   "Budget propre"
-  ],
-  "mode": "Demande de renseignement et de prix à compétition restreinte",
-  "lancement": "2026-08-25",
-  "attribution": "2026-09-03",
-  "demarrage": "2026-09-07",
-  "achevement": null,
-  "etat": null,
-  "montantFcfa": null
- },
- {
-  "autorite": "Presidence de la République",
-  "plan": "PR_2026_12",
-  "direction": "Bureau d'Architecture et de Conservation des Palais nationaux",
-  "reference": "F_PR_BAC_16124",
-  "objet": "FOURNITURE DE PETITS MATERIELS ELECTRIQUE, DE PLOMBERIE ET DE QUINCAILLERIE EN TROIS LOTS",
-  "typeMarche": "Fourniture",
-  "financement": [
-   "Budget propre"
-  ],
-  "mode": "Demande de renseignement et de prix à compétition restreinte",
-  "lancement": "2026-08-25",
-  "attribution": "2026-09-03",
-  "demarrage": "2026-09-07",
-  "achevement": null,
-  "etat": null,
-  "montantFcfa": null
- },
- {
-  "autorite": "Presidence de la République",
-  "plan": "PR_2026_12",
-  "direction": "Bureau d'Architecture et de Conservation des Palais nationaux",
-  "reference": "S_PR_BAC_16126",
-  "objet": "MAINTENANCE GROUPES ELECTROGENES",
-  "typeMarche": "Services",
-  "financement": [
-   "Budget propre"
-  ],
-  "mode": "Demande de renseignement et de prix à compétition restreinte",
-  "lancement": "2026-08-26",
-  "attribution": "2026-09-09",
-  "demarrage": "2026-09-11",
-  "achevement": null,
-  "etat": null,
-  "montantFcfa": null
- },
- {
-  "autorite": "Presidence de la République",
-  "plan": "PR_2026_12",
-  "direction": "Contrôle Financier",
-  "reference": "S_PR_CF_1253",
-  "objet": "RELUIRE DU STOCK RESTANT DES JOURNAUX OFFICIELS",
-  "typeMarche": "Services",
-  "financement": [
-   "Budget propre"
-  ],
-  "mode": "Demande de renseignements et de  prix simple",
-  "lancement": "2026-02-06",
-  "attribution": "2026-02-19",
-  "demarrage": "2026-02-27",
-  "achevement": null,
-  "etat": null,
-  "montantFcfa": null
- },
- {
-  "autorite": "Presidence de la République",
-  "plan": "PR_2026_12",
-  "direction": "Comité national de l'initiative pour la Transparence dans les Industries Extractives",
-  "reference": "S_PR_CN-ITIE_1120",
-  "objet": "ENTRETIEN ET MAINTENANCE INFORMATIQUE",
-  "typeMarche": "Services",
-  "financement": [
-   "Budget propre"
-  ],
-  "mode": "Demande de renseignements et de  prix simple",
-  "lancement": "2026-02-02",
-  "attribution": "2026-02-13",
-  "demarrage": "2026-02-17",
-  "achevement": null,
-  "etat": null,
-  "montantFcfa": null
- },
- {
-  "autorite": "Presidence de la République",
-  "plan": "PR_2026_12",
-  "direction": "Comité national de l'initiative pour la Transparence dans les Industries Extractives",
-  "reference": "F_PR_CN-ITIE_1116",
-  "objet": "ACQUISITION DE FOURNITURES DE BUREAU ET CONSOMMABLES INFORMATIQUES EN DEUX LOTS",
-  "typeMarche": "Fourniture",
-  "financement": [
-   "Budget propre"
-  ],
-  "mode": "Demande de renseignement et de prix à compétition restreinte",
-  "lancement": "2026-02-02",
-  "attribution": "2026-02-19",
-  "demarrage": "2026-02-23",
-  "achevement": null,
-  "etat": null,
-  "montantFcfa": null
- },
- {
-  "autorite": "Presidence de la République",
-  "plan": "PR_2026_12",
-  "direction": "DIrection des Moyens Généraux Presidence",
-  "reference": "S_PR_DMG_5321",
-  "objet": "Entretien et maintenance de matériels informatiques",
-  "typeMarche": "Services",
-  "financement": [
-   "Budget propre"
-  ],
-  "mode": "Demande de renseignements et de prix à compétition ouverte",
-  "lancement": "2026-08-17",
-  "attribution": "2026-09-04",
-  "demarrage": "2026-09-21",
-  "achevement": null,
-  "etat": null,
-  "montantFcfa": null
- },
- {
-  "autorite": "Presidence de la République",
-  "plan": "PR_2026_12",
-  "direction": "DIrection des Moyens Généraux Presidence",
-  "reference": "F_PR_DMG_5316",
-  "objet": "Acquisition de tenues pour les chauffeurs de la Présidence de la République",
-  "typeMarche": "Fourniture",
-  "financement": [
-   "Budget propre"
-  ],
-  "mode": "Demande de renseignements et de prix à compétition ouverte",
-  "lancement": "2026-08-17",
-  "attribution": "2026-09-04",
-  "demarrage": "2026-09-21",
-  "achevement": null,
-  "etat": null,
-  "montantFcfa": null
- },
- {
-  "autorite": "Presidence de la République",
-  "plan": "PR_2026_12",
-  "direction": "Comité national de l'initiative pour la Transparence dans les Industries Extractives",
-  "reference": "F_PR_CN-ITIE_1106",
-  "objet": "ACQUISITION DE MOBILIERS ET DE MATERIELS INFORMATIQUES",
-  "typeMarche": "Fourniture",
-  "financement": [
-   "Budget propre"
-  ],
-  "mode": "Demande de renseignement et de prix à compétition restreinte",
-  "lancement": "2026-02-02",
-  "attribution": "2026-02-19",
-  "demarrage": "2026-02-23",
-  "achevement": null,
-  "etat": null,
-  "montantFcfa": null
- },
- {
-  "autorite": "Presidence de la République",
-  "plan": "PR_2026_12",
-  "direction": "Contrôle Financier",
-  "reference": "S_PR_CF_1324",
-  "objet": "ENTRETIEN MATERIEL FROID ET CLIMATISATION",
-  "typeMarche": "Services",
-  "financement": [
-   "Budget propre"
-  ],
-  "mode": "Demande de renseignement et de prix à compétition restreinte",
-  "lancement": "2026-02-03",
-  "attribution": "2026-02-20",
-  "demarrage": "2026-02-27",
-  "achevement": null,
-  "etat": null,
-  "montantFcfa": null
- },
- {
-  "autorite": "Presidence de la République",
-  "plan": "PR_2026_12",
-  "direction": "Comité national de l'initiative pour la Transparence dans les Industries Extractives",
-  "reference": "S_PR_CN-ITIE_1121",
-  "objet": "ENTRETIEN CLIMATISATION",
-  "typeMarche": "Services",
-  "financement": [
-   "Budget propre"
-  ],
-  "mode": "Demande de renseignements et de  prix simple",
-  "lancement": "2026-02-02",
-  "attribution": "2026-02-13",
-  "demarrage": "2026-02-17",
-  "achevement": null,
-  "etat": null,
-  "montantFcfa": null
- },
- {
-  "autorite": "Presidence de la République",
-  "plan": "PR_2026_12",
-  "direction": "Contrôle Financier",
-  "reference": "F_PR_CF_1237",
-  "objet": "ACQUISITION PRODUITS D'ENTRETIEN",
-  "typeMarche": "Fourniture",
-  "financement": [
-   "Budget propre"
-  ],
-  "mode": "Demande de renseignement et de prix à compétition restreinte",
-  "lancement": "2026-03-02",
-  "attribution": "2026-03-18",
-  "demarrage": "2026-03-23",
-  "achevement": null,
-  "etat": null,
-  "montantFcfa": null
- },
- {
-  "autorite": "Presidence de la République",
-  "plan": "PR_2026_12",
-  "direction": "Inspection Générale des Forces Armées",
-  "reference": "F_PR_IGFA_1277",
-  "objet": "ACHAT MATERIEL PEDAGOGIQUE ET DIDACTIQUE",
-  "typeMarche": "Fourniture",
-  "financement": [
-   "Budget propre"
-  ],
-  "mode": "Demande de renseignements et de  prix simple",
-  "lancement": "2026-04-03",
-  "attribution": "2026-04-14",
-  "demarrage": "2026-04-15",
-  "achevement": null,
-  "etat": null,
-  "montantFcfa": null
- },
- {
-  "autorite": "Presidence de la République",
-  "plan": "PR_2026_12",
-  "direction": "Contrôle Financier",
-  "reference": "F_PR_CF_1225",
-  "objet": "ACQUISITION MOBILIER ET MATERIEL DE BUREAU",
-  "typeMarche": "Fourniture",
-  "financement": [
-   "Budget propre"
-  ],
-  "mode": "Demande de renseignements et de prix à compétition ouverte",
-  "lancement": "2026-08-25",
-  "attribution": "2026-09-11",
-  "demarrage": "2026-09-28",
-  "achevement": null,
-  "etat": null,
-  "montantFcfa": null
- },
- {
-  "autorite": "Presidence de la République",
-  "plan": "PR_2026_12",
-  "direction": "Contrôle Financier",
-  "reference": "S_PR_CF_1244",
-  "objet": "ENTRETIEN ET REPARATION VEHICULES",
-  "typeMarche": "Services",
-  "financement": [
-   "Budget propre"
-  ],
-  "mode": "Demande de renseignement et de prix à compétition restreinte",
-  "lancement": "2026-01-06",
-  "attribution": "2026-01-22",
-  "demarrage": "2026-01-30",
-  "achevement": null,
-  "etat": null,
-  "montantFcfa": null
- },
- {
-  "autorite": "Presidence de la République",
-  "plan": "PR_2026_12",
-  "direction": "Contrôle Financier",
-  "reference": "F_PR_CF_1248",
-  "objet": "ACQUISITION LICENCE MICROSOFT SHAREPOINT",
-  "typeMarche": "Fourniture",
-  "financement": [
-   "Budget propre"
-  ],
-  "mode": "Demande de renseignements et de prix à compétition ouverte",
-  "lancement": "2026-01-09",
-  "attribution": "2026-02-05",
-  "demarrage": "2026-02-25",
-  "achevement": null,
-  "etat": null,
-  "montantFcfa": null
- },
- {
-  "autorite": "Presidence de la République",
-  "plan": "PR_2026_12",
-  "direction": "Contrôle Financier",
-  "reference": "S_PR_CF_1247",
-  "objet": "ORGANISATION FETES ET CEREMONIES",
-  "typeMarche": "Services",
-  "financement": [
-   "Budget propre"
-  ],
-  "mode": "Demande de renseignement et de prix à compétition restreinte",
-  "lancement": "2026-01-05",
-  "attribution": "2026-01-21",
-  "demarrage": "2026-02-06",
-  "achevement": null,
-  "etat": null,
-  "montantFcfa": null
- },
- {
-  "autorite": "Presidence de la République",
-  "plan": "PR_2026_12",
-  "direction": "Contrôle Financier",
-  "reference": "S_PR_CF_1252",
-  "objet": "EDITION DES FICHES SYNOPTIQUES 2026",
-  "typeMarche": "Services",
-  "financement": [
-   "Budget propre"
-  ],
-  "mode": "Demande de renseignements et de  prix simple",
-  "lancement": "2026-01-08",
-  "attribution": "2026-01-22",
-  "demarrage": "2026-01-29",
-  "achevement": null,
-  "etat": null,
-  "montantFcfa": null
- },
- {
-  "autorite": "Presidence de la République",
-  "plan": "PR_2026_12",
-  "direction": "Contrôle Financier",
-  "reference": "S_PR_CF_1256",
-  "objet": "EDITION DES RAPPORTS SECTORIELS",
-  "typeMarche": "Services",
-  "financement": [
-   "Budget propre"
-  ],
-  "mode": "Demande de renseignements et de  prix simple",
-  "lancement": "2026-02-06",
-  "attribution": "2026-02-19",
-  "demarrage": "2026-02-27",
-  "achevement": null,
-  "etat": null,
-  "montantFcfa": null
- },
- {
-  "autorite": "Presidence de la République",
-  "plan": "PR_2026_12",
-  "direction": "DIrection des Moyens Généraux Presidence",
-  "reference": "F_PR_DMG_5313",
-  "objet": "Acquisition de produits d'entretien pour le compte de la Présidence de la République",
-  "typeMarche": "Fourniture",
-  "financement": [
-   "Budget propre"
-  ],
-  "mode": "Demande de renseignement et de prix à compétition restreinte",
-  "lancement": "2026-08-17",
-  "attribution": "2026-08-27",
-  "demarrage": "2026-09-01",
-  "achevement": null,
-  "etat": null,
-  "montantFcfa": null
- },
- {
-  "autorite": "Presidence de la République",
-  "plan": "PR_2026_12",
-  "direction": "Contrôle Financier",
-  "reference": "S_PR_CF_1259",
-  "objet": "ELABORATION D'UN RECUEIL THEMATIQUE DES TEXTES LEGISLATIFS ET REGLEMENTAIRES DU SECTEUR PARAPUBLIC",
-  "typeMarche": "Services",
-  "financement": [
-   "Budget propre"
-  ],
-  "mode": "Demande de renseignement et de prix à compétition restreinte",
-  "lancement": "2026-02-09",
-  "attribution": "2026-02-24",
-  "demarrage": "2026-03-04",
-  "achevement": null,
-  "etat": null,
-  "montantFcfa": null
- },
- {
-  "autorite": "Presidence de la République",
-  "plan": "PR_2026_12",
-  "direction": "Comité national de l'initiative pour la Transparence dans les Industries Extractives",
-  "reference": "S_PR_CN-ITIE_1211",
-  "objet": "ENTRETIEN SERVICES D'ELECTRICITE",
-  "typeMarche": "Services",
-  "financement": [
-   "Budget propre"
-  ],
-  "mode": "Demande de renseignements et de  prix simple",
-  "lancement": "2026-02-06",
-  "attribution": "2026-02-13",
-  "demarrage": "2026-02-18",
-  "achevement": null,
-  "etat": null,
-  "montantFcfa": null
- },
- {
-  "autorite": "Presidence de la République",
-  "plan": "PR_2026_12",
-  "direction": "Comité national de l'initiative pour la Transparence dans les Industries Extractives",
-  "reference": "S_PR_CN-ITIE_1221",
-  "objet": "SOUSCRIPTION POLICE D'ASSURANCE POUR LE PERSONNEL",
-  "typeMarche": "Services",
-  "financement": [
-   "Budget propre"
-  ],
-  "mode": "Demande de renseignements et de prix à compétition ouverte",
-  "lancement": "2026-01-07",
-  "attribution": "2026-01-27",
-  "demarrage": "2026-02-04",
-  "achevement": null,
-  "etat": null,
-  "montantFcfa": null
- },
- {
-  "autorite": "Presidence de la République",
-  "plan": "PR_2026_12",
-  "direction": "Contrôle Financier",
-  "reference": "S_PR_CF_1249",
-  "objet": "NUMERISATION DES DOCUMENTS DU CONTROLE FINANCIER : DOSSIERS DES RESSOURCES HUMAINES ET COMPTES RENDUS",
-  "typeMarche": "Services",
-  "financement": [
-   "Budget propre"
-  ],
-  "mode": "Demande de renseignement et de prix à compétition restreinte",
-  "lancement": "2026-01-28",
-  "attribution": "2026-02-19",
-  "demarrage": "2026-03-09",
-  "achevement": null,
-  "etat": null,
-  "montantFcfa": null
- },
- {
-  "autorite": "Presidence de la République",
-  "plan": "PR_2026_12",
-  "direction": "DIrection des Moyens Généraux Presidence",
-  "reference": "F_PR_DMG_5320",
-  "objet": "Acquisition de support de communication pour le Cabinet",
-  "typeMarche": "Fourniture",
-  "financement": [
-   "Budget propre"
-  ],
-  "mode": "Appel d'offres ouvert",
-  "lancement": "2026-02-19",
-  "attribution": "2026-03-26",
-  "demarrage": "2026-04-16",
-  "achevement": null,
-  "etat": null,
-  "montantFcfa": null
- },
- {
-  "autorite": "Presidence de la République",
-  "plan": "PR_2026_12",
-  "direction": "Comité national de l'initiative pour la Transparence dans les Industries Extractives",
-  "reference": "S_PR_CN-ITIE_1214",
-  "objet": "ENTRETIEN SERVICES DE PLOMBERIE",
-  "typeMarche": "Services",
-  "financement": [
-   "Budget propre"
-  ],
-  "mode": "Demande de renseignements et de  prix simple",
-  "lancement": "2026-02-06",
-  "attribution": "2026-02-13",
-  "demarrage": "2026-02-18",
-  "achevement": null,
-  "etat": null,
-  "montantFcfa": null
- },
- {
-  "autorite": "Presidence de la République",
-  "plan": "PR_2026_12",
-  "direction": "Bureau du Représentant Personnel du Chef de l'Etat auprès de la Francophonie",
-  "reference": "F_PR_BRPCE OIF_1350",
-  "objet": "ACQUISITION MATERIEL PEDAGOGIQUE ET DIDACTIQUE",
-  "typeMarche": "Fourniture",
-  "financement": [
-   "Budget propre"
-  ],
-  "mode": "Demande de renseignements et de  prix simple",
-  "lancement": "2026-03-23",
-  "attribution": "2026-03-31",
-  "demarrage": "2026-03-31",
-  "achevement": null,
-  "etat": null,
-  "montantFcfa": null
- },
- {
-  "autorite": "Presidence de la République",
-  "plan": "PR_2026_12",
-  "direction": "Bureau du Représentant Personnel du Chef de l'Etat auprès de la Francophonie",
-  "reference": "S_PR_BRPCE OIF_1361",
-  "objet": "ENTRETIEN ET MAINTENANCE MOBILIER DE BUREAU",
-  "typeMarche": "Services",
-  "financement": [
-   "Budget propre"
-  ],
-  "mode": "Demande de renseignements et de  prix simple",
-  "lancement": "2026-04-06",
-  "attribution": "2026-04-14",
-  "demarrage": "2026-04-14",
-  "achevement": null,
-  "etat": null,
-  "montantFcfa": null
- },
- {
-  "autorite": "Presidence de la République",
-  "plan": "PR_2026_12",
-  "direction": "Bureau Organisation et Méthodes",
-  "reference": "S_PR_BOM_1318",
-  "objet": "SOUSCRIPTION ASSURANCE MALADIE POUR LE PERSONNEL",
-  "typeMarche": "Services",
-  "financement": [
-   "Budget propre"
-  ],
-  "mode": "Demande de renseignement et de prix à compétition restreinte",
-  "lancement": "2026-04-06",
-  "attribution": "2026-04-22",
-  "demarrage": "2026-04-30",
-  "achevement": null,
-  "etat": null,
-  "montantFcfa": null
- },
- {
-  "autorite": "Presidence de la République",
-  "plan": "PR_2026_12",
-  "direction": "Inspection Générale des Forces Armées",
-  "reference": "F_PR_IGFA_1266",
-  "objet": "ACHAT DE CADEAUX",
-  "typeMarche": "Fourniture",
-  "financement": [
-   "Budget propre"
-  ],
-  "mode": "Demande de renseignement et de prix à compétition restreinte",
-  "lancement": "2026-02-23",
-  "attribution": "2026-03-04",
-  "demarrage": "2026-03-06",
-  "achevement": null,
-  "etat": null,
-  "montantFcfa": null
- },
- {
-  "autorite": "Presidence de la République",
-  "plan": "PR_2026_12",
-  "direction": "DIrection des Moyens Généraux Presidence",
-  "reference": "F_PR_DMG_5315",
-  "objet": "Acquisition d'huile parc Commandement Présidence de la République",
-  "typeMarche": "Fourniture",
-  "financement": [
-   "Budget propre"
-  ],
-  "mode": "Demande de renseignements et de prix à compétition ouverte",
-  "lancement": "2026-08-17",
-  "attribution": "2026-09-04",
-  "demarrage": "2026-09-21",
-  "achevement": null,
-  "etat": null,
-  "montantFcfa": null
- },
- {
-  "autorite": "Presidence de la République",
-  "plan": "PR_2026_12",
-  "direction": "DIrection des Moyens Généraux Presidence",
-  "reference": "F_PR_DMG_5322",
-  "objet": "Acquisition de matériel et équipements de radiocommunication pour le réseau de sécurité de la présidence",
-  "typeMarche": "Fourniture",
-  "financement": [
-   "Budget propre"
-  ],
-  "mode": "Appel d'offres ouvert",
-  "lancement": "2026-02-19",
-  "attribution": "2026-03-26",
-  "demarrage": "2026-04-16",
-  "achevement": null,
-  "etat": null,
-  "montantFcfa": null
- },
- {
-  "autorite": "Presidence de la République",
-  "plan": "PR_2026_12",
-  "direction": "DIrection des Moyens Généraux Presidence",
-  "reference": "F_PR_DMG_5285",
-  "objet": "Fourniture de trousses de premier secours pour les locaux de la DMG et les véhicules du Parc Spécial",
-  "typeMarche": "Fourniture",
-  "financement": [
-   "Budget propre"
-  ],
-  "mode": "Demande de renseignement et de prix à compétition restreinte",
-  "lancement": "2026-07-09",
-  "attribution": "2026-07-20",
-  "demarrage": "2026-07-27",
-  "achevement": null,
-  "etat": null,
-  "montantFcfa": null
- },
- {
-  "autorite": "Presidence de la République",
-  "plan": "PR_2026_12",
-  "direction": "DIrection des Moyens Généraux Presidence",
-  "reference": "F_PR_DMG_5325",
-  "objet": "Acquisition d'infrastructures Informatiques",
-  "typeMarche": "Fourniture",
-  "financement": [
-   "Budget propre"
-  ],
-  "mode": "Appel d'offres ouvert",
-  "lancement": "2026-02-19",
-  "attribution": "2026-03-31",
-  "demarrage": "2026-04-29",
-  "achevement": null,
-  "etat": null,
-  "montantFcfa": null
- },
- {
-  "autorite": "Presidence de la République",
-  "plan": "PR_2026_12",
-  "direction": "Bureau d'Architecture et de Conservation des Palais nationaux",
-  "reference": "S_PR_BAC_16128",
-  "objet": "MAINTENANCE ASCENSEURS",
-  "typeMarche": "Services",
-  "financement": [
-   "Budget propre"
-  ],
-  "mode": "Demande de renseignement et de prix à compétition restreinte",
-  "lancement": "2026-08-26",
-  "attribution": "2026-09-08",
-  "demarrage": "2026-09-11",
-  "achevement": null,
-  "etat": null,
-  "montantFcfa": null
- },
- {
-  "autorite": "Presidence de la République",
-  "plan": "PR_2026_12",
-  "direction": "Bureau d'Architecture et de Conservation des Palais nationaux",
-  "reference": "S_PR_BAC_16127",
-  "objet": "MAINTENANCE EQUIPEMENTS DE CUISINE",
-  "typeMarche": "Services",
-  "financement": [
-   "Budget propre"
-  ],
-  "mode": "Demande de renseignement et de prix à compétition restreinte",
-  "lancement": "2026-08-26",
-  "attribution": "2026-09-08",
-  "demarrage": "2026-09-11",
-  "achevement": null,
-  "etat": null,
-  "montantFcfa": null
- },
- {
-  "autorite": "Presidence de la République",
-  "plan": "PR_2026_12",
-  "direction": "DIrection des Moyens Généraux Presidence",
-  "reference": "F_PR_DMG_5323",
-  "objet": "Acquisition d’équipements de réception radioélectrique",
-  "typeMarche": "Fourniture",
-  "financement": [
-   "Budget propre"
-  ],
-  "mode": "Appel d'offres ouvert",
-  "lancement": "2026-02-19",
-  "attribution": "2026-03-26",
-  "demarrage": "2026-04-16",
-  "achevement": null,
-  "etat": null,
-  "montantFcfa": null
- },
- {
-  "autorite": "Presidence de la République",
-  "plan": "PR_2026_12",
-  "direction": "DIrection des Moyens Généraux Presidence",
-  "reference": "F_PR_DMG_5314",
-  "objet": "Acquisition de consommables de peinture pour le garage du parc spécial",
-  "typeMarche": "Fourniture",
-  "financement": [
-   "Budget propre"
-  ],
-  "mode": "Demande de renseignement et de prix à compétition restreinte",
-  "lancement": "2026-02-19",
-  "attribution": "2026-03-03",
-  "demarrage": "2026-03-04",
-  "achevement": null,
-  "etat": null,
-  "montantFcfa": null
- },
- {
-  "autorite": "Presidence de la République",
-  "plan": "PR_2026_12",
-  "direction": "DIrection des Moyens Généraux Presidence",
-  "reference": "F_PR_DMG_5324",
-  "objet": "Acquisition de stations  radio Récepteur/émetteur HF numérique",
-  "typeMarche": "Fourniture",
-  "financement": [
-   "Budget propre"
-  ],
-  "mode": "Demande de renseignements et de prix à compétition ouverte",
-  "lancement": "2026-02-19",
-  "attribution": "2026-03-11",
-  "demarrage": "2026-03-30",
-  "achevement": null,
-  "etat": null,
-  "montantFcfa": null
- },
- {
-  "autorite": "Presidence de la République",
-  "plan": "PR_2026_12",
-  "direction": "Grande Chancellerie de l'Ordre national du Lion",
-  "reference": "S_PR_GCONL_6559",
-  "objet": "RESTAURATION PENDANT LES REUNIONS DU CONSEIL DE L'ORDRE",
-  "typeMarche": "Services",
-  "financement": [
-   "Budget propre"
-  ],
-  "mode": "Demande de renseignement et de prix à compétition restreinte",
-  "lancement": "2026-03-04",
-  "attribution": "2026-03-13",
-  "demarrage": "2026-03-16",
-  "achevement": null,
-  "etat": null,
-  "montantFcfa": null
- },
- {
-  "autorite": "Presidence de la République",
-  "plan": "PR_2026_12",
-  "direction": "Inspection Générale des Forces Armées",
-  "reference": "S_PR_IGFA_1269",
-  "objet": "RESTAURATION DU PERSONNEL - ORGANISATION PAUSES CAFE ET COCKTAILS EN DEUX LOTS",
-  "typeMarche": "Services",
-  "financement": [
-   "Budget propre"
-  ],
-  "mode": "Demande de renseignement et de prix à compétition restreinte",
-  "lancement": "2026-02-23",
-  "attribution": "2026-03-03",
-  "demarrage": "2026-03-06",
-  "achevement": null,
-  "etat": null,
-  "montantFcfa": null
- },
- {
-  "autorite": "Presidence de la République",
-  "plan": "PR_2026_12",
-  "direction": "DIrection des Moyens Généraux Presidence",
-  "reference": "F_PR_DMG_5318",
-  "objet": "Acquisition de consommables et de pièces de rechange de froid automobile pour le garage du parc spécial",
-  "typeMarche": "Fourniture",
-  "financement": [
-   "Budget propre"
-  ],
-  "mode": "Demande de renseignements et de prix à compétition ouverte",
-  "lancement": "2026-02-13",
-  "attribution": "2026-03-04",
-  "demarrage": "2026-03-23",
-  "achevement": null,
-  "etat": null,
-  "montantFcfa": null
- },
- {
-  "autorite": "Presidence de la République",
-  "plan": "PR_2026_12",
-  "direction": "Inspection Générale des Forces Armées",
-  "reference": "S_PR_IGFA_1275",
-  "objet": "ORGANISATION CONFERENCES, CONGRES, SEMINAIRES",
-  "typeMarche": "Services",
-  "financement": [
-   "Budget propre"
-  ],
-  "mode": "Demande de renseignements et de  prix simple",
-  "lancement": "2026-04-07",
-  "attribution": "2026-04-14",
-  "demarrage": "2026-04-15",
-  "achevement": null,
-  "etat": null,
-  "montantFcfa": null
- },
- {
-  "autorite": "Presidence de la République",
-  "plan": "PR_2026_12",
-  "direction": "DIrection des Moyens Généraux Presidence",
-  "reference": "F_PR_DMG_5286",
-  "objet": "Fourniture de produits alimentaires en deux lots",
-  "typeMarche": "Fourniture",
-  "financement": [
-   "Budget propre"
-  ],
-  "mode": "Demande de renseignement et de prix à compétition restreinte",
-  "lancement": "2026-02-26",
-  "attribution": "2026-03-12",
-  "demarrage": "2026-03-16",
-  "achevement": null,
-  "etat": null,
-  "montantFcfa": null
- },
- {
-  "autorite": "Presidence de la République",
-  "plan": "PR_2026_12",
-  "direction": "Bureau d'Architecture et de Conservation des Palais nationaux",
-  "reference": "S_PR_BAC_16129",
-  "objet": "ENTRETIEN ESPACES VERTS",
-  "typeMarche": "Services",
-  "financement": [
-   "Budget propre"
-  ],
-  "mode": "Demande de renseignement et de prix à compétition restreinte",
-  "lancement": "2026-08-26",
-  "attribution": "2026-09-08",
-  "demarrage": "2026-09-11",
-  "achevement": null,
-  "etat": null,
-  "montantFcfa": null
- },
- {
-  "autorite": "Presidence de la République",
-  "plan": "PR_2026_12",
-  "direction": "DIrection des Moyens Généraux Presidence",
-  "reference": "F_PR_DMG_5317",
-  "objet": "Acquisition d'agendas électroniques et accessoires",
-  "typeMarche": "Fourniture",
-  "financement": [
-   "Budget propre"
-  ],
-  "mode": "Demande de renseignements et de prix à compétition ouverte",
-  "lancement": "2026-08-17",
-  "attribution": "2026-09-04",
-  "demarrage": "2026-09-21",
-  "achevement": null,
-  "etat": null,
-  "montantFcfa": null
- },
- {
-  "autorite": "Presidence de la République",
-  "plan": "PR_2026_12",
-  "direction": "DIrection des Moyens Généraux Presidence",
-  "reference": "F_PR_DMG_7707",
-  "objet": "ACQUISITION D'UN SERVEUR NAS",
-  "typeMarche": "Fourniture",
-  "financement": [
-   "Budget propre"
-  ],
-  "mode": "Demande de renseignements et de  prix simple",
-  "lancement": "2026-03-10",
-  "attribution": "2026-03-18",
-  "demarrage": "2026-03-18",
-  "achevement": null,
-  "etat": null,
-  "montantFcfa": null
- },
- {
-  "autorite": "Presidence de la République",
-  "plan": "PR_2026_12",
-  "direction": "Etat major Particulier du Président de la République",
-  "reference": "S_PR_EMPART_7712",
-  "objet": "ORGANISATION FETES ET CEREMONIES",
-  "typeMarche": "Services",
-  "financement": [
-   "Budget propre"
-  ],
-  "mode": "Demande de renseignements et de  prix simple",
-  "lancement": "2026-03-12",
-  "attribution": "2026-03-20",
-  "demarrage": "2026-03-27",
-  "achevement": null,
-  "etat": null,
-  "montantFcfa": null
- },
- {
-  "autorite": "Presidence de la République",
-  "plan": "PR_2026_12",
-  "direction": "Etat major Particulier du Président de la République",
-  "reference": "S_PR_EMPART_7711",
-  "objet": "ENTRETIEN ET MAINTENANCE MATERIEL INFORMATIQUE",
-  "typeMarche": "Services",
-  "financement": [
-   "Budget propre"
-  ],
-  "mode": "Demande de renseignements et de  prix simple",
-  "lancement": "2026-03-12",
-  "attribution": "2026-03-20",
-  "demarrage": "2026-03-27",
-  "achevement": null,
-  "etat": null,
-  "montantFcfa": null
- },
- {
-  "autorite": "Presidence de la République",
-  "plan": "PR_2026_12",
-  "direction": "Etat major Particulier du Président de la République",
-  "reference": "S_PR_EMPART_9957",
-  "objet": "RELANCE MARCHE ORGANISATION DE COCKTAILS DES FETES ET CEREMONIES. REFERENCE MARCHE INITIAL S_PR_EMPART_7712",
-  "typeMarche": "Services",
-  "financement": [
-   "Budget propre"
-  ],
-  "mode": "Demande de renseignements et de  prix simple",
-  "lancement": "2026-04-24",
-  "attribution": "2026-05-04",
-  "demarrage": "2026-05-05",
-  "achevement": null,
-  "etat": null,
-  "montantFcfa": null
- },
- {
-  "autorite": "Presidence de la République",
-  "plan": "PR_2026_12",
-  "direction": "Etat major Particulier du Président de la République",
-  "reference": "S_PR_EMPART_9956",
-  "objet": "RELANCE MARCHE ENTRETIEN ET MAINTENANCE MATERIEL INFORMATIQUE. REFERENCE MARCHE INITIAL S_PR_EMPART_7711.",
-  "typeMarche": "Services",
-  "financement": [
-   "Budget propre"
-  ],
-  "mode": "Demande de renseignements et de  prix simple",
-  "lancement": "2026-04-24",
-  "attribution": "2026-05-04",
-  "demarrage": "2026-05-05",
-  "achevement": null,
-  "etat": null,
-  "montantFcfa": null
- },
- {
-  "autorite": "Presidence de la République",
-  "plan": "PR_2026_12",
-  "direction": "Inspection Générale des Forces Armées",
-  "reference": "S_PR_IGFA_9955",
-  "objet": "RELANCE DU LOT RESTAURATION DU PERSONNEL. DRPR RESTAURATION DU PERSONNEL - ORGANISATION PAUSES CAFE COCKTAILS EN 2 LOTS. REF MARCHE INITIAL S_PR_IGFA_1269",
-  "typeMarche": "Services",
-  "financement": [
-   "Budget propre"
-  ],
-  "mode": "Demande de renseignement et de prix à compétition restreinte",
-  "lancement": "2026-04-24",
-  "attribution": "2026-05-04",
-  "demarrage": "2026-05-05",
-  "achevement": null,
-  "etat": null,
-  "montantFcfa": null
- },
- {
-  "autorite": "Presidence de la République",
-  "plan": "PR_2026_12",
-  "direction": "Contrôle Financier",
-  "reference": "S_PR_CF_1242",
-  "objet": "ENTRETIEN ET REPARATION MATERIEL INFORMATIQUE",
-  "typeMarche": "Services",
-  "financement": [
-   "Budget propre"
-  ],
-  "mode": "Demande de renseignement et de prix à compétition restreinte",
-  "lancement": "2026-01-06",
-  "attribution": "2026-01-21",
-  "demarrage": "2026-01-28",
-  "achevement": null,
-  "etat": null,
-  "montantFcfa": null
- },
- {
-  "autorite": "Presidence de la République",
-  "plan": "PR_2026_12",
-  "direction": "Etat major Particulier du Président de la République",
-  "reference": "S_PR_EMPART_11241",
-  "objet": "RELANCE MARCHE ENTRETIEN ET MAINTENANCE MATERIEL INFORMATIQUE. REFERENCE MARCHE INITIAL S_PR_EMPART_9956.",
-  "typeMarche": "Services",
-  "financement": [
-   "Budget propre"
-  ],
-  "mode": "Demande de renseignements et de  prix simple",
-  "lancement": "2026-05-18",
-  "attribution": "2026-05-22",
-  "demarrage": "2026-06-01",
-  "achevement": null,
-  "etat": null,
-  "montantFcfa": null
- },
- {
-  "autorite": "Presidence de la République",
-  "plan": "PR_2026_12",
-  "direction": "Contrôle Financier",
-  "reference": "F_PR_CF_1229",
-  "objet": "ACQUISITION MATERIEL INFORMATIQUE",
-  "typeMarche": "Fourniture",
-  "financement": [
-   "Budget propre"
-  ],
-  "mode": "Demande de renseignements et de prix à compétition ouverte",
-  "lancement": "2026-02-25",
-  "attribution": "2026-03-18",
-  "demarrage": "2026-03-31",
-  "achevement": null,
-  "etat": null,
-  "montantFcfa": null
- },
- {
-  "autorite": "Presidence de la République",
-  "plan": "PR_2026_12",
-  "direction": "Etat major Particulier du Président de la République",
-  "reference": "S_PR_EMPART_11242",
-  "objet": "RELANCE MARCHE ORGANISATION DE COCKTAILS DES FETES ET CEREMONIES. REFERENCE MARCHE INITIAL S_PR_EMPART_9957",
-  "typeMarche": "Services",
-  "financement": [
-   "Budget propre"
-  ],
-  "mode": "Demande de renseignements et de  prix simple",
-  "lancement": "2026-05-18",
-  "attribution": "2026-05-22",
-  "demarrage": "2026-06-01",
-  "achevement": null,
-  "etat": null,
-  "montantFcfa": null
- },
- {
-  "autorite": "Presidence de la République",
-  "plan": "PR_2026_12",
-  "direction": "Comité national de l'initiative pour la Transparence dans les Industries Extractives",
-  "reference": "S_PR_CN-ITIE_1217",
-  "objet": "ENTRETIEN SERVICES DE MENUISERIE",
-  "typeMarche": "Services",
-  "financement": [
-   "Budget propre"
-  ],
-  "mode": "Demande de renseignements et de  prix simple",
-  "lancement": "2026-02-06",
-  "attribution": "2026-02-13",
-  "demarrage": "2026-02-18",
-  "achevement": null,
-  "etat": null,
-  "montantFcfa": null
- },
- {
-  "autorite": "Presidence de la République",
-  "plan": "PR_2026_12",
-  "direction": "Bureau du Représentant Personnel du Chef de l'Etat auprès de la Francophonie",
-  "reference": "F_PR_BRPCE OIF_7708",
-  "objet": "ACHAT KITS ELECTRONIQUES ET MATERIELS ET PRODUITS DE JARDINAGE",
-  "typeMarche": "Fourniture",
-  "financement": [
-   "Budget propre"
-  ],
-  "mode": "Demande de renseignement et de prix à compétition restreinte",
-  "lancement": "2026-03-19",
-  "attribution": "2026-03-31",
-  "demarrage": "2026-04-01",
-  "achevement": null,
-  "etat": null,
-  "montantFcfa": null
- },
- {
-  "autorite": "Presidence de la République",
-  "plan": "PR_2026_12",
-  "direction": "Bureau du Représentant Personnel du Chef de l'Etat auprès de la Francophonie",
-  "reference": "S_PR_BRPCE OIF_7709",
-  "objet": "ORGANISATION FETES ET CEREMONIES - ORGANISATION CONFERENCES, CONGRES, SEMINAIRES EN DEUX LOTS",
-  "typeMarche": "Services",
-  "financement": [
-   "Budget propre"
-  ],
-  "mode": "Demande de renseignement et de prix à compétition restreinte",
-  "lancement": "2026-03-16",
-  "attribution": "2026-03-27",
-  "demarrage": "2026-03-30",
-  "achevement": null,
-  "etat": null,
-  "montantFcfa": null
- },
- {
-  "autorite": "Presidence de la République",
-  "plan": "PR_2026_12",
-  "direction": "DIrection des Moyens Généraux Presidence",
-  "reference": "F_PR_DMG_13597",
-  "objet": "ACQUISITION DE CONSOMMABLES INFORMATIQUES (LE PARC INFORMATIQUE A EVOLUE ET DE NOUVELLES IMPRIMANTES ET PHOTOCOPIEUSES ONT ETE ACQUISES)",
-  "typeMarche": "Fourniture",
-  "financement": [
-   "Budget propre"
-  ],
-  "mode": "Appel d'offres ouvert",
-  "lancement": "2026-07-15",
-  "attribution": "2026-08-25",
-  "demarrage": "2026-08-31",
-  "achevement": null,
-  "etat": null,
-  "montantFcfa": null
- },
- {
-  "autorite": "Presidence de la République",
-  "plan": "PR_2026_12",
-  "direction": "Contrôle Financier",
-  "reference": "F_PR_CF_13596",
-  "objet": "ACQUISITION DE DEUX VEHICULES DONT UN VEHICULE 4X4 STATION WAGON ET UNE BERLINE",
-  "typeMarche": "Fourniture",
-  "financement": [
-   "Budget propre"
-  ],
-  "mode": "Appel d'offres ouvert",
-  "lancement": "2026-07-15",
-  "attribution": "2026-08-24",
-  "demarrage": "2026-08-31",
-  "achevement": null,
-  "etat": null,
-  "montantFcfa": null
- },
- {
-  "autorite": "Presidence de la République",
-  "plan": "PR_2026_12",
-  "direction": "Contrôle Financier",
-  "reference": "F_PR_CF_1234",
-  "objet": "ACQUISITION FOURNITURES DE BUREAU ET CONSOMMABLES INFORMATIQUES EN DEUX LOTS",
-  "typeMarche": "Fourniture",
-  "financement": [
-   "Budget propre"
-  ],
-  "mode": "Demande de renseignements et de prix à compétition ouverte",
-  "lancement": "2026-01-28",
-  "attribution": "2026-02-18",
-  "demarrage": "2026-03-02",
-  "achevement": null,
-  "etat": null,
-  "montantFcfa": null
- },
- {
-  "autorite": "Presidence de la République",
-  "plan": "PR_2026_12",
-  "direction": "Inspection Générale des Forces Armées",
-  "reference": "S_PR_IGFA_1282",
-  "objet": "ENTRETIEN MOBILIER DE BUREAU",
-  "typeMarche": "Services",
-  "financement": [
-   "Budget propre"
-  ],
-  "mode": "Demande de renseignements et de  prix simple",
-  "lancement": "2026-04-07",
-  "attribution": "2026-04-14",
-  "demarrage": "2026-04-15",
-  "achevement": null,
-  "etat": null,
-  "montantFcfa": null
- },
- {
-  "autorite": "Presidence de la République",
-  "plan": "PR_2026_12",
-  "direction": "Bureau Organisation et Méthodes",
-  "reference": "S_PR_BOM_11243",
-  "objet": "RELANCE DE LA DRPR SOUSCRIPTION D'UNE ASSURANCE MALADIE POUR LE PERSONNEL DU BOM. MARCHE DE BASE S_PR_BOM_1318",
-  "typeMarche": "Services",
-  "financement": [
-   "Budget propre"
-  ],
-  "mode": "Demande de renseignement et de prix à compétition restreinte",
-  "lancement": "2026-05-18",
-  "attribution": "2026-05-25",
-  "demarrage": "2026-06-01",
-  "achevement": null,
-  "etat": null,
-  "montantFcfa": null
- },
- {
-  "autorite": "Presidence de la République",
-  "plan": "PR_2026_12",
-  "direction": "DIrection des Moyens Généraux Presidence",
-  "reference": "F_PR_DMG_15459",
-  "objet": "REVISION ET MISE A JOUR DU PLAN DE PASSATION DES MARCHES POUR L'INSCRIPTION DU MARCHE DE LA DMG PORTANT ACQUISITION DE MATERIELS ET MOBILIERS DE BUREAU",
-  "typeMarche": "Fourniture",
-  "financement": [
-   "Budget propre"
-  ],
-  "mode": "Appel d'offres ouvert",
-  "lancement": "2026-08-06",
-  "attribution": "2026-09-14",
-  "demarrage": "2026-09-30",
-  "achevement": null,
-  "etat": null,
-  "montantFcfa": null
- },
- {
-  "autorite": "Presidence de la République",
-  "plan": "PR_2026_12",
-  "direction": "Bureau d'Architecture et de Conservation des Palais nationaux",
-  "reference": "F_PR_BAC_16122",
-  "objet": "FOURNITURE PRODUITS D'ENTRETIEN ET D'HYGIENE",
-  "typeMarche": "Fourniture",
-  "financement": [
-   "Budget propre"
-  ],
-  "mode": "Demande de renseignements et de  prix simple",
-  "lancement": "2026-08-25",
-  "attribution": "2026-09-03",
-  "demarrage": "2026-09-07",
-  "achevement": null,
-  "etat": null,
-  "montantFcfa": null
- },
- {
-  "autorite": "Presidence de la République",
-  "plan": "PR_2026_12",
-  "direction": "Bureau d'Architecture et de Conservation des Palais nationaux",
-  "reference": "S_PR_BAC_16125",
-  "objet": "MAINTENANCE CLIMATISEURS, SPLIT ET VRV",
-  "typeMarche": "Services",
-  "financement": [
-   "Budget propre"
-  ],
-  "mode": "Demande de renseignement et de prix à compétition restreinte",
-  "lancement": "2026-08-25",
-  "attribution": "2026-09-03",
-  "demarrage": "2026-09-07",
-  "achevement": null,
-  "etat": null,
-  "montantFcfa": null
- },
- {
-  "autorite": "Presidence de la République",
-  "plan": "PR_2026_12",
-  "direction": "Bureau d'Architecture et de Conservation des Palais nationaux",
-  "reference": "S_PR_BAC_16130",
-  "objet": "MAINTENANCE EQUIPEMENTS DE SECURITE INCENDIE",
-  "typeMarche": "Services",
-  "financement": [
-   "Budget propre"
-  ],
-  "mode": "Demande de renseignement et de prix à compétition restreinte",
-  "lancement": "2026-08-25",
-  "attribution": "2026-09-03",
-  "demarrage": "2026-09-07",
-  "achevement": null,
-  "etat": null,
-  "montantFcfa": null
- },
- {
-  "autorite": "Ville de Rufisque",
-  "plan": "VR_2026_5",
-  "direction": "Direction des finances et de la comptabilité",
-  "reference": "C_VR_DFC_1777",
-  "objet": "Selection d'un consultant pour l'élaboration d'une stratégie de mobilisation des recettes fiscales de la Ville de Rufisque",
-  "typeMarche": "Prestation intellectuelle",
-  "financement": [
-   "Budget propre"
-  ],
-  "mode": "Demande de renseignement et de prix à compétition restreinte",
-  "lancement": "2026-02-12",
-  "attribution": "2026-03-12",
-  "demarrage": "2026-04-21",
-  "achevement": null,
-  "etat": null,
-  "montantFcfa": null
- },
- {
-  "autorite": "Ville de Rufisque",
-  "plan": "VR_2026_5",
-  "direction": "Services Techniques",
-  "reference": "T_VR_DST_1782",
-  "objet": "Extension du Réseau de distribution d'eau potable dans le quartier de Darou Rahmane",
-  "typeMarche": "Travaux",
-  "financement": [
-   "Budget propre"
-  ],
-  "mode": "Demande de renseignement et de prix à compétition restreinte",
-  "lancement": "2026-01-30",
-  "attribution": "2026-02-26",
-  "demarrage": "2026-03-05",
-  "achevement": null,
-  "etat": null,
-  "montantFcfa": null
- },
- {
-  "autorite": "Ville de Rufisque",
-  "plan": "VR_2026_5",
-  "direction": "Direction des finances et de la comptabilité",
-  "reference": "F_VR_DFC_1780",
-  "objet": "Acquisition de motocyclettes",
-  "typeMarche": "Fourniture",
-  "financement": [
-   "Budget propre"
-  ],
-  "mode": "Demande de renseignement et de prix à compétition restreinte",
-  "lancement": "2026-03-16",
-  "attribution": "2026-04-17",
-  "demarrage": "2026-05-06",
-  "achevement": null,
-  "etat": null,
-  "montantFcfa": null
- },
- {
-  "autorite": "Ville de Rufisque",
-  "plan": "VR_2026_5",
-  "direction": "Direction des finances et de la comptabilité",
-  "reference": "F_VR_DFC_1778",
-  "objet": "Fournitures de burau et de petits matériels de bureau",
-  "typeMarche": "Fourniture",
-  "financement": [
-   "Budget propre"
-  ],
-  "mode": "Demande de renseignement et de prix à compétition restreinte",
-  "lancement": "2026-04-30",
-  "attribution": "2026-06-03",
-  "demarrage": "2026-06-22",
-  "achevement": null,
-  "etat": null,
-  "montantFcfa": null
- },
- {
-  "autorite": "Ville de Rufisque",
-  "plan": "VR_2026_5",
-  "direction": "Direction des finances et de la comptabilité",
-  "reference": "F_VR_DFC_1779",
-  "objet": "Fournitures d'imprimes et registres (lot 1) et de tickets de perception (Lot 2)",
-  "typeMarche": "Fourniture",
-  "financement": [
-   "Budget propre"
-  ],
-  "mode": "Demande de renseignement et de prix à compétition restreinte",
-  "lancement": "2026-08-14",
-  "attribution": "2026-09-17",
-  "demarrage": "2026-10-06",
-  "achevement": null,
-  "etat": null,
-  "montantFcfa": null
- },
- {
-  "autorite": "Ville de Rufisque",
-  "plan": "VR_2026_5",
-  "direction": "Programme d'Assainissement Liquide Municipal",
-  "reference": "T_VR_PALM_599",
-  "objet": "Construction de caniveaux et d’ouvrages pour drainage des eaux pluviales",
-  "typeMarche": "Travaux",
-  "financement": [
-   "Budget propre"
-  ],
-  "mode": "Appel d'offres ouvert",
-  "lancement": "2026-01-23",
-  "attribution": "2026-03-19",
-  "demarrage": "2026-05-08",
-  "achevement": null,
-  "etat": null,
-  "montantFcfa": null
- },
- {
-  "autorite": "Ville de Rufisque",
-  "plan": "VR_2026_5",
-  "direction": "Services Techniques",
-  "reference": "T_VR_DST_600",
-  "objet": "Travaux de construction et de réparation de chaussées - répartis en 4 lots : Lot 1 : Route principale de FASS -Lot 2 : Route pénétrante de DANGOU et de la route de SANTHIABA -Lot 3 : route de Cité Gabon et Route pénétrante de DIOKOUL- Lot4: Route de Arafat",
-  "typeMarche": "Travaux",
-  "financement": [
-   "Budget propre"
-  ],
-  "mode": "Appel d'offres ouvert",
-  "lancement": "2026-08-17",
-  "attribution": "2026-10-12",
-  "demarrage": "2026-12-01",
-  "achevement": null,
-  "etat": null,
-  "montantFcfa": null
- },
- {
-  "autorite": "Ville de Rufisque",
-  "plan": "VR_2026_5",
-  "direction": "Services Techniques",
-  "reference": "T_VR_DST_1781",
-  "objet": "Les travaux d’entretien et de réparations du bâtiment de l’hôtel de Ville de Rufisque",
-  "typeMarche": "Travaux",
-  "financement": [
-   "Budget propre"
-  ],
-  "mode": "Appel d'offres ouvert",
-  "lancement": "2026-02-09",
-  "attribution": "2026-03-26",
-  "demarrage": "2026-05-11",
-  "achevement": null,
-  "etat": null,
-  "montantFcfa": null
- },
- {
-  "autorite": "Ville de Rufisque",
-  "plan": "VR_2026_5",
-  "direction": "Direction des finances et de la comptabilité",
-  "reference": "F_VR_DFC_7649",
-  "objet": "Fournitures de denrées alimentaires",
-  "typeMarche": "Fourniture",
-  "financement": [
-   "MIXED"
-  ],
-  "mode": "Demande de renseignement et de prix à compétition restreinte",
-  "lancement": "2026-03-05",
-  "attribution": "2026-03-11",
-  "demarrage": "2026-03-16",
-  "achevement": null,
-  "etat": null,
-  "montantFcfa": null
- },
- {
-  "autorite": "Ville de Rufisque",
-  "plan": "VR_2026_5",
-  "direction": "Programme d'Assainissement Liquide Municipal",
-  "reference": "F_VR_PALM_1783",
-  "objet": "Fournitures de matériaux pour travaux d'assainissement (PVC et Tampons de regards)",
-  "typeMarche": "Fourniture",
-  "financement": [
-   "Budget propre"
-  ],
-  "mode": "Demande de renseignements et de prix à compétition ouverte",
-  "lancement": "2026-03-19",
-  "attribution": "2026-04-09",
-  "demarrage": "2026-05-05",
-  "achevement": null,
-  "etat": null,
-  "montantFcfa": null
- },
- {
-  "autorite": "Ville de Rufisque",
-  "plan": "VR_2026_5",
-  "direction": "Direction de la Planification et des Compétences Transférées",
-  "reference": "T_VR_DPCT_16304",
-  "objet": "Travaux d’aménagement de deux places publiques : Lot 1: Place du Champ des courses Lot 2: Place des HLM",
-  "typeMarche": "Travaux",
-  "financement": [
-   "Budget propre"
-  ],
-  "mode": "Demande de renseignement et de prix à compétition restreinte",
-  "lancement": "2026-08-28",
-  "attribution": "2026-09-16",
-  "demarrage": "2026-10-05",
   "achevement": null,
   "etat": null,
   "montantFcfa": null
@@ -54625,6 +53149,1518 @@
   "lancement": "2027-01-01",
   "attribution": "2027-04-27",
   "demarrage": "2027-06-22",
+  "achevement": null,
+  "etat": null,
+  "montantFcfa": null
+ },
+ {
+  "autorite": "Presidence de la République",
+  "plan": "PR_2026_13",
+  "direction": "Contrôle Financier",
+  "reference": "F_PR_CF_1238",
+  "objet": "ACQUISITION DE MATERIELS PEDAGOGIQUES ET DIDACTIQUES",
+  "typeMarche": "Fourniture",
+  "financement": [
+   "Budget propre"
+  ],
+  "mode": "Demande de renseignement et de prix à compétition restreinte",
+  "lancement": "2026-07-06",
+  "attribution": "2026-07-22",
+  "demarrage": "2026-07-27",
+  "achevement": null,
+  "etat": null,
+  "montantFcfa": null
+ },
+ {
+  "autorite": "Presidence de la République",
+  "plan": "PR_2026_13",
+  "direction": "Contrôle Financier",
+  "reference": "F_PR_CF_1239",
+  "objet": "CONFECTION HABILLEMENTS ET ACCESSOIRES",
+  "typeMarche": "Fourniture",
+  "financement": [
+   "Budget propre"
+  ],
+  "mode": "Demande de renseignement et de prix à compétition restreinte",
+  "lancement": "2026-07-06",
+  "attribution": "2026-07-22",
+  "demarrage": "2026-07-27",
+  "achevement": null,
+  "etat": null,
+  "montantFcfa": null
+ },
+ {
+  "autorite": "Presidence de la République",
+  "plan": "PR_2026_13",
+  "direction": "Bureau Organisation et Méthodes",
+  "reference": "S_PR_BOM_1319",
+  "objet": "ENTRETIEN MATERIELS ET MOBILIERS DE BUREAU",
+  "typeMarche": "Services",
+  "financement": [
+   "Budget propre"
+  ],
+  "mode": "Demande de renseignement et de prix à compétition restreinte",
+  "lancement": "2026-02-13",
+  "attribution": "2026-02-27",
+  "demarrage": "2026-03-06",
+  "achevement": null,
+  "etat": null,
+  "montantFcfa": null
+ },
+ {
+  "autorite": "Presidence de la République",
+  "plan": "PR_2026_13",
+  "direction": "Bureau d'Architecture et de Conservation des Palais nationaux",
+  "reference": "F_PR_BAC_16123",
+  "objet": "ACQUISITION CONSOMMABLES INFORMATIQUES ET FOURNITURES DE BUREAU EN DEUX LOTS",
+  "typeMarche": "Fourniture",
+  "financement": [
+   "Budget propre"
+  ],
+  "mode": "Demande de renseignement et de prix à compétition restreinte",
+  "lancement": "2026-08-25",
+  "attribution": "2026-09-03",
+  "demarrage": "2026-09-07",
+  "achevement": null,
+  "etat": null,
+  "montantFcfa": null
+ },
+ {
+  "autorite": "Presidence de la République",
+  "plan": "PR_2026_13",
+  "direction": "Bureau d'Architecture et de Conservation des Palais nationaux",
+  "reference": "F_PR_BAC_16124",
+  "objet": "FOURNITURE DE PETITS MATERIELS ELECTRIQUE, DE PLOMBERIE ET DE QUINCAILLERIE EN TROIS LOTS",
+  "typeMarche": "Fourniture",
+  "financement": [
+   "Budget propre"
+  ],
+  "mode": "Demande de renseignement et de prix à compétition restreinte",
+  "lancement": "2026-08-25",
+  "attribution": "2026-09-03",
+  "demarrage": "2026-09-07",
+  "achevement": null,
+  "etat": null,
+  "montantFcfa": null
+ },
+ {
+  "autorite": "Presidence de la République",
+  "plan": "PR_2026_13",
+  "direction": "Bureau d'Architecture et de Conservation des Palais nationaux",
+  "reference": "S_PR_BAC_16126",
+  "objet": "MAINTENANCE GROUPES ELECTROGENES",
+  "typeMarche": "Services",
+  "financement": [
+   "Budget propre"
+  ],
+  "mode": "Demande de renseignement et de prix à compétition restreinte",
+  "lancement": "2026-08-26",
+  "attribution": "2026-09-09",
+  "demarrage": "2026-09-11",
+  "achevement": null,
+  "etat": null,
+  "montantFcfa": null
+ },
+ {
+  "autorite": "Presidence de la République",
+  "plan": "PR_2026_13",
+  "direction": "Contrôle Financier",
+  "reference": "S_PR_CF_1253",
+  "objet": "RELUIRE DU STOCK RESTANT DES JOURNAUX OFFICIELS",
+  "typeMarche": "Services",
+  "financement": [
+   "Budget propre"
+  ],
+  "mode": "Demande de renseignements et de  prix simple",
+  "lancement": "2026-02-06",
+  "attribution": "2026-02-19",
+  "demarrage": "2026-02-27",
+  "achevement": null,
+  "etat": null,
+  "montantFcfa": null
+ },
+ {
+  "autorite": "Presidence de la République",
+  "plan": "PR_2026_13",
+  "direction": "Comité national de l'initiative pour la Transparence dans les Industries Extractives",
+  "reference": "S_PR_CN-ITIE_1120",
+  "objet": "ENTRETIEN ET MAINTENANCE INFORMATIQUE",
+  "typeMarche": "Services",
+  "financement": [
+   "Budget propre"
+  ],
+  "mode": "Demande de renseignements et de  prix simple",
+  "lancement": "2026-02-02",
+  "attribution": "2026-02-13",
+  "demarrage": "2026-02-17",
+  "achevement": null,
+  "etat": null,
+  "montantFcfa": null
+ },
+ {
+  "autorite": "Presidence de la République",
+  "plan": "PR_2026_13",
+  "direction": "Comité national de l'initiative pour la Transparence dans les Industries Extractives",
+  "reference": "F_PR_CN-ITIE_1116",
+  "objet": "ACQUISITION DE FOURNITURES DE BUREAU ET CONSOMMABLES INFORMATIQUES EN DEUX LOTS",
+  "typeMarche": "Fourniture",
+  "financement": [
+   "Budget propre"
+  ],
+  "mode": "Demande de renseignement et de prix à compétition restreinte",
+  "lancement": "2026-02-02",
+  "attribution": "2026-02-19",
+  "demarrage": "2026-02-23",
+  "achevement": null,
+  "etat": null,
+  "montantFcfa": null
+ },
+ {
+  "autorite": "Presidence de la République",
+  "plan": "PR_2026_13",
+  "direction": "DIrection des Moyens Généraux Presidence",
+  "reference": "S_PR_DMG_5321",
+  "objet": "Entretien et maintenance de matériels informatiques",
+  "typeMarche": "Services",
+  "financement": [
+   "Budget propre"
+  ],
+  "mode": "Demande de renseignements et de prix à compétition ouverte",
+  "lancement": "2026-08-17",
+  "attribution": "2026-09-04",
+  "demarrage": "2026-09-21",
+  "achevement": null,
+  "etat": null,
+  "montantFcfa": null
+ },
+ {
+  "autorite": "Presidence de la République",
+  "plan": "PR_2026_13",
+  "direction": "DIrection des Moyens Généraux Presidence",
+  "reference": "F_PR_DMG_5316",
+  "objet": "Acquisition de tenues pour les chauffeurs de la Présidence de la République",
+  "typeMarche": "Fourniture",
+  "financement": [
+   "Budget propre"
+  ],
+  "mode": "Demande de renseignements et de prix à compétition ouverte",
+  "lancement": "2026-08-17",
+  "attribution": "2026-09-04",
+  "demarrage": "2026-09-21",
+  "achevement": null,
+  "etat": null,
+  "montantFcfa": null
+ },
+ {
+  "autorite": "Presidence de la République",
+  "plan": "PR_2026_13",
+  "direction": "Comité national de l'initiative pour la Transparence dans les Industries Extractives",
+  "reference": "F_PR_CN-ITIE_1106",
+  "objet": "ACQUISITION DE MOBILIERS ET DE MATERIELS INFORMATIQUES",
+  "typeMarche": "Fourniture",
+  "financement": [
+   "Budget propre"
+  ],
+  "mode": "Demande de renseignement et de prix à compétition restreinte",
+  "lancement": "2026-02-02",
+  "attribution": "2026-02-19",
+  "demarrage": "2026-02-23",
+  "achevement": null,
+  "etat": null,
+  "montantFcfa": null
+ },
+ {
+  "autorite": "Presidence de la République",
+  "plan": "PR_2026_13",
+  "direction": "Contrôle Financier",
+  "reference": "S_PR_CF_1324",
+  "objet": "ENTRETIEN MATERIEL FROID ET CLIMATISATION",
+  "typeMarche": "Services",
+  "financement": [
+   "Budget propre"
+  ],
+  "mode": "Demande de renseignement et de prix à compétition restreinte",
+  "lancement": "2026-02-03",
+  "attribution": "2026-02-20",
+  "demarrage": "2026-02-27",
+  "achevement": null,
+  "etat": null,
+  "montantFcfa": null
+ },
+ {
+  "autorite": "Presidence de la République",
+  "plan": "PR_2026_13",
+  "direction": "Comité national de l'initiative pour la Transparence dans les Industries Extractives",
+  "reference": "S_PR_CN-ITIE_1121",
+  "objet": "ENTRETIEN CLIMATISATION",
+  "typeMarche": "Services",
+  "financement": [
+   "Budget propre"
+  ],
+  "mode": "Demande de renseignements et de  prix simple",
+  "lancement": "2026-02-02",
+  "attribution": "2026-02-13",
+  "demarrage": "2026-02-17",
+  "achevement": null,
+  "etat": null,
+  "montantFcfa": null
+ },
+ {
+  "autorite": "Presidence de la République",
+  "plan": "PR_2026_13",
+  "direction": "Contrôle Financier",
+  "reference": "F_PR_CF_1237",
+  "objet": "ACQUISITION PRODUITS D'ENTRETIEN",
+  "typeMarche": "Fourniture",
+  "financement": [
+   "Budget propre"
+  ],
+  "mode": "Demande de renseignement et de prix à compétition restreinte",
+  "lancement": "2026-03-02",
+  "attribution": "2026-03-18",
+  "demarrage": "2026-03-23",
+  "achevement": null,
+  "etat": null,
+  "montantFcfa": null
+ },
+ {
+  "autorite": "Presidence de la République",
+  "plan": "PR_2026_13",
+  "direction": "Inspection Générale des Forces Armées",
+  "reference": "F_PR_IGFA_1277",
+  "objet": "ACHAT MATERIEL PEDAGOGIQUE ET DIDACTIQUE",
+  "typeMarche": "Fourniture",
+  "financement": [
+   "Budget propre"
+  ],
+  "mode": "Demande de renseignements et de  prix simple",
+  "lancement": "2026-04-03",
+  "attribution": "2026-04-14",
+  "demarrage": "2026-04-15",
+  "achevement": null,
+  "etat": null,
+  "montantFcfa": null
+ },
+ {
+  "autorite": "Presidence de la République",
+  "plan": "PR_2026_13",
+  "direction": "Contrôle Financier",
+  "reference": "F_PR_CF_1225",
+  "objet": "ACQUISITION MOBILIER ET MATERIEL DE BUREAU",
+  "typeMarche": "Fourniture",
+  "financement": [
+   "Budget propre"
+  ],
+  "mode": "Demande de renseignements et de prix à compétition ouverte",
+  "lancement": "2026-08-25",
+  "attribution": "2026-09-11",
+  "demarrage": "2026-09-28",
+  "achevement": null,
+  "etat": null,
+  "montantFcfa": null
+ },
+ {
+  "autorite": "Presidence de la République",
+  "plan": "PR_2026_13",
+  "direction": "Contrôle Financier",
+  "reference": "S_PR_CF_1244",
+  "objet": "ENTRETIEN ET REPARATION VEHICULES",
+  "typeMarche": "Services",
+  "financement": [
+   "Budget propre"
+  ],
+  "mode": "Demande de renseignement et de prix à compétition restreinte",
+  "lancement": "2026-01-06",
+  "attribution": "2026-01-22",
+  "demarrage": "2026-01-30",
+  "achevement": null,
+  "etat": null,
+  "montantFcfa": null
+ },
+ {
+  "autorite": "Presidence de la République",
+  "plan": "PR_2026_13",
+  "direction": "Contrôle Financier",
+  "reference": "F_PR_CF_1248",
+  "objet": "ACQUISITION LICENCE MICROSOFT SHAREPOINT",
+  "typeMarche": "Fourniture",
+  "financement": [
+   "Budget propre"
+  ],
+  "mode": "Demande de renseignements et de prix à compétition ouverte",
+  "lancement": "2026-01-09",
+  "attribution": "2026-02-05",
+  "demarrage": "2026-02-25",
+  "achevement": null,
+  "etat": null,
+  "montantFcfa": null
+ },
+ {
+  "autorite": "Presidence de la République",
+  "plan": "PR_2026_13",
+  "direction": "Contrôle Financier",
+  "reference": "S_PR_CF_1247",
+  "objet": "ORGANISATION FETES ET CEREMONIES",
+  "typeMarche": "Services",
+  "financement": [
+   "Budget propre"
+  ],
+  "mode": "Demande de renseignement et de prix à compétition restreinte",
+  "lancement": "2026-01-05",
+  "attribution": "2026-01-21",
+  "demarrage": "2026-02-06",
+  "achevement": null,
+  "etat": null,
+  "montantFcfa": null
+ },
+ {
+  "autorite": "Presidence de la République",
+  "plan": "PR_2026_13",
+  "direction": "Contrôle Financier",
+  "reference": "S_PR_CF_1252",
+  "objet": "EDITION DES FICHES SYNOPTIQUES 2026",
+  "typeMarche": "Services",
+  "financement": [
+   "Budget propre"
+  ],
+  "mode": "Demande de renseignements et de  prix simple",
+  "lancement": "2026-01-08",
+  "attribution": "2026-01-22",
+  "demarrage": "2026-01-29",
+  "achevement": null,
+  "etat": null,
+  "montantFcfa": null
+ },
+ {
+  "autorite": "Presidence de la République",
+  "plan": "PR_2026_13",
+  "direction": "Contrôle Financier",
+  "reference": "S_PR_CF_1256",
+  "objet": "EDITION DES RAPPORTS SECTORIELS",
+  "typeMarche": "Services",
+  "financement": [
+   "Budget propre"
+  ],
+  "mode": "Demande de renseignements et de  prix simple",
+  "lancement": "2026-02-06",
+  "attribution": "2026-02-19",
+  "demarrage": "2026-02-27",
+  "achevement": null,
+  "etat": null,
+  "montantFcfa": null
+ },
+ {
+  "autorite": "Presidence de la République",
+  "plan": "PR_2026_13",
+  "direction": "DIrection des Moyens Généraux Presidence",
+  "reference": "F_PR_DMG_5313",
+  "objet": "Acquisition de produits d'entretien pour le compte de la Présidence de la République",
+  "typeMarche": "Fourniture",
+  "financement": [
+   "Budget propre"
+  ],
+  "mode": "Demande de renseignement et de prix à compétition restreinte",
+  "lancement": "2026-08-17",
+  "attribution": "2026-08-27",
+  "demarrage": "2026-09-01",
+  "achevement": null,
+  "etat": null,
+  "montantFcfa": null
+ },
+ {
+  "autorite": "Presidence de la République",
+  "plan": "PR_2026_13",
+  "direction": "Contrôle Financier",
+  "reference": "S_PR_CF_1259",
+  "objet": "ELABORATION D'UN RECUEIL THEMATIQUE DES TEXTES LEGISLATIFS ET REGLEMENTAIRES DU SECTEUR PARAPUBLIC",
+  "typeMarche": "Services",
+  "financement": [
+   "Budget propre"
+  ],
+  "mode": "Demande de renseignement et de prix à compétition restreinte",
+  "lancement": "2026-02-09",
+  "attribution": "2026-02-24",
+  "demarrage": "2026-03-04",
+  "achevement": null,
+  "etat": null,
+  "montantFcfa": null
+ },
+ {
+  "autorite": "Presidence de la République",
+  "plan": "PR_2026_13",
+  "direction": "Comité national de l'initiative pour la Transparence dans les Industries Extractives",
+  "reference": "S_PR_CN-ITIE_1211",
+  "objet": "ENTRETIEN SERVICES D'ELECTRICITE",
+  "typeMarche": "Services",
+  "financement": [
+   "Budget propre"
+  ],
+  "mode": "Demande de renseignements et de  prix simple",
+  "lancement": "2026-02-06",
+  "attribution": "2026-02-13",
+  "demarrage": "2026-02-18",
+  "achevement": null,
+  "etat": null,
+  "montantFcfa": null
+ },
+ {
+  "autorite": "Presidence de la République",
+  "plan": "PR_2026_13",
+  "direction": "Comité national de l'initiative pour la Transparence dans les Industries Extractives",
+  "reference": "S_PR_CN-ITIE_1221",
+  "objet": "SOUSCRIPTION POLICE D'ASSURANCE POUR LE PERSONNEL",
+  "typeMarche": "Services",
+  "financement": [
+   "Budget propre"
+  ],
+  "mode": "Demande de renseignements et de prix à compétition ouverte",
+  "lancement": "2026-01-07",
+  "attribution": "2026-01-27",
+  "demarrage": "2026-02-04",
+  "achevement": null,
+  "etat": null,
+  "montantFcfa": null
+ },
+ {
+  "autorite": "Presidence de la République",
+  "plan": "PR_2026_13",
+  "direction": "Contrôle Financier",
+  "reference": "S_PR_CF_1249",
+  "objet": "NUMERISATION DES DOCUMENTS DU CONTROLE FINANCIER : DOSSIERS DES RESSOURCES HUMAINES ET COMPTES RENDUS",
+  "typeMarche": "Services",
+  "financement": [
+   "Budget propre"
+  ],
+  "mode": "Demande de renseignement et de prix à compétition restreinte",
+  "lancement": "2026-01-28",
+  "attribution": "2026-02-19",
+  "demarrage": "2026-03-09",
+  "achevement": null,
+  "etat": null,
+  "montantFcfa": null
+ },
+ {
+  "autorite": "Presidence de la République",
+  "plan": "PR_2026_13",
+  "direction": "DIrection des Moyens Généraux Presidence",
+  "reference": "F_PR_DMG_5320",
+  "objet": "Acquisition de support de communication pour le Cabinet",
+  "typeMarche": "Fourniture",
+  "financement": [
+   "Budget propre"
+  ],
+  "mode": "Appel d'offres ouvert",
+  "lancement": "2026-02-19",
+  "attribution": "2026-03-26",
+  "demarrage": "2026-04-16",
+  "achevement": null,
+  "etat": null,
+  "montantFcfa": null
+ },
+ {
+  "autorite": "Presidence de la République",
+  "plan": "PR_2026_13",
+  "direction": "Comité national de l'initiative pour la Transparence dans les Industries Extractives",
+  "reference": "S_PR_CN-ITIE_1214",
+  "objet": "ENTRETIEN SERVICES DE PLOMBERIE",
+  "typeMarche": "Services",
+  "financement": [
+   "Budget propre"
+  ],
+  "mode": "Demande de renseignements et de  prix simple",
+  "lancement": "2026-02-06",
+  "attribution": "2026-02-13",
+  "demarrage": "2026-02-18",
+  "achevement": null,
+  "etat": null,
+  "montantFcfa": null
+ },
+ {
+  "autorite": "Presidence de la République",
+  "plan": "PR_2026_13",
+  "direction": "Bureau du Représentant Personnel du Chef de l'Etat auprès de la Francophonie",
+  "reference": "F_PR_BRPCE OIF_1350",
+  "objet": "ACQUISITION MATERIEL PEDAGOGIQUE ET DIDACTIQUE",
+  "typeMarche": "Fourniture",
+  "financement": [
+   "Budget propre"
+  ],
+  "mode": "Demande de renseignements et de  prix simple",
+  "lancement": "2026-03-23",
+  "attribution": "2026-03-31",
+  "demarrage": "2026-03-31",
+  "achevement": null,
+  "etat": null,
+  "montantFcfa": null
+ },
+ {
+  "autorite": "Presidence de la République",
+  "plan": "PR_2026_13",
+  "direction": "Bureau du Représentant Personnel du Chef de l'Etat auprès de la Francophonie",
+  "reference": "S_PR_BRPCE OIF_1361",
+  "objet": "ENTRETIEN ET MAINTENANCE MOBILIER DE BUREAU",
+  "typeMarche": "Services",
+  "financement": [
+   "Budget propre"
+  ],
+  "mode": "Demande de renseignements et de  prix simple",
+  "lancement": "2026-04-06",
+  "attribution": "2026-04-14",
+  "demarrage": "2026-04-14",
+  "achevement": null,
+  "etat": null,
+  "montantFcfa": null
+ },
+ {
+  "autorite": "Presidence de la République",
+  "plan": "PR_2026_13",
+  "direction": "Bureau Organisation et Méthodes",
+  "reference": "S_PR_BOM_1318",
+  "objet": "SOUSCRIPTION ASSURANCE MALADIE POUR LE PERSONNEL",
+  "typeMarche": "Services",
+  "financement": [
+   "Budget propre"
+  ],
+  "mode": "Demande de renseignement et de prix à compétition restreinte",
+  "lancement": "2026-04-06",
+  "attribution": "2026-04-22",
+  "demarrage": "2026-04-30",
+  "achevement": null,
+  "etat": null,
+  "montantFcfa": null
+ },
+ {
+  "autorite": "Presidence de la République",
+  "plan": "PR_2026_13",
+  "direction": "Inspection Générale des Forces Armées",
+  "reference": "F_PR_IGFA_1266",
+  "objet": "ACHAT DE CADEAUX",
+  "typeMarche": "Fourniture",
+  "financement": [
+   "Budget propre"
+  ],
+  "mode": "Demande de renseignement et de prix à compétition restreinte",
+  "lancement": "2026-02-23",
+  "attribution": "2026-03-04",
+  "demarrage": "2026-03-06",
+  "achevement": null,
+  "etat": null,
+  "montantFcfa": null
+ },
+ {
+  "autorite": "Presidence de la République",
+  "plan": "PR_2026_13",
+  "direction": "DIrection des Moyens Généraux Presidence",
+  "reference": "F_PR_DMG_5315",
+  "objet": "Acquisition d'huile parc Commandement Présidence de la République",
+  "typeMarche": "Fourniture",
+  "financement": [
+   "Budget propre"
+  ],
+  "mode": "Demande de renseignements et de prix à compétition ouverte",
+  "lancement": "2026-08-17",
+  "attribution": "2026-09-04",
+  "demarrage": "2026-09-21",
+  "achevement": null,
+  "etat": null,
+  "montantFcfa": null
+ },
+ {
+  "autorite": "Presidence de la République",
+  "plan": "PR_2026_13",
+  "direction": "DIrection des Moyens Généraux Presidence",
+  "reference": "F_PR_DMG_5322",
+  "objet": "Acquisition de matériel et équipements de radiocommunication pour le réseau de sécurité de la présidence",
+  "typeMarche": "Fourniture",
+  "financement": [
+   "Budget propre"
+  ],
+  "mode": "Appel d'offres ouvert",
+  "lancement": "2026-02-19",
+  "attribution": "2026-03-26",
+  "demarrage": "2026-04-16",
+  "achevement": null,
+  "etat": null,
+  "montantFcfa": null
+ },
+ {
+  "autorite": "Presidence de la République",
+  "plan": "PR_2026_13",
+  "direction": "DIrection des Moyens Généraux Presidence",
+  "reference": "F_PR_DMG_5285",
+  "objet": "Fourniture de trousses de premier secours pour les locaux de la DMG et les véhicules du Parc Spécial",
+  "typeMarche": "Fourniture",
+  "financement": [
+   "Budget propre"
+  ],
+  "mode": "Demande de renseignement et de prix à compétition restreinte",
+  "lancement": "2026-07-09",
+  "attribution": "2026-07-20",
+  "demarrage": "2026-07-27",
+  "achevement": null,
+  "etat": null,
+  "montantFcfa": null
+ },
+ {
+  "autorite": "Presidence de la République",
+  "plan": "PR_2026_13",
+  "direction": "DIrection des Moyens Généraux Presidence",
+  "reference": "F_PR_DMG_5325",
+  "objet": "Acquisition d'infrastructures Informatiques",
+  "typeMarche": "Fourniture",
+  "financement": [
+   "Budget propre"
+  ],
+  "mode": "Appel d'offres ouvert",
+  "lancement": "2026-02-19",
+  "attribution": "2026-03-31",
+  "demarrage": "2026-04-29",
+  "achevement": null,
+  "etat": null,
+  "montantFcfa": null
+ },
+ {
+  "autorite": "Presidence de la République",
+  "plan": "PR_2026_13",
+  "direction": "Bureau d'Architecture et de Conservation des Palais nationaux",
+  "reference": "S_PR_BAC_16128",
+  "objet": "MAINTENANCE ASCENSEURS",
+  "typeMarche": "Services",
+  "financement": [
+   "Budget propre"
+  ],
+  "mode": "Demande de renseignement et de prix à compétition restreinte",
+  "lancement": "2026-08-26",
+  "attribution": "2026-09-08",
+  "demarrage": "2026-09-11",
+  "achevement": null,
+  "etat": null,
+  "montantFcfa": null
+ },
+ {
+  "autorite": "Presidence de la République",
+  "plan": "PR_2026_13",
+  "direction": "Bureau d'Architecture et de Conservation des Palais nationaux",
+  "reference": "S_PR_BAC_16127",
+  "objet": "MAINTENANCE EQUIPEMENTS DE CUISINE",
+  "typeMarche": "Services",
+  "financement": [
+   "Budget propre"
+  ],
+  "mode": "Demande de renseignement et de prix à compétition restreinte",
+  "lancement": "2026-08-26",
+  "attribution": "2026-09-08",
+  "demarrage": "2026-09-11",
+  "achevement": null,
+  "etat": null,
+  "montantFcfa": null
+ },
+ {
+  "autorite": "Presidence de la République",
+  "plan": "PR_2026_13",
+  "direction": "DIrection des Moyens Généraux Presidence",
+  "reference": "F_PR_DMG_5323",
+  "objet": "Acquisition d’équipements de réception radioélectrique",
+  "typeMarche": "Fourniture",
+  "financement": [
+   "Budget propre"
+  ],
+  "mode": "Appel d'offres ouvert",
+  "lancement": "2026-02-19",
+  "attribution": "2026-03-26",
+  "demarrage": "2026-04-16",
+  "achevement": null,
+  "etat": null,
+  "montantFcfa": null
+ },
+ {
+  "autorite": "Presidence de la République",
+  "plan": "PR_2026_13",
+  "direction": "DIrection des Moyens Généraux Presidence",
+  "reference": "F_PR_DMG_5314",
+  "objet": "Acquisition de consommables de peinture pour le garage du parc spécial",
+  "typeMarche": "Fourniture",
+  "financement": [
+   "Budget propre"
+  ],
+  "mode": "Demande de renseignement et de prix à compétition restreinte",
+  "lancement": "2026-02-19",
+  "attribution": "2026-03-03",
+  "demarrage": "2026-03-04",
+  "achevement": null,
+  "etat": null,
+  "montantFcfa": null
+ },
+ {
+  "autorite": "Presidence de la République",
+  "plan": "PR_2026_13",
+  "direction": "DIrection des Moyens Généraux Presidence",
+  "reference": "F_PR_DMG_5324",
+  "objet": "Acquisition de stations  radio Récepteur/émetteur HF numérique",
+  "typeMarche": "Fourniture",
+  "financement": [
+   "Budget propre"
+  ],
+  "mode": "Demande de renseignements et de prix à compétition ouverte",
+  "lancement": "2026-02-19",
+  "attribution": "2026-03-11",
+  "demarrage": "2026-03-30",
+  "achevement": null,
+  "etat": null,
+  "montantFcfa": null
+ },
+ {
+  "autorite": "Presidence de la République",
+  "plan": "PR_2026_13",
+  "direction": "Grande Chancellerie de l'Ordre national du Lion",
+  "reference": "S_PR_GCONL_6559",
+  "objet": "RESTAURATION PENDANT LES REUNIONS DU CONSEIL DE L'ORDRE",
+  "typeMarche": "Services",
+  "financement": [
+   "Budget propre"
+  ],
+  "mode": "Demande de renseignement et de prix à compétition restreinte",
+  "lancement": "2026-03-04",
+  "attribution": "2026-03-13",
+  "demarrage": "2026-03-16",
+  "achevement": null,
+  "etat": null,
+  "montantFcfa": null
+ },
+ {
+  "autorite": "Presidence de la République",
+  "plan": "PR_2026_13",
+  "direction": "Inspection Générale des Forces Armées",
+  "reference": "S_PR_IGFA_1269",
+  "objet": "RESTAURATION DU PERSONNEL - ORGANISATION PAUSES CAFE ET COCKTAILS EN DEUX LOTS",
+  "typeMarche": "Services",
+  "financement": [
+   "Budget propre"
+  ],
+  "mode": "Demande de renseignement et de prix à compétition restreinte",
+  "lancement": "2026-02-23",
+  "attribution": "2026-03-03",
+  "demarrage": "2026-03-06",
+  "achevement": null,
+  "etat": null,
+  "montantFcfa": null
+ },
+ {
+  "autorite": "Presidence de la République",
+  "plan": "PR_2026_13",
+  "direction": "DIrection des Moyens Généraux Presidence",
+  "reference": "F_PR_DMG_5318",
+  "objet": "Acquisition de consommables et de pièces de rechange de froid automobile pour le garage du parc spécial",
+  "typeMarche": "Fourniture",
+  "financement": [
+   "Budget propre"
+  ],
+  "mode": "Demande de renseignements et de prix à compétition ouverte",
+  "lancement": "2026-02-13",
+  "attribution": "2026-03-04",
+  "demarrage": "2026-03-23",
+  "achevement": null,
+  "etat": null,
+  "montantFcfa": null
+ },
+ {
+  "autorite": "Presidence de la République",
+  "plan": "PR_2026_13",
+  "direction": "Inspection Générale des Forces Armées",
+  "reference": "S_PR_IGFA_1275",
+  "objet": "ORGANISATION CONFERENCES, CONGRES, SEMINAIRES",
+  "typeMarche": "Services",
+  "financement": [
+   "Budget propre"
+  ],
+  "mode": "Demande de renseignements et de  prix simple",
+  "lancement": "2026-04-07",
+  "attribution": "2026-04-14",
+  "demarrage": "2026-04-15",
+  "achevement": null,
+  "etat": null,
+  "montantFcfa": null
+ },
+ {
+  "autorite": "Presidence de la République",
+  "plan": "PR_2026_13",
+  "direction": "DIrection des Moyens Généraux Presidence",
+  "reference": "F_PR_DMG_5286",
+  "objet": "Fourniture de produits alimentaires en deux lots",
+  "typeMarche": "Fourniture",
+  "financement": [
+   "Budget propre"
+  ],
+  "mode": "Demande de renseignement et de prix à compétition restreinte",
+  "lancement": "2026-02-26",
+  "attribution": "2026-03-12",
+  "demarrage": "2026-03-16",
+  "achevement": null,
+  "etat": null,
+  "montantFcfa": null
+ },
+ {
+  "autorite": "Presidence de la République",
+  "plan": "PR_2026_13",
+  "direction": "Bureau d'Architecture et de Conservation des Palais nationaux",
+  "reference": "S_PR_BAC_16129",
+  "objet": "ENTRETIEN ESPACES VERTS",
+  "typeMarche": "Services",
+  "financement": [
+   "Budget propre"
+  ],
+  "mode": "Demande de renseignement et de prix à compétition restreinte",
+  "lancement": "2026-08-26",
+  "attribution": "2026-09-08",
+  "demarrage": "2026-09-11",
+  "achevement": null,
+  "etat": null,
+  "montantFcfa": null
+ },
+ {
+  "autorite": "Presidence de la République",
+  "plan": "PR_2026_13",
+  "direction": "DIrection des Moyens Généraux Presidence",
+  "reference": "F_PR_DMG_5317",
+  "objet": "Acquisition d'agendas électroniques et accessoires",
+  "typeMarche": "Fourniture",
+  "financement": [
+   "Budget propre"
+  ],
+  "mode": "Demande de renseignements et de prix à compétition ouverte",
+  "lancement": "2026-08-17",
+  "attribution": "2026-09-04",
+  "demarrage": "2026-09-21",
+  "achevement": null,
+  "etat": null,
+  "montantFcfa": null
+ },
+ {
+  "autorite": "Presidence de la République",
+  "plan": "PR_2026_13",
+  "direction": "DIrection des Moyens Généraux Presidence",
+  "reference": "F_PR_DMG_7707",
+  "objet": "ACQUISITION D'UN SERVEUR NAS",
+  "typeMarche": "Fourniture",
+  "financement": [
+   "Budget propre"
+  ],
+  "mode": "Demande de renseignements et de  prix simple",
+  "lancement": "2026-03-10",
+  "attribution": "2026-03-18",
+  "demarrage": "2026-03-18",
+  "achevement": null,
+  "etat": null,
+  "montantFcfa": null
+ },
+ {
+  "autorite": "Presidence de la République",
+  "plan": "PR_2026_13",
+  "direction": "Etat major Particulier du Président de la République",
+  "reference": "S_PR_EMPART_7712",
+  "objet": "ORGANISATION FETES ET CEREMONIES",
+  "typeMarche": "Services",
+  "financement": [
+   "Budget propre"
+  ],
+  "mode": "Demande de renseignements et de  prix simple",
+  "lancement": "2026-03-12",
+  "attribution": "2026-03-20",
+  "demarrage": "2026-03-27",
+  "achevement": null,
+  "etat": null,
+  "montantFcfa": null
+ },
+ {
+  "autorite": "Presidence de la République",
+  "plan": "PR_2026_13",
+  "direction": "Etat major Particulier du Président de la République",
+  "reference": "S_PR_EMPART_7711",
+  "objet": "ENTRETIEN ET MAINTENANCE MATERIEL INFORMATIQUE",
+  "typeMarche": "Services",
+  "financement": [
+   "Budget propre"
+  ],
+  "mode": "Demande de renseignements et de  prix simple",
+  "lancement": "2026-03-12",
+  "attribution": "2026-03-20",
+  "demarrage": "2026-03-27",
+  "achevement": null,
+  "etat": null,
+  "montantFcfa": null
+ },
+ {
+  "autorite": "Presidence de la République",
+  "plan": "PR_2026_13",
+  "direction": "Etat major Particulier du Président de la République",
+  "reference": "S_PR_EMPART_9957",
+  "objet": "RELANCE MARCHE ORGANISATION DE COCKTAILS DES FETES ET CEREMONIES. REFERENCE MARCHE INITIAL S_PR_EMPART_7712",
+  "typeMarche": "Services",
+  "financement": [
+   "Budget propre"
+  ],
+  "mode": "Demande de renseignements et de  prix simple",
+  "lancement": "2026-04-24",
+  "attribution": "2026-05-04",
+  "demarrage": "2026-05-05",
+  "achevement": null,
+  "etat": null,
+  "montantFcfa": null
+ },
+ {
+  "autorite": "Presidence de la République",
+  "plan": "PR_2026_13",
+  "direction": "Etat major Particulier du Président de la République",
+  "reference": "S_PR_EMPART_9956",
+  "objet": "RELANCE MARCHE ENTRETIEN ET MAINTENANCE MATERIEL INFORMATIQUE. REFERENCE MARCHE INITIAL S_PR_EMPART_7711.",
+  "typeMarche": "Services",
+  "financement": [
+   "Budget propre"
+  ],
+  "mode": "Demande de renseignements et de  prix simple",
+  "lancement": "2026-04-24",
+  "attribution": "2026-05-04",
+  "demarrage": "2026-05-05",
+  "achevement": null,
+  "etat": null,
+  "montantFcfa": null
+ },
+ {
+  "autorite": "Presidence de la République",
+  "plan": "PR_2026_13",
+  "direction": "Inspection Générale des Forces Armées",
+  "reference": "S_PR_IGFA_9955",
+  "objet": "RELANCE DU LOT RESTAURATION DU PERSONNEL. DRPR RESTAURATION DU PERSONNEL - ORGANISATION PAUSES CAFE COCKTAILS EN 2 LOTS. REF MARCHE INITIAL S_PR_IGFA_1269",
+  "typeMarche": "Services",
+  "financement": [
+   "Budget propre"
+  ],
+  "mode": "Demande de renseignement et de prix à compétition restreinte",
+  "lancement": "2026-04-24",
+  "attribution": "2026-05-04",
+  "demarrage": "2026-05-05",
+  "achevement": null,
+  "etat": null,
+  "montantFcfa": null
+ },
+ {
+  "autorite": "Presidence de la République",
+  "plan": "PR_2026_13",
+  "direction": "Contrôle Financier",
+  "reference": "S_PR_CF_1242",
+  "objet": "ENTRETIEN ET REPARATION MATERIEL INFORMATIQUE",
+  "typeMarche": "Services",
+  "financement": [
+   "Budget propre"
+  ],
+  "mode": "Demande de renseignement et de prix à compétition restreinte",
+  "lancement": "2026-01-06",
+  "attribution": "2026-01-21",
+  "demarrage": "2026-01-28",
+  "achevement": null,
+  "etat": null,
+  "montantFcfa": null
+ },
+ {
+  "autorite": "Presidence de la République",
+  "plan": "PR_2026_13",
+  "direction": "Etat major Particulier du Président de la République",
+  "reference": "S_PR_EMPART_11241",
+  "objet": "RELANCE MARCHE ENTRETIEN ET MAINTENANCE MATERIEL INFORMATIQUE. REFERENCE MARCHE INITIAL S_PR_EMPART_9956.",
+  "typeMarche": "Services",
+  "financement": [
+   "Budget propre"
+  ],
+  "mode": "Demande de renseignements et de  prix simple",
+  "lancement": "2026-05-18",
+  "attribution": "2026-05-22",
+  "demarrage": "2026-06-01",
+  "achevement": null,
+  "etat": null,
+  "montantFcfa": null
+ },
+ {
+  "autorite": "Presidence de la République",
+  "plan": "PR_2026_13",
+  "direction": "Contrôle Financier",
+  "reference": "F_PR_CF_1229",
+  "objet": "ACQUISITION MATERIEL INFORMATIQUE",
+  "typeMarche": "Fourniture",
+  "financement": [
+   "Budget propre"
+  ],
+  "mode": "Demande de renseignements et de prix à compétition ouverte",
+  "lancement": "2026-02-25",
+  "attribution": "2026-03-18",
+  "demarrage": "2026-03-31",
+  "achevement": null,
+  "etat": null,
+  "montantFcfa": null
+ },
+ {
+  "autorite": "Presidence de la République",
+  "plan": "PR_2026_13",
+  "direction": "Etat major Particulier du Président de la République",
+  "reference": "S_PR_EMPART_11242",
+  "objet": "RELANCE MARCHE ORGANISATION DE COCKTAILS DES FETES ET CEREMONIES. REFERENCE MARCHE INITIAL S_PR_EMPART_9957",
+  "typeMarche": "Services",
+  "financement": [
+   "Budget propre"
+  ],
+  "mode": "Demande de renseignements et de  prix simple",
+  "lancement": "2026-05-18",
+  "attribution": "2026-05-22",
+  "demarrage": "2026-06-01",
+  "achevement": null,
+  "etat": null,
+  "montantFcfa": null
+ },
+ {
+  "autorite": "Presidence de la République",
+  "plan": "PR_2026_13",
+  "direction": "Comité national de l'initiative pour la Transparence dans les Industries Extractives",
+  "reference": "S_PR_CN-ITIE_1217",
+  "objet": "ENTRETIEN SERVICES DE MENUISERIE",
+  "typeMarche": "Services",
+  "financement": [
+   "Budget propre"
+  ],
+  "mode": "Demande de renseignements et de  prix simple",
+  "lancement": "2026-02-06",
+  "attribution": "2026-02-13",
+  "demarrage": "2026-02-18",
+  "achevement": null,
+  "etat": null,
+  "montantFcfa": null
+ },
+ {
+  "autorite": "Presidence de la République",
+  "plan": "PR_2026_13",
+  "direction": "Bureau du Représentant Personnel du Chef de l'Etat auprès de la Francophonie",
+  "reference": "F_PR_BRPCE OIF_7708",
+  "objet": "ACHAT KITS ELECTRONIQUES ET MATERIELS ET PRODUITS DE JARDINAGE",
+  "typeMarche": "Fourniture",
+  "financement": [
+   "Budget propre"
+  ],
+  "mode": "Demande de renseignement et de prix à compétition restreinte",
+  "lancement": "2026-03-19",
+  "attribution": "2026-03-31",
+  "demarrage": "2026-04-01",
+  "achevement": null,
+  "etat": null,
+  "montantFcfa": null
+ },
+ {
+  "autorite": "Presidence de la République",
+  "plan": "PR_2026_13",
+  "direction": "Bureau du Représentant Personnel du Chef de l'Etat auprès de la Francophonie",
+  "reference": "S_PR_BRPCE OIF_7709",
+  "objet": "ORGANISATION FETES ET CEREMONIES - ORGANISATION CONFERENCES, CONGRES, SEMINAIRES EN DEUX LOTS",
+  "typeMarche": "Services",
+  "financement": [
+   "Budget propre"
+  ],
+  "mode": "Demande de renseignement et de prix à compétition restreinte",
+  "lancement": "2026-03-16",
+  "attribution": "2026-03-27",
+  "demarrage": "2026-03-30",
+  "achevement": null,
+  "etat": null,
+  "montantFcfa": null
+ },
+ {
+  "autorite": "Presidence de la République",
+  "plan": "PR_2026_13",
+  "direction": "DIrection des Moyens Généraux Presidence",
+  "reference": "F_PR_DMG_13597",
+  "objet": "ACQUISITION DE CONSOMMABLES INFORMATIQUES (LE PARC INFORMATIQUE A EVOLUE ET DE NOUVELLES IMPRIMANTES ET PHOTOCOPIEUSES ONT ETE ACQUISES)",
+  "typeMarche": "Fourniture",
+  "financement": [
+   "Budget propre"
+  ],
+  "mode": "Appel d'offres ouvert",
+  "lancement": "2026-07-15",
+  "attribution": "2026-08-25",
+  "demarrage": "2026-08-31",
+  "achevement": null,
+  "etat": null,
+  "montantFcfa": null
+ },
+ {
+  "autorite": "Presidence de la République",
+  "plan": "PR_2026_13",
+  "direction": "Contrôle Financier",
+  "reference": "F_PR_CF_13596",
+  "objet": "ACQUISITION DE DEUX VEHICULES DONT UN VEHICULE 4X4 STATION WAGON ET UNE BERLINE",
+  "typeMarche": "Fourniture",
+  "financement": [
+   "Budget propre"
+  ],
+  "mode": "Appel d'offres ouvert",
+  "lancement": "2026-07-15",
+  "attribution": "2026-08-24",
+  "demarrage": "2026-08-31",
+  "achevement": null,
+  "etat": null,
+  "montantFcfa": null
+ },
+ {
+  "autorite": "Presidence de la République",
+  "plan": "PR_2026_13",
+  "direction": "Contrôle Financier",
+  "reference": "F_PR_CF_1234",
+  "objet": "ACQUISITION FOURNITURES DE BUREAU ET CONSOMMABLES INFORMATIQUES EN DEUX LOTS",
+  "typeMarche": "Fourniture",
+  "financement": [
+   "Budget propre"
+  ],
+  "mode": "Demande de renseignements et de prix à compétition ouverte",
+  "lancement": "2026-01-28",
+  "attribution": "2026-02-18",
+  "demarrage": "2026-03-02",
+  "achevement": null,
+  "etat": null,
+  "montantFcfa": null
+ },
+ {
+  "autorite": "Presidence de la République",
+  "plan": "PR_2026_13",
+  "direction": "Inspection Générale des Forces Armées",
+  "reference": "S_PR_IGFA_1282",
+  "objet": "ENTRETIEN MOBILIER DE BUREAU",
+  "typeMarche": "Services",
+  "financement": [
+   "Budget propre"
+  ],
+  "mode": "Demande de renseignements et de  prix simple",
+  "lancement": "2026-04-07",
+  "attribution": "2026-04-14",
+  "demarrage": "2026-04-15",
+  "achevement": null,
+  "etat": null,
+  "montantFcfa": null
+ },
+ {
+  "autorite": "Presidence de la République",
+  "plan": "PR_2026_13",
+  "direction": "Bureau Organisation et Méthodes",
+  "reference": "S_PR_BOM_11243",
+  "objet": "RELANCE DE LA DRPR SOUSCRIPTION D'UNE ASSURANCE MALADIE POUR LE PERSONNEL DU BOM. MARCHE DE BASE S_PR_BOM_1318",
+  "typeMarche": "Services",
+  "financement": [
+   "Budget propre"
+  ],
+  "mode": "Demande de renseignement et de prix à compétition restreinte",
+  "lancement": "2026-05-18",
+  "attribution": "2026-05-25",
+  "demarrage": "2026-06-01",
+  "achevement": null,
+  "etat": null,
+  "montantFcfa": null
+ },
+ {
+  "autorite": "Presidence de la République",
+  "plan": "PR_2026_13",
+  "direction": "DIrection des Moyens Généraux Presidence",
+  "reference": "F_PR_DMG_15459",
+  "objet": "REVISION ET MISE A JOUR DU PLAN DE PASSATION DES MARCHES POUR L'INSCRIPTION DU MARCHE DE LA DMG PORTANT ACQUISITION DE MATERIELS ET MOBILIERS DE BUREAU",
+  "typeMarche": "Fourniture",
+  "financement": [
+   "Budget propre"
+  ],
+  "mode": "Appel d'offres ouvert",
+  "lancement": "2026-08-06",
+  "attribution": "2026-09-14",
+  "demarrage": "2026-09-30",
+  "achevement": null,
+  "etat": null,
+  "montantFcfa": null
+ },
+ {
+  "autorite": "Presidence de la République",
+  "plan": "PR_2026_13",
+  "direction": "Bureau d'Architecture et de Conservation des Palais nationaux",
+  "reference": "F_PR_BAC_16122",
+  "objet": "FOURNITURE PRODUITS D'ENTRETIEN ET D'HYGIENE",
+  "typeMarche": "Fourniture",
+  "financement": [
+   "Budget propre"
+  ],
+  "mode": "Demande de renseignements et de  prix simple",
+  "lancement": "2026-08-25",
+  "attribution": "2026-09-03",
+  "demarrage": "2026-09-07",
+  "achevement": null,
+  "etat": null,
+  "montantFcfa": null
+ },
+ {
+  "autorite": "Presidence de la République",
+  "plan": "PR_2026_13",
+  "direction": "Bureau d'Architecture et de Conservation des Palais nationaux",
+  "reference": "S_PR_BAC_16125",
+  "objet": "MAINTENANCE CLIMATISEURS, SPLIT ET VRV",
+  "typeMarche": "Services",
+  "financement": [
+   "Budget propre"
+  ],
+  "mode": "Demande de renseignement et de prix à compétition restreinte",
+  "lancement": "2026-08-25",
+  "attribution": "2026-09-03",
+  "demarrage": "2026-09-07",
+  "achevement": null,
+  "etat": null,
+  "montantFcfa": null
+ },
+ {
+  "autorite": "Presidence de la République",
+  "plan": "PR_2026_13",
+  "direction": "Bureau d'Architecture et de Conservation des Palais nationaux",
+  "reference": "S_PR_BAC_16130",
+  "objet": "MAINTENANCE EQUIPEMENTS DE SECURITE INCENDIE",
+  "typeMarche": "Services",
+  "financement": [
+   "Budget propre"
+  ],
+  "mode": "Demande de renseignement et de prix à compétition restreinte",
+  "lancement": "2026-08-25",
+  "attribution": "2026-09-03",
+  "demarrage": "2026-09-07",
+  "achevement": null,
+  "etat": null,
+  "montantFcfa": null
+ },
+ {
+  "autorite": "Presidence de la République",
+  "plan": "PR_2026_13",
+  "direction": "Bureau d'Architecture et de Conservation des Palais nationaux",
+  "reference": "F_PR_BAC_20094",
+  "objet": "REINSCRIPTION DE LA DRP ACQUISITION DE CONSOMMABLES INFORMATIQUES POUR RELANCE",
+  "typeMarche": "Fourniture",
+  "financement": [
+   "Budget propre"
+  ],
+  "mode": "Demande de renseignements et de  prix simple",
+  "lancement": "2026-11-02",
+  "attribution": "2026-11-05",
+  "demarrage": "2026-11-09",
+  "achevement": null,
+  "etat": null,
+  "montantFcfa": null
+ },
+ {
+  "autorite": "Ville de Rufisque",
+  "plan": "VR_2026_6",
+  "direction": "Direction des finances et de la comptabilité",
+  "reference": "C_VR_DFC_1777",
+  "objet": "Selection d'un consultant pour l'élaboration d'une stratégie de mobilisation des recettes fiscales de la Ville de Rufisque",
+  "typeMarche": "Prestation intellectuelle",
+  "financement": [
+   "Budget propre"
+  ],
+  "mode": "Demande de renseignement et de prix à compétition restreinte",
+  "lancement": "2026-02-12",
+  "attribution": "2026-03-12",
+  "demarrage": "2026-04-21",
+  "achevement": null,
+  "etat": null,
+  "montantFcfa": null
+ },
+ {
+  "autorite": "Ville de Rufisque",
+  "plan": "VR_2026_6",
+  "direction": "Services Techniques",
+  "reference": "T_VR_DST_1782",
+  "objet": "Extension du Réseau de distribution d'eau potable dans le quartier de Darou Rahmane",
+  "typeMarche": "Travaux",
+  "financement": [
+   "Budget propre"
+  ],
+  "mode": "Demande de renseignement et de prix à compétition restreinte",
+  "lancement": "2026-01-30",
+  "attribution": "2026-02-26",
+  "demarrage": "2026-03-05",
+  "achevement": null,
+  "etat": null,
+  "montantFcfa": null
+ },
+ {
+  "autorite": "Ville de Rufisque",
+  "plan": "VR_2026_6",
+  "direction": "Direction des finances et de la comptabilité",
+  "reference": "F_VR_DFC_1780",
+  "objet": "Acquisition de motocyclettes",
+  "typeMarche": "Fourniture",
+  "financement": [
+   "Budget propre"
+  ],
+  "mode": "Demande de renseignement et de prix à compétition restreinte",
+  "lancement": "2026-03-16",
+  "attribution": "2026-04-17",
+  "demarrage": "2026-05-06",
+  "achevement": null,
+  "etat": null,
+  "montantFcfa": null
+ },
+ {
+  "autorite": "Ville de Rufisque",
+  "plan": "VR_2026_6",
+  "direction": "Direction des finances et de la comptabilité",
+  "reference": "F_VR_DFC_1778",
+  "objet": "Fournitures de burau et de petits matériels de bureau",
+  "typeMarche": "Fourniture",
+  "financement": [
+   "Budget propre"
+  ],
+  "mode": "Demande de renseignement et de prix à compétition restreinte",
+  "lancement": "2026-04-30",
+  "attribution": "2026-06-03",
+  "demarrage": "2026-06-22",
+  "achevement": null,
+  "etat": null,
+  "montantFcfa": null
+ },
+ {
+  "autorite": "Ville de Rufisque",
+  "plan": "VR_2026_6",
+  "direction": "Direction des finances et de la comptabilité",
+  "reference": "F_VR_DFC_1779",
+  "objet": "Fournitures d'imprimes et registres (lot 1) et de tickets de perception (Lot 2)",
+  "typeMarche": "Fourniture",
+  "financement": [
+   "Budget propre"
+  ],
+  "mode": "Demande de renseignement et de prix à compétition restreinte",
+  "lancement": "2026-08-14",
+  "attribution": "2026-09-17",
+  "demarrage": "2026-10-06",
+  "achevement": null,
+  "etat": null,
+  "montantFcfa": null
+ },
+ {
+  "autorite": "Ville de Rufisque",
+  "plan": "VR_2026_6",
+  "direction": "Programme d'Assainissement Liquide Municipal",
+  "reference": "T_VR_PALM_599",
+  "objet": "Construction de caniveaux et d’ouvrages pour drainage des eaux pluviales",
+  "typeMarche": "Travaux",
+  "financement": [
+   "Budget propre"
+  ],
+  "mode": "Appel d'offres ouvert",
+  "lancement": "2026-01-23",
+  "attribution": "2026-03-19",
+  "demarrage": "2026-05-08",
+  "achevement": null,
+  "etat": null,
+  "montantFcfa": null
+ },
+ {
+  "autorite": "Ville de Rufisque",
+  "plan": "VR_2026_6",
+  "direction": "Services Techniques",
+  "reference": "T_VR_DST_600",
+  "objet": "Travaux de construction et de réparation de chaussées - répartis en 4 lots : Lot 1 : Route principale de FASS -Lot 2 : Route pénétrante de DANGOU et de la route de SANTHIABA -Lot 3 : route de Cité Gabon et Route pénétrante de DIOKOUL- Lot4: Route de Arafat",
+  "typeMarche": "Travaux",
+  "financement": [
+   "Budget propre"
+  ],
+  "mode": "Appel d'offres ouvert",
+  "lancement": "2026-08-17",
+  "attribution": "2026-10-12",
+  "demarrage": "2026-12-01",
+  "achevement": null,
+  "etat": null,
+  "montantFcfa": null
+ },
+ {
+  "autorite": "Ville de Rufisque",
+  "plan": "VR_2026_6",
+  "direction": "Services Techniques",
+  "reference": "T_VR_DST_1781",
+  "objet": "Les travaux d’entretien et de réparations du bâtiment de l’hôtel de Ville de Rufisque",
+  "typeMarche": "Travaux",
+  "financement": [
+   "Budget propre"
+  ],
+  "mode": "Appel d'offres ouvert",
+  "lancement": "2026-02-09",
+  "attribution": "2026-03-26",
+  "demarrage": "2026-05-11",
+  "achevement": null,
+  "etat": null,
+  "montantFcfa": null
+ },
+ {
+  "autorite": "Ville de Rufisque",
+  "plan": "VR_2026_6",
+  "direction": "Direction des finances et de la comptabilité",
+  "reference": "F_VR_DFC_7649",
+  "objet": "Fournitures de denrées alimentaires",
+  "typeMarche": "Fourniture",
+  "financement": [
+   "MIXED"
+  ],
+  "mode": "Demande de renseignement et de prix à compétition restreinte",
+  "lancement": "2026-03-05",
+  "attribution": "2026-03-11",
+  "demarrage": "2026-03-16",
+  "achevement": null,
+  "etat": null,
+  "montantFcfa": null
+ },
+ {
+  "autorite": "Ville de Rufisque",
+  "plan": "VR_2026_6",
+  "direction": "Programme d'Assainissement Liquide Municipal",
+  "reference": "F_VR_PALM_1783",
+  "objet": "Fournitures de matériaux pour travaux d'assainissement (PVC et Tampons de regards)",
+  "typeMarche": "Fourniture",
+  "financement": [
+   "Budget propre"
+  ],
+  "mode": "Demande de renseignements et de prix à compétition ouverte",
+  "lancement": "2026-03-19",
+  "attribution": "2026-04-09",
+  "demarrage": "2026-05-05",
+  "achevement": null,
+  "etat": null,
+  "montantFcfa": null
+ },
+ {
+  "autorite": "Ville de Rufisque",
+  "plan": "VR_2026_6",
+  "direction": "Direction de la Planification et des Compétences Transférées",
+  "reference": "T_VR_DPCT_16304",
+  "objet": "Travaux d’aménagement de deux places publiques : Lot 1: Place du Champ des courses Lot 2: Place des HLM",
+  "typeMarche": "Travaux",
+  "financement": [
+   "Budget propre"
+  ],
+  "mode": "Demande de renseignement et de prix à compétition restreinte",
+  "lancement": "2026-08-28",
+  "attribution": "2026-09-16",
+  "demarrage": "2026-10-05",
+  "achevement": null,
+  "etat": null,
+  "montantFcfa": null
+ },
+ {
+  "autorite": "Ville de Rufisque",
+  "plan": "VR_2026_6",
+  "direction": "Direction des finances et de la comptabilité",
+  "reference": "F_VR_DFC_20106",
+  "objet": "Acquisition d’une fourgonnette pour corbillard",
+  "typeMarche": "Fourniture",
+  "financement": [
+   "Budget propre"
+  ],
+  "mode": "Demande de renseignements et de prix à compétition ouverte",
+  "lancement": "2026-11-05",
+  "attribution": "2026-11-30",
+  "demarrage": "2026-12-25",
   "achevement": null,
   "etat": null,
   "montantFcfa": null

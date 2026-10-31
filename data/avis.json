@@ -1,5 +1,5 @@
 {
- "misAJourLe": "2026-10-30T12:24:25.108Z",
+ "misAJourLe": "2026-10-31T11:58:25.011Z",
  "avis": {
   "senelec:https://www.senelec.sn/media/marches/appels/AVIS_DE_REPORT_AON_33_2026.pdf": {
    "source": "senelec",
@@ -6318,10 +6318,10 @@
   "ungm:https://www.ungm.org/Public/Notice/319879": {
    "source": "ungm",
    "reference": "REOI-SENA-2026-002",
-   "objet": "***CANCELLED***",
+   "objet": "Manifestation d’intérêt - Solution numérique de covoiturage",
    "type": "Appel à manifestation d'intérêt",
-   "publieLe": "2026-10-27",
-   "dateLimite": "2026-10-27",
+   "publieLe": "2026-10-30",
+   "dateLimite": "2026-11-06",
    "url": "https://www.ungm.org/Public/Notice/319879",
    "autorite": "UNICEF (Nations unies)",
    "vuLe": "2026-10-27"
@@ -6545,6 +6545,61 @@
    "url": "https://www.pfongue.org/APPEL-A-CANDIDATURES-Bureau-du-Senegal-recrute-un-e-Charge-e-des-Operations.html",
    "autorite": "ONG (plate-forme PFONGUE)",
    "vuLe": "2026-10-30"
+  },
+  "ungm:https://www.ungm.org/Public/Notice/320684": {
+   "source": "ungm",
+   "reference": "rfx_13564_ROAF",
+   "objet": "Demande de cotation Hotel Saly, Atelier validation SNIFEI",
+   "type": "Demande de cotation",
+   "publieLe": "2026-10-30",
+   "dateLimite": "2026-11-06",
+   "url": "https://www.ungm.org/Public/Notice/320684",
+   "autorite": "OIT (Nations unies)",
+   "vuLe": "2026-10-31"
+  },
+  "ungm:https://www.ungm.org/Public/Notice/320679": {
+   "source": "ungm",
+   "reference": "rfx_13531_ROAF",
+   "objet": "Sélection d'un hôtel pour l'Atelier bilan de fin de projet et de capitalisation Dakar le 8 décembre 2026",
+   "type": "Demande de cotation",
+   "publieLe": "2026-10-30",
+   "dateLimite": "2026-11-13",
+   "url": "https://www.ungm.org/Public/Notice/320679",
+   "autorite": "OIT (Nations unies)",
+   "vuLe": "2026-10-31"
+  },
+  "ungm:https://www.ungm.org/Public/Notice/320637": {
+   "source": "ungm",
+   "reference": "rfx_13500_ROAF",
+   "objet": "Recrutement d'un consultant pour l’Evaluation finale indépendante du projet « Emplois Verts pour les femmes et les jeunes dans le Delta du Saloum »",
+   "type": "Recrutement de consultant",
+   "publieLe": "2026-10-30",
+   "dateLimite": "2026-11-08",
+   "url": "https://www.ungm.org/Public/Notice/320637",
+   "autorite": "OIT (Nations unies)",
+   "vuLe": "2026-10-31"
+  },
+  "ungm:https://www.ungm.org/Public/Notice/320605": {
+   "source": "ungm",
+   "reference": "LRFQs-2026- 9207050",
+   "objet": "Conception Graphique de la brochure institutionnelle de présentation du Fonds Muskoka",
+   "type": "Demande de cotation",
+   "publieLe": "2026-10-30",
+   "dateLimite": "2026-11-06",
+   "url": "https://www.ungm.org/Public/Notice/320605",
+   "autorite": "UNICEF (Nations unies)",
+   "vuLe": "2026-10-31"
+  },
+  "ungm:https://www.ungm.org/Public/Notice/320615": {
+   "source": "ungm",
+   "reference": "LRFQs-2026- 9207051",
+   "objet": "Conception vidéo des 15 ans du Fonds Muskoka",
+   "type": "Demande de cotation",
+   "publieLe": "2026-10-30",
+   "dateLimite": "2026-11-06",
+   "url": "https://www.ungm.org/Public/Notice/320615",
+   "autorite": "UNICEF (Nations unies)",
+   "vuLe": "2026-10-31"
   }
  }
 }

@@ -1,114 +1,6 @@
 {
- "misAJourLe": "2026-10-30",
+ "misAJourLe": "2026-10-31",
  "realisations": [
-  {
-   "id": "ppm-ba9cd17b6d",
-   "autorite": "Ministère de l'Economie du Plan et de la Coopération",
-   "plan": "MEPC_2026_1",
-   "direction": "Direction Générale de la Coopération, des Financements extérieurs et du Développement du Secteur privé et des Partenariats (DGCFEDSPP)",
-   "reference": "S_MEPC_DGCFE_3129",
-   "objet": "Entretien et maintenance des matériels électroménagers",
-   "typeMarche": "Services",
-   "secteur": "Fournitures",
-   "financement": [
-    "Budget propre"
-   ],
-   "mode": "Demande de renseignement et de prix à compétition restreinte",
-   "lancement": "2026-08-31",
-   "attribution": "2026-10-01",
-   "etat": null,
-   "montantFcfa": null
-  },
-  {
-   "id": "ppm-a9e30a74df",
-   "autorite": "Délégation Générale à l'Entreprenariat rapide des Femmes et des jeunes",
-   "plan": "DERFJ_2026_2",
-   "direction": "Cellule Ordonnancement des Dépenses et Gestion Logistique",
-   "reference": "F_DERFJ_CODGL_12494",
-   "objet": "Acquisition fournitures et matériels bureautiques",
-   "typeMarche": "Fourniture",
-   "secteur": "Fournitures",
-   "financement": [
-    "MIXED"
-   ],
-   "mode": "Demande de renseignement et de prix à compétition restreinte",
-   "lancement": "2026-08-31",
-   "attribution": "2026-10-01",
-   "etat": null,
-   "montantFcfa": null
-  },
-  {
-   "id": "ppm-d60a7a579b",
-   "autorite": "Institut Sénégalais de Recherches Agricoles",
-   "plan": "ISRA_2026_2",
-   "direction": "DIRECTION GENERALE",
-   "reference": "S_ISRA_DG_12361",
-   "objet": "SERVICE DE GARDIENNAGE",
-   "typeMarche": "Services",
-   "secteur": "Services",
-   "financement": [
-    "Budget propre"
-   ],
-   "mode": "Appel d'offres ouvert",
-   "lancement": "2026-08-31",
-   "attribution": "2026-12-23",
-   "etat": null,
-   "montantFcfa": null
-  },
-  {
-   "id": "ppm-8f46796881",
-   "autorite": "SENELEC",
-   "plan": "SENELEC_2026_4",
-   "direction": "Direction de l' Administration , du Patrimoine et des Approvisionnements",
-   "reference": "F_SENELEC_DAPA_9354",
-   "objet": "Acquisition de matériels de réseau électrique ( marché de clientèle)",
-   "typeMarche": "Fourniture",
-   "secteur": "Fournitures",
-   "financement": [
-    "Budget propre"
-   ],
-   "mode": "Appel d'offres ouvert",
-   "lancement": "2026-08-31",
-   "attribution": "2026-12-02",
-   "etat": null,
-   "montantFcfa": null
-  },
-  {
-   "id": "ppm-beeecf5f21",
-   "autorite": "Port Autonome de Dakar",
-   "plan": "PAD_2026_7",
-   "direction": "DIRECTION DU DIGITAL",
-   "reference": "F_PAD_DD_1455",
-   "objet": "Mise en place d'un système de GMAO et de suivi budgétaire des achats et approvisionnements",
-   "typeMarche": "Fourniture",
-   "secteur": "Fournitures",
-   "financement": [
-    "Budget propre"
-   ],
-   "mode": "Appel d'offres ouvert",
-   "lancement": "2026-08-31",
-   "attribution": "2026-12-23",
-   "etat": null,
-   "montantFcfa": null
-  },
-  {
-   "id": "ppm-7661d77ac7",
-   "autorite": "SENELEC",
-   "plan": "P_SENELEC_2026_2",
-   "direction": "Direction Principal Equipement",
-   "reference": "T_DPE_019",
-   "objet": "Construction de centrales solaires photovoltaïques EPCF d’une capacite totale de 100 MWc couplée à un système de stockage de 60MW/180 MWh à Thiès et de Touba",
-   "typeMarche": "Travaux",
-   "secteur": "BTP",
-   "financement": [
-    "Agence Française de Développement"
-   ],
-   "mode": "Appel d'Offres Ouvert avec pré qualification",
-   "lancement": "2026-08-31",
-   "attribution": "2026-10-29",
-   "etat": null,
-   "montantFcfa": null
-  },
   {
    "id": "ppm-703dcc540b",
    "autorite": "Commune de Saint Louis",
@@ -2759,7 +2651,7 @@
    "id": "ppm-0b751e4e28",
    "autorite": "Ministère de la Jeunesse et des sports (MJS)",
    "plan": "MJS_2026_1",
-   "direction": "Direction de l'Administration générale et de l'Equipement",
+   "direction": "DIRECTION DE L'ADMINISTRATION GENERALE ET DE L'EQUIPEMENT",
    "reference": "F_MJS_DAGE_12222",
    "objet": "Acquisition de matériels de communication (caméra, drones, téléphones et accessoires etc….)",
    "typeMarche": "Fourniture",
@@ -6248,6 +6140,24 @@
    "montantFcfa": null
   },
   {
+   "id": "ppm-390072f204",
+   "autorite": "Presidence de la République",
+   "plan": "PR_2026_13",
+   "direction": "Bureau d'Architecture et de Conservation des Palais nationaux",
+   "reference": "F_PR_BAC_20094",
+   "objet": "REINSCRIPTION DE LA DRP ACQUISITION DE CONSOMMABLES INFORMATIQUES POUR RELANCE",
+   "typeMarche": "Fourniture",
+   "secteur": "Informatique",
+   "financement": [
+    "Budget propre"
+   ],
+   "mode": "Demande de renseignements et de  prix simple",
+   "lancement": "2026-11-02",
+   "attribution": "2026-11-05",
+   "etat": null,
+   "montantFcfa": null
+  },
+  {
    "id": "ppm-da61a2aaab",
    "autorite": "Caisse de Sécurité Sociale (CSS)",
    "plan": "CSS_2026_1",
@@ -6341,7 +6251,7 @@
    "id": "ppm-c1c507dc79",
    "autorite": "Ministère de la Jeunesse et des sports (MJS)",
    "plan": "MJS_2026_1",
-   "direction": "Direction de l'Administration générale et de l'Equipement",
+   "direction": "DIRECTION DE L'ADMINISTRATION GENERALE ET DE L'EQUIPEMENT",
    "reference": "F_MJS_DAGE_12247",
    "objet": "Acquisition d'appareils téléphoniques",
    "typeMarche": "Fourniture",
@@ -6352,6 +6262,24 @@
    "mode": "Demande de renseignements et de  prix simple",
    "lancement": "2026-11-05",
    "attribution": "2026-11-11",
+   "etat": null,
+   "montantFcfa": null
+  },
+  {
+   "id": "ppm-7f98de552c",
+   "autorite": "Ville de Rufisque",
+   "plan": "VR_2026_6",
+   "direction": "Direction des finances et de la comptabilité",
+   "reference": "F_VR_DFC_20106",
+   "objet": "Acquisition d’une fourgonnette pour corbillard",
+   "typeMarche": "Fourniture",
+   "secteur": "Fournitures",
+   "financement": [
+    "Budget propre"
+   ],
+   "mode": "Demande de renseignements et de prix à compétition ouverte",
+   "lancement": "2026-11-05",
+   "attribution": "2026-11-30",
    "etat": null,
    "montantFcfa": null
   },
